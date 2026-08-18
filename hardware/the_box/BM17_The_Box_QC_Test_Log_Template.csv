@@ -1,0 +1,2 @@
+run_id,date,box_id,test,condition,pass_fail,numeric_value,units,notes
+example,YYYY-MM-DD,BOX001,OpenBCI FFT 60Hz,door_closed,,,,Record P60 and compare with door_open/outside
