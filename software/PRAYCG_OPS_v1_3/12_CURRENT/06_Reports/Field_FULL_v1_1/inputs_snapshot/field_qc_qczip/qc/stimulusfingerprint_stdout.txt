@@ -1,0 +1,4 @@
+[v1.8] Processing control: C:\Users\hoytb\Desktop\PRAYCGStimulus\Field of dreams\1.8prep\Fieldofdreams1_8_MediaPrep_v1_7A_20260817_210857\stimulus_control_cued_phase_scrambled_Fieldofdreams1_8_v1_7A.mp4
+[v1.8] Processing target: C:\Users\hoytb\Desktop\PRAYCGStimulus\Field of dreams\1.8prep\Fieldofdreams1_8_MediaPrep_v1_7A_20260817_210857\stimulus_target_cued_Fieldofdreams1_8_v1_7A.mp4
+[v1.8] Processing override: C:\Users\hoytb\Desktop\PRAYCGStimulus\Field of dreams\1.8prep\Fieldofdreams1_8_MediaPrep_v1_7A_20260817_210857\stimulus_override_cued_Fieldofdreams1_8_v1_7A.mp4
+[v1.8] DONE: C:\Users\hoytb\Desktop\PRAYCGStimulus\Field of dreams\1.8prep\Fieldofdreams1_8_MediaPrep_v1_7A_20260817_210857\qc status=PASS

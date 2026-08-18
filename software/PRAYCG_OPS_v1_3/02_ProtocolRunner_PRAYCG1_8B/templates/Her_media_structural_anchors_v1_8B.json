@@ -1,0 +1,26 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_8B",
+  "stimulus_id": "Her_cued_sensor",
+  "created_by": "OpenAI GPT-5.5 Pro with user scene review",
+  "created_utc_note": "User reported the 113 s region as the letter-reading completion / rooftop arrival moment after reviewing the stimulus.",
+  "content_start_offset_sec": 0.0,
+  "time_basis_note": "Times are rendered-video seconds for v1.6R-style videos with no fullscreen ALS prefix. If using v1.6S fullscreen ALS prefix, set content_start_offset_sec to the prefix duration or provide rendered_time_sec directly.",
+  "interpretation_boundary": "Predeclared anchors freeze timing. They do not prove meaning, K_HT, OSM, hidden-Y biology, or human EEG mechanism.",
+  "anchors": [
+    {
+      "anchor_id": "HER_A1_LETTER_ROOFTOP_113P9",
+      "source": "media_structural_user_reviewed",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "rendered_time_sec": 113.9,
+      "content_time_sec": 113.9,
+      "description": "The male character finishes reading his letter out loud and the characters reach the top of the roof. User reviewed this scene after Her Run 1 and judged it to be the plausible TSP/GammaScalpel point corresponding to the prior exploratory 113.9 s candidate.",
+      "pre_window_sec": [-15.0, 0.0],
+      "expected_peak_search_window_sec": [0.0, 10.0],
+      "theta_carryover_window_sec": [10.0, 30.0],
+      "comparison_rule": "For endpoint interpretation, Target should show local K_HT-style coupling plus theta carryover stronger than matched Control and Contextual Override, with artifact/timing veto passing.",
+      "notes": "For old Her Run 1 this is post-hoc/future-freeze. For a new run, it becomes predeclared only if this file is loaded before acquisition or before physiology analysis."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "K_lock_criteria": {
+    "directional_secondary": "eta_E and zeta_E each within 20% in >=80% of trials; reported only after K-lock passes",
+    "model_specificity": "full reciprocal model wins >=80% of leave-one-perturbation-family-out CV folds",
+    "primary_pass": ">= 90% of trials recover K within 15% of K_true AND median K error <= 10%",
+    "strict_secondary": ">= 80% of trials recover K within 10%"
+  },
+  "alternative_models": [
+    {
+      "description": "eta_E and zeta_E free; K primary.",
+      "name": "full_reciprocal"
+    },
+    {
+      "description": "Y-to-E direction only; zeta_E fixed to zero.",
+      "name": "eta_only"
+    },
+    {
+      "description": "E-to-Y direction only; eta_E fixed to zero.",
+      "name": "zeta_only"
+    },
+    {
+      "description": "eta_E=zeta_E=0.",
+      "name": "null_no_coupling"
+    },
+    {
+      "description": "independent non-directional stimulus-basis regression; no reciprocal loop.",
+      "name": "replay_only_basis"
+    },
+    {
+      "description": "single symmetric hidden oscillator parameter h; no eta/zeta decomposition.",
+      "name": "generic_hidden_oscillator"
+    }
+  ],
+  "boundary": "Synthetic Rung 0 only. This does not prove OSM, microtubular memory, LTP, dendritic spine growth, quantum memory, or human EEG mechanism.",
+  "document_status": "synthetic_identifiability_lock_in; not biological proof",
+  "failure_thresholds": {
+    "K_lock_failure": "<90% trials within 15% K error OR median K error >10%",
+    "alternative_warning": "any single non-full alternative wins >20% of held-out CV folds",
+    "ridge_warning": "profile likelihood remains broad enough that eta/zeta separation is conditional even if K-lock passes",
+    "specificity_failure": "full reciprocal held-out CV win rate <80%"
+  },
+  "fresh_seed_policy": {
+    "n_trials": 60,
+    "rule": "No tuning, no grid change, no perturbation change, and no threshold change after seed loop begins.",
+    "seed_set_name": "fresh_lock_in_seed_set_A",
+    "seed_start": 910001,
+    "seed_stop_inclusive": 910060
+  },
+  "locked_before_seed_run": true,
+  "model_equations": {
+    "feature_model": [
+      "z = zeta_E / 45",
+      "K_scaled = 4 * sqrt(eta_E*zeta_E) / sqrt(4*180)",
+      "E = 0.8*dE + 0.42*eta_E*dY + 0.20*K_scaled*mix + 0.12*z*lag*dE + 0.18*orth*(eta_E-z) + 0.12*rec*K_scaled",
+      "Y_proxy = 0.8*dY + 0.39*z*dE + 0.17*K_scaled*mix - 0.12*eta_E*lag*dY - 0.16*orth*(eta_E-z) + 0.10*rec*K_scaled",
+      "V_proxy = 0.62*(z*dE - eta_E*dY) + 0.42*lag*(z*dE + eta_E*dY) + 0.25*K_scaled*orth + 0.08*rec*(eta_E+z)"
+    ],
+    "loop_gain": "K_loop = eta_E * zeta_E",
+    "noise_model": "Gaussian residual proxy noise at SNR=6 plus low-amplitude channel offset noise; fixed across all models.",
+    "primary_estimand": "K = sqrt(eta_E * zeta_E)",
+    "synthetic_observation_vector": "X_c = [E_c, Y_proxy_c, V_proxy_c] for each perturbation condition c"
+  },
+  "observation_family": "E_plus_Yproxy_plus_Vproxy",
+  "parameter_grids": {
+    "eta_E_grid": {
+      "start": 2.0,
+      "step": 0.25,
+      "stop": 6.0
+    },
+    "generic_hidden_h_grid": {
+      "start": 1.0,
+      "step": 0.25,
+      "stop": 8.0
+    },
+    "zeta_E_grid": {
+      "start": 120.0,
+      "step": 5.0,
+      "stop": 240.0
+    }
+  },
+  "primary_perturbation_order": [
+    {
+      "dE": 1.0,
+      "dY": 1.0,
+      "lag": 0.0,
+      "mix": 1.0,
+      "name": "doublet_EY",
+      "orth": 0.0,
+      "rec": 0.0
+    },
+    {
+      "dE": 1.0,
+      "dY": -1.0,
+      "lag": 0.5,
+      "mix": -1.0,
+      "name": "orthogonal_trap",
+      "orth": 1.0,
+      "rec": 0.0
+    },
+    {
+      "dE": 0.8,
+      "dY": -0.8,
+      "lag": 0.0,
+      "mix": -0.8,
+      "name": "counterphase",
+      "orth": 0.0,
+      "rec": 0.0
+    },
+    {
+      "dE": 1.2,
+      "dY": 0.15,
+      "lag": 1.0,
+      "mix": 0.3,
+      "name": "lagged_E_to_Y",
+      "orth": 0.0,
+      "rec": 0.0
+    },
+    {
+      "dE": 0.2,
+      "dY": 0.2,
+      "lag": 0.0,
+      "mix": 0.1,
+      "name": "recovery_probe",
+      "orth": 0.0,
+      "rec": 1.0
+    },
+    {
+      "dE": 0.15,
+      "dY": 1.2,
+      "lag": -1.0,
+      "mix": 0.3,
+      "name": "lagged_Y_to_E",
+      "orth": 0.0,
+      "rec": 0.0
+    }
+  ],
+  "reporting_template_files": [
+    "LOCKED_PROTOCOL.md",
+    "REPORTING_TEMPLATE.md",
+    "run_summary.json",
+    "trial_results.csv",
+    "cv_model_losses.csv",
+    "profile_likelihood_grid.csv"
+  ],
+  "schema": "OSM_OptoPING_Rung0J_PreregisteredSyntheticLockIn_v0_1",
+  "true_parameters": {
+    "K": 26.832815729997478,
+    "K_loop": 720.0,
+    "eta_E": 4.0,
+    "fY_hz": 7.0,
+    "zeta_E": 180.0
+  }
+}

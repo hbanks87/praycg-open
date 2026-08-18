@@ -1,0 +1,7 @@
+group,criterion,observed,threshold,pass
+positive_control,full_model_cv_win_rate,0.7305555555555556,>= 0.8,False
+positive_control,K_within_15_rate,1.0,>= 0.8,True
+empty_sky_nulls,full_model_cv_win_rate,0.4577777777777778,<= 0.2,False
+empty_sky_nulls,false_K_lock_rate,0.023333333333333334,<= 0.1,True
+empty_sky_nulls,non_full_cv_win_rate,0.5422222222222223,>= 0.8,False
+empty_sky_nulls,median_K_hat_scaled,0.05436199659505633,<= 0.3,True

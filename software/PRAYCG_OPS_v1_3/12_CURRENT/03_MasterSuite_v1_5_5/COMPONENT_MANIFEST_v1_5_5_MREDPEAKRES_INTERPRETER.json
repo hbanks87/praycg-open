@@ -1,0 +1,23 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_5_5_MREDPeakResolution_Interpreter",
+  "version": "1.5.5",
+  "adds": [
+    "MRED-Peak vs MRED-Resolution endpoint compression",
+    "Offline deterministic interpretation report generator",
+    "Visualizer/report hook for writing text outputs alongside MP4 review artifacts",
+    "Boxed primary/secondary/exploratory module tier documentation"
+  ],
+  "new_or_updated_scripts": [
+    "scripts/praycg_mred_peak_resolution_module_v1_5_5.py",
+    "scripts/praycg_offline_interpretation_reporter_v1_5_5.py",
+    "scripts/praycg_visualizer_interpretation_hook_v1_5_5.py",
+    "scripts/praycg_unified_master_analysis_visualizer_v1_5_5.py"
+  ],
+  "new_docs": [
+    "docs/MRED_Peak_Resolution_Endpoint_Method_v1_5_5.md",
+    "docs/OFFLINE_INTERPRETATION_REPORTER_v1_5_5.md",
+    "docs/MODULE_TIER_MAP_v1_5_5.md",
+    "docs/PATCH_NOTES_v1_5_5_MREDPEAKRES_INTERPRETER.md"
+  ],
+  "boundary": "Deterministic offline summarizer; not proof of consciousness, memory formation, OSM biology, or private experience."
+}

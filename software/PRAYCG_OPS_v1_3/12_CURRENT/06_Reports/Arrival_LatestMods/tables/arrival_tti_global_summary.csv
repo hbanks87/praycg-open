@@ -1,0 +1,2 @@
+run,TTI,target_MR,override_MR,target_ENC,override_ENC,target_task_gamma,override_task_gamma,target_artifact,override_artifact,interpretation
+Arrival_Run1,0.5325191074904043,0.4613914274420918,-0.7379424697150392,0.14587572213961478,0.1423072025311664,-0.6987706165761727,0.8134114026200986,1.2055945950308844,-0.06563038157625022,positive means Target retained more reception/integration while Override carried more extraction/task load

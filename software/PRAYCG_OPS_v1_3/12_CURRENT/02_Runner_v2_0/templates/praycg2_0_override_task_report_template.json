@@ -1,0 +1,12 @@
+{
+  "schema": "PRAYCG2_0_override_task_report_v1",
+  "ratings": {
+    "FinalSumConfidence": 0,
+    "TaskCompliance": 0,
+    "CueLegibilityProblem": 0,
+    "RunningSumStall": 0,
+    "ApproximateGuessCount": 0,
+    "HardNumberCombinationDifficulty": 0
+  },
+  "note": "Running-sum, stall, guess, cue-burden note. Do not timestamp."
+}

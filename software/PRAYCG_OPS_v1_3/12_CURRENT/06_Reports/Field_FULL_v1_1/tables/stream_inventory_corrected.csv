@@ -1,0 +1,8 @@
+stream_id,name,type,channel_count,nominal_srate,channel_format,source_id,samples,raw_first_timestamp,raw_last_timestamp,corrected_first_timestamp,corrected_last_timestamp
+6,PolarHRV,ECG,1,0.0,float32,polar_h10_mac_01,2072,33474.7506324,35169.6078218,33474.7506324,35169.6078218
+1,OpenBCIAnalogAux,AnalogAux,3,125.0,float32,praycg_obci_brainflow_als_v1_4_cyton-daisy_2b20d0d1ce_aux,210000,34057.29147106915,37589.61147175122,33478.29191121968,35164.138005381974
+3,StasisMarkers,Markers,1,0.0,string,praycg_stasismarkers_hoyt_banks_s0007_bcf423dcf3,670,33474.7745366,35158.9159984,33474.7745366,35158.9159984
+4,VernierRespirationBelt,Respiration,1,20.0,float32,vernier_gdx_rb_usb_01,16956,33474.5631475,35170.0577377,33474.5631475,35170.0577377
+7,obci_eeg1,EEG,16,125.0,float32,praycg_obci_brainflow_als_v1_4_cyton-daisy_2b20d0d1ce,210000,34057.29147106915,37589.61147175122,33478.29191121968,35164.138005381974
+5,OpenBCIStatusMarkers,Markers,1,0.0,string,praycg_obci_brainflow_als_v1_4_cyton-daisy_2b20d0d1ce_status,323,33475.5404567,35165.0208146,33475.5404567,35165.0208146
+2,ALS_PT19_Timing,LightSensor,1,125.0,float32,praycg_obci_brainflow_als_v1_4_cyton-daisy_2b20d0d1ce_als,210000,34057.29147106915,37589.61147175122,33478.29191121968,35164.138005381974

@@ -1,0 +1,81 @@
+{
+  "schema": "PRAYCG_predeclared_media_structural_anchors_v1_8B",
+  "stimulus_family": "EternalSunshine_MeetMeInMontauk",
+  "status": "template_requires_exact_rendered_timecode_before_run",
+  "doctrine": "Freeze objective scene events before physiology analysis; do not ask an absorbed subject to be a stopwatch.",
+  "anchors": [
+    {
+      "anchor_id": "ES_A1_BEACH_HOUSE_COLLAPSE_ONSET",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "first clear physical onset of beach-house collapse or memory-space destabilization",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        10
+      ],
+      "theta_carryover_window_sec": [
+        10,
+        30
+      ],
+      "special_controls": [
+        "visual_motion_penalty_required",
+        "visual_luminance_penalty_required",
+        "Target_gt_Control_required"
+      ]
+    },
+    {
+      "anchor_id": "ES_A2_MEET_ME_IN_MONTAUK_LINE",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "onset of the 'Meet me in Montauk' line or future-directed instruction",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        8
+      ],
+      "theta_carryover_window_sec": [
+        8,
+        30
+      ],
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH",
+      "special_controls": [
+        "speech_envelope_control_required",
+        "Target_gt_Control_required",
+        "Target_gt_Override_required"
+      ]
+    },
+    {
+      "anchor_id": "ES_A3_POST_MONTAUK_RELEASE_TAPER",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "first stable release/taper moment after the Montauk line and memory-collapse climax",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        -10,
+        5
+      ],
+      "theta_carryover_window_sec": [
+        0,
+        30
+      ],
+      "allow_paired_washout_continuation": true,
+      "preferred_design": "leave_45_to_60_sec_post_payload_ambient_tail_inside_branch"
+    }
+  ]
+}

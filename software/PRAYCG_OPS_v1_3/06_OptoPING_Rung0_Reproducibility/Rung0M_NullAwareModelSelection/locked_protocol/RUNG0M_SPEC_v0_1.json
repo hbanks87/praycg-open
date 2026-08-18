@@ -1,0 +1,79 @@
+{
+  "schema": "OSM_OptoPING_Rung0M_NullAwareModelSelection_v0_1",
+  "purpose": "Conservative null-aware model selection after Rung 0L empty-sky specificity failure.",
+  "seed_policy": {
+    "seed_start": 930001,
+    "n_trials_per_generator": 20,
+    "n_null_calibration_per_trial": 9
+  },
+  "generators": [
+    "full_reciprocal_positive_control",
+    "standard_ping_null",
+    "replay_only_null",
+    "sensory_drive_only_null",
+    "generic_hidden_oscillator_null",
+    "colored_noise_null"
+  ],
+  "perturbation_conditions": [
+    "doublet_EY",
+    "orthogonal_trap",
+    "counterphase",
+    "lagged_E_to_Y",
+    "recovery_probe",
+    "lagged_Y_to_E"
+  ],
+  "samples_per_condition": 36,
+  "models": [
+    "full_reciprocal",
+    "eta_only",
+    "zeta_only",
+    "null_no_coupling",
+    "standard_ping",
+    "replay_only_basis",
+    "sensory_drive_only",
+    "generic_hidden_tuned",
+    "colored_noise_ar"
+  ],
+  "model_complexity_penalty": "BIC-like out-of-sample penalty: mse + penalty_scale * p * log(n_train) / n_test; full model gets additional guard penalty.",
+  "k_null_calibration": "Trial-wise permutation/shuffled-label/time-reversed controls create an empirical K null. K locks only when p<=0.10, K_hat exceeds null 95th percentile, and full model wins prediction.",
+  "generator_specific_pass_criteria": {
+    "full_reciprocal_positive_control": {
+      "full_and_K_lock_rate_min": 0.8,
+      "K_significant_rate_min": 0.85,
+      "full_cv_win_rate_min": 0.7,
+      "K_within_15_rate_min": 0.8
+    },
+    "standard_ping_null": {
+      "false_full_and_K_lock_rate_max": 0.05,
+      "K_significant_rate_max": 0.1,
+      "full_cv_win_rate_max": 0.35
+    },
+    "replay_only_null": {
+      "false_full_and_K_lock_rate_max": 0.05,
+      "K_significant_rate_max": 0.1,
+      "full_cv_win_rate_max": 0.2
+    },
+    "sensory_drive_only_null": {
+      "false_full_and_K_lock_rate_max": 0.05,
+      "K_significant_rate_max": 0.1,
+      "full_cv_win_rate_max": 0.2
+    },
+    "generic_hidden_oscillator_null": {
+      "false_full_and_K_lock_rate_max": 0.05,
+      "K_significant_rate_max": 0.1,
+      "full_cv_win_rate_max": 0.25
+    },
+    "colored_noise_null": {
+      "false_full_and_K_lock_rate_max": 0.05,
+      "K_significant_rate_max": 0.1,
+      "full_cv_win_rate_max": 0.25
+    }
+  },
+  "global_pass_criteria": {
+    "positive_full_and_K_lock_rate_min": 0.8,
+    "overall_null_false_full_and_K_lock_rate_max": 0.05,
+    "all_generator_thresholds_must_pass": true
+  },
+  "boundary": "Synthetic sensitivity/specificity calibration only; no biological, PR-AYC-G, human EEG, microtubular memory, biophotonic, or OSM mechanism claim.",
+  "spec_sha256": "6e9be8fc28625ad63c851af513eb39195d321bef0865ccbe18311b0208e47659"
+}

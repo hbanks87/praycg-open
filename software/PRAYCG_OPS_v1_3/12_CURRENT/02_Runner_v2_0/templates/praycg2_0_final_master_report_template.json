@@ -1,0 +1,17 @@
+{
+  "schema": "PRAYCG2_0_final_master_report_v1",
+  "choices": {
+    "MostMeaningfulBranch": "Target",
+    "MostAbsorbingBranch": "Target",
+    "StrongestAfterglowBranch": "Target"
+  },
+  "ratings": {
+    "OverrideReducedReception": 0,
+    "StoryBrokeThroughOverride": 0,
+    "TargetEchoedDuringBaseline2": 0,
+    "Familiarity": 0,
+    "NewMeaningToday": 0,
+    "CurrentLifeResonance": 0
+  },
+  "final_scene_note": "Do not timestamp. Describe most important scene/felt moment/confound."
+}

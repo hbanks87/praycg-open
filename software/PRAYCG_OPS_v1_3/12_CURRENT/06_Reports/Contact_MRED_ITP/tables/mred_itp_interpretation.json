@@ -1,0 +1,163 @@
+{
+  "schema": "PRAYCG_MRED_ITP_Contact_Run1_v1_0",
+  "module_version": "1.5.2",
+  "boundary": "Information-thermodynamic proxy layer only. LZC is not literal thermodynamic entropy; Fp1 blink timing is not proof of memory encoding. No OSM biology or human EEG mechanism claim.",
+  "input_files": {
+    "xdf": "/mnt/data/sub-P001_ses-S001_task-Default_run-001_eeg(20260815-125946).xdf",
+    "event_log": "/mnt/data/contact_runfiles/runfiles/PRAYCG_v1_9_hoyt_S001_Contact_20260815_070408_events.json",
+    "feature_table": "/mnt/data/PRAYCG_Contact_Run1_Requested_Anchor_MRED_Files_v1_0/Contact_Run1_feature_table_contact_time_resolved_feature_frame_v1_0.csv",
+    "annotations": "/mnt/data/PRAYCG_Contact_Run1_Requested_Anchor_MRED_Files_v1_0/Contact_Run1_annotation_windows_v1_0.csv",
+    "mred_events": "/mnt/data/PRAYCG_Contact_Run1_Requested_Anchor_MRED_Files_v1_0/Contact_Run1_candidate_local_kht_topo_mred_event_table_v1_0.csv"
+  },
+  "eeg": {
+    "stream_name": "obci_eeg1",
+    "samples": 270000,
+    "channels": 16,
+    "nominal_srate": 125.0,
+    "effective_srate": 124.84496007098507,
+    "alignment_info": {
+      "alignment_method": "sample_index_from_ALS_pulses",
+      "corrected_t_min": 1206.0327164632345,
+      "corrected_t_max": 3368.7071235556987,
+      "effective_srate": 124.84496007098507
+    }
+  },
+  "phase_summary": [
+    {
+      "phase": "CONTROL_1",
+      "duration_sec": 303.04961890000004,
+      "mean_lz_complexity_proxy": 0.9106978452090737,
+      "median_lz_complexity_proxy": 0.915296052631579,
+      "blink_count": 7,
+      "blink_rate_per_min": 1.3859116587062632,
+      "samples_lzc": 303
+    },
+    {
+      "phase": "TARGET_1",
+      "duration_sec": 300.5046219999999,
+      "mean_lz_complexity_proxy": 0.9360700374777017,
+      "median_lz_complexity_proxy": 0.9383223684210527,
+      "blink_count": 3,
+      "blink_rate_per_min": 0.5989924507716891,
+      "samples_lzc": 301
+    },
+    {
+      "phase": "CONTEXTUAL_OVERRIDE_1",
+      "duration_sec": 300.43955529999994,
+      "mean_lz_complexity_proxy": 0.8914079829602743,
+      "median_lz_complexity_proxy": 0.8885690789473684,
+      "blink_count": 5,
+      "blink_rate_per_min": 0.9985369592909928,
+      "samples_lzc": 300
+    },
+    {
+      "phase": "BASELINE_1",
+      "duration_sec": 120.00262159999988,
+      "mean_lz_complexity_proxy": 0.8901911410170541,
+      "median_lz_complexity_proxy": 0.9108466208625011,
+      "blink_count": 31,
+      "blink_rate_per_min": 15.49966138406431,
+      "samples_lzc": 120
+    },
+    {
+      "phase": "WASHOUT_1",
+      "duration_sec": 120.00285370000006,
+      "mean_lz_complexity_proxy": 0.9214052439828019,
+      "median_lz_complexity_proxy": 0.928453947368421,
+      "blink_count": 3,
+      "blink_rate_per_min": 1.499964329598271,
+      "samples_lzc": 120
+    },
+    {
+      "phase": "WASHOUT_2",
+      "duration_sec": 120.00401190000002,
+      "mean_lz_complexity_proxy": 0.9375753050010083,
+      "median_lz_complexity_proxy": 0.938733552631579,
+      "blink_count": 1,
+      "blink_rate_per_min": 0.4999832843088473,
+      "samples_lzc": 120
+    },
+    {
+      "phase": "WASHOUT_3",
+      "duration_sec": 120.00180449999971,
+      "mean_lz_complexity_proxy": 0.9101040586379744,
+      "median_lz_complexity_proxy": 0.9120788231354249,
+      "blink_count": 7,
+      "blink_rate_per_min": 3.4999473695414394,
+      "samples_lzc": 120
+    },
+    {
+      "phase": "BASELINE_2_REFLECTION",
+      "duration_sec": 120.00259639999967,
+      "mean_lz_complexity_proxy": 0.9161703474493247,
+      "median_lz_complexity_proxy": 0.9161184210526315,
+      "blink_count": 2,
+      "blink_rate_per_min": 0.9999783638014713,
+      "samples_lzc": 119
+    }
+  ],
+  "blink_detector": {
+    "total_blinks_detected": 157,
+    "detector": "Fp1 low-frequency conservative proxy"
+  },
+  "target_summary": {
+    "mean_CSI": -0.04672463445410447,
+    "mean_ORI": -0.027833576458985255,
+    "mean_convergence": 0.039182681331348605,
+    "ACG_candidate_count": 0,
+    "OCU_candidate_count": 0,
+    "MRED_ITP_candidate_count": 0
+  },
+  "condition_specificity_summary": [
+    {
+      "anchor_id": "CONTACT_A1_PENSACOLA_REALIZATION",
+      "scene_label": "Pensacola realization",
+      "Target_minus_Control_CSI_complexity_settlement_index": 5.665203113182808,
+      "Target_minus_Override_CSI_complexity_settlement_index": -1.0676092658171559,
+      "Target_minus_Control_ORI_ocular_release_index": 3.2191438753679775,
+      "Target_minus_Override_ORI_ocular_release_index": 0.07481607373182486,
+      "Target_minus_Control_MRED_ITP_convergence_score": 5.101076919360987,
+      "Target_minus_Override_MRED_ITP_convergence_score": -0.5054409533611187
+    },
+    {
+      "anchor_id": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+      "scene_label": "Father/avatar recognition",
+      "Target_minus_Control_CSI_complexity_settlement_index": 0.4751533909459857,
+      "Target_minus_Override_CSI_complexity_settlement_index": 1.0583055024161987,
+      "Target_minus_Control_ORI_ocular_release_index": -0.010442951855062499,
+      "Target_minus_Override_ORI_ocular_release_index": 1.0370341391537807,
+      "Target_minus_Control_MRED_ITP_convergence_score": 0.2402416224791088,
+      "Target_minus_Override_MRED_ITP_convergence_score": 1.2443604456778266
+    },
+    {
+      "anchor_id": "CONTACT_A2B_AVATAR_FATHER_RECOGNITION_TSP_CLUSTER",
+      "scene_label": "Father/avatar recognition TSP follow-through",
+      "Target_minus_Control_CSI_complexity_settlement_index": 1.333800670758168,
+      "Target_minus_Override_CSI_complexity_settlement_index": 2.1371587396189597,
+      "Target_minus_Control_ORI_ocular_release_index": 0.5041494252879846,
+      "Target_minus_Override_ORI_ocular_release_index": 1.5623519316129313,
+      "Target_minus_Control_MRED_ITP_convergence_score": 1.0312359446504096,
+      "Target_minus_Override_MRED_ITP_convergence_score": 2.1571049035215233
+    },
+    {
+      "anchor_id": "CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET",
+      "scene_label": "Existential payload onset",
+      "Target_minus_Control_CSI_complexity_settlement_index": -3.8537497941925123,
+      "Target_minus_Override_CSI_complexity_settlement_index": -0.13500118027420904,
+      "Target_minus_Control_ORI_ocular_release_index": -1.1691694235436643,
+      "Target_minus_Override_ORI_ocular_release_index": 0.0,
+      "Target_minus_Control_MRED_ITP_convergence_score": -2.7872501005418484,
+      "Target_minus_Override_MRED_ITP_convergence_score": -0.07024253879632902
+    },
+    {
+      "anchor_id": "CONTACT_A4_SMALL_MOVES_TAPER_RELEASE_OR_LATE_PAYLOAD_RELEASE",
+      "scene_label": "Late payload / terminal release",
+      "Target_minus_Control_CSI_complexity_settlement_index": 0.29891005827933526,
+      "Target_minus_Override_CSI_complexity_settlement_index": -0.6196145836144004,
+      "Target_minus_Control_ORI_ocular_release_index": 0.9835192888238564,
+      "Target_minus_Override_ORI_ocular_release_index": 0.0,
+      "Target_minus_Control_MRED_ITP_convergence_score": 0.8134407937848339,
+      "Target_minus_Override_MRED_ITP_convergence_score": -0.32239200679507335
+    }
+  ]
+}

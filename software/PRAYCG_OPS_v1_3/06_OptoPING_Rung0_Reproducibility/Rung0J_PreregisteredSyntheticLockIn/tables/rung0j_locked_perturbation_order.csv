@@ -1,0 +1,7 @@
+name,dE,dY,lag,mix,orth,rec
+doublet_EY,1.0,1.0,0.0,1.0,0.0,0.0
+orthogonal_trap,1.0,-1.0,0.5,-1.0,1.0,0.0
+counterphase,0.8,-0.8,0.0,-0.8,0.0,0.0
+lagged_E_to_Y,1.2,0.15,1.0,0.3,0.0,0.0
+recovery_probe,0.2,0.2,0.0,0.1,0.0,1.0
+lagged_Y_to_E,0.15,1.2,-1.0,0.3,0.0,0.0

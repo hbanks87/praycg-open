@@ -1,0 +1,98 @@
+{
+  "schema": "PRAYCG_Contact_Run1_NIP_CET_EET_v1_0",
+  "nip": {
+    "target_mean_NIP_density": 0.5513602728348794,
+    "control_mean_NIP_density": 0.028314396188604492,
+    "override_mean_NIP_density": 0.01576465269379948
+  },
+  "bit": {
+    "strict_BIT_pass_count": 1,
+    "event_only_BIT_pass_count": 2,
+    "target_strict_BIT_events": [
+      {
+        "condition_offset_sec": 161.00735380000015,
+        "anchor_metric": "meaninggamma_score",
+        "K_HT_topo_local": 4.37505045042146,
+        "theta_delta_10_30": 2.1710557288870427,
+        "mred_quadrant": "MR_HIGH_ENC_HIGH"
+      }
+    ]
+  },
+  "cii_iaq": {
+    "anchors": [
+      {
+        "anchor_id": "CONTACT_A1_PENSACOLA_REALIZATION",
+        "scene_label": "Pensacola realization",
+        "CII_Target": 0.3794463185076908,
+        "CII_Control": 0.0,
+        "CII_Override": 0.06847016889760113,
+        "Target_minus_Control_CII": 0.3794463185076908,
+        "Target_minus_Override_CII": 0.3109761496100897,
+        "IAQ_Target_vs_Override": 0.8195502628220225,
+        "Target_greater_Control": true,
+        "Target_greater_Override": true
+      },
+      {
+        "anchor_id": "CONTACT_A2B_AVATAR_FATHER_RECOGNITION_TSP_CLUSTER",
+        "scene_label": "Father/avatar recognition TSP follow-through",
+        "CII_Target": 1.1910256258335425,
+        "CII_Control": 0.001089403692509091,
+        "CII_Override": 0.003402495281241208,
+        "Target_minus_Control_CII": 1.1899362221410335,
+        "Target_minus_Override_CII": 1.1876231305523013,
+        "IAQ_Target_vs_Override": 0.9971423852268129,
+        "Target_greater_Control": true,
+        "Target_greater_Override": true
+      },
+      {
+        "anchor_id": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+        "scene_label": "Father/avatar recognition",
+        "CII_Target": 1.6516544438974314,
+        "CII_Control": 0.0018334150879830643,
+        "CII_Override": 0.002114771470701292,
+        "Target_minus_Control_CII": 1.6498210288094484,
+        "Target_minus_Override_CII": 1.6495396724267302,
+        "IAQ_Target_vs_Override": 0.9987189994871396,
+        "Target_greater_Control": true,
+        "Target_greater_Override": true
+      },
+      {
+        "anchor_id": "CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET",
+        "scene_label": "Existential payload onset",
+        "CII_Target": 0.6330884331005462,
+        "CII_Control": 0.015436938052599764,
+        "CII_Override": 0.03711325814874111,
+        "Target_minus_Control_CII": 0.6176514950479465,
+        "Target_minus_Override_CII": 0.5959751749518051,
+        "IAQ_Target_vs_Override": 0.9413759633185242,
+        "Target_greater_Control": true,
+        "Target_greater_Override": true
+      },
+      {
+        "anchor_id": "CONTACT_A4_SMALL_MOVES_TAPER_RELEASE_OR_LATE_PAYLOAD_RELEASE",
+        "scene_label": "Late payload / terminal release",
+        "CII_Target": 0.6114878048098518,
+        "CII_Control": 0.017847127751918417,
+        "CII_Override": 0.0008400118547290602,
+        "Target_minus_Control_CII": 0.5936406770579333,
+        "Target_minus_Override_CII": 0.6106477929551227,
+        "IAQ_Target_vs_Override": 0.9986246488110431,
+        "Target_greater_Control": true,
+        "Target_greater_Override": true
+      }
+    ],
+    "target_greater_control_count": 5,
+    "target_greater_override_count": 5
+  },
+  "cet": {
+    "cue_tracking_summary_rows": 24,
+    "cue_frequency_hz": 0.3333333333333333,
+    "visualizer_video_proxy_used": true,
+    "limitations": "Raw source stimulus videos/audio were not available in container; CET uses cue-schedule regressors and, for Target visual rhythm only, the top stimulus region of the uploaded visualizer MP4 as a proxy."
+  },
+  "eet": {
+    "rows": 25,
+    "interpretation": "State-vector echo only; not proof of replay or memory. Highest similarities indicate after-state resemblance to target anchor feature geometry."
+  },
+  "boundary": "NIP/BIT/CII/IAQ/CET/EET are macroscopic PRAYCG proxies. They do not measure dopamine, oxytocin, microtubules, biophotons, OSM biology, or consciousness."
+}

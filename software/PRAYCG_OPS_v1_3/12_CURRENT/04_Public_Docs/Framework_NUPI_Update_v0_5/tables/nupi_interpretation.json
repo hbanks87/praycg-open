@@ -1,0 +1,62 @@
+{
+  "module": "NUPI_v0.1 Narrative Update Polarity Index",
+  "claim_boundary": "Proxy-level classification of narrative-update polarity. Does not measure literal heat, ATP, glucose, or thermodynamic energy. Requires replication and stronger autonomic/EOG controls.",
+  "formula_summary": {
+    "ALI": "Accommodative Load Index = mean(semantic intensity, Target specificity, complexity perturbation, TTI, primary endpoint pass score).",
+    "RDI": "Resolutive Recovery Index = mean(Baseline2 regulation, Baseline2 semantic echo, EET afterstate echo, self-report echo), only graded when Baseline2/final reflection is available.",
+    "NUPI": "RDI - ALI. Positive values imply recovery tilt; negative values imply load tilt. If no Baseline2/final reflection exists, NUPI is not graded."
+  },
+  "classification": [
+    {
+      "run": "Arrival",
+      "semantic_intensity": 0.3015144116598876,
+      "target_specificity": 0.37436761182005796,
+      "complexity_perturbation": 0.5231925914429046,
+      "tti_score": 0.7100254766538724,
+      "primary_pass_score": 0.0,
+      "ALI_accommodative_load": 0.3818200183153445,
+      "b2_regulation": NaN,
+      "b2_semantic_echo": NaN,
+      "eet_echo": 0.9880710009350226,
+      "self_report_echo": 0.8333333333333333,
+      "RDI_resolutive_recovery": NaN,
+      "RDI_afterstate_proxy": 0.910702167134178,
+      "NUPI": NaN,
+      "polarity_class": "POLARITY_UNRESOLVED_NO_BASELINE2"
+    },
+    {
+      "run": "Contact",
+      "semantic_intensity": 0.8971272952177495,
+      "target_specificity": 1.0,
+      "complexity_perturbation": 0.3578648017459553,
+      "tti_score": 0.9933548541066853,
+      "primary_pass_score": 0.04285714285714286,
+      "ALI_accommodative_load": 0.6582408187855066,
+      "b2_regulation": 1.0,
+      "b2_semantic_echo": 0.6666666666666666,
+      "eet_echo": 0.9469845746048726,
+      "self_report_echo": 0.6666666666666666,
+      "RDI_resolutive_recovery": 0.8200794769845514,
+      "RDI_afterstate_proxy": 0.8068256206357696,
+      "NUPI": 0.16183865819904486,
+      "polarity_class": "HIGH_LOAD_WITH_RECOVERY"
+    },
+    {
+      "run": "Field",
+      "semantic_intensity": 0.16336910941505323,
+      "target_specificity": 0.06664213572971188,
+      "complexity_perturbation": 0.2595750658668681,
+      "tti_score": 0.7570404660595279,
+      "primary_pass_score": 0.42857142857142855,
+      "ALI_accommodative_load": 0.335039641128518,
+      "b2_regulation": 0.5653102652079951,
+      "b2_semantic_echo": 0.609122386152485,
+      "eet_echo": 0.8559050908251952,
+      "self_report_echo": 0.8148148148148148,
+      "RDI_resolutive_recovery": 0.7112881392501226,
+      "RDI_afterstate_proxy": 0.835359952820005,
+      "NUPI": 0.3762484981216046,
+      "polarity_class": "RESOLUTIVE_RECOVERY"
+    }
+  ]
+}

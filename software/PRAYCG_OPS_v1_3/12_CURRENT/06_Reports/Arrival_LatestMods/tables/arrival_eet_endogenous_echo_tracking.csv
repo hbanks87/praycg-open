@@ -1,0 +1,36 @@
+anchor_id,label,comparison_window,phase,cosine_similarity,euclidean_distance,claim_level
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,WASHOUT_2_first30,WASHOUT_2,0.8420814617999707,1.4657398281995835,state-vector echo proxy; not replay proof
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,WASHOUT_2_all,WASHOUT_2,0.9293004182926471,1.1712294991355707,state-vector echo proxy; not replay proof
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,WASHOUT_3_first30,WASHOUT_3,-0.6315388909900703,4.834115234674904,state-vector echo proxy; not replay proof
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,WASHOUT_3_all,WASHOUT_3,-0.8202836924419886,4.272845427310874,state-vector echo proxy; not replay proof
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,BASELINE_1_all,BASELINE_1,-0.5716321514981064,3.7699353502191553,state-vector echo proxy; not replay proof
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,CONTROL_all,CONTROL_1,0.40959267268778543,2.463405537663447,state-vector echo proxy; not replay proof
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,OVERRIDE_all,CONTEXTUAL_OVERRIDE_1,-0.8609350568699864,4.376167717384892,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",WASHOUT_2_first30,WASHOUT_2,0.7775289863294358,1.7715715860041803,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",WASHOUT_2_all,WASHOUT_2,0.8702106169207271,1.456421581983997,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",WASHOUT_3_first30,WASHOUT_3,-0.045987952898342885,3.930502250452523,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",WASHOUT_3_all,WASHOUT_3,-0.334342157531242,3.7559472752512497,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",BASELINE_1_all,BASELINE_1,0.050303619031666205,3.078034429492267,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",CONTROL_all,CONTROL_1,0.23811122732388731,2.648953862401852,state-vector echo proxy; not replay proof
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",OVERRIDE_all,CONTEXTUAL_OVERRIDE_1,-0.4916784467043779,4.007840996518226,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,WASHOUT_2_first30,WASHOUT_2,0.5510833555243076,2.5511047568326264,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,WASHOUT_2_all,WASHOUT_2,0.8459076369112963,1.595296167780472,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,WASHOUT_3_first30,WASHOUT_3,-0.17543769327007983,4.224220491386342,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,WASHOUT_3_all,WASHOUT_3,-0.41928644827828343,3.934533153352143,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,BASELINE_1_all,BASELINE_1,-0.13727667805698018,3.3951528361241174,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,CONTROL_all,CONTROL_1,0.3864689302601745,2.6317328075165323,state-vector echo proxy; not replay proof
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,OVERRIDE_all,CONTEXTUAL_OVERRIDE_1,-0.44405831997690903,4.0137211070282595,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,WASHOUT_2_first30,WASHOUT_2,0.8782639954062428,2.0561613374487315,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,WASHOUT_2_all,WASHOUT_2,0.8146886307468547,2.646046992400307,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,WASHOUT_3_first30,WASHOUT_3,-0.1796227755605458,5.135261227650636,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,WASHOUT_3_all,WASHOUT_3,-0.4356858140736889,4.979455985322519,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,BASELINE_1_all,BASELINE_1,-0.05519191072640722,4.287907842609831,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,CONTROL_all,CONTROL_1,0.5434546544718127,3.6207917401966987,state-vector echo proxy; not replay proof
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,OVERRIDE_all,CONTEXTUAL_OVERRIDE_1,-0.4314820954709636,5.016382155661381,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,WASHOUT_2_first30,WASHOUT_2,-0.18858369206865006,3.644629474736653,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,WASHOUT_2_all,WASHOUT_2,-0.2921153695548614,3.1887437769068665,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,WASHOUT_3_first30,WASHOUT_3,0.9761420018700451,0.768343439687123,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,WASHOUT_3_all,WASHOUT_3,0.8930047425640337,0.9716630249604803,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,BASELINE_1_all,BASELINE_1,0.940091535966426,0.859108780303351,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,CONTROL_all,CONTROL_1,-0.32235804368593063,2.4004371311753947,state-vector echo proxy; not replay proof
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,OVERRIDE_all,CONTEXTUAL_OVERRIDE_1,0.7316658990859711,1.4988093621662462,state-vector echo proxy; not replay proof

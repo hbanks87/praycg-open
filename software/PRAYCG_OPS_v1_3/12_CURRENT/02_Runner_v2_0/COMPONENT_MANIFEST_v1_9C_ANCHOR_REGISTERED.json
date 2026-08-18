@@ -1,0 +1,12 @@
+{
+  "component": "PRAYCG1.9C Anchor-Registered Runner",
+  "version": "1.9C",
+  "primary_script": "scripts/run_PRAYCG1_9C_AnchorRegistered.py",
+  "patch_focus": [
+    "Prominent LOCKED predeclared-anchor file field",
+    "Auto-detect LOCKED anchor schedule from cue folder",
+    "Anchor SHA-256 provenance markers",
+    "Draft anchor tolerance without confirmatory interpretation",
+    "Confound-aware PRAYCG1.9 behavior retained"
+  ]
+}

@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Local config / secrets
+.env
+.env.*
+secrets.*
+*_secret*
+*_token*
+*.key
+*.pem
+local_config.*
+config_private.*
+
+# Generated outputs
+outputs/
+run_outputs/
+analysis_outputs/
+render_outputs/
+praycg_run_logs/
+lsl_watchdog_logs/
+LabRecorder*/
+*.log
+*.tmp
+
+# Raw data / participant data
+*.xdf
+*.bdf
+*.edf
+*.set
+*.fdt
+*.vhdr
+*.eeg
+*.vmrk
+raw_data/
+participant_data/
+private_data/
+
+# Media - do not commit copyrighted media
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+!hardware/the_box/photos_public_safe/README.md
+
+# Large reports / generated docs
+*.pdf
+*.docx
+*.pptx
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Keep repository placeholders
+!.gitkeep

@@ -1,0 +1,190 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_7A_CONTACT_RECONSTRUCTED_FOR_REVIEW",
+  "status": "CONCEPTUALLY_PREDECLARED_NOT_RUNNER_REGISTERED__NOT_LOCKED_FOR_CONFIRMATORY_USE",
+  "anchor_preset": "contact",
+  "project_name": "Contact_final_scene",
+  "source_run": "PRAYCG_v1_9_hoyt_S001_Contact_20260815_070408",
+  "created_by": "ChatGPT analysis packaging",
+  "instruction": "Review final rendered Target MP4 frame-by-frame, verify each rendered_time_sec_estimate, then use MediaPrep v1.7A/PRAYCG1.9C+ anchor finalizer to create a true *_LOCKED.json before future acquisition.",
+  "strict_runner_registration_status": {
+    "anchor_schedule_loaded_marker_present_in_contact_run1": false,
+    "anchor_schedule_not_loaded_marker_present_in_contact_run1": true,
+    "predeclared_anchor_file_in_contact_run1_config": "",
+    "claim_level": "conceptually_predeclared / not runner-registered"
+  },
+  "media_context": {
+    "video_duration_sec": 299.96663329996665,
+    "fps": 29.97,
+    "width": 1280,
+    "height": 720,
+    "content_start_offset_sec": 1.234567901234568,
+    "cue_count": 99,
+    "expected_sum": 515
+  },
+  "anchors": [
+    {
+      "anchor_id": "CONTACT_A1_PENSACOLA_REALIZATION",
+      "scene_label": "Pensacola realization",
+      "scene_description": "Ellie recognizes the celestial beach/environment as a memory-derived Pensacola-like space.",
+      "condition_scope": "all_branches",
+      "source": "media_structural_conceptually_predeclared_not_runner_registered",
+      "claim_level": "conceptually_predeclared_future_freeze_candidate_not_runner_registered",
+      "time_basis": "condition_offset_sec_from_analysis; verify on final rendered MP4 before LOCKED use",
+      "condition_offset_sec": 28.007354,
+      "rendered_time_sec_estimate": 28.007354,
+      "content_start_offset_sec": 1.234567901234568,
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "predicted_signal_shape": "early realization; TSP/MeaningGamma may survive visual-luminance penalty",
+      "special_controls": [
+        "visual_luminance_penalty_required",
+        "visual_control_channels_required",
+        "artifact_veto_required"
+      ],
+      "needs_exact_rendered_timecode": true,
+      "locked_for_runner_use": false
+    },
+    {
+      "anchor_id": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+      "scene_label": "Father/avatar recognition",
+      "scene_description": "The approaching figure resolves into the father/avatar; semantic contradiction plus attachment recognition.",
+      "condition_scope": "all_branches",
+      "source": "media_structural_conceptually_predeclared_not_runner_registered",
+      "claim_level": "conceptually_predeclared_future_freeze_candidate_not_runner_registered",
+      "time_basis": "condition_offset_sec_from_analysis; verify on final rendered MP4 before LOCKED use",
+      "condition_offset_sec": 161.007354,
+      "rendered_time_sec_estimate": 161.007354,
+      "content_start_offset_sec": 1.234567901234568,
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        12.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH",
+      "analysis_note": "Contact Run 1 showed Target-local MeaningGamma event lock around 161 s and TSP cluster around 166 s.",
+      "special_controls": [
+        "Target_gt_Control_required",
+        "Target_gt_Override_required",
+        "artifact_veto_required"
+      ],
+      "needs_exact_rendered_timecode": true,
+      "locked_for_runner_use": false
+    },
+    {
+      "anchor_id": "CONTACT_A2B_AVATAR_FATHER_RECOGNITION_TSP_CLUSTER",
+      "scene_label": "Father/avatar recognition TSP follow-through",
+      "scene_description": "Closely spaced TSP follow-through in the father/avatar recognition region.",
+      "condition_scope": "all_branches",
+      "source": "analysis_aligned_subanchor_from_conceptually_predeclared_family",
+      "claim_level": "future_freeze_candidate_not_runner_registered",
+      "time_basis": "condition_offset_sec_from_analysis; verify on final rendered MP4 before LOCKED use",
+      "condition_offset_sec": 166.007354,
+      "rendered_time_sec_estimate": 166.007354,
+      "content_start_offset_sec": 1.234567901234568,
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH_or_LOW_depends_on_theta",
+      "analysis_note": "Contact Run 1 showed Target-local TSP event around 166 s.",
+      "special_controls": [
+        "Target_gt_Control_required",
+        "Target_gt_Override_required",
+        "artifact_veto_required"
+      ],
+      "needs_exact_rendered_timecode": true,
+      "locked_for_runner_use": false
+    },
+    {
+      "anchor_id": "CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET",
+      "scene_label": "Existential payload onset",
+      "scene_description": "Onset or sustained region of the alien/avatar's central philosophical payload about cosmic timescale, loneliness, dreams/nightmares, and connection.",
+      "condition_scope": "all_branches",
+      "source": "media_structural_conceptually_predeclared_not_runner_registered",
+      "claim_level": "conceptually_predeclared_future_freeze_candidate_not_runner_registered",
+      "time_basis": "condition_offset_sec_from_analysis; verify on final rendered MP4 before LOCKED use",
+      "condition_offset_sec": 263.007354,
+      "rendered_time_sec_estimate": 263.007354,
+      "content_start_offset_sec": 1.234567901234568,
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        35.0
+      ],
+      "theta_carryover_window_sec": [
+        35.0,
+        65.0
+      ],
+      "predicted_signal_shape": "sustained_meaninggamma_tsp_elevation",
+      "analysis_note": "Contact Run 1 had strong late Target > Override deltas in the 240-300 s payload window; exact line onset must be locked by MP4 review.",
+      "special_controls": [
+        "speech_envelope_control_required",
+        "Target_gt_Control_required",
+        "Target_gt_Override_required"
+      ],
+      "needs_exact_rendered_timecode": true,
+      "locked_for_runner_use": false
+    },
+    {
+      "anchor_id": "CONTACT_A4_SMALL_MOVES_TAPER_RELEASE_OR_LATE_PAYLOAD_RELEASE",
+      "scene_label": "Late payload / terminal release",
+      "scene_description": "Terminal release/taper region after the late philosophical payload; includes the subject-reported 'billions of years' line echoing into washout if exact MP4 review confirms.",
+      "condition_scope": "all_branches",
+      "source": "media_structural_conceptually_predeclared_not_runner_registered",
+      "claim_level": "conceptually_predeclared_future_freeze_candidate_not_runner_registered",
+      "time_basis": "condition_offset_sec_from_analysis; verify on final rendered MP4 before LOCKED use",
+      "condition_offset_sec": 281.007354,
+      "rendered_time_sec_estimate": 281.007354,
+      "content_start_offset_sec": 1.234567901234568,
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        -10.0,
+        5.0
+      ],
+      "theta_carryover_window_sec": [
+        0.0,
+        30.0
+      ],
+      "allow_paired_washout_continuation": true,
+      "predicted_signal_shape": "semantic_taper_followed_by_theta_or_afterglow_carryover",
+      "analysis_note": "Subject final report noted the late 'billions of years' line echoed into the first 30-45 seconds of washout; exact time must be locked manually.",
+      "special_controls": [
+        "clip_edge_flag_required",
+        "cross_boundary_sensitivity_report_required"
+      ],
+      "needs_exact_rendered_timecode": true,
+      "locked_for_runner_use": false
+    }
+  ]
+}

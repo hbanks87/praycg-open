@@ -1,0 +1,7 @@
+metric,reference,cleanroom_replay,match
+n_trials,60.0,60.0,True
+K_within_15_rate,1.0,1.0,True
+K_within_10_rate,1.0,1.0,True
+K_median_pct_error,0.0281746841924499,0.0281746841924499,True
+directional_20_pass_rate,1.0,1.0,True
+full_model_cv_fold_win_rate,0.8722222222222222,0.8722222222222222,True

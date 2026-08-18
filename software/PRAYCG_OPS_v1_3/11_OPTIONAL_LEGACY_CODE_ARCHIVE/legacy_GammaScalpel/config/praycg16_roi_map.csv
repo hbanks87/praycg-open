@@ -1,0 +1,17 @@
+channel,electrode,roi_primary,role
+1,Fz,frontoparietal_task,frontal analytic/task anchor
+2,Cz,meaning_candidate,central anchor
+3,Pz,frontoparietal_task,parietal task/integration
+4,F3,frontoparietal_task,left frontal task
+5,F4,frontoparietal_task,right frontal task
+6,C3,meaning_candidate,left central
+7,C4,meaning_candidate,right central
+8,P3,frontoparietal_task,left parietal
+9,P4,frontoparietal_task,right parietal
+10,T5,meaning_candidate,left posterior temporal
+11,T6,meaning_candidate,right posterior temporal
+12,O1,visual_control,left occipital visual control
+13,O2,visual_control,right occipital visual control
+14,T3,artifact_sentinel,left jaw/temporal sentinel
+15,T4,artifact_sentinel,right jaw/temporal sentinel
+16,Fp1,artifact_sentinel,blink/eye sentinel

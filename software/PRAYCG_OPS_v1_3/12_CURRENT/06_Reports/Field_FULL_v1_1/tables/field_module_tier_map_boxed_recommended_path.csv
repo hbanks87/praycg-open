@@ -1,0 +1,5 @@
+tier,module_group,role
+BOXED PRIMARY PATH,Timing/QC + StimulusFingerprint/CET-R + artifact/confound gates -> A-MRED,Recommended confirmatory compression path for future runs.
+PRIMARY ENDPOINT,A-MRED,Anchor-locked MRED pass: Target MR and ENC exceed Control/Override after QC.
+SECONDARY SUMMARIES,NIP/BIT/CII/IAQ; TTI,Summarize immersion proxy and reception/extraction contrast.
+EXPLORATORY CONVERGENCE,KHT-topo; NAST; EET; MRED-ITP/ACG/OCU; OCM/RSM/CVB/SquintProxy,Interpretive and falsification layers; not primary proof.

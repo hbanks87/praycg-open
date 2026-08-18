@@ -1,0 +1,28 @@
+{
+  "schema": "PRAYCG_topo_osm_predeclared_anchor_template_v1",
+  "anchors": [
+    {
+      "anchor_id": "ANCHOR_A1",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": 0.0,
+      "scene_label": "Describe exact frame/line/event",
+      "expected_topology": "meaning_recognition_plus_possible_topological_carryover",
+      "peak_search_window_sec": [
+        0,
+        10
+      ],
+      "theta_carryover_window_sec": [
+        10,
+        30
+      ],
+      "confound_controls": [
+        "ALS_timing",
+        "artifact_veto",
+        "audio_sync_QC",
+        "external_noise_QC"
+      ]
+    }
+  ]
+}

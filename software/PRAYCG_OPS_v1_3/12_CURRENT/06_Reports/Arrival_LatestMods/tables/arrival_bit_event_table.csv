@@ -1,0 +1,6 @@
+anchor_id,label,BIT_strict_pass,reason,best_predictor,best_K_local,best_delta_theta_10_30,target_CII,control_CII,override_CII,claim_level
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,False,no_candidate_local_kht_in_window,,,,0.34579744743130486,0.007465172094925794,0.0,conceptual_future_freeze_not_runner_registered
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",False,no_candidate_local_kht_in_window,,,,0.33195979832486266,0.00852838134141981,0.0,conceptual_future_freeze_not_runner_registered
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,False,candidate_local_kht_not_locked,primary_gamma_z,0.2961871304116187,0.4751353692565008,0.6147478184407765,0.0035972725481180504,0.0,conceptual_future_freeze_not_runner_registered
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,False,candidate_local_kht_not_locked,temporal_semantic_proxy_score,0.1986902405053597,0.2133202451827465,0.20391236615167282,0.0012689773928171353,0.0,conceptual_future_freeze_not_runner_registered
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,False,candidate_local_kht_not_locked,primary_gamma_z,2.2733323000410963,-0.4357004267627727,0.021912820308895842,0.0,0.0,conceptual_future_freeze_not_runner_registered

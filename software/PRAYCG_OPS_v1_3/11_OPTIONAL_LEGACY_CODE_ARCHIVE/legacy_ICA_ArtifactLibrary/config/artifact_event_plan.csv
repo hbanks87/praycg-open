@@ -1,0 +1,21 @@
+artifact_label,category,prompt,repetitions,action_seconds,recovery_seconds,notes
+CLEAN_STILLNESS,clean,Relax face jaw neck shoulders. Stay still and breathe normally.,3,20,5,Gold-standard clean reference.
+NORMAL_BLINK_SINGLE,ocular,Blink once naturally when the ACTION screen appears. Then relax.,8,2,4,Single natural blink.
+NORMAL_BLINK_TRIPLE,ocular,Blink three times naturally when the ACTION screen appears. Then relax.,6,3,4,Small burst of blinks.
+LONG_BLINK_SQUEEZE,ocular,Close eyes firmly for one second, then reopen and relax.,5,3,5,Intentional blink/squeeze; useful but stronger than natural.
+EYE_LEFT_RIGHT,ocular,Move eyes left then right without moving head. Then center gaze.,5,4,5,Saccade artifact control.
+BROW_RAISE,frontal_muscle,Raise eyebrows briefly two times. Then relax forehead.,5,3,5,Frontalis artifact.
+JAW_CLENCH,myogenic,Clench jaw gently for two seconds. Then fully release.,6,3,6,Masseter/temporalis artifact. Do not overclench.
+JAW_LEFT_RIGHT,myogenic,Move jaw left then right gently. Then release.,5,4,6,Jaw movement artifact.
+TEETH_GRIND_SIMULATED,myogenic,Lightly tense teeth/jaw as if about to grind, without force. Then release.,4,3,6,Avoid damaging teeth. Mild only.
+TONGUE_PRESS,myogenic,Press tongue to roof of mouth for two seconds. Then release.,4,3,5,Often contaminates frontal/temporal channels.
+SWALLOW,movement,Swallow once when the ACTION screen appears. Then relax.,6,3,6,Swallow and throat artifact.
+NECK_TENSE,myogenic,Tense neck gently for two seconds. Then release.,5,3,6,Neck EMG artifact.
+NECK_LEFT_RIGHT,movement,Turn head slightly left then right, slow and small. Then center.,4,5,6,Movement artifact; keep small.
+SHOULDER_SHRUG,movement,Shrug both shoulders once. Then relax completely.,5,3,6,Shoulder/neck/motion artifact.
+SHOULDER_LEFT_RIGHT,movement,Lift left shoulder slightly, then right shoulder slightly. Then relax.,4,5,6,Asymmetric shoulder artifact.
+POSTURE_SHIFT,movement,Shift slightly in chair, then become still again.,4,4,8,Whole-body movement artifact.
+DEEP_BREATH,respiration,Take one larger breath than normal. No breath hold. Then resume normal breathing.,5,4,6,Respiration artifact/control.
+SIGH,respiration,Sigh once naturally. Then resume normal breathing.,4,4,6,Respiration/face/shoulder combined artifact.
+COUNTING_SILENT,task,Silently count backward by threes for 15 seconds. Keep face relaxed.,3,15,6,Cognitive task without overt movement.
+MENTAL_ARITHMETIC,task,Silently add the displayed numbers in your head. Keep face relaxed.,3,20,6,Analytic-lock control; not an artifact but useful contrast.

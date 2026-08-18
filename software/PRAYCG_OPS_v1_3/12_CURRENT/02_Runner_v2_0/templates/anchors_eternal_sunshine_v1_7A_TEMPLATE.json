@@ -1,0 +1,86 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_7A_TEMPLATE",
+  "status": "TEMPLATE_DRAFT",
+  "anchor_preset": "eternal_sunshine",
+  "instruction": "Fill rendered_time_sec on final rendered MP4, then finalize to *_LOCKED.json before loading in PRAYCG1.9C.",
+  "anchors": [
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "ES_A1_BEACH_HOUSE_COLLAPSE_ONSET",
+      "description": "First clear physical onset of beach-house/memory-space destabilization.",
+      "special_controls": [
+        "visual_motion_penalty_required",
+        "visual_luminance_penalty_required"
+      ]
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        8.0
+      ],
+      "theta_carryover_window_sec": [
+        8.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "ES_A2_MEET_ME_IN_MONTAUK_LINE",
+      "description": "Onset of the 'Meet me in Montauk' future-directed semantic command.",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH"
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        -10.0,
+        5.0
+      ],
+      "theta_carryover_window_sec": [
+        0.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "ES_A3_POST_MONTAUK_RELEASE_TAPER",
+      "description": "Release/taper moment after the Montauk line and memory-collapse climax.",
+      "allow_paired_washout_continuation": true
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+anchor_id,condition_scope,rendered_time_sec,scene_label,expected_topology,predicted_mred_quadrant,claim_level
+ANCHOR_A1,all_branches,0.0,Scene description,MR_plus_topological_carryover,MR_HIGH_ENC_HIGH,confirmatory_if_loaded_before_run

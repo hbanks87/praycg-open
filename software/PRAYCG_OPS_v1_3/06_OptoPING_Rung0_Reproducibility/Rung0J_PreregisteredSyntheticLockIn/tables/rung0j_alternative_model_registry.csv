@@ -1,0 +1,7 @@
+name,description
+full_reciprocal,eta_E and zeta_E free; K primary.
+eta_only,Y-to-E direction only; zeta_E fixed to zero.
+zeta_only,E-to-Y direction only; eta_E fixed to zero.
+null_no_coupling,eta_E=zeta_E=0.
+replay_only_basis,independent non-directional stimulus-basis regression; no reciprocal loop.
+generic_hidden_oscillator,single symmetric hidden oscillator parameter h; no eta/zeta decomposition.

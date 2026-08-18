@@ -1,0 +1,38 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_8_demo",
+  "project": "Demo_Lantern_Bridge_CC0",
+  "created_utc": "2026-08-18T20:43:19.973043+00:00",
+  "claim_level": "demo_public_cc0",
+  "anchors": [
+    {
+      "anchor_id": "DEMO_A1_LANTERN_START",
+      "rendered_time_sec": 30.0,
+      "anchor_role": "secondary",
+      "claim_level": "demo_cc0"
+    },
+    {
+      "anchor_id": "DEMO_A2_BRIDGE_APPEARS",
+      "rendered_time_sec": 60.0,
+      "anchor_role": "primary_a_mred_peak_candidate",
+      "claim_level": "demo_cc0"
+    },
+    {
+      "anchor_id": "DEMO_A3_OTHER_LIGHT",
+      "rendered_time_sec": 105.0,
+      "anchor_role": "primary_a_mred_peak_candidate",
+      "claim_level": "demo_cc0"
+    },
+    {
+      "anchor_id": "DEMO_A4_CENTER_MEETING",
+      "rendered_time_sec": 150.0,
+      "anchor_role": "primary_mred_resolution_candidate",
+      "claim_level": "demo_cc0"
+    },
+    {
+      "anchor_id": "DEMO_A5_AFTERGLOW",
+      "rendered_time_sec": 168.0,
+      "anchor_role": "resolution_afterstate_candidate",
+      "claim_level": "demo_cc0"
+    }
+  ]
+}

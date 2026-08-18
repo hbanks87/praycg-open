@@ -1,0 +1,20 @@
+generator,criterion,observed,threshold,pass
+full_reciprocal_positive_control,full_and_K_lock_rate,0.6,>= 0.8,False
+full_reciprocal_positive_control,K_significant_rate,1.0,>= 0.85,True
+full_reciprocal_positive_control,full_cv_win_rate_mean,0.6,>= 0.7,False
+full_reciprocal_positive_control,K_within_15_positive_rate,1.0,>= 0.8,True
+standard_ping_null,false_full_and_K_lock_rate,0.0,<= 0.05,True
+standard_ping_null,K_significant_rate,0.25,<= 0.1,False
+standard_ping_null,full_cv_win_rate_mean,0.20833333333333331,<= 0.35,True
+replay_only_null,false_full_and_K_lock_rate,0.0,<= 0.05,True
+replay_only_null,K_significant_rate,0.05,<= 0.1,True
+replay_only_null,full_cv_win_rate_mean,0.041666666666666664,<= 0.2,True
+sensory_drive_only_null,false_full_and_K_lock_rate,0.0,<= 0.05,True
+sensory_drive_only_null,K_significant_rate,0.35,<= 0.1,False
+sensory_drive_only_null,full_cv_win_rate_mean,0.0,<= 0.2,True
+generic_hidden_oscillator_null,false_full_and_K_lock_rate,0.0,<= 0.05,True
+generic_hidden_oscillator_null,K_significant_rate,0.1,<= 0.1,True
+generic_hidden_oscillator_null,full_cv_win_rate_mean,0.0,<= 0.25,True
+colored_noise_null,false_full_and_K_lock_rate,0.0,<= 0.05,True
+colored_noise_null,K_significant_rate,1.0,<= 0.1,False
+colored_noise_null,full_cv_win_rate_mean,0.05833333333333333,<= 0.25,True

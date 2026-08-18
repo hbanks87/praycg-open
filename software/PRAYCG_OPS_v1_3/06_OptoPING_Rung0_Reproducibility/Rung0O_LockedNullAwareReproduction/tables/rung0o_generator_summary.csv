@@ -1,0 +1,9 @@
+generator,generator_type,n_trials,median_K_hat_scaled,mean_K_hat_scaled,K_significant_raw_rate,full_predictive_win_rate,interpreted_K_rate,final_full_plus_K_lock_rate,mean_full_fold_win_rate,dominant_model_mode,selected_threshold
+colored_noise_null,null,50,0.14865168161485182,0.14324396998553537,0.02,0.0,0.0,0.0,0.003333333333333333,null_no_coupling,0.3420993701501039
+generic_hidden_null,null,50,0.10791902123207679,0.11986777361962915,0.0,0.0,0.0,0.0,0.013333333333333332,null_no_coupling,0.2740137722534731
+permuted_label_null,null,50,0.05858684211629685,0.05519012662797238,0.0,0.0,0.0,0.0,0.0,null_no_coupling,0.2136443208169237
+replay_only_null,null,50,0.06002653154204546,0.05770493187985421,0.0,0.0,0.0,0.0,0.0,null_no_coupling,0.2136443208169237
+sensory_drive_only_null,null,50,0.07326527751339698,0.07412644371327808,0.0,0.0,0.0,0.0,0.01,replay_only_basis,0.2136443208169237
+standard_ping_null,null,50,0.053027806829186286,0.05427061264638553,0.0,0.0,0.0,0.0,0.0,eta_only,0.2136443208169237
+time_reversed_null,null,50,0.06108098570669128,0.06015476711350229,0.0,0.0,0.0,0.0,0.003333333333333333,sensory_drive_only,0.2136443208169237
+full_reciprocal_positive,positive,60,0.9910113966844529,0.994927575747757,1.0,0.95,0.95,0.95,0.825,full_reciprocal,

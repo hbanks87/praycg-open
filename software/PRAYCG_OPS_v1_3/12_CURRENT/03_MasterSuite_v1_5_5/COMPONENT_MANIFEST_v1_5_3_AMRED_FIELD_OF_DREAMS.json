@@ -1,0 +1,27 @@
+{
+  "schema": "PRAYCG_Unified_MasterSuite_ComponentManifest_v1_5_3",
+  "version": "1.5.3",
+  "created_utc": "2026-08-17T17:41:19+00:00",
+  "name": "PRAYCG Unified Master Suite v1.5.3 - A-MRED + Field of Dreams",
+  "adds": [
+    "A-MRED primary endpoint module",
+    "Field of Dreams estimated anchor scaffold",
+    "module tier registry / boxed primary pathway",
+    "visualizer v1.3.3 A-MRED overlay support",
+    "unified launcher --run-amred-modules"
+  ],
+  "scripts": [
+    "scripts/praycg_amred_endpoint_module_v1_5_3.py",
+    "scripts/praycg_master_sync_visualizer_v1_3_3.py",
+    "scripts/praycg_unified_master_analysis_visualizer_v1_4.py",
+    "scripts/praycg_master_comprehensive_suite_gui_v1_4.py"
+  ],
+  "templates": [
+    "templates/FieldOfDreams_CatchScene_predeclared_anchors_ESTIMATED_EDITME_v1_0.json",
+    "templates/FieldOfDreams_CatchScene_predeclared_anchors_DRAFT_NULL_TIMES_v1_0.json",
+    "templates/FieldOfDreams_CatchScene_anchor_schedule_ESTIMATED_EDITME_v1_0.csv",
+    "templates/FieldOfDreams_CatchScene_MRED_familiarity_covariates_TEMPLATE.csv",
+    "templates/FieldOfDreams_CatchScene_MRED_scene_map_TEMPLATE.csv"
+  ],
+  "boundary": "A-MRED is a human-scale psychophysiology endpoint. It does not prove OSM biology, hidden-Y, microtubules, biophotons, consciousness, soul, or memory formation. Estimated Field of Dreams timecodes must be frame-verified before strict confirmatory use."
+}

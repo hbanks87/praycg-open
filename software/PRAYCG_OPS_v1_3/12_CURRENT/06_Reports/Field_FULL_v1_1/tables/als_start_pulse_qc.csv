@@ -1,0 +1,4 @@
+phase,branch_start_lsl,pre_median,post_max_0_2s,near_max_minus2_plus4,rise_adc_counts,peak_rel_sec,pass_detected_fullscreen_pulse,note
+CONTROL_1,33632.6194394,268.0,279.5,281.5,11.5,3.70925394569349,False,threshold>=20 ADC counts; exploratory because ALS amplitude range was modest
+TARGET_1,34017.9164495,269.0,295.5,306.5,26.5,-1.010202042380115,True,threshold>=20 ADC counts; exploratory because ALS amplitude range was modest
+CONTEXTUAL_OVERRIDE_1,34437.5372513,266.5,281.5,294.5,15.0,-1.4634460892921197,False,threshold>=20 ADC counts; exploratory because ALS amplitude range was modest

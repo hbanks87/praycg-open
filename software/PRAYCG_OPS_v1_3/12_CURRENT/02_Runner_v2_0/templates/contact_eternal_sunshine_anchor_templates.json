@@ -1,0 +1,54 @@
+{
+  "schema": "PRAYCG1_9B_contact_es_anchor_templates",
+  "anchors": [
+    {
+      "anchor_id": "CONTACT_A1_PENSACOLA_REALIZATION",
+      "rendered_time_sec": null,
+      "time_definition": "first clear moment Ellie recognizes the beach as memory-derived environment",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    },
+    {
+      "anchor_id": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+      "rendered_time_sec": null,
+      "time_definition": "first clear recognition that the approaching figure is her father/avatar",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    },
+    {
+      "anchor_id": "CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET",
+      "rendered_time_sec": null,
+      "time_definition": "onset of the central philosophical payload",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    },
+    {
+      "anchor_id": "CONTACT_A4_SMALL_MOVES_TAPER_RELEASE",
+      "rendered_time_sec": null,
+      "time_definition": "terminal release after central payload line",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    },
+    {
+      "anchor_id": "ES_A1_BEACH_HOUSE_COLLAPSE_ONSET",
+      "rendered_time_sec": null,
+      "time_definition": "first visible onset of beach-house collapse / memory-space destabilization",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    },
+    {
+      "anchor_id": "ES_A2_MEET_ME_IN_MONTAUK_LINE",
+      "rendered_time_sec": null,
+      "time_definition": "onset of the Meet me in Montauk semantic command",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    },
+    {
+      "anchor_id": "ES_A3_POST_MONTAUK_RELEASE_TAPER",
+      "rendered_time_sec": null,
+      "time_definition": "first stable release/taper after the Montauk line and collapse climax",
+      "condition_scope": "all_branches",
+      "claim_level": "confirmatory_if_loaded_before_run"
+    }
+  ]
+}

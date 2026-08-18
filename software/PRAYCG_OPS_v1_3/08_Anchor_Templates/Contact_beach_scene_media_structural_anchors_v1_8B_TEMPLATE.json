@@ -1,0 +1,117 @@
+{
+  "schema": "PRAYCG_predeclared_media_structural_anchors_v1_8B",
+  "stimulus_family": "Contact_beach_scene",
+  "status": "template_requires_exact_rendered_timecode_before_run",
+  "doctrine": "Freeze objective scene events before physiology analysis; do not ask an absorbed subject to be a stopwatch.",
+  "anchors": [
+    {
+      "anchor_id": "CONTACT_A1_PENSACOLA_REALIZATION",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "first clear moment Ellie recognizes the beach as a memory-derived Pensacola-like environment",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        10
+      ],
+      "theta_carryover_window_sec": [
+        10,
+        30
+      ],
+      "predicted_signal_shape": "visual-confounded meaning recognition; TSP must survive visual-control subtraction",
+      "special_controls": [
+        "visual_luminance_penalty_required",
+        "visual_control_channels_required",
+        "artifact_veto_required"
+      ]
+    },
+    {
+      "anchor_id": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "first clear recognition that the approaching figure is her father/avatar",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        12
+      ],
+      "theta_carryover_window_sec": [
+        10,
+        30
+      ],
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH",
+      "special_controls": [
+        "Target_gt_Control_required",
+        "Target_gt_Override_required",
+        "artifact_veto_required"
+      ]
+    },
+    {
+      "anchor_id": "CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "onset of the alien/avatar's central philosophical payload about loneliness, dreams, nightmares, and connection",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "sustained_payload_window_sec": [
+        0,
+        35
+      ],
+      "peak_search_window_sec": [
+        0,
+        35
+      ],
+      "theta_carryover_window_sec": [
+        35,
+        65
+      ],
+      "predicted_signal_shape": "sustained_meaninggamma_tsp_elevation",
+      "special_controls": [
+        "speech_envelope_control_required",
+        "Target_gt_Control_required",
+        "Target_gt_Override_required"
+      ]
+    },
+    {
+      "anchor_id": "CONTACT_A4_SMALL_MOVES_TAPER_RELEASE",
+      "source": "media_structural_predeclared",
+      "claim_level": "confirmatory_if_loaded_before_run",
+      "condition_scope": "all_branches",
+      "rendered_time_sec": null,
+      "time_definition": "terminal phrase / release point after the central philosophical payload",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        -10,
+        5
+      ],
+      "theta_carryover_window_sec": [
+        0,
+        30
+      ],
+      "allow_paired_washout_continuation": true,
+      "preferred_design": "leave_45_to_60_sec_post_payload_ambient_tail_inside_branch",
+      "predicted_signal_shape": "semantic_taper_followed_by_theta_integration",
+      "special_controls": [
+        "clip_edge_flag_required",
+        "cross_boundary_sensitivity_report_required"
+      ]
+    }
+  ]
+}

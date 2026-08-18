@@ -1,0 +1,68 @@
+{
+  "schema": "OSM_OptoPING_Rung0J_PreregisteredSyntheticLockIn_results_v0_1",
+  "locked_spec_sha256": "d93f6146e4e77ffeffbdd5c133250fd6d474317d8af6c34c3354dd6b28756282",
+  "replication_status": "PASS_SYNTHETIC_LOCK_IN",
+  "metrics": {
+    "n_trials": 60,
+    "K_within_15_rate": 1.0,
+    "K_within_10_rate": 1.0,
+    "K_median_pct_error": 0.0281746841924499,
+    "K_mean_pct_error": 0.03102522514028366,
+    "eta_median_pct_error": 0.0625,
+    "zeta_median_pct_error": 0.05555555555555555,
+    "directional_20_pass_rate": 1.0,
+    "directional_15_pass_rate": 1.0,
+    "full_model_cv_fold_win_rate": 0.8722222222222222,
+    "full_model_per_trial_cv_ge_80_rate": 0.8333333333333334,
+    "locked_spec_sha256": "d93f6146e4e77ffeffbdd5c133250fd6d474317d8af6c34c3354dd6b28756282"
+  },
+  "cv_win_summary": [
+    {
+      "model": "full_reciprocal",
+      "wins": 314,
+      "total_folds": 360,
+      "win_rate": 0.8722222222222222
+    },
+    {
+      "model": "replay_only_basis",
+      "wins": 20,
+      "total_folds": 360,
+      "win_rate": 0.05555555555555555
+    },
+    {
+      "model": "zeta_only",
+      "wins": 14,
+      "total_folds": 360,
+      "win_rate": 0.03888888888888889
+    },
+    {
+      "model": "eta_only",
+      "wins": 9,
+      "total_folds": 360,
+      "win_rate": 0.025
+    },
+    {
+      "model": "generic_hidden_oscillator",
+      "wins": 3,
+      "total_folds": 360,
+      "win_rate": 0.008333333333333333
+    }
+  ],
+  "profile_ridge_summary": {
+    "representative_seed": 910008,
+    "criterion": "loss <= min_loss + max(1.0, 0.05*abs(min_loss))",
+    "min_loss": 2.4103247863407615,
+    "near_cell_count": 31,
+    "eta_width": 0.75,
+    "zeta_width": 40.0,
+    "K_width": 4.358178664675236,
+    "best_eta": 4.0,
+    "best_zeta": 170.0,
+    "best_K": 26.076809620810597,
+    "true_eta": 4.0,
+    "true_zeta": 180.0,
+    "true_K": 26.832815729997478,
+    "ridge_interpretation": "Profile surface is locally constrained enough for K-lock in this synthetic gate; eta/zeta separation remains secondary and conditional."
+  },
+  "boundary": "Synthetic identifiability only; no biological or human EEG mechanism claim."
+}

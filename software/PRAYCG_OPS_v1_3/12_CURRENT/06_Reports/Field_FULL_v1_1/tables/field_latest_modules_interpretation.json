@@ -1,0 +1,37 @@
+{
+  "run_label": "field of dreams2",
+  "participant": "hoyt banks",
+  "session": "s0007",
+  "anchor_status": "runner-registered estimated blind anchors; not frame-verified locked anchors",
+  "target_override_hash_match": true,
+  "openbci_timing_reconstruction": "OpenBCI EEG/ALS raw XDF timestamps were inconsistent with nominal rate; corrected time axis was reconstructed from OpenBCIStatusMarkers samples_total heartbeats.",
+  "openbci_effective_hz_from_status_fit": 124.5659379745159,
+  "als_start_pulse_status": "failed_or_weak_by_adc_threshold",
+  "A_MRED_summary": [
+    {
+      "sensitivity": "content_offset_plus_1p251s",
+      "n_anchors": 7,
+      "amred_passes": 0,
+      "base_gate_passes": 0,
+      "specificity_passes": 3,
+      "mean_target_CII": 0.06215213535332741,
+      "mean_control_CII": 0.00010331248190116916,
+      "mean_override_CII": 0.010355513920523014,
+      "mean_IAQ": -1.8523676639629634
+    },
+    {
+      "sensitivity": "runner_registered_time",
+      "n_anchors": 7,
+      "amred_passes": 1,
+      "base_gate_passes": 1,
+      "specificity_passes": 3,
+      "mean_target_CII": 0.06337305959885868,
+      "mean_control_CII": 5.47628535803414e-05,
+      "mean_override_CII": 0.010059351015089134,
+      "mean_IAQ": -1.844877280024392
+    }
+  ],
+  "TTI_global": 0.567780349544646,
+  "self_report_summary": "Target selected as most meaningful, most absorbing, and strongest afterglow; TargetEchoedDuringBaseline2=9; Familiarity=1; NewMeaningToday=7; OverrideReducedReception=6; StoryBrokeThroughOverride=7.",
+  "boundary": "Exploratory self-run. Does not prove OSM, consciousness, cellular mechanism, or memory formation. A-MRED is attempted as primary endpoint, with all other modules secondary/exploratory."
+}

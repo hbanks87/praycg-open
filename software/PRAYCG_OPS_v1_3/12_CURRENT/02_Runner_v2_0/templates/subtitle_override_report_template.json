@@ -1,0 +1,11 @@
+{
+  "schema": "PRAYCG_SUB_LSO_report_template_v1",
+  "SubtitleReadingEffort_0_9": null,
+  "SubtitleComprehension_0_9": null,
+  "SubtitleTimingFeltEarlyOrLate": "early/on_time/late/mixed/unknown",
+  "AudioMutedConfirmed": null,
+  "RereadingOccurred_0_9": null,
+  "MeaningRecognized_0_9": null,
+  "IntegrationOrAfterglow_0_9": null,
+  "Notes": "Describe reading burden without estimating exact timestamps."
+}

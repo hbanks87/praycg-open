@@ -1,0 +1,211 @@
+{
+  "schema": "PRAYCG_StimulusFingerprint_CET_EET_v1_8",
+  "version": "1.8",
+  "created_utc": "2026-08-17T03:33:46.439302+00:00",
+  "project_name": "Cetfixed_Contact",
+  "out_dir": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc",
+  "cue_schedule_json": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\cue_schedule_Cetfixed_Contact_v1_7A.json",
+  "anchor_json": null,
+  "cue_count": 99,
+  "anchor_count": 0,
+  "merge_hz": 4.0,
+  "video_sample_hz": 5.0,
+  "status": "PASS",
+  "branch_summaries": [
+    {
+      "condition": "control",
+      "video_path": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\stimulus_control_cued_phase_scrambled_Cetfixed_Contact_v1_7A.mp4",
+      "sha256": "35b99e13207671b7f284b3760d9faf7925fc87eebf6b887daeb9de52d0a69f76",
+      "video_props": {
+        "fps": 29.97,
+        "frame_count": 8990,
+        "width": 1280,
+        "height": 720,
+        "duration_sec": 299.96663329996665
+      },
+      "visual_metrics": {
+        "fps": 29.97,
+        "frame_count": 8990,
+        "width": 1280,
+        "height": 720,
+        "duration_sec": 299.96663329996665,
+        "sample_hz_effective": 4.995,
+        "sampled_frames": 1499,
+        "luminance_mean_avg": 73.2867717755644,
+        "luminance_mean_std_over_time": 16.41896588609534,
+        "visual_change_mean": 29.145861682293813,
+        "optical_flow_proxy_mean": 58.72904322002632,
+        "cut_count_estimated": 23,
+        "cut_rate_per_sec": 0.07667519466073415,
+        "flash_event_count": 68,
+        "flash_risk_fraction": 0.04536357571714476
+      },
+      "audio_metrics": {
+        "has_audio": true,
+        "sample_rate_hz": 48000,
+        "audio_duration_sec": 299.955375,
+        "rms_mean": 0.011334532713931759,
+        "rms_std": 0.009996817581285067,
+        "dbfs_mean": -42.519180570136754,
+        "dbfs_peak": -24.872457935050267,
+        "silence_fraction_dbfs_lt_minus55": 0.020815986677768527
+      },
+      "cue_summary": {
+        "cue_count": 99,
+        "expected_sum": 515.0,
+        "cue_interval_sec": 3.0,
+        "cue_frequency_hz": 0.3333333333333333,
+        "has_contrast_qc": true,
+        "mean_contrast_pre_badge": 0.9999981597414517,
+        "min_contrast_pre_badge": 0.9998181987174534
+      },
+      "outputs": {
+        "cet_regressors_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\cet_regressors_control.csv",
+        "exogenous_regressor_frame_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_exogenous_regressor_frame_control.csv",
+        "visual_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_visual_timeseries_control.csv",
+        "audio_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_audio_timeseries_control.csv",
+        "cue_regressors_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_cue_regressors_control.csv",
+        "rhythm_summary_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_rhythm_summary_control.csv",
+        "dominant_frequency_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_dominant_frequency_timeseries_control.csv"
+      },
+      "boundary": "Stimulus fingerprint and exogenous regressor outputs only; not physiology, not meaning proof, not hidden-Y biology.",
+      "status": "PASS"
+    },
+    {
+      "condition": "target",
+      "video_path": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\stimulus_target_cued_Cetfixed_Contact_v1_7A.mp4",
+      "sha256": "14ea5e719dfeaba190d24a099a24c1cf0ece33778f96be95caa10459cb2075cf",
+      "video_props": {
+        "fps": 29.97,
+        "frame_count": 8990,
+        "width": 1280,
+        "height": 720,
+        "duration_sec": 299.96663329996665
+      },
+      "visual_metrics": {
+        "fps": 29.97,
+        "frame_count": 8990,
+        "width": 1280,
+        "height": 720,
+        "duration_sec": 299.96663329996665,
+        "sample_hz_effective": 4.995,
+        "sampled_frames": 1499,
+        "luminance_mean_avg": 48.21652099400699,
+        "luminance_mean_std_over_time": 22.845384550750698,
+        "visual_change_mean": 5.658462839237128,
+        "optical_flow_proxy_mean": 15.14988230434237,
+        "cut_count_estimated": 33,
+        "cut_rate_per_sec": 0.11001223581757508,
+        "flash_event_count": 26,
+        "flash_risk_fraction": 0.01734489659773182
+      },
+      "audio_metrics": {
+        "has_audio": true,
+        "sample_rate_hz": 48000,
+        "audio_duration_sec": 299.955375,
+        "rms_mean": 0.014965782006346661,
+        "rms_std": 0.014577095102555676,
+        "dbfs_mean": -40.54590806320449,
+        "dbfs_peak": -21.88404178880336,
+        "silence_fraction_dbfs_lt_minus55": 0.010824313072439634
+      },
+      "cue_summary": {
+        "cue_count": 99,
+        "expected_sum": 515.0,
+        "cue_interval_sec": 3.0,
+        "cue_frequency_hz": 0.3333333333333333,
+        "has_contrast_qc": true,
+        "mean_contrast_pre_badge": 0.9999981597414517,
+        "min_contrast_pre_badge": 0.9998181987174534
+      },
+      "outputs": {
+        "cet_regressors_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\cet_regressors_target.csv",
+        "exogenous_regressor_frame_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_exogenous_regressor_frame_target.csv",
+        "visual_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_visual_timeseries_target.csv",
+        "audio_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_audio_timeseries_target.csv",
+        "cue_regressors_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_cue_regressors_target.csv",
+        "rhythm_summary_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_rhythm_summary_target.csv",
+        "dominant_frequency_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_dominant_frequency_timeseries_target.csv"
+      },
+      "boundary": "Stimulus fingerprint and exogenous regressor outputs only; not physiology, not meaning proof, not hidden-Y biology.",
+      "status": "PASS"
+    },
+    {
+      "condition": "override",
+      "video_path": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\stimulus_override_cued_Cetfixed_Contact_v1_7A.mp4",
+      "sha256": "14ea5e719dfeaba190d24a099a24c1cf0ece33778f96be95caa10459cb2075cf",
+      "video_props": {
+        "fps": 29.97,
+        "frame_count": 8990,
+        "width": 1280,
+        "height": 720,
+        "duration_sec": 299.96663329996665
+      },
+      "visual_metrics": {
+        "fps": 29.97,
+        "frame_count": 8990,
+        "width": 1280,
+        "height": 720,
+        "duration_sec": 299.96663329996665,
+        "sample_hz_effective": 4.995,
+        "sampled_frames": 1499,
+        "luminance_mean_avg": 48.21652099400699,
+        "luminance_mean_std_over_time": 22.845384550750698,
+        "visual_change_mean": 5.658462839237128,
+        "optical_flow_proxy_mean": 15.14988230434237,
+        "cut_count_estimated": 33,
+        "cut_rate_per_sec": 0.11001223581757508,
+        "flash_event_count": 26,
+        "flash_risk_fraction": 0.01734489659773182
+      },
+      "audio_metrics": {
+        "has_audio": true,
+        "sample_rate_hz": 48000,
+        "audio_duration_sec": 299.955375,
+        "rms_mean": 0.014965782006346661,
+        "rms_std": 0.014577095102555676,
+        "dbfs_mean": -40.54590806320449,
+        "dbfs_peak": -21.88404178880336,
+        "silence_fraction_dbfs_lt_minus55": 0.010824313072439634
+      },
+      "cue_summary": {
+        "cue_count": 99,
+        "expected_sum": 515.0,
+        "cue_interval_sec": 3.0,
+        "cue_frequency_hz": 0.3333333333333333,
+        "has_contrast_qc": true,
+        "mean_contrast_pre_badge": 0.9999981597414517,
+        "min_contrast_pre_badge": 0.9998181987174534
+      },
+      "outputs": {
+        "cet_regressors_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\cet_regressors_override.csv",
+        "exogenous_regressor_frame_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_exogenous_regressor_frame_override.csv",
+        "visual_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_visual_timeseries_override.csv",
+        "audio_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_audio_timeseries_override.csv",
+        "cue_regressors_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_cue_regressors_override.csv",
+        "rhythm_summary_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_rhythm_summary_override.csv",
+        "dominant_frequency_timeseries_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_dominant_frequency_timeseries_override.csv"
+      },
+      "boundary": "Stimulus fingerprint and exogenous regressor outputs only; not physiology, not meaning proof, not hidden-Y biology.",
+      "status": "PASS"
+    }
+  ],
+  "branch_status_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulusfingerprint_branch_status.csv",
+  "error_log_json": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulusfingerprint_error_log.json",
+  "combined_outputs": {
+    "cet_regressors_all_conditions": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\cet_regressors_all_conditions.csv",
+    "exogenous_regressor_frame_all_conditions": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_exogenous_regressor_frame_all_conditions.csv",
+    "rhythm_summary_all_conditions": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_rhythm_summary_all_conditions.csv",
+    "dominant_frequency_timeseries_all_conditions": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\stimulus_dominant_frequency_timeseries_all_conditions.csv",
+    "anchor_stimulus_rhythm_vectors_all_conditions": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\Contact\\CETPREP2\\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\\qc\\anchor_stimulus_rhythm_vectors_all_conditions.csv"
+  },
+  "intended_downstream_use": [
+    "CET",
+    "CET-R",
+    "EET",
+    "NIP residualization",
+    "TTI confound context",
+    "visualizer exogenous overlays"
+  ],
+  "boundary": "This is a stimulus-side exogenous-regressor package. It supports confound modeling. It does not certify meaning, immersion, OSM, or a biological mechanism."
+}

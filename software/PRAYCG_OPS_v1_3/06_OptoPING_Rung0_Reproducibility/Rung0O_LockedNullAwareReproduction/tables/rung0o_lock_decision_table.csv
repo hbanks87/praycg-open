@@ -1,0 +1,7 @@
+criterion,value,target,pass
+positive_full_plus_K_lock_rate >= 0.80,0.95,0.8,True
+positive_K_significant_rate >= 0.90,1.0,0.9,True
+positive_K_within_15_rate >= 0.90,1.0,0.9,True
+null_false_full_plus_K_lock_rate <= 0.05,0.0,0.05,True
+null_interpreted_K_rate <= 0.05,0.0,0.05,True
+null_non_full_predictive_win_rate >= 0.85,1.0,0.85,True

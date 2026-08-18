@@ -1,0 +1,17 @@
+{
+  "boundary": "Self-report contextualizes physiology; it is not proof of internal state or mechanism.",
+  "branch_label": "Control",
+  "branch_type": "control",
+  "confound_detail_recommended": true,
+  "phase_name": "CONTROL_1_AFTER_WASHOUT_1",
+  "ratings": {
+    "Absorption": 3,
+    "ConfoundBurden": 6,
+    "EmotionalAfterglow": 4,
+    "Meaning": 4,
+    "StoryActiveWashout": 3,
+    "TaskExtractionLoad": 7
+  },
+  "scene_note": "none",
+  "schema": "PRAYCG2_0_branch_core_report_v1"
+}

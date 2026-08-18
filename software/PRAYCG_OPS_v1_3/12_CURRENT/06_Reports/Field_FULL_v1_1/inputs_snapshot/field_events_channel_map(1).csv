@@ -1,0 +1,17 @@
+openbci_channel,electrode_location,roi,map_label,confirmed,confidence,notes
+1,Fz,frontal_analytic_lock,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+2,Cz,central_anchor,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+3,Pz,parietal_integration,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+4,F3,left_frontal,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+5,F4,right_frontal,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+6,C3,left_central,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+7,C4,right_central,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+8,P3,left_parietal,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+9,P4,right_parietal,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+10,T5,left_posterior_temporal,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+11,T6,right_posterior_temporal,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+12,O1,left_visual_control,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+13,O2,right_visual_control,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+14,T3,left_jaw_temporal_sentinel,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+15,T4,right_jaw_temporal_sentinel,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.
+16,Fp1,blink_eye_sentinel,PRAYCG16_FIXED_ORDER_v1,1,LOCKED,Set confirmed=True only after wire-to-electrode map is photographed or physically traced.

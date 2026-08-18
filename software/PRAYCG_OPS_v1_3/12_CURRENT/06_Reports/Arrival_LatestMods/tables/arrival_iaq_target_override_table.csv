@@ -1,0 +1,6 @@
+anchor_id,label,target_CII,control_CII,override_CII,target_minus_control_CII,target_minus_override_CII,IAQ_target_vs_override,target_specific_CII,claim_level
+ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0,Future/tragedy acceptance line,0.34579744743130486,0.007465172094925794,0.0,0.33833227533637905,0.34579744743130486,0.9971164724325196,True,conceptual_future_freeze_not_runner_registered
+ARR_A2_STARDUST_CRINGE_120P0,"""Star dust"" cringe / aversive semantic prediction error",0.33195979832486266,0.00852838134141981,0.0,0.32343141698344285,0.33195979832486266,0.9969966344134306,True,conceptual_future_freeze_not_runner_registered
+ARR_A3_READING_LETTERS_169P0,Mother teaches daughter letters,0.6147478184407765,0.0035972725481180504,0.0,0.6111505458926585,0.6147478184407765,0.9983759585173485,True,conceptual_future_freeze_not_runner_registered
+ARR_A4_CHILD_LIFE_MONTAGE_251P0,Child-life montage under tragic foreknowledge,0.20391236615167282,0.0012689773928171353,0.0,0.20264338875885568,0.20391236615167282,0.9951198650487506,True,conceptual_future_freeze_not_runner_registered
+ARR_A5_HELD_BY_YOU_FINAL_310P0,Final embrace / held-by-you line,0.021912820308895842,0.0,0.0,0.021912820308895842,0.021912820308895842,0.9563563111603615,True,conceptual_future_freeze_not_runner_registered

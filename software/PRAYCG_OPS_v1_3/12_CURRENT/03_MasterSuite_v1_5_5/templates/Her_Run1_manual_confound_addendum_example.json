@@ -1,0 +1,56 @@
+{
+  "schema": "PRAYCG_manual_retrospective_confound_addendum_v1",
+  "run": "Her Run 1",
+  "boundary": "Example based on retrospective operator/subject report. Use only as a caution layer, not as preregistered timing evidence.",
+  "branch_reports": [
+    {
+      "phase_name": "TARGET_1_AFTER_WASHOUT_2",
+      "branch_label": "Target",
+      "is_override": false,
+      "claim_level": "manual_retrospective_caution",
+      "ratings": {
+        "AudioVideoSyncProblem": 6,
+        "AudioComprehensionDifficulty": 7,
+        "ExternalNoiseIntrusion": 8,
+        "ExternalNoiseDistraction": 8,
+        "CueLegibilityProblem": 2,
+        "CueBlurProblem": 2,
+        "EyeStrainOrSquintNeed": 2,
+        "SpeakerVolumeDifficulty": 7
+      },
+      "notes": {
+        "audio_video_sync": "Target audio was slightly delayed relative to video/lip movement; Joaquin Phoenix appeared to speak before the delayed voice landed.",
+        "external_noise": "A distant train became loud enough to mask laptop-speaker audio during the lead-up to the letter-reading/monologue completion region.",
+        "cue_legibility": "Target cues were ignored by instruction; no major target cue-legibility claim."
+      }
+    },
+    {
+      "phase_name": "OVERRIDE_1_AFTER_WASHOUT_3",
+      "branch_label": "Contextual Override",
+      "is_override": true,
+      "claim_level": "manual_retrospective_caution",
+      "ratings": {
+        "AudioVideoSyncProblem": 6,
+        "AudioComprehensionDifficulty": 4,
+        "ExternalNoiseIntrusion": 0,
+        "ExternalNoiseDistraction": 0,
+        "CueLegibilityProblem": 7,
+        "CueBlurProblem": 8,
+        "EyeStrainOrSquintNeed": 6,
+        "SpeakerVolumeDifficulty": 2,
+        "RunningSumStall": 5,
+        "ApproximateOrGuessUsed": 3,
+        "LargeSumDifficulty": 4,
+        "CarryDifficulty": 5,
+        "HardNumberCombinationDifficulty": 5,
+        "FinalSumConfidence": 6
+      },
+      "notes": {
+        "audio_video_sync": "Override audio was also slightly delayed relative to the video.",
+        "external_noise": "No comparable train-noise report for override.",
+        "cue_legibility": "Number cues were contrast-protected but too small/blurry at the laptop display settings; monitor settings were adjusted after the run.",
+        "running_sum": "Cue blur may have increased running-sum maintenance burden and approximate-update pressure."
+      }
+    }
+  ]
+}

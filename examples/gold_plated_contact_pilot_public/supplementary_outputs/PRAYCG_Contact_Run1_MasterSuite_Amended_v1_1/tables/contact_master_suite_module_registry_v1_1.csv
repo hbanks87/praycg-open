@@ -1,0 +1,16 @@
+module,status,interpretation
+Run metadata and media identity,PASS,"Loaded runfiles, media hashes, cue schedule, branch timing, and channel-map status."
+Stream inventory / timebase,PASS_WITH_ALS_ALIGNMENT,Continuous EEG/ALS aligned by sample-index timebase and validated ALS pulses.
+ALS-PT19 fullscreen start-pulse QC,PASS,All three movie starts detected within +/-0.25 s of markers.
+Anchor audit,CONCEPTUALLY_PREDECLARED_NOT_RUNNER_REGISTERED,"Prior Contact anchors existed in planning, but event log/config show anchor file was not loaded."
+Subjective report,TARGET_STRONG,Final ratings favored Target: Meaning/Empathy/Absorption all 7; Control 1; Override task-loaded.
+Confound registry,MILD_CONFOUND_COVARIATES,"Mild A/V sync, audio comprehension, and external noise ratings; not disqualifying."
+GammaScalpel / MeaningGamma / TaskGamma,TARGET_MEANING_DIRECTIONAL,Target MeaningGamma and TSP exceeded Control and Override; Override had higher taskgamma than Target.
+TemporalSemanticProxy,TARGET_DIRECTIONAL,Target TSP positive and greater than Control/Override.
+CandidateLocal_KHT-topo,TARGET_LOCAL_LOCKS_EXPLORATORY,"Two Target-local event locks around 161-166 s, not runner-registered confirmatory."
+MRED_v0.1,TARGET_MR_ENC_CLUSTER,Target 161-166 s cluster shows MR_HIGH_ENC_HIGH / MR_HIGH_ENC_LOW pattern.
+NAST_v0.1,MIXED_USEFUL,Target showed large MeaningGamma/TSP increase from W1; not simple alpha-drop-only.
+OCM025_v0.2,NO_CLEAN_OVERRIDE_WIDE_PASS,Only one Override OCM event above Target/Control null.
+RSM/CVB/SquintProxy,RSM_INFORMATIVE,Latent guess-risk tracked arithmetic load/carry/hard9; SquintProxy is only a covariate.
+TopoOSM_NetworkState,DIRECTIONAL_EXPLORATORY,Target forms a distinct network-state vector; transition distances reported.
+LSO/SPM Subtitle Override,NOT_APPLICABLE,No subtitle override condition or subtitle file was present.

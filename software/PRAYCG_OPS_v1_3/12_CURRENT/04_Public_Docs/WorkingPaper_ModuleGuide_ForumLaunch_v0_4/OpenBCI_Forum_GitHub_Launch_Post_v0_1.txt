@@ -1,0 +1,76 @@
+**Suggested title:** PRAYCG: open-source media-prep, protocol-runner, and analysis pipeline for exploratory narrative EEG/autonomic experiments
+
+Good afternoon everyone,
+
+I am preparing to release an open-source project built around OpenBCI-based exploratory psychophysiology. The project is called **PRAYCG**. It began as a small single-participant feasibility protocol and has grown into a full local pipeline for stimulus preparation, protocol execution, LSL/event logging, physical display-timing checks, and post-processing.
+
+I am posting here because I want technical criticism from people who understand OpenBCI hardware, EEG artifacts, LSL synchronization, and the practical failure modes of at-home or small-lab EEG. I am not presenting this as a finished scientific proof. I am releasing it as an open methods package so that the acquisition strategy, timing assumptions, artifact logic, and analysis design can be inspected and improved.
+
+Repository links:
+
+- GitHub: **[insert GitHub repository URL]**
+- OSF hub: **[insert OSF project URL]**
+
+## What PRAYCG is
+
+PRAYCG is a three-arm naturalistic viewing protocol:
+
+1. **Phase-scrambled Control** - generated from the cue-embedded Target to preserve low-level audiovisual/cue timing while disrupting recognizable meaning.
+2. **Target** - the intact narrative stimulus watched naturally.
+3. **Contextual Override** - the same intact cue-embedded Target stimulus, but watched while performing an analytic running-sum task using number cues.
+
+The basic question is whether an intact meaningful narrative produces a measurable body-brain state trajectory beyond low-level sensory entrainment and beyond analytic task demand.
+
+## What the repository contains
+
+The repository includes:
+
+- **MediaPrep / StimulusFingerprint tools** for preparing Target, Override, and phase-scrambled Control videos.
+- **Cue-schedule generation** for the Contextual Override running-sum task.
+- **Anchor-prep templates** for predeclared scene events.
+- **PRAYCG2.0 protocol runner** with consolidated self-report and per-phase confound reports.
+- **LSL / StasisMarker event logging**.
+- **ALS/PT19 photodiode-style timing support** for physical display timing checks.
+- **Master Comprehensive Analysis Suite** with feature extraction, A-MRED, MRED-Peak/Resolution, NIP, TTI, NUPI, CET-R, EET, MRED-ITP, OCM/RSM, and visual overlays.
+- **MasterSync Visualizer** for synchronized stimulus + rolling graph review videos.
+- **Offline interpretive report generator** that writes a deterministic plain-English report from a local analysis folder.
+- **Templates and docs** explaining where generated files live and how to run the workflow.
+
+## Current analysis philosophy
+
+The current analysis stack is intentionally overcomplete. I am trying to compress the confirmatory path around a cleaner endpoint called **A-MRED**:
+
+> A predeclared scene event passes only if the Target branch shows both meaning-recognition evidence and delayed integration/recovery evidence greater than Control and Override after timing, artifact, confound, and stimulus-rhythm controls.
+
+The broader suite still computes exploratory layers, but I do not want every module to be treated as an independent positive claim.
+
+## Current caution about gamma
+
+The analysis includes lower-gamma features, but I am not treating gamma as a meaning biomarker. Scalp gamma is artifact-sensitive. The suite treats gamma as a candidate work-signal proxy and applies artifact, task, visual, and condition-specificity checks. A major reason for posting here is to get better advice about OpenBCI-specific gamma artifact handling and whether the current artifact gates are too weak.
+
+## Current data status
+
+I have several self-runs that are useful for methods development. The Contact pilot is included publicly only as a **gold-plated but not gold-record** example. It is useful as a folder-layout and analysis-output demonstration, but it is not confirmatory. I am not uploading copyrighted source media or claiming final empirical proof from single-participant self-runs.
+
+## What I would especially like feedback on
+
+1. OpenBCI Cyton/Cyton+Daisy acquisition reliability and recommended QC practice.
+2. How best to handle photodiode/ALS timing validation from the screen into OpenBCI analog/AUX streams.
+3. Whether my LSL marker strategy is adequate or fragile.
+4. Whether my gamma artifact handling is sufficiently conservative.
+5. Whether adding EOG/EMG channels should be mandatory before making stronger gamma/theta claims.
+6. Whether the Contextual Override running-sum task is a reasonable analytic-control condition.
+7. Whether the analysis stack should be simplified further before public replication.
+8. Whether the folder layout and scripts are understandable for someone trying to run the pipeline locally.
+
+## What this project does not claim
+
+This does **not** claim to prove consciousness, memory biology, quantum biology, microtubules, biophotons, clinical efficacy, or metaphysics. It is an exploratory open-source protocol and analysis architecture for asking whether narrative meaning has measurable timing and physiological consequence under controlled conditions.
+
+## Why OpenBCI feedback matters
+
+This project only becomes useful if the metrology is honest. A beautiful analysis suite is worthless if the streams are misaligned, the gamma is muscle artifact, the photodiode pulse is missed, the cue task is illegible, or the control audio remains intelligible. I would rather have the community tear the pipeline apart now than let a fragile method look more mature than it is.
+
+Thanks for any criticism or suggestions. I am especially interested in practical advice from people who have used OpenBCI in real acquisition settings and have learned the hard lessons about timing, artifacts, and channel reliability.
+
+- Hoyt Banks

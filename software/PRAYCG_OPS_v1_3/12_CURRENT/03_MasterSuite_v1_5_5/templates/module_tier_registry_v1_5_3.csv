@@ -1,0 +1,13 @@
+tier,module,role
+RECOMMENDED / PRIMARY BOX,ALS timing / marker validation / MediaPrep QC,Run interpretability and timing validity gate
+RECOMMENDED / PRIMARY BOX,StimulusFingerprint + CET-R,"Tests whether MRED/NIP/TTI are reducible to luminance, audio, cuts, cue rhythm, and visual motion"
+RECOMMENDED / PRIMARY BOX,artifact_score + confound registry,"Veto/penalize jaw, blink, motion, A/V sync, external noise, cue legibility problems"
+RECOMMENDED / PRIMARY BOX,A-MRED v1.5.3,"Primary endpoint: locked anchor, Target MR+ENC > Control and Override after QC"
+RECOMMENDED SECONDARY,NIP / BIT / CII / IAQ,Immersion and Target-vs-Override attenuation summaries
+RECOMMENDED SECONDARY,TTI,Reception-vs-extraction contrast summary
+EXPLORATORY / CONVERGENCE,K_HT-topo / CandidateLocal KHT,Local coupling proxy; not primary endpoint and not biological mechanism
+EXPLORATORY / CONVERGENCE,NAST,Narrative absorption state-transition proxy
+EXPLORATORY / CONVERGENCE,EET,Washout/Baseline2 state-vector echo; not replay proof
+EXPLORATORY / CONVERGENCE,MRED-ITP / ACG / OCU,Complexity and blink-timed convergence/falsification layer; not thermodynamic proof
+OVERRIDE DIAGNOSTIC,OCM025 / RSM / CVB / SquintProxy,"Task engagement, running-sum burden, cue visibility, and visual-strain diagnostics"
+OPTIONAL VARIANT,LSO / Subtitle Override,Separate protocol variant; not default Field of Dreams run

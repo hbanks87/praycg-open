@@ -1,0 +1,10 @@
+{
+  "schema": "PRAYCG1_9D_TTI_protocol_tools_manifest",
+  "base": "PRAYCG1_9C_AnchorRegistered_Runner_Tools",
+  "added": [
+    "docs/PATCH_NOTES_PRAYCG1_9D_TTI.md",
+    "templates/tti_postrun_report_template.json",
+    "README_PRAYCG1_9D_TTI.md"
+  ],
+  "boundary": "TTI reports are interpretive covariates and do not certify physiology or consciousness."
+}

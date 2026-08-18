@@ -1,0 +1,66 @@
+{
+  "schema": "PRAYCG_module_tier_registry_v1_5_3",
+  "version": "1.5.3",
+  "tiers": [
+    {
+      "tier": "RECOMMENDED / PRIMARY BOX",
+      "module": "ALS timing / marker validation / MediaPrep QC",
+      "role": "Run interpretability and timing validity gate"
+    },
+    {
+      "tier": "RECOMMENDED / PRIMARY BOX",
+      "module": "StimulusFingerprint + CET-R",
+      "role": "Tests whether MRED/NIP/TTI are reducible to luminance, audio, cuts, cue rhythm, and visual motion"
+    },
+    {
+      "tier": "RECOMMENDED / PRIMARY BOX",
+      "module": "artifact_score + confound registry",
+      "role": "Veto/penalize jaw, blink, motion, A/V sync, external noise, cue legibility problems"
+    },
+    {
+      "tier": "RECOMMENDED / PRIMARY BOX",
+      "module": "A-MRED v1.5.3",
+      "role": "Primary endpoint: locked anchor, Target MR+ENC > Control and Override after QC"
+    },
+    {
+      "tier": "RECOMMENDED SECONDARY",
+      "module": "NIP / BIT / CII / IAQ",
+      "role": "Immersion and Target-vs-Override attenuation summaries"
+    },
+    {
+      "tier": "RECOMMENDED SECONDARY",
+      "module": "TTI",
+      "role": "Reception-vs-extraction contrast summary"
+    },
+    {
+      "tier": "EXPLORATORY / CONVERGENCE",
+      "module": "K_HT-topo / CandidateLocal KHT",
+      "role": "Local coupling proxy; not primary endpoint and not biological mechanism"
+    },
+    {
+      "tier": "EXPLORATORY / CONVERGENCE",
+      "module": "NAST",
+      "role": "Narrative absorption state-transition proxy"
+    },
+    {
+      "tier": "EXPLORATORY / CONVERGENCE",
+      "module": "EET",
+      "role": "Washout/Baseline2 state-vector echo; not replay proof"
+    },
+    {
+      "tier": "EXPLORATORY / CONVERGENCE",
+      "module": "MRED-ITP / ACG / OCU",
+      "role": "Complexity and blink-timed convergence/falsification layer; not thermodynamic proof"
+    },
+    {
+      "tier": "OVERRIDE DIAGNOSTIC",
+      "module": "OCM025 / RSM / CVB / SquintProxy",
+      "role": "Task engagement, running-sum burden, cue visibility, and visual-strain diagnostics"
+    },
+    {
+      "tier": "OPTIONAL VARIANT",
+      "module": "LSO / Subtitle Override",
+      "role": "Separate protocol variant; not default Field of Dreams run"
+    }
+  ]
+}

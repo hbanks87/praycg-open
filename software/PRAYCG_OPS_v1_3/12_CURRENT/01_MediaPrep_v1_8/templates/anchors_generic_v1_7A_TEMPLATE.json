@@ -1,0 +1,80 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_7A_TEMPLATE",
+  "status": "TEMPLATE_DRAFT",
+  "anchor_preset": "generic",
+  "instruction": "Fill rendered_time_sec on final rendered MP4, then finalize to *_LOCKED.json before loading in PRAYCG1.9C.",
+  "anchors": [
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "ANCHOR_A1_PRIMARY_MEANING_EVENT",
+      "description": "Primary predeclared media-structural meaning event. Fill exact rendered_time_sec after reviewing the final MP4."
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "ANCHOR_A2_SECONDARY_MEANING_EVENT",
+      "description": "Secondary predeclared meaning event or recognition point. Fill exact rendered_time_sec."
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "ANCHOR_A3_TERMINAL_TAPER_RELEASE",
+      "description": "Terminal taper/release event. Fill exact rendered_time_sec; keep enough post-event content for theta carryover."
+    }
+  ]
+}

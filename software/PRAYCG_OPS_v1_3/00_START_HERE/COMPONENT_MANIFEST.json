@@ -1,0 +1,165 @@
+[
+  {
+    "component_key": "01_StimulusPrep_MediaPrep_v1_6S",
+    "source_zip": "PRAYCG_MediaPrep_Protocol_v1_6S_ALS_FullscreenStartPulse_Tools.zip",
+    "destination": "01_StimulusPrep_MediaPrep_v1_6S",
+    "source_zip_sha256": "a18aafcfe5e62019295ccf51c2cd8e9cf7957f9d8b2b2f131dbc350ae478b7b1",
+    "size_bytes": 28688
+  },
+  {
+    "component_key": "02_ProtocolRunner_PRAYCG1_8B",
+    "source_zip": "PRAYCG1_8B_PredeclaredAnchors_Tools.zip",
+    "destination": "02_ProtocolRunner_PRAYCG1_8B",
+    "source_zip_sha256": "10028de89de96ac0d602d9332e9a2cce129b0cb2d799e473d3c9542806fdb144",
+    "size_bytes": 32079
+  },
+  {
+    "component_key": "03A_Acquisition_BrainFlow_ALS_PT19_v1_4",
+    "source_zip": "PRAYCG_OpenBCI_BrainFlow_ALS_PT19_Bridge_v1_4.zip",
+    "destination": "03_Acquisition/BrainFlow_ALS_PT19_Bridge_v1_4_TSC_grade",
+    "source_zip_sha256": "421dd64daa6492c041568796b8ea845e64779bdff0799ae08108086a16e9b27f",
+    "size_bytes": 48104
+  },
+  {
+    "component_key": "03B_Acquisition_BrainFlow_EEGOnly_v1_0",
+    "source_zip": "PRAYCG_BrainFlow_EEGOnly_LSL_Bridge_v1_0.zip",
+    "destination": "03_Acquisition/BrainFlow_EEGOnly_Home_Bridge_v1_0",
+    "source_zip_sha256": "7b7bdbdd63af80293707693fa6d57f2bfcd1f6b58e18f191eb0fc92a2e1e726d",
+    "size_bytes": 36248
+  },
+  {
+    "component_key": "04_StimulusFingerprint_QC_v1_5",
+    "source_zip": "PRAYCG_StimulusFingerprint_v1_5_Tools.zip",
+    "destination": "04_StimulusFingerprint_QC_v1_5",
+    "source_zip_sha256": "9eb313f680e630d60806793aa879ef12d52726fb6c56718bf8822b07c34c767f",
+    "size_bytes": 24194
+  },
+  {
+    "component_key": "05_MasterComprehensiveSuite_Visualizer_v1_4_3_MRED",
+    "source_zip": "PRAYCG_Unified_MasterSuite_v1_4_3_MRED.zip",
+    "destination": "05_MasterComprehensiveSuite_Visualizer_v1_4_3_MRED",
+    "source_zip_sha256": "e447305ce5127212bd397102d8acc4ff124b5d741058c066f84511df6d80de0d",
+    "size_bytes": 1595193
+  },
+  {
+    "component_key": "06A_OptoPING_Rung0J_PreregisteredLockIn",
+    "source_zip": "OSM_OptoPING_Rung0J_PreregisteredSyntheticLockIn_v0_1.zip",
+    "destination": "06_OptoPING_Rung0_Reproducibility/Rung0J_PreregisteredSyntheticLockIn",
+    "source_zip_sha256": "01ba8f8fa58082ffa8c995feb27fc463f07a989c8a7e448c0e58181ea5826da5",
+    "size_bytes": 288744
+  },
+  {
+    "component_key": "06B_OptoPING_Rung0K_ExternalHandoff",
+    "source_zip": "OSM_OptoPING_Rung0K_ExternalReproducibility_Handoff_v0_1.zip",
+    "destination": "06_OptoPING_Rung0_Reproducibility/Rung0K_ExternalReproducibilityHandoff",
+    "source_zip_sha256": "1e29b195a2cba24d365e2e0bb4ce4b9217455a5a4496c4b6ee161f846fdfa564",
+    "size_bytes": 131871
+  },
+  {
+    "component_key": "06C_OptoPING_Rung0L_EmptySky",
+    "source_zip": "OSM_OptoPING_Rung0L_EmptySkySpecificity_v0_1.zip",
+    "destination": "06_OptoPING_Rung0_Reproducibility/Rung0L_EmptySkySpecificity",
+    "source_zip_sha256": "cc3f4833cc82746c19716aadbe1f9bee23a66fb0f9e54fa033bbec917cc8e2e9",
+    "size_bytes": 530999
+  },
+  {
+    "component_key": "06D_OptoPING_Rung0M_NullAware",
+    "source_zip": "OSM_OptoPING_Rung0M_NullAwareModelSelection_v0_1.zip",
+    "destination": "06_OptoPING_Rung0_Reproducibility/Rung0M_NullAwareModelSelection",
+    "source_zip_sha256": "8246fd789a974543afcb47066ec2bbac4bb9adbeacb605bf17337b3089c6c870",
+    "size_bytes": 370433
+  },
+  {
+    "component_key": "06E_OptoPING_Rung0N_KNullRepair",
+    "source_zip": "OSM_OptoPING_Rung0N_KNullCalibrationRepair_v0_1.zip",
+    "destination": "06_OptoPING_Rung0_Reproducibility/Rung0N_KNullCalibrationRepair",
+    "source_zip_sha256": "89d8ff1edc233708fe333afd67eb9c00d04deb4a7c2742760a1ef6156994962b",
+    "size_bytes": 845900
+  },
+  {
+    "component_key": "06F_OptoPING_Rung0O_LockedReproduction",
+    "source_zip": "OSM_OptoPING_Rung0O_LockedNullAwareReproduction_v0_1.zip",
+    "destination": "06_OptoPING_Rung0_Reproducibility/Rung0O_LockedNullAwareReproduction",
+    "source_zip_sha256": "769af7e4d9a6de35de451dd1359b49b12f7ad76cf32733d495a23a4ce606745e",
+    "size_bytes": 639884
+  },
+  {
+    "component_key": "07_Public_GitHub_Repo_Docs_Scaffold",
+    "source_zip": "praycg-open_public_repo_docs_v0_1.zip",
+    "destination": "07_Public_GitHub_OSF_Scaffold/praycg-open_public_repo_docs",
+    "source_zip_sha256": "2c382934b266c3715c03397d5acb22968be5acf8d2dfd08d42c6699606233b26",
+    "size_bytes": 48569
+  },
+  {
+    "component_key": "legacy_MediaPrep_v1_6M",
+    "source_zip": "PRAYCG_MediaPrep_Protocol_v1_6M_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M",
+    "source_zip_sha256": "e65e81d7efee3002a171197f4e6f8ed71aca81ccec1582baf70c1e8a2d47e5c4",
+    "size_bytes": 57696,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_MediaPrep_v1_6Q",
+    "source_zip": "PRAYCG_MediaPrep_Protocol_v1_6Q_GUIButtonHotfix_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q",
+    "source_zip_sha256": "f9da997234e6f8c7815623c2cb0b1c901f49c00abc606c80c2b479fbf98cb298",
+    "size_bytes": 56566,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_MediaPrep_v1_6R_ALS_square",
+    "source_zip": "PRAYCG_MediaPrep_Protocol_v1_6R_ALS_PT19_TimingPulse_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6R_ALS_square",
+    "source_zip_sha256": "1e92942e97f4655a5dfa37a020483ae9135b50e9345fb2abe210cfa168bca68e",
+    "size_bytes": 25530,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_Protocol_v1_6S",
+    "source_zip": "PRAYCG1_6S_BrowseMedia_Windowed_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_Protocol_v1_6S",
+    "source_zip_sha256": "854eff858758be8108db37b889ed1d0d5f518583977c2804d96867e4a8b14cda",
+    "size_bytes": 19382,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_Protocol_v1_8_FinalReflection",
+    "source_zip": "PRAYCG1_8_FinalReflectionBaseline_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_Protocol_v1_8_FinalReflection",
+    "source_zip_sha256": "3c9e279a125616231417d10dde9693cc0b6d905bbc32b2d5b8bcb51165c7af63",
+    "size_bytes": 26826,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_MasterSuite_v1_3_KHT",
+    "source_zip": "PRAYCG_Master_Comprehensive_Suite_v1_3_0_HumanTranslationKHT_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MasterSuite_v1_3_KHT",
+    "source_zip_sha256": "8fae87e1af1814743bf31bce20a863d51329fa462af1d16a60edef82c9f23530",
+    "size_bytes": 46187,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_GammaScalpel",
+    "source_zip": "PRAYCG_GammaScalpel_v1_0_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_GammaScalpel",
+    "source_zip_sha256": "7ed9ed23693b1a8fe05f55ada6bbe189aebff0aadb8e66b1a895527edea4f0b9",
+    "size_bytes": 43370,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_ICA_ArtifactLibrary",
+    "source_zip": "PRAYCG_ICA_Artifact_Library_Tools.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_ICA_ArtifactLibrary",
+    "source_zip_sha256": "9b89380e5e9c6f129b9ac9c1067a74d8982cf6bc653a29d70ada3da2080f6d59",
+    "size_bytes": 28178,
+    "status": "legacy_optional"
+  },
+  {
+    "component_key": "legacy_OpenBCI_BrainFlow_v1_2_PortHelper",
+    "source_zip": "PRAYCG_OpenBCI_BrainFlow_LSL_Bridge_v1_2_PortHelper.zip",
+    "destination": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_OpenBCI_BrainFlow_v1_2_PortHelper",
+    "source_zip_sha256": "5a291002a9101c8c621df65f970bb27719c03466e53fe13462b1d436dd70a880",
+    "size_bytes": 66030,
+    "status": "legacy_optional"
+  }
+]

@@ -1,0 +1,7 @@
+generator,n_trials,K_true_scaled,median_K_hat_scaled,mean_K_hat_scaled,K_within_15_positive_rate,K_within_10_positive_rate,K_significant_rate,full_cv_win_rate_mean,full_prediction_win_rate,full_and_K_lock_rate,non_full_cv_win_rate_mean,median_K_null_p
+colored_noise_null,20,0.0,0.7887926884536016,0.7668693305973375,0.0,0.0,1.0,0.05833333333333333,0.0,0.0,0.9416666666666667,0.1
+full_reciprocal_positive_control,20,1.0,1.0067475843453353,1.0117035726979329,1.0,0.95,1.0,0.6,0.6,0.6,0.4,0.1
+generic_hidden_oscillator_null,20,0.0,0.05434842502177974,0.05498760016400298,0.0,0.0,0.1,0.0,0.0,0.0,1.0,0.75
+replay_only_null,20,0.0,0.03717159915093917,0.04252119299154826,0.0,0.0,0.05,0.041666666666666664,0.0,0.0,0.9583333333333334,0.6
+sensory_drive_only_null,20,0.0,0.07323841873978265,0.07883211435842485,0.0,0.0,0.35,0.0,0.0,0.0,1.0,0.2
+standard_ping_null,20,0.0,0.04527723904805184,0.05861280230505579,0.0,0.0,0.25,0.20833333333333331,0.1,0.0,0.7916666666666667,0.6

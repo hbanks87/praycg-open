@@ -1,0 +1,11 @@
+condition,stimulus_regressor,signal,max_abs_corr,lag_sec_signal_after_regressor
+TARGET_1,video_luminance_z,meaninggamma_score,0.2418922961068052,7
+TARGET_1,video_luminance_z,tsp_z,0.19139194670002818,7
+TARGET_1,video_luminance_z,theta_integration_z,-0.12156592676348316,4
+TARGET_1,video_luminance_z,gamma_visual_30_45_z,0.29425140627894025,1
+TARGET_1,video_luminance_z,NIP_density,-0.2678142389612007,-2
+TARGET_1,video_change_z,meaninggamma_score,0.21419316574618266,10
+TARGET_1,video_change_z,tsp_z,0.1935618715913773,10
+TARGET_1,video_change_z,theta_integration_z,0.20703901365799318,6
+TARGET_1,video_change_z,gamma_visual_30_45_z,0.3502580231696461,0
+TARGET_1,video_change_z,NIP_density,0.1696465641749665,-9

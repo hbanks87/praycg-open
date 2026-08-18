@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+mne
+pyxdf
+pylsl
+psychopy
+scikit-learn

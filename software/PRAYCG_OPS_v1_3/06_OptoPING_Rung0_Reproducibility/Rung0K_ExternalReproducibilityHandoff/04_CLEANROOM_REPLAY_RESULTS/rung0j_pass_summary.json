@@ -1,0 +1,16 @@
+{
+  "locked_spec_sha256": "d93f6146e4e77ffeffbdd5c133250fd6d474317d8af6c34c3354dd6b28756282",
+  "n_trials": 60,
+  "K_within_15_rate": 1.0,
+  "K_within_10_rate": 1.0,
+  "K_median_pct_error": 0.0281746841924499,
+  "directional_20_pass_rate": 1.0,
+  "full_model_cv_fold_win_rate": 0.8722222222222222,
+  "cv_wins": {
+    "full_reciprocal": 314,
+    "replay_only_basis": 20,
+    "zeta_only": 14,
+    "eta_only": 9,
+    "generic_hidden_oscillator": 3
+  }
+}

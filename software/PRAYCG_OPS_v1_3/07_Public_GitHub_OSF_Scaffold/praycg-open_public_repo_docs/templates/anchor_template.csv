@@ -1,0 +1,2 @@
+anchor_id,stimulus_id,source,condition_scope,claim_level,rendered_time_sec,content_time_sec,pre_window_start_sec,pre_window_end_sec,peak_window_start_sec,peak_window_end_sec,theta_window_start_sec,theta_window_end_sec,description,reviewer_initials,frozen_before_analysis,notes
+EXAMPLE_A1_SCENE_EVENT,STIMULUS_ID,media_structural,all_branches,confirmatory_if_loaded_before_run,113.9,112.65,-15,0,0,10,10,30,"Describe objective scene event, not subjective timestamp.",HB,true,Example only; replace before use.

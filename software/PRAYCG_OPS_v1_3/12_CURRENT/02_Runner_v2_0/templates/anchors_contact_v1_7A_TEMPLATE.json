@@ -1,0 +1,111 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_7A_TEMPLATE",
+  "status": "TEMPLATE_DRAFT",
+  "anchor_preset": "contact",
+  "instruction": "Fill rendered_time_sec on final rendered MP4, then finalize to *_LOCKED.json before loading in PRAYCG1.9C.",
+  "anchors": [
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        10.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "CONTACT_A1_PENSACOLA_REALIZATION",
+      "description": "Ellie recognizes the surreal beach as a memory-derived Pensacola-like environment.",
+      "special_controls": [
+        "visual_luminance_penalty_required",
+        "visual_control_channels_required"
+      ]
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        12.0
+      ],
+      "theta_carryover_window_sec": [
+        10.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+      "description": "The figure resolves into the father/avatar; semantic contradiction and attachment recognition.",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH"
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        0.0,
+        35.0
+      ],
+      "theta_carryover_window_sec": [
+        35.0,
+        65.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET",
+      "description": "Onset of the central philosophical payload about loneliness, dreams/nightmares, and connection.",
+      "predicted_signal_shape": "sustained_meaninggamma_tsp_elevation"
+    },
+    {
+      "source": "media_structural_human_review_required",
+      "claim_level": "DRAFT_NOT_CONFIRMATORY_UNTIL_LOCKED_AND_RUNNER_REGISTERED",
+      "condition_scope": "all_branches",
+      "time_basis": "rendered_video_sec",
+      "pre_window_sec": [
+        -15.0,
+        0.0
+      ],
+      "expected_peak_search_window_sec": [
+        -10.0,
+        5.0
+      ],
+      "theta_carryover_window_sec": [
+        0.0,
+        30.0
+      ],
+      "comparison_rule": "Target must exceed matched Control and Contextual Override under artifact/timing veto for endpoint interpretation.",
+      "needs_exact_rendered_timecode": true,
+      "rendered_time_sec": null,
+      "content_time_sec": null,
+      "anchor_id": "CONTACT_A4_SMALL_MOVES_TAPER_RELEASE",
+      "description": "Terminal taper/release after the final payload line.",
+      "allow_paired_washout_continuation": true
+    }
+  ]
+}

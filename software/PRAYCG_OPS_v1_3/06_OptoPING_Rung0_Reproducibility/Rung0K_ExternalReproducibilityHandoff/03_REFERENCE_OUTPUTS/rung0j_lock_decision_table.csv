@@ -1,0 +1,7 @@
+criterion,observed,threshold,pass,interpretation
+Primary K-lock power,1.0,>=0.90 trials K error <=15%,True,Primary composite endpoint stability.
+Median K precision,0.0281746841924499,<=0.10 median K error,True,Composite endpoint precision.
+Strict K-lock secondary,1.0,>=0.80 trials K error <=10%,True,Stricter composite endpoint check.
+Held-out specificity,0.8722222222222222,>=0.80 full reciprocal CV fold win rate,True,"Tests against replay-only, eta-only, zeta-only, generic hidden, and null alternatives."
+Directional secondary,1.0,>=0.80 trials eta and zeta each <=20% error,True,"Directional decomposition may be reported after K-lock, with ridge caveat."
+Alternative dominance warning,0.05555555555555555,<=0.20 for any single non-full alternative,True,No single alternative should dominate held-out folds.

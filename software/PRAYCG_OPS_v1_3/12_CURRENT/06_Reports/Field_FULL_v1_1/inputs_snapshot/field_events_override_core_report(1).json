@@ -1,0 +1,17 @@
+{
+  "boundary": "Self-report contextualizes physiology; it is not proof of internal state or mechanism.",
+  "branch_label": "Contextual Override",
+  "branch_type": "override",
+  "confound_detail_recommended": true,
+  "phase_name": "OVERRIDE_1_AFTER_WASHOUT_3",
+  "ratings": {
+    "Absorption": 5,
+    "ConfoundBurden": 3,
+    "EmotionalAfterglow": 5,
+    "Meaning": 5,
+    "StoryActiveWashout": 5,
+    "TaskExtractionLoad": 5
+  },
+  "scene_note": "kevin costner's dad want to have a catch line and emotional face still meaningfully appealed to me. his emotion perfectly captures a dad, husband, desperately seeking attention from his father",
+  "schema": "PRAYCG2_0_branch_core_report_v1"
+}

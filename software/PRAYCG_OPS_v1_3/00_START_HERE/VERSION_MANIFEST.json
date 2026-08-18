@@ -1,0 +1,15 @@
+{
+  "pack_name": "PRAYCG_Master_Operations_Pack_v1_1_AllCode",
+  "created_utc": "2026-08-10T22:26:37.954382+00:00",
+  "current_components": {
+    "MediaPrep": "v1.6S fullscreen ALS start pulse",
+    "ProtocolRunner": "PRAYCG1.8B predeclared anchors + final reflection baseline lineage",
+    "Acquisition": "BrainFlow ALS-PT19 v1.4 and EEG-only v1.0",
+    "StimulusFingerprint": "v1.5",
+    "MasterSuiteVisualizer": "Unified Master Suite v1.4.3 MRED with CandidateLocal_KHT, cross-boundary follow-up, folder-picker/auto-feature visualizer patch",
+    "OptoPINGSynthetic": "Rung0J through Rung0O scripts and reports"
+  },
+  "python_files_indexed": 65,
+  "raw_data_included": false,
+  "copyrighted_media_included": false
+}

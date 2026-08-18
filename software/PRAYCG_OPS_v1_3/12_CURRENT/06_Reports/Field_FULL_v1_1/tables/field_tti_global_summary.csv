@@ -1,0 +1,2 @@
+TTI_global,target_MR_proxy,override_MR_proxy,target_ENC_proxy,override_ENC_proxy,target_taskgamma,override_taskgamma,target_artifact,override_artifact,interpretation
+0.567780349544646,-0.04178711837867069,-0.6002809823512162,0.002881017994831396,0.14978700026136357,-0.9114985431229404,0.669907949223386,0.46406885308978874,0.5690507676640467,positive means Target more receptive/meaning-integrative and Override more extractive/task-like; exploratory

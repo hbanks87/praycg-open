@@ -1,0 +1,11 @@
+x,y,spearman_rho,p_value,n
+arithmetic_compute_load,compute_stall_score,0.2957644297450123,0.0023016567389490907,104
+arithmetic_compute_load,latent_guess_risk,0.566702229809026,3.5909838542541343e-10,104
+carry_required,compute_stall_score,0.2383728530252178,0.014818250424761759,104
+carry_required,latent_guess_risk,0.37632753243415945,8.244652941840075e-05,104
+high_carry_load,latent_guess_risk,0.4153053105732518,1.1662545506332315e-05,104
+hard9_pattern,compute_stall_score,0.17577016975611645,0.07429878770924478,104
+hard9_pattern,latent_guess_risk,0.24863489467319744,0.010926458638509948,104
+cue_visibility_burden,latent_guess_risk,0.6943027845940468,3.0133931997658065e-16,104
+override_minus_target_1_WMU_frontaltheta_4_8,latent_guess_risk,0.5090472634161956,3.4313142249112095e-08,104
+override_minus_target_1_DR_taskgamma_35_40,cue_visibility_burden,-0.43916568868025185,3.1055830267258657e-06,104

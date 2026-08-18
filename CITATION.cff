@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this PRAYCG pipeline, please cite it as below."
+title: "PRAYCG Open: An exploratory pipeline for state-locked narrative psychophysiology"
+authors:
+  - family-names: "Banks"
+    given-names: "Hoyt"
+version: "0.1-public-predata"
+date-released: "2026-08-18"
+license: "MIT AND CC-BY-4.0"
+repository-code: "https://github.com/<your-user>/<your-repo>"
+abstract: "Open-source media preparation, protocol-running, timing/QC, analysis, and visualization tools for PRAYCG, an exploratory three-arm psychophysiology protocol comparing phase-scrambled control, intact narrative target, and contextual override."
+keywords:
+  - EEG
+  - OpenBCI
+  - naturalistic viewing
+  - narrative psychophysiology
+  - Lab Streaming Layer
+  - open science

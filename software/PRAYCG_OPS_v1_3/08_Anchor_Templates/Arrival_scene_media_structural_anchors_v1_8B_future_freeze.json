@@ -1,0 +1,58 @@
+{
+  "schema": "PRAYCG_predeclared_media_structural_anchors_v1_8B",
+  "stimulus_family": "Arrival_End_scene",
+  "status": "future_freeze_from_prior_exploratory_scene_map",
+  "doctrine": "Exploratory in the original run; confirmatory only if loaded before a future run or before physiology analysis.",
+  "anchors": [
+    {
+      "anchor_id": "ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0",
+      "rendered_time_sec": 68.0,
+      "scene_label": "future/tragedy acceptance line completes",
+      "prediction": "high meaning-recognition gamma/TSP; encoding depends on novelty/familiarity",
+      "claim_level": "future_freeze_only"
+    },
+    {
+      "anchor_id": "ARR_A2_STARDUST_CRINGE_120P0",
+      "rendered_time_sec": 120.0,
+      "scene_label": "Star dust line cringe / aversive semantic prediction-error candidate",
+      "prediction": "cringe/salience candidate; not necessarily theta handoff",
+      "claim_level": "future_freeze_only"
+    },
+    {
+      "anchor_id": "ARR_A3_READING_LETTERS_169P0",
+      "rendered_time_sec": 169.0,
+      "scene_label": "mother teaches daughter to read letters",
+      "prediction": "autobiographical resonance; possible MR high with variable ENC",
+      "claim_level": "future_freeze_only"
+    },
+    {
+      "anchor_id": "ARR_A4_CHILD_LIFE_MONTAGE_251P0",
+      "rendered_time_sec": 251.0,
+      "scene_label": "child-like activities montage under tragic foreknowledge",
+      "prediction": "empathic simulation/autobiographical projection; MR high, ENC depends on novelty",
+      "claim_level": "future_freeze_only"
+    },
+    {
+      "anchor_id": "ARR_A5_HELD_BY_YOU_FINAL_310P0",
+      "rendered_time_sec": 310.0,
+      "scene_label": "hug / 'I forgot how good it felt to be held by you' attachment cue",
+      "prediction": "attachment-recognition peak; theta handoff not guaranteed",
+      "allow_paired_washout_continuation": true,
+      "claim_level": "future_freeze_only"
+    }
+  ],
+  "default_windows": {
+    "pre_window_sec": [
+      -15,
+      0
+    ],
+    "peak_search_window_sec": [
+      0,
+      10
+    ],
+    "theta_carryover_window_sec": [
+      10,
+      30
+    ]
+  }
+}

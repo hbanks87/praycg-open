@@ -1,0 +1,17 @@
+{
+  "boundary": "Self-report contextualizes physiology; it is not proof of internal state or mechanism.",
+  "branch_label": "Target",
+  "branch_type": "target",
+  "confound_detail_recommended": true,
+  "phase_name": "TARGET_1_AFTER_WASHOUT_2",
+  "ratings": {
+    "Absorption": 7,
+    "ConfoundBurden": 4,
+    "EmotionalAfterglow": 8,
+    "Meaning": 7,
+    "StoryActiveWashout": 7,
+    "TaskExtractionLoad": 6
+  },
+  "scene_note": "kevin costners emotionally poingnant question combined with his facial expression of dad do you want to have a catch and his dad's reply. overall, the clip was meaningful but not in an arrival or contact fashion.",
+  "schema": "PRAYCG2_0_branch_core_report_v1"
+}

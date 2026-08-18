@@ -1,0 +1,25 @@
+{
+  "package": "PRAYCG_MediaPrep_Protocol_v1_7A_AnchorPrep_Tools",
+  "version": "1.7A",
+  "created_utc": "2026-08-16T03:50:00.143080+00:00",
+  "purpose": "MediaPrep v1.7A with fullscreen ALS start pulse and DRAFT/LOCKED predeclared-anchor workflow.",
+  "main_scripts": [
+    "scripts/praycg_media_prep_gui_v1_7A.py",
+    "scripts/praycg_anchor_lock_finalizer_v1_7A.py",
+    "scripts/run_PRAYCG_MediaPrep_v1_7A.py"
+  ],
+  "docs": [
+    "README_PRAYCG_MediaPrep_Protocol_v1_7A.md",
+    "PATCH_NOTES_v1_7A_ANCHORPREP.md",
+    "docs/KISS_WORKFLOW_v1_7A.md",
+    "docs/WHERE_ANCHOR_FILES_GO_v1_7A.md",
+    "docs/CONTACT_ETERNAL_SUNSHINE_ANCHOR_PRESETS_v1_7A.md"
+  ],
+  "anchor_presets": [
+    "generic",
+    "contact",
+    "eternal_sunshine",
+    "contact_eternal_sunshine"
+  ],
+  "boundary": "Media prep and anchor timing scaffold only. Does not certify meaning, physiology, OSM, or endpoint validity."
+}

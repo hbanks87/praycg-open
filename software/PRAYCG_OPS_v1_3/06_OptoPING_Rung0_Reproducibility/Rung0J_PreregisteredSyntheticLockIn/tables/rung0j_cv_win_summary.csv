@@ -1,0 +1,6 @@
+model,wins,total_folds,win_rate
+full_reciprocal,314,360,0.8722222222222222
+replay_only_basis,20,360,0.05555555555555555
+zeta_only,14,360,0.03888888888888889
+eta_only,9,360,0.025
+generic_hidden_oscillator,3,360,0.008333333333333333

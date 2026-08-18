@@ -1,0 +1,5 @@
+model,phase,train_r2,blocked_cv_r2,n,regressors,limitation
+cue_only,CONTROL_1,0.00498497433103251,-0.06310338148913064,308,"cue_on,cue_value,cue_onset_impulse,cue_phase_sin,cue_phase_cos",cue-only CET; no full visual/audio/cut-rate regressors for Arrival in this workspace
+cue_only,TARGET_1,0.006670231316863062,-0.04966900069958169,308,"cue_on,cue_value,cue_onset_impulse,cue_phase_sin,cue_phase_cos",cue-only CET; no full visual/audio/cut-rate regressors for Arrival in this workspace
+cue_only,CONTEXTUAL_OVERRIDE_1,0.012384389479865754,-0.005125091784800029,308,"cue_on,cue_value,cue_onset_impulse,cue_phase_sin,cue_phase_cos",cue-only CET; no full visual/audio/cut-rate regressors for Arrival in this workspace
+cue_only,POOLED,0.0016394881573236209,-0.062269397230535706,924,"cue_on,cue_value,cue_onset_impulse,cue_phase_sin,cue_phase_cos",cue-only CET; no full visual/audio/cut-rate regressors for Arrival in this workspace

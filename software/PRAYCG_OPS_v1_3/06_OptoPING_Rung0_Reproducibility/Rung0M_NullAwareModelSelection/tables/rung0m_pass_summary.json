@@ -1,0 +1,30 @@
+{
+  "schema": "OSM_OptoPING_Rung0M_NullAwareModelSelection_results_v0_1",
+  "spec_sha256": "6e9be8fc28625ad63c851af513eb39195d321bef0865ccbe18311b0208e47659",
+  "n_trials_total": 120,
+  "n_positive_trials": 20,
+  "n_null_trials": 100,
+  "positive_control": {
+    "full_and_K_lock_rate": 0.6,
+    "K_significant_rate": 1.0,
+    "K_within_15_rate": 1.0,
+    "K_within_10_rate": 0.95,
+    "full_model_cv_win_rate_mean": 0.5999999999999999,
+    "median_K_hat_scaled": 1.0067475843453353
+  },
+  "empty_sky_nulls": {
+    "overall_false_full_and_K_lock_rate": 0.0,
+    "overall_K_significant_rate": 0.35,
+    "overall_full_model_cv_win_rate_mean": 0.06166666666666667,
+    "overall_non_full_cv_win_rate_mean": 0.9383333333333332,
+    "overall_median_K_hat_scaled": 0.06428735330498983,
+    "overall_median_K_null_p": 0.5
+  },
+  "global_decisions": {
+    "positive_full_and_K_lock_rate": 0.6,
+    "overall_null_false_full_and_K_lock_rate": 0.0,
+    "all_generator_thresholds_pass": false
+  },
+  "overall_status": "PARTIAL_OR_FAILED_NULL_AWARE_SPECIFICITY",
+  "boundary": "Synthetic sensitivity/specificity calibration only; no biological, PR-AYC-G, human EEG, microtubular memory, biophotonic, or OSM mechanism claim."
+}

@@ -1,0 +1,12 @@
+{
+  "notes": "none",
+  "ratings": {
+    "AudioVideoSyncConfidence": 8,
+    "CueBlurSample": 8,
+    "CueLegibilitySample": 8,
+    "CurrentFatigueDiscomfort": 1,
+    "NeedToSquintSample": 8,
+    "SpeakerAudibilityConfidence": 8
+  },
+  "schema": "PRAYCG2_0_prerun_display_audio_calibration_v1"
+}

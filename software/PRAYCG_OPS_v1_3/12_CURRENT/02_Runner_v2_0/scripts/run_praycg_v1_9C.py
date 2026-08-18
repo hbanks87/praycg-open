@@ -1,0 +1,2 @@
+from run_PRAYCG1_9C_AnchorRegistered import run_full_experiment
+run_full_experiment()

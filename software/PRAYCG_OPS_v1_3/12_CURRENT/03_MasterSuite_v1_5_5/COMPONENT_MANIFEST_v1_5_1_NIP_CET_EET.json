@@ -1,0 +1,12 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_5_1_NIP_CET_EET",
+  "version": "1.5.1",
+  "added_modules": [
+    "NIP_v0.1",
+    "BIT_v0.1",
+    "CII_v0.1",
+    "IAQ_v0.1",
+    "CET_EET_v0.1"
+  ],
+  "boundary": "Macroscopic PRAYCG proxy layer only."
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "OSM_OptoPING_Rung0L_EmptySkySpecificity_v0_1",
+  "purpose": "Empty-sky specificity: reciprocal Opto-PING must stay quiet on loop-absent Standard-PING/null synthetic data.",
+  "seed_policy": {
+    "seed_start": 920001,
+    "n_trials_per_generator": 60
+  },
+  "generators": [
+    "full_reciprocal_positive_control",
+    "standard_ping_null",
+    "replay_only_null",
+    "sensory_drive_only_null",
+    "generic_hidden_oscillator_null",
+    "colored_noise_null"
+  ],
+  "perturbation_conditions": [
+    "doublet_EY",
+    "orthogonal_trap",
+    "counterphase",
+    "lagged_E_to_Y",
+    "recovery_probe",
+    "lagged_Y_to_E"
+  ],
+  "samples_per_condition": 32,
+  "models": [
+    "full_reciprocal",
+    "eta_only",
+    "zeta_only",
+    "null_no_coupling",
+    "replay_only_basis",
+    "standard_ping",
+    "generic_hidden_oscillator",
+    "sensory_drive_only"
+  ],
+  "pass_criteria": {
+    "positive_control_full_model_cv_win_rate_min": 0.8,
+    "positive_control_K_within_15_rate_min": 0.8,
+    "null_full_model_cv_win_rate_max": 0.2,
+    "null_false_K_lock_rate_max": 0.1,
+    "null_non_full_cv_win_rate_min": 0.8,
+    "null_median_K_hat_max": 0.3
+  },
+  "boundary": "Synthetic specificity only; no biological, PR-AYC-G, human EEG, or OSM mechanism claim.",
+  "spec_sha256": "07b72130147812bd9f4cbf206bc224ff2af05874ab9ad1f554ed80310a64e8ae"
+}

@@ -1,0 +1,15 @@
+tier,module,role,confirmatory_status
+BOXED_PRIMARY_PATH,Timing/QC,Determines whether the run is interpretable,gate
+BOXED_PRIMARY_PATH,StimulusFingerprint/CET-R,Tests whether stimulus rhythm explains candidate effects,gate
+BOXED_PRIMARY_PATH,Artifact/confound gates,Vetoes or downgrades contaminated windows,gate
+BOXED_PRIMARY_PATH,A-MRED,Primary anchor-locked endpoint,primary
+BOXED_PRIMARY_PATH,MRED-Peak / MRED-Resolution,Endpoint compression around acute peak versus delayed resolution,primary_compression
+SECONDARY,NIP/BIT/CII/IAQ,Immersion proxy and Target-vs-Override attenuation summaries,secondary
+SECONDARY,TTI,Reception/extraction tradeoff summary,secondary
+SECONDARY,NUPI,Narrative update polarity summary,secondary
+EXPLORATORY,KHT-topo,Local reciprocal coupling proxy,exploratory
+EXPLORATORY,NAST,Narrative absorption state transition proxy,exploratory
+EXPLORATORY,EET,Endogenous echo/state-vector resemblance into after-state,exploratory
+EXPLORATORY,MRED-ITP / ACG / OCU,Complexity/blink convergence layer,exploratory
+EXPLORATORY,OCM025 / RSM / CVB / SquintProxy,Override cue and task-burden diagnostics,exploratory
+EXPLORATORY,LSO / Subtitle Override,Subtitle/lexical extraction variant,optional_exploratory

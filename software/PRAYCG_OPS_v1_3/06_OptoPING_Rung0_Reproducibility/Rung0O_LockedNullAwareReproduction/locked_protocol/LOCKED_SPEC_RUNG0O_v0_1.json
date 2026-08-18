@@ -1,0 +1,184 @@
+{
+  "K_thresholds_from_Rung0N": [
+    {
+      "generator": "colored_noise_null",
+      "median_K_null": 0.1343229584387365,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.2477832786153378,
+      "q975_K_null": 0.2868788098535778,
+      "q99_K_null": 0.3420993701501039,
+      "selected_threshold": 0.3420993701501039,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    },
+    {
+      "generator": "generic_hidden_null",
+      "median_K_null": 0.1227334873263465,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.2190424190992379,
+      "q975_K_null": 0.2432360269083611,
+      "q99_K_null": 0.2740137722534731,
+      "selected_threshold": 0.2740137722534731,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    },
+    {
+      "generator": "permuted_label_null",
+      "median_K_null": 0.0609544612062952,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.1112073974761251,
+      "q975_K_null": 0.1195330829294827,
+      "q99_K_null": 0.1310309991801246,
+      "selected_threshold": 0.2136443208169237,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    },
+    {
+      "generator": "replay_only_null",
+      "median_K_null": 0.0498859659018648,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.0894169353936897,
+      "q975_K_null": 0.096396250251724,
+      "q99_K_null": 0.1056528922086697,
+      "selected_threshold": 0.2136443208169237,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    },
+    {
+      "generator": "sensory_drive_only_null",
+      "median_K_null": 0.0699739047001211,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.1282374888830237,
+      "q975_K_null": 0.1389983319871272,
+      "q99_K_null": 0.1516188766678669,
+      "selected_threshold": 0.2136443208169237,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    },
+    {
+      "generator": "standard_ping_null",
+      "median_K_null": 0.0550618527577216,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.1045855895671289,
+      "q975_K_null": 0.1125889534479658,
+      "q99_K_null": 0.1235832602641159,
+      "selected_threshold": 0.2136443208169237,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    },
+    {
+      "generator": "time_reversed_null",
+      "median_K_null": 0.0549877373144503,
+      "n_calibration": 5000,
+      "pooled_q95_K_null": 0.1858213587918343,
+      "pooled_q975_K_null": 0.2136443208169237,
+      "pooled_q99_K_null": 0.2482562304197383,
+      "q95_K_null": 0.0967488298953924,
+      "q975_K_null": 0.1040169548072205,
+      "q99_K_null": 0.1106355457046435,
+      "selected_threshold": 0.2136443208169237,
+      "threshold_rule": "max(generator_q99, pooled_q975)"
+    }
+  ],
+  "boundary": "Locked synthetic reproduction of null-aware specificity gate only; no biological, human EEG, microtubular, biophotonic, or OSM mechanism claim.",
+  "final_lock_rule": "Final lock requires full reciprocal prediction win AND locked generator-calibrated K significance. K significance is not interpreted independently.",
+  "folds_per_trial": 6,
+  "fresh_reproduction_seed": 20260805,
+  "full_predictive_win_threshold": 0.6,
+  "generators": {
+    "colored_noise_null": {
+      "description": "Structured colored-noise null retained from Rung 0L/0M.",
+      "k_mu": 0.13,
+      "k_sd": 0.06,
+      "n": 50,
+      "type": "null"
+    },
+    "full_reciprocal_positive": {
+      "description": "Loop-present positive control: reciprocal E <-> Y structure is present.",
+      "k_mu": 1.0,
+      "k_sd": 0.055,
+      "n": 60,
+      "type": "positive"
+    },
+    "generic_hidden_null": {
+      "description": "Hidden oscillator exists, but not the Opto-PING reciprocal loop.",
+      "k_mu": 0.12,
+      "k_sd": 0.055,
+      "n": 50,
+      "type": "null"
+    },
+    "permuted_label_null": {
+      "description": "Permutation/shuffled-label negative control.",
+      "k_mu": 0.06,
+      "k_sd": 0.03,
+      "n": 50,
+      "type": "null"
+    },
+    "replay_only_null": {
+      "description": "Autoregressive replay/echo null with no reciprocal hidden-Y loop.",
+      "k_mu": 0.05,
+      "k_sd": 0.025,
+      "n": 50,
+      "type": "null"
+    },
+    "sensory_drive_only_null": {
+      "description": "Exogenous input-only null: u(t) explains the observed structure.",
+      "k_mu": 0.07,
+      "k_sd": 0.035,
+      "n": 50,
+      "type": "null"
+    },
+    "standard_ping_null": {
+      "description": "Standard PING / E-I null with no reciprocal hidden-Y loop.",
+      "k_mu": 0.055,
+      "k_sd": 0.03,
+      "n": 50,
+      "type": "null"
+    },
+    "time_reversed_null": {
+      "description": "Time-reversed negative control.",
+      "k_mu": 0.055,
+      "k_sd": 0.025,
+      "n": 50,
+      "type": "null"
+    }
+  },
+  "models": [
+    "full_reciprocal",
+    "eta_only",
+    "zeta_only",
+    "null_no_coupling",
+    "replay_only_basis",
+    "standard_ping",
+    "sensory_drive_only",
+    "generic_hidden_oscillator",
+    "colored_noise_alt"
+  ],
+  "no_tuning_statement": "Rung 0O did not re-estimate null thresholds, did not retune the penalty, did not alter model alternatives, and did not modify pass/fail targets.",
+  "pass_fail_targets": {
+    "null_false_full_plus_K_lock_rate_max": 0.05,
+    "null_interpreted_K_rate_max": 0.05,
+    "null_non_full_predictive_win_rate_min": 0.85,
+    "positive_K_significant_rate_min": 0.9,
+    "positive_full_plus_K_lock_rate_min": 0.8
+  },
+  "purpose": "Freeze the Rung 0N null-aware specificity specification and run a fresh seed set without changing thresholds, penalties, alternatives, or reporting logic.",
+  "rung0n_locked_spec_path_in_source_runtime": "/mnt/data/OSM_OptoPING_Rung0N_KNullCalibrationRepair_v0_1/locked_spec/LOCKED_SPEC_RUNG0N_v0_1.json",
+  "rung0n_locked_spec_sha256": "f11cc9662d5a666c10f29e11f70c88a04e377e6499e87ae0bb1f1632e884a6b8",
+  "rung0o_locked_spec_sha256": "20a86ea93b936ab9ea0e1ba5f277ed94259f57e0e0094a929e1e25740645cd6c",
+  "schema": "OSM_OptoPING_Rung0O_LockedNullAwareReproduction_spec_v0_1",
+  "selected_penalty": 0.04,
+  "version": "0.1"
+}

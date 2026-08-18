@@ -1,0 +1,6 @@
+{
+  "package": "PRAYCG1_9B_TopoOSM_Protocol_Tools",
+  "created_utc": "2026-08-14T21:15:12Z",
+  "based_on": "PRAYCG1_9_ConfoundAware_Runner_Tools",
+  "boundary": "human-scale network-state topology; no cellular/molecular OSM inference"
+}

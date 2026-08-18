@@ -1,0 +1,7 @@
+1
+00:00:12,000 --> 00:00:14,500
+Example subtitle line.
+
+2
+00:00:18,000 --> 00:00:20,000
+Second subtitle line.

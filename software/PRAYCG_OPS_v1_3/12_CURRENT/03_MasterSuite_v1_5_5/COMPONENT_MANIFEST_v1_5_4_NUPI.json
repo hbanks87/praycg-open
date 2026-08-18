@@ -1,0 +1,21 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_5_4_NUPI",
+  "added_modules": [
+    "NUPI_v0.1 - Narrative Update Polarity Index"
+  ],
+  "new_scripts": [
+    "scripts/praycg_nupi_module_v1_5_4.py",
+    "scripts/praycg_master_sync_visualizer_v1_3_4.py"
+  ],
+  "new_docs": [
+    "docs/NUPI_Narrative_Update_Polarity_Method_v1_5_4.md",
+    "docs/PATCH_NOTES_v1_5_4_NUPI.md"
+  ],
+  "new_outputs": [
+    "nupi_run_summary.csv",
+    "nupi_anchor_polarity_table.csv",
+    "nupi_visual_overlay.csv",
+    "nupi_interpretation.json"
+  ],
+  "boundary": "NUPI is a proxy-level update-polarity classifier. It is not literal thermodynamics, clinical scoring, moral scoring, or proof of consciousness."
+}

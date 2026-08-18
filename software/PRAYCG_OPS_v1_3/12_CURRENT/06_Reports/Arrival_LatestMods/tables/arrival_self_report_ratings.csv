@@ -1,0 +1,4 @@
+phase,Absorption,AnalyticEffort,EmotionalAfterglow,Empathy,FatigueDiscomfort,Meaning,MindWandering,NumberCueDistraction,OverrideLeakage,ProtocolThoughts,StoryActiveWashout,TaskCompliance
+CONTROL_1_AFTER_WASHOUT_1,1,1,1,1,1,1,4,0,0,3,1,7
+TARGET_1_AFTER_WASHOUT_2,7,2,8,8,1,7,2,2,3,2,7,8
+OVERRIDE_1_AFTER_WASHOUT_3,3,8,2,3,1,3,2,0,0,2,2,8

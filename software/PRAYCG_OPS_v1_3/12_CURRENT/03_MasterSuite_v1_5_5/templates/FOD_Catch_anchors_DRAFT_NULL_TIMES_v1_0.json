@@ -1,0 +1,183 @@
+{
+  "schema": "PRAYCG_predeclared_anchor_schedule_v1_7A_FieldOfDreams",
+  "version": "1.0_FIELD_OF_DREAMS_CATCH_SCENE_DRAFT_NULL_TIMES",
+  "project_name": "FieldOfDreams_CatchScene_Dad_Want_To_Have_A_Catch",
+  "created_utc": "2026-08-17T17:40:33Z",
+  "status": "DRAFT_NULL_TIMECODES__FILL_RENDERED_TIME_SEC_AND_LOCK",
+  "intended_protocol": "PRAYCG2.0_or_PRAYCG1.9C_plus",
+  "approx_clip_duration_sec": 180.0,
+  "anchor_time_basis": "estimated_relative_seconds_from_clip_start; must be edited to exact rendered_time_sec from final MediaPrep Target MP4",
+  "primary_endpoint": "A-MRED_v1.5.3; primary anchors are A2/A3/A4",
+  "boundary": "Anchor registration freezes timing hypotheses only. It does not certify MRED, A-MRED, NIP, TTI, OSM, consciousness, memory formation, or biological mechanism.",
+  "anchors": [
+    {
+      "anchor_id": "FOD_A1_FATHER_RECOGNITION_APPROACH",
+      "scene_label": "Ray recognizes the approaching young man as his father / father-presence becomes narratively available",
+      "rendered_time_sec": null,
+      "rendered_time_sec_estimate": 24.0,
+      "time_verification_status": "estimated_not_frame_verified__EDIT_BEFORE_CONFIRMATORY_USE",
+      "anchor_lock_status": "DRAFT_NULL_TIME_NOT_RUNNER_READY",
+      "condition_scope": "all_branches",
+      "a_mred_role": "secondary_recognition_anchor",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_LOW_or_MR_HIGH_ENC_HIGH_depending_on_familiarity",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        10
+      ],
+      "theta_carryover_window_sec": [
+        10,
+        30
+      ],
+      "allow_paired_washout_continuation": false,
+      "primary_endpoint_use": false,
+      "expected_signal_shape": "meaning_recognition_or_attachment_schema_reactivation",
+      "analysis_notes": "Useful as an early recognition anchor, but not the primary endpoint because it may be schema recognition without the repair/integration event.",
+      "claim_boundary": "Estimated timecodes must be frame-verified on the final rendered Target MP4 before strict A-MRED interpretation."
+    },
+    {
+      "anchor_id": "FOD_A2_DAD_WANT_TO_HAVE_A_CATCH_REQUEST",
+      "scene_label": "Ray asks his father to have a catch; verbal relational repair request",
+      "rendered_time_sec": null,
+      "rendered_time_sec_estimate": 58.0,
+      "time_verification_status": "estimated_not_frame_verified__EDIT_BEFORE_CONFIRMATORY_USE",
+      "anchor_lock_status": "DRAFT_NULL_TIME_NOT_RUNNER_READY",
+      "condition_scope": "all_branches",
+      "a_mred_role": "PRIMARY_A_MRED_ANCHOR",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        12
+      ],
+      "theta_carryover_window_sec": [
+        8,
+        30
+      ],
+      "allow_paired_washout_continuation": false,
+      "primary_endpoint_use": true,
+      "expected_signal_shape": "sharp semantic_attachment_request with delayed theta_topological_carryover",
+      "analysis_notes": "Primary A-MRED anchor. The prediction is not merely a gamma spike; it is Target-specific recognition plus delayed integration/carryover beyond Control and Override.",
+      "claim_boundary": "Estimated timecodes must be frame-verified on the final rendered Target MP4 before strict A-MRED interpretation."
+    },
+    {
+      "anchor_id": "FOD_A3_FATHER_ACCEPTANCE_RESPONSE",
+      "scene_label": "Father accepts the request; tension resolves into reciprocal availability",
+      "rendered_time_sec": null,
+      "rendered_time_sec_estimate": 72.0,
+      "time_verification_status": "estimated_not_frame_verified__EDIT_BEFORE_CONFIRMATORY_USE",
+      "anchor_lock_status": "DRAFT_NULL_TIME_NOT_RUNNER_READY",
+      "condition_scope": "all_branches",
+      "a_mred_role": "PRIMARY_A_MRED_ANCHOR",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        12
+      ],
+      "theta_carryover_window_sec": [
+        8,
+        30
+      ],
+      "allow_paired_washout_continuation": false,
+      "primary_endpoint_use": true,
+      "expected_signal_shape": "recognition-to-acceptance transition with possible theta handoff",
+      "analysis_notes": "Primary anchor for whether the verbal request becomes accepted/embodied rather than only recognized.",
+      "claim_boundary": "Estimated timecodes must be frame-verified on the final rendered Target MP4 before strict A-MRED interpretation."
+    },
+    {
+      "anchor_id": "FOD_A4_FIRST_THROW_FIRST_CATCH_EMBODIED_REPAIR",
+      "scene_label": "The first throw/catch converts the verbal request into embodied reciprocal play",
+      "rendered_time_sec": null,
+      "rendered_time_sec_estimate": 92.0,
+      "time_verification_status": "estimated_not_frame_verified__EDIT_BEFORE_CONFIRMATORY_USE",
+      "anchor_lock_status": "DRAFT_NULL_TIME_NOT_RUNNER_READY",
+      "condition_scope": "all_branches",
+      "a_mred_role": "PRIMARY_A_MRED_ANCHOR",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH",
+      "pre_window_sec": [
+        -15,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        15
+      ],
+      "theta_carryover_window_sec": [
+        10,
+        35
+      ],
+      "allow_paired_washout_continuation": false,
+      "primary_endpoint_use": true,
+      "expected_signal_shape": "embodied_resolution; MeaningGamma/TSP may taper into theta/topological carryover",
+      "analysis_notes": "Primary embodied-repair anchor. Stronger than dialogue-only if physiology follows the action transition into relational play.",
+      "claim_boundary": "Estimated timecodes must be frame-verified on the final rendered Target MP4 before strict A-MRED interpretation."
+    },
+    {
+      "anchor_id": "FOD_A5_SUSTAINED_CATCH_AFTERGLOW_CONTINUITY",
+      "scene_label": "Sustained game of catch; repaired relationship stabilizes into ordinary play",
+      "rendered_time_sec": null,
+      "rendered_time_sec_estimate": 128.0,
+      "time_verification_status": "estimated_not_frame_verified__EDIT_BEFORE_CONFIRMATORY_USE",
+      "anchor_lock_status": "DRAFT_NULL_TIME_NOT_RUNNER_READY",
+      "condition_scope": "all_branches",
+      "a_mred_role": "secondary_sustained_CII_EET_anchor",
+      "predicted_mred_quadrant": "MR_HIGH_ENC_HIGH_or_sustained_CII_without_single_BIT",
+      "pre_window_sec": [
+        -20,
+        0
+      ],
+      "peak_search_window_sec": [
+        0,
+        25
+      ],
+      "theta_carryover_window_sec": [
+        20,
+        45
+      ],
+      "allow_paired_washout_continuation": false,
+      "primary_endpoint_use": false,
+      "expected_signal_shape": "sustained immersion/integration rather than a single shock spike",
+      "analysis_notes": "Better for NIP/CII/EET and Baseline2 afterglow than for a single-point strict A-MRED event.",
+      "claim_boundary": "Estimated timecodes must be frame-verified on the final rendered Target MP4 before strict A-MRED interpretation."
+    },
+    {
+      "anchor_id": "FOD_A6_TERMINAL_RELEASE_AND_WASHOUT_ECHO",
+      "scene_label": "Terminal quiet/fade or final sustained catch moment before clip end; after-state / echo candidate",
+      "rendered_time_sec": null,
+      "rendered_time_sec_estimate": 165.0,
+      "time_verification_status": "estimated_not_frame_verified__EDIT_BEFORE_CONFIRMATORY_USE",
+      "anchor_lock_status": "DRAFT_NULL_TIME_NOT_RUNNER_READY",
+      "condition_scope": "all_branches",
+      "a_mred_role": "secondary_washout_EET_anchor",
+      "predicted_mred_quadrant": "post_event_echo_or_baseline2_reflective_afterstate",
+      "pre_window_sec": [
+        -20,
+        0
+      ],
+      "peak_search_window_sec": [
+        -5,
+        10
+      ],
+      "theta_carryover_window_sec": [
+        5,
+        35
+      ],
+      "allow_paired_washout_continuation": true,
+      "preferred_design": "leave_45_to_60_seconds_post_payload_tail_if_possible; otherwise treat cross-boundary theta as sensitivity analysis",
+      "primary_endpoint_use": false,
+      "expected_signal_shape": "release/afterglow; use as EET/Baseline2 support, not primary if near clip edge",
+      "analysis_notes": "Clip-edge warning: if this is too close to movie end, do not use as primary A-MRED endpoint unless paired-washout continuation is predeclared.",
+      "claim_boundary": "Estimated timecodes must be frame-verified on the final rendered Target MP4 before strict A-MRED interpretation."
+    }
+  ]
+}

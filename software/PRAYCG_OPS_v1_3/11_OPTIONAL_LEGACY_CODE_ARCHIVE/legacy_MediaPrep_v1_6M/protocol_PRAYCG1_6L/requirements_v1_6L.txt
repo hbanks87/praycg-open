@@ -1,0 +1,4 @@
+psychopy
+pylsl
+pyxdf
+numpy

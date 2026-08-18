@@ -1,0 +1,27 @@
+{
+  "schema": "PRAYCG_manual_retrospective_confound_addendum_v1",
+  "boundary": "Manual retrospective confounds are caution flags. They should not be treated as preregistered event markers or proof of mechanism.",
+  "branch_reports": [
+    {
+      "phase_name": "TARGET_1_AFTER_WASHOUT_2",
+      "branch_label": "Target",
+      "is_override": false,
+      "claim_level": "manual_retrospective_caution",
+      "ratings": {
+        "AudioVideoSyncProblem": 0,
+        "AudioComprehensionDifficulty": 0,
+        "ExternalNoiseIntrusion": 0,
+        "ExternalNoiseDistraction": 0,
+        "CueLegibilityProblem": 0,
+        "CueBlurProblem": 0,
+        "EyeStrainOrSquintNeed": 0,
+        "SpeakerVolumeDifficulty": 0
+      },
+      "notes": {
+        "audio_video_sync": "NONE",
+        "external_noise": "NONE",
+        "cue_legibility": "NONE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_4_9_SelfReport20",
+  "version": "1.4.9",
+  "adds": [
+    "PRAYCG2.0 consolidated self-report parser"
+  ],
+  "script": "scripts/praycg_selfreport20_parser_v1_4_9.py"
+}

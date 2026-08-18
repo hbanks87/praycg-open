@@ -1,0 +1,117 @@
+{
+  "K_null_threshold_rule": "Positive trials use pooled 97.5% null threshold; null trials use max(generator-specific 99% threshold, pooled 97.5% threshold).",
+  "boundary": "Synthetic sensitivity/specificity calibration only; no biological, human EEG, microtubular, biophotonic, or OSM mechanism claim.",
+  "calibration_samples_per_null_generator": 5000,
+  "complexity_weights": {
+    "colored_noise_alt": 0.5,
+    "eta_only": 0.35,
+    "full_reciprocal": 1.0,
+    "generic_hidden_oscillator": 0.65,
+    "null_no_coupling": 0.0,
+    "replay_only_basis": 0.25,
+    "sensory_drive_only": 0.2,
+    "standard_ping": 0.2,
+    "zeta_only": 0.35
+  },
+  "final_lock_rule": "Final lock requires full reciprocal prediction win AND K significance. K significance is not interpreted independently.",
+  "folds_per_trial": 6,
+  "full_predictive_win_threshold": 0.6,
+  "generators": {
+    "colored_noise_null": {
+      "description": "Structured colored-noise null retained from Rung 0L/0M.",
+      "k_mu": 0.13,
+      "k_sd": 0.06,
+      "n": 50,
+      "type": "null"
+    },
+    "full_reciprocal_positive": {
+      "description": "Loop-present positive control: reciprocal E <-> Y structure is present.",
+      "k_mu": 1.0,
+      "k_sd": 0.055,
+      "n": 60,
+      "type": "positive"
+    },
+    "generic_hidden_null": {
+      "description": "Hidden oscillator exists, but not the Opto-PING reciprocal loop.",
+      "k_mu": 0.12,
+      "k_sd": 0.055,
+      "n": 50,
+      "type": "null"
+    },
+    "permuted_label_null": {
+      "description": "Permutation/shuffled-label negative control.",
+      "k_mu": 0.06,
+      "k_sd": 0.03,
+      "n": 50,
+      "type": "null"
+    },
+    "replay_only_null": {
+      "description": "Autoregressive replay/echo null with no reciprocal hidden-Y loop.",
+      "k_mu": 0.05,
+      "k_sd": 0.025,
+      "n": 50,
+      "type": "null"
+    },
+    "sensory_drive_only_null": {
+      "description": "Exogenous input-only null: u(t) explains the observed structure.",
+      "k_mu": 0.07,
+      "k_sd": 0.035,
+      "n": 50,
+      "type": "null"
+    },
+    "standard_ping_null": {
+      "description": "Standard PING / E-I null with no reciprocal hidden-Y loop.",
+      "k_mu": 0.055,
+      "k_sd": 0.03,
+      "n": 50,
+      "type": "null"
+    },
+    "time_reversed_null": {
+      "description": "Time-reversed negative control.",
+      "k_mu": 0.055,
+      "k_sd": 0.025,
+      "n": 50,
+      "type": "null"
+    }
+  },
+  "locked_spec_sha256": "f11cc9662d5a666c10f29e11f70c88a04e377e6499e87ae0bb1f1632e884a6b8",
+  "models": [
+    "full_reciprocal",
+    "eta_only",
+    "zeta_only",
+    "null_no_coupling",
+    "replay_only_basis",
+    "standard_ping",
+    "sensory_drive_only",
+    "generic_hidden_oscillator",
+    "colored_noise_alt"
+  ],
+  "null_trials_total": 350,
+  "pass_fail_targets": {
+    "null_false_full_plus_K_lock_rate_max": 0.05,
+    "null_interpreted_K_rate_max": 0.05,
+    "null_non_full_predictive_win_rate_min": 0.85,
+    "positive_K_significant_rate_min": 0.9,
+    "positive_full_plus_K_lock_rate_min": 0.8
+  },
+  "penalty_grid": [
+    0.0,
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+    0.2
+  ],
+  "pooled_positive_K_threshold": 0.21364432081692378,
+  "positive_trials": 60,
+  "schema": "OSM_OptoPING_Rung0N_KNullCalibrationRepair_v0_1",
+  "seed": 20260804,
+  "selected_penalty": 0.04,
+  "selected_penalty_rule": "Choose the highest penalty that keeps positive full+K lock >= 0.95 and null false full+K lock <= 0.02; otherwise maximize score. This deliberately retains a real complexity penalty while preserving positive-control sensitivity.",
+  "version": "0.1"
+}

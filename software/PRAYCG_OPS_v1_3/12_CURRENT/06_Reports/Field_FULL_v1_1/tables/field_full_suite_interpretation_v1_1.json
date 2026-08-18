@@ -1,0 +1,15 @@
+{
+  "executive_verdict": "Useful PRAYCG2.0 runner-registered estimated blind-anchor pilot. Full suite supports a Target-favoring reception/meaning pattern, but not strict confirmatory A-MRED because anchors were YouTube-estimated/not frame-verified and ALS start-pulse QC was weak.",
+  "run_classification": "runner-registered estimated blind-anchor pilot; not frame-verified confirmatory",
+  "amred_runner_time_passes": 1,
+  "amred_total_anchors": 7,
+  "amred_content_offset_sensitivity_passes": 0,
+  "amred_pass_anchor_ids": [
+    "FOD_BLIND_A6"
+  ],
+  "tti_global": 0.567780349544646,
+  "als_passes_simple_threshold": 1,
+  "als_total_branches": 3,
+  "primary_recommendation": "For TSC/poster, present Field of Dreams as pilot-positive/future-freeze evidence only. Next run should use frame-verified locked anchors and clean ALS pulse before calling A-MRED confirmatory.",
+  "module_compression": "A-MRED is the boxed primary endpoint; NIP/TTI are secondary summaries; KHT-topo/EET/ACG/OCU/OCM/RSM/CVB/Squint are exploratory convergence/diagnostic layers."
+}

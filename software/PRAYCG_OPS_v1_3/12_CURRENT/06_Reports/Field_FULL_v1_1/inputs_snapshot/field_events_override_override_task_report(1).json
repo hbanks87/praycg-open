@@ -1,0 +1,14 @@
+{
+  "boundary": "Override task report feeds OCM/RSM/TTI as a covariate, not proof of private strategy.",
+  "note": "one or two times i had trouble counting a 9. the number cues appeared faster this morning. i imagine this is subjective.",
+  "phase_name": "OVERRIDE_1_AFTER_WASHOUT_3",
+  "ratings": {
+    "ApproximateGuessCount": 5,
+    "CueLegibilityProblem": 2,
+    "FinalSumConfidence": 5,
+    "HardNumberCombinationDifficulty": 4,
+    "RunningSumStall": 4,
+    "TaskCompliance": 8
+  },
+  "schema": "PRAYCG2_0_override_task_report_v1"
+}

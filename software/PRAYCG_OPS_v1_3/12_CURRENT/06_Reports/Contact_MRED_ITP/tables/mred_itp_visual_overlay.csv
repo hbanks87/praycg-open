@@ -1,0 +1,16 @@
+start_sec,end_sec,time_sec,condition,category,label,source,claim_level
+23.007354,48.007354,28.007354,CONTROL_1,mred_itp,CONTACT_A1_PENSACOLA_REALIZATION | CSI=-6.40 ORI=-3.64,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+23.007354,48.007354,28.007354,TARGET_1,mred_itp,CONTACT_A1_PENSACOLA_REALIZATION | CSI=-0.51 ORI=0.67,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+23.007354,48.007354,28.007354,CONTEXTUAL_OVERRIDE_1,acg_complexity,CONTACT_A1_PENSACOLA_REALIZATION | CSI=0.60 ORI=0.57,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+156.007354,181.007354,161.007354,CONTROL_1,mred_itp,CONTACT_A2_AVATAR_FATHER_RECOGNITION | CSI=0.24 ORI=-0.69,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+156.007354,181.007354,161.007354,TARGET_1,mred_itp,CONTACT_A2_AVATAR_FATHER_RECOGNITION | CSI=0.73 ORI=-0.70,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+156.007354,181.007354,161.007354,CONTEXTUAL_OVERRIDE_1,mred_itp,CONTACT_A2_AVATAR_FATHER_RECOGNITION | CSI=-0.37 ORI=-2.09,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+161.007354,186.007354,166.007354,CONTROL_1,mred_itp,CONTACT_A2B_AVATAR_FATHER_RECOGNITION_TSP_CLUSTER | CSI=0.00 ORI=-0.67,mred_itp_v1_5_2,future_freeze_candidate_not_runner_registered
+161.007354,186.007354,166.007354,TARGET_1,mred_itp,CONTACT_A2B_AVATAR_FATHER_RECOGNITION_TSP_CLUSTER | CSI=1.39 ORI=0.00,mred_itp_v1_5_2,future_freeze_candidate_not_runner_registered
+161.007354,186.007354,166.007354,CONTEXTUAL_OVERRIDE_1,mred_itp,CONTACT_A2B_AVATAR_FATHER_RECOGNITION_TSP_CLUSTER | CSI=-0.84 ORI=-2.09,mred_itp_v1_5_2,future_freeze_candidate_not_runner_registered
+258.007354,283.007354,263.007354,CONTROL_1,ocu_blink_release,CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET | CSI=2.69 ORI=1.61,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+258.007354,283.007354,263.007354,TARGET_1,mred_itp,CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET | CSI=-1.32 ORI=0.05,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+258.007354,283.007354,263.007354,CONTEXTUAL_OVERRIDE_1,mred_itp,CONTACT_A3_EXISTENTIAL_PAYLOAD_ONSET | CSI=-1.18 ORI=0.05,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+276.007354,301.007354,281.007354,CONTROL_1,mred_itp,CONTACT_A4_SMALL_MOVES_TAPER_RELEASE_OR_LATE_PAYLOAD_RELEASE | CSI=-0.28 ORI=-1.27,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+276.007354,301.007354,281.007354,TARGET_1,mred_itp,CONTACT_A4_SMALL_MOVES_TAPER_RELEASE_OR_LATE_PAYLOAD_RELEASE | CSI=0.03 ORI=0.05,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered
+276.007354,301.007354,281.007354,CONTEXTUAL_OVERRIDE_1,acg_complexity,CONTACT_A4_SMALL_MOVES_TAPER_RELEASE_OR_LATE_PAYLOAD_RELEASE | CSI=0.67 ORI=0.05,mred_itp_v1_5_2,conceptually_predeclared_future_freeze_candidate_not_runner_registered

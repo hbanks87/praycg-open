@@ -1,0 +1,27 @@
+{
+  "schema": "OSM_OptoPING_Rung0L_EmptySkySpecificity_results_v0_1",
+  "spec_sha256": "07b72130147812bd9f4cbf206bc224ff2af05874ab9ad1f554ed80310a64e8ae",
+  "n_trials_total": 360,
+  "n_positive_trials": 60,
+  "n_null_trials": 300,
+  "positive_control": {
+    "K_within_15_rate": 1.0,
+    "K_within_10_rate": 0.9333333333333333,
+    "median_K_hat_scaled": 1.0531383642126233,
+    "full_model_cv_win_rate_mean": 0.7305555555555556,
+    "pass_full_model_cv": false,
+    "pass_K_15": true
+  },
+  "empty_sky_nulls": {
+    "null_full_model_cv_win_rate_mean": 0.4577777777777778,
+    "null_false_K_lock_rate": 0.023333333333333334,
+    "null_non_full_cv_win_rate_mean": 0.5422222222222223,
+    "null_median_K_hat_scaled": 0.05436199659505633,
+    "pass_full_model_stays_quiet": false,
+    "pass_false_K_lock_rate": true,
+    "pass_non_full_wins": false,
+    "pass_median_K_near_zero": true
+  },
+  "boundary": "Synthetic specificity only; no biological, PR-AYC-G, human EEG, or OSM mechanism claim.",
+  "overall_status": "PARTIAL_OR_FAILED_SPECIFICITY"
+}

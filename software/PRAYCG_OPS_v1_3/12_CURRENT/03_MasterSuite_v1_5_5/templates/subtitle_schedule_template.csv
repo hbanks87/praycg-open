@@ -1,0 +1,2 @@
+line_id,subtitle_onset_sec,subtitle_offset_sec,text,bbox_x1,bbox_y1,bbox_x2,bbox_y2,audio_anchor_sec
+1,12.000,14.500,"Example subtitle line",100,900,1820,1040,13.500

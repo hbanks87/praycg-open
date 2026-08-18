@@ -1,0 +1,2 @@
+anchor_id,source,claim_level,condition_scope,time_basis,rendered_time_sec,content_time_sec,content_start_offset_sec,description,pre_window_sec,expected_peak_search_window_sec,theta_carryover_window_sec,comparison_rule,notes
+EXAMPLE_A1_SCENE_EVENT,media_structural,confirmatory_if_loaded_before_run,all_branches,rendered_video_sec,113.9,113.9,0.0,"Describe the exact visible/audible media event, not how the subject felt about it.","-15,0","0,10","10,30","Target should exceed matched Control and Contextual Override under artifact/timing veto.","Replace this row."

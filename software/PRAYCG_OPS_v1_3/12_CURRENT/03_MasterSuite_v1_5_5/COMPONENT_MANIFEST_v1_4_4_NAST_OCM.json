@@ -1,0 +1,10 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_4_4_NAST_OCM",
+  "base": "PRAYCG_Unified_MasterSuite_v1_4_3_MRED",
+  "added_modules": [
+    "NAST_v0.1_Narrative_Absorption_State_Transition",
+    "OCM_v0.1_Override_Cue_Microstate_Analysis"
+  ],
+  "patched_visualizer": "v1.2.3 NAST/OCM overlays",
+  "claim_boundary": "Exploratory human-translation analysis. NAST is not direct DMN detection; OCM is not long-term memory encoding."
+}

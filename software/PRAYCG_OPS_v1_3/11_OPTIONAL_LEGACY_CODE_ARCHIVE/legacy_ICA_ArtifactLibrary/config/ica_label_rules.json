@@ -1,0 +1,36 @@
+{
+  "purpose": "Heuristic interpretation guide for PR-AYC-G ICA artifact library. These rules do not classify components with certainty.",
+  "component_labels": {
+    "ocular_blink": {
+      "expected_features": ["large event-locked deflection after blink markers", "frontopolar/frontal topography if frontal channels exist", "strong low-frequency transient power"],
+      "caution": "Without dedicated EOG channels, blink labels remain probable, not confirmed."
+    },
+    "ocular_saccade": {
+      "expected_features": ["lateral frontal activity", "event-locked response after eye-left/right markers", "transient low-frequency deflections"],
+      "caution": "Can overlap with blink or face muscle components."
+    },
+    "jaw_temporal_emg": {
+      "expected_features": ["temporalis/masseter edge topography", "high beta/low gamma/broadband power", "event-locked response during jaw-clench markers"],
+      "caution": "At 125 Hz sampling, true 70-110 Hz EMG proxy is unavailable. Use high-edge proxies cautiously."
+    },
+    "neck_shoulder_motion": {
+      "expected_features": ["broadband bursts", "channel-specific motion/contact shifts", "event-locked response during neck/shoulder markers"],
+      "caution": "Movement may manifest as electrode contact artifact, not an independent neural source."
+    },
+    "respiration_or_sigh": {
+      "expected_features": ["slow drift or periodic artifact aligned to breath/sigh markers", "possible neck/shoulder contamination"],
+      "caution": "Use Vernier belt stream for actual respiratory phase. ICA alone does not prove respiration."
+    },
+    "task_lock_candidate": {
+      "expected_features": ["not an artifact by itself", "may show condition-related beta/gamma organization", "should not be removed automatically"],
+      "caution": "Do not clean away cognitive task components unless clearly myogenic/ocular/contact artifact."
+    }
+  },
+  "allowed_claim": "This library helps identify subject- and montage-specific artifact candidates for inspection and artifact-matched windowing.",
+  "prohibited_claims": [
+    "ICA proves a component is not brain.",
+    "A component removed by this library proves PR-AYC-G.",
+    "The library can replace EOG/EMG/respiration/motion sensors.",
+    "Scalp low gamma is clean merely because ICA was run."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "representative_seed": 910008,
+  "criterion": "loss <= min_loss + max(1.0, 0.05*abs(min_loss))",
+  "min_loss": 2.4103247863407615,
+  "near_cell_count": 31,
+  "eta_width": 0.75,
+  "zeta_width": 40.0,
+  "K_width": 4.358178664675236,
+  "best_eta": 4.0,
+  "best_zeta": 170.0,
+  "best_K": 26.076809620810597,
+  "true_eta": 4.0,
+  "true_zeta": 180.0,
+  "true_K": 26.832815729997478,
+  "ridge_interpretation": "Profile surface is locally constrained enough for K-lock in this synthetic gate; eta/zeta separation remains secondary and conditional."
+}

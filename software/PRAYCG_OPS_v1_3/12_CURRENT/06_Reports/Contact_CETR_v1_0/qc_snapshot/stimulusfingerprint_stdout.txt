@@ -1,0 +1,4 @@
+[v1.8] Processing control: C:\Users\hoytb\Desktop\PRAYCGStimulus\Contact\CETPREP2\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\stimulus_control_cued_phase_scrambled_Cetfixed_Contact_v1_7A.mp4
+[v1.8] Processing target: C:\Users\hoytb\Desktop\PRAYCGStimulus\Contact\CETPREP2\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\stimulus_target_cued_Cetfixed_Contact_v1_7A.mp4
+[v1.8] Processing override: C:\Users\hoytb\Desktop\PRAYCGStimulus\Contact\CETPREP2\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\stimulus_override_cued_Cetfixed_Contact_v1_7A.mp4
+[v1.8] DONE: C:\Users\hoytb\Desktop\PRAYCGStimulus\Contact\CETPREP2\Cetfixed_Contact_MediaPrep_v1_7A_20260816_220011\qc status=PASS

@@ -1,0 +1,83 @@
+{
+  "schema": "OSM_OptoPING_Rung0O_LockedNullAwareReproduction_results_v0_1",
+  "status": "PASS_LOCKED_NULL_AWARE_REPRODUCTION",
+  "rung0n_locked_spec_sha256": "f11cc9662d5a666c10f29e11f70c88a04e377e6499e87ae0bb1f1632e884a6b8",
+  "rung0o_reproduction_seed": 20260805,
+  "threshold_source": "Rung 0N locked generator-specific K thresholds; no recalibration in Rung 0O",
+  "selected_penalty": 0.04,
+  "pooled_positive_K_threshold": 0.2136443208169237,
+  "n_total_trials": 410,
+  "n_positive_trials": 60,
+  "n_null_trials": 350,
+  "positive_full_plus_K_lock_rate": 0.95,
+  "positive_full_predictive_win_rate": 0.95,
+  "positive_K_significant_rate": 1.0,
+  "positive_K_within_15_rate": 1.0,
+  "positive_K_within_10_rate": 0.95,
+  "positive_median_K_hat_scaled": 0.9910113966844529,
+  "positive_median_K_abs_error_scaled": 0.029872750357388123,
+  "null_false_full_plus_K_lock_rate": 0.0,
+  "null_raw_K_significant_rate": 0.002857142857142857,
+  "null_interpreted_K_rate": 0.0,
+  "null_full_predictive_win_rate": 0.0,
+  "null_non_full_predictive_win_rate": 1.0,
+  "null_median_K_hat_scaled": 0.06943752233508137,
+  "decision_all_pass": true,
+  "cv_win_summary": [
+    {
+      "model": "sensory_drive_only",
+      "wins": 349,
+      "total_folds": 2460,
+      "win_rate": 0.141869918699187
+    },
+    {
+      "model": "eta_only",
+      "wins": 340,
+      "total_folds": 2460,
+      "win_rate": 0.13821138211382114
+    },
+    {
+      "model": "zeta_only",
+      "wins": 324,
+      "total_folds": 2460,
+      "win_rate": 0.13170731707317074
+    },
+    {
+      "model": "full_reciprocal",
+      "wins": 306,
+      "total_folds": 2460,
+      "win_rate": 0.12439024390243902
+    },
+    {
+      "model": "standard_ping",
+      "wins": 299,
+      "total_folds": 2460,
+      "win_rate": 0.12154471544715448
+    },
+    {
+      "model": "null_no_coupling",
+      "wins": 283,
+      "total_folds": 2460,
+      "win_rate": 0.11504065040650406
+    },
+    {
+      "model": "colored_noise_alt",
+      "wins": 248,
+      "total_folds": 2460,
+      "win_rate": 0.1008130081300813
+    },
+    {
+      "model": "generic_hidden_oscillator",
+      "wins": 175,
+      "total_folds": 2460,
+      "win_rate": 0.07113821138211382
+    },
+    {
+      "model": "replay_only_basis",
+      "wins": 136,
+      "total_folds": 2460,
+      "win_rate": 0.055284552845528454
+    }
+  ],
+  "boundary": "Locked synthetic reproduction of null-aware specificity gate only; no biological, human EEG, microtubular, biophotonic, or OSM mechanism claim."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": {
+    "locked_spec_hash_ok": true,
+    "n_trials_60": true,
+    "K_15_rate_ge_0_90": true,
+    "K_median_error_le_0_10": true,
+    "K_10_rate_ge_0_80": true,
+    "directional_20_rate_ge_0_80": true,
+    "full_model_cv_ge_0_80": true
+  },
+  "metrics": {
+    "locked_spec_sha256": "d93f6146e4e77ffeffbdd5c133250fd6d474317d8af6c34c3354dd6b28756282",
+    "n_trials": 60,
+    "K_within_15_rate": 1.0,
+    "K_within_10_rate": 1.0,
+    "K_median_pct_error": 0.0281746841924499,
+    "directional_20_pass_rate": 1.0,
+    "full_model_cv_fold_win_rate": 0.8722222222222222
+  }
+}

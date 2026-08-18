@@ -1,0 +1,2 @@
+run_id,component,artifact_label_suspected,evidence_topography,evidence_event_locked,evidence_psd,evidence_raw_trace,decision,decision_by,decision_time,notes
+example_run,0,ocular_blink,frontal polarity,event-locked to blink markers,low-frequency transient,large blink spikes,exclude,HUMAN_REVIEW,YYYY-MM-DDTHH:MM:SS,example only

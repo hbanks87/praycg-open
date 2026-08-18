@@ -1,0 +1,32 @@
+{
+  "report_version": "v1.1",
+  "anchor_classification": "CONCEPTUALLY_PREDECLARED / NOT_RUNNER_REGISTERED",
+  "strict_runner_registered_confirmatory": false,
+  "best_result": "Target-local K_HT-topo/MRED cluster around 161-166 seconds after Target onset",
+  "claim_level": "strong exploratory / future-freeze candidate",
+  "ALS_fullscreen_pulses_passed_all_three_branches": true,
+  "modules_run_or_integrated": [
+    "Run metadata and media identity",
+    "Stream inventory / timebase",
+    "ALS-PT19 fullscreen start-pulse QC",
+    "Anchor audit",
+    "Subjective report",
+    "Confound registry",
+    "GammaScalpel / MeaningGamma / TaskGamma",
+    "TemporalSemanticProxy",
+    "CandidateLocal_KHT-topo",
+    "MRED_v0.1",
+    "NAST_v0.1",
+    "OCM025_v0.2",
+    "RSM/CVB/SquintProxy",
+    "TopoOSM_NetworkState",
+    "LSO/SPM Subtitle Override"
+  ],
+  "nonclaims": [
+    "no cellular OSM",
+    "no microtubule/biophoton claim",
+    "no consciousness proof",
+    "no molecular hidden-Y claim"
+  ],
+  "next_step": "rerun Contact with PRAYCG1.9C and load locked anchor file generated from MediaPrep v1.7A"
+}

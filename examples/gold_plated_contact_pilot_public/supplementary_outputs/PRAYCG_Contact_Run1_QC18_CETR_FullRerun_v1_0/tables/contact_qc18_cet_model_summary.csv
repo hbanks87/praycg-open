@@ -1,0 +1,17 @@
+scope,model,n_rows,n_features,features,train_r2,blocked_cv_r2
+pooled,cue_only,904,4,cue_on+cue_value+cue_phase_sin+cue_phase_cos,0.003066764146000489,-0.20183425477535244
+pooled,visual_only,904,7,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event+als_start_pulse_regressor,0.019678720203677447,-0.25318346318806517
+pooled,audio_only,904,2,audio_rms_z+audio_derivative_z,2.4866670303991256e-05,-0.20252161057408258
+pooled,full_exogenous,904,13,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event+audio_rms_z+audio_derivative_z+cue_on+cue_value+cue_phase_sin+cue_phase_cos+als_start_pulse_regressor,0.02368685385827818,-0.2607967533684674
+control,cue_only,303,4,cue_on+cue_value+cue_phase_sin+cue_phase_cos,0.013773045449932186,-0.06239354184788093
+control,visual_only,303,6,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event,0.02555702967102713,-0.10062242310788938
+control,audio_only,303,2,audio_rms_z+audio_derivative_z,0.0044061760190931,-0.06189456005147442
+control,full_exogenous,303,12,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event+audio_rms_z+audio_derivative_z+cue_on+cue_value+cue_phase_sin+cue_phase_cos,0.040501802194586656,-0.12046599928680912
+target,cue_only,301,4,cue_on+cue_value+cue_phase_sin+cue_phase_cos,0.015300206681477913,-0.16468126937492977
+target,visual_only,301,7,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event+als_start_pulse_regressor,0.0698619584490977,-0.17530388991676848
+target,audio_only,301,2,audio_rms_z+audio_derivative_z,0.000598187607365519,-0.18601432666479267
+target,full_exogenous,301,13,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event+audio_rms_z+audio_derivative_z+cue_on+cue_value+cue_phase_sin+cue_phase_cos+als_start_pulse_regressor,0.08738556082691895,-0.23518467042987812
+override,cue_only,300,4,cue_on+cue_value+cue_phase_sin+cue_phase_cos,0.012455702249434375,-0.1480533566037514
+override,visual_only,300,6,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event,0.09916196337322047,-0.17897854356820586
+override,audio_only,300,2,audio_rms_z+audio_derivative_z,0.020292456035931772,-0.15088823041225607
+override,full_exogenous,300,12,luminance_z+visual_change_z+optical_flow_z+histogram_delta_z+cut_event+flash_event+audio_rms_z+audio_derivative_z+cue_on+cue_value+cue_phase_sin+cue_phase_cos,0.12270584666228557,-0.20273993543700675

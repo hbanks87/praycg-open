@@ -1,0 +1,11 @@
+numpy
+scipy
+opencv-python
+moviepy
+imageio
+imageio-ffmpeg
+pandas
+matplotlib
+psychopy
+pylsl
+pyxdf

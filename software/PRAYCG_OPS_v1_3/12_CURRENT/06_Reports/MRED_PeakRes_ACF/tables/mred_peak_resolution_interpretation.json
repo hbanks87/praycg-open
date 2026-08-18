@@ -1,0 +1,61 @@
+{
+  "module": "MRED Peak / MRED Resolution v0.1",
+  "summary": [
+    {
+      "run": "Arrival",
+      "n_anchors": 5,
+      "strict_peak_passes": 0,
+      "peak_candidates_non_strict": 1,
+      "recognition_dominant_not_locked": 2,
+      "resolution_candidates": 0,
+      "afterstate_recovery_support_anchor_weak": 0,
+      "mean_peak_score": 0.5191733811792772,
+      "max_peak_score": 0.6734745777585894,
+      "top_peak_anchor": "ARR_A3_READING_LETTERS_169P0",
+      "mean_resolution_score": 0.823964696032658,
+      "max_resolution_score": 0.8788601684524497,
+      "top_resolution_anchor": "ARR_A1_FUTURE_TRAGEDY_ACCEPTANCE_068P0",
+      "RDI_resolutive_recovery": null,
+      "polarity_class": "POLARITY_UNRESOLVED_NO_BASELINE2"
+    },
+    {
+      "run": "Contact",
+      "n_anchors": 5,
+      "strict_peak_passes": 1,
+      "peak_candidates_non_strict": 3,
+      "recognition_dominant_not_locked": 1,
+      "resolution_candidates": 1,
+      "afterstate_recovery_support_anchor_weak": 4,
+      "mean_peak_score": 0.7092490180109792,
+      "max_peak_score": 0.8957499705681845,
+      "top_peak_anchor": "CONTACT_A2_AVATAR_FATHER_RECOGNITION",
+      "mean_resolution_score": 0.7385014109598396,
+      "max_resolution_score": 0.7892832729613661,
+      "top_resolution_anchor": "CONTACT_A1_PENSACOLA_REALIZATION",
+      "RDI_resolutive_recovery": 0.8200794769845514,
+      "polarity_class": "HIGH_LOAD_WITH_RECOVERY"
+    },
+    {
+      "run": "Field",
+      "n_anchors": 7,
+      "strict_peak_passes": 1,
+      "peak_candidates_non_strict": 0,
+      "recognition_dominant_not_locked": 1,
+      "resolution_candidates": 4,
+      "afterstate_recovery_support_anchor_weak": 2,
+      "mean_peak_score": 0.4398201938915863,
+      "max_peak_score": 0.6844468404114243,
+      "top_peak_anchor": "FOD_BLIND_A6",
+      "mean_resolution_score": 0.6417570510316429,
+      "max_resolution_score": 0.7456768044060997,
+      "top_resolution_anchor": "FOD_BLIND_A6",
+      "RDI_resolutive_recovery": 0.7112881392501226,
+      "polarity_class": "RESOLUTIVE_RECOVERY"
+    }
+  ],
+  "main_verdict": {
+    "MRED_peak": "Contact is strongest; Field has one timing-cautioned runner-time pass; Arrival has non-strict candidates.",
+    "MRED_resolution": "Field is strongest; Contact has recovery components but high-load profile; Arrival cannot be true-graded without Baseline2."
+  },
+  "boundary": "Endpoint-compression profiles only; not proof of consciousness, memory formation, OSM biology, or literal thermodynamics."
+}

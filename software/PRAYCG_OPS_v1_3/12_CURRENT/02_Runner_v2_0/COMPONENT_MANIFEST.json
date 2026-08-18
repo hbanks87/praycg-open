@@ -1,0 +1,14 @@
+{
+  "package": "PRAYCG1_9_ConfoundAware_Runner_Tools",
+  "version": "1.9",
+  "main_script": "scripts/run_PRAYCG1_9_ConfoundAware.py",
+  "adds": [
+    "pre-run cue/audio calibration",
+    "per-branch confound reports",
+    "override running-sum report",
+    "final reflection baseline",
+    "predeclared anchors",
+    "display safe-fit"
+  ],
+  "boundary": "Confound reports are covariate/veto aids, not proof of mechanism."
+}

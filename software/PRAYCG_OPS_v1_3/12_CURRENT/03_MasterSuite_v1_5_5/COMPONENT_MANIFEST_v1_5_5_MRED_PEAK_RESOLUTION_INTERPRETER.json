@@ -1,0 +1,21 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_5_5_MREDPeakResolution_Interpreter",
+  "version": "1.5.5",
+  "adds": [
+    "MRED-Peak / MRED-Resolution endpoint-compression module",
+    "Offline deterministic interpretive report generator",
+    "Tkinter GUI wrapper for offline report generation",
+    "Documentation and Windows launchers"
+  ],
+  "new_scripts": [
+    "scripts/praycg_mred_peak_resolution_module_v1_5_5.py",
+    "scripts/praycg_offline_interpretive_report_generator_v1_5_5.py",
+    "scripts/praycg_offline_interpretive_report_gui_v1_5_5.py"
+  ],
+  "new_docs": [
+    "docs/MRED_Peak_Resolution_Method_v1_5_5.md",
+    "docs/Offline_Interpretive_Report_Generator_v1_5_5.md",
+    "docs/PATCH_NOTES_v1_5_5_MRED_PEAK_RESOLUTION_INTERPRETER.md"
+  ],
+  "boundary": "Rule-based interpretation aid and endpoint-compression layer only; not proof of consciousness, memory formation, OSM biology, clinical effect, or internal state."
+}

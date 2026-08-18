@@ -1,0 +1,2 @@
+anchor_id,source,claim_level,condition_scope,rendered_time_sec,time_definition,pre_window_start_sec,pre_window_end_sec,peak_search_start_sec,peak_search_end_sec,theta_carryover_start_sec,theta_carryover_end_sec,allow_paired_washout_continuation,predicted_mred_quadrant,special_controls,notes
+EXAMPLE_A1,media_structural_predeclared,confirmatory_if_loaded_before_run,all_branches,,objective scene event definition here,-15,0,0,10,10,30,true,,artifact_veto_required;Target_gt_Control_required,Fill exact rendered_time_sec after MediaPrep final render.

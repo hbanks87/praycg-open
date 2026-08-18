@@ -1,0 +1,13 @@
+{
+  "package": "PRAYCG Unified Master Suite v1.5.2 - MRED-ITP",
+  "new_modules": [
+    "ACG_v0.1 Algorithmic Complexity Gate",
+    "OCU_v0.1 Ocular-Cognitive Unloading",
+    "MRED-ITP Information-Thermodynamic Proxy Layer"
+  ],
+  "scripts": [
+    "scripts/praycg_mred_itp_modules_v1_5_2.py",
+    "scripts/praycg_master_sync_visualizer_v1_3_2.py"
+  ],
+  "boundary": "Proxy layer only; no thermodynamic proof, no OSM biology claim."
+}

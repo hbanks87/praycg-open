@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# local secrets
+*.token
+secrets.json
+.osfcli.config
+
+# raw biosignal files
+*.xdf
+*.bdf
+*.edf
+*.mat
+
+# large/private media by default
+raw_media/
+private_media/
+private_data/
+*.mov
+*.mkv
+
+# allow checked-in demo mp4s under examples only
+!examples/no_copyright_media_demo/**/*.mp4
+
+# analysis scratch
+analysis_scratch/
+.cache/
+.DS_Store
+Thumbs.db

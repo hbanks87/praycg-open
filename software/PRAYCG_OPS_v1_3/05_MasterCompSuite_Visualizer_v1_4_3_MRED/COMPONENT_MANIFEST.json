@@ -1,0 +1,29 @@
+{
+  "schema": "PRAYCG_Unified_MasterSuite_ComponentManifest_v1_4_3",
+  "version": "1.4.3",
+  "created_note": "MRED_v0.1 Meaning Recognition / Encoding Dissociation layer added after CandidateLocal_KHT and cross-boundary handoff updates.",
+  "components": [
+    {
+      "name": "Master Comprehensive Suite",
+      "script": "scripts/praycg_master_comprehensive_suite_gui_v1_4.py",
+      "version": "1.4.3",
+      "modules_added": [
+        "meaning_recognition_encoding_dissociation",
+        "MRED_v0.1"
+      ]
+    },
+    {
+      "name": "MasterSync Visualizer",
+      "script": "scripts/praycg_master_sync_visualizer_v1_2.py",
+      "version": "1.2.2",
+      "patch": "MRED visual overlays are auto-ingested from mred_visual_overlay.csv or mred_event_table.csv. Folder picker / feature CSV auto-detection retained."
+    },
+    {
+      "name": "Unified launcher",
+      "script": "scripts/praycg_unified_master_analysis_visualizer_v1_4.py",
+      "version": "1.4.3",
+      "patch": "analysis_plus_visual mode runs CandidateLocal_KHT and MRED by default unless disabled; GUI exposes MRED familiarity and scene-map CSV inputs."
+    }
+  ],
+  "boundary": "Tools only. MRED is an exploratory human-translation interpretive layer. It does not certify meaning, task compliance, memory encoding, OSM, hidden-Y biology, human EEG mechanism, or cellular mechanism."
+}

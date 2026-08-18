@@ -1,0 +1,15 @@
+{
+  "schema": "PRAYCG_Unified_MasterSuite_v1_4_8_TTI_manifest",
+  "version": "1.4.8",
+  "new_modules": [
+    "TTI_v0.1_Reception_Extraction_Tradeoff"
+  ],
+  "new_scripts": [
+    "scripts/praycg_tti_reception_extraction_module_v1_4_8.py"
+  ],
+  "new_docs": [
+    "docs/TTI_v0_1_Reception_Extraction_Tradeoff.md",
+    "docs/PATCH_NOTES_v1_4_8_TTI.md"
+  ],
+  "boundary": "Exploratory analysis tools only. Does not certify meaning, consciousness, OSM biology, or clinical claims."
+}

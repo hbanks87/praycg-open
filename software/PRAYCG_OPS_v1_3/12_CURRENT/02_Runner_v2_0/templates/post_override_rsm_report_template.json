@@ -1,0 +1,22 @@
+{
+  "schema": "PRAYCG1_9_branch_confound_report_v1",
+  "phase_name": "OVERRIDE_1_AFTER_WASHOUT_3",
+  "branch_label": "Contextual Override",
+  "is_override": true,
+  "ratings": {
+    "CueLegibilityProblem": 0,
+    "CueBlurProblem": 0,
+    "EyeStrainOrSquintNeed": 0,
+    "RunningSumStall": 0,
+    "ApproximateOrGuessUsed": 0,
+    "LargeSumDifficulty": 0,
+    "CarryDifficulty": 0,
+    "HardNumberCombinationDifficulty": 0,
+    "FinalSumConfidence": 9
+  },
+  "notes": {
+    "cue_legibility": "NONE",
+    "running_sum": "NONE"
+  },
+  "boundary": "Can flag candidate running-sum burden; cannot prove exact private strategy without behavioral confirmation."
+}

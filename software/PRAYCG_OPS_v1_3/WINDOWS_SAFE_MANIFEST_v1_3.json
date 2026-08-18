@@ -1,0 +1,12 @@
+{
+  "package": "PRAYCG_Master_Operations_Pack_v1_3_WINDOWS_SAFE",
+  "created_utc": "2026-08-18T22:58:04.007636Z",
+  "source_zip": "PRAYCG_Master_Operations_Pack_v1_2_AllCode_WindowsSafe_Latest.zip",
+  "purpose": "Windows-safe path-shortened rebuild of Master Operations Pack v1.2 while preserving contents.",
+  "skipped_junk_entries": 11,
+  "renamed_entries": 916,
+  "notes": [
+    "No file contents intentionally removed except Python cache/junk if present.",
+    "Use PATH_RENAME_MAP_MASTER_OPS_v1_3.csv to trace shortened paths back to original paths."
+  ]
+}

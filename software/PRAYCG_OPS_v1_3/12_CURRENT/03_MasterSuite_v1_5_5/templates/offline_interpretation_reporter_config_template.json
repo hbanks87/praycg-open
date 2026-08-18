@@ -1,0 +1,10 @@
+{
+  "schema": "PRAYCG_offline_interpretation_reporter_config_v1_5_5",
+  "analysis_folder": "C:/PRAYCG/analysis_outputs/MyRun_MasterComprehensive",
+  "project_name": "MyRun",
+  "report_style": "technical",
+  "write_markdown": true,
+  "write_text": true,
+  "write_json": true,
+  "boundary": "Deterministic rule-coded summarizer; not a substitute for expert review."
+}

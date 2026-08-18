@@ -1,0 +1,16 @@
+{
+  "schema": "PRAYCG2_0_branch_core_report_v1",
+  "phase_name": "TARGET_1_AFTER_WASHOUT_2",
+  "branch_label": "Target",
+  "branch_type": "target",
+  "ratings": {
+    "Meaning": 0,
+    "Absorption": 0,
+    "EmotionalAfterglow": 0,
+    "StoryActiveWashout": 0,
+    "TaskExtractionLoad": 0,
+    "ConfoundBurden": 0
+  },
+  "scene_note": "Do not timestamp. Describe scene/line/image/felt moment.",
+  "confound_detail_recommended": false
+}

@@ -1,0 +1,10 @@
+module,status,primary_table,interpretation,limitation
+TopoOSM_NetworkState,completed,arrival_topo_osm_phase_state_vectors.csv,Phase-state topology summarized across baselines/washouts/branches.,ROI metadata is channel-map-cautioned for Arrival.
+CandidateLocal_KHT-topo / MRED,completed,arrival_candidate_local_kht_topo_mred_event_table.csv,Cross-boundary CandidateLocal KHT reviewed; no strict event lock.,Uses prior processed feature tables; not raw-XDF re-extraction in this rerun.
+MRED_v0.1,completed,arrival_nip_mred_component_timeseries.csv,Recognition/encoding proxies computed continuously and by anchors.,Feature-derived proxy; no population inference.
+NAST_v0.1,completed,arrival_nast_phase_transition_table.csv,Arrival Target shows NAST-style WASHOUT1->TARGET transition from existing module.,Uses prior NAST window feature table.
+OCM025 / RSM / CVB / SquintProxy,completed,arrival_ocm025_rsm_cvb_squint_cue_table.csv,Override cue-update/working-memory burden reviewed; no clean OCM pass.,Uses prior OCM table; SquintProxy remains artifact proxy only.
+TTI_v0.1,completed,arrival_tti_global_summary.csv,Reception/extraction Target-vs-Override contrast computed.,"Exploratory single-run construct, not moral/clinical score."
+NIP/BIT/CII/IAQ_v0.1,completed,arrival_cii_anchor_integrals.csv,Narrative immersion proxies computed over conceptual Arrival anchor windows.,"Anchors are conceptual/future-freeze, not runner-registered."
+CET/EET_v0.1,partial,arrival_cet_cue_residualization_model_summary.csv,Cue-only cinematic entrainment residualization and state-vector echo analysis completed.,No v1.8 Arrival full media regressors available; full CET-R not possible.
+MRED-ITP / ACG / OCU_v0.1,partial,arrival_mred_itp_anchor_summary.csv,Feature-state complexity and blink-sentinel proxy analysis completed.,No raw XDF LZ / true EOG/eye tracker in this rerun; proxy only.

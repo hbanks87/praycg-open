@@ -1,0 +1,19 @@
+{
+  "schema": "PRAYCG_MediaPrep_StimulusFingerprint_v1_8_component_manifest",
+  "version": "1.8",
+  "components": [
+    "MediaPrep GUI v1.8",
+    "StimulusFingerprint/CET/EET v1.8",
+    "AnchorPrep v1.7A finalizer retained",
+    "fullscreen ALS/photodiode start-pulse support",
+    "branch-isolated fingerprint outputs",
+    "NumPy trapz/trapezoid compatibility patch"
+  ],
+  "main_scripts": [
+    "scripts/run_PRAYCG_MediaPrep_v1_8.py",
+    "scripts/praycg_media_prep_gui_v1_8.py",
+    "scripts/praycg_stimulus_fingerprint_cet_eet_v1_8.py",
+    "scripts/praycg_anchor_lock_finalizer_v1_7A.py"
+  ],
+  "boundary": "Stimulus/media/exogenous regressor package only. Not an empirical endpoint certifier."
+}

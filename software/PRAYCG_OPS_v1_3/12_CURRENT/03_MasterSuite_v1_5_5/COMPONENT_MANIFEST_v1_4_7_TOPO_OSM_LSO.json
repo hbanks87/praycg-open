@@ -1,0 +1,11 @@
+{
+  "package": "PRAYCG_Unified_MasterSuite_v1_4_7_TopoOSM_LSO",
+  "created_utc": "2026-08-14T21:15:12Z",
+  "added": [
+    "Topo-OSM docs/scripts",
+    "K_HT-topo alias",
+    "LSO/SPM subtitle override docs/scripts",
+    "visualizer overlay support"
+  ],
+  "boundary": "Network-state topology only; no cellular/molecular OSM inference from human EEG."
+}

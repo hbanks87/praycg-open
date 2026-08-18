@@ -1,0 +1,6 @@
+{
+  "schema": "PRAYCG_module_tier_registry_v1_5_5",
+  "boxed_primary_path": ["Timing/QC", "StimulusFingerprint/CET-R", "Artifact/confound gates", "A-MRED", "MRED-Peak / MRED-Resolution"],
+  "secondary": ["NIP/BIT/CII/IAQ", "TTI", "NUPI"],
+  "exploratory_convergence": ["KHT-topo", "NAST", "EET", "MRED-ITP / ACG / OCU", "OCM025 / RSM / CVB / SquintProxy", "LSO / Subtitle Override"]
+}

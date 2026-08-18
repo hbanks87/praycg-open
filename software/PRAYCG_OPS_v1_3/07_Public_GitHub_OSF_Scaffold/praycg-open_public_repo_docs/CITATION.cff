@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this protocol, software, hardware documentation, or synthetic reproducibility package, please cite this repository and the specific release version."
+title: "PR-AYC-G Open Science Hub"
+version: "0.1.0-beta"
+date-released: "2026-08-09"
+authors:
+  - family-names: "Banks"
+    given-names: "Hoyt"
+abstract: "Open protocol, hardware documentation, analysis tools, and synthetic reproducibility packages for exploratory psychophysiology of narrative meaning."
+repository-code: "https://github.com/YOUR-USERNAME/praycg-open"
+url: "https://github.com/YOUR-USERNAME/praycg-open"
+license: "Apache-2.0"
+keywords:
+  - psychophysiology
+  - EEG
+  - narrative meaning
+  - Lab Streaming Layer
+  - OpenBCI
+  - open science
+  - synthetic reproducibility
+  - Opto-PING
+preferred-citation:
+  type: software
+  title: "PR-AYC-G Open Science Hub"
+  authors:
+    - family-names: "Banks"
+      given-names: "Hoyt"
+  version: "0.1.0-beta"
+  date-released: "2026-08-09"
+  license: "Apache-2.0"
+  repository-code: "https://github.com/YOUR-USERNAME/praycg-open"

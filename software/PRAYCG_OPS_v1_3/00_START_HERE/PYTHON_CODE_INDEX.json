@@ -1,0 +1,457 @@
+[
+  {
+    "path": "01_StimulusPrep_MediaPrep_v1_6S/scripts/praycg_media_prep_gui_v1_6S.py",
+    "size_bytes": 90110,
+    "sha256": "d38d12e69a5d85d1b48035223ce675c7b9bad5c9bab00cbd8bfaf5a5bcbaec9f",
+    "line_count": 1794,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "01_StimulusPrep_MediaPrep_v1_6S/scripts/run_PRAYCG_MediaPrep_v1_6S.py",
+    "size_bytes": 125,
+    "sha256": "abe771a846adc48ad27a031587a948dddf69b230da4eae1c0d70def29212e3ad",
+    "line_count": 5,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "02_ProtocolRunner_PRAYCG1_8B/scripts/run_PRAYCG1_8B_PredeclaredAnchors.py",
+    "size_bytes": 96256,
+    "sha256": "7ebc004c4084166795bb79664770c5d3ea46d28c698aa4bd62c194e107927ad1",
+    "line_count": 2015,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "02_ProtocolRunner_PRAYCG1_8B/scripts/run_praycg_v1_8B.py",
+    "size_bytes": 180,
+    "sha256": "5bd96a2ae30142b30dd64e6fb6af3b04916ee8cfa1e12507ff50c28e44f7d701",
+    "line_count": 6,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_ALS_PT19_Bridge_v1_4_TSC_grade/scripts/praycg_als_pt19_light_watchdog_v1_4.py",
+    "size_bytes": 3633,
+    "sha256": "0351e2dc2cb08e2f77ec9e1a0c0dded651a758f512b7579b8bcda5da7b09ed8b",
+    "line_count": 78,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_ALS_PT19_Bridge_v1_4_TSC_grade/scripts/praycg_check_brainflow_install_v1_4.py",
+    "size_bytes": 1542,
+    "sha256": "cb95fab11dcb14baf9dcbd1ee4b1d8c9105d959f2025a859501347395c5628ac",
+    "line_count": 42,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_ALS_PT19_Bridge_v1_4_TSC_grade/scripts/praycg_identify_openbci_port_v1_4.py",
+    "size_bytes": 2252,
+    "sha256": "646d52eef3368653aa1f6b4cf8ab5f5a2842561f9d73eb37ef47e521cf7f6fff",
+    "line_count": 59,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_ALS_PT19_Bridge_v1_4_TSC_grade/scripts/praycg_list_lsl_streams_v1_4.py",
+    "size_bytes": 726,
+    "sha256": "f6c03910aca1f4fbff2cc37b5abb07aa19c2d8fe383b07ec393c4cfd3bbbbf14",
+    "line_count": 20,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_ALS_PT19_Bridge_v1_4_TSC_grade/scripts/praycg_openbci_brainflow_als_pt19_bridge_v1_4.py",
+    "size_bytes": 26267,
+    "sha256": "079c2af328218b21d384ae9205366d6e3863990b68cc748f8e6baff66ad2a2d5",
+    "line_count": 662,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_EEGOnly_Home_Bridge_v1_0/scripts/praycg_check_install_eeg_only_v1_0.py",
+    "size_bytes": 527,
+    "sha256": "07a53cfcf5fbe27ce8ba7998d8ab7e58ef94629143d728a3ba7c03ac64bcf7a1",
+    "line_count": 20,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_EEGOnly_Home_Bridge_v1_0/scripts/praycg_eeg_lsl_watchdog_v1_0.py",
+    "size_bytes": 3188,
+    "sha256": "bb4af9d7f54ec8d3185dd08f612a6d6c3737de41ce2d176c1dd94fe4901c6f53",
+    "line_count": 80,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_EEGOnly_Home_Bridge_v1_0/scripts/praycg_identify_openbci_port_eeg_only_v1_0.py",
+    "size_bytes": 1837,
+    "sha256": "688ff72dccc0d75258a120dc8fb3cb6158af636a061dc68d015ecf27def2104e",
+    "line_count": 58,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_EEGOnly_Home_Bridge_v1_0/scripts/praycg_list_lsl_streams_v1_0.py",
+    "size_bytes": 768,
+    "sha256": "7ada61cf201d5a83e5677572f77031cedecfc1c5cc9c2a96492ed1eed602222e",
+    "line_count": 26,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "03_Acquisition/BrainFlow_EEGOnly_Home_Bridge_v1_0/scripts/praycg_openbci_brainflow_eeg_to_lsl_v1_0.py",
+    "size_bytes": 15584,
+    "sha256": "ff102283f8078f59b633fcd84b0aa356f622364684933a1ccd3d8cb844001420",
+    "line_count": 393,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "04_StimulusFingerprint_QC_v1_5/scripts/praycg_compare_stimulus_fingerprints_v1_0.py",
+    "size_bytes": 5708,
+    "sha256": "f1f6e918ab90969d66044312b40c5dfbae8697655de26ac3819867004393ae79",
+    "line_count": 140,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "04_StimulusFingerprint_QC_v1_5/scripts/praycg_stimulus_fingerprint_batch_ui_v1_5.py",
+    "size_bytes": 29375,
+    "sha256": "48fac51786fd887738e62f8a3705864834b46b2d7761770c6a77350cbaf16c14",
+    "line_count": 667,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "04_StimulusFingerprint_QC_v1_5/scripts/praycg_stimulus_fingerprint_v1_0.py",
+    "size_bytes": 30227,
+    "sha256": "bd3e92c7969b4c4035dcf72e642d98726b1372e87bb68e86ffb299a5f500d08c",
+    "line_count": 733,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "05_MasterComprehensiveSuite_Visualizer_v1_4_3_MRED/scripts/praycg_master_comprehensive_suite_gui_v1_4.py",
+    "size_bytes": 198448,
+    "sha256": "39aab4ab33e2f21d175bcfca23b1346523f3df8de1ed57b15cf2a4fb4452504f",
+    "line_count": 3556,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "05_MasterComprehensiveSuite_Visualizer_v1_4_3_MRED/scripts/praycg_master_sync_visualizer_v1_2.py",
+    "size_bytes": 97243,
+    "sha256": "904973c0376c8c89110402cd3eed2e4a64aee68de1c89acd389a1a6fcb53ca3f",
+    "line_count": 2149,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "05_MasterComprehensiveSuite_Visualizer_v1_4_3_MRED/scripts/praycg_unified_master_analysis_visualizer_v1_4.py",
+    "size_bytes": 17328,
+    "sha256": "4e77b08924d91ac4473d7864ce7fe53c2ded1fa6bfc6311d4a6e7410130a283b",
+    "line_count": 315,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0J_PreregisteredSyntheticLockIn/scripts/run_osm_opto_ping_rung0j_preregistered_lockin_v0_1.py",
+    "size_bytes": 11569,
+    "sha256": "b26d87578886ce41db119b2767414c1c7ce7c7104cf988bacdd7dd1f4fd0c6f1",
+    "line_count": 263,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0K_ExternalReproducibilityHandoff/02_REPRODUCTION_SCRIPT/run_osm_opto_ping_rung0j_preregistered_lockin_v0_1.py",
+    "size_bytes": 11569,
+    "sha256": "b26d87578886ce41db119b2767414c1c7ce7c7104cf988bacdd7dd1f4fd0c6f1",
+    "line_count": 263,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0K_ExternalReproducibilityHandoff/07_UTILITIES/verify_external_rung0j_results.py",
+    "size_bytes": 2235,
+    "sha256": "3487402d6ca154cc6a62e5e46a872b7905e4c462d51dcb70aa1d623b6c7e8cd6",
+    "line_count": 37,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0L_EmptySkySpecificity/scripts/run_rung0l_empty_sky_v0_1.py",
+    "size_bytes": 16599,
+    "sha256": "40460f6c79723c40c3b28a3fe8ca581dcd181f419dcdec45e64bc979ee60be98",
+    "line_count": 234,
+    "first_nonblank_line": "from __future__ import annotations"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0L_EmptySkySpecificity/scripts_run_rung0l_empty_sky_v0_1.py",
+    "size_bytes": 16599,
+    "sha256": "40460f6c79723c40c3b28a3fe8ca581dcd181f419dcdec45e64bc979ee60be98",
+    "line_count": 234,
+    "first_nonblank_line": "from __future__ import annotations"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0M_NullAwareModelSelection/scripts/run_rung0m_null_aware_model_selection_v0_1.py",
+    "size_bytes": 25288,
+    "sha256": "882f09c81cae1eb7cb0806a9434776d9fd462401f594626b315aacb0c308f774",
+    "line_count": 423,
+    "first_nonblank_line": "from __future__ import annotations"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0N_KNullCalibrationRepair/scripts/run_rung0n_k_null_calibration_repair_v0_1.py",
+    "size_bytes": 21306,
+    "sha256": "09f488cd1a66d26b6f0fd6cff43a17cc11c467741c0fe086e58ba7e5db305d78",
+    "line_count": 388,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0O_LockedNullAwareReproduction/scripts/run_rung0o_locked_reproduction_v0_1.py",
+    "size_bytes": 3691,
+    "sha256": "fb0ad82cb7b46da13531e4a240a24e73f4654be55629db59368a0058221a06c4",
+    "line_count": 61,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "06_OptoPING_Rung0_Reproducibility/Rung0O_LockedNullAwareReproduction/scripts/source_run_rung0n_k_null_calibration_repair_v0_1.py",
+    "size_bytes": 21306,
+    "sha256": "09f488cd1a66d26b6f0fd6cff43a17cc11c467741c0fe086e58ba7e5db305d78",
+    "line_count": 388,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_GammaScalpel/scripts/praycg_gammascalpel_v1_0.py",
+    "size_bytes": 39455,
+    "sha256": "8f2b1b13457cf6c1f894b25ce4aec64fb876d080a4a9e26a9726ac5a68d0f200",
+    "line_count": 872,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_ICA_ArtifactLibrary/scripts/praycg_apply_ica_library.py",
+    "size_bytes": 10077,
+    "sha256": "b54da4409df2d434c4ef9c49b1dfc5380423b6b4ff6908608df6693a9586cfb9",
+    "line_count": 240,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_ICA_ArtifactLibrary/scripts/praycg_build_ica_library.py",
+    "size_bytes": 11250,
+    "sha256": "c15c19486de33bd0d1d31b537adfebbddeda1cb490c6bb0f059ac5b50e58c2fd",
+    "line_count": 274,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_ICA_ArtifactLibrary/scripts/praycg_ica_common.py",
+    "size_bytes": 19782,
+    "sha256": "d0ddf56dfb462635c8fdc23aa99acd0bac0405ce8aad88c7b919135ba1c0560e",
+    "line_count": 515,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_ICA_ArtifactLibrary/scripts/praycg_ica_control_run.py",
+    "size_bytes": 14145,
+    "sha256": "a0a7d8c60a5ec78c4e3a6de0c090468064cd3fba3a2713d386aa2b8cfdef45e4",
+    "line_count": 372,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MasterSuite_v1_3_KHT/scripts/praycg_master_comprehensive_suite_gui_v1_3.py",
+    "size_bytes": 156037,
+    "sha256": "f60264cf00b92d5ebaae9fe2367429834e34ecbd305e2805c0201f416355a1cf",
+    "line_count": 2940,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MasterSuite_v1_3_KHT/scripts/run_PRAYCG_Master_Comprehensive_Suite_v1_2.py",
+    "size_bytes": 250,
+    "sha256": "05a392a91095668ef90855a500c03bd09ce5286fe848633d9a9b684715b345b7",
+    "line_count": 5,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MasterSuite_v1_3_KHT/scripts/run_PRAYCG_Master_Comprehensive_Suite_v1_3.py",
+    "size_bytes": 177,
+    "sha256": "9a1494cbd884ab8287635ede0c14d18b9e0df016896ea395d1551b24c78c3dd4",
+    "line_count": 4,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/protocol_PRAYCG1_6L/scripts/lsl_stasismarkers_smoke_test.py",
+    "size_bytes": 1528,
+    "sha256": "416249546756b2b2f78e2ee592a722f19579e28d21e03c324c66d2daf1efda07",
+    "line_count": 40,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/protocol_PRAYCG1_6L/scripts/run_PRAYCG1_6L_LSL_First_Windowed.py",
+    "size_bytes": 37220,
+    "sha256": "0b303be94531ca9314a6eda03c006e09a9783e3074ae7fc4cf2302fd0c4e4d31",
+    "line_count": 906,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/protocol_PRAYCG1_6L/scripts/run_praycg_v1_6L.py",
+    "size_bytes": 143,
+    "sha256": "b9fb6a189f02cf28ef3433de304d8016d756d8834c4373b72f3e2f294b3ec334",
+    "line_count": 5,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/protocol_PRAYCG1_6L/scripts/verify_xdf_stasis_markers.py",
+    "size_bytes": 1802,
+    "sha256": "bd220b39ac636675721a4a00beb20bba51509ef7af54c5cc16f0c1d18316b553",
+    "line_count": 48,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/scripts/praycg_media_prep_gui_v1_6M.py",
+    "size_bytes": 38503,
+    "sha256": "acd141af1f024eff5a19268427ff4c2f372171f3167eeeb79f41d378dc5f4ac8",
+    "line_count": 962,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/stimulus_fingerprint_v1_5/scripts/praycg_compare_stimulus_fingerprints_v1_0.py",
+    "size_bytes": 5708,
+    "sha256": "f1f6e918ab90969d66044312b40c5dfbae8697655de26ac3819867004393ae79",
+    "line_count": 140,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/stimulus_fingerprint_v1_5/scripts/praycg_stimulus_fingerprint_batch_ui_v1_5.py",
+    "size_bytes": 29375,
+    "sha256": "48fac51786fd887738e62f8a3705864834b46b2d7761770c6a77350cbaf16c14",
+    "line_count": 667,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6M/stimulus_fingerprint_v1_5/scripts/praycg_stimulus_fingerprint_v1_0.py",
+    "size_bytes": 30227,
+    "sha256": "bd3e92c7969b4c4035dcf72e642d98726b1372e87bb68e86ffb299a5f500d08c",
+    "line_count": 733,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/protocol_PRAYCG1_6L/scripts/lsl_stasismarkers_smoke_test.py",
+    "size_bytes": 1528,
+    "sha256": "416249546756b2b2f78e2ee592a722f19579e28d21e03c324c66d2daf1efda07",
+    "line_count": 40,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/protocol_PRAYCG1_6L/scripts/run_PRAYCG1_6L_LSL_First_Windowed.py",
+    "size_bytes": 37220,
+    "sha256": "0b303be94531ca9314a6eda03c006e09a9783e3074ae7fc4cf2302fd0c4e4d31",
+    "line_count": 906,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/protocol_PRAYCG1_6L/scripts/run_praycg_v1_6L.py",
+    "size_bytes": 143,
+    "sha256": "b9fb6a189f02cf28ef3433de304d8016d756d8834c4373b72f3e2f294b3ec334",
+    "line_count": 5,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/protocol_PRAYCG1_6L/scripts/verify_xdf_stasis_markers.py",
+    "size_bytes": 1802,
+    "sha256": "bd220b39ac636675721a4a00beb20bba51509ef7af54c5cc16f0c1d18316b553",
+    "line_count": 48,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/scripts/praycg_media_prep_gui_v1_6Q.py",
+    "size_bytes": 61217,
+    "sha256": "154c5fe3553d3a83381f10a563f8fe55df4f4094c1a121ad5f533ffa132eebdf",
+    "line_count": 1235,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/scripts/run_PRAYCG_MediaPrep_v1_6Q.py",
+    "size_bytes": 180,
+    "sha256": "7e509b4fee0807f38a83f77a20f4a0d5a017072069ec49fb86eff41a85229615",
+    "line_count": 6,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/stimulus_fingerprint_v1_6/scripts/praycg_compare_stimulus_fingerprints_v1_0.py",
+    "size_bytes": 5708,
+    "sha256": "f1f6e918ab90969d66044312b40c5dfbae8697655de26ac3819867004393ae79",
+    "line_count": 140,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/stimulus_fingerprint_v1_6/scripts/praycg_stimulus_fingerprint_batch_ui_v1_6.py",
+    "size_bytes": 30352,
+    "sha256": "7ac34333b73c0553efd92bed978c3074b0c38355da9a564823d0ed4ab6e75312",
+    "line_count": 684,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6Q/stimulus_fingerprint_v1_6/scripts/praycg_stimulus_fingerprint_v1_0.py",
+    "size_bytes": 30660,
+    "sha256": "774d1a54bec11a96281fa66a83a55da7e1a5986f53237f1af3f3ff8203e63936",
+    "line_count": 745,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6R_ALS_square/scripts/praycg_media_prep_gui_v1_6R.py",
+    "size_bytes": 78350,
+    "sha256": "da2200139c64558af59f1420044904c9162ee6c20d60245add43cc2319fe7054",
+    "line_count": 1564,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_MediaPrep_v1_6R_ALS_square/scripts/run_PRAYCG_MediaPrep_v1_6R.py",
+    "size_bytes": 180,
+    "sha256": "bc7c7c78dc91022b3ccca97d0b9e258ee14bbe93d6e8b365d36b155efc849c8d",
+    "line_count": 6,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_OpenBCI_BrainFlow_v1_2_PortHelper/scripts/praycg_identify_openbci_port_v1_2.py",
+    "size_bytes": 5679,
+    "sha256": "d58456b11e4ce3edd3ed5f6333019f01b4c09541a62301c2fb3639e64267aa1c",
+    "line_count": 149,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_OpenBCI_BrainFlow_v1_2_PortHelper/scripts/praycg_lsl_eeg_watchdog_v1_2.py",
+    "size_bytes": 4913,
+    "sha256": "61950d9665620f9cf4f524aad9c2e205e2ad7c48705f7a8641d8f417951959b7",
+    "line_count": 87,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_OpenBCI_BrainFlow_v1_2_PortHelper/scripts/praycg_openbci_brainflow_to_lsl_v1_2.py",
+    "size_bytes": 29530,
+    "sha256": "d6484fc6dadf6c83eb0d91199fb258f2ddab641916b81ade089dd5c1ceb851b1",
+    "line_count": 538,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_OpenBCI_BrainFlow_v1_2_PortHelper/scripts/praycg_openbci_bridge_launcher_gui_v1_2.py",
+    "size_bytes": 5881,
+    "sha256": "aa4808e5096aecac07f6328e0385d70182cdb944f4334e50c58e70938c16c221",
+    "line_count": 140,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_OpenBCI_BrainFlow_v1_2_PortHelper/scripts/praycg_verify_xdf_eeg_timing_grade_v1_2.py",
+    "size_bytes": 3615,
+    "sha256": "43e8fce528aad784ebac11139be6bd1667a81ca5e707fba915694959e86c7638",
+    "line_count": 74,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_Protocol_v1_6S/scripts/run_PRAYCG1_6S_BrowseMedia_Windowed.py",
+    "size_bytes": 56909,
+    "sha256": "dc796167b2edc0e94daa4e58ac0d7436b0627a91fe2b245ed667757aaf9b3152",
+    "line_count": 1303,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_Protocol_v1_6S/scripts/run_praycg_v1_6S.py",
+    "size_bytes": 211,
+    "sha256": "7bdf18068eb3398f2aa8e4e75a0812211d384f0c90f1277743cb1472cd2fa2d3",
+    "line_count": 6,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_Protocol_v1_8_FinalReflection/scripts/run_PRAYCG1_8_FinalReflectionBaseline.py",
+    "size_bytes": 83077,
+    "sha256": "8bd0c9ecf067139fa5feb6f39b2d58bf6c3ed73a9c1c63852eeb4f495b5f02c1",
+    "line_count": 1776,
+    "first_nonblank_line": "#!/usr/bin/env python3"
+  },
+  {
+    "path": "11_OPTIONAL_LEGACY_CODE_ARCHIVE/legacy_Protocol_v1_8_FinalReflection/scripts/run_praycg_v1_8.py",
+    "size_bytes": 215,
+    "sha256": "379567a77e6aa12be1e468b89e3a5cbfdd7f149fdce5165b71fde90707be3dc5",
+    "line_count": 6,
+    "first_nonblank_line": "#!/usr/bin/env python"
+  }
+]

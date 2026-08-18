@@ -1,0 +1,16 @@
+{
+  "schema": "PRAYCG_offline_interpreter_ruleset_v1_5_5",
+  "version": "1.5.5",
+  "boundary": "Rule-based interpretation aid only. Not proof of consciousness, memory, OSM biology, clinical effect, or internal state.",
+  "module_tiers": {
+    "boxed_primary_path": ["Timing/QC", "StimulusFingerprint/CET-R", "artifact/confound gates", "A-MRED", "MRED-Peak/Resolution"],
+    "secondary": ["NIP", "BIT", "CII", "IAQ", "TTI", "NUPI"],
+    "exploratory_convergence": ["KHT-topo", "NAST", "EET", "MRED-ITP", "ACG", "OCU", "OCM025", "RSM", "CVB", "SquintProxy", "LSO"]
+  },
+  "claim_grades": {
+    "strict_confirmatory": "Requires runner-registered/frame-verified anchors, clean timing QC, artifact pass, condition specificity, and preferably replication.",
+    "pilot_positive": "Useful result with timing/anchor/QC caveats.",
+    "exploratory": "Pattern-generating only; not endpoint confirmation.",
+    "unresolved": "Insufficient tables or conflicting evidence."
+  }
+}

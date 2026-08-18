@@ -1,0 +1,4 @@
+brainflow>=5.20.0
+pylsl>=1.16.0
+pyserial>=3.5
+numpy>=1.23

@@ -1,0 +1,4906 @@
+[
+  {
+    "marker": "LOCAL_LOG_CREATED",
+    "phase": "SETUP",
+    "note": "C:\\Users\\hoytb\\Desktop\\1.6O\\PRAYCG_MediaPrep_Protocol_v1_6O_NumpyPatch_Tools\\protocol_PRAYCG1_6L\\scripts\\praycg_run_logs\\PRAYCG_v1_6L_hoyt_S001_arrival_endscene2_20260728_063258_events.csv",
+    "lsl_time": 343517.9808061,
+    "unix_time": 1785238379.429471,
+    "psychopy_time": 134.34482480003498
+  },
+  {
+    "marker": "STASIS_MARKER_STREAM_ONLINE",
+    "phase": "SETUP",
+    "note": "praycg_stasismarkers_hoyt_S001_a91036ebd9",
+    "lsl_time": 343517.9810009,
+    "unix_time": 1785238379.429471,
+    "psychopy_time": 134.3450460000313
+  },
+  {
+    "marker": "PRAYCG_VERSION_1.6L",
+    "phase": "SETUP",
+    "note": "",
+    "lsl_time": 343517.9811141,
+    "unix_time": 1785238379.429471,
+    "psychopy_time": 134.34513530001277
+  },
+  {
+    "marker": "STASIS_MARKER_SOURCE_ID_RECORDED",
+    "phase": "SETUP",
+    "note": "praycg_stasismarkers_hoyt_S001_a91036ebd9",
+    "lsl_time": 343517.9896656,
+    "unix_time": 1785238379.4382584,
+    "psychopy_time": 134.35371480003232
+  },
+  {
+    "marker": "LABRECORDER_START_AFTER_THIS_MARKER_STREAM_IS_ONLINE",
+    "phase": "SETUP",
+    "note": "",
+    "lsl_time": 343517.9897756,
+    "unix_time": 1785238379.4382584,
+    "psychopy_time": 134.35379760002252
+  },
+  {
+    "marker": "STILLNESS_RESET_SECONDS_8.0",
+    "phase": "SETUP",
+    "note": "",
+    "lsl_time": 343517.9898307,
+    "unix_time": 1785238379.4382584,
+    "psychopy_time": 134.3538507000194
+  },
+  {
+    "marker": "REPORT_INPUT_EXCLUSION_PREPAD_SEC_3.0",
+    "phase": "SETUP",
+    "note": "",
+    "lsl_time": 343517.9898822,
+    "unix_time": 1785238379.4382584,
+    "psychopy_time": 134.3539022000041
+  },
+  {
+    "marker": "REPORT_INPUT_EXCLUSION_POSTPAD_SEC_5.0",
+    "phase": "SETUP",
+    "note": "",
+    "lsl_time": 343517.9899319,
+    "unix_time": 1785238379.4382584,
+    "psychopy_time": 134.35395170003176
+  },
+  {
+    "marker": "CHANNEL_MAP_START",
+    "phase": "SETUP",
+    "note": "C:\\Users\\hoytb\\Desktop\\1.6O\\PRAYCG_MediaPrep_Protocol_v1_6O_NumpyPatch_Tools\\protocol_PRAYCG1_6L\\scripts\\praycg_run_logs\\PRAYCG_v1_6L_hoyt_S001_arrival_endscene2_20260728_063258_events_channel_map.csv",
+    "lsl_time": 343517.9911899,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35522229998605
+  },
+  {
+    "marker": "CHANNEL_MAP_LABEL_PRAYCG16_FIXED_ORDER_v1",
+    "phase": "SETUP",
+    "note": "PRAYCG16_FIXED_ORDER_v1",
+    "lsl_time": 343517.9912804,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35530320002
+  },
+  {
+    "marker": "CHANNEL_MAP_CONFIRMED_TRUE",
+    "phase": "SETUP",
+    "note": "Set confirmed=True only after wire-to-electrode map is photographed or physically traced.",
+    "lsl_time": 343517.9913372,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35535660001915
+  },
+  {
+    "marker": "CHANNEL_MAP_CONFIDENCE_FALSE",
+    "phase": "SETUP",
+    "note": "FALSE",
+    "lsl_time": 343517.9913885,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.355407199997
+  },
+  {
+    "marker": "CHANNEL_MAP_CH01_Fz_ROI_frontal_analytic_lock",
+    "phase": "SETUP",
+    "note": "channel=1;electrode=Fz;roi=frontal_analytic_lock;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9914431,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.3554620000068
+  },
+  {
+    "marker": "CHANNEL_MAP_CH02_Cz_ROI_central_anchor",
+    "phase": "SETUP",
+    "note": "channel=2;electrode=Cz;roi=central_anchor;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9914977,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35551630001282
+  },
+  {
+    "marker": "CHANNEL_MAP_CH03_Pz_ROI_parietal_integration",
+    "phase": "SETUP",
+    "note": "channel=3;electrode=Pz;roi=parietal_integration;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9915774,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35559719998855
+  },
+  {
+    "marker": "CHANNEL_MAP_CH04_F3_ROI_left_frontal",
+    "phase": "SETUP",
+    "note": "channel=4;electrode=F3;roi=left_frontal;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9916321,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.3556505999877
+  },
+  {
+    "marker": "CHANNEL_MAP_CH05_F4_ROI_right_frontal",
+    "phase": "SETUP",
+    "note": "channel=5;electrode=F4;roi=right_frontal;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9916828,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.3557008000207
+  },
+  {
+    "marker": "CHANNEL_MAP_CH06_C3_ROI_left_central",
+    "phase": "SETUP",
+    "note": "channel=6;electrode=C3;roi=left_central;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9917334,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35575170000084
+  },
+  {
+    "marker": "CHANNEL_MAP_CH07_C4_ROI_right_central",
+    "phase": "SETUP",
+    "note": "channel=7;electrode=C4;roi=right_central;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9917829,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35580080002546
+  },
+  {
+    "marker": "CHANNEL_MAP_CH08_P3_ROI_left_parietal",
+    "phase": "SETUP",
+    "note": "channel=8;electrode=P3;roi=left_parietal;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9919068,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35593140003039
+  },
+  {
+    "marker": "CHANNEL_MAP_CH09_P4_ROI_right_parietal",
+    "phase": "SETUP",
+    "note": "channel=9;electrode=P4;roi=right_parietal;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9919662,
+    "unix_time": 1785238379.439767,
+    "psychopy_time": 134.35598510003183
+  },
+  {
+    "marker": "CHANNEL_MAP_CH10_T5_ROI_left_posterior_temporal",
+    "phase": "SETUP",
+    "note": "channel=10;electrode=T5;roi=left_posterior_temporal;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9920184,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.35603660001652
+  },
+  {
+    "marker": "CHANNEL_MAP_CH11_T6_ROI_right_posterior_temporal",
+    "phase": "SETUP",
+    "note": "channel=11;electrode=T6;roi=right_posterior_temporal;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9920696,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.3560884000035
+  },
+  {
+    "marker": "CHANNEL_MAP_CH12_O1_ROI_left_visual_control",
+    "phase": "SETUP",
+    "note": "channel=12;electrode=O1;roi=left_visual_control;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9921224,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.35614069999428
+  },
+  {
+    "marker": "CHANNEL_MAP_CH13_O2_ROI_right_visual_control",
+    "phase": "SETUP",
+    "note": "channel=13;electrode=O2;roi=right_visual_control;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9922201,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.35623979999218
+  },
+  {
+    "marker": "CHANNEL_MAP_CH14_T3_ROI_left_jaw_temporal_sentinel",
+    "phase": "SETUP",
+    "note": "channel=14;electrode=T3;roi=left_jaw_temporal_sentinel;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9922843,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.35630310000852
+  },
+  {
+    "marker": "CHANNEL_MAP_CH15_T4_ROI_right_jaw_temporal_sentinel",
+    "phase": "SETUP",
+    "note": "channel=15;electrode=T4;roi=right_jaw_temporal_sentinel;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9923383,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.35635690001072
+  },
+  {
+    "marker": "CHANNEL_MAP_CH16_Fp1_ROI_blink_eye_sentinel",
+    "phase": "SETUP",
+    "note": "channel=16;electrode=Fp1;roi=blink_eye_sentinel;map_label=PRAYCG16_FIXED_ORDER_v1;confirmed=True;confidence=FALSE",
+    "lsl_time": 343517.9923897,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.3564076999901
+  },
+  {
+    "marker": "CHANNEL_MAP_END",
+    "phase": "SETUP",
+    "note": "C:\\Users\\hoytb\\Desktop\\1.6O\\PRAYCG_MediaPrep_Protocol_v1_6O_NumpyPatch_Tools\\protocol_PRAYCG1_6L\\scripts\\praycg_run_logs\\PRAYCG_v1_6L_hoyt_S001_arrival_endscene2_20260728_063258_events_channel_map.csv",
+    "lsl_time": 343517.9924387,
+    "unix_time": 1785238379.4407744,
+    "psychopy_time": 134.35645650001243
+  },
+  {
+    "marker": "CUE_SCHEDULE_EXPECTED_SUM_550",
+    "phase": "SETUP",
+    "note": "",
+    "lsl_time": 343518.0090442,
+    "unix_time": 1785238379.45706,
+    "psychopy_time": 134.37309260002803
+  },
+  {
+    "marker": "CUE_SCHEDULE_LOADED_N_104",
+    "phase": "SETUP",
+    "note": "cue_schedule_Arrival_End_scene_v1_6Q.json",
+    "lsl_time": 343518.0092267,
+    "unix_time": 1785238379.45706,
+    "psychopy_time": 134.37324749998515
+  },
+  {
+    "marker": "STREAM_INVENTORY",
+    "phase": "SETUP",
+    "note": "PolarHRV,StasisMarkers,VernierRespirationBelt,obci_eeg1",
+    "lsl_time": 343519.2815135,
+    "unix_time": 1785238380.7296405,
+    "psychopy_time": 135.6455376999802
+  },
+  {
+    "marker": "LSL_PREFLIGHT_HOLD_START",
+    "phase": "SETUP",
+    "note": "Start LabRecorder during this hold, not before script launch.",
+    "lsl_time": 343521.5292914,
+    "unix_time": 1785238382.9780295,
+    "psychopy_time": 137.89333170000464
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_001",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343521.6607408,
+    "unix_time": 1785238383.1091557,
+    "psychopy_time": 138.02478279999923
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_002",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343522.6786613,
+    "unix_time": 1785238384.1274178,
+    "psychopy_time": 139.04269869998097
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_003",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343523.7141566,
+    "unix_time": 1785238385.1628773,
+    "psychopy_time": 140.07819470000686
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_004",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343524.740956,
+    "unix_time": 1785238386.1897767,
+    "psychopy_time": 141.1049909000285
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_005",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343525.7754906,
+    "unix_time": 1785238387.2243257,
+    "psychopy_time": 142.13953250000486
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_006",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343526.8090785,
+    "unix_time": 1785238388.2577643,
+    "psychopy_time": 143.1731354999938
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_007",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343527.8188228,
+    "unix_time": 1785238389.2677965,
+    "psychopy_time": 144.18285540002398
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_008",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343528.8238846,
+    "unix_time": 1785238390.2728224,
+    "psychopy_time": 145.1879175999784
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_009",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343529.8318047,
+    "unix_time": 1785238391.2807937,
+    "psychopy_time": 146.195837199979
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_010",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343530.8391844,
+    "unix_time": 1785238392.28818,
+    "psychopy_time": 147.20322630001465
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_011",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343531.8750579,
+    "unix_time": 1785238393.324108,
+    "psychopy_time": 148.23909190000268
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_012",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343532.8992907,
+    "unix_time": 1785238394.3483648,
+    "psychopy_time": 149.26333590003196
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_013",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343533.9209395,
+    "unix_time": 1785238395.3699915,
+    "psychopy_time": 150.28497239999706
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_014",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343534.9484829,
+    "unix_time": 1785238396.397568,
+    "psychopy_time": 151.31252829998266
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_015",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343535.9547005,
+    "unix_time": 1785238397.403841,
+    "psychopy_time": 152.31874860002426
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_016",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343536.9619984,
+    "unix_time": 1785238398.4112542,
+    "psychopy_time": 153.32603029999882
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_017",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343537.9758519,
+    "unix_time": 1785238399.4250698,
+    "psychopy_time": 154.33988470002078
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_018",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343539.0108094,
+    "unix_time": 1785238400.460076,
+    "psychopy_time": 155.37484429997858
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_019",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343540.0109187,
+    "unix_time": 1785238401.4601872,
+    "psychopy_time": 156.37495329999365
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_020",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343541.0174261,
+    "unix_time": 1785238402.466732,
+    "psychopy_time": 157.38145919999806
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_021",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343542.0250314,
+    "unix_time": 1785238403.4744122,
+    "psychopy_time": 158.38906369998585
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_022",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343543.0449457,
+    "unix_time": 1785238404.4943695,
+    "psychopy_time": 159.40898020000895
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_023",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343544.0655064,
+    "unix_time": 1785238405.5149145,
+    "psychopy_time": 160.42953860003036
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_024",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343545.0660551,
+    "unix_time": 1785238406.515476,
+    "psychopy_time": 161.43008900003042
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_025",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343546.0938483,
+    "unix_time": 1785238407.5432863,
+    "psychopy_time": 162.45789810002316
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_026",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343547.1020756,
+    "unix_time": 1785238408.5516086,
+    "psychopy_time": 163.46612890000688
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_027",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343548.1355339,
+    "unix_time": 1785238409.5850463,
+    "psychopy_time": 164.49956800002838
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_028",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343549.1709148,
+    "unix_time": 1785238410.6204102,
+    "psychopy_time": 165.53494789998513
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_029",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343550.1761549,
+    "unix_time": 1785238411.6257672,
+    "psychopy_time": 166.54018760001054
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_030",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343551.1839023,
+    "unix_time": 1785238412.6335478,
+    "psychopy_time": 167.54793509998126
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_031",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343552.191448,
+    "unix_time": 1785238413.6410747,
+    "psychopy_time": 168.5554814999923
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_032",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343553.2047928,
+    "unix_time": 1785238414.6544738,
+    "psychopy_time": 169.56882490002317
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_033",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343554.2275265,
+    "unix_time": 1785238415.6772513,
+    "psychopy_time": 170.59156079997774
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_034",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343555.2360325,
+    "unix_time": 1785238416.6857872,
+    "psychopy_time": 171.60006640001666
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_035",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343556.2471184,
+    "unix_time": 1785238417.6968422,
+    "psychopy_time": 172.61115210002754
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_036",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343557.2668549,
+    "unix_time": 1785238418.7167065,
+    "psychopy_time": 173.63088840001728
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_037",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343558.2883568,
+    "unix_time": 1785238419.7381892,
+    "psychopy_time": 174.65239260002272
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_038",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343559.2949701,
+    "unix_time": 1785238420.744895,
+    "psychopy_time": 175.6590026000049
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_039",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343560.3156957,
+    "unix_time": 1785238421.765621,
+    "psychopy_time": 176.67973630002234
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_040",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343561.3361419,
+    "unix_time": 1785238422.7860963,
+    "psychopy_time": 177.70018669997808
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_041",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343562.3363659,
+    "unix_time": 1785238423.7862654,
+    "psychopy_time": 178.70040359999985
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_042",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343563.3438123,
+    "unix_time": 1785238424.7938318,
+    "psychopy_time": 179.70785070001148
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_043",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343564.3573875,
+    "unix_time": 1785238425.8074317,
+    "psychopy_time": 180.7214335000026
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_044",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343565.3782629,
+    "unix_time": 1785238426.8283145,
+    "psychopy_time": 181.74229600001127
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_045",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343566.4053957,
+    "unix_time": 1785238427.855489,
+    "psychopy_time": 182.76942730002338
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_046",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343567.4338097,
+    "unix_time": 1785238428.8839197,
+    "psychopy_time": 183.79784439998912
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_047",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343568.4685256,
+    "unix_time": 1785238429.9186642,
+    "psychopy_time": 184.8325686000171
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_048",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343569.4817247,
+    "unix_time": 1785238430.9319217,
+    "psychopy_time": 185.84575710003264
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_049",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343570.4836409,
+    "unix_time": 1785238431.9338627,
+    "psychopy_time": 186.8476741000195
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_050",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343571.4892209,
+    "unix_time": 1785238432.9394782,
+    "psychopy_time": 187.85325320000993
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_051",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343572.5196454,
+    "unix_time": 1785238433.9699218,
+    "psychopy_time": 188.88368159998208
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_052",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343573.5441542,
+    "unix_time": 1785238434.9944983,
+    "psychopy_time": 189.90819370001554
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_053",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343574.5785239,
+    "unix_time": 1785238436.0288215,
+    "psychopy_time": 190.9425573000335
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_054",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343575.5795745,
+    "unix_time": 1785238437.029929,
+    "psychopy_time": 191.94362259999616
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_055",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343576.6085956,
+    "unix_time": 1785238438.0590065,
+    "psychopy_time": 192.97264170000562
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_056",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343577.6216976,
+    "unix_time": 1785238439.0721211,
+    "psychopy_time": 193.98573990003206
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_057",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343578.6270243,
+    "unix_time": 1785238440.077496,
+    "psychopy_time": 194.9910644000047
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_058",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343579.6553432,
+    "unix_time": 1785238441.1058633,
+    "psychopy_time": 196.01938339998014
+  },
+  {
+    "marker": "LSL_PREFLIGHT_PING_059",
+    "phase": "SETUP",
+    "note": "If LabRecorder records StasisMarkers, this ping should appear in the XDF.",
+    "lsl_time": 343580.6695065,
+    "unix_time": 1785238442.120068,
+    "psychopy_time": 197.03354289999697
+  },
+  {
+    "marker": "LSL_PREFLIGHT_HOLD_END",
+    "phase": "SETUP",
+    "note": "pings_sent=59",
+    "lsl_time": 343581.4540293,
+    "unix_time": 1785238442.9044833,
+    "psychopy_time": 197.81807630002731
+  },
+  {
+    "marker": "PROTOCOL_SEQUENCE_START",
+    "phase": "PROTOCOL",
+    "note": "",
+    "lsl_time": 343587.13463,
+    "unix_time": 1785238448.5851493,
+    "psychopy_time": 203.4986937000067
+  },
+  {
+    "marker": "BASELINE_1_START",
+    "phase": "BASELINE_1",
+    "note": "",
+    "lsl_time": 343587.1347761,
+    "unix_time": 1785238448.5851493,
+    "psychopy_time": 203.49879919999512
+  },
+  {
+    "marker": "BASELINE_1_END",
+    "phase": "BASELINE_1",
+    "note": "",
+    "lsl_time": 343707.139907,
+    "unix_time": 1785238568.5941095,
+    "psychopy_time": 323.5039589999942
+  },
+  {
+    "marker": "CONTROL_1_INSTRUCTION_START",
+    "phase": "CONTROL_1",
+    "note": "",
+    "lsl_time": 343707.1400704,
+    "unix_time": 1785238568.5941095,
+    "psychopy_time": 323.5040931000258
+  },
+  {
+    "marker": "CONTROL_1_INSTRUCTION_END",
+    "phase": "CONTROL_1",
+    "note": "",
+    "lsl_time": 343710.8560315,
+    "unix_time": 1785238572.3098485,
+    "psychopy_time": 327.2201044000103
+  },
+  {
+    "marker": "CONTROL_1_LOAD_OK",
+    "phase": "CONTROL_1",
+    "note": "stimulus_control_cued_phase_scrambled_Arrival_End_scene_v1_6Q.mp4",
+    "lsl_time": 343710.8567073,
+    "unix_time": 1785238572.3108065,
+    "psychopy_time": 327.22074780002004
+  },
+  {
+    "marker": "CONTROL_1_START",
+    "phase": "CONTROL_1",
+    "note": "",
+    "lsl_time": 343714.5639806,
+    "unix_time": 1785238576.0182087,
+    "psychopy_time": 330.9280774000217
+  },
+  {
+    "marker": "CONTROL_1_TIMEOUT_BREAK",
+    "phase": "CONTROL_1",
+    "note": "",
+    "lsl_time": 344028.2923268,
+    "unix_time": 1785238889.753575,
+    "psychopy_time": 644.6563895000145
+  },
+  {
+    "marker": "CONTROL_1_END",
+    "phase": "CONTROL_1",
+    "note": "",
+    "lsl_time": 344031.1868737,
+    "unix_time": 1785238892.6476872,
+    "psychopy_time": 647.550925699994
+  },
+  {
+    "marker": "WASHOUT_1_START",
+    "phase": "WASHOUT_1",
+    "note": "",
+    "lsl_time": 344031.1887116,
+    "unix_time": 1785238892.6487155,
+    "psychopy_time": 647.5527517999872
+  },
+  {
+    "marker": "WASHOUT_1_END",
+    "phase": "WASHOUT_1",
+    "note": "",
+    "lsl_time": 344151.1924308,
+    "unix_time": 1785239012.6557307,
+    "psychopy_time": 767.5564730000333
+  },
+  {
+    "marker": "REPORT_INPUT_START",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "CONTROL_1_AFTER_WASHOUT_1",
+    "lsl_time": 344151.1925547,
+    "unix_time": 1785239012.6557307,
+    "psychopy_time": 767.5565757000004
+  },
+  {
+    "marker": "REPORT_INPUT_CONTROL_1_AFTER_WASHOUT_1_START",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344151.1926652,
+    "unix_time": 1785239012.6557307,
+    "psychopy_time": 767.556687000033
+  },
+  {
+    "marker": "RATINGS_CONTROL_1_AFTER_WASHOUT_1_START",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344151.1927185,
+    "unix_time": 1785239012.6557307,
+    "psychopy_time": 767.5567373000085
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_Meaning_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344160.6800765,
+    "unix_time": 1785239022.1438622,
+    "psychopy_time": 777.0441897999845
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_Empathy_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344161.7394165,
+    "unix_time": 1785239023.2033637,
+    "psychopy_time": 778.1034570999909
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_Absorption_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344162.675007,
+    "unix_time": 1785239024.1390188,
+    "psychopy_time": 779.0390460999915
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_StoryActiveWashout_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344163.9194338,
+    "unix_time": 1785239025.383463,
+    "psychopy_time": 780.2834752000053
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_EmotionalAfterglow_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344164.7212738,
+    "unix_time": 1785239026.1853106,
+    "psychopy_time": 781.0853143000277
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_AnalyticEffort_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344166.1087344,
+    "unix_time": 1785239027.572822,
+    "psychopy_time": 782.4727831000346
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_TaskCompliance_7",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344169.3078444,
+    "unix_time": 1785239030.7719967,
+    "psychopy_time": 785.6718822999974
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_OverrideLeakage_0",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344171.3113461,
+    "unix_time": 1785239032.7754827,
+    "psychopy_time": 787.6753926000092
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_FatigueDiscomfort_1",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344172.7666058,
+    "unix_time": 1785239034.2307885,
+    "psychopy_time": 789.1306583000114
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_MindWandering_4",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344175.2038078,
+    "unix_time": 1785239036.668092,
+    "psychopy_time": 791.5678548000287
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_ProtocolThoughts_3",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344177.1923191,
+    "unix_time": 1785239038.6565545,
+    "psychopy_time": 793.556366499979
+  },
+  {
+    "marker": "RATING_CONTROL_1_AFTER_WASHOUT_1_NumberCueDistraction_0",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "",
+    "lsl_time": 344178.703441,
+    "unix_time": 1785239040.1677935,
+    "psychopy_time": 795.0674822999863
+  },
+  {
+    "marker": "RATINGS_CONTROL_1_AFTER_WASHOUT_1_END",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "{\"Absorption\": 1, \"AnalyticEffort\": 1, \"EmotionalAfterglow\": 1, \"Empathy\": 1, \"FatigueDiscomfort\": 1, \"Meaning\": 1, \"MindWandering\": 4, \"NumberCueDistraction\": 0, \"OverrideLeakage\": 0, \"ProtocolThoughts\": 3, \"StoryActiveWashout\": 1, \"TaskCompliance\": 7}",
+    "lsl_time": 344178.8544892,
+    "unix_time": 1785239040.3187804,
+    "psychopy_time": 795.2185286000022
+  },
+  {
+    "marker": "REPORT_INPUT_CONTROL_1_AFTER_WASHOUT_1_END",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "{\"Absorption\": 1, \"AnalyticEffort\": 1, \"EmotionalAfterglow\": 1, \"Empathy\": 1, \"FatigueDiscomfort\": 1, \"Meaning\": 1, \"MindWandering\": 4, \"NumberCueDistraction\": 0, \"OverrideLeakage\": 0, \"ProtocolThoughts\": 3, \"StoryActiveWashout\": 1, \"TaskCompliance\": 7}",
+    "lsl_time": 344178.8546119,
+    "unix_time": 1785239040.3187804,
+    "psychopy_time": 795.2186647999915
+  },
+  {
+    "marker": "REPORT_INPUT_END",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "{\"Absorption\": 1, \"AnalyticEffort\": 1, \"EmotionalAfterglow\": 1, \"Empathy\": 1, \"FatigueDiscomfort\": 1, \"Meaning\": 1, \"MindWandering\": 4, \"NumberCueDistraction\": 0, \"OverrideLeakage\": 0, \"ProtocolThoughts\": 3, \"StoryActiveWashout\": 1, \"TaskCompliance\": 7}",
+    "lsl_time": 344178.8547183,
+    "unix_time": 1785239040.3187804,
+    "psychopy_time": 795.2187377000228
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_START",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "duration_sec=8.000;reason=after_control_report_before_target_instruction",
+    "lsl_time": 344178.8548308,
+    "unix_time": 1785239040.3187804,
+    "psychopy_time": 795.2188655000064
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_CONTROL_1_AFTER_WASHOUT_1_START",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "duration_sec=8.000;reason=after_control_report_before_target_instruction",
+    "lsl_time": 344178.8548936,
+    "unix_time": 1785239040.3187804,
+    "psychopy_time": 795.2189118000097
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_CONTROL_1_AFTER_WASHOUT_1_END",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "duration_sec=8.000;reason=after_control_report_before_target_instruction",
+    "lsl_time": 344186.8765664,
+    "unix_time": 1785239048.3408556,
+    "psychopy_time": 803.2406139000086
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_END",
+    "phase": "CONTROL_1_AFTER_WASHOUT_1",
+    "note": "duration_sec=8.000;reason=after_control_report_before_target_instruction",
+    "lsl_time": 344186.8767328,
+    "unix_time": 1785239048.3408556,
+    "psychopy_time": 803.2407618000288
+  },
+  {
+    "marker": "TARGET_1_INSTRUCTION_START",
+    "phase": "TARGET_1",
+    "note": "",
+    "lsl_time": 344186.8768516,
+    "unix_time": 1785239048.3408556,
+    "psychopy_time": 803.240873600007
+  },
+  {
+    "marker": "TARGET_1_INSTRUCTION_END",
+    "phase": "TARGET_1",
+    "note": "",
+    "lsl_time": 344187.310284,
+    "unix_time": 1785239048.7744906,
+    "psychopy_time": 803.6743694000179
+  },
+  {
+    "marker": "TARGET_1_LOAD_OK",
+    "phase": "TARGET_1",
+    "note": "stimulus_target_cued_Arrival_End_scene_v1_6Q.mp4",
+    "lsl_time": 344187.3107244,
+    "unix_time": 1785239048.7744906,
+    "psychopy_time": 803.67475190002
+  },
+  {
+    "marker": "TARGET_1_START",
+    "phase": "TARGET_1",
+    "note": "",
+    "lsl_time": 344189.7891736,
+    "unix_time": 1785239051.2538142,
+    "psychopy_time": 806.1532211999875
+  },
+  {
+    "marker": "TARGET_1_CUE_001_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=3.000",
+    "lsl_time": 344192.7956939,
+    "unix_time": 1785239054.2601252,
+    "psychopy_time": 809.1597661999986
+  },
+  {
+    "marker": "TARGET_1_CUE_001_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=3.850",
+    "lsl_time": 344193.643206,
+    "unix_time": 1785239055.1071515,
+    "psychopy_time": 810.007282000035
+  },
+  {
+    "marker": "TARGET_1_CUE_002_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=6.000",
+    "lsl_time": 344195.7955978,
+    "unix_time": 1785239057.2601423,
+    "psychopy_time": 812.1596442000009
+  },
+  {
+    "marker": "TARGET_1_CUE_002_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=6.850",
+    "lsl_time": 344196.6437924,
+    "unix_time": 1785239058.1083708,
+    "psychopy_time": 813.0078383000218
+  },
+  {
+    "marker": "TARGET_1_CUE_003_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=9.000",
+    "lsl_time": 344198.7958802,
+    "unix_time": 1785239060.2602205,
+    "psychopy_time": 815.1599387000315
+  },
+  {
+    "marker": "TARGET_1_CUE_003_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=9.850",
+    "lsl_time": 344199.6430311,
+    "unix_time": 1785239061.107071,
+    "psychopy_time": 816.007091699983
+  },
+  {
+    "marker": "TARGET_1_CUE_004_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=12.000",
+    "lsl_time": 344201.7959175,
+    "unix_time": 1785239063.2605417,
+    "psychopy_time": 818.1599637999898
+  },
+  {
+    "marker": "TARGET_1_CUE_004_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=12.850",
+    "lsl_time": 344202.6426548,
+    "unix_time": 1785239064.1071856,
+    "psychopy_time": 819.0067259999923
+  },
+  {
+    "marker": "TARGET_1_CUE_005_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=15.000",
+    "lsl_time": 344204.795399,
+    "unix_time": 1785239066.260274,
+    "psychopy_time": 821.1594419000321
+  },
+  {
+    "marker": "TARGET_1_CUE_005_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=15.850",
+    "lsl_time": 344205.6429176,
+    "unix_time": 1785239067.107481,
+    "psychopy_time": 822.0069655000116
+  },
+  {
+    "marker": "TARGET_1_CUE_006_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=18.000",
+    "lsl_time": 344207.7958584,
+    "unix_time": 1785239069.260302,
+    "psychopy_time": 824.1599334999919
+  },
+  {
+    "marker": "TARGET_1_CUE_006_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=18.850",
+    "lsl_time": 344208.6429158,
+    "unix_time": 1785239070.1074135,
+    "psychopy_time": 825.0069843999809
+  },
+  {
+    "marker": "TARGET_1_CUE_007_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=21.000",
+    "lsl_time": 344210.795289,
+    "unix_time": 1785239072.2594974,
+    "psychopy_time": 827.1593324000132
+  },
+  {
+    "marker": "TARGET_1_CUE_007_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=21.850",
+    "lsl_time": 344211.6430234,
+    "unix_time": 1785239073.1077614,
+    "psychopy_time": 828.0071028000093
+  },
+  {
+    "marker": "TARGET_1_CUE_008_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=24.000",
+    "lsl_time": 344213.7952449,
+    "unix_time": 1785239075.2595463,
+    "psychopy_time": 830.159295200021
+  },
+  {
+    "marker": "TARGET_1_CUE_008_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=24.850",
+    "lsl_time": 344214.642447,
+    "unix_time": 1785239076.1066754,
+    "psychopy_time": 831.0065221000114
+  },
+  {
+    "marker": "TARGET_1_CUE_009_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=27.000",
+    "lsl_time": 344216.7951033,
+    "unix_time": 1785239078.2594137,
+    "psychopy_time": 833.1591459999909
+  },
+  {
+    "marker": "TARGET_1_CUE_009_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=27.850",
+    "lsl_time": 344217.642674,
+    "unix_time": 1785239079.107226,
+    "psychopy_time": 834.006727
+  },
+  {
+    "marker": "TARGET_1_CUE_010_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=30.000",
+    "lsl_time": 344219.7957682,
+    "unix_time": 1785239081.2599907,
+    "psychopy_time": 836.1598656999995
+  },
+  {
+    "marker": "TARGET_1_CUE_010_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=30.850",
+    "lsl_time": 344220.6422871,
+    "unix_time": 1785239082.1073356,
+    "psychopy_time": 837.0063322000206
+  },
+  {
+    "marker": "TARGET_1_CUE_011_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=33.000",
+    "lsl_time": 344222.7950815,
+    "unix_time": 1785239084.260088,
+    "psychopy_time": 839.1591475000023
+  },
+  {
+    "marker": "TARGET_1_CUE_011_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=33.850",
+    "lsl_time": 344223.6428492,
+    "unix_time": 1785239085.1083512,
+    "psychopy_time": 840.0068992000306
+  },
+  {
+    "marker": "TARGET_1_CUE_012_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=36.000",
+    "lsl_time": 344225.7953466,
+    "unix_time": 1785239087.2606738,
+    "psychopy_time": 842.1593924000044
+  },
+  {
+    "marker": "TARGET_1_CUE_012_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=36.850",
+    "lsl_time": 344226.6425381,
+    "unix_time": 1785239088.1075325,
+    "psychopy_time": 843.0065962999943
+  },
+  {
+    "marker": "TARGET_1_CUE_013_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=39.000",
+    "lsl_time": 344228.7952138,
+    "unix_time": 1785239090.2605765,
+    "psychopy_time": 845.1592567000189
+  },
+  {
+    "marker": "TARGET_1_CUE_013_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=39.850",
+    "lsl_time": 344229.6423836,
+    "unix_time": 1785239091.1075785,
+    "psychopy_time": 846.0064297000063
+  },
+  {
+    "marker": "TARGET_1_CUE_014_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=42.000",
+    "lsl_time": 344231.7948429,
+    "unix_time": 1785239093.2598372,
+    "psychopy_time": 848.158884799981
+  },
+  {
+    "marker": "TARGET_1_CUE_014_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=42.850",
+    "lsl_time": 344232.6419982,
+    "unix_time": 1785239094.1068885,
+    "psychopy_time": 849.006041900022
+  },
+  {
+    "marker": "TARGET_1_CUE_015_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=45.000",
+    "lsl_time": 344234.7946856,
+    "unix_time": 1785239096.259469,
+    "psychopy_time": 851.1587378000258
+  },
+  {
+    "marker": "TARGET_1_CUE_015_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=45.850",
+    "lsl_time": 344235.6419578,
+    "unix_time": 1785239097.1068368,
+    "psychopy_time": 852.0060009000008
+  },
+  {
+    "marker": "TARGET_1_CUE_016_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=48.000",
+    "lsl_time": 344237.7947179,
+    "unix_time": 1785239099.2605267,
+    "psychopy_time": 854.1587617000332
+  },
+  {
+    "marker": "TARGET_1_CUE_016_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=48.850",
+    "lsl_time": 344238.6427564,
+    "unix_time": 1785239100.1081786,
+    "psychopy_time": 855.0068079000339
+  },
+  {
+    "marker": "TARGET_1_CUE_017_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=51.000",
+    "lsl_time": 344240.7950039,
+    "unix_time": 1785239102.259886,
+    "psychopy_time": 857.1590521000326
+  },
+  {
+    "marker": "TARGET_1_CUE_017_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=51.850",
+    "lsl_time": 344241.6418337,
+    "unix_time": 1785239103.1072373,
+    "psychopy_time": 858.0058756999788
+  },
+  {
+    "marker": "TARGET_1_CUE_018_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=54.000",
+    "lsl_time": 344243.794992,
+    "unix_time": 1785239105.2602649,
+    "psychopy_time": 860.1590629999992
+  },
+  {
+    "marker": "TARGET_1_CUE_018_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=54.850",
+    "lsl_time": 344244.6421773,
+    "unix_time": 1785239106.1072013,
+    "psychopy_time": 861.0062398000155
+  },
+  {
+    "marker": "TARGET_1_CUE_019_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=57.000",
+    "lsl_time": 344246.7945245,
+    "unix_time": 1785239108.2599695,
+    "psychopy_time": 863.1585821000044
+  },
+  {
+    "marker": "TARGET_1_CUE_019_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=57.850",
+    "lsl_time": 344247.6416508,
+    "unix_time": 1785239109.1069267,
+    "psychopy_time": 864.0056942999945
+  },
+  {
+    "marker": "TARGET_1_CUE_020_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=60.000",
+    "lsl_time": 344249.7948119,
+    "unix_time": 1785239111.260784,
+    "psychopy_time": 866.1589061000268
+  },
+  {
+    "marker": "TARGET_1_CUE_020_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=60.850",
+    "lsl_time": 344250.6416084,
+    "unix_time": 1785239112.1066985,
+    "psychopy_time": 867.005650200008
+  },
+  {
+    "marker": "TARGET_1_CUE_021_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=63.000",
+    "lsl_time": 344252.7947968,
+    "unix_time": 1785239114.2601013,
+    "psychopy_time": 869.1588507000124
+  },
+  {
+    "marker": "TARGET_1_CUE_021_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=63.850",
+    "lsl_time": 344253.6414968,
+    "unix_time": 1785239115.1069074,
+    "psychopy_time": 870.0055442000157
+  },
+  {
+    "marker": "TARGET_1_CUE_022_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=66.000",
+    "lsl_time": 344255.7942524,
+    "unix_time": 1785239117.2598858,
+    "psychopy_time": 872.1582965999842
+  },
+  {
+    "marker": "TARGET_1_CUE_022_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=66.850",
+    "lsl_time": 344256.6414851,
+    "unix_time": 1785239118.1075914,
+    "psychopy_time": 873.0055297000217
+  },
+  {
+    "marker": "TARGET_1_CUE_023_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=69.000",
+    "lsl_time": 344258.7951102,
+    "unix_time": 1785239120.2608237,
+    "psychopy_time": 875.1591582000256
+  },
+  {
+    "marker": "TARGET_1_CUE_023_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=69.850",
+    "lsl_time": 344259.6419781,
+    "unix_time": 1785239121.1082687,
+    "psychopy_time": 876.006060899992
+  },
+  {
+    "marker": "TARGET_1_CUE_024_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=72.000",
+    "lsl_time": 344261.7944706,
+    "unix_time": 1785239123.2601078,
+    "psychopy_time": 878.1585259999847
+  },
+  {
+    "marker": "TARGET_1_CUE_024_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=72.850",
+    "lsl_time": 344262.6415745,
+    "unix_time": 1785239124.1075323,
+    "psychopy_time": 879.0056489999988
+  },
+  {
+    "marker": "TARGET_1_CUE_025_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=75.000",
+    "lsl_time": 344264.7944363,
+    "unix_time": 1785239126.2603736,
+    "psychopy_time": 881.1584814999951
+  },
+  {
+    "marker": "TARGET_1_CUE_025_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=75.850",
+    "lsl_time": 344265.6412563,
+    "unix_time": 1785239127.1066792,
+    "psychopy_time": 882.0052990000113
+  },
+  {
+    "marker": "TARGET_1_CUE_026_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=78.000",
+    "lsl_time": 344267.7939727,
+    "unix_time": 1785239129.2599568,
+    "psychopy_time": 884.1580157999997
+  },
+  {
+    "marker": "TARGET_1_CUE_026_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=78.850",
+    "lsl_time": 344268.6411998,
+    "unix_time": 1785239130.1072118,
+    "psychopy_time": 885.00524269999
+  },
+  {
+    "marker": "TARGET_1_CUE_027_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=81.000",
+    "lsl_time": 344270.7940079,
+    "unix_time": 1785239132.2599108,
+    "psychopy_time": 887.1580525999889
+  },
+  {
+    "marker": "TARGET_1_CUE_027_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=81.850",
+    "lsl_time": 344271.6414332,
+    "unix_time": 1785239133.1074996,
+    "psychopy_time": 888.0055033999961
+  },
+  {
+    "marker": "TARGET_1_CUE_028_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=84.000",
+    "lsl_time": 344273.793969,
+    "unix_time": 1785239135.2601957,
+    "psychopy_time": 890.1580304999952
+  },
+  {
+    "marker": "TARGET_1_CUE_028_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=84.850",
+    "lsl_time": 344274.6415472,
+    "unix_time": 1785239136.1080358,
+    "psychopy_time": 891.005594599992
+  },
+  {
+    "marker": "TARGET_1_CUE_029_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=87.000",
+    "lsl_time": 344276.7937969,
+    "unix_time": 1785239138.2600794,
+    "psychopy_time": 893.1578414000105
+  },
+  {
+    "marker": "TARGET_1_CUE_029_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=87.850",
+    "lsl_time": 344277.641086,
+    "unix_time": 1785239139.107695,
+    "psychopy_time": 894.0051386000123
+  },
+  {
+    "marker": "TARGET_1_CUE_030_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=90.000",
+    "lsl_time": 344279.7937423,
+    "unix_time": 1785239141.2602766,
+    "psychopy_time": 896.1577838999801
+  },
+  {
+    "marker": "TARGET_1_CUE_030_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=90.850",
+    "lsl_time": 344280.640973,
+    "unix_time": 1785239142.107271,
+    "psychopy_time": 897.005017700023
+  },
+  {
+    "marker": "TARGET_1_CUE_031_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=93.000",
+    "lsl_time": 344282.7936678,
+    "unix_time": 1785239144.259658,
+    "psychopy_time": 899.1577138000284
+  },
+  {
+    "marker": "TARGET_1_CUE_031_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=93.850",
+    "lsl_time": 344283.6408979,
+    "unix_time": 1785239145.1070156,
+    "psychopy_time": 900.0049462000025
+  },
+  {
+    "marker": "TARGET_1_CUE_032_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=96.000",
+    "lsl_time": 344285.7937084,
+    "unix_time": 1785239147.2602947,
+    "psychopy_time": 902.1577663000207
+  },
+  {
+    "marker": "TARGET_1_CUE_032_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=96.850",
+    "lsl_time": 344286.6408456,
+    "unix_time": 1785239148.1067429,
+    "psychopy_time": 903.0048902999843
+  },
+  {
+    "marker": "TARGET_1_CUE_033_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=99.000",
+    "lsl_time": 344288.7934957,
+    "unix_time": 1785239150.2603416,
+    "psychopy_time": 905.1575371000217
+  },
+  {
+    "marker": "TARGET_1_CUE_033_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=99.850",
+    "lsl_time": 344289.6407969,
+    "unix_time": 1785239151.1072063,
+    "psychopy_time": 906.0048389000003
+  },
+  {
+    "marker": "TARGET_1_CUE_034_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=102.000",
+    "lsl_time": 344291.7934128,
+    "unix_time": 1785239153.2597284,
+    "psychopy_time": 908.1574535000254
+  },
+  {
+    "marker": "TARGET_1_CUE_034_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=102.850",
+    "lsl_time": 344292.6409792,
+    "unix_time": 1785239154.1070886,
+    "psychopy_time": 909.0050254000234
+  },
+  {
+    "marker": "TARGET_1_CUE_035_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=105.000",
+    "lsl_time": 344294.7934305,
+    "unix_time": 1785239156.2595685,
+    "psychopy_time": 911.1574738000054
+  },
+  {
+    "marker": "TARGET_1_CUE_035_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=105.850",
+    "lsl_time": 344295.6409843,
+    "unix_time": 1785239157.1070757,
+    "psychopy_time": 912.00503629999
+  },
+  {
+    "marker": "TARGET_1_CUE_036_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=108.000",
+    "lsl_time": 344297.7939255,
+    "unix_time": 1785239159.260169,
+    "psychopy_time": 914.1579756999854
+  },
+  {
+    "marker": "TARGET_1_CUE_036_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=108.850",
+    "lsl_time": 344298.6405809,
+    "unix_time": 1785239160.1067972,
+    "psychopy_time": 915.0046307999874
+  },
+  {
+    "marker": "TARGET_1_CUE_037_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=111.000",
+    "lsl_time": 344300.7933017,
+    "unix_time": 1785239162.2596776,
+    "psychopy_time": 917.1573443000088
+  },
+  {
+    "marker": "TARGET_1_CUE_037_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=111.850",
+    "lsl_time": 344301.6404213,
+    "unix_time": 1785239163.1074793,
+    "psychopy_time": 918.0044644000009
+  },
+  {
+    "marker": "TARGET_1_CUE_038_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=114.000",
+    "lsl_time": 344303.7932332,
+    "unix_time": 1785239165.2594893,
+    "psychopy_time": 920.1572793999803
+  },
+  {
+    "marker": "TARGET_1_CUE_038_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=114.850",
+    "lsl_time": 344304.6407281,
+    "unix_time": 1785239166.1075659,
+    "psychopy_time": 921.0048019000096
+  },
+  {
+    "marker": "TARGET_1_CUE_039_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=117.000",
+    "lsl_time": 344306.7934967,
+    "unix_time": 1785239168.2605035,
+    "psychopy_time": 923.1575734000071
+  },
+  {
+    "marker": "TARGET_1_CUE_039_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=117.850",
+    "lsl_time": 344307.6408672,
+    "unix_time": 1785239169.1078343,
+    "psychopy_time": 924.0049401000142
+  },
+  {
+    "marker": "TARGET_1_CUE_040_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=120.000",
+    "lsl_time": 344309.7931238,
+    "unix_time": 1785239171.2594988,
+    "psychopy_time": 926.157168100006
+  },
+  {
+    "marker": "TARGET_1_CUE_040_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=120.850",
+    "lsl_time": 344310.6407434,
+    "unix_time": 1785239172.1076996,
+    "psychopy_time": 927.00481090002
+  },
+  {
+    "marker": "TARGET_1_CUE_041_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=123.000",
+    "lsl_time": 344312.7933405,
+    "unix_time": 1785239174.2602208,
+    "psychopy_time": 929.1573856000323
+  },
+  {
+    "marker": "TARGET_1_CUE_041_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=123.850",
+    "lsl_time": 344313.6405515,
+    "unix_time": 1785239175.1074998,
+    "psychopy_time": 930.0045956000104
+  },
+  {
+    "marker": "TARGET_1_CUE_042_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=126.000",
+    "lsl_time": 344315.7934793,
+    "unix_time": 1785239177.2605212,
+    "psychopy_time": 932.1575372000225
+  },
+  {
+    "marker": "TARGET_1_CUE_042_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=126.850",
+    "lsl_time": 344316.6412996,
+    "unix_time": 1785239178.1087787,
+    "psychopy_time": 933.0053778000292
+  },
+  {
+    "marker": "TARGET_1_CUE_043_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=129.000",
+    "lsl_time": 344318.7933701,
+    "unix_time": 1785239180.260666,
+    "psychopy_time": 935.1574314000318
+  },
+  {
+    "marker": "TARGET_1_CUE_043_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=129.850",
+    "lsl_time": 344319.6403851,
+    "unix_time": 1785239181.1078684,
+    "psychopy_time": 936.0044351000106
+  },
+  {
+    "marker": "TARGET_1_CUE_044_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=132.000",
+    "lsl_time": 344321.7930153,
+    "unix_time": 1785239183.2602785,
+    "psychopy_time": 938.1571108000353
+  },
+  {
+    "marker": "TARGET_1_CUE_044_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=132.850",
+    "lsl_time": 344322.6403653,
+    "unix_time": 1785239184.1074834,
+    "psychopy_time": 939.0044127000147
+  },
+  {
+    "marker": "TARGET_1_CUE_045_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=135.000",
+    "lsl_time": 344324.7927426,
+    "unix_time": 1785239186.259872,
+    "psychopy_time": 941.1567863000091
+  },
+  {
+    "marker": "TARGET_1_CUE_045_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=135.850",
+    "lsl_time": 344325.6401254,
+    "unix_time": 1785239187.10674,
+    "psychopy_time": 942.0041831000126
+  },
+  {
+    "marker": "TARGET_1_CUE_046_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=138.000",
+    "lsl_time": 344327.7930593,
+    "unix_time": 1785239189.2599525,
+    "psychopy_time": 944.1571068000048
+  },
+  {
+    "marker": "TARGET_1_CUE_046_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=138.850",
+    "lsl_time": 344328.6398881,
+    "unix_time": 1785239190.1069443,
+    "psychopy_time": 945.0039299000055
+  },
+  {
+    "marker": "TARGET_1_CUE_047_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=141.000",
+    "lsl_time": 344330.7931319,
+    "unix_time": 1785239192.259984,
+    "psychopy_time": 947.157189599995
+  },
+  {
+    "marker": "TARGET_1_CUE_047_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=141.850",
+    "lsl_time": 344331.6401964,
+    "unix_time": 1785239193.1078866,
+    "psychopy_time": 948.0042515000096
+  },
+  {
+    "marker": "TARGET_1_CUE_048_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=144.000",
+    "lsl_time": 344333.7931442,
+    "unix_time": 1785239195.2605162,
+    "psychopy_time": 950.1572293000063
+  },
+  {
+    "marker": "TARGET_1_CUE_048_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=144.850",
+    "lsl_time": 344334.639868,
+    "unix_time": 1785239196.1072407,
+    "psychopy_time": 951.0039513999945
+  },
+  {
+    "marker": "TARGET_1_CUE_049_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=147.000",
+    "lsl_time": 344336.7929291,
+    "unix_time": 1785239198.2599313,
+    "psychopy_time": 953.1569763000007
+  },
+  {
+    "marker": "TARGET_1_CUE_049_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=147.850",
+    "lsl_time": 344337.6397902,
+    "unix_time": 1785239199.1070087,
+    "psychopy_time": 954.0038384000072
+  },
+  {
+    "marker": "TARGET_1_CUE_050_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=150.000",
+    "lsl_time": 344339.7924249,
+    "unix_time": 1785239201.2601366,
+    "psychopy_time": 956.1564794000005
+  },
+  {
+    "marker": "TARGET_1_CUE_050_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=150.850",
+    "lsl_time": 344340.6402568,
+    "unix_time": 1785239202.1072166,
+    "psychopy_time": 957.004319300002
+  },
+  {
+    "marker": "TARGET_1_CUE_051_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=153.000",
+    "lsl_time": 344342.7923156,
+    "unix_time": 1785239204.2602792,
+    "psychopy_time": 959.156360700028
+  },
+  {
+    "marker": "TARGET_1_CUE_051_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=153.850",
+    "lsl_time": 344343.6395351,
+    "unix_time": 1785239205.106951,
+    "psychopy_time": 960.0035794000141
+  },
+  {
+    "marker": "TARGET_1_CUE_052_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=156.000",
+    "lsl_time": 344345.7929969,
+    "unix_time": 1785239207.2603889,
+    "psychopy_time": 962.1570752999978
+  },
+  {
+    "marker": "TARGET_1_CUE_052_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=156.850",
+    "lsl_time": 344346.6395499,
+    "unix_time": 1785239208.1077473,
+    "psychopy_time": 963.0036268000258
+  },
+  {
+    "marker": "TARGET_1_CUE_053_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=159.000",
+    "lsl_time": 344348.7922035,
+    "unix_time": 1785239210.2594488,
+    "psychopy_time": 965.1562470999779
+  },
+  {
+    "marker": "TARGET_1_CUE_053_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=159.850",
+    "lsl_time": 344349.6394883,
+    "unix_time": 1785239211.1070862,
+    "psychopy_time": 966.0035559000098
+  },
+  {
+    "marker": "TARGET_1_CUE_054_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=162.000",
+    "lsl_time": 344351.792271,
+    "unix_time": 1785239213.2602649,
+    "psychopy_time": 968.1563289000187
+  },
+  {
+    "marker": "TARGET_1_CUE_054_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=162.850",
+    "lsl_time": 344352.6398882,
+    "unix_time": 1785239214.1076992,
+    "psychopy_time": 969.0039396000211
+  },
+  {
+    "marker": "TARGET_1_CUE_055_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=165.000",
+    "lsl_time": 344354.7924115,
+    "unix_time": 1785239216.2604444,
+    "psychopy_time": 971.1564638999989
+  },
+  {
+    "marker": "TARGET_1_CUE_055_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=165.850",
+    "lsl_time": 344355.6399797,
+    "unix_time": 1785239217.1076128,
+    "psychopy_time": 972.0040505999932
+  },
+  {
+    "marker": "TARGET_1_CUE_056_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=168.000",
+    "lsl_time": 344357.7921231,
+    "unix_time": 1785239219.2595654,
+    "psychopy_time": 974.1561756000156
+  },
+  {
+    "marker": "TARGET_1_CUE_056_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=168.850",
+    "lsl_time": 344358.6465438,
+    "unix_time": 1785239220.1148567,
+    "psychopy_time": 975.010611500009
+  },
+  {
+    "marker": "TARGET_1_CUE_057_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=171.000",
+    "lsl_time": 344360.7918785,
+    "unix_time": 1785239222.260109,
+    "psychopy_time": 977.1559261999791
+  },
+  {
+    "marker": "TARGET_1_CUE_057_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=171.850",
+    "lsl_time": 344361.6397722,
+    "unix_time": 1785239223.1075535,
+    "psychopy_time": 978.0038577999803
+  },
+  {
+    "marker": "TARGET_1_CUE_058_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=174.000",
+    "lsl_time": 344363.792175,
+    "unix_time": 1785239225.260452,
+    "psychopy_time": 980.1562209000112
+  },
+  {
+    "marker": "TARGET_1_CUE_058_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=174.850",
+    "lsl_time": 344364.6394635,
+    "unix_time": 1785239226.1074576,
+    "psychopy_time": 981.0035078999936
+  },
+  {
+    "marker": "TARGET_1_CUE_059_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=177.000",
+    "lsl_time": 344366.7918423,
+    "unix_time": 1785239228.259947,
+    "psychopy_time": 983.1558887999854
+  },
+  {
+    "marker": "TARGET_1_CUE_059_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=177.850",
+    "lsl_time": 344367.6465563,
+    "unix_time": 1785239229.1151054,
+    "psychopy_time": 984.0106013999903
+  },
+  {
+    "marker": "TARGET_1_CUE_060_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=180.000",
+    "lsl_time": 344369.7917718,
+    "unix_time": 1785239231.2600703,
+    "psychopy_time": 986.1558214999968
+  },
+  {
+    "marker": "TARGET_1_CUE_060_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=180.850",
+    "lsl_time": 344370.6459028,
+    "unix_time": 1785239232.1140883,
+    "psychopy_time": 987.0099457000033
+  },
+  {
+    "marker": "TARGET_1_CUE_061_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=183.000",
+    "lsl_time": 344372.7920941,
+    "unix_time": 1785239234.2604434,
+    "psychopy_time": 989.1561411999865
+  },
+  {
+    "marker": "TARGET_1_CUE_061_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=183.850",
+    "lsl_time": 344373.6462236,
+    "unix_time": 1785239235.1145642,
+    "psychopy_time": 990.0102941999794
+  },
+  {
+    "marker": "TARGET_1_CUE_062_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=186.000",
+    "lsl_time": 344375.7915456,
+    "unix_time": 1785239237.260051,
+    "psychopy_time": 992.1555891000316
+  },
+  {
+    "marker": "TARGET_1_CUE_062_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=186.850",
+    "lsl_time": 344376.6460873,
+    "unix_time": 1785239238.1143193,
+    "psychopy_time": 993.010133200034
+  },
+  {
+    "marker": "TARGET_1_CUE_063_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=189.000",
+    "lsl_time": 344378.7919054,
+    "unix_time": 1785239240.259384,
+    "psychopy_time": 995.1559660999919
+  },
+  {
+    "marker": "TARGET_1_CUE_063_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=189.850",
+    "lsl_time": 344379.6462504,
+    "unix_time": 1785239241.1148744,
+    "psychopy_time": 996.0103017999791
+  },
+  {
+    "marker": "TARGET_1_CUE_064_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=192.000",
+    "lsl_time": 344381.7914643,
+    "unix_time": 1785239243.2602475,
+    "psychopy_time": 998.155520899978
+  },
+  {
+    "marker": "TARGET_1_CUE_064_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=192.850",
+    "lsl_time": 344382.6457112,
+    "unix_time": 1785239244.1141362,
+    "psychopy_time": 999.0097573000239
+  },
+  {
+    "marker": "TARGET_1_CUE_065_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=195.000",
+    "lsl_time": 344384.7914163,
+    "unix_time": 1785239246.2595978,
+    "psychopy_time": 1001.1554604999837
+  },
+  {
+    "marker": "TARGET_1_CUE_065_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=195.850",
+    "lsl_time": 344385.645502,
+    "unix_time": 1785239247.114304,
+    "psychopy_time": 1002.0095439000288
+  },
+  {
+    "marker": "TARGET_1_CUE_066_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=198.000",
+    "lsl_time": 344387.7917194,
+    "unix_time": 1785239249.2604997,
+    "psychopy_time": 1004.1557843000046
+  },
+  {
+    "marker": "TARGET_1_CUE_066_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=198.850",
+    "lsl_time": 344388.6455181,
+    "unix_time": 1785239250.1141593,
+    "psychopy_time": 1005.0095599000342
+  },
+  {
+    "marker": "TARGET_1_CUE_067_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=201.000",
+    "lsl_time": 344390.7918693,
+    "unix_time": 1785239252.2601898,
+    "psychopy_time": 1007.1559434999945
+  },
+  {
+    "marker": "TARGET_1_CUE_067_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=201.850",
+    "lsl_time": 344391.6453553,
+    "unix_time": 1785239253.1136289,
+    "psychopy_time": 1008.0093968000147
+  },
+  {
+    "marker": "TARGET_1_CUE_068_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=204.000",
+    "lsl_time": 344393.7914887,
+    "unix_time": 1785239255.2605758,
+    "psychopy_time": 1010.1555424000253
+  },
+  {
+    "marker": "TARGET_1_CUE_068_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=204.850",
+    "lsl_time": 344394.6458904,
+    "unix_time": 1785239256.1141105,
+    "psychopy_time": 1011.009967799997
+  },
+  {
+    "marker": "TARGET_1_CUE_069_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=207.000",
+    "lsl_time": 344396.7918474,
+    "unix_time": 1785239258.260594,
+    "psychopy_time": 1013.1558913000044
+  },
+  {
+    "marker": "TARGET_1_CUE_069_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=207.850",
+    "lsl_time": 344397.6452273,
+    "unix_time": 1785239259.1135416,
+    "psychopy_time": 1014.0092710999888
+  },
+  {
+    "marker": "TARGET_1_CUE_070_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=210.000",
+    "lsl_time": 344399.7914012,
+    "unix_time": 1785239261.260074,
+    "psychopy_time": 1016.1554447999806
+  },
+  {
+    "marker": "TARGET_1_CUE_070_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=210.850",
+    "lsl_time": 344400.6452316,
+    "unix_time": 1785239262.1145644,
+    "psychopy_time": 1017.009274800017
+  },
+  {
+    "marker": "TARGET_1_CUE_071_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=213.000",
+    "lsl_time": 344402.7910318,
+    "unix_time": 1785239264.2593675,
+    "psychopy_time": 1019.1550789999892
+  },
+  {
+    "marker": "TARGET_1_CUE_071_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=213.850",
+    "lsl_time": 344403.6451736,
+    "unix_time": 1785239265.1137362,
+    "psychopy_time": 1020.0092156000319
+  },
+  {
+    "marker": "TARGET_1_CUE_072_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=216.000",
+    "lsl_time": 344405.7910179,
+    "unix_time": 1785239267.2601273,
+    "psychopy_time": 1022.155070799985
+  },
+  {
+    "marker": "TARGET_1_CUE_072_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=216.850",
+    "lsl_time": 344406.6456307,
+    "unix_time": 1785239268.1143608,
+    "psychopy_time": 1023.0097030000179
+  },
+  {
+    "marker": "TARGET_1_CUE_073_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=219.000",
+    "lsl_time": 344408.7908127,
+    "unix_time": 1785239270.2595387,
+    "psychopy_time": 1025.1548557999777
+  },
+  {
+    "marker": "TARGET_1_CUE_073_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=219.850",
+    "lsl_time": 344409.6450306,
+    "unix_time": 1785239271.113928,
+    "psychopy_time": 1026.009079499985
+  },
+  {
+    "marker": "TARGET_1_CUE_074_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=222.000",
+    "lsl_time": 344411.7909907,
+    "unix_time": 1785239273.260232,
+    "psychopy_time": 1028.1550401999848
+  },
+  {
+    "marker": "TARGET_1_CUE_074_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=222.850",
+    "lsl_time": 344412.6453467,
+    "unix_time": 1785239274.1143928,
+    "psychopy_time": 1029.0094213000266
+  },
+  {
+    "marker": "TARGET_1_CUE_075_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=225.000",
+    "lsl_time": 344414.7907414,
+    "unix_time": 1785239276.259869,
+    "psychopy_time": 1031.1548001000192
+  },
+  {
+    "marker": "TARGET_1_CUE_075_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=225.850",
+    "lsl_time": 344415.6448128,
+    "unix_time": 1785239277.1135817,
+    "psychopy_time": 1032.0088550000219
+  },
+  {
+    "marker": "TARGET_1_CUE_076_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=228.000",
+    "lsl_time": 344417.7907667,
+    "unix_time": 1785239279.2599418,
+    "psychopy_time": 1034.1548120999942
+  },
+  {
+    "marker": "TARGET_1_CUE_076_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=228.850",
+    "lsl_time": 344418.6448666,
+    "unix_time": 1785239280.1141522,
+    "psychopy_time": 1035.008911699988
+  },
+  {
+    "marker": "TARGET_1_CUE_077_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=231.000",
+    "lsl_time": 344420.790572,
+    "unix_time": 1785239282.2599382,
+    "psychopy_time": 1037.154618999979
+  },
+  {
+    "marker": "TARGET_1_CUE_077_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=231.850",
+    "lsl_time": 344421.6452935,
+    "unix_time": 1785239283.1143649,
+    "psychopy_time": 1038.0094080999843
+  },
+  {
+    "marker": "TARGET_1_CUE_078_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=234.000",
+    "lsl_time": 344423.7911922,
+    "unix_time": 1785239285.2600706,
+    "psychopy_time": 1040.1552598000271
+  },
+  {
+    "marker": "TARGET_1_CUE_078_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=234.850",
+    "lsl_time": 344424.6446884,
+    "unix_time": 1785239286.1135378,
+    "psychopy_time": 1041.0087313000113
+  },
+  {
+    "marker": "TARGET_1_CUE_079_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=237.000",
+    "lsl_time": 344426.7908358,
+    "unix_time": 1785239288.2602944,
+    "psychopy_time": 1043.1548824000056
+  },
+  {
+    "marker": "TARGET_1_CUE_079_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=237.850",
+    "lsl_time": 344427.6449543,
+    "unix_time": 1785239289.114182,
+    "psychopy_time": 1044.0090026999824
+  },
+  {
+    "marker": "TARGET_1_CUE_080_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=240.000",
+    "lsl_time": 344429.7909432,
+    "unix_time": 1785239291.2600331,
+    "psychopy_time": 1046.1550123000052
+  },
+  {
+    "marker": "TARGET_1_CUE_080_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=240.850",
+    "lsl_time": 344430.6445813,
+    "unix_time": 1785239292.1139581,
+    "psychopy_time": 1047.0086242000107
+  },
+  {
+    "marker": "TARGET_1_CUE_081_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=243.000",
+    "lsl_time": 344432.7904317,
+    "unix_time": 1785239294.260131,
+    "psychopy_time": 1049.1545111000305
+  },
+  {
+    "marker": "TARGET_1_CUE_081_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=243.850",
+    "lsl_time": 344433.6447834,
+    "unix_time": 1785239295.1141212,
+    "psychopy_time": 1050.0088314000168
+  },
+  {
+    "marker": "TARGET_1_CUE_082_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=246.000",
+    "lsl_time": 344435.7909022,
+    "unix_time": 1785239297.260006,
+    "psychopy_time": 1052.154946100025
+  },
+  {
+    "marker": "TARGET_1_CUE_082_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=246.850",
+    "lsl_time": 344436.6447476,
+    "unix_time": 1785239298.1138144,
+    "psychopy_time": 1053.0087977999938
+  },
+  {
+    "marker": "TARGET_1_CUE_083_VALUE_1_START",
+    "phase": "TARGET_1",
+    "note": "t=249.000",
+    "lsl_time": 344438.7906311,
+    "unix_time": 1785239300.2598894,
+    "psychopy_time": 1055.1546984000015
+  },
+  {
+    "marker": "TARGET_1_CUE_083_VALUE_1_END",
+    "phase": "TARGET_1",
+    "note": "t=249.850",
+    "lsl_time": 344439.6443457,
+    "unix_time": 1785239301.1145117,
+    "psychopy_time": 1056.008400599996
+  },
+  {
+    "marker": "TARGET_1_CUE_084_VALUE_10_START",
+    "phase": "TARGET_1",
+    "note": "t=252.000",
+    "lsl_time": 344441.7905906,
+    "unix_time": 1785239303.2599292,
+    "psychopy_time": 1058.1546400000225
+  },
+  {
+    "marker": "TARGET_1_CUE_084_VALUE_10_END",
+    "phase": "TARGET_1",
+    "note": "t=252.850",
+    "lsl_time": 344442.6442753,
+    "unix_time": 1785239304.1140723,
+    "psychopy_time": 1059.0083187000128
+  },
+  {
+    "marker": "TARGET_1_CUE_085_VALUE_5_START",
+    "phase": "TARGET_1",
+    "note": "t=255.000",
+    "lsl_time": 344444.7900791,
+    "unix_time": 1785239306.260376,
+    "psychopy_time": 1061.1541235999903
+  },
+  {
+    "marker": "TARGET_1_CUE_085_VALUE_5_END",
+    "phase": "TARGET_1",
+    "note": "t=255.850",
+    "lsl_time": 344445.6446112,
+    "unix_time": 1785239307.1141691,
+    "psychopy_time": 1062.0086809999775
+  },
+  {
+    "marker": "TARGET_1_CUE_086_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=258.000",
+    "lsl_time": 344447.7900649,
+    "unix_time": 1785239309.2596574,
+    "psychopy_time": 1064.1541480000014
+  },
+  {
+    "marker": "TARGET_1_CUE_086_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=258.850",
+    "lsl_time": 344448.6441635,
+    "unix_time": 1785239310.1138282,
+    "psychopy_time": 1065.0082061000285
+  },
+  {
+    "marker": "TARGET_1_CUE_087_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=261.000",
+    "lsl_time": 344450.7899404,
+    "unix_time": 1785239312.2603016,
+    "psychopy_time": 1067.1539853999857
+  },
+  {
+    "marker": "TARGET_1_CUE_087_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=261.850",
+    "lsl_time": 344451.6441015,
+    "unix_time": 1785239313.1137156,
+    "psychopy_time": 1068.0081458999775
+  },
+  {
+    "marker": "TARGET_1_CUE_088_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=264.000",
+    "lsl_time": 344453.789985,
+    "unix_time": 1785239315.2601738,
+    "psychopy_time": 1070.1540305999806
+  },
+  {
+    "marker": "TARGET_1_CUE_088_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=264.850",
+    "lsl_time": 344454.6444471,
+    "unix_time": 1785239316.114043,
+    "psychopy_time": 1071.0085136999842
+  },
+  {
+    "marker": "TARGET_1_CUE_089_VALUE_7_START",
+    "phase": "TARGET_1",
+    "note": "t=267.000",
+    "lsl_time": 344456.7901787,
+    "unix_time": 1785239318.2600234,
+    "psychopy_time": 1073.1542343000183
+  },
+  {
+    "marker": "TARGET_1_CUE_089_VALUE_7_END",
+    "phase": "TARGET_1",
+    "note": "t=267.850",
+    "lsl_time": 344457.6439607,
+    "unix_time": 1785239319.1140056,
+    "psychopy_time": 1074.0080080000334
+  },
+  {
+    "marker": "TARGET_1_CUE_090_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=270.000",
+    "lsl_time": 344459.7896754,
+    "unix_time": 1785239321.259745,
+    "psychopy_time": 1076.1537180999876
+  },
+  {
+    "marker": "TARGET_1_CUE_090_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=270.850",
+    "lsl_time": 344460.6443052,
+    "unix_time": 1785239322.1143131,
+    "psychopy_time": 1077.0083560000057
+  },
+  {
+    "marker": "TARGET_1_CUE_091_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=273.000",
+    "lsl_time": 344462.7897157,
+    "unix_time": 1785239324.259854,
+    "psychopy_time": 1079.1537683000206
+  },
+  {
+    "marker": "TARGET_1_CUE_091_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=273.850",
+    "lsl_time": 344463.6443537,
+    "unix_time": 1785239325.1149747,
+    "psychopy_time": 1080.0084284000332
+  },
+  {
+    "marker": "TARGET_1_CUE_092_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=276.000",
+    "lsl_time": 344465.7897938,
+    "unix_time": 1785239327.2597253,
+    "psychopy_time": 1082.153843100008
+  },
+  {
+    "marker": "TARGET_1_CUE_092_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=276.850",
+    "lsl_time": 344466.6442087,
+    "unix_time": 1785239328.114272,
+    "psychopy_time": 1083.0082579000155
+  },
+  {
+    "marker": "TARGET_1_CUE_093_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=279.000",
+    "lsl_time": 344468.7895917,
+    "unix_time": 1785239330.2598667,
+    "psychopy_time": 1085.153634199989
+  },
+  {
+    "marker": "TARGET_1_CUE_093_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=279.850",
+    "lsl_time": 344469.6441156,
+    "unix_time": 1785239331.1148584,
+    "psychopy_time": 1086.0081751000253
+  },
+  {
+    "marker": "TARGET_1_CUE_094_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=282.000",
+    "lsl_time": 344471.7894453,
+    "unix_time": 1785239333.2599456,
+    "psychopy_time": 1088.1535121999914
+  },
+  {
+    "marker": "TARGET_1_CUE_094_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=282.850",
+    "lsl_time": 344472.6437153,
+    "unix_time": 1785239334.1142092,
+    "psychopy_time": 1089.0077829000074
+  },
+  {
+    "marker": "TARGET_1_CUE_095_VALUE_4_START",
+    "phase": "TARGET_1",
+    "note": "t=285.000",
+    "lsl_time": 344474.7903747,
+    "unix_time": 1785239336.2604437,
+    "psychopy_time": 1091.1544300999958
+  },
+  {
+    "marker": "TARGET_1_CUE_095_VALUE_4_END",
+    "phase": "TARGET_1",
+    "note": "t=285.850",
+    "lsl_time": 344475.6436339,
+    "unix_time": 1785239337.1141336,
+    "psychopy_time": 1092.0076862000278
+  },
+  {
+    "marker": "TARGET_1_CUE_096_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=288.000",
+    "lsl_time": 344477.7896413,
+    "unix_time": 1785239339.260406,
+    "psychopy_time": 1094.153688099992
+  },
+  {
+    "marker": "TARGET_1_CUE_096_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=288.850",
+    "lsl_time": 344478.6434967,
+    "unix_time": 1785239340.1136756,
+    "psychopy_time": 1095.0075396000175
+  },
+  {
+    "marker": "TARGET_1_CUE_097_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=291.000",
+    "lsl_time": 344480.7968194,
+    "unix_time": 1785239342.2675965,
+    "psychopy_time": 1097.1608714000322
+  },
+  {
+    "marker": "TARGET_1_CUE_097_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=291.850",
+    "lsl_time": 344481.6433624,
+    "unix_time": 1785239343.1141634,
+    "psychopy_time": 1098.007404599979
+  },
+  {
+    "marker": "TARGET_1_CUE_098_VALUE_2_START",
+    "phase": "TARGET_1",
+    "note": "t=294.000",
+    "lsl_time": 344483.789551,
+    "unix_time": 1785239345.2599957,
+    "psychopy_time": 1100.1536012000288
+  },
+  {
+    "marker": "TARGET_1_CUE_098_VALUE_2_END",
+    "phase": "TARGET_1",
+    "note": "t=294.850",
+    "lsl_time": 344484.64341,
+    "unix_time": 1785239346.113743,
+    "psychopy_time": 1101.00746480003
+  },
+  {
+    "marker": "TARGET_1_CUE_099_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=297.000",
+    "lsl_time": 344486.7965791,
+    "unix_time": 1785239348.2668679,
+    "psychopy_time": 1103.1606250000186
+  },
+  {
+    "marker": "TARGET_1_CUE_099_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=297.850",
+    "lsl_time": 344487.643758,
+    "unix_time": 1785239349.114932,
+    "psychopy_time": 1104.0078227000195
+  },
+  {
+    "marker": "TARGET_1_CUE_100_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=300.000",
+    "lsl_time": 344489.7897504,
+    "unix_time": 1785239351.2603304,
+    "psychopy_time": 1106.1537983000162
+  },
+  {
+    "marker": "TARGET_1_CUE_100_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=300.850",
+    "lsl_time": 344490.6432303,
+    "unix_time": 1785239352.1144035,
+    "psychopy_time": 1107.007280800026
+  },
+  {
+    "marker": "TARGET_1_CUE_101_VALUE_8_START",
+    "phase": "TARGET_1",
+    "note": "t=303.000",
+    "lsl_time": 344492.7958876,
+    "unix_time": 1785239354.2672145,
+    "psychopy_time": 1109.1599350000033
+  },
+  {
+    "marker": "TARGET_1_CUE_101_VALUE_8_END",
+    "phase": "TARGET_1",
+    "note": "t=303.850",
+    "lsl_time": 344493.6433305,
+    "unix_time": 1785239355.1134932,
+    "psychopy_time": 1110.0073981999885
+  },
+  {
+    "marker": "TARGET_1_CUE_102_VALUE_6_START",
+    "phase": "TARGET_1",
+    "note": "t=306.000",
+    "lsl_time": 344495.7894584,
+    "unix_time": 1785239357.2602854,
+    "psychopy_time": 1112.1535155000165
+  },
+  {
+    "marker": "TARGET_1_CUE_102_VALUE_6_END",
+    "phase": "TARGET_1",
+    "note": "t=306.850",
+    "lsl_time": 344496.643054,
+    "unix_time": 1785239358.1134758,
+    "psychopy_time": 1113.0070968000218
+  },
+  {
+    "marker": "TARGET_1_CUE_103_VALUE_9_START",
+    "phase": "TARGET_1",
+    "note": "t=309.000",
+    "lsl_time": 344498.7959677,
+    "unix_time": 1785239360.2671206,
+    "psychopy_time": 1115.1600104999961
+  },
+  {
+    "marker": "TARGET_1_CUE_103_VALUE_9_END",
+    "phase": "TARGET_1",
+    "note": "t=309.850",
+    "lsl_time": 344499.6430381,
+    "unix_time": 1785239361.1135027,
+    "psychopy_time": 1116.0070856999955
+  },
+  {
+    "marker": "TARGET_1_CUE_104_VALUE_3_START",
+    "phase": "TARGET_1",
+    "note": "t=312.000",
+    "lsl_time": 344501.7957725,
+    "unix_time": 1785239363.2659247,
+    "psychopy_time": 1118.1598196999985
+  },
+  {
+    "marker": "TARGET_1_CUE_104_VALUE_3_END",
+    "phase": "TARGET_1",
+    "note": "t=312.850",
+    "lsl_time": 344502.6430502,
+    "unix_time": 1785239364.1144288,
+    "psychopy_time": 1119.007096700021
+  },
+  {
+    "marker": "TARGET_1_TIMEOUT_BREAK",
+    "phase": "TARGET_1",
+    "note": "",
+    "lsl_time": 344503.5387451,
+    "unix_time": 1785239365.0093515,
+    "psychopy_time": 1119.9027899000212
+  },
+  {
+    "marker": "TARGET_1_END",
+    "phase": "TARGET_1",
+    "note": "",
+    "lsl_time": 344506.3170346,
+    "unix_time": 1785239367.7883565,
+    "psychopy_time": 1122.6811116000172
+  },
+  {
+    "marker": "WASHOUT_2_START",
+    "phase": "WASHOUT_2",
+    "note": "",
+    "lsl_time": 344506.3188335,
+    "unix_time": 1785239367.7893646,
+    "psychopy_time": 1122.6828911000048
+  },
+  {
+    "marker": "WASHOUT_2_END",
+    "phase": "WASHOUT_2",
+    "note": "",
+    "lsl_time": 344626.321093,
+    "unix_time": 1785239487.7953365,
+    "psychopy_time": 1242.6851382000023
+  },
+  {
+    "marker": "REPORT_INPUT_START",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "TARGET_1_AFTER_WASHOUT_2",
+    "lsl_time": 344626.3212571,
+    "unix_time": 1785239487.7953365,
+    "psychopy_time": 1242.6852796000312
+  },
+  {
+    "marker": "REPORT_INPUT_TARGET_1_AFTER_WASHOUT_2_START",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344626.3213142,
+    "unix_time": 1785239487.7953365,
+    "psychopy_time": 1242.6853356999927
+  },
+  {
+    "marker": "RATINGS_TARGET_1_AFTER_WASHOUT_2_START",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344626.321365,
+    "unix_time": 1785239487.7953365,
+    "psychopy_time": 1242.6853852000204
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_Meaning_7",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344630.7623772,
+    "unix_time": 1785239492.2365272,
+    "psychopy_time": 1247.1264140999992
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_Empathy_8",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344632.205591,
+    "unix_time": 1785239493.6797712,
+    "psychopy_time": 1248.5696596000344
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_Absorption_7",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344633.7917143,
+    "unix_time": 1785239495.2659178,
+    "psychopy_time": 1250.1557695000083
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_StoryActiveWashout_7",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344635.855937,
+    "unix_time": 1785239497.3301997,
+    "psychopy_time": 1252.2199758000206
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_EmotionalAfterglow_8",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344637.2427127,
+    "unix_time": 1785239498.7169943,
+    "psychopy_time": 1253.6067536000046
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_AnalyticEffort_2",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344643.4416773,
+    "unix_time": 1785239504.9155478,
+    "psychopy_time": 1259.8057153000263
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_TaskCompliance_8",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344645.6519869,
+    "unix_time": 1785239507.1265051,
+    "psychopy_time": 1262.0160266000312
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_OverrideLeakage_3",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344648.9596169,
+    "unix_time": 1785239510.4341235,
+    "psychopy_time": 1265.3236660999828
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_FatigueDiscomfort_1",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344650.6571608,
+    "unix_time": 1785239512.131723,
+    "psychopy_time": 1267.0212103999802
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_MindWandering_2",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344652.2843147,
+    "unix_time": 1785239513.7589345,
+    "psychopy_time": 1268.6483554000151
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_ProtocolThoughts_2",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344653.9975276,
+    "unix_time": 1785239515.4721928,
+    "psychopy_time": 1270.3615696000052
+  },
+  {
+    "marker": "RATING_TARGET_1_AFTER_WASHOUT_2_NumberCueDistraction_2",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "",
+    "lsl_time": 344655.8761903,
+    "unix_time": 1785239517.3508554,
+    "psychopy_time": 1272.240241600026
+  },
+  {
+    "marker": "RATINGS_TARGET_1_AFTER_WASHOUT_2_END",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "{\"Absorption\": 7, \"AnalyticEffort\": 2, \"EmotionalAfterglow\": 8, \"Empathy\": 8, \"FatigueDiscomfort\": 1, \"Meaning\": 7, \"MindWandering\": 2, \"NumberCueDistraction\": 2, \"OverrideLeakage\": 3, \"ProtocolThoughts\": 2, \"StoryActiveWashout\": 7, \"TaskCompliance\": 8}",
+    "lsl_time": 344656.027136,
+    "unix_time": 1785239517.501822,
+    "psychopy_time": 1272.3911746999947
+  },
+  {
+    "marker": "REPORT_INPUT_TARGET_1_AFTER_WASHOUT_2_END",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "{\"Absorption\": 7, \"AnalyticEffort\": 2, \"EmotionalAfterglow\": 8, \"Empathy\": 8, \"FatigueDiscomfort\": 1, \"Meaning\": 7, \"MindWandering\": 2, \"NumberCueDistraction\": 2, \"OverrideLeakage\": 3, \"ProtocolThoughts\": 2, \"StoryActiveWashout\": 7, \"TaskCompliance\": 8}",
+    "lsl_time": 344656.0272634,
+    "unix_time": 1785239517.501822,
+    "psychopy_time": 1272.391285300022
+  },
+  {
+    "marker": "REPORT_INPUT_END",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "{\"Absorption\": 7, \"AnalyticEffort\": 2, \"EmotionalAfterglow\": 8, \"Empathy\": 8, \"FatigueDiscomfort\": 1, \"Meaning\": 7, \"MindWandering\": 2, \"NumberCueDistraction\": 2, \"OverrideLeakage\": 3, \"ProtocolThoughts\": 2, \"StoryActiveWashout\": 7, \"TaskCompliance\": 8}",
+    "lsl_time": 344656.0273234,
+    "unix_time": 1785239517.501822,
+    "psychopy_time": 1272.3913430999964
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_START",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "duration_sec=8.000;reason=after_target_report_before_override_instruction",
+    "lsl_time": 344656.0274093,
+    "unix_time": 1785239517.501822,
+    "psychopy_time": 1272.3914328999817
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_TARGET_1_AFTER_WASHOUT_2_START",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "duration_sec=8.000;reason=after_target_report_before_override_instruction",
+    "lsl_time": 344656.0274673,
+    "unix_time": 1785239517.501822,
+    "psychopy_time": 1272.3914871999878
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_TARGET_1_AFTER_WASHOUT_2_END",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "duration_sec=8.000;reason=after_target_report_before_override_instruction",
+    "lsl_time": 344664.0387032,
+    "unix_time": 1785239525.5132148,
+    "psychopy_time": 1280.4027430000133
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_END",
+    "phase": "TARGET_1_AFTER_WASHOUT_2",
+    "note": "duration_sec=8.000;reason=after_target_report_before_override_instruction",
+    "lsl_time": 344664.0389148,
+    "unix_time": 1785239525.5132148,
+    "psychopy_time": 1280.4029383999878
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_INSTRUCTION_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344664.0390133,
+    "unix_time": 1785239525.5132148,
+    "psychopy_time": 1280.4030338000157
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_INSTRUCTION_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344664.9251619,
+    "unix_time": 1785239526.3998737,
+    "psychopy_time": 1281.2892023000168
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_EXPECTED_SUM_550",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344664.9253421,
+    "unix_time": 1785239526.3998737,
+    "psychopy_time": 1281.2893690000055
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_LOAD_OK",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "stimulus_override_cued_Arrival_End_scene_v1_6Q.mp4",
+    "lsl_time": 344664.92556,
+    "unix_time": 1785239526.3998737,
+    "psychopy_time": 1281.2895867000334
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344667.5595471,
+    "unix_time": 1785239529.0345075,
+    "psychopy_time": 1283.9236049000174
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_001_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=3.000",
+    "lsl_time": 344670.5635428,
+    "unix_time": 1785239532.0381634,
+    "psychopy_time": 1286.927609300008
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_001_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=3.850",
+    "lsl_time": 344671.4100289,
+    "unix_time": 1785239532.8850229,
+    "psychopy_time": 1287.7740755000268
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_002_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=6.000",
+    "lsl_time": 344673.5627206,
+    "unix_time": 1785239535.037535,
+    "psychopy_time": 1289.9267641000333
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_002_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=6.850",
+    "lsl_time": 344674.4099695,
+    "unix_time": 1785239535.884892,
+    "psychopy_time": 1290.7740204000147
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_003_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=9.000",
+    "lsl_time": 344676.5627227,
+    "unix_time": 1785239538.0371606,
+    "psychopy_time": 1292.926769200014
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_003_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=9.850",
+    "lsl_time": 344677.4099062,
+    "unix_time": 1785239538.884995,
+    "psychopy_time": 1293.7739494999987
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_004_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=12.000",
+    "lsl_time": 344679.5629422,
+    "unix_time": 1785239541.038048,
+    "psychopy_time": 1295.9269955999916
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_004_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=12.850",
+    "lsl_time": 344680.4102227,
+    "unix_time": 1785239541.8849912,
+    "psychopy_time": 1296.77427970001
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_005_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=15.000",
+    "lsl_time": 344682.562594,
+    "unix_time": 1785239544.038043,
+    "psychopy_time": 1298.9266392000136
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_005_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=15.850",
+    "lsl_time": 344683.4108137,
+    "unix_time": 1785239544.885661,
+    "psychopy_time": 1299.7749526000116
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_006_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=18.000",
+    "lsl_time": 344685.5625449,
+    "unix_time": 1785239547.037603,
+    "psychopy_time": 1301.9265935000149
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_006_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=18.850",
+    "lsl_time": 344686.4167358,
+    "unix_time": 1785239547.8917603,
+    "psychopy_time": 1302.7807852000115
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_007_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=21.000",
+    "lsl_time": 344688.5624394,
+    "unix_time": 1785239550.0371063,
+    "psychopy_time": 1304.9264832999907
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_007_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=21.850",
+    "lsl_time": 344689.4166069,
+    "unix_time": 1785239550.8915107,
+    "psychopy_time": 1305.7806585999788
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_008_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=24.000",
+    "lsl_time": 344691.5623809,
+    "unix_time": 1785239553.0376246,
+    "psychopy_time": 1307.9264244000078
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_008_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=24.850",
+    "lsl_time": 344692.4170537,
+    "unix_time": 1785239553.8924482,
+    "psychopy_time": 1308.781129400013
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_009_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=27.000",
+    "lsl_time": 344694.5623011,
+    "unix_time": 1785239556.0376742,
+    "psychopy_time": 1310.926345999993
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_009_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=27.850",
+    "lsl_time": 344695.4164943,
+    "unix_time": 1785239556.891263,
+    "psychopy_time": 1311.7805557000102
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_010_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=30.000",
+    "lsl_time": 344697.5626412,
+    "unix_time": 1785239559.038421,
+    "psychopy_time": 1313.9267172000255
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_010_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=30.850",
+    "lsl_time": 344698.4164005,
+    "unix_time": 1785239559.8920524,
+    "psychopy_time": 1314.7804492000141
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_011_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=33.000",
+    "lsl_time": 344700.5621515,
+    "unix_time": 1785239562.0373924,
+    "psychopy_time": 1316.9262011999963
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_011_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=33.850",
+    "lsl_time": 344701.4168544,
+    "unix_time": 1785239562.892282,
+    "psychopy_time": 1317.7809485000325
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_012_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=36.000",
+    "lsl_time": 344703.5620895,
+    "unix_time": 1785239565.0373294,
+    "psychopy_time": 1319.9261358000222
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_012_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=36.850",
+    "lsl_time": 344704.4161882,
+    "unix_time": 1785239565.891252,
+    "psychopy_time": 1320.7802327999962
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_013_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=39.000",
+    "lsl_time": 344706.5631449,
+    "unix_time": 1785239568.038503,
+    "psychopy_time": 1322.9271993000293
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_013_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=39.850",
+    "lsl_time": 344707.416199,
+    "unix_time": 1785239568.8920357,
+    "psychopy_time": 1323.7802469999879
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_014_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=42.000",
+    "lsl_time": 344709.561955,
+    "unix_time": 1785239571.0367324,
+    "psychopy_time": 1325.925994899997
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_014_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=42.850",
+    "lsl_time": 344710.4161733,
+    "unix_time": 1785239571.891815,
+    "psychopy_time": 1326.7802175999968
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_015_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=45.000",
+    "lsl_time": 344712.5622029,
+    "unix_time": 1785239574.0373626,
+    "psychopy_time": 1328.9262677999795
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_015_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=45.850",
+    "lsl_time": 344713.4163945,
+    "unix_time": 1785239574.8916352,
+    "psychopy_time": 1329.7804508000263
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_016_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=48.000",
+    "lsl_time": 344715.5618159,
+    "unix_time": 1785239577.037001,
+    "psychopy_time": 1331.9258584000054
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_016_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=48.850",
+    "lsl_time": 344716.4159843,
+    "unix_time": 1785239577.891525,
+    "psychopy_time": 1332.7800248999847
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_017_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=51.000",
+    "lsl_time": 344718.5617951,
+    "unix_time": 1785239580.037309,
+    "psychopy_time": 1334.9258415999939
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_017_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=51.850",
+    "lsl_time": 344719.4163215,
+    "unix_time": 1785239580.8918226,
+    "psychopy_time": 1335.7803666000254
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_018_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=54.000",
+    "lsl_time": 344721.5617042,
+    "unix_time": 1785239583.0374515,
+    "psychopy_time": 1337.9257504999987
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_018_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=54.850",
+    "lsl_time": 344722.4165068,
+    "unix_time": 1785239583.892722,
+    "psychopy_time": 1338.7805547000025
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_019_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=57.000",
+    "lsl_time": 344724.5620265,
+    "unix_time": 1785239586.0382938,
+    "psychopy_time": 1340.9260835000314
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_019_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=57.850",
+    "lsl_time": 344725.4163658,
+    "unix_time": 1785239586.8922122,
+    "psychopy_time": 1341.7804290999775
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_020_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=60.000",
+    "lsl_time": 344727.5615952,
+    "unix_time": 1785239589.0371625,
+    "psychopy_time": 1343.925638100016
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_020_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=60.850",
+    "lsl_time": 344728.4159455,
+    "unix_time": 1785239589.891848,
+    "psychopy_time": 1344.7799926000298
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_021_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=63.000",
+    "lsl_time": 344730.5615432,
+    "unix_time": 1785239592.0378838,
+    "psychopy_time": 1346.9256092000287
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_021_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=63.850",
+    "lsl_time": 344731.4162626,
+    "unix_time": 1785239592.8916838,
+    "psychopy_time": 1347.7803105000057
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_022_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=66.000",
+    "lsl_time": 344733.5614724,
+    "unix_time": 1785239595.0370893,
+    "psychopy_time": 1349.925519099983
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_022_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=66.850",
+    "lsl_time": 344734.4160651,
+    "unix_time": 1785239595.8922057,
+    "psychopy_time": 1350.780115600035
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_023_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=69.000",
+    "lsl_time": 344736.5613598,
+    "unix_time": 1785239598.0366857,
+    "psychopy_time": 1352.9254671999952
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_023_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=69.850",
+    "lsl_time": 344737.4156033,
+    "unix_time": 1785239598.891178,
+    "psychopy_time": 1353.779644299997
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_024_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=72.000",
+    "lsl_time": 344739.5618476,
+    "unix_time": 1785239601.0373878,
+    "psychopy_time": 1355.9258978000144
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_024_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=72.850",
+    "lsl_time": 344740.416006,
+    "unix_time": 1785239601.8921442,
+    "psychopy_time": 1356.780064199993
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_025_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=75.000",
+    "lsl_time": 344742.5619798,
+    "unix_time": 1785239604.0377011,
+    "psychopy_time": 1358.9260338000022
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_025_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=75.850",
+    "lsl_time": 344743.4157955,
+    "unix_time": 1785239604.8913887,
+    "psychopy_time": 1359.779861500021
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_026_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=78.000",
+    "lsl_time": 344745.5620276,
+    "unix_time": 1785239607.0382752,
+    "psychopy_time": 1361.9261051000212
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_026_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=78.850",
+    "lsl_time": 344746.4153041,
+    "unix_time": 1785239607.8914304,
+    "psychopy_time": 1362.7793494000216
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_027_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=81.000",
+    "lsl_time": 344748.5614192,
+    "unix_time": 1785239610.0371737,
+    "psychopy_time": 1364.92546519998
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_027_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=81.850",
+    "lsl_time": 344749.415977,
+    "unix_time": 1785239610.891783,
+    "psychopy_time": 1365.7800362000125
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_028_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=84.000",
+    "lsl_time": 344751.5610882,
+    "unix_time": 1785239613.0375516,
+    "psychopy_time": 1367.925129499985
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_028_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=84.850",
+    "lsl_time": 344752.4151254,
+    "unix_time": 1785239613.8915162,
+    "psychopy_time": 1368.7791701999959
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_029_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=87.000",
+    "lsl_time": 344754.5610452,
+    "unix_time": 1785239616.0374007,
+    "psychopy_time": 1370.9251163000008
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_029_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=87.850",
+    "lsl_time": 344755.415069,
+    "unix_time": 1785239616.8911636,
+    "psychopy_time": 1371.779113000026
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_030_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=90.000",
+    "lsl_time": 344757.5609811,
+    "unix_time": 1785239619.0371437,
+    "psychopy_time": 1373.925041200011
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_030_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=90.850",
+    "lsl_time": 344758.415806,
+    "unix_time": 1785239619.8917785,
+    "psychopy_time": 1374.7798535000184
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_031_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=93.000",
+    "lsl_time": 344760.5615984,
+    "unix_time": 1785239622.0379677,
+    "psychopy_time": 1376.9256584999966
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_031_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=93.850",
+    "lsl_time": 344761.4154474,
+    "unix_time": 1785239622.8913665,
+    "psychopy_time": 1377.7795094000176
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_032_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=96.000",
+    "lsl_time": 344763.5613182,
+    "unix_time": 1785239625.0378199,
+    "psychopy_time": 1379.925364100025
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_032_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=96.850",
+    "lsl_time": 344764.4149264,
+    "unix_time": 1785239625.890962,
+    "psychopy_time": 1380.778974100016
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_033_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=99.000",
+    "lsl_time": 344766.5610712,
+    "unix_time": 1785239628.0376449,
+    "psychopy_time": 1382.925124900008
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_033_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=99.850",
+    "lsl_time": 344767.414893,
+    "unix_time": 1785239628.8913739,
+    "psychopy_time": 1383.7789436000166
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_034_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=102.000",
+    "lsl_time": 344769.5609137,
+    "unix_time": 1785239631.0377831,
+    "psychopy_time": 1385.924962399993
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_034_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=102.850",
+    "lsl_time": 344770.4147956,
+    "unix_time": 1785239631.8910947,
+    "psychopy_time": 1386.7788479999872
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_035_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=105.000",
+    "lsl_time": 344772.5609443,
+    "unix_time": 1785239634.0375948,
+    "psychopy_time": 1388.9249875000096
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_035_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=105.850",
+    "lsl_time": 344773.4147546,
+    "unix_time": 1785239634.8909743,
+    "psychopy_time": 1389.7788039000006
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_036_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=108.000",
+    "lsl_time": 344775.560931,
+    "unix_time": 1785239637.0373473,
+    "psychopy_time": 1391.9250002999906
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_036_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=108.850",
+    "lsl_time": 344776.4146202,
+    "unix_time": 1785239637.8910995,
+    "psychopy_time": 1392.7786640999839
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_037_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=111.000",
+    "lsl_time": 344778.5604856,
+    "unix_time": 1785239640.036771,
+    "psychopy_time": 1394.924538100022
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_037_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=111.850",
+    "lsl_time": 344779.4147811,
+    "unix_time": 1785239640.8915176,
+    "psychopy_time": 1395.7788376000244
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_038_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=114.000",
+    "lsl_time": 344781.5608365,
+    "unix_time": 1785239643.0379806,
+    "psychopy_time": 1397.9249027000042
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_038_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=114.850",
+    "lsl_time": 344782.414534,
+    "unix_time": 1785239643.890712,
+    "psychopy_time": 1398.7785795999807
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_039_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=117.000",
+    "lsl_time": 344784.5602874,
+    "unix_time": 1785239646.0368128,
+    "psychopy_time": 1400.9243350999895
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_039_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=117.850",
+    "lsl_time": 344785.4149476,
+    "unix_time": 1785239646.891814,
+    "psychopy_time": 1401.7790034000063
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_040_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=120.000",
+    "lsl_time": 344787.5605998,
+    "unix_time": 1785239649.0373955,
+    "psychopy_time": 1403.9246554999845
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_040_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=120.850",
+    "lsl_time": 344788.4143682,
+    "unix_time": 1785239649.8911312,
+    "psychopy_time": 1404.7784114999813
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_041_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=123.000",
+    "lsl_time": 344790.5601504,
+    "unix_time": 1785239652.03643,
+    "psychopy_time": 1406.9242133999942
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_041_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=123.850",
+    "lsl_time": 344791.4144353,
+    "unix_time": 1785239652.8916416,
+    "psychopy_time": 1407.778513600002
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_042_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=126.000",
+    "lsl_time": 344793.560176,
+    "unix_time": 1785239655.03748,
+    "psychopy_time": 1409.9242481000256
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_042_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=126.850",
+    "lsl_time": 344794.4142498,
+    "unix_time": 1785239655.890951,
+    "psychopy_time": 1410.7782942000194
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_043_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=129.000",
+    "lsl_time": 344796.5600706,
+    "unix_time": 1785239658.0364466,
+    "psychopy_time": 1412.924120999989
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_043_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=129.850",
+    "lsl_time": 344797.4150454,
+    "unix_time": 1785239658.8919754,
+    "psychopy_time": 1413.7790905000293
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_044_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=132.000",
+    "lsl_time": 344799.5599871,
+    "unix_time": 1785239661.036774,
+    "psychopy_time": 1415.9240322000114
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_044_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=132.850",
+    "lsl_time": 344800.4141967,
+    "unix_time": 1785239661.8910635,
+    "psychopy_time": 1416.7782438999857
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_045_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=135.000",
+    "lsl_time": 344802.5598386,
+    "unix_time": 1785239664.0372102,
+    "psychopy_time": 1418.923881500028
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_045_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=135.850",
+    "lsl_time": 344803.4143266,
+    "unix_time": 1785239664.8912768,
+    "psychopy_time": 1419.778382199991
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_046_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=138.000",
+    "lsl_time": 344805.5598079,
+    "unix_time": 1785239667.0372663,
+    "psychopy_time": 1421.923869899998
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_046_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=138.850",
+    "lsl_time": 344806.4143625,
+    "unix_time": 1785239667.8912153,
+    "psychopy_time": 1422.778407500009
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_047_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=141.000",
+    "lsl_time": 344808.5671264,
+    "unix_time": 1785239670.0439181,
+    "psychopy_time": 1424.9311745000305
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_047_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=141.850",
+    "lsl_time": 344809.4139512,
+    "unix_time": 1785239670.890036,
+    "psychopy_time": 1425.7779946000082
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_048_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=144.000",
+    "lsl_time": 344811.5669643,
+    "unix_time": 1785239673.043533,
+    "psychopy_time": 1427.9310141000315
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_048_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=144.850",
+    "lsl_time": 344812.4138732,
+    "unix_time": 1785239673.891207,
+    "psychopy_time": 1428.7779262000113
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_049_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=147.000",
+    "lsl_time": 344814.5671014,
+    "unix_time": 1785239676.044138,
+    "psychopy_time": 1430.9311671000323
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_049_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=147.850",
+    "lsl_time": 344815.4143109,
+    "unix_time": 1785239676.8912644,
+    "psychopy_time": 1431.778380200034
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_050_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=150.000",
+    "lsl_time": 344817.5670937,
+    "unix_time": 1785239679.0441833,
+    "psychopy_time": 1433.9311593000311
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_050_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=150.850",
+    "lsl_time": 344818.4140219,
+    "unix_time": 1785239679.8911912,
+    "psychopy_time": 1434.7780694999965
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_051_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=153.000",
+    "lsl_time": 344820.566806,
+    "unix_time": 1785239682.0443318,
+    "psychopy_time": 1436.9308555999887
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_051_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=153.850",
+    "lsl_time": 344821.4137428,
+    "unix_time": 1785239682.8906016,
+    "psychopy_time": 1437.7778346000123
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_052_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=156.000",
+    "lsl_time": 344823.5670356,
+    "unix_time": 1785239685.0443058,
+    "psychopy_time": 1439.9310800000094
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_052_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=156.850",
+    "lsl_time": 344824.4136333,
+    "unix_time": 1785239685.891316,
+    "psychopy_time": 1440.777680500003
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_053_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=159.000",
+    "lsl_time": 344826.5667742,
+    "unix_time": 1785239688.0437682,
+    "psychopy_time": 1442.9308333999943
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_053_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=159.850",
+    "lsl_time": 344827.4134942,
+    "unix_time": 1785239688.8907442,
+    "psychopy_time": 1443.7775393000338
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_054_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=162.000",
+    "lsl_time": 344829.5599848,
+    "unix_time": 1785239691.037485,
+    "psychopy_time": 1445.9240373999928
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_054_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=162.850",
+    "lsl_time": 344830.4134404,
+    "unix_time": 1785239691.8907542,
+    "psychopy_time": 1446.7774860000354
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_055_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=165.000",
+    "lsl_time": 344832.5665372,
+    "unix_time": 1785239694.0438573,
+    "psychopy_time": 1448.9306325999787
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_055_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=165.850",
+    "lsl_time": 344833.4136997,
+    "unix_time": 1785239694.8913317,
+    "psychopy_time": 1449.7777445000247
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_056_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=168.000",
+    "lsl_time": 344835.5661255,
+    "unix_time": 1785239697.043675,
+    "psychopy_time": 1451.930167899991
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_056_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=168.850",
+    "lsl_time": 344836.4133046,
+    "unix_time": 1785239697.8905544,
+    "psychopy_time": 1452.7773466000217
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_057_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=171.000",
+    "lsl_time": 344838.5664222,
+    "unix_time": 1785239700.043743,
+    "psychopy_time": 1454.9304746999987
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_057_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=171.850",
+    "lsl_time": 344839.4131908,
+    "unix_time": 1785239700.8910453,
+    "psychopy_time": 1455.777234499983
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_058_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=174.000",
+    "lsl_time": 344841.5659749,
+    "unix_time": 1785239703.0437593,
+    "psychopy_time": 1457.930017400009
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_058_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=174.850",
+    "lsl_time": 344842.413174,
+    "unix_time": 1785239703.8909755,
+    "psychopy_time": 1458.777217200026
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_059_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=177.000",
+    "lsl_time": 344844.565871,
+    "unix_time": 1785239706.0439487,
+    "psychopy_time": 1460.9299154999899
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_059_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=177.850",
+    "lsl_time": 344845.4131566,
+    "unix_time": 1785239706.8903737,
+    "psychopy_time": 1461.7772207999951
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_060_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=180.000",
+    "lsl_time": 344847.5658599,
+    "unix_time": 1785239709.0431497,
+    "psychopy_time": 1463.929905600031
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_060_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=180.850",
+    "lsl_time": 344848.4135133,
+    "unix_time": 1785239709.890869,
+    "psychopy_time": 1464.7775628999807
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_061_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=183.000",
+    "lsl_time": 344850.5657824,
+    "unix_time": 1785239712.0434887,
+    "psychopy_time": 1466.9298271000152
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_061_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=183.850",
+    "lsl_time": 344851.4130047,
+    "unix_time": 1785239712.8905368,
+    "psychopy_time": 1467.7770636000205
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_062_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=186.000",
+    "lsl_time": 344853.5657789,
+    "unix_time": 1785239715.0439322,
+    "psychopy_time": 1469.9298257000046
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_062_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=186.850",
+    "lsl_time": 344854.4132318,
+    "unix_time": 1785239715.891141,
+    "psychopy_time": 1470.777281799994
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_063_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=189.000",
+    "lsl_time": 344856.5656485,
+    "unix_time": 1785239718.0434666,
+    "psychopy_time": 1472.9297134000226
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_063_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=189.850",
+    "lsl_time": 344857.4128979,
+    "unix_time": 1785239718.8905435,
+    "psychopy_time": 1473.776941100019
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_064_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=192.000",
+    "lsl_time": 344859.5661614,
+    "unix_time": 1785239721.0443215,
+    "psychopy_time": 1475.930223000003
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_064_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=192.850",
+    "lsl_time": 344860.4127338,
+    "unix_time": 1785239721.8910363,
+    "psychopy_time": 1476.7767765999888
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_065_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=195.000",
+    "lsl_time": 344862.565933,
+    "unix_time": 1785239724.043378,
+    "psychopy_time": 1478.9299766999902
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_065_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=195.850",
+    "lsl_time": 344863.4127742,
+    "unix_time": 1785239724.8904948,
+    "psychopy_time": 1479.7768178000115
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_066_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=198.000",
+    "lsl_time": 344865.5654915,
+    "unix_time": 1785239727.0431907,
+    "psychopy_time": 1481.9295634999871
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_066_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=198.850",
+    "lsl_time": 344866.4138096,
+    "unix_time": 1785239727.8919728,
+    "psychopy_time": 1482.7778573000105
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_067_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=201.000",
+    "lsl_time": 344868.5653461,
+    "unix_time": 1785239730.0433657,
+    "psychopy_time": 1484.9293870999827
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_067_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=201.850",
+    "lsl_time": 344869.4127215,
+    "unix_time": 1785239730.890999,
+    "psychopy_time": 1485.7767747000325
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_068_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=204.000",
+    "lsl_time": 344871.5652363,
+    "unix_time": 1785239733.0435276,
+    "psychopy_time": 1487.929277600022
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_068_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=204.850",
+    "lsl_time": 344872.4124998,
+    "unix_time": 1785239733.890435,
+    "psychopy_time": 1488.776544900029
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_069_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=207.000",
+    "lsl_time": 344874.56571,
+    "unix_time": 1785239736.043875,
+    "psychopy_time": 1490.9297842999804
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_069_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=207.850",
+    "lsl_time": 344875.4124644,
+    "unix_time": 1785239736.8903253,
+    "psychopy_time": 1491.7765083999839
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_070_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=210.000",
+    "lsl_time": 344877.5652052,
+    "unix_time": 1785239739.0432572,
+    "psychopy_time": 1493.9292498999857
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_070_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=210.850",
+    "lsl_time": 344878.4131011,
+    "unix_time": 1785239739.8913038,
+    "psychopy_time": 1494.7771483000251
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_071_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=213.000",
+    "lsl_time": 344880.5653148,
+    "unix_time": 1785239742.0435476,
+    "psychopy_time": 1496.9293759000138
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_071_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=213.850",
+    "lsl_time": 344881.4127167,
+    "unix_time": 1785239742.8903894,
+    "psychopy_time": 1497.7767631000024
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_072_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=216.000",
+    "lsl_time": 344883.5652666,
+    "unix_time": 1785239745.0436747,
+    "psychopy_time": 1499.9293313000235
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_072_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=216.850",
+    "lsl_time": 344884.412789,
+    "unix_time": 1785239745.8909926,
+    "psychopy_time": 1500.7768394000013
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_073_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=219.000",
+    "lsl_time": 344886.5654106,
+    "unix_time": 1785239748.0435941,
+    "psychopy_time": 1502.9294622000307
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_073_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=219.850",
+    "lsl_time": 344887.4125895,
+    "unix_time": 1785239748.8908405,
+    "psychopy_time": 1503.7766440000269
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_074_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=222.000",
+    "lsl_time": 344889.5649621,
+    "unix_time": 1785239751.0437078,
+    "psychopy_time": 1505.9290066999965
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_074_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=222.850",
+    "lsl_time": 344890.4121154,
+    "unix_time": 1785239751.8906877,
+    "psychopy_time": 1506.7761565999826
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_075_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=225.000",
+    "lsl_time": 344892.5648569,
+    "unix_time": 1785239754.0434299,
+    "psychopy_time": 1508.9289044000325
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_075_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=225.850",
+    "lsl_time": 344893.4124098,
+    "unix_time": 1785239754.890953,
+    "psychopy_time": 1509.7764679000247
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_076_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=228.000",
+    "lsl_time": 344895.5648642,
+    "unix_time": 1785239757.0434806,
+    "psychopy_time": 1511.9289224999957
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_076_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=228.850",
+    "lsl_time": 344896.4120966,
+    "unix_time": 1785239757.8903697,
+    "psychopy_time": 1512.7761369000073
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_077_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=231.000",
+    "lsl_time": 344898.5647603,
+    "unix_time": 1785239760.0436714,
+    "psychopy_time": 1514.9288131999783
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_077_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=231.850",
+    "lsl_time": 344899.4119371,
+    "unix_time": 1785239760.8898885,
+    "psychopy_time": 1515.775980699982
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_078_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=234.000",
+    "lsl_time": 344901.5651994,
+    "unix_time": 1785239763.0439095,
+    "psychopy_time": 1517.9292471000226
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_078_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=234.850",
+    "lsl_time": 344902.4118719,
+    "unix_time": 1785239763.8902476,
+    "psychopy_time": 1518.7759158000117
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_079_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=237.000",
+    "lsl_time": 344904.5650038,
+    "unix_time": 1785239766.04383,
+    "psychopy_time": 1520.9290518999915
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_079_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=237.850",
+    "lsl_time": 344905.4125754,
+    "unix_time": 1785239766.8906484,
+    "psychopy_time": 1521.7766242999933
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_080_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=240.000",
+    "lsl_time": 344907.564497,
+    "unix_time": 1785239769.0432997,
+    "psychopy_time": 1523.9285425000126
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_080_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=240.850",
+    "lsl_time": 344908.4121343,
+    "unix_time": 1785239769.8912425,
+    "psychopy_time": 1524.7761899000034
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_081_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=243.000",
+    "lsl_time": 344910.5644851,
+    "unix_time": 1785239772.0435667,
+    "psychopy_time": 1526.9285334000015
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_081_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=243.850",
+    "lsl_time": 344911.4122016,
+    "unix_time": 1785239772.8909826,
+    "psychopy_time": 1527.7762808999978
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_082_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=246.000",
+    "lsl_time": 344913.564399,
+    "unix_time": 1785239775.0423985,
+    "psychopy_time": 1529.9284430000116
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_082_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=246.850",
+    "lsl_time": 344914.4121195,
+    "unix_time": 1785239775.8910518,
+    "psychopy_time": 1530.7761680000112
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_083_VALUE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=249.000",
+    "lsl_time": 344916.5642477,
+    "unix_time": 1785239778.0428112,
+    "psychopy_time": 1532.9282909000176
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_083_VALUE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=249.850",
+    "lsl_time": 344917.4115575,
+    "unix_time": 1785239778.8897514,
+    "psychopy_time": 1533.7756026000134
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_084_VALUE_10_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=252.000",
+    "lsl_time": 344919.5642572,
+    "unix_time": 1785239781.04283,
+    "psychopy_time": 1535.928300700034
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_084_VALUE_10_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=252.850",
+    "lsl_time": 344920.4120279,
+    "unix_time": 1785239781.890045,
+    "psychopy_time": 1536.7760979000013
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_085_VALUE_5_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=255.000",
+    "lsl_time": 344922.5642299,
+    "unix_time": 1785239784.0435126,
+    "psychopy_time": 1538.9282730999985
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_085_VALUE_5_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=255.850",
+    "lsl_time": 344923.4114341,
+    "unix_time": 1785239784.8898726,
+    "psychopy_time": 1539.7754916999838
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_086_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=258.000",
+    "lsl_time": 344925.5641305,
+    "unix_time": 1785239787.042516,
+    "psychopy_time": 1541.9281738999998
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_086_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=258.850",
+    "lsl_time": 344926.4122134,
+    "unix_time": 1785239787.8910592,
+    "psychopy_time": 1542.776332199981
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_087_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=261.000",
+    "lsl_time": 344928.5648084,
+    "unix_time": 1785239790.0435092,
+    "psychopy_time": 1544.9288581000292
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_087_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=261.850",
+    "lsl_time": 344929.4112168,
+    "unix_time": 1785239790.890206,
+    "psychopy_time": 1545.7752576000057
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_088_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=264.000",
+    "lsl_time": 344931.563916,
+    "unix_time": 1785239793.043133,
+    "psychopy_time": 1547.9279595999978
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_088_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=264.850",
+    "lsl_time": 344932.4113347,
+    "unix_time": 1785239793.8901837,
+    "psychopy_time": 1548.7753956000088
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_089_VALUE_7_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=267.000",
+    "lsl_time": 344934.5639097,
+    "unix_time": 1785239796.0432777,
+    "psychopy_time": 1550.927956700034
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_089_VALUE_7_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=267.850",
+    "lsl_time": 344935.4117856,
+    "unix_time": 1785239796.8903258,
+    "psychopy_time": 1551.7758641000255
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_090_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=270.000",
+    "lsl_time": 344937.563856,
+    "unix_time": 1785239799.043224,
+    "psychopy_time": 1553.9278994000051
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_090_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=270.850",
+    "lsl_time": 344938.4110669,
+    "unix_time": 1785239799.8899975,
+    "psychopy_time": 1554.7751144000213
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_091_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=273.000",
+    "lsl_time": 344940.5644161,
+    "unix_time": 1785239802.0437126,
+    "psychopy_time": 1556.9284948999994
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_091_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=273.850",
+    "lsl_time": 344941.4110396,
+    "unix_time": 1785239802.8905895,
+    "psychopy_time": 1557.775112000003
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_092_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=276.000",
+    "lsl_time": 344943.5637229,
+    "unix_time": 1785239805.0428224,
+    "psychopy_time": 1559.9277723000268
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_092_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=276.850",
+    "lsl_time": 344944.4114117,
+    "unix_time": 1785239805.8901806,
+    "psychopy_time": 1560.7754634000012
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_093_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=279.000",
+    "lsl_time": 344946.5636442,
+    "unix_time": 1785239808.0431552,
+    "psychopy_time": 1562.9276871000184
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_093_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=279.850",
+    "lsl_time": 344947.411258,
+    "unix_time": 1785239808.889995,
+    "psychopy_time": 1563.7753117000102
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_094_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=282.000",
+    "lsl_time": 344949.5635951,
+    "unix_time": 1785239811.042543,
+    "psychopy_time": 1565.9276369999861
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_094_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=282.850",
+    "lsl_time": 344950.4108156,
+    "unix_time": 1785239811.8905427,
+    "psychopy_time": 1566.774866599997
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_095_VALUE_4_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=285.000",
+    "lsl_time": 344952.5634833,
+    "unix_time": 1785239814.042385,
+    "psychopy_time": 1568.9275308999931
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_095_VALUE_4_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=285.850",
+    "lsl_time": 344953.4110083,
+    "unix_time": 1785239814.8905168,
+    "psychopy_time": 1569.7750571999932
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_096_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=288.000",
+    "lsl_time": 344955.5635904,
+    "unix_time": 1785239817.042518,
+    "psychopy_time": 1571.9276741999784
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_096_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=288.850",
+    "lsl_time": 344956.4113622,
+    "unix_time": 1785239817.8909574,
+    "psychopy_time": 1572.7754221999785
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_097_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=291.000",
+    "lsl_time": 344958.5636744,
+    "unix_time": 1785239820.0426896,
+    "psychopy_time": 1574.9277225999977
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_097_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=291.850",
+    "lsl_time": 344959.4105761,
+    "unix_time": 1785239820.8895597,
+    "psychopy_time": 1575.774620799988
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_098_VALUE_2_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=294.000",
+    "lsl_time": 344961.5636784,
+    "unix_time": 1785239823.0425618,
+    "psychopy_time": 1577.927721999993
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_098_VALUE_2_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=294.850",
+    "lsl_time": 344962.4110112,
+    "unix_time": 1785239823.8908682,
+    "psychopy_time": 1578.7750656999997
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_099_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=297.000",
+    "lsl_time": 344964.5632663,
+    "unix_time": 1785239826.0424805,
+    "psychopy_time": 1580.9273116000113
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_099_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=297.850",
+    "lsl_time": 344965.4104887,
+    "unix_time": 1785239826.890445,
+    "psychopy_time": 1581.7745414000237
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_100_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=300.000",
+    "lsl_time": 344967.563143,
+    "unix_time": 1785239829.0423229,
+    "psychopy_time": 1583.9271881000022
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_100_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=300.850",
+    "lsl_time": 344968.4105085,
+    "unix_time": 1785239829.890493,
+    "psychopy_time": 1584.7746068999986
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_101_VALUE_8_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=303.000",
+    "lsl_time": 344970.5631215,
+    "unix_time": 1785239832.0431583,
+    "psychopy_time": 1586.9271823000163
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_101_VALUE_8_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=303.850",
+    "lsl_time": 344971.4105024,
+    "unix_time": 1785239832.8904305,
+    "psychopy_time": 1587.7745468000066
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_102_VALUE_6_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=306.000",
+    "lsl_time": 344973.5633639,
+    "unix_time": 1785239835.0429726,
+    "psychopy_time": 1589.927418200008
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_102_VALUE_6_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=306.850",
+    "lsl_time": 344974.4108653,
+    "unix_time": 1785239835.8908865,
+    "psychopy_time": 1590.7750352000003
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_103_VALUE_9_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=309.000",
+    "lsl_time": 344976.5630865,
+    "unix_time": 1785239838.042994,
+    "psychopy_time": 1592.9271409999928
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_103_VALUE_9_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=309.850",
+    "lsl_time": 344977.4101919,
+    "unix_time": 1785239838.889442,
+    "psychopy_time": 1593.7742375999806
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_104_VALUE_3_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=312.000",
+    "lsl_time": 344979.5631322,
+    "unix_time": 1785239841.0432146,
+    "psychopy_time": 1595.9272062000236
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_CUE_104_VALUE_3_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "t=312.850",
+    "lsl_time": 344980.4105091,
+    "unix_time": 1785239841.8907228,
+    "psychopy_time": 1596.7745718000224
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_TIMEOUT_BREAK",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344981.3128583,
+    "unix_time": 1785239842.7920306,
+    "psychopy_time": 1597.676898900012
+  },
+  {
+    "marker": "CONTEXTUAL_OVERRIDE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344984.1757719,
+    "unix_time": 1785239845.6551905,
+    "psychopy_time": 1600.5398363000131
+  },
+  {
+    "marker": "SUM_INPUT_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "CONTEXTUAL_OVERRIDE_1",
+    "lsl_time": 344984.1773555,
+    "unix_time": 1785239845.6561873,
+    "psychopy_time": 1600.5413936999976
+  },
+  {
+    "marker": "SUM_INPUT_CONTEXTUAL_OVERRIDE_1_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344984.1774718,
+    "unix_time": 1785239845.6576643,
+    "psychopy_time": 1600.5414980999776
+  },
+  {
+    "marker": "RESPONSE_CONTEXTUAL_OVERRIDE_1_SUM_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344984.1775587,
+    "unix_time": 1785239845.6576643,
+    "psychopy_time": 1600.5415821000352
+  },
+  {
+    "marker": "RESPONSE_CONTEXTUAL_OVERRIDE_1_SUM_460",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344995.3838801,
+    "unix_time": 1785239856.8633654,
+    "psychopy_time": 1611.7479234000202
+  },
+  {
+    "marker": "RESPONSE_CONTEXTUAL_OVERRIDE_1_EXPECTED_SUM_550",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344995.3841203,
+    "unix_time": 1785239856.8644,
+    "psychopy_time": 1611.748160200019
+  },
+  {
+    "marker": "RESPONSE_CONTEXTUAL_OVERRIDE_1_SUM_CORRECT_0",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344995.3842366,
+    "unix_time": 1785239856.8644,
+    "psychopy_time": 1611.7482680000248
+  },
+  {
+    "marker": "RESPONSE_CONTEXTUAL_OVERRIDE_1_SUM_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344995.3843346,
+    "unix_time": 1785239856.8644,
+    "psychopy_time": 1611.748391799978
+  },
+  {
+    "marker": "SUM_INPUT_CONTEXTUAL_OVERRIDE_1_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "",
+    "lsl_time": 344995.3844345,
+    "unix_time": 1785239856.8644,
+    "psychopy_time": 1611.7484567000065
+  },
+  {
+    "marker": "SUM_INPUT_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1",
+    "note": "CONTEXTUAL_OVERRIDE_1",
+    "lsl_time": 344995.3844881,
+    "unix_time": 1785239856.8644,
+    "psychopy_time": 1611.7485081999912
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1_SUM_ENTRY",
+    "note": "duration_sec=8.000;reason=after_sum_input_before_washout_3",
+    "lsl_time": 344996.3899789,
+    "unix_time": 1785239857.8702133,
+    "psychopy_time": 1612.7540241000243
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_CONTEXTUAL_OVERRIDE_1_SUM_ENTRY_START",
+    "phase": "CONTEXTUAL_OVERRIDE_1_SUM_ENTRY",
+    "note": "duration_sec=8.000;reason=after_sum_input_before_washout_3",
+    "lsl_time": 344996.3901363,
+    "unix_time": 1785239857.8702133,
+    "psychopy_time": 1612.7541656999965
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_CONTEXTUAL_OVERRIDE_1_SUM_ENTRY_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1_SUM_ENTRY",
+    "note": "duration_sec=8.000;reason=after_sum_input_before_washout_3",
+    "lsl_time": 345004.4049609,
+    "unix_time": 1785239865.8851154,
+    "psychopy_time": 1620.76900510001
+  },
+  {
+    "marker": "RETURN_TO_STILLNESS_END",
+    "phase": "CONTEXTUAL_OVERRIDE_1_SUM_ENTRY",
+    "note": "duration_sec=8.000;reason=after_sum_input_before_washout_3",
+    "lsl_time": 345004.405101,
+    "unix_time": 1785239865.8851154,
+    "psychopy_time": 1620.769124399987
+  },
+  {
+    "marker": "WASHOUT_3_START",
+    "phase": "WASHOUT_3",
+    "note": "",
+    "lsl_time": 345004.4052099,
+    "unix_time": 1785239865.8851154,
+    "psychopy_time": 1620.7692312999861
+  },
+  {
+    "marker": "WASHOUT_3_END",
+    "phase": "WASHOUT_3",
+    "note": "",
+    "lsl_time": 345124.4069246,
+    "unix_time": 1785239985.8886573,
+    "psychopy_time": 1740.7709764000028
+  },
+  {
+    "marker": "REPORT_INPUT_START",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "lsl_time": 345124.4070685,
+    "unix_time": 1785239985.8886573,
+    "psychopy_time": 1740.7710915000062
+  },
+  {
+    "marker": "REPORT_INPUT_OVERRIDE_1_AFTER_WASHOUT_3_START",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345124.4071294,
+    "unix_time": 1785239985.8886573,
+    "psychopy_time": 1740.771149999986
+  },
+  {
+    "marker": "RATINGS_OVERRIDE_1_AFTER_WASHOUT_3_START",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345124.4071819,
+    "unix_time": 1785239985.8886573,
+    "psychopy_time": 1740.7712016000296
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_Meaning_3",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345128.4190025,
+    "unix_time": 1785239989.9012446,
+    "psychopy_time": 1744.783062500006
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_Empathy_3",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345129.3468308,
+    "unix_time": 1785239990.8291602,
+    "psychopy_time": 1745.710877800011
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_Absorption_3",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345130.6901325,
+    "unix_time": 1785239992.172494,
+    "psychopy_time": 1747.0541717000306
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_StoryActiveWashout_2",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345132.3153977,
+    "unix_time": 1785239993.7977417,
+    "psychopy_time": 1748.679439300031
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_EmotionalAfterglow_2",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345133.7362217,
+    "unix_time": 1785239995.2186425,
+    "psychopy_time": 1750.1002588000265
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_AnalyticEffort_8",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345137.9979255,
+    "unix_time": 1785239999.4804044,
+    "psychopy_time": 1754.3619666000013
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_TaskCompliance_8",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345139.2732603,
+    "unix_time": 1785240000.7557087,
+    "psychopy_time": 1755.6373039000318
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_OverrideLeakage_0",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345142.5567856,
+    "unix_time": 1785240004.039297,
+    "psychopy_time": 1758.920842099993
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_FatigueDiscomfort_1",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345143.8968849,
+    "unix_time": 1785240005.379442,
+    "psychopy_time": 1760.2609299999895
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_MindWandering_2",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345145.7123567,
+    "unix_time": 1785240007.194911,
+    "psychopy_time": 1762.0764014000306
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_ProtocolThoughts_2",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345146.9923681,
+    "unix_time": 1785240008.4749272,
+    "psychopy_time": 1763.356413200032
+  },
+  {
+    "marker": "RATING_OVERRIDE_1_AFTER_WASHOUT_3_NumberCueDistraction_0",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "",
+    "lsl_time": 345149.2949816,
+    "unix_time": 1785240010.7776215,
+    "psychopy_time": 1765.659027400019
+  },
+  {
+    "marker": "RATINGS_OVERRIDE_1_AFTER_WASHOUT_3_END",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "{\"Absorption\": 3, \"AnalyticEffort\": 8, \"EmotionalAfterglow\": 2, \"Empathy\": 3, \"FatigueDiscomfort\": 1, \"Meaning\": 3, \"MindWandering\": 2, \"NumberCueDistraction\": 0, \"OverrideLeakage\": 0, \"ProtocolThoughts\": 2, \"StoryActiveWashout\": 2, \"TaskCompliance\": 8}",
+    "lsl_time": 345149.4457553,
+    "unix_time": 1785240010.928363,
+    "psychopy_time": 1765.8097959000152
+  },
+  {
+    "marker": "REPORT_INPUT_OVERRIDE_1_AFTER_WASHOUT_3_END",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "{\"Absorption\": 3, \"AnalyticEffort\": 8, \"EmotionalAfterglow\": 2, \"Empathy\": 3, \"FatigueDiscomfort\": 1, \"Meaning\": 3, \"MindWandering\": 2, \"NumberCueDistraction\": 0, \"OverrideLeakage\": 0, \"ProtocolThoughts\": 2, \"StoryActiveWashout\": 2, \"TaskCompliance\": 8}",
+    "lsl_time": 345149.4458814,
+    "unix_time": 1785240010.928363,
+    "psychopy_time": 1765.8099047000287
+  },
+  {
+    "marker": "REPORT_INPUT_END",
+    "phase": "OVERRIDE_1_AFTER_WASHOUT_3",
+    "note": "{\"Absorption\": 3, \"AnalyticEffort\": 8, \"EmotionalAfterglow\": 2, \"Empathy\": 3, \"FatigueDiscomfort\": 1, \"Meaning\": 3, \"MindWandering\": 2, \"NumberCueDistraction\": 0, \"OverrideLeakage\": 0, \"ProtocolThoughts\": 2, \"StoryActiveWashout\": 2, \"TaskCompliance\": 8}",
+    "lsl_time": 345149.4459858,
+    "unix_time": 1785240010.928363,
+    "psychopy_time": 1765.8100048000342
+  },
+  {
+    "marker": "PROTOCOL_SEQUENCE_END",
+    "phase": "PROTOCOL",
+    "note": "",
+    "lsl_time": 345149.4460674,
+    "unix_time": 1785240010.928363,
+    "psychopy_time": 1765.810102700023
+  }
+]

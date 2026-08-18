@@ -1,0 +1,24 @@
+category,item,quantity,notes
+PVC framing,"1.5-inch Schedule 40 PVC pipe, 10-foot lengths",17,"Frame bottom/top perimeters, verticals, and roof cross-brace; adjust to final dimensions."
+PVC fittings,Furniture-grade 3-way corner fittings,4,Use structural/furniture-grade fittings where possible.
+PVC fittings,Furniture-grade 4-way corner fittings,4,For top frame/roof intersections as required by design.
+PVC fittings,T-fittings,4,For roof/cross-brace geometry.
+PVC fittings,4-way cross fitting,1,Center roof cross-brace support.
+Adhesives,PVC primer and cement,1 set,Use according to manufacturer instructions; ventilate.
+Fasteners,Heavy-duty zip ties,as needed,Attach mesh to frame.
+Shielding,"Woven copper mesh, 36-inch or 48-inch rolls",520+ sq ft,Estimate for 10x10x8 enclosure; wide rolls reduce seams.
+Seams,2-inch conductive copper foil tape with conductive adhesive,3+ rolls,Bond overlap seams and mesh-to-floor contact.
+Grounding,8-foot copper grounding rod,1,Only if appropriate for location and reviewed for safety.
+Grounding,Brass grounding clamp,1,For grounding rod connection.
+Grounding,Bare copper perimeter wire,as needed,Bond lower perimeter of mesh; avoid unsafe ground configurations.
+Dielectric barrier,Concrete curing blankets or insulating/vinyl barrier,10x10 area,Isolate mesh floor from concrete/rebar as applicable.
+Door,Oversized copper mesh flap,1,Overlap generously; no hard lock-in.
+Door,Magnetic strips or weights for flap closure,as needed,Maintain contact while preserving emergency exit.
+Cable management,Nonconductive cable pass-through / strain relief,as needed,Prevent trip hazards and reduce cable stress.
+Safety,Fire extinguisher,1,Appropriate type for local environment.
+Safety,Smoke / CO detector if applicable,1 each,Especially in enclosed/garage/barn environments.
+Safety,Battery fan or ventilation solution,1+,Do not seal participant in poorly ventilated space.
+Testing,Battery AM/FM radio,1,Crude low-frequency/AM attenuation sanity check.
+Testing,Phone / Wi-Fi device,1,Crude signal attenuation check.
+Testing,EEG noise-floor test setup,1,Baseline with cap/device before real participants.
+Instrumentation,ALS-PT19 analog light sensor,1,"Physical display-timing validation, not biological photonics."

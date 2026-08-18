@@ -1,0 +1,10 @@
+{
+  "package": "PRAYCG_OpenBCI_BrainFlow_LSL_Bridge_v1_2_PortHelper",
+  "version": "1.2",
+  "created_for": "OpenBCI Cyton/Daisy BrainFlow-to-LSL serial-port selection on new Windows laptop",
+  "checks": {
+    "python_syntax_compile": "PASS",
+    "zip_integrity": "pending_before_zip"
+  },
+  "main_fix": "Adds serial-port identifier, --list-ports, --auto-port, interactive COM-port prompt, and launcher GUI."
+}

@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+pylsl
+pyxdf
+brainflow
+pyserial
+psychopy
