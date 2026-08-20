@@ -37,7 +37,6 @@ EXPLORATORY / CONVERGENCE:
 software/mediaprep/                 MediaPrep + StimulusFingerprint v1.8
 software/protocol_runner/           PRAYCG2.0 consolidated self-report runner
 software/master_comprehensive_suite/ Master Suite v1.5.5 with offline interpreter
-software/upload_tools/              recursive GitHub and OSF upload scripts
 examples/gold_plated_contact_pilot_public/ derived Contact pilot files, no copyrighted media
 examples/no_copyright_media_demo/   self-contained CC0 synthetic demo media + QC outputs
 examples/open_movie_sintel_recipe/  CC-BY Sintel excerpt recipe/downloader for local generation
