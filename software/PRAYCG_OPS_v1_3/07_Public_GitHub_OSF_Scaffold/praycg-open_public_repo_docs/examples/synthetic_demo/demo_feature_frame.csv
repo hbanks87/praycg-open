@@ -1,4 +1,0 @@
-time_sec,condition,theta_z,gamma_z,tsp_z,hr_bpm,rmssd_ms,api_a,resp_z,als_z
-0.0,target,0.0,0.0,0.0,70,40,0.0,0.0,0.0
-1.0,target,0.1,0.2,0.15,71,39,-0.05,0.1,1.0
-2.0,target,0.3,0.6,0.5,72,38,-0.1,0.2,0.0
