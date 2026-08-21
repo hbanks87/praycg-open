@@ -1,6 +1,0 @@
-anchor_id,rendered_time_sec,anchor_role,claim_level
-DEMO_A1_LANTERN_START,30.0,secondary,demo_cc0
-DEMO_A2_BRIDGE_APPEARS,60.0,primary_a_mred_peak_candidate,demo_cc0
-DEMO_A3_OTHER_LIGHT,105.0,primary_a_mred_peak_candidate,demo_cc0
-DEMO_A4_CENTER_MEETING,150.0,primary_mred_resolution_candidate,demo_cc0
-DEMO_A5_AFTERGLOW,168.0,resolution_afterstate_candidate,demo_cc0

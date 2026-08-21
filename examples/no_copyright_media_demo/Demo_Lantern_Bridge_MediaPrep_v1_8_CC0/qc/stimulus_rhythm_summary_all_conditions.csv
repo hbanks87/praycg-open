@@ -1,4 +1,0 @@
-condition,duration_sec,mean_luminance,mean_visual_change,cut_count_estimate,cut_rate_per_sec,flash_events,cue_count,expected_sum
-control,180.0,56.062,0.07544,4,0.022222,3,59,327
-target,180.0,66.062,0.07544,4,0.022222,3,59,327
-override,180.0,66.062,0.07544,4,0.022222,3,59,327
