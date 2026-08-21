@@ -1,0 +1,10 @@
+# PRAYCG Control Center v0.4 optional dependencies
+# Tkinter ships with most Python installers.
+pylsl
+numpy
+opencv-python
+# For attached Polar H10 streamer:
+bleak
+# For attached Vernier Respiration Belt streamer:
+godirect
+# For MediaPrep / StimulusFingerprint / analysis suite packages, install their own requirements too.

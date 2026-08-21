@@ -1,0 +1,86 @@
+{
+  "schema": "PRAYCG_ControlCenter_Manifest_v0.4",
+  "file_count": 16,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 651,
+      "sha256": "0040ce22f78958940c18f3eb07ec2ca375d1e0770e0a88f9d019f0c5a863d445"
+    },
+    {
+      "path": "DISCLAIMER.md",
+      "bytes": 695,
+      "sha256": "5b60fad298fb93983b17b0e4e53a2799421ce6b75afc084a3ce8f936d5161741"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2549,
+      "sha256": "83ab6d81af7e485a6861217acddbca64bb45b523fcb07ed4c3383da60d48660b"
+    },
+    {
+      "path": "config/praycg_control_center_config_TEMPLATE.json",
+      "bytes": 1942,
+      "sha256": "026a201f62e4a2471ac2928eadc1975a88e590834ecedf964356d445313aaa5c"
+    },
+    {
+      "path": "docs/ACQUISITION_PANEL_NOTES_v0.4.md",
+      "bytes": 1406,
+      "sha256": "c7a96086704f6a23c8f26c059b6650c1e288379d6b94ffb82cea2dd977e41191"
+    },
+    {
+      "path": "docs/CONTROL_CENTER_WORKFLOW_v0.4.md",
+      "bytes": 2217,
+      "sha256": "59f2ee8ddcfbbd3450bf8d498615f0f055004874704e9f446b540552d433c269"
+    },
+    {
+      "path": "docs/PSYCHOPY_RUNNER_LAUNCH_NOTES_v0.4.md",
+      "bytes": 1158,
+      "sha256": "28dc650d3ea0fe0c54c82875c96c3c9f4683a8478d392b5feac16dcd8d073260"
+    },
+    {
+      "path": "docs/STIMULUS_LIBRARY_SPEC_v0.4.md",
+      "bytes": 1247,
+      "sha256": "2fe3eca570e2abd0370b706dd820bdd4416307f03e09465673b726a549903330"
+    },
+    {
+      "path": "requirements_optional.txt",
+      "bytes": 323,
+      "sha256": "7049a581e585a06da6e86c8d1b65c7ec569e565edd55cc2bf32270f18142c7bf"
+    },
+    {
+      "path": "run_PRAYCG_ControlCenter_v0.4.bat",
+      "bytes": 167,
+      "sha256": "9fd1ce23de32c9726c9c9cfd1364d06df876789de5026331462fb54307919784"
+    },
+    {
+      "path": "scripts/praycg_als_screen_pulse_test_v0.4.py",
+      "bytes": 7938,
+      "sha256": "e3ce6eba45a46987439d8ec5102183c01c417f36cf058894053c13198a6af55a"
+    },
+    {
+      "path": "scripts/praycg_control_center_v0.4.py",
+      "bytes": 45983,
+      "sha256": "4d71e0e4c7f8329e243e8a281bd171e9c6b70f74e81e5fa2b7ae3cc24ed5edea"
+    },
+    {
+      "path": "scripts/praycg_lsl_stream_checker_v0.4.py",
+      "bytes": 3702,
+      "sha256": "6befe898872d726a7a07df65df773210bad5f0fd37d99b923f4b2a86e77c4327"
+    },
+    {
+      "path": "scripts/praycg_signal_quality_index_v0.4.py",
+      "bytes": 6685,
+      "sha256": "77e9f9065af3ad7e7461192d1da072c7bfba253a6c50f0422146c9be4768be39"
+    },
+    {
+      "path": "tools/acquisition/polar_to_lsl.py",
+      "bytes": 3286,
+      "sha256": "846529878d2249b59b4ca9cb10bcf7b232d11a476e2410e97bfb31b25f6fe7d3"
+    },
+    {
+      "path": "tools/acquisition/vernier_respiration_belt_to_lsl.py",
+      "bytes": 13349,
+      "sha256": "28d02680fe3fff70eb44838c306bb743ed6d981ee1943e28d59545f838dd44ae"
+    }
+  ]
+}

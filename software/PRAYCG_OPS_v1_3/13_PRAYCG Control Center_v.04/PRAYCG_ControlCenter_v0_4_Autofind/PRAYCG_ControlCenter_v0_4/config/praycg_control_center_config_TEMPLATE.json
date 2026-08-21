@@ -1,0 +1,39 @@
+{
+  "schema": "PRAYCG_ControlCenter_Config_TEMPLATE_v0.4",
+  "version": "0.4.0",
+  "instructions": "Copy or edit via GUI Settings. User config is written to %APPDATA%/PRAYCG_ControlCenter/config.json on Windows.",
+  "praycg_home": "C:/PRAYCG",
+  "python_executable": "py -3.11",
+  "stimulus_root": "C:/PRAYCG/stimuli",
+  "run_root": "C:/PRAYCG/runs",
+  "analysis_root": "C:/PRAYCG/analysis",
+  "log_root": "C:/PRAYCG/logs",
+  "lsl": {
+    "expected_streams": [
+      "obci_eeg1",
+      "OpenBCIStatusMarkers",
+      "PolarHRV",
+      "VernierRespirationBelt",
+      "praycg_stasismarkers"
+    ],
+    "eeg_stream_name": "obci_eeg1",
+    "eeg_expected_rate_hz": 125.0,
+    "als_channel_index_1based": -1
+  },
+  "tools": {
+    "mediaprep_gui": "C:/PRAYCG_OPS/PRAYCG_OPS_v1_5/00_CURRENT_USE_THESE_TOOLS/MediaPrep_StimulusFingerprint_v1_8/scripts/praycg_media_prep_gui_v1_8.py",
+    "protocol_runner_praycg2": "C:/PRAYCG_OPS/PRAYCG_OPS_v1_5/00_CURRENT_USE_THESE_TOOLS/ProtocolRunner_PRAYCG2_0/scripts/run_PRAYCG2_0_ConsolidatedSelfReport.py",
+    "psychopy_app": "",
+    "psychopy_coder": "",
+    "psychopy_python": "",
+    "labrecorder": "C:/LabRecorder/LabRecorder.exe",
+    "master_suite_gui": "C:/PRAYCG_OPS/PRAYCG_OPS_v1_5/00_CURRENT_USE_THESE_TOOLS/MasterComprehensiveSuite_v1_5_5/scripts/praycg_master_comprehensive_suite_gui_v1_4.py",
+    "visualizer_gui": "C:/PRAYCG_OPS/PRAYCG_OPS_v1_5/00_CURRENT_USE_THESE_TOOLS/MasterComprehensiveSuite_v1_5_5/scripts/praycg_master_sync_visualizer_v1_3_5.py",
+    "offline_interpreter_gui": "C:/PRAYCG_OPS/PRAYCG_OPS_v1_5/00_CURRENT_USE_THESE_TOOLS/MasterComprehensiveSuite_v1_5_5/scripts/praycg_offline_interpretive_report_gui_v1_5_5.py",
+    "brainflow_eeg_only": "",
+    "brainflow_eeg_als": "",
+    "polar_h10": "tools/acquisition/polar_to_lsl.py",
+    "vernier_resp": "tools/acquisition/vernier_respiration_belt_to_lsl.py"
+  },
+  "runner_launch_mode": "open_psychopy_coder_then_open_runner_file"
+}
