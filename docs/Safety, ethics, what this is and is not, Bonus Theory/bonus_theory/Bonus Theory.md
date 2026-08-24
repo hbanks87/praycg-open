@@ -5,19 +5,31 @@ These files are not required to evaluate the empirical protocol. They do not add
 The technical documents should be evaluated on their own terms:
 
 stimulus design,
+
 phase-scrambled controls,
+
 contextual override,
+
 event timing,
+
 EEG/HRV/respiration streams,
+
 artifact rejection,
+
 retained-window reporting,
+
 task compliance,
+
 self-report,
+
 demand-characteristic covariates,
+
 statistical contrasts,
+
 falsification logic.
 
-Reading rule
+Reading rule:
+
 Read this folder only after the empirical theory, protocol, and methods are clear.
 
 The conceptual register should not be used to make claims about neural mechanisms, consciousness, clinical efficacy, quantum physics, or participant authenticity. It is a context layer, not an evidence layer.
