@@ -1,0 +1,220 @@
+{
+  "schema": "PRAYCG_media_prep_suite_v1_8_anchorprep_cet_eet_als_fullscreen_start_pulse",
+  "created_utc": "2026-08-20T02:02:17.021497+00:00",
+  "project_name": "stimulus_master_Demo_Lantern_Bridge_CC0",
+  "outputs": {
+    "output_dir": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010",
+    "master_input": "C:\\Users\\hoytb\\Downloads\\stimulus_master_Demo_Lantern_Bridge_CC0.mp4",
+    "cleaned_master": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\stimulus_master_cleaned_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+    "target_cued": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\stimulus_target_cued_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+    "override_cued": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\stimulus_override_cued_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+    "control_phase_scrambled": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\stimulus_control_cued_phase_scrambled_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+    "cue_schedule_json": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\cue_schedule_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.json",
+    "cue_schedule_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\cue_schedule_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.csv",
+    "anchor_draft_json": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\predeclared_anchors_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A_DRAFT.json",
+    "anchor_draft_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\predeclared_anchors_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A_DRAFT.csv",
+    "anchor_lock_checklist": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\ANCHOR_LOCK_CHECKLIST_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.md",
+    "anchor_preset": "generic"
+  },
+  "sha256": {
+    "master_input": "3a615acaabcef97f1ce06974944e4a93a59e26b79372763ec4b40d87bf38cf51",
+    "working_input": "4b8a96892d840070176307c9ac169910993ebdaece8cf41ade774bafc97a141f",
+    "target_cued": "893d56424b4e0c3b68fddfec0c950281ad39f59f2dfef093c66c4e2961f7168d",
+    "override_cued": "893d56424b4e0c3b68fddfec0c950281ad39f59f2dfef093c66c4e2961f7168d",
+    "cleaned_master": "4b8a96892d840070176307c9ac169910993ebdaece8cf41ade774bafc97a141f",
+    "control_phase_scrambled": "1f3ce7d6506d13fa392c93dfd5c53e6cce9ce1a8890c66eb0563ea7ea928472a"
+  },
+  "video_props": {
+    "fps": 12.0,
+    "frame_count": 2174,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 181.16666666666666
+  },
+  "source_content_video_props": {
+    "fps": 12.0,
+    "frame_count": 2160,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 180.0
+  },
+  "cue_design": {
+    "seed": 20260724,
+    "interval_sec": 3.0,
+    "display_duration_sec": 0.85,
+    "start_delay_sec": 3.0,
+    "min_value": 1,
+    "max_value": 10,
+    "position": "upper_right",
+    "alpha": 0.78,
+    "font_scale_factor": 0.95,
+    "contrast_protected_badge": true,
+    "fixed_position_reason": "Fixed safe-zone placement reduces visual-search/saccade confounds relative to moving numbers.",
+    "recommended_use": "Use the same cue-embedded stimulus for Target and Contextual Override. Only instructions should differ.",
+    "control_generation": "Phase-scramble the cue-embedded Target to generate the Control."
+  },
+  "sensor_timing_design": {
+    "enabled": true,
+    "sensor": "ALS-PT19 or equivalent photodiode/photoresistor-style analog light sensor",
+    "position": "lower_right",
+    "pulse_mode": "fullscreen_start",
+    "video_start_duration_sec": 0.75,
+    "fullscreen_black_guard_sec": 0.5,
+    "content_start_offset_sec": 1.25,
+    "analysis_exclusion_prefix_sec": 1.25,
+    "cue_pulse_duration_sec": 0.25,
+    "size_px": 0,
+    "size_frac": 0.035,
+    "margin_px": 16,
+    "idle_level_0_255": 0,
+    "pulse_level_0_255": 255,
+    "interpretation": "Physical display-timing channel. It validates screen timing and belongs to the external input vector u(t), not to any biological hidden variable Y(t)."
+  },
+  "sensor_timing_pulse_events": [
+    {
+      "pulse_index": 1,
+      "pulse_type": "fullscreen_start_flash",
+      "start_sec": 0.0,
+      "end_sec": 0.75,
+      "duration_sec": 0.75,
+      "position": "fullscreen",
+      "square_x1": 0,
+      "square_y1": 0,
+      "square_x2": 640,
+      "square_y2": 360,
+      "idle_level_0_255": 0,
+      "pulse_level_0_255": 255
+    }
+  ],
+  "sensor_timing_render_summary": {
+    "target": {
+      "fps": 12.0,
+      "frame_count": 2174,
+      "width": 640,
+      "height": 360,
+      "duration_sec": 181.16666666666666,
+      "source_content_props": {
+        "fps": 12.0,
+        "frame_count": 2159,
+        "width": 640,
+        "height": 360,
+        "duration_sec": 179.91666666666666
+      },
+      "rendered_content_frames": 2159,
+      "fullscreen_pulse": true,
+      "white_frames": 9,
+      "black_guard_frames": 6,
+      "white_duration_sec_actual": 0.75,
+      "black_guard_sec_actual": 0.5,
+      "content_start_offset_sec": 1.25,
+      "analysis_exclusion_prefix_sec": 1.25,
+      "sensor_pulse_count": 1,
+      "sensor_frame_mode": "fullscreen_start_flash"
+    },
+    "control": {
+      "fps": 12.0,
+      "frame_count": 2174,
+      "width": 640,
+      "height": 360,
+      "duration_sec": 181.16666666666666,
+      "source_content_props": {
+        "fps": 12.0,
+        "frame_count": 2159,
+        "width": 640,
+        "height": 360,
+        "duration_sec": 179.91666666666666
+      },
+      "rendered_content_frames": 2159,
+      "fullscreen_pulse": true,
+      "white_frames": 9,
+      "black_guard_frames": 6,
+      "white_duration_sec_actual": 0.75,
+      "black_guard_sec_actual": 0.5,
+      "content_start_offset_sec": 1.25,
+      "analysis_exclusion_prefix_sec": 1.25,
+      "sensor_pulse_count": 1,
+      "sensor_frame_mode": "fullscreen_start_flash"
+    }
+  },
+  "cue_count": 59,
+  "expected_sum": 327,
+  "cue_render_summary": {
+    "fps": 12.0,
+    "frame_count": 2160,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 180.0,
+    "rendered_frames": 2160,
+    "rendered_duration_sec": 180.0
+  },
+  "visual_cleanup": {
+    "fps": 12.0,
+    "frame_count": 2160,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 180.0,
+    "rendered_frames": 2160,
+    "rendered_duration_sec": 180.0,
+    "mask_bbox": [
+      3,
+      3,
+      183,
+      83
+    ],
+    "mask_method": "blur",
+    "mask_preset": "upper_left",
+    "enabled": true,
+    "source_master": "C:\\Users\\hoytb\\Downloads\\stimulus_master_Demo_Lantern_Bridge_CC0.mp4",
+    "cleaned_master": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\stimulus_master_cleaned_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4"
+  },
+  "control_audio": {
+    "audio_fps": 44100,
+    "channels": 2,
+    "samples": 7936236,
+    "duration_sec": 179.96,
+    "rms": 0.12010607123374939,
+    "mode": "speech_shaped_noise_envelope",
+    "original_rms": 0.12010607868432999,
+    "processed_rms": 0.12010607123374939,
+    "envelope_sec": 0.05,
+    "purpose": "Preserve digital loudness/envelope while destroying intelligible speech."
+  },
+  "scramble_summary": {
+    "video": {
+      "fps": 12.0,
+      "frame_count": 2159,
+      "width": 640,
+      "height": 360,
+      "duration_sec": 179.91666666666666,
+      "rendered_frames": 2159,
+      "rendered_duration_sec": 179.91666666666666
+    },
+    "audio": {
+      "audio_fps": 44100,
+      "channels": 2,
+      "samples": 7936236,
+      "duration_sec": 179.96,
+      "rms": 0.12010607123374939,
+      "mode": "speech_shaped_noise_envelope",
+      "original_rms": 0.12010607868432999,
+      "processed_rms": 0.12010607123374939,
+      "envelope_sec": 0.05,
+      "purpose": "Preserve digital loudness/envelope while destroying intelligible speech."
+    },
+    "source": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\_working_target_number_cued_no_sensor_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+    "audio_mode": "speech_shaped_noise_envelope",
+    "manual_audio_unintelligibility_qc_required": true
+  },
+  "qc_required": {
+    "manual_audio_unintelligibility_qc": true,
+    "manual_visual_source_stamp_qc": true,
+    "stimulusfingerprint_qc_recommended": true
+  },
+  "boundary": "Media prep only. Requires manual QC, StimulusFingerprint QC, protocol acquisition, and physiology analysis before empirical claims.",
+  "anchor_prep": {
+    "anchor_draft_json": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\predeclared_anchors_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A_DRAFT.json",
+    "anchor_draft_csv": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\predeclared_anchors_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A_DRAFT.csv",
+    "anchor_lock_checklist": "C:\\Users\\hoytb\\Desktop\\PRAYCGStimulus\\lantern\\stimulus_master_Demo_Lantern_Bridge_CC0_MediaPrep_v1_7A_20260819_210010\\ANCHOR_LOCK_CHECKLIST_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.md",
+    "anchor_preset": "generic"
+  }
+}
