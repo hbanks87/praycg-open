@@ -412,7 +412,3 @@ The following publication metadata has been supplied:
 - **Synthetic demonstration-media license:** CC0 1.0 Universal
 - **Third-party media:** original source license and attribution requirements remain controlling
 
-Before publication, complete or confirm the remaining fields as applicable:
-
-- author affiliation, if one should be displayed;
-- ethics, data-availability, and media-licensing statements appropriate to any separately deposited dataset.
