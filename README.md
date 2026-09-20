@@ -1,514 +1,109 @@
-# PRAYCG
+# PRAYCG Workbench
 
-**PRAYCG** is an exploratory, open-source psychophysiology protocol and software pipeline for studying whether naturalistic narrative stimuli produce measurable EEG/autonomic state trajectories that differ from low-level audiovisual stimulation and from the same intact stimulus under analytic task demand.
+Local-first tools for auditable neuroscience and psychophysiology studies.
 
-This repository is **methods-first**. It contains software, documentation, templates, and public-safe example materials for stimulus preparation, protocol execution, acquisition support, physiological analysis, visualization, and offline interpretation.
+**Documented release:** Control Center Alpha 10.0.4  
+**PRAYCG development and adaptation:** Hoyt Banks
 
-PRAYCG should be read as an open research workbench, not as a finished neuroscience claim.
+PRAYCG Workbench helps an operator move from a study question to protocol selection, stimulus preparation, hardware configuration, synchronized recording, analysis and a research bundle. The Windows application is still named **PRAYCG Control Center** in Alpha 10.0.4. Workbench describes the wider software and workflow; it is not a second application to install.
 
----
+The workbench records selected protocols, materials, hardware profiles, analysis recipes and software identities so other people can inspect what was planned and what actually ran. It makes missing evidence, quality problems and analytical limitations visible. Successful execution does not make an experiment scientifically valid.
 
-## Current claim boundary
+## Workbench and research program
 
-PRAYCG does **not** prove:
+There are two related but distinct parts of PRAYCG.
 
-- consciousness,
-- the soul,
-- love as a number,
-- clinical efficacy,
-- diagnosis or treatment capability,
-- memory biology,
-- microtubules,
-- biophotons,
-- quantum biology,
-- or hidden biological variables from scalp EEG.
+| | PRAYCG Workbench | PRAYCG neuroscience research program |
+| --- | --- | --- |
+| Main purpose | Provide reusable tools for conducting, documenting and exchanging studies. | Investigate particular questions about narrative reception, task demands, sensory structure, psychophysiology and related exploratory constructs. |
+| Main products | Study workspaces, protocol and hardware records, recordings, analysis reports and verifiable bundles. | Hypotheses, experimental contrasts, operational definitions, datasets and scientific interpretations. |
+| Examples | Hardware Forge, Protocol Atlas, Analysis Forge, Live Monitor and Research Exchange. | PRAYCG3, PRAYCG4, Semantic Meaning Gradient and PRAYCG-specific exploratory measures. |
+| What counts as evidence | Software tests, provenance checks, numerical tests, apparatus checks and documented execution. | Appropriate study design, measurement validity, controls, uncertainty, replication and evidence against alternative explanations. |
+| What use implies | You selected a workflow or tool. | You may be testing a particular hypothesis; using the tool does not establish or endorse it. |
 
-The current permitted claim is narrower:
+You do not need to accept the Base Model or any PRAYCG-specific theoretical interpretation to use the workbench. A researcher can use suitable packaged tasks, inspect ordinary signal-quality results, or compare interpretations without adopting a PRAYCG construct. A protocol's presence in the Atlas means it has a packaged implementation and documented scope, not that its theory has been independently validated.
 
-> PRAYCG is an open, auditable naturalistic-stimulus protocol and analysis workbench for studying sensory entrainment, narrative reception, analytic task stance, artifact/confound structure, and delayed after-state dynamics.
+PRAYCG3, PRAYCG4 and SMG retain their own design limitations. For example, a fixed-order within-run contrast can combine condition effects with order, fatigue, habituation and carryover. A software gate cannot remove those confounds. Novel scores remain operational, exploratory quantities unless the relevant validation evidence supports a stronger claim.
 
-Pilot examples are useful for software testing, file-layout demonstration, and hypothesis generation. They are **not** confirmation-grade evidence.
+## Documentation
 
----
+- [Installation and detailed workflow](docs/INSTALLATION_AND_WORKFLOW.md) ([PDF](pdf/PRAYCG_Alpha_10_0_4_Installation_and_Workflow.pdf)): setup, acquisition, analysis, AI returns, recovery and bundling.
+- [Analysis module guide](docs/ANALYSIS_MODULE_GUIDE.md) ([PDF](pdf/PRAYCG_Alpha_10_0_4_Analysis_Module_Guide.pdf)): each registered module, its inputs, outputs and interpretation limits.
+- [Master changelog from 0.95a through Alpha 10.0.4](docs/MASTER_CHANGELOG.md) ([PDF](pdf/PRAYCG_Master_Changelog_0_95a_to_Alpha_10_0_4.pdf)): chronological release history and persistent limitations.
+- [AI authoring boundaries](docs/AI_AUTHORING_WORKFLOW_REVIEW.md): supported recipe changes, protocol review and the remaining extension-development work.
+- [Protocol credits](docs/PROTOCOL_CREDITS.md), [protocol citations](docs/PROTOCOL_CITATIONS.md) and [upstream attribution review](docs/UPSTREAM_ATTRIBUTION_REVIEW.md).
 
-## The basic research question
+Printable versions of the three main guides accompany this documentation pack. Their Markdown files are the editable, GitHub-ready sources. This documentation update does not change the Alpha 10.0.4 software archive.
 
-Everyone already knows stories can move people. PRAYCG is not trying to prove that a person can understand a movie.
+## What Alpha 10.0.4 provides
 
-The technical question is more specific:
+- A study workspace linking protocol choice, prepared materials, session identity, hardware, recordings and analysis history.
+- A Protocol Atlas with **57 main-browser modules**: 54 Atlas definitions and 3 native protocols. **10 additional prospective sequence variants** belong to a separate workflow. These are 67 packaged definitions, not 67 independently validated experiments.
+- Stimulus selection and preparation with file fingerprints and protocol-specific requirements.
+- Hardware profiles and LSL stream checks that distinguish configured equipment from observed evidence. Device descriptions and adapters have different maturity levels; the catalog is not universal plug-and-play certification.
+- A passive Live Monitor and synchronized offline XDF replay, with recorded auxiliary streams shown when supported and present.
+- An Analysis Forge with mandatory initial QC, **23 registered analysis entries**, dependency-aware plans, retained results and plain-language reports. Individual workers can still find an outcome not estimable.
+- Local Research Exchange bundles, verification, import, current-build reanalysis and a local DATA catalog prototype. The catalog is not an automatically published public repository.
+- AI-assisted design packs and bounded recipe proposals that the operator reviews locally.
 
-> When a story is accessible and allowed to matter, does the body-brain system show a measurable state trajectory that differs from a meaning-damaged sensory control and from the same intact story watched under analytic task load?
+## Install the packaged Windows release
 
-Naturalistic video is complicated. A film contains light, sound, motion, cuts, faces, speech rhythm, music, semantic content, memory, expectation, task demand, emotion, and many opportunities for artifact. PRAYCG tries to separate these layers instead of treating “watched a movie” as one undifferentiated event.
+1. Obtain the complete `PRAYCG_ControlCenter_v1_0_0_alpha_10_0_4.zip` release archive. A GitHub source snapshot is not necessarily the packaged Windows distribution.
+2. Stop recordings normally, close older Control Centers and back up studies separately.
+3. Extract into a new writable local folder. Keep `app/` beside the top-level launchers. Do not merge it over an old release or run inside the ZIP.
+4. Install native Windows **Python 3.11 with Tcl/Tk**. Run `INSTALL.bat` and check both Core and Live Monitor component results.
+5. Run `START_PRAYCG.bat`. Verify external PsychoPy, LabRecorder and device/bridge settings before acquisition.
 
----
+The archive does not include Python, all dependency wheels, PsychoPy or LabRecorder. Installation normally needs internet access. Core uses the selected Python 3.11 interpreter and may update its packages; Live Monitor uses a separate environment. See the detailed guide for minimal installation, repair and upgrade procedures.
 
-## Core protocol logic
+## Typical study workflow
 
-PRAYCG compares controlled media-viewing branches.
+Create or open a workspace → choose a protocol → prepare and fingerprint its materials → select and check equipment → review pre-start settings → confirm, lock and arm → record and run → stop and save → run required QC → select and run analysis → review individual reports → verify and package the study.
 
-### Phase-scrambled Control
+Bench Test Mode is for **no-participant** demonstrations and software/equipment checks. It does not certify hardware or turn missing data into valid measurements. Shortening a protocol and selecting bench mode are separate actions. Set permitted timing changes before session confirmation and preserve the reason for the variant.
 
-A version of the source video where recognizable narrative content is damaged while some low-level audiovisual timing remains.
+For existing data, start with the correct recorded run folder and XDF. Do not use today's hardware selection as a substitute for the recording's saved metadata. A noisy recording can support some descriptive analyses while being inadequate for others. `NOT_ESTIMABLE` means an estimate is unsupported or unavailable; it is not zero and is not automatically a software crash.
 
-This branch asks:
+## AI assisted authoring
 
-> Is the response explainable by light, sound, motion, cuts, rhythm, cue timing, or audiovisual energy?
+### Protocol proposals
 
-The Control is **not** assumed to be physiologically meaningless. It can still create visual entrainment, auditory tracking, confusion, boredom, scanning, low-level affect, and artifact. That is why it is useful.
+Use **Create New Protocol with AI Docs…** to produce a local request pack, inspect `UPLOAD_PROTOCOL_AI_DOCS.zip`, and share only approved context with your chosen AI agent. Ask for the specified declarative JSON return, then use **Review AI Protocol Return…** to check and stage it.
 
-### Target
+**Alpha 10.0.4 does not install a reviewed candidate as a new runnable protocol.** Developer integration must still register and test the protocol, stimulus, pre-start configuration, runner and analysis relationships. A timeline preview is not a participant test, and AI-generated approval is not authorization.
 
-The intact narrative watched naturally.
+### EEG recipe proposals
 
-This branch asks:
+Use **Create / Revise Recipe → Export AI Recipe Request…**. After the AI returns the specified proposal JSON, select **Review AI Recipe Proposal…**, inspect the differences, choose **Load reviewed proposal into form**, then **Validate Draft** and **Lock Recipe**. Review the resulting analysis-plan revision before running it.
 
-> What happens when the story is accessible and the participant is allowed to receive it?
+Recipe proposals change supported settings of existing methods. They cannot add a new estimator, arbitrary preprocessing operation or executable analysis module. Existing model matrices and unexposed settings must be preserved unless explicitly revised. A stale parent, malformed return or unsupported label must be resolved rather than forced through.
 
-### Contextual Override
+### AI assistance is not scientific approval
 
-The same intact cue-embedded video watched under an analytic task, usually a running-sum number-cue task.
+An external model can help articulate a hypothesis, identify missing controls, draft compatible parameters and propose tests. The operator remains responsible for checking sources, methods, consent, privacy and the output's meaning. Record the provider/model and relevant prompts as provenance where appropriate. Model branding is not an approval tier.
 
-This branch asks:
+PRAYCG does not automatically upload recordings or connect to a cloud model through these workflows. Private full-data bundles can contain sensitive recordings, event logs, responses, stimuli and identifying context. Review the exact contents and the receiving service's applicable policies before sharing. A private bundle is not an anonymized or public-safe bundle.
 
-> What changes when the same stimulus is processed under extraction/task stance rather than natural reception?
+## Reports and research exchange
 
-The important rule is that **Target and Override should use the same cue-embedded stimulus**. The video should stay the same; the participant instructions change.
+Keep raw recordings, acquisition evidence, analysis derivatives, recipes, results and interpretations distinguishable. Preserve missing outcomes and quality cautions in the report. An offline interpreter explains available outputs; it does not supply missing observations or prove a mechanism.
 
----
+Bundles help another person verify file integrity and inspect study lineage. Reanalysis under a different build is distinct from exact replay. Matching selected values is not proof of complete numerical equivalence, scientific replication or successful execution on a second machine.
 
-## Current public software release
+The longer-term goal is an open, local-first neuroscience ecosystem in which studies can be audited, reproduced, extended and rerun by laboratories, companies and independent researchers. Public DATA exchange, broader device support and reviewed installation of new AI-assisted extensions remain development work, not blanket present-day guarantees.
 
-Current package:
+## Validation and limits
 
-**PRAYCG Control Center v0.95 Public**
+Alpha 10.0.4 passed 58 declared software suites, reporting 1,710 tests or dry-run checks. Its release evidence includes 15 seeded synthetic signal cases, same-machine historical PRAYCG3 reanalysis and extracted-archive checks. The historical run produced 13 completed module outcomes and two `NOT_ESTIMABLE` outcomes; that distinction was retained.
 
-The Control Center is a Windows dashboard for organizing, launching, monitoring, and reviewing the PRAYCG workflow. It is an orchestrator, not a replacement for PsychoPy, LabRecorder, OpenBCI, BrainFlow, or the individual analysis tools.
+These checks did not validate every physical device, participant protocol, display/audio timing path, fresh online installation or second-machine execution. Protocol software coverage includes compilation, binding and bounded simulated behavior; core and prospective definitions do not all receive full runner execution. Local AI-return fixtures do not establish the reliability of an external AI service.
 
-Major current components include:
+This is research software, not a clinical diagnostic system, a consciousness detector, a spiritual ranking tool or evidence for a proposed biological mechanism by itself. Human studies need appropriate consent, risk review and applicable oversight. Self-experimentation does not remove electrical, privacy, stimulus or interpretation risks.
 
-- MediaPrep / StimulusFingerprint v1.9 with ShotOrderScramble support,
-- PRAYCG protocol library,
-- Master Comprehensive Analysis Suite v1.6.1,
-- MasterSync Visualizer v1.4.0,
-- Offline Interpreter v1.6.0,
-- CAI/SID v0.2 exploratory module,
-- Continuous Autonomic / RespDualPath tools,
-- Micro Handoff v0.1 exploratory raw-EEG module,
-- BrainFlow EEG-only bridge,
-- BrainFlow EEG + ALS/PT19 bridge,
-- Polar H10 RR-to-LSL bridge,
-- Vernier respiration belt-to-LSL bridge,
-- ALS/PT19 holder calibration and timing tools,
-- optional acquisition preflight and signal-quality checks.
+## Attribution and contribution
 
----
+Hoyt Banks is credited for PRAYCG development and adaptation separately from original study, dataset, stimulus and software authors. All 67 protocol definitions carry structured attribution metadata. Citations do not imply endorsement, permission to redistribute materials or scientific validation. Original third-party license obligations remain applicable, and the bounded attribution review is not complete license clearance.
 
-## Protocol modules
+For a useful bug report, include the release, relevant protocol/module ID, reproduction steps, sanitized error text and the affected workflow stage. Do not post private XDFs, participant identifiers, access tokens or unrestricted full-data bundles in public issues.
 
-### PRAYCG3
-
-PRAYCG3 is the standard three-branch protocol:
-
-```text
-Baseline 1
-→ Phase-scrambled Control
-→ washout / report
-→ Target
-→ washout / report
-→ Contextual Override
-→ washout / report
-→ Baseline 2 / final reflection
-→ final report
-```
-
-PRAYCG3 is the continuity path from the earlier PRAYCG2 workflow, with cleaner packaging, provenance, readiness checks, and public naming.
-
-### PRAYCG4
-
-PRAYCG4 adds a fourth branch:
-
-```text
-Baseline 1
-→ Phase-scrambled Control
-→ washout / report
-→ ShotOrderScramble
-→ washout / report
-→ Target
-→ washout / report
-→ Contextual Override
-→ washout / report
-→ Baseline 2 / final reflection
-→ final report
-```
-
-The purpose of ShotOrderScramble is to create a structural middle control. Phase scrambling damages narrative order, but it also damages faces, bodies, objects, scene structure, speech, and biological motion. ShotOrderScramble preserves local shots more strongly while disrupting their larger order.
-
-A future strong PRAYCG4 pattern would be:
-
-```text
-Target differs from PhaseScrambled,
-Target differs from ShotOrderScrambled,
-Target differs from Override,
-and the result survives timing, artifact, respiration, task, order, and self-report checks.
-```
-
-ShotOrderScramble is not a perfect meaning-null condition. It can introduce abrupt cuts, unusual rhythm, novelty, confusion, or familiarity effects. Its purpose is to make interpretation harder to fool, not to guarantee causal proof.
-
-### SMG — Semantic Meaning Gradient
-
-SMG is a separate protocol concept for comparing coherent stimuli with different intended meaning density.
-
-The intended structure is:
-
-```text
-low-meaning coherent stimulus
-→ high-meaning target stimulus
-→ analytic / arithmetic override
-```
-
-The low-meaning stimulus should not simply be random noise. Randomness can create novelty, threat, puzzle demand, or prediction error. A proper low-meaning stimulus should be coherent but semantically and emotionally light.
-
-Legally shareable demo media and templates may be added separately when available.
-
----
-
-## Recommended analysis hierarchy
-
-PRAYCG should not be interpreted from one number or one graph. The analysis is organized as a gated hierarchy.
-
-### Primary path
-
-Use this path first:
-
-```text
-Timing / file provenance / stream QC
-+ StimulusFingerprint / CET-R
-+ artifact and confound review
-→ A-MRED / MRED-Peak / MRED-Resolution
-```
-
-This is the main endpoint path. A result should not advance if timing, file identity, stream quality, anchor timing, artifact review, or branch provenance fails.
-
-### Confound-defense and context modules
-
-These modules challenge the interpretation before it becomes a claim:
-
-- **HOC-R:** high-order control review, including faces, bodies, objects, local shot structure, and ShotOrderScramble support.
-- **OSA:** override spatial-attention review, including cue burden, gaze/AOI concerns, cue legibility, and squint risk.
-- **OHC:** order, habituation, fatigue, and carryover review.
-- **AAM:** afterglow attribution, especially Target after-state versus task-completion relief.
-- **RespDualPath:** respiration as both possible physiology and possible artifact/confound.
-- **DGA:** decoder-gate availability, including semantic access, familiarity, confounds, task burden, and subjective availability.
-- **CET-R:** stimulus-feature residualization for luminance, audio envelope, cut rate, motion, cues, and other exogenous media properties.
-
-These modules do not automatically “correct” the data. They identify plausible alternative explanations.
-
-### Secondary and exploratory interpretation
-
-Use these after the primary path and confound review:
-
-- **CAA:** Continuous Autonomic Arrays.
-- **CAI/SID:** Controlled Access-Integration / State Integration Density.
-- **NUPI:** Narrative Update Polarity Index.
-- **TTI:** task-theft / task-interference interpretation.
-- **NIP / BIT / CII / IAQ:** narrative immersion and attenuation proxies.
-- **EET:** Endogenous Echo Tracking.
-- **NAST:** Narrative Absorption State Transition.
-- **OCM / RSM / CVB / SquintProxy:** cue-task, running-sum, cognitive-visual burden, and artifact context.
-
-These outputs are useful, but they do not override the primary QC path.
-
-### Isolated exploratory raw-EEG module
-
-**Micro Handoff v0.1** is intentionally isolated from the primary chain.
-
-It asks a narrow timing question:
-
-> Is a brief rise in temporal gamma-like activity followed shortly afterward by a rise in theta/integration-like activity?
-
-Micro Handoff is not a consciousness detector, not evidence for 40 Hz conscious frames, and not a “consciousness RPM” gauge.
-
-Its current status is:
-
-```text
-software-valid,
-construct-unvalidated,
-retrospectively mixed.
-```
-
-Synthetic tests show the code behaves as intended on artificial data. That does not validate the biological interpretation.
-
----
-
-## Continuous physiology
-
-PRAYCG v0.95 adds stronger continuous physiology support.
-
-### CAA — Continuous Autonomic Arrays
-
-CAA converts heart, HRV, and respiration into time-resolved traces rather than only branch averages.
-
-It asks questions like:
-
-- When did heart rate change?
-- Did HRV rise before, during, or after a scene?
-- Was the HRV window long enough to trust?
-- Did a sigh or breath hold drive the result?
-- Did respiration explain the heart-rate pattern?
-- Did the final baseline resemble Target afterglow, task relief, fatigue, or a mixed state?
-
-This is important because respiration can be both a meaningful physiological event and a source of artifact. A breath shift may be part of the response, but it may also contaminate EEG or HRV interpretation.
-
-### CAI/SID — Controlled Access-Integration / State Integration Density
-
-CAI/SID is an exploratory state-density layer.
-
-It estimates whether a time window shows coordinated fast access-like activity, slower integration-like activity, acceptable artifact burden, acceptable task/confound burden, and enough data quality to interpret the window.
-
-It is not a probability, not a validated consciousness measurement, and not proof of narrative reception. Missing or bad data remains missing; it is not treated as favorable evidence.
-
-For public use, **Controlled Access-Integration** is the preferred expansion of CAI. The stronger phrase “Conscious Access” should be avoided unless the non-claim boundary is stated explicitly.
-
----
-
-## Acquisition and timing stack
-
-The current workflow can include:
-
-- OpenBCI Cyton + Daisy EEG,
-- BrainFlow-to-LSL EEG bridge,
-- optional ALS/PT19 analog light-sensor timing bridge,
-- Polar H10 RR-interval-to-LSL bridge,
-- Vernier Go Direct Respiration Belt-to-LSL bridge,
-- PsychoPy protocol runner,
-- LabRecorder XDF recording,
-- PRAYCG Control Center launch/monitoring layer.
-
-### ALS/PT19 timing
-
-The ALS/PT19 layer is a physical display-timing check. It helps verify when light appeared on the screen.
-
-It does **not** validate meaning, EEG quality, consciousness, or hidden biology.
-
-A valid ALS workflow requires:
-
-- sensor aligned to the displayed barcode/pulse region,
-- opaque shrouding from room light,
-- visible non-clipped pulse in the recorded stream,
-- branch-level timing documentation,
-- and post-run barcode/timing review.
-
-### Polar H10
-
-The included Polar bridge is used for RR intervals. It should be treated as beat-interval telemetry for HR/HRV analysis, not as a full clinical ECG waveform.
-
-### Vernier respiration belt
-
-The Vernier bridge is intended to preserve raw respiration movement so inhale/exhale phase can be reconstructed offline and aligned with EEG, HR/HRV, and event markers.
-
----
-
-## What is included
-
-The public package is organized around the Control Center and its bundled tools.
-
-```text
-control_center/
-  Control Center dashboard, active context, launchers, process manager,
-  LSL checks, ALS tests, signal-quality tools, acquisition preflight.
-
-tools/MediaPrep_StimulusFingerprint_v1_9_SHOTORDER/
-  Media preparation, cue generation, phase-scrambled control,
-  ShotOrderScramble structural control, stimulus QC support.
-
-tools/ProtocolRunner_ModuleLibrary_v1_0/
-  PRAYCG3, PRAYCG4, and SMG protocol modules and runner templates.
-
-tools/MasterComprehensiveSuite_v1_6_1_CURRENT/
-  Core analysis chain, MRED/A-MRED, DGA, NUPI, TTI, HOC-R,
-  OSA/OHC/AAM/RespDualPath, barcode detector, visualizer support,
-  offline interpretation support, and chain manifests.
-
-tools/CAI_SID_Exploratory_v0_2/
-  Controlled Access-Integration / State Integration Density exploratory module,
-  readiness preflight, frozen candidate config, and documentation.
-
-tools/Continuous_Autonomic_RespDualPath_v1_0/
-  Continuous HR/HRV/respiration arrays, respiratory event flags,
-  HR-respiration coupling, autonomic QC, and synthetic examples.
-
-tools/Micro_Handoff_v0_1/
-  Isolated exploratory raw-EEG temporal-gamma/theta handoff module,
-  frozen configuration, tests, synthetic validation, and docs.
-
-tools/Offline_Master_Interpreter_v1_6_0/
-  Offline rule-based report generator.
-
-tools/Acquisition/
-  BrainFlow EEG-only bridge, BrainFlow EEG+ALS bridge,
-  Polar H10 bridge, Vernier respiration bridge, and diagnostics.
-
-hardware/ALS_PT19_Holder/
-  ALS/PT19 holder design files and placement notes.
-
-validation/
-  Build validation and public package checks.
-```
-
-Public packages should exclude:
-
-```text
-raw private biosignals,
-copyrighted stimulus videos,
-unredacted self-report,
-local machine settings,
-private source PDFs,
-credentials,
-API tokens,
-and historical result tables that are not public-safe.
-```
-
----
-
-## Contact pilot / historical examples
-
-Where included, the Contact pilot should be treated as:
-
-```text
-gold-plated, but not gold-record.
-```
-
-That means it may be useful for showing file layout, output structure, analysis vocabulary, and workflow logic. It is not presented as confirmatory evidence.
-
-Historical self-runs are methods-development cases. They should not be used to claim population-level effects.
-
----
-
-## Installation quick start
-
-For the current Windows release:
-
-1. Download the latest PRAYCG Control Center release ZIP.
-2. Extract the ZIP to a short path, for example:
-
-```text
-C:\PRAYCG_CC_v095\
-```
-
-3. Install Python 3.11 if needed.
-4. Run:
-
-```text
-INSTALL_PRAYCG_REQUIREMENTS_v0_95.bat
-```
-
-5. Run:
-
-```text
-run_PRAYCG_ControlCenter_v0_95.bat
-```
-
-6. In the Control Center:
-
-```text
-Settings → Use Bundled Paths
-Settings → Use Current Python
-Settings → Save Settings
-```
-
-7. Locate external tools such as PsychoPy and LabRecorder if they are not auto-detected.
-
-PsychoPy and LabRecorder are external applications and are not bundled inside the PRAYCG ZIP.
-
----
-
-## Recommended workflow
-
-1. Select a legally usable stimulus.
-2. Add it to the PRAYCG stimulus library.
-3. Run MediaPrep.
-4. Review Target, Override, Control, cue schedule, and QC outputs.
-5. Manually QC phase-scrambled Control audio.
-6. Optionally generate ShotOrderScramble for PRAYCG4 or structural-control studies.
-7. Prepare hardware and acquisition streams.
-8. Run ALS/PT19 holder calibration and timing preflight if using ALS.
-9. Start EEG, Polar H10, Vernier respiration, and marker streams.
-10. Open LabRecorder and confirm streams.
-11. Run the selected PsychoPy protocol module.
-12. Save all run logs, event files, XDF, self-reports, and manifests.
-13. Run the Master Comprehensive Analysis Suite.
-14. Review primary QC and MRED/A-MRED outputs first.
-15. Review confound-defense modules next.
-16. Review CAA, CAI/SID, Micro Handoff, and other exploratory outputs last.
-17. Generate visualizer and offline interpreter reports.
-18. Label the result honestly: valid, cautioned, pilot-only, failed-QC, exploratory, or candidate for prospective replication.
-
----
-
-## Public interpretation rules
-
-Use cautious language:
-
-```text
-Supported:
-  “This run produced a Target-dominant exploratory pattern after QC.”
-  “This branch showed a stronger after-state candidate than the control.”
-  “This result is confounded by respiration / task load / timing / audio access.”
-  “This module is software-valid but construct-unvalidated.”
-
-Avoid:
-  “This proves consciousness.”
-  “This proves meaning was measured directly.”
-  “This proves memory formation.”
-  “This proves quantum biology.”
-  “This proves love as a number.”
-```
-
-Self-report is an independent evidence stream. It can constrain or contextualize physiology, but it does not prove internal state by itself. Physiology does not replace first-person experience.
-
----
-
-## Current development priorities
-
-Near-term priorities:
-
-- simplify installation for outside users,
-- improve documentation for non-experts,
-- strengthen EOG/EMG artifact controls,
-- improve gaze / AOI measurement for Override and cue burden,
-- improve ALS/PT19 timing validation on multiple machines,
-- prospectively test PRAYCG3 and PRAYCG4 sequence variants,
-- use counterbalanced designs rather than only fixed order,
-- keep exploratory modules isolated until they pass prospective reliability and validity tests.
-
-Long-term goal:
-
-> Build an open, reproducible, artifact-aware naturalistic EEG/autonomic workbench that makes claims about narrative physiology harder to fool.
-
----
-
-## Citation
-
-See `CITATION.cff`.
-
-If you reuse synthetic demo materials from this repository, cite this repository. If you generate or use third-party Creative Commons media through included recipes, follow the original creator’s license and attribution requirements.
-
----
-
-## Contact
-
-Author: Hoyt Banks  
-GitHub: <https://github.com/hbanks87/praycg-open>  
-OSF: <https://osf.io/8n75v/overview?view_only=928f1fa1974b40e89252101d0ba356d3>
-
----
-
-## Release alignment
-
-This README is aligned with:
-
-```text
-PRAYCG Control Center v0.95 Public
-Release date: 2026-09-01
-```
+For a proposed protocol or analysis contribution, supply the question, operational definitions, inputs and units, sources and rights, expected outputs, known limitations, and reproducible tests. Numerical methods need known-answer and missing/degenerate-input checks, not only a successful process exit. Keep generated code outside a live participant session until it has completed the separate review and integration process.
