@@ -21,7 +21,7 @@ There are two related but distinct parts of PRAYCG.
 | What counts as evidence | Software tests, provenance checks, numerical tests, apparatus checks and documented execution. | Appropriate study design, measurement validity, controls, uncertainty, replication and evidence against alternative explanations. |
 | What use implies | You selected a workflow or tool. | You may be testing a particular hypothesis; using the tool does not establish or endorse it. |
 
-You do not need to accept the Base Model or any PRAYCG-specific theoretical interpretation to use the workbench. A researcher can use suitable packaged tasks, inspect ordinary signal-quality results, or compare interpretations without adopting a PRAYCG construct. A protocol's presence in the Atlas means it has a packaged implementation and documented scope, not that its theory has been independently validated.
+You do not need to accept the any PRAYCG-specific theoretical interpretation to use the workbench. A researcher can use suitable packaged tasks, inspect ordinary signal-quality results, or compare interpretations without adopting a PRAYCG construct. A protocol's presence in the Atlas means it has a packaged implementation and documented scope, not that its theory has been independently validated.
 
 PRAYCG3, PRAYCG4 and SMG retain their own design limitations. For example, a fixed-order within-run contrast can combine condition effects with order, fatigue, habituation and carryover. A software gate cannot remove those confounds. Novel scores remain operational, exploratory quantities unless the relevant validation evidence supports a stronger claim.
 
