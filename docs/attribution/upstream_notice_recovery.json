@@ -1,0 +1,150 @@
+[
+  {
+    "name": "mne",
+    "version": "1.11.0",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/9b/4f/ed4c27b6179665235a7ce3a738b24a05cafe9fa67f728994361598b27c2f/mne-1.11.0.tar.gz",
+    "artifact_sha256": "0a89b8fc44133b81218a35cdcba74ad0f8ae2e265136249b365b9ce04864c688",
+    "filename": "mne-1.11.0.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "pylsl",
+    "version": "1.17.6",
+    "notices": [
+      {
+        "source_member": "pylsl-1.17.6/LICENSE",
+        "path": "THIRD_PARTY_NOTICES/upstream-recovery/pylsl-1.17.6/000-LICENSE",
+        "sha256": "472f0214ae095e9e1a3dd0121bd1d3aa9f470dcc343574d9086c4e20faa8db24"
+      }
+    ],
+    "url": "https://files.pythonhosted.org/packages/3f/fd/2cb39e07d09f3aa40bc39d880adcc8bfa08fc9b8de993340e6a7555899f8/pylsl-1.17.6.tar.gz",
+    "artifact_sha256": "8f3cea0c54a27785a43a27e9524f1dee885fe149f4703eed060168923b1695a3",
+    "filename": "pylsl-1.17.6.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "RECOVERED"
+  },
+  {
+    "name": "pylsl",
+    "version": "1.18.2",
+    "notices": [
+      {
+        "source_member": "pylsl-1.18.2/LICENSE",
+        "path": "THIRD_PARTY_NOTICES/upstream-recovery/pylsl-1.18.2/000-LICENSE",
+        "sha256": "472f0214ae095e9e1a3dd0121bd1d3aa9f470dcc343574d9086c4e20faa8db24"
+      }
+    ],
+    "url": "https://files.pythonhosted.org/packages/a9/22/f7f331841138351653388797c8b786f7d50dbfb96ab7d5c3faf8b79ea1b6/pylsl-1.18.2.tar.gz",
+    "artifact_sha256": "e0f591bc9722d976c3cd3721c958ef3d9fc2b2bbe32e9218609a6f6070349a88",
+    "filename": "pylsl-1.18.2.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "RECOVERED"
+  },
+  {
+    "name": "pyserial",
+    "version": "3.5",
+    "notices": [
+      {
+        "source_member": "pyserial-3.5/LICENSE.txt",
+        "path": "THIRD_PARTY_NOTICES/upstream-recovery/pyserial-3.5/000-LICENSE.txt",
+        "sha256": "f91cb9813de6a5b142b8f7f2dede630b5134160aedaeaf55f4d6a7e2593ca3f3"
+      }
+    ],
+    "url": "https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz",
+    "artifact_sha256": "3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb",
+    "filename": "pyserial-3.5.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "RECOVERED"
+  },
+  {
+    "name": "winrt-Windows.Devices.Bluetooth",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/b2/a0/1c8a0c469abba7112265c6cb52f0090d08a67c103639aee71fc690e614b8/winrt_windows_devices_bluetooth-3.2.1.tar.gz",
+    "artifact_sha256": "db496d2d92742006d5a052468fc355bf7bb49e795341d695c374746113d74505",
+    "filename": "winrt_windows_devices_bluetooth-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Devices.Bluetooth.Advertisement",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/06/fc/7ffe66ca4109b9e994b27c00f3d2d506e6e549e268791f755287ad9106d8/winrt_windows_devices_bluetooth_advertisement-3.2.1.tar.gz",
+    "artifact_sha256": "0223852a7b7fa5c8dea3c6a93473bd783df4439b1ed938d9871f947933e574cc",
+    "filename": "winrt_windows_devices_bluetooth_advertisement-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Devices.Bluetooth.GenericAttributeProfile",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/44/21/aeeddc0eccdfbd25e543360b5cc093233e2eab3cdfb53ad3cabae1b5d04d/winrt_windows_devices_bluetooth_genericattributeprofile-3.2.1.tar.gz",
+    "artifact_sha256": "cdf6ddc375e9150d040aca67f5a17c41ceaf13a63f3668f96608bc1d045dde71",
+    "filename": "winrt_windows_devices_bluetooth_genericattributeprofile-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Devices.Enumeration",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/9e/dd/75835bfbd063dffa152109727dedbd80f6e92ea284855f7855d48cdf31c9/winrt_windows_devices_enumeration-3.2.1.tar.gz",
+    "artifact_sha256": "df316899e39bfc0ffc1f3cb0f5ee54d04e1d167fbbcc1484d2d5121449a935cf",
+    "filename": "winrt_windows_devices_enumeration-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Devices.Radios",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/5e/02/9704ea359ad8b0d6faa1011f98fb477e8fb6eac5201f39d19e73c2407e7b/winrt_windows_devices_radios-3.2.1.tar.gz",
+    "artifact_sha256": "4dc9b9d1501846049eb79428d64ec698d6476c27a357999b78a8331072e18a0b",
+    "filename": "winrt_windows_devices_radios-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Foundation",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/0c/55/098ce7ea0679efcc1298b269c48768f010b6c68f90c588f654ec874c8a74/winrt_windows_foundation-3.2.1.tar.gz",
+    "artifact_sha256": "ad2f1fcaa6c34672df45527d7c533731fdf65b67c4638c2b4aca949f6eec0656",
+    "filename": "winrt_windows_foundation-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Foundation.Collections",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/ef/62/d21e3f1eeb8d47077887bbf0c3882c49277a84d8f98f7c12bda64d498a07/winrt_windows_foundation_collections-3.2.1.tar.gz",
+    "artifact_sha256": "0eff1ad0d8d763ad17e9e7bbd0c26a62b27215016393c05b09b046d6503ae6d5",
+    "filename": "winrt_windows_foundation_collections-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-Windows.Storage.Streams",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/00/50/f4488b07281566e3850fcae1021f0285c9653992f60a915e15567047db63/winrt_windows_storage_streams-3.2.1.tar.gz",
+    "artifact_sha256": "476f522722751eb0b571bc7802d85a82a3cae8b1cce66061e6e758f525e7b80f",
+    "filename": "winrt_windows_storage_streams-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  },
+  {
+    "name": "winrt-runtime",
+    "version": "3.2.1",
+    "notices": [],
+    "url": "https://files.pythonhosted.org/packages/16/dd/acdd527c1d890c8f852cc2af644aa6c160974e66631289420aa871b05e65/winrt_runtime-3.2.1.tar.gz",
+    "artifact_sha256": "c8dca19e12b234ae6c3dadf1a4d0761b51e708457492c13beb666556958801ea",
+    "filename": "winrt_runtime-3.2.1.tar.gz",
+    "scope": "EXACT_VERSION_UPSTREAM_ARTIFACT_NOT_PROVEN_INSTALLED_WHEEL",
+    "status": "NO_NOTICE_FOUND"
+  }
+]

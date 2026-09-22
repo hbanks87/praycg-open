@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "raphaelvallat/antropy",
+    "requested_ref": "master",
+    "source": "src/antropy/entropy.py",
+    "upstream_function": "_lz_complexity",
+    "local_file": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+    "local_function": "_lz76_complexity",
+    "commit": "dfbe688744021eb79c4745ceb02a1efc7cd3fbd8",
+    "source_url": "https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py",
+    "upstream_file_sha256": "414e8de360d5cfbac43e5d58f3466032031bc9edcb417a14fa138ff2e8e47ae5",
+    "local_file_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+    "normalized_function_similarity": 0.38421733505821476,
+    "exact_normalized_match": false,
+    "status": "COMPARED_NOT_CLEARANCE",
+    "conclusion": "Algorithmic similarity cannot establish copying or independent authorship. Historical source is unavailable; no origin commit is asserted.",
+    "retained_notice": "THIRD_PARTY_NOTICES/provenance-candidates/raphaelvallat-antropy-dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/LICENSE",
+    "notice_sha256": "e77f97cfd2a40e4c2e02742dfedd7957c7ed397664e93c0a7bbbaf0bb6c82caf"
+  },
+  {
+    "repository": "raphaelvallat/antropy",
+    "requested_ref": "master",
+    "source": "src/antropy/entropy.py",
+    "upstream_function": "perm_entropy",
+    "local_file": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+    "local_function": "_permutation_entropy",
+    "commit": "dfbe688744021eb79c4745ceb02a1efc7cd3fbd8",
+    "source_url": "https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py",
+    "upstream_file_sha256": "414e8de360d5cfbac43e5d58f3466032031bc9edcb417a14fa138ff2e8e47ae5",
+    "local_file_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+    "normalized_function_similarity": 0.30486486486486486,
+    "exact_normalized_match": false,
+    "status": "COMPARED_NOT_CLEARANCE",
+    "conclusion": "Algorithmic similarity cannot establish copying or independent authorship. Historical source is unavailable; no origin commit is asserted.",
+    "retained_notice": "THIRD_PARTY_NOTICES/provenance-candidates/raphaelvallat-antropy-dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/LICENSE",
+    "notice_sha256": "e77f97cfd2a40e4c2e02742dfedd7957c7ed397664e93c0a7bbbaf0bb6c82caf"
+  }
+]

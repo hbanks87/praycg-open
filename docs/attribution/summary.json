@@ -1,0 +1,15 @@
+{
+  "archive_files": 747,
+  "archive_binary_or_nested_artifacts": [],
+  "archive_notice_files": [
+    "PRAYCG_ControlCenter_v1_0_0_alpha_10_2_1/app/LICENSE.md",
+    "PRAYCG_ControlCenter_v1_0_0_alpha_10_2_1/app/tools/Offline_Master_Interpreter_v1_6_0/LICENSE",
+    "PRAYCG_ControlCenter_v1_0_0_alpha_10_2_1/LICENSE.md"
+  ],
+  "installed_distributions": 121,
+  "collected_notices": 217,
+  "native_files": 841,
+  "source_files": 420,
+  "provenance_markers": 38,
+  "exact_matches": []
+}

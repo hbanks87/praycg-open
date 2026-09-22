@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "mne-tools/mne-python",
+    "release_tag": "v1.11.0",
+    "notices": [
+      {
+        "url": "https://raw.githubusercontent.com/mne-tools/mne-python/6f6802c54b85c38effb0b3cca7f3f96ea4a1e109/LICENSE.txt",
+        "path": "THIRD_PARTY_NOTICES/release-sources/mne-tools-mne-python-6f6802c54b85c38effb0b3cca7f3f96ea4a1e109/LICENSE.txt",
+        "sha256": "191bbf7e2ad3a32dbbbbbdf005edc18f983b4ffc7d2596b5bc3ac466fc8ffdfe"
+      }
+    ],
+    "scope": "RELEASE_TAG_SOURCE_NOTICE_NOT_BINARY_TRANSITIVE_CLEARANCE",
+    "commit": "6f6802c54b85c38effb0b3cca7f3f96ea4a1e109",
+    "status": "RECOVERED"
+  },
+  {
+    "repository": "pywinrt/pywinrt",
+    "release_tag": "v3.2.1",
+    "notices": [
+      {
+        "url": "https://raw.githubusercontent.com/pywinrt/pywinrt/21cbd0fd7ff91422ed76b4e3611d3fb52716e017/LICENSE",
+        "path": "THIRD_PARTY_NOTICES/release-sources/pywinrt-pywinrt-21cbd0fd7ff91422ed76b4e3611d3fb52716e017/LICENSE",
+        "sha256": "6e898069e8b3c6d8d23dc70ac7067cc2b7c9db14c36df873026758db82c0891d"
+      }
+    ],
+    "scope": "RELEASE_TAG_SOURCE_NOTICE_NOT_BINARY_TRANSITIVE_CLEARANCE",
+    "commit": "21cbd0fd7ff91422ed76b4e3611d3fb52716e017",
+    "status": "RECOVERED"
+  }
+]

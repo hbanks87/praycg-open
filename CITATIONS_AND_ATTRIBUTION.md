@@ -1,12 +1,14 @@
 # PRAYCG — Master Citations and Attribution
 
 **PRAYCG Workbench / Control Center Alpha 10.2.1**  
-**Document revision:** 1.0 · **Updated:** 22 September 2026  
+**Document revision:** 2.0 · **Updated:** 22 September 2026  
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
 PRAYCG brings together original project software, scientific methods, public research paradigms and independently maintained software. This page credits those contributions and gives researchers a single reference for citing the parts of PRAYCG they use.
 
 This is the canonical public attribution page for Alpha 10.2.1. It consolidates software acknowledgments, acquisition references, protocol citations, the complete packaged-protocol index and the project's attribution policy. Source author lists and historical protocol identities are retained. A project's appearance here does not imply its authors' affiliation with, endorsement of, or review of PRAYCG.
+
+Revision 2 adds an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. The accompanying **Attribution Update v1** implements new-run credits in the development source. It is a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged.
 
 ## Contents
 
@@ -16,6 +18,8 @@ This is the canonical public attribution page for Alpha 10.2.1. It consolidates 
 - [Declared installation dependencies](#declared-installation-dependencies)
 - [Hardware and acquisition credits](#hardware-and-acquisition-credits)
 - [Analysis methods and citation coverage](#analysis-methods-and-citation-coverage)
+- [Artifact inventory and preserved notices](#artifact-inventory-and-preserved-notices)
+- [Automatic Methods and Credits](#automatic-methods-and-credits)
 - [Scientific protocol bibliography](#scientific-protocol-bibliography)
 - [Complete protocol-to-source index](#complete-protocol-to-source-index)
 - [Data, stimuli and media credits](#data-stimuli-and-media-credits)
@@ -45,6 +49,8 @@ Hoyt Banks is credited for PRAYCG development and protocol adaptation. Original 
 The project mixed-license notice assigns MIT terms to original PRAYCG-owned code unless a file states otherwise, CC BY 4.0 to project documentation/templates/non-personal example metadata unless otherwise specified, and CC0 1.0 to the designated synthetic demo media. The root `LICENSE.md` and artifact-specific notices govern those grants. They do not relicense upstream components.
 
 Software notices and scholarly references serve different purposes. Preserve applicable copyright statements, license texts, NOTICE files and modification notices for copied, adapted or redistributed third-party material. An MIT or BSD project citation does not replace notice retention. BSD-3-Clause also contains an endorsement restriction. Apply the exact terms of each artifact and version; this page is not a substitute for the required texts.
+
+The companion [Third-party Notices index](THIRD_PARTY_NOTICES/README.md) links exact retained texts and their provenance. The [MIT](https://opensource.org/license/mit) and [BSD-3-Clause](https://opensource.org/license/bsd-3-clause) license pages explain the standard terms; the actual upstream texts, including their copyright holders, remain controlling. No dependency has been relabeled as Hoyt Banks MIT software.
 
 This page documents known relationships and limitations. It does not certify a complete copyright, source-provenance or license-compliance audit.
 
@@ -158,19 +164,19 @@ External publishers are installed and started separately. OpenMuse, Pupil Core/N
 
 ## Analysis methods and citation coverage
 
-A library citation credits software; it does not describe every estimator, parameter or inference. The two method associations below were checked against the current EEG worker and the upstream API documentation while preparing this page.
+A library citation credits software; it does not describe every estimator, parameter or inference. Revision 2 reviews the EEG worker's PSD, aperiodic, ERP/time-frequency, connectivity/PAC, complexity, microstate, CSP/decoding and sensor-RSA implementations. The examples below are supplemented by fourteen source-hashed records in [Reviewed analysis methods](attribution/ANALYSIS_METHODS.md).
 
 **Welch power spectral density.** The signal-quality, spectral and spectral-entropy code calls `scipy.signal.welch`. The methodological reference is P. D. Welch (1967), *The use of the fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms*, IEEE Transactions on Audio and Electroacoustics, 15, 70–73, as listed in [SciPy's Welch documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html). A result must also preserve segment size, window, overlap, detrending, scaling, sampling rate and installed SciPy version.
 
 **Aperiodic screening.** The PRAYCG worker applies `scipy.stats.theilslopes` to log10 power against log10 frequency after configured frequency exclusions, reports exponent as negative slope and retains the intercept and median absolute residual. References listed by [SciPy's Theil–Sen documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.theilslopes.html) include H. Theil (1950), *A rank-invariant method of linear and polynomial regression analysis I, II and III*, and P. K. Sen (1968), *Estimates of the regression coefficient based on Kendall's tau*, Journal of the American Statistical Association, 63, 1379–1389. This identifies the regression lineage. PRAYCG's screening procedure and frozen exclusions are its own operational definition; the implementation is not specparam/FOOOF and should not be cited as such.
 
-The remaining method bibliography needs implementation-level matching. The current EEG worker contains locally implemented ERP/time-frequency, connectivity/PAC, entropy/complexity, microstate, CSP/LDA and sensor-RSA routines. Their familiar names do not establish equivalence to a particular paper or third-party package. For example, connectivity forms band-averaged cross-spectra within epochs; canonical method citations require checking that aggregation, sign conventions and normalization. Microstate labels are run-local, and decoding is exploratory within-run unless the study design supports a broader claim.
+The reviewed definitions distinguish scientific lineage from exact estimator equivalence. Connectivity uses band-averaged cross-spectra within epochs, non-debiased wPLI and a mirrored signed imaginary-coherency matrix; the latter is not the conventional antisymmetric matrix. Entropy tolerance is recalculated at each coarse scale. Microstate centers and restart selection use different weighting, labels remain run-local, and decoding is exploratory within-run. RSA estimates noise precision from all trials, so a fully unbiased crossnobis claim is not supported. These are implementation findings, not issues repaired by adding citations.
 
 PRAYCG-specific endpoints such as CAI/SID, Micro Handoff and other exploratory suite constructs should cite the exact PRAYCG definition, formula, configuration and code version. No external validation paper or universal construct validity is asserted by this page.
 
 ### Packaged analysis-module index
 
-This release's execution registry contains 23 modules. The index identifies their packaged implementation versions; it is not a record that they executed in any particular study. Except for the checked associations above, a complete original-method bibliography is pending.
+This release's execution registry contains 23 modules. The index identifies their packaged implementation versions; it is not a record that they executed in any particular study. The companion attribution registry explicitly marks reviewed subsets and pending legacy-method coverage; a complete original-method bibliography is not asserted.
 
 | Analysis module | Stable identifier | Packaged module version |
 | --- | --- | --- |
@@ -427,17 +433,61 @@ Source papers, datasets, software and stimulus media may have different rights. 
 
 When using a source dataset, follow its complete acknowledgment instructions. P14, for example, records additional BCI2000 and PhysioNet references required by the EEG Motor Movement/Imagery Dataset's source page; cite those when the resource itself is used.
 
+## Artifact inventory and preserved notices
+
+The audit distinguishes three different things: files actually distributed in the original release, packages observed in selected local environments, and source notices retrieved to supplement incomplete installed metadata. These are not interchangeable.
+
+| Evidence | Result and boundary |
+| --- | --- |
+| Original Alpha 10.2.1 ZIP | All 747 file entries were enumerated and SHA-256 hashed. No wheels, executables, DLLs, Python native extensions, shared libraries or nested archives were found by the listed suffix checks. This is an archive-content observation, not proof of independent source authorship. |
+| Observed Python installations | 121 distribution installations were enumerated across the sampled core, monitor-validation and connector-validation environments. These include transitive packages and packages not necessarily used by PRAYCG. A user-site location was also checked. |
+| Native components | 841 native file records were hashed across the sampled environments. They are installed artifacts, not files shipped inside the original PRAYCG ZIP. File hashing does not identify every embedded native dependency. |
+| Installed notices | 217 notice files were copied byte-for-byte from installed package records, including numerical-library notices associated with NumPy/SciPy. Both LICENSE and LICENCE spellings were checked. |
+| Supplemental notices | Missing installed texts were sought in exact-version upstream artifacts. MNE and PyWinRT release-source notices were additionally retrieved at immutable commits. Supplemental source notices are not evidence that a binary contains only that source's dependencies. |
+| Source screening | A 420-code-file snapshot was hashed and screened for attribution/provenance markers. Exact-byte comparison with installed Python source found no matches. This narrow negative result does not establish independent authorship. |
+
+Original release SHA-256: `9b1645741f63157e1a15a8c5d8b818e47f48b0f5a65bed67f636bf8412eb0f08`.
+
+The [artifact inventory](attribution/ARTIFACT_INVENTORY.md), [machine-readable audit](attribution/artifact_audit.json), [upstream recovery records](attribution/upstream_notice_recovery.json) and [release-source notice records](attribution/repository_notice_recovery.json) provide versions, hashes and distinctions. The source screening snapshot preceded the final attribution tests and publication scripts; it is not a hash inventory of the final patch.
+
+The environment inventory records observed installations, not a recommended lockfile or a reproduction of every supported setup. It does not include a complete PsychoPy installation, separately installed LabRecorder, every user's environment, all wheel variants, firmware or operating-system components. Packages downloaded during a future installation must retain their own notices. Any future release that embeds wheels or binaries requires a new artifact inventory and notice review.
+
+### Bounded source-provenance comparisons
+
+Two entropy-code candidates were compared with AntroPy's functions at commit `dfbe688744021eb79c4745ceb02a1efc7cd3fbd8`: PRAYCG's binary parsing complexity and permutation entropy. The comparison records local and upstream file hashes, normalized-function similarity and the retained exact upstream license. Neither function was an exact normalized match.
+
+See the [comparison ledger](attribution/source_comparisons.json) and [commit-pinned upstream source](https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py). This is a comparison reference, **not a discovered historical origin commit**. Similarity neither proves copying nor clears provenance; the notice is retained conservatively without asserting AntroPy endorsed or authored PRAYCG.
+
+A comprehensive historical copy/paste audit remains unresolved. No complete source history establishing the origin of every implementation was available for this review. In particular, missing imports, headers or exact matches are not evidence of original ownership.
+
+## Automatic Methods and Credits
+
+Attribution Update v1 adds a versioned registry covering all 23 analysis module identifiers. Each record exposes the entry point, static import candidates and method-review status. Fourteen method records describe the reviewed EEG implementations, with source hashes, function names, scientific lineage and material differences. [Reviewed analysis methods](attribution/ANALYSIS_METHODS.md) contains the readable definitions and references; [the registry](attribution/attribution_registry_v1.json) is the machine-readable counterpart.
+
+New managed Analysis Forge launches run an observer in the selected worker interpreter. It records:
+
+- The module and receipt identity, registry revision, source hashes and observer hash.
+- Reviewed functions actually entered, rather than citing every planned method.
+- Installed distribution versions corresponding to packages imported in that worker.
+- Exit status and whether separate descendant processes were launched.
+
+The execution receipt incorporates the credits record under its existing content hash. The results index exposes a **Methods and Credits** section, and individual module summaries link to it. The session report retains attempt states and deduplicates references from observed methods. Failed attempts remain labeled failed; merely planned modules do not contribute executed-method citations. Historical receipts without records say that credits were not recorded.
+
+The report is written as JSON and HTML inside the session's analysis results. Research Bundle export preserves these files when that analysis folder is selected; a synthetic export-and-verification test checks preservation. Credits do not bypass the existing privacy review or authorize public sharing.
+
+Coverage is deliberately bounded. Function entry is not proof that a valid estimate was returned. Imported software is not proof that all its algorithms ran. Native libraries do not have complete run-time version capture yet. Worker threads, external tools, direct unwrapped launches and separately launched child analyses are not fully observed. Legacy module-specific method bibliographies remain pending where the registry says so. Registry source-hash mismatches suppress the affected observed-method claims rather than applying old citations to changed code.
+
+### Reproducibility and migration
+
+Attribution revision 1.0.0 is an additive schema for **new executions only**. This update does not rename protocol IDs, marker namespaces, session IDs or existing outputs, and does not backfill old runs with current software versions. Rebuilding a derived dashboard may add a credits view but does not rewrite its historical execution receipts or scientific outputs. The original release archive is unchanged.
+
+Future attribution revisions must retain their revision and source hashes. A correction to an old study must be an explicitly labeled supplementary record, not a silent rewrite of that study's evidence. Numerical or estimator corrections require their own versioned analysis changes and, where appropriate, a new analysis run. Attribution alone never validates an experiment.
+
 ## Attribution maintenance and remaining work
 
-The following requirements govern future attribution maintenance and publication. They are documented commitments and remaining work, not a claim that every item has been implemented in Alpha 10.2.1.
+The notice archive, artifact inventory, source comparisons, reviewed-method registry and automatic new-run reporting described above have been implemented, rather than left as documentation-only promises. They do **not** complete every part of a legal or scientific clearance process.
 
-1. **Separate notices from citations.** Preserve original copyright/license notices for copied or redistributed third-party code and binaries. BSD and MIT have their own retention conditions; BSD-3-Clause also restricts endorsement uses. Include exact applicable texts in the distribution when required. A bibliography alone is insufficient.
-2. **Do not broadly relabel dependencies.** PRAYCG's root mixed-license notice cannot grant rights over upstream software. Distinguish PRAYCG-owned code from upstream components rather than treating all dependencies as Hoyt Banks MIT code.
-3. **Inventory actual artifacts.** Distinguish packages installed from upstream during setup from code, wheels and native libraries shipped inside an archive. Include transitive components and their notices; NumPy/SciPy wheels may contain separately licensed numerical libraries. The present work inventories declared direct requirements and documented relationships, not every installed environment, wheel or transitive dependency.
-4. **Audit source provenance.** No repository-wide source-similarity or historical copy/paste audit was performed for this document. An absence of an import or copyright header does not establish independent authorship. Compare identified copied/adapted files with their exact upstream commit and retain the notices. Do not claim comprehensive clearance from this page.
-5. **Add method references per analysis.** Verify actual formulas and estimators for PSD, aperiodic regression, ERP/time-frequency, connectivity/PAC, entropy/complexity, microstates, CSP/decoding and RSA before assigning original method citations. The checked Welch and Theil–Sen associations above do not close the remaining bibliography. Record material differences and PRAYCG-specific operational definitions.
-6. **Emit relevant credits automatically.** Each module should expose method records and actual software dependencies; each run should preserve observed versions. Aggregate methods/modules actually executed into a deduplicated report and bundle bibliography, keeping planned, skipped, failed and completed execution states visible. A Methods and Credits panel can present these records. Complete automatic coverage is not asserted for Alpha 10.2.1.
-7. **Preserve reproducibility.** Citation or display-name changes must not silently alter old run identities, marker namespaces or historical outputs. Use versioned attribution records and explicit migration behavior. Adding attribution does not retroactively validate an experiment.
+Remaining work is specific: establish historical provenance for unresolved source; audit embedded/native transitive components beyond their file inventories; verify the remaining legacy estimators; extend observation to child processes and external analysis routes; and validate the identified estimator limitations before promoting those outputs to stronger scientific claims. In particular, signed imaginary-coherency mirroring, scale-dependent entropy tolerance, stride decimation, wavelet boundary handling and RSA precision estimation remain unchanged and are disclosed in the method records.
 
 Submit attribution corrections through the project's public issue tracker or repository contribution process, identifying the component, exact version, primary source and requested correction. Preserve original notices while a correction is reviewed.
 

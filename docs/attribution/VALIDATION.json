@@ -1,0 +1,16 @@
+{
+  "schema": "PRAYCG_AttributionValidation_v1",
+  "test_runs": [
+    {
+      "tests": "112",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "time": "18.192"
+    }
+  ],
+  "scope": "Synthetic/unit/regression tests; no physical acquisition or full real-dataset end-to-end test.",
+  "skipped_boundary": "Two existing link/reparse tests were skipped because the host does not permit unprivileged symbolic-link creation.",
+  "notice_files_verified": 223,
+  "original_archive_sha256": "9b1645741f63157e1a15a8c5d8b818e47f48b0f5a65bed67f636bf8412eb0f08"
+}
