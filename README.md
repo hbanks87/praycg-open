@@ -1,109 +1,224 @@
-# PRAYCG Workbench
+# PRAYCG Workbench / Control Center
 
-Local-first tools for auditable neuroscience and psychophysiology studies.
+**Current release: Alpha 10.2.1**
 
-**Documented release:** Control Center Alpha 10.0.4  
-**PRAYCG development and adaptation:** Hoyt Banks
+PRAYCG is an open, local-first neuroscience workbench for moving a study from an initial question to a reviewable research package. It connects protocol selection, stimulus preparation, hardware configuration, synchronized acquisition, protocol execution, analysis, visualization, interpretation and research exchange while preserving the identity and provenance of each step.
 
-PRAYCG Workbench helps an operator move from a study question to protocol selection, stimulus preparation, hardware configuration, synchronized recording, analysis and a research bundle. The Windows application is still named **PRAYCG Control Center** in Alpha 10.0.4. Workbench describes the wider software and workflow; it is not a second application to install.
+PRAYCG does not make an experiment scientifically valid merely by running it. Its purpose is to make assumptions, methods, timing, software, data lineage, limitations and results visible enough to inspect, reproduce and challenge.
 
-The workbench records selected protocols, materials, hardware profiles, analysis recipes and software identities so other people can inspect what was planned and what actually ran. It makes missing evidence, quality problems and analytical limitations visible. Successful execution does not make an experiment scientifically valid.
-
-## Workbench and research program
-
-There are two related but distinct parts of PRAYCG.
-
-| | PRAYCG Workbench | PRAYCG neuroscience research program |
-| --- | --- | --- |
-| Main purpose | Provide reusable tools for conducting, documenting and exchanging studies. | Investigate particular questions about narrative reception, task demands, sensory structure, psychophysiology and related exploratory constructs. |
-| Main products | Study workspaces, protocol and hardware records, recordings, analysis reports and verifiable bundles. | Hypotheses, experimental contrasts, operational definitions, datasets and scientific interpretations. |
-| Examples | Hardware Forge, Protocol Atlas, Analysis Forge, Live Monitor and Research Exchange. | PRAYCG3, PRAYCG4, Semantic Meaning Gradient and PRAYCG-specific exploratory measures. |
-| What counts as evidence | Software tests, provenance checks, numerical tests, apparatus checks and documented execution. | Appropriate study design, measurement validity, controls, uncertainty, replication and evidence against alternative explanations. |
-| What use implies | You selected a workflow or tool. | You may be testing a particular hypothesis; using the tool does not establish or endorse it. |
-
-You do not need to accept the any PRAYCG-specific theoretical interpretation to use the workbench. A researcher can use suitable packaged tasks, inspect ordinary signal-quality results, or compare interpretations without adopting a PRAYCG construct. A protocol's presence in the Atlas means it has a packaged implementation and documented scope, not that its theory has been independently validated.
-
-PRAYCG3, PRAYCG4 and SMG retain their own design limitations. For example, a fixed-order within-run contrast can combine condition effects with order, fatigue, habituation and carryover. A software gate cannot remove those confounds. Novel scores remain operational, exploratory quantities unless the relevant validation evidence supports a stronger claim.
+> **Research-use warning:** PRAYCG is alpha research software. It is not a medical device, diagnostic system, clinical tool or safety-critical acquisition controller. Human research still requires appropriate scientific, ethical, consent, privacy and equipment review.
 
 ## Documentation
 
-- [Installation and detailed workflow](docs/INSTALLATION_AND_WORKFLOW.md) ([PDF](pdf/PRAYCG_Alpha_10_0_4_Installation_and_Workflow.pdf)): setup, acquisition, analysis, AI returns, recovery and bundling.
-- [Analysis module guide](docs/ANALYSIS_MODULE_GUIDE.md) ([PDF](pdf/PRAYCG_Alpha_10_0_4_Analysis_Module_Guide.pdf)): each registered module, its inputs, outputs and interpretation limits.
-- [Master changelog from 0.95a through Alpha 10.0.4](docs/MASTER_CHANGELOG.md) ([PDF](pdf/PRAYCG_Master_Changelog_0_95a_to_Alpha_10_0_4.pdf)): chronological release history and persistent limitations.
-- [AI authoring boundaries](docs/AI_AUTHORING_WORKFLOW_REVIEW.md): supported recipe changes, protocol review and the remaining extension-development work.
-- [Protocol credits](docs/PROTOCOL_CREDITS.md), [protocol citations](docs/PROTOCOL_CITATIONS.md) and [upstream attribution review](docs/UPSTREAM_ATTRIBUTION_REVIEW.md).
+- [Installation guide](docs/INSTALLATION_ALPHA_10_2_1.md)
+- [Detailed workflow guide](docs/WORKFLOW_ALPHA_10_2_1.md)
+- [Master citations and attribution](CITATIONS_AND_ATTRIBUTION.md)
 
-Printable versions of the three main guides accompany this documentation pack. Their Markdown files are the editable, GitHub-ready sources. This documentation update does not change the Alpha 10.0.4 software archive.
+The packaged release also contains `CHANGELOG.md`, `LICENSE.md`, detailed hardware-route and AI-authoring notes under `app/docs/`, and machine-readable evidence under `app/deployment/validation/`.
 
-## What Alpha 10.0.4 provides
+## What PRAYCG connects
 
-- A study workspace linking protocol choice, prepared materials, session identity, hardware, recordings and analysis history.
-- A Protocol Atlas with **57 main-browser modules**: 54 Atlas definitions and 3 native protocols. **10 additional prospective sequence variants** belong to a separate workflow. These are 67 packaged definitions, not 67 independently validated experiments.
-- Stimulus selection and preparation with file fingerprints and protocol-specific requirements.
-- Hardware profiles and LSL stream checks that distinguish configured equipment from observed evidence. Device descriptions and adapters have different maturity levels; the catalog is not universal plug-and-play certification.
-- A passive Live Monitor and synchronized offline XDF replay, with recorded auxiliary streams shown when supported and present.
-- An Analysis Forge with mandatory initial QC, **23 registered analysis entries**, dependency-aware plans, retained results and plain-language reports. Individual workers can still find an outcome not estimable.
-- Local Research Exchange bundles, verification, import, current-build reanalysis and a local DATA catalog prototype. The catalog is not an automatically published public repository.
-- AI-assisted design packs and bounded recipe proposals that the operator reviews locally.
+```text
+Workspace and question
+        ↓
+Protocol and materials
+        ↓
+Reviewed hardware profile and synchronized streams
+        ↓
+Session confirmation, immutable lock and protocol runner
+        ↓
+Required QC and dependency-aware analysis plan
+        ↓
+Per-module reports, figures and offline interpretation
+        ↓
+Privacy-reviewed bundle, reanalysis and local DATA catalog
+```
 
-## Install the packaged Windows release
+The Workbench is the general-purpose software and provenance workflow. The PRAYCG neuroscience research program contains particular hypotheses, protocols and exploratory constructs. Using the Workbench does not require accepting any particular research theory, and inclusion in the Protocol Atlas does not validate a hypothesis.
 
-1. Obtain the complete `PRAYCG_ControlCenter_v1_0_0_alpha_10_0_4.zip` release archive. A GitHub source snapshot is not necessarily the packaged Windows distribution.
-2. Stop recordings normally, close older Control Centers and back up studies separately.
-3. Extract into a new writable local folder. Keep `app/` beside the top-level launchers. Do not merge it over an old release or run inside the ZIP.
-4. Install native Windows **Python 3.11 with Tcl/Tk**. Run `INSTALL.bat` and check both Core and Live Monitor component results.
-5. Run `START_PRAYCG.bat`. Verify external PsychoPy, LabRecorder and device/bridge settings before acquisition.
+## Major capabilities
 
-The archive does not include Python, all dependency wheels, PsychoPy or LabRecorder. Installation normally needs internet access. Core uses the selected Python 3.11 interpreter and may update its packages; Live Monitor uses a separate environment. See the detailed guide for minimal installation, repair and upgrade procedures.
+### Study and protocol workflow
+
+- Create or reopen a persistent study workspace.
+- Select native, Atlas or locally installed protocols while preserving exact versions and aliases.
+- Prepare and fingerprint required media, manifests, channel maps and other study inputs.
+- Use protocol-dependent pre-start settings rather than a single generic runner form.
+- Confirm, hardware-lock and arm a run through explicit state transitions.
+- Preserve interruptions, incomplete runs and historical receipts instead of silently rewriting them.
+
+### Hardware and synchronized acquisition
+
+- Build reviewed hardware profiles from separate EEG, ECG, gaze, pupil, motion, optical, autonomic and marker roles.
+- Start a new equipment session with a unique run identity and dedicated evidence folder.
+- Inspect LSL delivery, run identity, channel structure, sample rate, gaps and basic signal-health findings.
+- Record synchronized streams with LabRecorder while preserving runner markers and acquisition evidence.
+- Use an existing LSL publisher through an exact reviewed-outlet workflow without granting PRAYCG authority over the external application.
+
+### Analysis Forge
+
+- Begin with the required QC gateway: run integrity, event timing and applicable EEG/line-noise checks.
+- Build a dependency-aware plan that can include downstream modules before their prerequisites finish.
+- Lock and run an immutable analysis revision, pause after the active module or resume unfinished work.
+- Keep persistent per-module results with scientific reports, figures, receipts, output folders and plain-English summaries.
+- Preserve `NOT_ESTIMABLE` when a recording cannot support an endpoint instead of converting missing evidence into zero or a false success.
+
+### Reproducible exchange
+
+- Create local results packages and optional private full-study or AI-review bundles.
+- Export Research Bundle 1.0 packages with explicit privacy/consent/rights classifications.
+- Verify and import bundles without executing archived code or overwriting original studies.
+- Prepare current-build reanalysis as separately identified derived work.
+- Compare supported outputs under a frozen numerical policy and retain unmatched or unsupported artifacts honestly.
+- Register and inspect bundles in the local PRAYCG DATA catalog.
+
+### AI-assisted protocol and recipe authoring
+
+- Export a local protocol-design document pack for an AI collaborator.
+- Review a schema-bound returned protocol, run a bounded fake-I/O rehearsal and explicitly install it under **My Protocols**.
+- Create supported local protocols from templates without an AI service.
+- Export, review and load parent-bound EEG recipe proposals before ordinary validation and locking.
+- Package private study context for external AI review without automatically uploading anything or executing returned code.
+
+The casual protocol importer intentionally accepts bounded, data-only task components. New acquisition engines, device commands, adaptive controllers or numerical estimators remain separately reviewed development work.
+
+## Alpha 10.2.1 hardware integration
+
+Alpha 10.2.1 connects the exact routes introduced in 10.2.0 to the main Hardware Library, hardware-profile builder and locked route actions.
+
+| Status | Routes | Meaning |
+| --- | --- | --- |
+| Managed connector available | Neurosity Crown OSC through BrainFlow; Muse S Athena through BrainFlow; Polar H10 ECG; GazePoint GP3; GazePoint GP3 HD | PRAYCG supplies a route-specific launcher and publisher. Software tests passed, but the new routes remain experimental pending physical-device and timing validation. |
+| External publisher required | OpenMuse Athena EEG, motion, optics and battery; Pupil Core scene gaze and pupillometry; Pupil Neon gaze; OpenViBE external LSL | Start and manage the publisher separately, review the actual live outlet and freeze its exact metadata before attaching it. PRAYCG does not install, control or stop the external publisher. |
+| Existing reviewed paths retained | OpenBCI with or without ALS, Polar RR, Vernier and existing generic LSL paths | Existing route-specific evidence and readiness requirements remain applicable. |
+| Withheld | Cerelog 16 | Source evidence is cataloged, but the exact 16-channel transport, scaling, timing and physical contract are not sufficiently established for a runnable profile. |
+
+All newly integrated 10.2.1 routes require an `EXPERIMENTAL_EVALUATION` profile and an explicitly labeled **Bench Test Mode (no participant)** session. A software pass or matching stream description is not physical validation, participant approval, electrode-placement proof or synchronization certification.
+
+Important boundaries:
+
+- Crown publishes the reviewed BrainFlow OSC route; it is not presented as the Neurosity SDK `rawUnfiltered` signal.
+- Muse S Athena publishes its reviewed presets as separate modalities. It supplies no ALS. Raw optical values are not validated fNIRS or hemoglobin measurements.
+- An OpenMuse p1041 EEG outlet can contain four named electrode channels plus four AUX channels. They are preserved but are not described as eight verified EEG electrodes.
+- Polar H10 ECG is separate from its irregular RR stream. Opening multiple BLE clients can be unsupported by the device or operating system.
+- GazePoint requires GazePoint Control and appropriate calibration. GP3 and GP3 HD are separate routes.
+- Restarting a managed or external publisher creates a new segment/outlet identity; a stale reviewed outlet cannot silently replace it.
+
+Before evaluating these paths, read `app/docs/HARDWARE_ROUTES_ALPHA_10_2_1.md` in the installed release.
+
+## Quick start on Windows
+
+1. Download the Alpha 10.2.1 ZIP and its SHA-256 file from the repository release.
+2. Verify the checksum, then extract the entire ZIP into a new writable folder. Do not run from inside the archive or merge it over an older version.
+3. Install native Windows Python 3.11 with Tcl/Tk support.
+4. Double-click `INSTALL.bat`. The default full mode installs/checks Core, Live Monitor and Hardware Connectors.
+5. Install and configure external PsychoPy and LabRecorder separately.
+6. Double-click `START_PRAYCG.bat`.
+7. In Settings, select bundled tool paths and verify the external PsychoPy and LabRecorder paths.
+
+For component-specific installation or repair:
+
+```text
+INSTALL.bat -Mode minimal
+INSTALL.bat -Mode monitor
+INSTALL.bat -Mode hardware
+INSTALL.bat -CheckOnly
+```
+
+Read the [installation guide](docs/INSTALLATION_ALPHA_10_2_1.md) before upgrading or troubleshooting.
 
 ## Typical study workflow
 
-Create or open a workspace → choose a protocol → prepare and fingerprint its materials → select and check equipment → review pre-start settings → confirm, lock and arm → record and run → stop and save → run required QC → select and run analysis → review individual reports → verify and package the study.
+1. Create or open a **Study Workspace**.
+2. Select a protocol with **Choose Protocol → Use This Protocol**.
+3. Supply and fingerprint required materials.
+4. Select or build the matching reviewed hardware profile.
+5. Start a new equipment session and launch the required streams.
+6. Complete the applicable equipment checks and inspect their actual findings.
+7. Review the protocol-dependent pre-start configuration.
+8. Confirm the session, hardware-lock and arm.
+9. Start LabRecorder, launch the locked runner and complete the task.
+10. Stop and save LabRecorder promptly; then finalize the run.
+11. In Analysis Forge, review the input inventory and run required QC.
+12. Add desired eligible modules to the plan, lock the revision and run or resume it.
+13. Review per-module reports and the master index.
+14. Build the appropriate local/private/public-oriented bundle and perform human privacy review before sharing.
 
-Bench Test Mode is for **no-participant** demonstrations and software/equipment checks. It does not certify hardware or turn missing data into valid measurements. Shortening a protocol and selecting bench mode are separate actions. Set permitted timing changes before session confirmation and preserve the reason for the variant.
+The [workflow guide](docs/WORKFLOW_ALPHA_10_2_1.md) covers participant acquisition, bench demonstrations, replay, analysis, recovery, exchange and AI-assisted extensions in detail.
 
-For existing data, start with the correct recorded run folder and XDF. Do not use today's hardware selection as a substitute for the recording's saved metadata. A noisy recording can support some descriptive analyses while being inadequate for others. `NOT_ESTIMABLE` means an estimate is unsupported or unavailable; it is not zero and is not automatically a software crash.
+## Installation architecture
 
-## AI assisted authoring
+The full installer uses three environments:
 
-### Protocol proposals
+| Component | Environment |
+| --- | --- |
+| Core | The selected native Python 3.11 interpreter. This is not isolated by the installer. |
+| Live Monitor | `app/.live-monitor-env/` |
+| Hardware Connectors | `app/.hardware-connectors-env/`, with BrainFlow 5.23.0 and its pinned connector dependencies |
 
-Use **Create New Protocol with AI Docs…** to produce a local request pack, inspect `UPLOAD_PROTOCOL_AI_DOCS.zip`, and share only approved context with your chosen AI agent. Ask for the specified declarative JSON return, then use **Review AI Protocol Return…** to check and stage it.
+The ZIP does not contain Python, dependency wheels, PsychoPy, LabRecorder, proprietary device software or third-party external publishers. Installation normally needs internet access to retrieve Python packages. Once the required software is installed, ordinary local workflows do not require an online AI service.
 
-**Alpha 10.0.4 does not install a reviewed candidate as a new runnable protocol.** Developer integration must still register and test the protocol, stimulus, pre-start configuration, runner and analysis relationships. A timeline preview is not a participant test, and AI-generated approval is not authorization.
+## Data, privacy and security boundaries
 
-### EEG recipe proposals
+- PRAYCG does not automatically upload studies, contact an AI provider or publish to a remote catalog.
+- Private full-study bundles may include XDF recordings, exact stream metadata, device identifiers, host details, media and other sensitive context.
+- Public/privacy-restricted projections omit recognized private stream metadata, but this is not general anonymization.
+- Human review of consent, sharing authority, media rights, identifiers and recipient terms remains mandatory.
+- Imported bundles are inert: import does not install protocols, execute archived scripts, install dependencies or grant acquisition/publication authority.
+- Hashes establish byte identity and change detection. They do not establish authorship, authenticity of an external publisher, scientific validity or legal permission.
 
-Use **Create / Revise Recipe → Export AI Recipe Request…**. After the AI returns the specified proposal JSON, select **Review AI Recipe Proposal…**, inspect the differences, choose **Load reviewed proposal into form**, then **Validate Draft** and **Lock Recipe**. Review the resulting analysis-plan revision before running it.
+## Validation status
 
-Recipe proposals change supported settings of existing methods. They cannot add a new estimator, arbitrary preprocessing operation or executable analysis module. Existing model matrices and unexposed settings must be preserved unless explicitly revised. A stale parent, malformed return or unsupported label must be resolved rather than forced through.
+The Alpha 10.2.1 release gate passed **69 declared suites and 2,098 reported checks**. The extracted ZIP was also checked for:
 
-### AI assistance is not scientific approval
+- clean installation layout and checksum consistency;
+- application discovery and hidden-interface startup;
+- all five managed and eight external Hardware Library workflows;
+- 57 built-in protocol/material workflows;
+- synthetic XDF analysis and bundle reimport;
+- locally installed protocol workflows;
+- AI document export, bound simulated return and safe local installation;
+- historical PRAYCG3 reanalysis and bundle/recovery regression without changing the source archive.
 
-An external model can help articulate a hypothesis, identify missing controls, draft compatible parameters and propose tests. The operator remains responsible for checking sources, methods, consent, privacy and the output's meaning. Record the provider/model and relevant prompts as provenance where appropriate. Model branding is not an approval tier.
+These are software and same-machine checks. The release does **not** claim physical validation of the newly integrated devices, participant safety, absolute sensor/stimulus timing, clinical validity, complete protocol × hardware × analysis coverage or independent second-machine reproduction.
 
-PRAYCG does not automatically upload recordings or connect to a cloud model through these workflows. Private full-data bundles can contain sensitive recordings, event logs, responses, stimuli and identifying context. Review the exact contents and the receiving service's applicable policies before sharing. A private bundle is not an anonymized or public-safe bundle.
+Executed evidence is preserved under `app/deployment/validation/`. File ledgers and distribution mappings are under `app/deployment/`.
 
-## Reports and research exchange
+## Repository and distribution layout
 
-Keep raw recordings, acquisition evidence, analysis derivatives, recipes, results and interpretations distinguishable. Preserve missing outcomes and quality cautions in the report. An offline interpreter explains available outputs; it does not supply missing observations or prove a mechanism.
+```text
+INSTALL.bat             Full/component installer
+START_PRAYCG.bat        Application launcher
+README.md               Project overview and quick start
+CHANGELOG.md             Consolidated release history
+LICENSE.md              Mixed-license notice
+app/
+  control_center/        Desktop Control Center
+  tools/                 Acquisition, analysis, replay and bundle tools
+  config/                Protocol, hardware and analysis registries
+  docs/                  Scientific, hardware and attribution references
+  deployment/            Installer resources, validation evidence and ledgers
+  examples/              Governed demo resources
+```
 
-Bundles help another person verify file integrity and inspect study lineage. Reanalysis under a different build is distinct from exact replay. Matching selected values is not proof of complete numerical equivalence, scientific replication or successful execution on a second machine.
+Study workspaces and locally installed protocol extensions are not meant to be stored inside the immutable application package. Keep study data, private bundles and backups separate from the extracted release.
 
-The longer-term goal is an open, local-first neuroscience ecosystem in which studies can be audited, reproduced, extended and rerun by laboratories, companies and independent researchers. Public DATA exchange, broader device support and reviewed installation of new AI-assisted extensions remain development work, not blanket present-day guarantees.
+## Reporting problems
 
-## Validation and limits
+When reporting a problem, include:
 
-Alpha 10.0.4 passed 58 declared software suites, reporting 1,710 tests or dry-run checks. Its release evidence includes 15 seeded synthetic signal cases, same-machine historical PRAYCG3 reanalysis and extracted-archive checks. The historical run produced 13 completed module outcomes and two `NOT_ESTIMABLE` outcomes; that distinction was retained.
+- the exact PRAYCG release;
+- the action and UI label used;
+- whether the session was participant or bench mode;
+- the selected protocol and hardware-profile identity;
+- the exact error text;
+- the relevant run-local log/evidence folder;
+- whether acquisition, LabRecorder or a connector was still running.
 
-These checks did not validate every physical device, participant protocol, display/audio timing path, fresh online installation or second-machine execution. Protocol software coverage includes compilation, binding and bounded simulated behavior; core and prospective definitions do not all receive full runner execution. Local AI-return fixtures do not establish the reliability of an external AI service.
+Do not publish participant data, XDF files, device identifiers, private paths, credentials or copyrighted stimuli in a public issue. Use a minimal synthetic reproduction when possible.
 
-This is research software, not a clinical diagnostic system, a consciousness detector, a spiritual ranking tool or evidence for a proposed biological mechanism by itself. Human studies need appropriate consent, risk review and applicable oversight. Self-experimentation does not remove electrical, privacy, stimulus or interpretation risks.
+## License and attribution
 
-## Attribution and contribution
+Original PRAYCG-owned code is MIT-licensed unless a file states otherwise. Repository documentation is generally CC BY 4.0, and the bundled synthetic demo media is CC0 1.0. Third-party source, dependencies, data and media retain their own terms. Read `LICENSE.md` and the [Master Citations and Attribution](CITATIONS_AND_ATTRIBUTION.md) for author credits, software references, protocol sources and license boundaries.
 
-Hoyt Banks is credited for PRAYCG development and adaptation separately from original study, dataset, stimulus and software authors. All 67 protocol definitions carry structured attribution metadata. Citations do not imply endorsement, permission to redistribute materials or scientific validation. Original third-party license obligations remain applicable, and the bounded attribution review is not complete license clearance.
-
-For a useful bug report, include the release, relevant protocol/module ID, reproduction steps, sanitized error text and the affected workflow stage. Do not post private XDFs, participant identifiers, access tokens or unrestricted full-data bundles in public issues.
-
-For a proposed protocol or analysis contribution, supply the question, operational definitions, inputs and units, sources and rights, expected outputs, known limitations, and reproducible tests. Numerical methods need known-answer and missing/degenerate-input checks, not only a successful process exit. Keep generated code outside a live participant session until it has completed the separate review and integration process.
+Copyright © 2026 Hoyt Banks.

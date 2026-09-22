@@ -1,6 +1,20 @@
 # PRAYCG protocol citations
 
-PRAYCG development/adaptation byline: Hoyt Banks. Historical local-definition citations identify Alpha 10.0.3 source artifacts. See PROTOCOL_CREDITS.md for attribution, historical evidence, and source rights guidance.
+PRAYCG development/adaptation byline: Hoyt Banks. This public bibliography applies to Alpha 10.2.1; some historical local-definition citations identify the Alpha 10.0.3 source artifacts from which the records were carried forward. See `PROTOCOL_CREDITS.md` in the packaged release for attribution, historical evidence and source-rights guidance.
+
+## Software and method attribution gaps
+
+Protocol citations are not software notices, redistribution permission or a complete method bibliography. The canonical software review is [UPSTREAM_ATTRIBUTION_REVIEW.md](UPSTREAM_ATTRIBUTION_REVIEW.md). The following requirements apply to every protocol and analysis entry in this bibliography:
+
+1. **Separate notices from citations.** Preserve original copyright/license notices for copied or redistributed third-party code and binaries. BSD and MIT have their own retention conditions; the BSD-3-Clause records in the software review also restrict endorsement uses. Include exact applicable texts in the distribution when required. A bibliography alone is insufficient.
+2. **Do not broadly relabel dependencies.** PRAYCG's installed-release root `LICENSE.md` mixed-license notice cannot grant rights over upstream software. Clarify PRAYCG-owned code versus upstream components rather than treating all dependencies as Hoyt Banks MIT code.
+3. **Inventory actual artifacts.** Distinguish packages installed from upstream during setup from code, wheels and native libraries shipped inside an archive. Inventory transitive components and their notices too; NumPy/SciPy wheels may contain separately licensed numerical libraries. The bounded review did not enumerate installed environments, wheel contents or every dependency.
+4. **Audit source provenance.** No repository-wide source-similarity or historical copy/paste audit was performed. An absence of an import or copyright header does not establish independent authorship. Inspect identified copied/adapted files against their exact upstream commit and retain their notices. Do not assert comprehensive clearance based on the current report.
+5. **Add method references per analysis.** The reviewed EEG worker and README do not yet provide a complete method bibliography. Verify the actual formulas and estimators for PSD, aperiodic regression, ERP/time-frequency, connectivity/PAC, entropy/complexity, microstates, CSP/decoding and RSA before attaching original method citations. Do not cite a famous method if the implementation differs materially; record the difference and PRAYCG-specific operational definition.
+6. **Emit relevant credits automatically.** Each module should expose method records and actual software dependencies; each run should preserve observed versions. Aggregate only the methods and modules actually executed into a deduplicated report/bundle bibliography. Keep skipped/planned modules distinguishable from executed modules. A visible Methods and Credits panel can explain this without cluttering primary controls. This is prudent future work, not a claim that Alpha 10.2.1 already implements the panel or complete run-level aggregation.
+7. **Preserve reproducibility.** Citation/display-name changes should not silently alter old run identities, marker namespaces or historical outputs. Introduce versioned attribution records and explicit migration behavior. Adding attribution does not retroactively validate an experiment.
+
+These are attribution, licensing and reproducibility boundaries—not legal advice or a scientific-validity determination.
 
 ## Adaptive Choice Flexibility and Reversal Learning
 
@@ -1375,10 +1389,10 @@ Byline status: USER_CONFIRMED
 PRAYCG protocol development/adaptation; not authorship of cited external studies
 
 Sources and citations:
-- PR-AYC-G Narrative Empathy / Semantic Meaning Gradient / Base Model 2.5
+- PR-AYC-G Narrative Empathy / Semantic Meaning Gradient / retained research notes
   Type: retained_source_declaration; status: PRESERVED_MANIFEST_DECLARATION_NOT_INDEPENDENTLY_VERIFIED
   Primary source: PRAYCG / Fractal Presence retained document pack
-  Source documents: D01, D02, D198, D206, Base Model 2.5 Integration Register, PRAYCG Meta-Analysis Style Port v1.0
+  Source documents: D01, D02, D198, D206, retained research notes Integration Register, PRAYCG Meta-Analysis Style Port v1.0
   License note: No copyrighted stimulus or restricted participant material is bundled. Operator-selected assets must be lawfully used and hash locked.
   Preserved lineage; does not establish authorship, publication status, permission, or scientific validation.
 - Hoyt Banks. Narrative Structure and Interpretation

@@ -1,8 +1,10 @@
-# Analysis and Live Monitor upstream attribution review
+# PRAYCG software attribution and method-reference review
 
-Review date: 2026-09-20. Baseline: PRAYCG Control Center 1.0.0-alpha.10.0.3.
+This historical review is retained as supporting evidence. The current public reference is [PRAYCG — Master Citations and Attribution](../CITATIONS_AND_ATTRIBUTION.md).
 
-This bounded review was performed against Alpha 10.0.3 and is retained as attribution guidance in Alpha 10.0.4. Links point to the corresponding shipped source files; line numbers describe the inspected baseline. It is not an exhaustive license-clearance report. Installed applications, recordings and historical results were not changed for the review.
+Review date: 2026-09-20. Inspected baseline: PRAYCG Control Center 1.0.0-alpha.10.0.3. Current guidance carried forward for Alpha 10.2.1.
+
+This bounded review was performed against Alpha 10.0.3 and is retained as attribution guidance in Alpha 10.2.1. Links and line numbers describe the inspected baseline unless a later section says otherwise. Carrying the guidance forward is not a claim that a repository-wide provenance audit, dependency inventory, source-similarity review or legal clearance was subsequently completed. Installed applications, recordings and historical results were not changed for the review.
 
 ## Conclusion
 
@@ -16,16 +18,16 @@ Paths below refer to the inspected Alpha 10.0.3 source, not the live installatio
 
 | Component | Actual relationship observed | Evidence |
 |---|---|---|
-| Passive Live Monitor | Imports the MNE-LSL low-level inlet API; NumPy performs bounded display diagnostics. It does not use MNE-RT's high-level pipeline. | Live Monitor worker, line 119 (`../tools/Live_Monitor_v1_0/praycg_live_monitor_v1_0.py:119` in the software source) |
-| XDF replay | Imports pyxdf, then uses PRAYCG replay transport and display logic. This is not MNE-LSL PlayerLSL replay. | Replay loader, line 386 (`../tools/Live_Monitor_v1_0/praycg_xdf_replay_v1_0.py:386` in the software source) |
-| EEG analysis worker | Direct numerical dependencies are NumPy and SciPy; pyxdf loads XDF. Included analysis families are not evidence that similarly named third-party packages were imported. | Numerical imports, line 24 (`../tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py:24` in the software source), XDF import, line 349 (`../tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py:349` in the software source) |
-| Master Comprehensive Suite | NumPy/SciPy computations and pyxdf input are present. These dependencies deserve software records; PRAYCG-specific endpoints additionally need their own precise method/provenance records. | Master worker, line 53 (`../tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_master_comprehensive_suite_v1_6_0.py:53` in the software source) |
-| BIDS export | Directly imports MNE-Python, MNE-BIDS, pyxdf and NumPy. MNE-Python creates the RawArray; MNE-BIDS writes BrainVision output. | BIDS exporter, line 134 (`../tools/BIDS_Exporter_v0_1/praycg_bids_exporter_v0_1.py:134` in the software source) |
-| Acquisition/LSL | pylsl is directly imported by multiple bridges, supervisors and protocol runners. It is distinct from the MNE-LSL binding used by Live Monitor. | Polar bridge, line 34 (`../tools/Acquisition/Polar_H10_to_LSL/polar_to_lsl.py:34` in the software source) |
-| TorchEEG sandbox | Validates local dataset-manifest readiness and checks installed TorchEEG version metadata. It does not train or run a TorchEEG model. Do not claim a TorchEEG-generated analysis result. | Sandbox README (`../tools/TorchEEG_Research_Sandbox_v0_1/README.md` in the software source), metadata lookup, line 117 (`../tools/TorchEEG_Research_Sandbox_v0_1/praycg_torcheeg_research_sandbox_v0_1.py:117` in the software source) |
-| MNE-RT and previously suggested repositories | MNE-RT is explicitly documented as considered, not vendored/enabled. Scoped searches found no imports of EEGrunt, eegtools, mne-rsa, osl-ephys or the other suggested analysis repositories in the reviewed worker paths. This is not proof against unattributed copied fragments. | Live Monitor boundary, line 25 (`../tools/Live_Monitor_v1_0/README.md:25` in the software source) |
+| Passive Live Monitor | Imports the MNE-LSL low-level inlet API; NumPy performs bounded display diagnostics. It does not use MNE-RT's high-level pipeline. | Installed-release source: `tools/Live_Monitor_v1_0/praycg_live_monitor_v1_0.py`, line 119. |
+| XDF replay | Imports pyxdf, then uses PRAYCG replay transport and display logic. This is not MNE-LSL PlayerLSL replay. | Installed-release source: `tools/Live_Monitor_v1_0/praycg_xdf_replay_v1_0.py`, line 386. |
+| EEG analysis worker | Direct numerical dependencies are NumPy and SciPy; pyxdf loads XDF. Included analysis families are not evidence that similarly named third-party packages were imported. | Installed-release source: `tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py`, lines 24 and 349. |
+| Master Comprehensive Suite | NumPy/SciPy computations and pyxdf input are present. These dependencies deserve software records; PRAYCG-specific endpoints additionally need their own precise method/provenance records. | Installed-release source: `tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_master_comprehensive_suite_v1_6_0.py`, line 53. |
+| BIDS export | Directly imports MNE-Python, MNE-BIDS, pyxdf and NumPy. MNE-Python creates the RawArray; MNE-BIDS writes BrainVision output. | Installed-release source: `tools/BIDS_Exporter_v0_1/praycg_bids_exporter_v0_1.py`, line 134. |
+| Acquisition/LSL | pylsl is directly imported by multiple bridges, supervisors and protocol runners. It is distinct from the MNE-LSL binding used by Live Monitor. | Installed-release source: `tools/Acquisition/Polar_H10_to_LSL/polar_to_lsl.py`, line 34. |
+| TorchEEG sandbox | Validates local dataset-manifest readiness and checks installed TorchEEG version metadata. It does not train or run a TorchEEG model. Do not claim a TorchEEG-generated analysis result. | Installed-release sources: `tools/TorchEEG_Research_Sandbox_v0_1/README.md` and `tools/TorchEEG_Research_Sandbox_v0_1/praycg_torcheeg_research_sandbox_v0_1.py`, line 117. |
+| MNE-RT and previously suggested repositories | MNE-RT is explicitly documented as considered, not vendored/enabled. Scoped searches found no imports of EEGrunt, eegtools, mne-rsa, osl-ephys or the other suggested analysis repositories in the reviewed worker paths. This is not proof against unattributed copied fragments. | Installed-release source: `tools/Live_Monitor_v1_0/README.md`, line 25. |
 
-The optional environment requirements (`../tools/Live_Monitor_v1_0/requirements.txt` in the software source) pin NumPy 2.2.6, MNE 1.10.2, MNE-LSL 1.13.2 and pyxdf 1.17.0. These are declared installation requirements, not evidence that these exact versions ran in every user's session. Core requirements permit version ranges. Capture actual installed versions and relevant wheel/native-library identities for each environment and run.
+The installed-release file `tools/Live_Monitor_v1_0/requirements.txt` pins NumPy 2.2.6, MNE 1.10.2, MNE-LSL 1.13.2 and pyxdf 1.17.0. These are declared installation requirements, not evidence that these exact versions ran in every user's session. Core requirements permit version ranges. Capture actual installed versions and relevant wheel/native-library identities for each environment and run.
 
 ## Verified upstream records for the next citation registry
 
@@ -46,7 +48,7 @@ MNE-RT belongs in a separate `reviewed_not_integrated` record, not in a run's ex
 ## Gaps and prudent next work
 
 1. **Separate notices from citations.** Preserve original copyright/license notices for copied or redistributed third-party code and binaries. BSD and MIT have their own retention conditions; the BSD-3-Clause records above also restrict endorsement uses. Include exact applicable texts in the distribution when required. A bibliography alone is insufficient.
-2. **Do not broadly relabel dependencies.** PRAYCG's root mixed-license notice (`../../LICENSE.md` in the software source) cannot grant rights over upstream software. Clarify PRAYCG-owned code versus upstream components rather than treating all dependencies as Hoyt Banks MIT code.
+2. **Do not broadly relabel dependencies.** PRAYCG's installed-release root `LICENSE.md` mixed-license notice cannot grant rights over upstream software. Clarify PRAYCG-owned code versus upstream components rather than treating all dependencies as Hoyt Banks MIT code.
 3. **Inventory actual artifacts.** Distinguish packages installed from upstream during setup from code, wheels and native libraries shipped inside an archive. Inventory transitive components and their notices too; NumPy/SciPy wheels may contain separately licensed numerical libraries. This review did not enumerate installed environments, wheel contents or every dependency.
 4. **Audit source provenance.** No repository-wide source-similarity or historical copy/paste audit was performed. An absence of an import or copyright header does not establish independent authorship. Inspect identified copied/adapted files against their exact upstream commit and retain their notices. Do not assert comprehensive clearance based on this report.
 5. **Add method references per analysis.** The reviewed EEG worker/README does not yet provide a complete method bibliography. Verify the actual formulas and estimators for PSD, aperiodic regression, ERP/time-frequency, connectivity/PAC, entropy/complexity, microstates, CSP/decoding and RSA before attaching original method citations. Do not cite a famous method if the implementation differs materially; record the difference and PRAYCG-specific operational definition.
@@ -54,3 +56,18 @@ MNE-RT belongs in a separate `reviewed_not_integrated` record, not in a run's ex
 7. **Preserve reproducibility.** Citation/display-name changes should not silently alter old run identities, marker namespaces or historical outputs. Introduce versioned attribution records and explicit migration behavior. Adding attribution does not retroactively validate an experiment.
 
 This is a bounded technical attribution review, not legal advice, an exhaustive license-compliance audit, a plagiarism determination or legal clearance. Protocol, stimulus, data, questionnaire, software, logo and name rights must be reviewed separately where applicable.
+# Alpha 10.2.0 acquisition additions
+
+The current source review and pinned references are in
+`config/hardware_upstream_evidence_alpha_10_2_1.json` and
+`docs/HARDWARE_ROUTES_ALPHA_10_2_1.md`. New PRAYCG connector implementation is
+original code under the package license. BrainFlow, pylsl, NumPy and Bleak are
+separately installed dependencies with their own licenses; dependency inclusion
+does not transfer ownership or validate device timing.
+
+No code from the linked programmatix Crown recorder, Cerelog LSL scripts,
+OpenMuse, Pupil relay, hynchl GazePoint publisher or OpenViBE drivers is copied
+into this release. External publisher profiles record source/version assumptions
+and do not redistribute those applications. Polar PMD and GazePoint API documents
+are cited as protocol references for independently authored implementations;
+the Polar mobile SDK and its custom license are not bundled.
