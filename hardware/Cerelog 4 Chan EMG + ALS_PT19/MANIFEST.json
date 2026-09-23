@@ -1,0 +1,94 @@
+{
+  "package_date": "2026-09-23",
+  "firmware_identifier": "CERELOG_V1_EMG4_ALS1_1K_V1",
+  "kind": "Local adaptation for manufacturer review; not an official release",
+  "new_compile_or_flash_during_packaging": false,
+  "upstream_commit": "af1a56e0127e71606afdc7e7ddf0ca831715e09c",
+  "upstream_sketch_sha256": "cd67c0de0d2c627d430c260f27e5d002ab80faeab92befb56f7d04f4cb97910c",
+  "build": {
+    "arduino_cli": "1.5.1",
+    "esp32_core": "3.3.12",
+    "fqbn": "esp32:esp32:esp32da:UploadSpeed=115200",
+    "esptool": "5.3.1"
+  },
+  "flash_images": [
+    {
+      "path": "firmware/Cerelog_V1_EMG4_ALS1_1k.ino.bootloader.bin",
+      "offset": "0x1000"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG4_ALS1_1k.ino.partitions.bin",
+      "offset": "0x8000"
+    },
+    {
+      "path": "firmware/boot_app0.bin",
+      "offset": "0xE000"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG4_ALS1_1k.ino.bin",
+      "offset": "0x10000"
+    }
+  ],
+  "files": [
+    {
+      "path": "BENCH_CHECKS.md",
+      "bytes": 2251,
+      "sha256": "f6f5300d0116dc9cb924ad5b3c640d067d4cbaf92cac3635480ff0f2b96b14dd"
+    },
+    {
+      "path": "BUILD_AND_PROTOCOL.md",
+      "bytes": 4519,
+      "sha256": "a9380e5201e9b948740d1ab6b62638e1225278c1ed91ec1fbd16a1b17a52a126"
+    },
+    {
+      "path": "README_FOR_SIMON.md",
+      "bytes": 4039,
+      "sha256": "2621f2f0a8321710511c2794cb0c79652fd124ca3ada6e04605b019c0e9993a5"
+    },
+    {
+      "path": "changes_from_upstream.diff",
+      "bytes": 14676,
+      "sha256": "84036fecfefcc15b5398586d962850d492222c100d5c38b4a3009bbbc4a18e22"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG4_ALS1_1k.ino.bin",
+      "bytes": 281120,
+      "sha256": "12738410fc3fd9ba9910eaa829178d238b2091006c48d0cd90d8c12f1ba462b0"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG4_ALS1_1k.ino.bootloader.bin",
+      "bytes": 24992,
+      "sha256": "47bbbfca119fe87190f63a67af9d85adff6433bcf3812ec92a9b9c9416a53ad1"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG4_ALS1_1k.ino.partitions.bin",
+      "bytes": 3072,
+      "sha256": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+    },
+    {
+      "path": "firmware/boot_app0.bin",
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "path": "reader/cerelog_reader.py",
+      "bytes": 11287,
+      "sha256": "2f587fd283dc7106579b3fff7294b7347f299a00aade9041c0b2f9dc1d3602e8"
+    },
+    {
+      "path": "reader/requirements.txt",
+      "bytes": 14,
+      "sha256": "0b81718d1cbe8a7696e45a9388c9205272b5e345cd79d0cf1ccfb7a9fd1925e9"
+    },
+    {
+      "path": "reader/test_reader.py",
+      "bytes": 3840,
+      "sha256": "ba0e64e3075356009d58901c76031346d5672300d1a78724ebed85953aaaf0e0"
+    },
+    {
+      "path": "source/Cerelog_V1_EMG4_ALS1_1k/Cerelog_V1_EMG4_ALS1_1k.ino",
+      "bytes": 14334,
+      "sha256": "fbba9627e6a06d8bad8cc622d2547abc40eebd856b4c1c1e2ac4ff9cdec293e7"
+    }
+  ]
+}
