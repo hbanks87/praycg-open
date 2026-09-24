@@ -1,0 +1,14 @@
+{
+  "schema": "PRAYCG_RepositoryReplacementValidation_v1",
+  "original_files_verified": 1290,
+  "original_hashes_preserved": true,
+  "source_checkout_unchanged": true,
+  "git_metadata_excluded": true,
+  "new_or_rebased_documents": 36,
+  "new_navigation_links_checked": 1679,
+  "broken_new_navigation_links": [],
+  "editorial_scan_passed": true,
+  "historical_documents": "Original bytes and historical references preserved; only new navigation links are gated.",
+  "source_reorganization_or_push_performed": false,
+  "scope": "Repository organization and file integrity only; not an application or scientific validation."
+}

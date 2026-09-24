@@ -23,8 +23,8 @@ private_data/
 *.mov
 *.mkv
 
-# retain the original demo exception at its reorganized path
-!examples/synthetic-demo/**/*.mp4
+# allow checked-in demo mp4s under examples only
+!examples/no_copyright_media_demo/**/*.mp4
 
 # analysis scratch
 analysis_scratch/

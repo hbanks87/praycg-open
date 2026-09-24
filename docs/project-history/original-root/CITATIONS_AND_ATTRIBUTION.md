@@ -164,7 +164,7 @@ External publishers are installed and started separately. OpenMuse, Pupil Core/N
 
 ## Analysis methods and citation coverage
 
-A library citation credits software; it does not describe every estimator, parameter or inference. Revision 2 reviews the EEG worker's PSD, aperiodic, ERP/time-frequency, connectivity/PAC, complexity, microstate, CSP/decoding and sensor-RSA implementations. The examples below are supplemented by fourteen source-hashed records in [Reviewed analysis methods](docs/attribution/ANALYSIS_METHODS.md).
+A library citation credits software; it does not describe every estimator, parameter or inference. Revision 2 reviews the EEG worker's PSD, aperiodic, ERP/time-frequency, connectivity/PAC, complexity, microstate, CSP/decoding and sensor-RSA implementations. The examples below are supplemented by fourteen source-hashed records in [Reviewed analysis methods](attribution/ANALYSIS_METHODS.md).
 
 **Welch power spectral density.** The signal-quality, spectral and spectral-entropy code calls `scipy.signal.welch`. The methodological reference is P. D. Welch (1967), *The use of the fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms*, IEEE Transactions on Audio and Electroacoustics, 15, 70–73, as listed in [SciPy's Welch documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html). A result must also preserve segment size, window, overlap, detrending, scaling, sampling rate and installed SciPy version.
 
@@ -448,7 +448,7 @@ The audit distinguishes three different things: files actually distributed in th
 
 Original release SHA-256: `9b1645741f63157e1a15a8c5d8b818e47f48b0f5a65bed67f636bf8412eb0f08`.
 
-The [artifact inventory](docs/attribution/ARTIFACT_INVENTORY.md), [machine-readable audit](docs/attribution/artifact_audit.json), [upstream recovery records](docs/attribution/upstream_notice_recovery.json) and [release-source notice records](docs/attribution/repository_notice_recovery.json) provide versions, hashes and distinctions. The source screening snapshot preceded the final attribution tests and publication scripts; it is not a hash inventory of the final patch.
+The [artifact inventory](attribution/ARTIFACT_INVENTORY.md), [machine-readable audit](attribution/artifact_audit.json), [upstream recovery records](attribution/upstream_notice_recovery.json) and [release-source notice records](attribution/repository_notice_recovery.json) provide versions, hashes and distinctions. The source screening snapshot preceded the final attribution tests and publication scripts; it is not a hash inventory of the final patch.
 
 The environment inventory records observed installations, not a recommended lockfile or a reproduction of every supported setup. It does not include a complete PsychoPy installation, separately installed LabRecorder, every user's environment, all wheel variants, firmware or operating-system components. Packages downloaded during a future installation must retain their own notices. Any future release that embeds wheels or binaries requires a new artifact inventory and notice review.
 
@@ -456,13 +456,13 @@ The environment inventory records observed installations, not a recommended lock
 
 Two entropy-code candidates were compared with AntroPy's functions at commit `dfbe688744021eb79c4745ceb02a1efc7cd3fbd8`: PRAYCG's binary parsing complexity and permutation entropy. The comparison records local and upstream file hashes, normalized-function similarity and the retained exact upstream license. Neither function was an exact normalized match.
 
-See the [comparison ledger](docs/attribution/source_comparisons.json) and [commit-pinned upstream source](https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py). This is a comparison reference, **not a discovered historical origin commit**. Similarity neither proves copying nor clears provenance; the notice is retained conservatively without asserting AntroPy endorsed or authored PRAYCG.
+See the [comparison ledger](attribution/source_comparisons.json) and [commit-pinned upstream source](https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py). This is a comparison reference, **not a discovered historical origin commit**. Similarity neither proves copying nor clears provenance; the notice is retained conservatively without asserting AntroPy endorsed or authored PRAYCG.
 
 A comprehensive historical copy/paste audit remains unresolved. No complete source history establishing the origin of every implementation was available for this review. In particular, missing imports, headers or exact matches are not evidence of original ownership.
 
 ## Automatic Methods and Credits
 
-Attribution Update v1 adds a versioned registry covering all 23 analysis module identifiers. Each record exposes the entry point, static import candidates and method-review status. Fourteen method records describe the reviewed EEG implementations, with source hashes, function names, scientific lineage and material differences. [Reviewed analysis methods](docs/attribution/ANALYSIS_METHODS.md) contains the readable definitions and references; [the registry](docs/attribution/attribution_registry_v1.json) is the machine-readable counterpart.
+Attribution Update v1 adds a versioned registry covering all 23 analysis module identifiers. Each record exposes the entry point, static import candidates and method-review status. Fourteen method records describe the reviewed EEG implementations, with source hashes, function names, scientific lineage and material differences. [Reviewed analysis methods](attribution/ANALYSIS_METHODS.md) contains the readable definitions and references; [the registry](attribution/attribution_registry_v1.json) is the machine-readable counterpart.
 
 New managed Analysis Forge launches run an observer in the selected worker interpreter. It records:
 
