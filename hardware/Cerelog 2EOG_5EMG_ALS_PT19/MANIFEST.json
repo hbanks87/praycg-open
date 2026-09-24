@@ -1,0 +1,234 @@
+{
+  "package_date": "2026-09-24",
+  "firmware_identifier": "CERELOG_V1_EMG5_EOG2_ALS1_1K_V1",
+  "kind": "Custom firmware manufacturer/GitHub review bundle; not an official release",
+  "new_compile_or_flash_during_packaging": false,
+  "published_to_github": false,
+  "upstream_commit": "af1a56e0127e71606afdc7e7ddf0ca831715e09c",
+  "upstream_sketch_sha256": "cd67c0de0d2c627d430c260f27e5d002ab80faeab92befb56f7d04f4cb97910c",
+  "previous_custom_sketch_sha256": "fbba9627e6a06d8bad8cc622d2547abc40eebd856b4c1c1e2ac4ff9cdec293e7",
+  "build": {
+    "arduino_cli": "1.5.1",
+    "esp32_core": "3.3.12",
+    "esp_idf": "v5.5.5 b774170ff46",
+    "fqbn": "esp32:esp32:esp32da:UploadSpeed=115200",
+    "esptool": "5.3.1",
+    "flash_mode": "dio",
+    "flash_frequency": "80m",
+    "flash_size": "4MB"
+  },
+  "configuration": {
+    "rate_hz": 1000,
+    "startup_baud": 9600,
+    "stream_baud": 460800,
+    "gains": [
+      24,
+      24,
+      24,
+      24,
+      1,
+      24,
+      24,
+      24
+    ],
+    "active_channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "emg_hardware_channels": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "eog_hardware_channels": [
+      7,
+      8
+    ],
+    "als_hardware_channels": [
+      5
+    ],
+    "srb1": false,
+    "srb2": false,
+    "bias_driver": false,
+    "bias_contributions": false
+  },
+  "known_limits": [
+    "Exact app binary contains two disclosed local compiler paths",
+    "Upstream firmware license contains an incomplete-text placeholder",
+    "Third-party binary licensing inventory is not certified complete",
+    "Off-body transport only; no physiological or electrical-safety validation",
+    "ALS unplugged during cited bench capture"
+  ],
+  "flash_images": [
+    {
+      "path": "firmware/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino.bootloader.bin",
+      "offset": "0x1000",
+      "written_in_latest_update": false
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino.partitions.bin",
+      "offset": "0x8000",
+      "written_in_latest_update": false
+    },
+    {
+      "path": "firmware/boot_app0.bin",
+      "offset": "0xE000",
+      "written_in_latest_update": false
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino.bin",
+      "offset": "0x10000",
+      "written_in_latest_update": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 236,
+      "sha256": "59bf284bf2e34994de4e5d490a9893e09fd57d5d3e24d2e96d2903f353dcd7cf"
+    },
+    {
+      "path": "BUILD_AND_PROTOCOL.md",
+      "bytes": 5733,
+      "sha256": "c7e206701727993a03acbfa75245049d0380f94c5f5270ccc02587f32726627a"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1907,
+      "sha256": "145d5f4273c7feef51dbf669fa81ae2fd4d9db3b9071158746c0d85b60074895"
+    },
+    {
+      "path": "LICENSE_NOTICE.md",
+      "bytes": 3162,
+      "sha256": "d44c74b328a0b6604892bcd7d29dd61c9c0eab76255d999b69ab7dee8ed685b4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5813,
+      "sha256": "2a8326f53556a1c7d5e5f31fd4f08e384ae2d5b39843e1ac2d0baf267c6fd0d7"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 3235,
+      "sha256": "94b525a507540621e9f5e2eccbe8ce0e558b0d9d397517c08ba5d60d4bcec2cb"
+    },
+    {
+      "path": "changes_from_EMG4_ALS1.diff",
+      "bytes": 1928,
+      "sha256": "389b41d4d41027b9d6fb1aaea439995377cd77288cac3006051f55113350c0f5"
+    },
+    {
+      "path": "changes_from_upstream.diff",
+      "bytes": 14774,
+      "sha256": "fddfcf805246cc80b4fda1b0d9138f2efedbb8dde7d3f51df0b42a945fbf5fd2"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino.bin",
+      "bytes": 281136,
+      "sha256": "7b97aa310ce98f15ce380376ab1b4e9be7be41e1cb414b7fe261845b0ecbd955"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino.bootloader.bin",
+      "bytes": 24992,
+      "sha256": "47bbbfca119fe87190f63a67af9d85adff6433bcf3812ec92a9b9c9416a53ad1"
+    },
+    {
+      "path": "firmware/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino.partitions.bin",
+      "bytes": 3072,
+      "sha256": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+    },
+    {
+      "path": "firmware/boot_app0.bin",
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "path": "firmware/partitions.csv",
+      "bytes": 305,
+      "sha256": "2683fd26b661bc909dcb8a9f05723d36c4000f9396995941a278fda409b753f7"
+    },
+    {
+      "path": "licenses/ARDUINO_ESP32_LGPL_2_1.md",
+      "bytes": 26335,
+      "sha256": "62e54861b30e953735dc187f036917c588665dbe3c5dd88449e34317608bbf5e"
+    },
+    {
+      "path": "licenses/BUILD_COMPONENT_VERSIONS.txt",
+      "bytes": 1372,
+      "sha256": "f6bf9e3115c554006c0faa819eb8247cf8f8d51cc158eb8855ab50202b5476c7"
+    },
+    {
+      "path": "licenses/CERELOG_UPSTREAM_LICENSE.txt",
+      "bytes": 2813,
+      "sha256": "addceafd27892eb05e0fa16e81fe63d428406592a801767048c4550ae89a32cc"
+    },
+    {
+      "path": "licenses/ESP_IDF_APACHE_2_0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "licenses/ESP_IDF_THIRD_PARTY_COPYRIGHT.rst",
+      "bytes": 13301,
+      "sha256": "461b6a126c59fce1ea9182f35b0e4f33b42654acd337d5b83996340e1ad2b581"
+    },
+    {
+      "path": "licenses/FreeRTOS_header_notice.h",
+      "bytes": 1448,
+      "sha256": "f3e706e33ba484d506d4c68da8a401d9291c2f4e11e83cb9b71c41bbfe062ada"
+    },
+    {
+      "path": "licenses/GCC_GPL_3.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/GCC_RUNTIME_EXCEPTION.txt",
+      "bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "path": "licenses/NEWLIB_COPYING.txt",
+      "bytes": 63318,
+      "sha256": "422aa40293093fb54fc66e692a0d68fd0b24ed5602e5d1d33ad05ba3909057e9"
+    },
+    {
+      "path": "licenses/Xtensa_corebits_notice.h",
+      "bytes": 246,
+      "sha256": "f6dc10fd4169d500994e1f3388db3d8c14771f0c8567782be9b452e7ce44da6e"
+    },
+    {
+      "path": "reader/cerelog_reader.py",
+      "bytes": 13304,
+      "sha256": "6fde81a76ce0172c1e89d6b5c9b6b8e3c1dbb2f707b638f419ce0cba35d1c561"
+    },
+    {
+      "path": "reader/requirements.txt",
+      "bytes": 14,
+      "sha256": "0b81718d1cbe8a7696e45a9388c9205272b5e345cd79d0cf1ccfb7a9fd1925e9"
+    },
+    {
+      "path": "reader/test_reader.py",
+      "bytes": 12234,
+      "sha256": "de33e1e90f74764a7af30b2402ec6652cf83168847c4c4d24ddf7d0c3f8ea934"
+    },
+    {
+      "path": "source/Cerelog_V1_EMG5_EOG2_ALS1_1k/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino",
+      "bytes": 14421,
+      "sha256": "be3f9afabab75a3743d04557d42d8c0f291561f12a60a7ab8e53993b0ada7326"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 2194,
+      "sha256": "c7f5e644393fa6c1573764a5b6ebb10878fab1bf9f098802552ab23d5c736450"
+    }
+  ]
+}

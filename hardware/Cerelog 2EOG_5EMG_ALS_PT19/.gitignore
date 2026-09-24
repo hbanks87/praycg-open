@@ -1,0 +1,18 @@
+# Private or generated material must not be added alongside this bundle.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+rebuilt/
+build/
+recordings/
+bench_tests/
+*.log
+*.xdf
+*.elf
+*.map
+*.merged.bin
+*backup*.bin
+pre_update*.bin
+.DS_Store
+Thumbs.db
