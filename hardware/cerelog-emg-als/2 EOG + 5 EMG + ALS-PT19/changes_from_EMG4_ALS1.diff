@@ -1,0 +1,33 @@
+--- previous/Cerelog_V1_EMG4_ALS1_1k.ino
++++ source/Cerelog_V1_EMG5_EOG2_ALS1_1k/Cerelog_V1_EMG5_EOG2_ALS1_1k.ino
+@@ -1,6 +1,7 @@
+ // Adapted locally from Cerelog V1_special_differential_fw, upstream commit
+ // af1a56e0127e71606afdc7e7ddf0ca831715e09c. This is NOT the unmodified vendor build.
+-// CH1-4: differential EMG gain 24; CH5: divided ALS gain 1; CH6-8: powered down.
++// CH1-4 and CH6: differential EMG gain 24; CH5: divided ALS gain 1.
++// CH7-8: differential EOG gain 24. All eight channels enabled; off-body bench first.
+ // 1000 SPS; Cerelog BIAS amplifier off. Use the accompanying host reader.
+ 
+ #include <Arduino.h>
+@@ -90,7 +91,7 @@
+ static const regVal_pair ADS1299_REGISTER_LS[] = {
+   {0x01, 0b10110100}, {0x02, 0b11010000}, {0x03, 0b11101000}, {0x04, 0},
+   {0x05, 0b01100000}, {0x06, 0b01100000}, {0x07, 0b01100000}, {0x08, 0b01100000},
+-  {0x09, 0b00000000}, {0x0A, 0b10000001}, {0x0B, 0b10000001}, {0x0C, 0b10000001},
++  {0x09, 0b00000000}, {0x0A, 0b01100000}, {0x0B, 0b01100000}, {0x0C, 0b01100000},
+   {0x0D, 0b00000000}, {0x0E, 0b00000000}, {0x0F, 0}, {0x10, 0}, {0x11, 0},
+   {0x15, 0b00000000}, {0x16, 0}, {0x17, 0}
+ };
+@@ -105,9 +106,9 @@
+ uint8_t handshake_count = 0;
+ 
+ void report_configuration() {
+-  Serial.print("CERELOG_CFG {\"firmware\":\"CERELOG_V1_EMG4_ALS1_1K_V1\",");
+-  Serial.print("\"rate_hz\":1000,\"stream_baud\":460800,\"gains\":[24,24,24,24,1,0,0,0],");
+-  Serial.print("\"active_channels\":[1,2,3,4,5],\"bias_driver\":false,\"readback_ok\":");
++  Serial.print("CERELOG_CFG {\"firmware\":\"CERELOG_V1_EMG5_EOG2_ALS1_1K_V1\",");
++  Serial.print("\"rate_hz\":1000,\"stream_baud\":460800,\"gains\":[24,24,24,24,1,24,24,24],");
++  Serial.print("\"active_channels\":[1,2,3,4,5,6,7,8],\"bias_driver\":false,\"readback_ok\":");
+   Serial.print(register_readback_ok ? "true" : "false");
+   Serial.print(",\"registers\":[");
+   for (uint8_t i = 0; i < sizeof(register_readback); i++) {
