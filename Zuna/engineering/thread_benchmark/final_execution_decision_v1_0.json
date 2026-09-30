@@ -1,0 +1,54 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "767468f417a3c28acf58992e4c32e881e97c31f418e6c77ab21d3891fb53b0ab",
+  "original_schema": "PRAYCG_PrivateThreadFinalExecutionDecision_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Synthetic/runtime engineering comparison, not biological replication.",
+  "record": {
+    "schema": "PRAYCG_PrivateThreadFinalExecutionDecision_v1_0",
+    "decision": "KEEP_EXISTING_TWO_THREAD_RUN",
+    "benchmark_status": "PASS",
+    "fastest_benchmarked_threads": 8,
+    "benchmark_sampling_seconds": {
+      "2": [
+        53.312,
+        53.031
+      ],
+      "4": [
+        35.968,
+        35.75
+      ],
+      "8": [
+        31.547,
+        22.031
+      ]
+    },
+    "initial_switch_decision": "switch_decision_v1_0.json",
+    "initial_decision_preserved": true,
+    "reason": "At the actual switch gate the original run had advanced beyond the fixed minimum savings threshold. Its most recent full windows were also faster than the earlier baseline. Conservative new-run estimate no longer justified discarding completed work.",
+    "original_committed_windows_at_followup": 21,
+    "original_completed_full_contexts": 20,
+    "remaining_full_contexts": 76,
+    "original_recent_full_window_seconds": [
+      40.0,
+      40.2,
+      40.1,
+      39.8
+    ],
+    "new_run_conservative_estimate_seconds": 3370.888,
+    "original_estimate_under_frozen_policy_seconds": 3914.0,
+    "estimated_saving_under_frozen_policy_seconds": 543.112,
+    "required_minimum_saving_seconds": 600,
+    "original_worker_stopped": false,
+    "new_model_run_launched": false,
+    "original_data_modified": false,
+    "released_source_modified": false,
+    "checkpoints_deleted_or_mixed": false,
+    "future_option": "The private eight-thread runtime is available for a fresh later run, subject to a new execution decision. Preparation-only attempt2 is not an active analysis.",
+    "limitation": "Small concurrent synthetic benchmark and short recent timing history; no guaranteed execution duration or scientific equivalence is asserted."
+  }
+}

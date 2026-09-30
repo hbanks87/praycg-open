@@ -1,0 +1,56 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "b9ad1de580d2dd01be52c89c5c5366088c4888625091be939d5827a62254c41f",
+  "original_schema": "PRAYCG_PrivateBoundaryPreparationRegressionGate_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history.",
+  "record": {
+    "schema": "PRAYCG_PrivateBoundaryPreparationRegressionGate_v1_0",
+    "status": "PASS",
+    "scope": "SYNTHETIC_ENGINEERING_ONLY_NOT_MODEL_OR_HUMAN_VALIDATION",
+    "candidate_worker_sha256": "a1e72cd1b92e4a4678b457274ee027f3c84a39d2351a822b69c1e67745de3bee",
+    "candidate_source_sha256": {
+      "private_file_reference_1": "792e066578baf458e265cb6c735593ac71aea40d96bc193a586a10ce340cedde",
+      "private_file_reference_2": "a1e72cd1b92e4a4678b457274ee027f3c84a39d2351a822b69c1e67745de3bee",
+      "private_file_reference_3": "fa56384fc150c900a30c06a3e60f3ee5e5150e5937b830273a3af525bfb6a270",
+      "private_file_reference_4": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29"
+    },
+    "numerical_versions": {
+      "numpy": "2.3.3",
+      "scipy": "1.16.2",
+      "mne": "1.10.2",
+      "pytest": "8.4.2"
+    },
+    "tested_runtime": "[LOCAL_PATH_REMOVED]",
+    "model_inference_executed": false,
+    "test_count": 198,
+    "suites": [
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "0ea02a5e7c1376ae41862f5b0bdb3ef18a4574df76e815a683b085b0409bf493",
+        "tests": 38,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "elapsed_seconds": 1.02
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "1c5b27b1ea55cf8b75f6e55b2a96b8a7a9c5e30083c2a4ce0dbe06bdec78379b",
+        "tests": 160,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "elapsed_seconds": 40.0
+      }
+    ],
+    "evidence_path": "[LOCAL_PATH_REMOVED]",
+    "evidence_sha256": "9008a151619ac08297c132b46b8319e7d20c7174a5c9fd6b5ae2119ff8456758",
+    "initial_failure_disposition": "Initial general-runtime existing-suite failure exposed C/F memory-layout rounding dependency; candidate normalized layout. Exact assertion retained, dedicated regression added. No failure waived.",
+    "interpretation": "Candidate preparation passes stated numerical/integrity regressions. Does not show a model benefit, remove all edge artifacts, or validate live processing."
+  }
+}

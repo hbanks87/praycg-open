@@ -1,0 +1,56 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "b02084fa643f9b76364052a79dceb47d6fd261ded52c0bbc777bb88d1a7090d0",
+  "original_schema": "PRAYCG_PrivateZunaExecution_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint.",
+  "record": {
+    "schema": "PRAYCG_PrivateZunaExecution_v1_0",
+    "status": "COMPLETED",
+    "recipe_path": "[LOCAL_PATH_REMOVED]",
+    "recipe_sha256": "a8284388cb85bbe3e6f46094c158d0bf0fb570dffaca5e2dbeff791adcd04785",
+    "preparation_path": "[LOCAL_PATH_REMOVED]",
+    "preparation_sha256": "df855a981486e8872f4da334b252567ce454231371601b11c80f396c32999fe1",
+    "dependency_sha256": {
+      "tools/Zuna_EEG_Reconstruction_v1_0/praycg_zuna_eeg_reconstruction_v1_0.py": "dbaec6d7dd2da4a5fdf55b87f9b11832c9ee9153cf6397359afebc5ca7b30ec7",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_adapter.py": "27e0b25a4193421248f3b08cb5d77100d04b2e79fd83034d9f158db25920da62",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_exploratory.py": "3e5354db6448ece1c88a8b88339cdc075dcf63421e2c059dbe3da2291053f264",
+      "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py": "13a479c38e83227cad0306c7c276bd95b222c8e3f593845bcc7654583e5cc551",
+      "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_respiration_diagnostic_v1_0.py": "b06eb1efe05b5c8e06865c33b80f4f1acea73baa93944ed2c4c4c129bbf356f4",
+      "tools/EEG_Analysis_Modules_v0_1/config/eeg_analysis_modules_v0_1.json": "b253ef540871749260cbd9263a4bfff865b4bffcb41d7749aa2f4336022174d0",
+      "config/zuna_model_lock_v1_0.json": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d"
+    },
+    "wrapper_sha256": "01d78d723379473e4d781510557dc77f958e9e3b8bcedbeda0fe079e57dde51f",
+    "stdout_path": "[LOCAL_PATH_REMOVED]",
+    "stderr_path": "[LOCAL_PATH_REMOVED]",
+    "output_dir": "[LOCAL_PATH_REMOVED]",
+    "report_json": "[LOCAL_PATH_REMOVED]",
+    "report_html": "[LOCAL_PATH_REMOVED]",
+    "checkpoint_dir": "[LOCAL_PATH_REMOVED]",
+    "model_parameters": {
+      "seed": 20260924,
+      "sample_steps": 16,
+      "segment_samples": 1280,
+      "device": "cpu"
+    },
+    "cpu_threads_maximum": 2,
+    "priority": "BELOW_NORMAL",
+    "expected_windows": 104,
+    "completed_checkpoint_windows": 104,
+    "scientific_authority": "NONE",
+    "analysis_scope": "POSTHOC_EXPLORATORY",
+    "original_session_purpose": "BENCH_TEST",
+    "physical_hardware_access": false,
+    "original_recording_modified": false,
+    "completion_meaning": "Technical completion only, not scientific validation or evidence that Zuna improves the signal.",
+    "elapsed_seconds": 4365.8279999999795,
+    "worker_exit_code": 0,
+    "report_status": "CAUTION",
+    "source_dependencies_unchanged": true,
+    "report_sha256": "38bf20f4314677ef21eecfdba9a1965f65aaf9e5c6ea51d397be71a61c22638b"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "2fdc2af26588211ac890b087d93e77d3d644cc587c9e25bc9eb9ad6b946885ac",
+  "original_schema": "PRAYCG_ZunaGuidedDevelopmentPlan_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison.",
+  "record": {
+    "schema": "PRAYCG_ZunaGuidedDevelopmentPlan_v1_0",
+    "version": "1.0",
+    "status": "LOCKED",
+    "plan_id": "[PRIVATE_ID_REMOVED]",
+    "run_uuid": "RUN_1",
+    "input_files": {
+      "xdf": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303"
+      },
+      "analysis_window_manifest": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "8356739f578b4f7d9db3e55ccbc1fed68dc30eceb0dc0cdd4c6edac9f34519d8"
+      },
+      "validation_contract": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "247ba65e9dc3005ce5ade644d9d5d3611a991c4bb53221d46f53543c8f79946c"
+      },
+      "observed_blocks": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "e15e8ff775a8be4e3d233b59866833cff46da990fd1a28c3acd560870bb434ed"
+      },
+      "eeg_quality": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "5ebed63c03c0dea489eb3827cd0f90c6d912ff126171a1feb21c5cd2553a6c64"
+      },
+      "exploratory_recipe": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "9cd3a979a44976016c5fb6c833ea1a043e9cd87bc50a68e44ff91a3715c81586"
+      }
+    },
+    "cpu_threads": 2,
+    "source_sha256": {
+      "tools/Zuna_EEG_Reconstruction_v1_0/praycg_zuna_eeg_reconstruction_v1_0.py": "80ca30c820144982f4d145b60bc16d090c354f43c5b05b03a87508f1d2ddab30",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_adapter.py": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_exploratory.py": "8915ffbb21f3e8f26b83d4d2266d22033094fb13329eba8bec8fb6b1beb8356e",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_optical_analysis.py": "581b5534e502917e490298054d97a7a439b590e0a479c3685b4871728d93f554",
+      "tools/ProtocolAtlas_ModuleLibrary_v2_0/scripts/zuna_optical_timing_v1_0.py": "9b29c0f9ac9392521f561907740449256cb57057f7ac8fd0fdb48d4691abefe8",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_reporting.py": "0a20cd114ceb17d5340aba304cf1848bac4808a29e92a1eaaceeb2aa69dc2346",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_template_geometry_v1_0.json": "1123d4df85c93c9b04cceaa812dfd426714ea8c824723ec185fc338e2b7a3037",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_adapter_contract_v1_1.json": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+      "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py": "bf73590f5d94c3c336e5a6ee3a374f33a3236f3c71d0ed3a3e06eeae1d600faa",
+      "tools/EEG_Analysis_Modules_v0_1/config/eeg_analysis_modules_v0_1.json": "8f12514a8aab0ffe97ea10e2a883c01cd8b5f82f91aab4214b5d958e9e6aecfc",
+      "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_respiration_diagnostic_v1_0.py": "b06eb1efe05b5c8e06865c33b80f4f1acea73baa93944ed2c4c4c129bbf356f4",
+      "control_center/scripts/praycg_zuna_forge_v1_0.py": "e876fcf4ec3cb292ccaf45a2adf948b48be25e479f1c4ac8378fc43ea3197934",
+      "config/zuna_model_lock_v1_0.json": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+      "deployment/requirements_zuna.txt": "30b11acb8f8aca2a16dac188046d7f92e8d9bfc0f6c36b0c92692826c828c578"
+    },
+    "parent_plan_identity": {
+      "plan_id": "[PRIVATE_ID_REMOVED]",
+      "fingerprint": null
+    },
+    "selection_timing": "POST_ACQUISITION_EXPLICIT_DEVELOPMENT_SUPPLEMENT",
+    "scientific_authority": "NONE",
+    "earlier_plans_modified": false,
+    "acknowledgement": "Operator requested preparation of a separately governed optional comparison. This is not a retrospective preregistration or promotion of existing BENCH data.",
+    "canonical_sha256": "2e74cea439168f7d5c351b618cd2dcf806ac6603bb00c0197c45c6e5905e1014"
+  }
+}

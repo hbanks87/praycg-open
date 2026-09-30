@@ -1,0 +1,54 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "71db1b51df6d3329130314fc4ea444e8f361a0fde7c6bcd465ec1c9055c8edc1",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld.",
+  "record": {
+    "robust_sd_uv": 6.447401750752437,
+    "threshold_uv": 25.78960700300975,
+    "event_count_total": 109,
+    "events_in_evaluation": 66,
+    "evaluated_seconds": 400.21875,
+    "transient_evaluated_seconds": 43.671875,
+    "context_touched_evaluated_seconds": 160.21875,
+    "per_block": [
+      {
+        "block": "zuna_validation_eyes_open_1",
+        "event_count": 9
+      },
+      {
+        "block": "zuna_validation_eyes_closed_1",
+        "event_count": 4
+      },
+      {
+        "block": "zuna_validation_eyes_closed_2",
+        "event_count": 1
+      },
+      {
+        "block": "zuna_validation_eyes_open_2",
+        "event_count": 17
+      },
+      {
+        "block": "zuna_validation_eyes_closed_3",
+        "event_count": 1
+      },
+      {
+        "block": "zuna_validation_eyes_open_3",
+        "event_count": 18
+      },
+      {
+        "block": "zuna_validation_eyes_open_4",
+        "event_count": 14
+      },
+      {
+        "block": "zuna_validation_eyes_closed_4",
+        "event_count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "d18a6cf01eef06acd085695467e6e8960aa4019d4ace8e6de0faa23595951193",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld.",
+  "record": {
+    "source_npz_sha256": "44be66d1e9f5b2b7395d74c7fd1f5ce546afaca20942dc8f3bd7f33ea0c8190d",
+    "script_sha256": "ef7f265897ff363c6a16aed6e90481912b63d01ce0c3c308cda8ca3683972f2d",
+    "boundary_count": 72,
+    "rule": "Only seams with full +/-0.25s neighborhood within original evaluation mask; excludes scoring entry/exit",
+    "jumps": {
+      "measured_pre": {
+        "median_absolute_jump_uv": 0.7339267299847338,
+        "mean_absolute_jump_uv": 0.9151372216703904,
+        "p95_uv": 2.3829467467445684
+      },
+      "spline_pre": {
+        "median_absolute_jump_uv": 0.6886941970734215,
+        "mean_absolute_jump_uv": 0.9056356895070087,
+        "p95_uv": 2.428423688027256
+      },
+      "zuna_pre": {
+        "median_absolute_jump_uv": 2.677163505260866,
+        "mean_absolute_jump_uv": 5.939940957728946,
+        "p95_uv": 23.058145813111945
+      },
+      "measured_post": {
+        "median_absolute_jump_uv": 0.6803194585255177,
+        "mean_absolute_jump_uv": 0.8717047749585577,
+        "p95_uv": 2.2427441389252096
+      },
+      "spline_post": {
+        "median_absolute_jump_uv": 0.7040590798431974,
+        "mean_absolute_jump_uv": 0.8802211327411472,
+        "p95_uv": 2.3875571287141235
+      },
+      "zuna_post": {
+        "median_absolute_jump_uv": 1.288722076841214,
+        "mean_absolute_jump_uv": 2.212833076554257,
+        "p95_uv": 7.599686370101577
+      }
+    },
+    "results": [
+      {
+        "phase": "pre",
+        "stratum": "near_strictly_interior_seams",
+        "seconds": 36.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.722602403946908,
+            "mean_channel_nmse": 0.7525206747867808
+          },
+          "zuna": {
+            "pooled_rmse_uv": 10.995569529036183,
+            "mean_channel_nmse": 2.851342224111382
+          }
+        }
+      },
+      {
+        "phase": "pre",
+        "stratum": "other_evaluated_samples",
+        "seconds": 364.21875,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.755327860245492,
+            "mean_channel_nmse": 0.657226973180629
+          },
+          "zuna": {
+            "pooled_rmse_uv": 9.872416460544288,
+            "mean_channel_nmse": 1.9992750913149597
+          }
+        }
+      },
+      {
+        "phase": "post",
+        "stratum": "near_strictly_interior_seams",
+        "seconds": 36.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.584484916790326,
+            "mean_channel_nmse": 0.7655362416891967
+          },
+          "zuna": {
+            "pooled_rmse_uv": 8.663131057649696,
+            "mean_channel_nmse": 1.827883240224803
+          }
+        }
+      },
+      {
+        "phase": "post",
+        "stratum": "other_evaluated_samples",
+        "seconds": 364.21875,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.748992825693489,
+            "mean_channel_nmse": 0.6508018029043341
+          },
+          "zuna": {
+            "pooled_rmse_uv": 7.657007063733688,
+            "mean_channel_nmse": 1.174918940927476
+          }
+        }
+      }
+    ],
+    "model_runs": 0,
+    "limitation": "Descriptive association; near and far regions differ in signal and artifact content. No causal attribution."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "0bf0f4d100d55df9dfa9617e13deb5f25fcfb05bae43b523e462be58dd6ed74e",
+  "original_schema": "PRAYCG_PrivateZunaShortComparisonIndependentVerification_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history.",
+  "record": {
+    "schema": "PRAYCG_PrivateZunaShortComparisonIndependentVerification_v1_0",
+    "status": "PASS",
+    "scope": "READ_ONLY_SAVED_ARRAYS_PROVENANCE_AND_REPORT_QA_NO_NEW_MODEL_INFERENCE",
+    "result_sha256": "77cf31ccb375a7a169b8069e69fddd2c09b176d95c962061f6c8efc12f0141f9",
+    "arrays_sha256": "cea9b3944e3df0222b3c06e6e17a95157ac3758d1d7e4d55abd56e13f6fa3795",
+    "cases_verified": 4,
+    "generated_contexts_verified": 4,
+    "context_samples_each": 1280,
+    "independent_numeric_values_checked": 584,
+    "numeric_tolerance": {
+      "relative": 1e-12,
+      "absolute": 1e-12
+    },
+    "maximum_observed_metric_difference": 8.881784197001252e-16,
+    "checks": [
+      "All original data, recipe, historical report, historical provenance and proxy file hashes match the frozen plan.",
+      "Candidate and installed source hashes match their recorded bindings.",
+      "Result references the unchanged frozen plan, preparation receipt, regression gate and execution script.",
+      "All four per-case JSON records exactly match the corresponding result entries.",
+      "Selected sample bounds, labels, original proxy flags and historical window seeds match the frozen plan; all selected samples satisfy the original evaluation mask.",
+      "Historical target/spline/Zuna array slices and corrected target/spline array slices exactly match their original saved source arrays.",
+      "All six arrays per case are finite and shaped four channels by 1280 samples.",
+      "Every corrected Zuna array exactly matches its committed generated prediction checkpoint.",
+      "Checkpoint array hashes and canonical checkpoint identity hashes verify; retained-input hashes match the exact corrected inputs.",
+      "Every case records one newly inferred, non-resumed context, 16 steps, two CPU threads, one interop thread, float32, original window seed, original model revision/weights and original geometry.",
+      "Per-case and aggregate RMSE/NMSE/MAE/variance/correlation values independently recomputed from saved arrays match JSON within tolerance.",
+      "Per-case corrected theta/alpha/beta Welch band powers independently recomputed without concatenating disjoint contexts match JSON within tolerance.",
+      "Prepared-target change RMS values independently recomputed and verified.",
+      "Markdown/HTML scientific reporting and plot inspected; no blocking mismatch found."
+    ],
+    "verified_pooled_rmse_uv": {
+      "historical_same_intervals": {
+        "spline": 5.739696518901194,
+        "zuna": 5.073029828312725
+      },
+      "corrected": {
+        "spline": 5.734792292540354,
+        "zuna": 5.058575004257723
+      }
+    },
+    "interpretation": "The short predetermined selection already favored Zuna before correction. The result does not show that the boundary correction creates a model advantage or reverses the full-recording outcome. Historical and corrected prepared targets differ. Four windows from two blocks are not independent validation.",
+    "nonblocking_reporting_note": "Pooled NMSE uses each electrode's variance across the pooled 20 seconds, not the average of four context-specific NMSE scores; clarify this if readers compare table rows.",
+    "new_model_inference_by_reviewer": false,
+    "installed_source_or_original_data_changed_by_reviewer": false
+  }
+}

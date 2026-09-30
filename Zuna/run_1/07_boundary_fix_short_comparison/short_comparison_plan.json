@@ -1,0 +1,139 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "e27e234c34fcbccf877ccc8da619bf3910032514364d97749598483aebb4da1c",
+  "original_schema": "PRAYCG_ZUNA_BOUNDARY_SAFE_SHORT_COMPARISON_1",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history.",
+  "record": {
+    "schema": "PRAYCG_ZUNA_BOUNDARY_SAFE_SHORT_COMPARISON_1",
+    "role": "POSTHOC_DEVELOPMENT_ENGINEERING_NOT_VALIDATION",
+    "run_uuid": "RUN_1",
+    "original_session_purpose": "BENCH_TEST",
+    "original_evidence_not_promoted": true,
+    "selection_rule": "FIRST_CHRONOLOGICAL_FULLY_ORIGINALLY_SCORED_1280_SAMPLE_CONTEXT_PER_ORIGINAL_PROXY_STRATUM_AND_CONDITION",
+    "selection_does_not_use_hidden_targets_or_method_errors": true,
+    "cases": [
+      {
+        "case_id": "eyes_open__proxy_untouched",
+        "condition": "eyes_open",
+        "original_proxy_context_touched": false,
+        "original_window_index_zero_based": 1,
+        "original_window_seed": 20260925,
+        "segment_index": 0,
+        "block": "zuna_validation_eyes_open_1",
+        "start_sample": 1280,
+        "stop_sample_exclusive": 2560,
+        "relative_start_seconds": 5.001702930370811
+      },
+      {
+        "case_id": "eyes_open__proxy_touched",
+        "condition": "eyes_open",
+        "original_proxy_context_touched": true,
+        "original_window_index_zero_based": 2,
+        "original_window_seed": 20260926,
+        "segment_index": 0,
+        "block": "zuna_validation_eyes_open_1",
+        "start_sample": 2560,
+        "stop_sample_exclusive": 3840,
+        "relative_start_seconds": 10.000415211601648
+      },
+      {
+        "case_id": "eyes_closed__proxy_untouched",
+        "condition": "eyes_closed",
+        "original_proxy_context_touched": false,
+        "original_window_index_zero_based": 14,
+        "original_window_seed": 20260938,
+        "segment_index": 1,
+        "block": "zuna_validation_eyes_closed_1",
+        "start_sample": 16647,
+        "stop_sample_exclusive": 17927,
+        "relative_start_seconds": 5.006482282013167
+      },
+      {
+        "case_id": "eyes_closed__proxy_touched",
+        "condition": "eyes_closed",
+        "original_proxy_context_touched": true,
+        "original_window_index_zero_based": 20,
+        "original_window_seed": 20260944,
+        "segment_index": 1,
+        "block": "zuna_validation_eyes_closed_1",
+        "start_sample": 24327,
+        "stop_sample_exclusive": 25607,
+        "relative_start_seconds": 35.00443818717031
+      }
+    ],
+    "bindings": {
+      "historical_report": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "7da8a88f51bd68218addc1dc5679eaabd292e8a3f5b9d68c3210944a2c7a3687"
+      },
+      "historical_provenance": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "c31772af3612ec73bec81e4d64e4cefc72cc1f6873276db1c722496af1aac5aa"
+      },
+      "historical_predictions": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "44be66d1e9f5b2b7395d74c7fd1f5ce546afaca20942dc8f3bd7f33ea0c8190d"
+      },
+      "original_proxy_plan": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "930132107ecdbbc26f17848ff7db781ad0c5e8fdae9c8c8d9c28ab7d6da63e1c"
+      },
+      "original_proxy_masks": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "6fabd1185b7eadae68defbf04362b952d444aa8e6304b65830eb19170de0017b"
+      },
+      "reviewed_recipe": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "9cd3a979a44976016c5fb6c833ea1a043e9cd87bc50a68e44ff91a3715c81586"
+      },
+      "recording": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303"
+      }
+    },
+    "installed_source_sha256": {
+      "tools/Zuna_EEG_Reconstruction_v1_0/praycg_zuna_eeg_reconstruction_v1_0.py": "80ca30c820144982f4d145b60bc16d090c354f43c5b05b03a87508f1d2ddab30",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_exploratory.py": "8915ffbb21f3e8f26b83d4d2266d22033094fb13329eba8bec8fb6b1beb8356e",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_adapter.py": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+      "tools/Zuna_EEG_Reconstruction_v1_0/zuna_adapter_contract_v1_1.json": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+      "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py": "bf73590f5d94c3c336e5a6ee3a374f33a3236f3c71d0ed3a3e06eeae1d600faa"
+    },
+    "model_settings": {
+      "steps": 16,
+      "cpu_threads": 2,
+      "device": "cpu",
+      "cfg": 1.0,
+      "context_samples": 1280,
+      "seed_policy": "Each single-context call uses that exact historical context seed",
+      "model_id": "Zyphra/ZUNA1.1",
+      "revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+      "weight_sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33",
+      "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf"
+    },
+    "preparation_change": "PER_CHANNEL_BLOCK_MEAN_BEFORE_RESAMPLE_POLY_WITH_EXPLICIT_LINE_PADDING; OTHER_PREPARATION_AND_TIMING_UNCHANGED",
+    "scoring": "PRECOMPARISON_ARRAYS_ONLY; WHOLE_BLOCK_PREPARATION; NO_NEW_FILTER_ON_CROPPED_MODEL_CONTEXTS",
+    "reference_definition": "Measured targets after each pipeline own preparation; no clean common ground truth claimed",
+    "budget": {
+      "maximum_new_model_contexts": 4,
+      "real_seconds": 20,
+      "soft_deadline_seconds": 600,
+      "retry_policy": "NO_AUTOMATIC_RETRY"
+    },
+    "criteria": {
+      "engineering": "Regression tests pass; original recordings and installed source unchanged; new provenance explicit",
+      "comparison": "Report every case and aggregate errors, spectrum, output status and duration regardless of winner; no efficacy PASS threshold"
+    },
+    "prohibited": [
+      "No target-informed scaling or timing correction",
+      "No seed/window selection based on model errors",
+      "No model or source upgrades",
+      "No change of original masks or recipe",
+      "No automatic full-run launch"
+    ]
+  }
+}

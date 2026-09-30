@@ -1,0 +1,15 @@
+# Methods and limits
+
+The benchmark retains 12 measured EEG channels and withholds F3, F4, P3 and P4. It compares pinned ZUNA1.1 predictions with spherical-spline interpolation and the withheld measurements. Held-out targets are not supplied to the model's input reference or normalization. The model uses a fixed recorded seed, 16 sampling steps, float32 CPU execution, and independent five-second contexts.
+
+NMSE is mean squared prediction error divided by the target's evaluation variance. The principal summary is the arithmetic mean of four electrode-specific NMSE values. Pooled RMSE uses different weighting and is not interchangeable with mean electrode NMSE. Pearson correlation alone does not establish amplitude preservation. Undefined/tiny-support estimates must not be interpreted as valid evidence.
+
+The corrected preparation removes each channel's full-block mean before line-padded resampling to 256 Hz, uses retained-only average referencing and a 0.5–40 Hz zero-phase preparation filter, and applies the declared common post-prediction filter to measured, spline and model branches. The measured and spline branches therefore receive two filter passes. Early uncorrected analyses are retained separately. Correcting preparation also changes comparison targets; old/new score differences do not isolate model improvement against a fixed target.
+
+All eight observed evaluation blocks are retained, with five seconds excluded at each edge and the initial calibration omitted. Model-context seams, reflected partial tails and noncausal full-block preparation are disclosed. This is offline processing; the pipeline is not validated for real-time control.
+
+Run 1's montage/timing interpretation was reviewed post hoc and its historical BENCH classification remains. Run 2 has prospective acquisition declarations but separately versioned post-hoc counter-supported timing. Neither has independently established clean neural ground truth or verified optical timing for the reported comparison. Operator-confirmed template geometry is not digitized electrode geometry; reviewed coordinate clipping remains.
+
+Run 1's breathing associations do not demonstrate that respiration caused all drift. Blink-like proxy detections are not confirmed blinks, and unflagged periods are not necessarily clean. The corrected full report contains a two-sample eyes-closed/early/proxy-touched subgroup: its arithmetic values are retained historically, but it is **insufficient support / not estimable for scientific interpretation**. The short diagnostic's initially stated below-normal priority was later found unverified; see the preserved prestart-failure note. Later full comparisons verified their execution settings.
+
+The two recordings and many windows are not independent participant replications. There is no clinical claim, artifact-removal proof, prospective efficacy validation, or justified live AI deployment claim. Aggregate spectra are preserved where present; waveform figures and dense private arrays are excluded. No third-party signal is relabeled as measured hardware evidence.

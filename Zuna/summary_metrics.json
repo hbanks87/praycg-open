@@ -1,0 +1,52 @@
+{
+  "schema": "PRAYCG_PublicTwoRecordingSummary_v1_0",
+  "unit": "recording, not independent participant replication",
+  "aggregation": "mean of four per-electrode normalized mean squared errors",
+  "stages": [
+    {
+      "label": "Run 1 — initial comparison",
+      "public_dir": "run_1/03_initial_comparison",
+      "means": {
+        "spherical_spline": 0.658757263906038,
+        "zuna": 1.2118288082828501
+      },
+      "status": "CAUTION",
+      "evidence_status": null,
+      "compared_samples": 102456
+    },
+    {
+      "label": "Run 1 — guided comparison",
+      "public_dir": "run_1/04_guided_comparison",
+      "means": {
+        "spherical_spline": 0.658757263906038,
+        "zuna": 1.2240845097516286
+      },
+      "status": "CAUTION",
+      "evidence_status": "POSTHOC_EXPLORATORY",
+      "compared_samples": 102456
+    },
+    {
+      "label": "Run 1 — corrected full comparison",
+      "public_dir": "run_1/08_corrected_full_comparison/module",
+      "means": {
+        "spherical_spline": 0.6750714228719527,
+        "zuna": 1.1756550684057796
+      },
+      "status": "CAUTION",
+      "evidence_status": "POSTHOC_EXPLORATORY",
+      "compared_samples": 102456
+    },
+    {
+      "label": "Run 2 — full comparison",
+      "public_dir": "run_2/comparison",
+      "means": {
+        "spherical_spline": 4.1902426347099055,
+        "zuna": 1.087064398727744
+      },
+      "status": "CAUTION",
+      "evidence_status": "PROSPECTIVE_ACQUISITION_POSTHOC_TIMING_DESCRIPTIVE",
+      "compared_samples": 102406
+    }
+  ],
+  "warning": "Different recordings and processing stages are not a controlled estimate of improvement between versions."
+}

@@ -1,0 +1,217 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "7e25b3147fae0b785a50d842fc265aa98154f91ce960ac1b7947aef20265d9e6",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld.",
+  "record": {
+    "role": "POSTHOC_OPERATIONAL_FILTER_SENSITIVITY_NOT_MATCHED_BANDWIDTH_EFFICACY",
+    "source_npz_sha256": "44be66d1e9f5b2b7395d74c7fd1f5ce546afaca20942dc8f3bd7f33ea0c8190d",
+    "script_sha256": "58ce219afe14bce0f6104d3831a635ba004f30afc5bb6c4991291981170113bc",
+    "model_runs": 0,
+    "original_results_preserved": true,
+    "results": [
+      {
+        "phase": "before_final_comparison_filter",
+        "condition": "all",
+        "stratum": "all",
+        "seconds": 400.21875,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.75239179914857,
+            "mean_channel_nmse": 0.6643691245577457
+          },
+          "zuna": {
+            "pooled_rmse_uv": 9.978620577990014,
+            "mean_channel_nmse": 2.0655829446113163
+          }
+        }
+      },
+      {
+        "phase": "before_final_comparison_filter",
+        "condition": "all",
+        "stratum": "context_untouched",
+        "seconds": 240.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.585750669654831,
+            "mean_channel_nmse": 1.002000823698373
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.733641301826625,
+            "mean_channel_nmse": 0.7308427441112928
+          }
+        }
+      },
+      {
+        "phase": "before_final_comparison_filter",
+        "condition": "eyes_open",
+        "stratum": "all",
+        "seconds": 200.109375,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 6.039796659538094,
+            "mean_channel_nmse": 0.5978697805788301
+          },
+          "zuna": {
+            "pooled_rmse_uv": 13.300393081515429,
+            "mean_channel_nmse": 3.0450466138765147
+          }
+        }
+      },
+      {
+        "phase": "before_final_comparison_filter",
+        "condition": "eyes_open",
+        "stratum": "context_untouched",
+        "seconds": 60.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 6.00543042406577,
+            "mean_channel_nmse": 1.4328348368612254
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.866985265756763,
+            "mean_channel_nmse": 0.9490152253004173
+          }
+        }
+      },
+      {
+        "phase": "before_final_comparison_filter",
+        "condition": "eyes_closed",
+        "stratum": "all",
+        "seconds": 200.109375,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.449851294600189,
+            "mean_channel_nmse": 0.7980931656307297
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.716490343056792,
+            "mean_channel_nmse": 0.6138529303856419
+          }
+        }
+      },
+      {
+        "phase": "before_final_comparison_filter",
+        "condition": "eyes_closed",
+        "stratum": "context_untouched",
+        "seconds": 180.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.438665510211809,
+            "mean_channel_nmse": 0.8943517135030404
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.688350609768205,
+            "mean_channel_nmse": 0.6745591841374418
+          }
+        }
+      },
+      {
+        "phase": "original_after_final_comparison_filter",
+        "condition": "all",
+        "stratum": "all",
+        "seconds": 400.21875,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.734388373688511,
+            "mean_channel_nmse": 0.6587572639060386
+          },
+          "zuna": {
+            "pooled_rmse_uv": 7.752854756099487,
+            "mean_channel_nmse": 1.2240845097516286
+          }
+        }
+      },
+      {
+        "phase": "original_after_final_comparison_filter",
+        "condition": "all",
+        "stratum": "context_untouched",
+        "seconds": 240.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.554913339120192,
+            "mean_channel_nmse": 0.9419622045448675
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.111287675058417,
+            "mean_channel_nmse": 0.8154314956531054
+          }
+        }
+      },
+      {
+        "phase": "original_after_final_comparison_filter",
+        "condition": "eyes_open",
+        "stratum": "all",
+        "seconds": 200.109375,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.993290318682934,
+            "mean_channel_nmse": 0.5965476693670955
+          },
+          "zuna": {
+            "pooled_rmse_uv": 9.72277080335016,
+            "mean_channel_nmse": 1.5924365406962635
+          }
+        }
+      },
+      {
+        "phase": "original_after_final_comparison_filter",
+        "condition": "eyes_open",
+        "stratum": "context_untouched",
+        "seconds": 60.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.985213241512739,
+            "mean_channel_nmse": 1.2699080545429025
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.669549181250694,
+            "mean_channel_nmse": 1.1796463644392692
+          }
+        }
+      },
+      {
+        "phase": "original_after_final_comparison_filter",
+        "condition": "eyes_closed",
+        "stratum": "all",
+        "seconds": 200.109375,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.463230838667674,
+            "mean_channel_nmse": 0.7842996069438528
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.067666291684034,
+            "mean_channel_nmse": 0.6890836389862498
+          }
+        }
+      },
+      {
+        "phase": "original_after_final_comparison_filter",
+        "condition": "eyes_closed",
+        "stratum": "context_untouched",
+        "seconds": 180.0,
+        "methods": {
+          "spline": {
+            "pooled_rmse_uv": 5.403871182592546,
+            "mean_channel_nmse": 0.8524906765225185
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.911118639379975,
+            "mean_channel_nmse": 0.7169779164107701
+          }
+        }
+      }
+    ],
+    "limitations": [
+      "Both phases share original model predictions; this is not independent replication.",
+      "Measured and spline precomparison arrays are already bandpassed; model outputs can contain out-of-band components.",
+      "No phase may be selected after the fact as the sole favorable endpoint."
+    ]
+  }
+}

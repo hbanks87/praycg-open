@@ -1,0 +1,56 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "930132107ecdbbc26f17848ff7db781ad0c5e8fdae9c8c8d9c28ab7d6da63e1c",
+  "original_schema": "PRAYCG_PRIVATE_BLINK_PROXY_SENSITIVITY_1",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld.",
+  "record": {
+    "schema": "PRAYCG_PRIVATE_BLINK_PROXY_SENSITIVITY_1",
+    "role": "POSTHOC_DEVELOPMENT_NOT_PREREGISTRATION",
+    "source_npz": "[LOCAL_PATH_REMOVED]",
+    "source_npz_sha256": "44be66d1e9f5b2b7395d74c7fd1f5ce546afaca20942dc8f3bd7f33ea0c8190d",
+    "source_report_sha256": "7da8a88f51bd68218addc1dc5679eaabd292e8a3f5b9d68c3210944a2c7a3687",
+    "source_provenance_sha256": "c31772af3612ec73bec81e4d64e4cefc72cc1f6873276db1c722496af1aac5aa",
+    "script_sha256_at_freeze": "8d291ddd3d3598835cb4eb659eff5be62056264ecfb3b54aacd7d180c975f750",
+    "detector": {
+      "input": "retained measured Fp1 only; no hidden targets or predictions",
+      "filter": "second-order Butterworth 0.5-8 Hz, forward/backward independently per block",
+      "center_uv": 0.14120563627271387,
+      "robust_sd_uv": 6.447401750752437,
+      "scale_definition": "1.4826 * median(abs(x-median(x))) across original evaluated samples",
+      "absolute_peak_height_robust_sd": 4,
+      "peak_prominence_robust_sd": 2,
+      "minimum_peak_spacing_seconds": 0.35,
+      "exclude_detector_peaks_within_block_edge_seconds": 1,
+      "mask_before_peak_seconds": 0.25,
+      "mask_after_peak_seconds": 0.5,
+      "half_prominence_width": "recorded, not used to select events",
+      "clinical_or_blink_confirmation": false
+    },
+    "strata": [
+      "all original evaluated samples",
+      "proxy transient mask",
+      "outside proxy mask",
+      "whole model contexts touched by any proxy mask",
+      "contexts untouched by proxy masks"
+    ],
+    "additional_diagnostics": [
+      "5-20 versus20-55seconds",
+      "within0.25seconds of internal model seams versus farther",
+      "per-original-context input scale and reconstruction error",
+      "alpha power with contiguous Welch windows only"
+    ],
+    "constraints": [
+      "same masks for both methods",
+      "no outcome-guided thresholds or manual event selection",
+      "no automatic rejection of original samples",
+      "no neural ground truth claim",
+      "no original files changed",
+      "no inference or target-informed correction"
+    ]
+  }
+}

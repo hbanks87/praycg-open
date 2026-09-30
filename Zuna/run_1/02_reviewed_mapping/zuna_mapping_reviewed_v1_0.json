@@ -1,0 +1,120 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "4b4ef41027c95a2f9f9f852c9c8038d800c08ffe3026baadde03bda618847c8b",
+  "original_schema": "PRAYCG_ZunaPosthocMappingReview_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "",
+  "record": {
+    "schema": "PRAYCG_ZunaPosthocMappingReview_v1_0",
+    "confirmed": true,
+    "review_timing": "POSTHOC",
+    "xdf_sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303",
+    "channel_unit": "uV",
+    "acquisition_reference": "external_physical_reference",
+    "digital_all_channel_reference_applied": false,
+    "evidence_statement": "The operator explicitly confirmed the standard PRAYCG numbered physical electrode order shown below, and right-ear SRB connected by Y lead to Cyton and Daisy with left-ear BIAS; both ear connections were attached. This is a retrospective operator declaration, not independent physical measurement. Separately, source inspection of the identified BrainFlow+ALS bridge shows direct EEG-row publication after transpose/float32 conversion, with no software all-channel average reference. Recorded EEG channel metadata declares microvolts and passes the strict loader check.",
+    "channel_index_to_electrode": [
+      {
+        "channel_1based": 1,
+        "electrode": "Fz"
+      },
+      {
+        "channel_1based": 2,
+        "electrode": "Cz"
+      },
+      {
+        "channel_1based": 3,
+        "electrode": "Pz"
+      },
+      {
+        "channel_1based": 4,
+        "electrode": "F3"
+      },
+      {
+        "channel_1based": 5,
+        "electrode": "F4"
+      },
+      {
+        "channel_1based": 6,
+        "electrode": "C3"
+      },
+      {
+        "channel_1based": 7,
+        "electrode": "C4"
+      },
+      {
+        "channel_1based": 8,
+        "electrode": "P3"
+      },
+      {
+        "channel_1based": 9,
+        "electrode": "P4"
+      },
+      {
+        "channel_1based": 10,
+        "electrode": "T5"
+      },
+      {
+        "channel_1based": 11,
+        "electrode": "T6"
+      },
+      {
+        "channel_1based": 12,
+        "electrode": "O1"
+      },
+      {
+        "channel_1based": 13,
+        "electrode": "O2"
+      },
+      {
+        "channel_1based": 14,
+        "electrode": "T3"
+      },
+      {
+        "channel_1based": 15,
+        "electrode": "T4"
+      },
+      {
+        "channel_1based": 16,
+        "electrode": "Fp1"
+      }
+    ],
+    "operator_confirmation": {
+      "source": "Explicit user confirmations in this chat, relayed by the supervising agent",
+      "channel_order": "standard PRAYCG channel lock; exact 1-based map below",
+      "physical_reference": "right ear SRB with Y connector to Cyton and Daisy",
+      "bias_connection": "left ear BIAS",
+      "both_connections_attached": true,
+      "limitation": "No inference about SRB1 versus SRB2 beyond the operator's SRB wording; no physical inspection was performed."
+    },
+    "software_reference_evidence": {
+      "assertion": "Identified PRAYCG acquisition bridge applies no software common-average reference",
+      "eeg_read_and_conversion_source_lines": "604-609",
+      "lsl_publication_source_line": 641,
+      "bridge": {
+        "original_path": "[LOCAL_PATH_REMOVED]",
+        "snapshot_path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "03aca8de4dce62dd60df8b61dfc469a397cf9ff496f1f50aad76ef6dca86cac1"
+      },
+      "run_manifest": {
+        "original_path": "[LOCAL_PATH_REMOVED]",
+        "snapshot_path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "5bb17e4b0621519025b9bfb54bfa07ebcb5d4a5291ffb5f3aa375ee110c1490e"
+      },
+      "limitation": "Source and recorded route evidence, not independent proof of electrode contact or physical board wiring."
+    },
+    "recorded_units_evidence": {
+      "loader": "zuna_exploratory.load_native_eeg",
+      "channel_count": 16,
+      "source_sample_count": 84886,
+      "nominal_rate_hz": 125.0,
+      "outcome": "All 16 recorded channel unit metadata fields passed the explicit microvolt check",
+      "raw_data_modified": false
+    },
+    "original_draft_path": "[LOCAL_PATH_REMOVED]"
+  }
+}

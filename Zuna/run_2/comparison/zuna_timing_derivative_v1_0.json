@@ -1,0 +1,80 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "687edba383eb2b43d57e84239dec4f565f214393140d29f7b94d6030981ca839",
+  "original_schema": "PRAYCG_ZunaTimingDerivative_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED.",
+  "record": {
+    "schema": "PRAYCG_ZunaTimingDerivative_v1_0",
+    "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+    "policy_definition": {
+      "identifier": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+      "scope": "OFFLINE_POSTHOC_TIMING_DERIVATIVE",
+      "supported_route": "PRAYCG explicit-push-chunk Cyton-Daisy, 125 Hz, package step 2",
+      "endpoint_tolerance_seconds": 1e-06,
+      "package_modulus": 256,
+      "package_step": 2,
+      "supported_mapper_guards": {
+        "maximum_clock_pair_uncertainty_seconds": 0.005,
+        "clean_status_maximum_offset_change_seconds": 0.01,
+        "clean_status_lead_bounds_seconds": [
+          -1.0,
+          0.002
+        ]
+      },
+      "clock_ambiguity_guard": "Reject >= half a 128-sample counter cycle (0.512 s); residual envelope < quarter-cycle (0.256 s). These are counter-ambiguity guards, not timing accuracy claims.",
+      "grid": "Least-squares sample-index affine fit of native host-receipt timestamps within each independently counter-verified contiguous region; apply only recorded XDF clock offsets.",
+      "maximum_relative_rate_discrepancy": 0.02,
+      "missing_sample_policy": "No insertion, deletion, interpolation of EEG, or gap stitching; anomalous chunks and adjoining boundary are unverified.",
+      "selection": "All supported evidence-qualified recordings, not a retry selected by failed gates or model outcomes.",
+      "physical_sample_timing": "UNMEASURED",
+      "original_timestamps_modified": false,
+      "amplitude_or_target_information_used": false
+    },
+    "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+    "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+    "status": "COUNTER_SUPPORTED_HOST_RECEIPT_APPROXIMATION",
+    "processing_review_timing": "POSTHOC_VERSIONED_PREPARATION",
+    "run_uuid": "RUN_2",
+    "inputs": {
+      "bridge_manifest": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "838e9eed67b9e7d9d89c939fb79c37b49dc6bb916e7a40605886339ce562031d"
+      },
+      "chunk_diagnostics": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "207394e065e10797397727f045017094a3b908de1b6227a3af625761423ce43e"
+      }
+    },
+    "native_timestamp_sha256": "8bf3e076fc3b6d76a514dc75fa1115a0dbe6f377d8e36c7c86a129403bc7c72c",
+    "recorded_clock_timestamp_sha256": "1075b6e6fb04beb23ebe983618839866566c90d66ba794143368244bb97a0429",
+    "derivative_timestamp_sha256": "4c70babc0bab5d712f8d032a2e5eefb65a9b3388875309893d48464d97f6d2ab",
+    "verification_mask_sha256": "b004503dac6e2c02a5318e38ad407184b1ddde4f52533ea30d02e774220f0699",
+    "exact_endpoint_matches": 19546,
+    "maximum_endpoint_error_seconds": 0.0,
+    "source_sample_offset": 16380,
+    "recorded_samples": 82693,
+    "diagnostic_chunks": 12273,
+    "anomalous_chunks": 0,
+    "unverified_recorded_samples": 0,
+    "maximum_native_grid_residual_seconds": 0.015371569548733532,
+    "regions": [
+      {
+        "start_index": 0,
+        "stop_index": 82693,
+        "status": "COUNTER_SUPPORTED_APPROXIMATION",
+        "fitted_rate_hz": 124.99697308432988,
+        "maximum_native_residual_seconds": 0.015371569548733532,
+        "maximum_native_separation_seconds": 0.02303600311279297
+      }
+    ],
+    "original_timestamps_modified": false,
+    "samples_added_or_removed": 0,
+    "limitation": "Post-hoc sample-index timing approximation supported by exact diagnostic/XDF count alignment and recorded counters. Counters wrap and are not independently recorded in XDF; host receipt times do not establish physical ADC/display timing or prove zero hardware loss. No waveform fitting, ALS correction, target-informed selection, missing-sample filling, or raw timestamp edits.",
+    "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+  }
+}

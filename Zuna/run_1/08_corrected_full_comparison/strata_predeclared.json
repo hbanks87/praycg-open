@@ -1,0 +1,3706 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "048731df078f1c298af677e4e24605328d3acc6e2e100c267c83a306d2c4ea54",
+  "original_schema": "PRAYCG_PRIVATE_FULL_CORRECTED_DESCRIPTIVE_STRATA_V1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning.",
+  "record": {
+    "schema": "PRAYCG_PRIVATE_FULL_CORRECTED_DESCRIPTIVE_STRATA_V1_0",
+    "role": "POSTHOC_DEVELOPMENT_FROZEN_BEFORE_NEW_FULL_MODEL_RUN_NOT_PREREGISTRATION",
+    "prediction_or_error_arrays_read": false,
+    "model_inference_executed": false,
+    "original_evaluation_mask_unchanged": true,
+    "masks_are_descriptive_not_exclusions": true,
+    "actual_blink_labels": false,
+    "corrected_input_proxy_recomputed": false,
+    "bindings": {
+      "original_derivative": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "44be66d1e9f5b2b7395d74c7fd1f5ce546afaca20942dc8f3bd7f33ea0c8190d"
+      },
+      "original_provenance": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "c31772af3612ec73bec81e4d64e4cefc72cc1f6873276db1c722496af1aac5aa"
+      },
+      "original_proxy_plan": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "930132107ecdbbc26f17848ff7db781ad0c5e8fdae9c8c8d9c28ab7d6da63e1c"
+      },
+      "original_proxy_masks": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "6fabd1185b7eadae68defbf04362b952d444aa8e6304b65830eb19170de0017b"
+      },
+      "original_proxy_events": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "bcd97c8d5766e28a790ba82a59268338107f73b0bc9946259fa4445f77f04967"
+      },
+      "original_proxy_summary": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "71db1b51df6d3329130314fc4ea444e8f361a0fde7c6bcd465ec1c9055c8edc1"
+      },
+      "earlier_short_plan": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "e27e234c34fcbccf877ccc8da619bf3910032514364d97749598483aebb4da1c"
+      },
+      "corrected_preparation_receipt": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "947195318a8bef060d15212b24287a089fe69e1508c2e752b0ac10d2282af785"
+      },
+      "corrected_preparation_arrays": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "c29e8b6e4852bb9da27b8307ad54bd6c6619833cae18fdf844c4edd6eb545fa0"
+      },
+      "freeze_script": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "7f7c7e54ace7be8cdacf8f42abdec17ceca5f0a4ad710073c53ef3fc370152c6"
+      }
+    },
+    "masks_path": "[LOCAL_PATH_REMOVED]",
+    "masks_sha256": "7658f0257931484e3699bb3eeba803160baaaea89ace651b2cf8a3bce4e6420b",
+    "mask_shape": [
+      122926
+    ],
+    "sample_rate_hz": 256.0,
+    "original_evaluated_samples": 102456,
+    "original_sample_equivalent_seconds": 400.21875,
+    "original_mask_sha256": "47547f276e16b1a6087934092b7f4abaa9d5d52ceaff1c89b842831555c03ee2",
+    "base_masks": {
+      "all_original": {
+        "sample_count": 102456,
+        "sample_equivalent_seconds": 400.21875,
+        "boolean_mask_sha256": "47547f276e16b1a6087934092b7f4abaa9d5d52ceaff1c89b842831555c03ee2"
+      },
+      "eyes_open": {
+        "sample_count": 51228,
+        "sample_equivalent_seconds": 200.109375,
+        "boolean_mask_sha256": "85aad4a42b9d2a7c2104fb81a1e34370c64f935f53c8877bdcefa17c36a7b423"
+      },
+      "eyes_closed": {
+        "sample_count": 51228,
+        "sample_equivalent_seconds": 200.109375,
+        "boolean_mask_sha256": "cd836c0e9964e646ee5bfa425da622280f336fe7056aa9391ca2e1d8a12572d0"
+      },
+      "early_5_20": {
+        "sample_count": 30721,
+        "sample_equivalent_seconds": 120.00390625,
+        "boolean_mask_sha256": "53964b0f1403f0eee4926e4fd2a72a75c7053f621ec7f510777ec317b335cb7d"
+      },
+      "late_from20_to_original_mask_end": {
+        "sample_count": 71735,
+        "sample_equivalent_seconds": 280.21484375,
+        "boolean_mask_sha256": "34c9b604d26a7deb8a6901b624970ed37e89153a3643491818483b9dc1d094e9"
+      },
+      "proxy_local": {
+        "sample_count": 11180,
+        "sample_equivalent_seconds": 43.671875,
+        "boolean_mask_sha256": "ebb3fb78026892e6b16e52a4147b7d04b668b3fab385a02dad19de714dfd1321"
+      },
+      "proxy_outside_local": {
+        "sample_count": 91276,
+        "sample_equivalent_seconds": 356.546875,
+        "boolean_mask_sha256": "c1a6ad21315a2f4ee6c91bf3c80ef90d8c75091c7fe09f8bb8afe052aff2b2a8"
+      },
+      "proxy_context_touched": {
+        "sample_count": 41016,
+        "sample_equivalent_seconds": 160.21875,
+        "boolean_mask_sha256": "54b99976d74dd3c89886e214dc76e37b7f57d04d1a545913f97f2d43c97cf583"
+      },
+      "proxy_context_untouched": {
+        "sample_count": 61440,
+        "sample_equivalent_seconds": 240.0,
+        "boolean_mask_sha256": "c3d3cebcd5f7c6edb6c5ce6328d7d5448fc60b344b4a0aef746d59b15bcd4dbe"
+      }
+    },
+    "detector_parameters_preserved_verbatim": {
+      "input": "retained measured Fp1 only; no hidden targets or predictions",
+      "filter": "second-order Butterworth 0.5-8 Hz, forward/backward independently per block",
+      "center_uv": 0.14120563627271387,
+      "robust_sd_uv": 6.447401750752437,
+      "scale_definition": "1.4826 * median(abs(x-median(x))) across original evaluated samples",
+      "absolute_peak_height_robust_sd": 4,
+      "peak_prominence_robust_sd": 2,
+      "minimum_peak_spacing_seconds": 0.35,
+      "exclude_detector_peaks_within_block_edge_seconds": 1,
+      "mask_before_peak_seconds": 0.25,
+      "mask_after_peak_seconds": 0.5,
+      "half_prominence_width": "recorded, not used to select events",
+      "clinical_or_blink_confirmation": false
+    },
+    "original_proxy_role": "POSTHOC_DEVELOPMENT_NOT_PREREGISTRATION",
+    "frozen_proxy_event_total": 109,
+    "frozen_proxy_events_in_original_mask": 66,
+    "original_proxy_summary_preserved_verbatim": {
+      "robust_sd_uv": 6.447401750752437,
+      "threshold_uv": 25.78960700300975,
+      "event_count_total": 109,
+      "events_in_evaluation": 66,
+      "evaluated_seconds": 400.21875,
+      "transient_evaluated_seconds": 43.671875,
+      "context_touched_evaluated_seconds": 160.21875,
+      "per_block": [
+        {
+          "block": "zuna_validation_eyes_open_1",
+          "event_count": 9
+        },
+        {
+          "block": "zuna_validation_eyes_closed_1",
+          "event_count": 4
+        },
+        {
+          "block": "zuna_validation_eyes_closed_2",
+          "event_count": 1
+        },
+        {
+          "block": "zuna_validation_eyes_open_2",
+          "event_count": 17
+        },
+        {
+          "block": "zuna_validation_eyes_closed_3",
+          "event_count": 1
+        },
+        {
+          "block": "zuna_validation_eyes_open_3",
+          "event_count": 18
+        },
+        {
+          "block": "zuna_validation_eyes_open_4",
+          "event_count": 14
+        },
+        {
+          "block": "zuna_validation_eyes_closed_4",
+          "event_count": 2
+        }
+      ]
+    },
+    "strata": [
+      {
+        "npz_key": "mask__all__all__all",
+        "condition": "all",
+        "interval": "all",
+        "proxy_category": "all",
+        "sample_count": 102456,
+        "sample_equivalent_seconds": 400.21875,
+        "frozen_proxy_peak_count": 66,
+        "frozen_proxy_peaks_per_minute": 9.894588896697117,
+        "empty": false,
+        "boolean_mask_sha256": "47547f276e16b1a6087934092b7f4abaa9d5d52ceaff1c89b842831555c03ee2",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 9
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 12808,
+            "sample_equivalent_seconds": 50.03125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 12804,
+            "sample_equivalent_seconds": 50.015625,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 17
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 12808,
+            "sample_equivalent_seconds": 50.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 18
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 14
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 12808,
+            "sample_equivalent_seconds": 50.03125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__all__proxy_local",
+        "condition": "all",
+        "interval": "all",
+        "proxy_category": "proxy_local",
+        "sample_count": 11180,
+        "sample_equivalent_seconds": 43.671875,
+        "frozen_proxy_peak_count": 66,
+        "frozen_proxy_peaks_per_minute": 90.67620751341681,
+        "empty": false,
+        "boolean_mask_sha256": "ebb3fb78026892e6b16e52a4147b7d04b668b3fab385a02dad19de714dfd1321",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 1596,
+            "sample_equivalent_seconds": 6.234375,
+            "frozen_proxy_peak_count": 9
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 746,
+            "sample_equivalent_seconds": 2.9140625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 2942,
+            "sample_equivalent_seconds": 11.4921875,
+            "frozen_proxy_peak_count": 17
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 3024,
+            "sample_equivalent_seconds": 11.8125,
+            "frozen_proxy_peak_count": 18
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 2160,
+            "sample_equivalent_seconds": 8.4375,
+            "frozen_proxy_peak_count": 14
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 328,
+            "sample_equivalent_seconds": 1.28125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__all__proxy_outside_local",
+        "condition": "all",
+        "interval": "all",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 91276,
+        "sample_equivalent_seconds": 356.546875,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "c1a6ad21315a2f4ee6c91bf3c80ef90d8c75091c7fe09f8bb8afe052aff2b2a8",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 11211,
+            "sample_equivalent_seconds": 43.79296875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 12062,
+            "sample_equivalent_seconds": 47.1171875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 12612,
+            "sample_equivalent_seconds": 49.265625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 9865,
+            "sample_equivalent_seconds": 38.53515625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 12616,
+            "sample_equivalent_seconds": 49.28125,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 9783,
+            "sample_equivalent_seconds": 38.21484375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 10647,
+            "sample_equivalent_seconds": 41.58984375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 12480,
+            "sample_equivalent_seconds": 48.75,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__all__proxy_context_touched",
+        "condition": "all",
+        "interval": "all",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 41016,
+        "sample_equivalent_seconds": 160.21875,
+        "frozen_proxy_peak_count": 66,
+        "frozen_proxy_peaks_per_minute": 24.716208308952602,
+        "empty": false,
+        "boolean_mask_sha256": "54b99976d74dd3c89886e214dc76e37b7f57d04d1a545913f97f2d43c97cf583",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 6407,
+            "sample_equivalent_seconds": 25.02734375,
+            "frozen_proxy_peak_count": 9
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 1284,
+            "sample_equivalent_seconds": 5.015625,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 11527,
+            "sample_equivalent_seconds": 45.02734375,
+            "frozen_proxy_peak_count": 17
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 10247,
+            "sample_equivalent_seconds": 40.02734375,
+            "frozen_proxy_peak_count": 18
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 7687,
+            "sample_equivalent_seconds": 30.02734375,
+            "frozen_proxy_peak_count": 14
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__all__proxy_context_untouched",
+        "condition": "all",
+        "interval": "all",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 61440,
+        "sample_equivalent_seconds": 240.0,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "c3d3cebcd5f7c6edb6c5ce6328d7d5448fc60b344b4a0aef746d59b15bcd4dbe",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 6400,
+            "sample_equivalent_seconds": 25.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1280,
+            "sample_equivalent_seconds": 5.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 2560,
+            "sample_equivalent_seconds": 10.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 5120,
+            "sample_equivalent_seconds": 20.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__early_5_20__all",
+        "condition": "all",
+        "interval": "early_5_20",
+        "proxy_category": "all",
+        "sample_count": 30721,
+        "sample_equivalent_seconds": 120.00390625,
+        "frozen_proxy_peak_count": 23,
+        "frozen_proxy_peaks_per_minute": 11.499625663227109,
+        "empty": false,
+        "boolean_mask_sha256": "53964b0f1403f0eee4926e4fd2a72a75c7053f621ec7f510777ec317b335cb7d",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 7
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 8
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__early_5_20__proxy_local",
+        "condition": "all",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_local",
+        "sample_count": 4053,
+        "sample_equivalent_seconds": 15.83203125,
+        "frozen_proxy_peak_count": 23,
+        "frozen_proxy_peaks_per_minute": 87.16506291635825,
+        "empty": false,
+        "boolean_mask_sha256": "8d2b5c1b0bd16b2111afdfaa8dd7aa415b41503e8964814dd3d4103ed55f698b",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 733,
+            "sample_equivalent_seconds": 2.86328125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1337,
+            "sample_equivalent_seconds": 5.22265625,
+            "frozen_proxy_peak_count": 7
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 1397,
+            "sample_equivalent_seconds": 5.45703125,
+            "frozen_proxy_peak_count": 8
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 586,
+            "sample_equivalent_seconds": 2.2890625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__early_5_20__proxy_outside_local",
+        "condition": "all",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 26668,
+        "sample_equivalent_seconds": 104.171875,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "e309ad0cbc9e4b897784db1c0ca78212ba727aaaa0ec5af5c7cbe114bd57ac22",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 3107,
+            "sample_equivalent_seconds": 12.13671875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 2503,
+            "sample_equivalent_seconds": 9.77734375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 2443,
+            "sample_equivalent_seconds": 9.54296875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 3254,
+            "sample_equivalent_seconds": 12.7109375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__early_5_20__proxy_context_touched",
+        "condition": "all",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 12803,
+        "sample_equivalent_seconds": 50.01171875,
+        "frozen_proxy_peak_count": 23,
+        "frozen_proxy_peaks_per_minute": 27.593532765758024,
+        "empty": false,
+        "boolean_mask_sha256": "302524445d859edcd76406050bfe2998786c1d71978c977ad498ef39290fc2b9",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 2560,
+            "sample_equivalent_seconds": 10.0,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 1,
+            "sample_equivalent_seconds": 0.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 7
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 8
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 2561,
+            "sample_equivalent_seconds": 10.00390625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 1,
+            "sample_equivalent_seconds": 0.00390625,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__early_5_20__proxy_context_untouched",
+        "condition": "all",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 17918,
+        "sample_equivalent_seconds": 69.9921875,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "86f8cc536304514c923a8f83e0be7ed411e8e9d148a86c02d8524d7d35da7d5a",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 1280,
+            "sample_equivalent_seconds": 5.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 3839,
+            "sample_equivalent_seconds": 14.99609375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 1279,
+            "sample_equivalent_seconds": 4.99609375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 3839,
+            "sample_equivalent_seconds": 14.99609375,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__late_from20_to_original_mask_end__all",
+        "condition": "all",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "all",
+        "sample_count": 71735,
+        "sample_equivalent_seconds": 280.21484375,
+        "frozen_proxy_peak_count": 43,
+        "frozen_proxy_peaks_per_minute": 9.207221021816407,
+        "empty": false,
+        "boolean_mask_sha256": "34c9b604d26a7deb8a6901b624970ed37e89153a3643491818483b9dc1d094e9",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 5
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 8968,
+            "sample_equivalent_seconds": 35.03125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 8963,
+            "sample_equivalent_seconds": 35.01171875,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 8968,
+            "sample_equivalent_seconds": 35.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 8968,
+            "sample_equivalent_seconds": 35.03125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__late_from20_to_original_mask_end__proxy_local",
+        "condition": "all",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_local",
+        "sample_count": 7127,
+        "sample_equivalent_seconds": 27.83984375,
+        "frozen_proxy_peak_count": 43,
+        "frozen_proxy_peaks_per_minute": 92.67293391328751,
+        "empty": false,
+        "boolean_mask_sha256": "6c69f98d70dce5bf6c8ec2bd930b4c6cd2f438daf86ee94c29e267c1e6edabb2",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 863,
+            "sample_equivalent_seconds": 3.37109375,
+            "frozen_proxy_peak_count": 5
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 746,
+            "sample_equivalent_seconds": 2.9140625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1605,
+            "sample_equivalent_seconds": 6.26953125,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 1627,
+            "sample_equivalent_seconds": 6.35546875,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 1574,
+            "sample_equivalent_seconds": 6.1484375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 328,
+            "sample_equivalent_seconds": 1.28125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__late_from20_to_original_mask_end__proxy_outside_local",
+        "condition": "all",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 64608,
+        "sample_equivalent_seconds": 252.375,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "39ba748a8357b3a1d5c00abe59126490311392f6249e26e8f5a1c27fcac2b351",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 8104,
+            "sample_equivalent_seconds": 31.65625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 8222,
+            "sample_equivalent_seconds": 32.1171875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 8771,
+            "sample_equivalent_seconds": 34.26171875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 7362,
+            "sample_equivalent_seconds": 28.7578125,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 8776,
+            "sample_equivalent_seconds": 34.28125,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 7340,
+            "sample_equivalent_seconds": 28.671875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 7393,
+            "sample_equivalent_seconds": 28.87890625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 8640,
+            "sample_equivalent_seconds": 33.75,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__late_from20_to_original_mask_end__proxy_context_touched",
+        "condition": "all",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 28213,
+        "sample_equivalent_seconds": 110.20703125,
+        "frozen_proxy_peak_count": 43,
+        "frozen_proxy_peaks_per_minute": 23.410484528408887,
+        "empty": false,
+        "boolean_mask_sha256": "0e33ba11c2a65fc8ab7f3edbc8de9312b1fa87d1af2a846923c7d0f3eb3429cd",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 3847,
+            "sample_equivalent_seconds": 15.02734375,
+            "frozen_proxy_peak_count": 5
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 1287,
+            "sample_equivalent_seconds": 5.02734375,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 1284,
+            "sample_equivalent_seconds": 5.015625,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 7687,
+            "sample_equivalent_seconds": 30.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 6407,
+            "sample_equivalent_seconds": 25.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 5126,
+            "sample_equivalent_seconds": 20.0234375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 1287,
+            "sample_equivalent_seconds": 5.02734375,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__all__late_from20_to_original_mask_end__proxy_context_untouched",
+        "condition": "all",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 43522,
+        "sample_equivalent_seconds": 170.0078125,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "3750738ec8942799c12b4b51f508d5e8c75a4639742acda4c8ff0c6da363094c",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 5120,
+            "sample_equivalent_seconds": 20.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 7681,
+            "sample_equivalent_seconds": 30.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 7679,
+            "sample_equivalent_seconds": 29.99609375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1280,
+            "sample_equivalent_seconds": 5.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 7680,
+            "sample_equivalent_seconds": 30.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 2560,
+            "sample_equivalent_seconds": 10.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 7681,
+            "sample_equivalent_seconds": 30.00390625,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__all__all",
+        "condition": "eyes_open",
+        "interval": "all",
+        "proxy_category": "all",
+        "sample_count": 51228,
+        "sample_equivalent_seconds": 200.109375,
+        "frozen_proxy_peak_count": 58,
+        "frozen_proxy_peaks_per_minute": 17.390489576013117,
+        "empty": false,
+        "boolean_mask_sha256": "85aad4a42b9d2a7c2104fb81a1e34370c64f935f53c8877bdcefa17c36a7b423",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 9
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 17
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 18
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 12807,
+            "sample_equivalent_seconds": 50.02734375,
+            "frozen_proxy_peak_count": 14
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__all__proxy_local",
+        "condition": "eyes_open",
+        "interval": "all",
+        "proxy_category": "proxy_local",
+        "sample_count": 9722,
+        "sample_equivalent_seconds": 37.9765625,
+        "frozen_proxy_peak_count": 58,
+        "frozen_proxy_peaks_per_minute": 91.6354659535075,
+        "empty": false,
+        "boolean_mask_sha256": "55029f45af8c703016d70abd8eef4d448274ef7c68b049dad3a834d48fef110b",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 1596,
+            "sample_equivalent_seconds": 6.234375,
+            "frozen_proxy_peak_count": 9
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 2942,
+            "sample_equivalent_seconds": 11.4921875,
+            "frozen_proxy_peak_count": 17
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 3024,
+            "sample_equivalent_seconds": 11.8125,
+            "frozen_proxy_peak_count": 18
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 2160,
+            "sample_equivalent_seconds": 8.4375,
+            "frozen_proxy_peak_count": 14
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__all__proxy_outside_local",
+        "condition": "eyes_open",
+        "interval": "all",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 41506,
+        "sample_equivalent_seconds": 162.1328125,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "c7b0bc36ffcaecb040ad025458f6e1b79dc78e5c273aa9a17f358082b81b633b",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 11211,
+            "sample_equivalent_seconds": 43.79296875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 9865,
+            "sample_equivalent_seconds": 38.53515625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 9783,
+            "sample_equivalent_seconds": 38.21484375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 10647,
+            "sample_equivalent_seconds": 41.58984375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__all__proxy_context_touched",
+        "condition": "eyes_open",
+        "interval": "all",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 35868,
+        "sample_equivalent_seconds": 140.109375,
+        "frozen_proxy_peak_count": 58,
+        "frozen_proxy_peaks_per_minute": 24.83773837403814,
+        "empty": false,
+        "boolean_mask_sha256": "5adc2e469c9ce39699386afe21f09c4cd9a3a37c17de560d234768cdbb497579",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 6407,
+            "sample_equivalent_seconds": 25.02734375,
+            "frozen_proxy_peak_count": 9
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 11527,
+            "sample_equivalent_seconds": 45.02734375,
+            "frozen_proxy_peak_count": 17
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 10247,
+            "sample_equivalent_seconds": 40.02734375,
+            "frozen_proxy_peak_count": 18
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 7687,
+            "sample_equivalent_seconds": 30.02734375,
+            "frozen_proxy_peak_count": 14
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__all__proxy_context_untouched",
+        "condition": "eyes_open",
+        "interval": "all",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 15360,
+        "sample_equivalent_seconds": 60.0,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "bc8458fd2c2b9b40d6c306c24483b065bd577238fc24f720f6a96f963dd54f98",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 6400,
+            "sample_equivalent_seconds": 25.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1280,
+            "sample_equivalent_seconds": 5.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 2560,
+            "sample_equivalent_seconds": 10.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 5120,
+            "sample_equivalent_seconds": 20.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__early_5_20__all",
+        "condition": "eyes_open",
+        "interval": "early_5_20",
+        "proxy_category": "all",
+        "sample_count": 15360,
+        "sample_equivalent_seconds": 60.0,
+        "frozen_proxy_peak_count": 23,
+        "frozen_proxy_peaks_per_minute": 23.0,
+        "empty": false,
+        "boolean_mask_sha256": "c5be35323a1075e469b22eb8cc51875833498efe86707d7c0e8fb4dd81e50ff5",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 7
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 8
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__early_5_20__proxy_local",
+        "condition": "eyes_open",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_local",
+        "sample_count": 4053,
+        "sample_equivalent_seconds": 15.83203125,
+        "frozen_proxy_peak_count": 23,
+        "frozen_proxy_peaks_per_minute": 87.16506291635825,
+        "empty": false,
+        "boolean_mask_sha256": "8d2b5c1b0bd16b2111afdfaa8dd7aa415b41503e8964814dd3d4103ed55f698b",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 733,
+            "sample_equivalent_seconds": 2.86328125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1337,
+            "sample_equivalent_seconds": 5.22265625,
+            "frozen_proxy_peak_count": 7
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 1397,
+            "sample_equivalent_seconds": 5.45703125,
+            "frozen_proxy_peak_count": 8
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 586,
+            "sample_equivalent_seconds": 2.2890625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__early_5_20__proxy_outside_local",
+        "condition": "eyes_open",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 11307,
+        "sample_equivalent_seconds": 44.16796875,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "3c2dd4858aa701c2759463bef8bc910edb882e84261ee51a1282243f961f7a83",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 3107,
+            "sample_equivalent_seconds": 12.13671875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 2503,
+            "sample_equivalent_seconds": 9.77734375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 2443,
+            "sample_equivalent_seconds": 9.54296875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 3254,
+            "sample_equivalent_seconds": 12.7109375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__early_5_20__proxy_context_touched",
+        "condition": "eyes_open",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 12801,
+        "sample_equivalent_seconds": 50.00390625,
+        "frozen_proxy_peak_count": 23,
+        "frozen_proxy_peaks_per_minute": 27.59784391844387,
+        "empty": false,
+        "boolean_mask_sha256": "2de7b0d6b4729698f305c11d6d3f338ebcc260bbf397ac4d8f288957388a7877",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 2560,
+            "sample_equivalent_seconds": 10.0,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 7
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 8
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 2561,
+            "sample_equivalent_seconds": 10.00390625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__early_5_20__proxy_context_untouched",
+        "condition": "eyes_open",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 2559,
+        "sample_equivalent_seconds": 9.99609375,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "fc279d62d9c040e2a5f2f91446e8c04ac35ffb1961b35fcfe3fc1b0e67a734b5",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 1280,
+            "sample_equivalent_seconds": 5.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 1279,
+            "sample_equivalent_seconds": 4.99609375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__late_from20_to_original_mask_end__all",
+        "condition": "eyes_open",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "all",
+        "sample_count": 35868,
+        "sample_equivalent_seconds": 140.109375,
+        "frozen_proxy_peak_count": 35,
+        "frozen_proxy_peaks_per_minute": 14.988290398126464,
+        "empty": false,
+        "boolean_mask_sha256": "513725ce5d1b7a261872910a530de8c8b8002523158f2083e9a39e1188d789dc",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 5
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 8967,
+            "sample_equivalent_seconds": 35.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__late_from20_to_original_mask_end__proxy_local",
+        "condition": "eyes_open",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_local",
+        "sample_count": 5669,
+        "sample_equivalent_seconds": 22.14453125,
+        "frozen_proxy_peak_count": 35,
+        "frozen_proxy_peaks_per_minute": 94.83153995413653,
+        "empty": false,
+        "boolean_mask_sha256": "6cb4b4c3632f8875e72c847c6cf98d70faa3e7322dc2f9945f04c7365a828a47",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 863,
+            "sample_equivalent_seconds": 3.37109375,
+            "frozen_proxy_peak_count": 5
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1605,
+            "sample_equivalent_seconds": 6.26953125,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 1627,
+            "sample_equivalent_seconds": 6.35546875,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 1574,
+            "sample_equivalent_seconds": 6.1484375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__late_from20_to_original_mask_end__proxy_outside_local",
+        "condition": "eyes_open",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 30199,
+        "sample_equivalent_seconds": 117.96484375,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "64e4c420e42bc44de0a0785be3c14c8edb572179a29e84e119db8be930080532",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 8104,
+            "sample_equivalent_seconds": 31.65625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 7362,
+            "sample_equivalent_seconds": 28.7578125,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 7340,
+            "sample_equivalent_seconds": 28.671875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 7393,
+            "sample_equivalent_seconds": 28.87890625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__late_from20_to_original_mask_end__proxy_context_touched",
+        "condition": "eyes_open",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 23067,
+        "sample_equivalent_seconds": 90.10546875,
+        "frozen_proxy_peak_count": 35,
+        "frozen_proxy_peaks_per_minute": 23.306021589283393,
+        "empty": false,
+        "boolean_mask_sha256": "6d9a47370eec26c7e60f421d7e25c40c8e90771b73b69d8cdbd6682127c0fb5a",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 3847,
+            "sample_equivalent_seconds": 15.02734375,
+            "frozen_proxy_peak_count": 5
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 7687,
+            "sample_equivalent_seconds": 30.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 6407,
+            "sample_equivalent_seconds": 25.02734375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 5126,
+            "sample_equivalent_seconds": 20.0234375,
+            "frozen_proxy_peak_count": 10
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_open__late_from20_to_original_mask_end__proxy_context_untouched",
+        "condition": "eyes_open",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 12801,
+        "sample_equivalent_seconds": 50.00390625,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "107bf1f2c41f2288a649995623ca35f9160919ce3a85fb97a1448dc0f848166f",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 5120,
+            "sample_equivalent_seconds": 20.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 1280,
+            "sample_equivalent_seconds": 5.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 2560,
+            "sample_equivalent_seconds": 10.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__all__all",
+        "condition": "eyes_closed",
+        "interval": "all",
+        "proxy_category": "all",
+        "sample_count": 51228,
+        "sample_equivalent_seconds": 200.109375,
+        "frozen_proxy_peak_count": 8,
+        "frozen_proxy_peaks_per_minute": 2.3986882173811197,
+        "empty": false,
+        "boolean_mask_sha256": "cd836c0e9964e646ee5bfa425da622280f336fe7056aa9391ca2e1d8a12572d0",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 12808,
+            "sample_equivalent_seconds": 50.03125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 12804,
+            "sample_equivalent_seconds": 50.015625,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 12808,
+            "sample_equivalent_seconds": 50.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 12808,
+            "sample_equivalent_seconds": 50.03125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__all__proxy_local",
+        "condition": "eyes_closed",
+        "interval": "all",
+        "proxy_category": "proxy_local",
+        "sample_count": 1458,
+        "sample_equivalent_seconds": 5.6953125,
+        "frozen_proxy_peak_count": 8,
+        "frozen_proxy_peaks_per_minute": 84.2798353909465,
+        "empty": false,
+        "boolean_mask_sha256": "4a6fdd1d5e3c2c3998a06e06c339f175455f231b5f51ce8c7d428a2b981dc662",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 746,
+            "sample_equivalent_seconds": 2.9140625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 328,
+            "sample_equivalent_seconds": 1.28125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__all__proxy_outside_local",
+        "condition": "eyes_closed",
+        "interval": "all",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 49770,
+        "sample_equivalent_seconds": 194.4140625,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "43f193e8a12edc72c8723a15ddcb5e091ece3d2e1ad9be055e009352e942adf6",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 12062,
+            "sample_equivalent_seconds": 47.1171875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 12612,
+            "sample_equivalent_seconds": 49.265625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 12616,
+            "sample_equivalent_seconds": 49.28125,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 12480,
+            "sample_equivalent_seconds": 48.75,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__all__proxy_context_touched",
+        "condition": "eyes_closed",
+        "interval": "all",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 5148,
+        "sample_equivalent_seconds": 20.109375,
+        "frozen_proxy_peak_count": 8,
+        "frozen_proxy_peaks_per_minute": 23.86946386946387,
+        "empty": false,
+        "boolean_mask_sha256": "676bbbbfe76e9121a0cedc7762aff31cd61305b67450dbd3d1853face218cbb7",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 1284,
+            "sample_equivalent_seconds": 5.015625,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__all__proxy_context_untouched",
+        "condition": "eyes_closed",
+        "interval": "all",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 46080,
+        "sample_equivalent_seconds": 180.0,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "0fb45fd50d318c212dfc97d6da7c81c58f6e395354a12cc50ca4c546ce7402a7",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 11520,
+            "sample_equivalent_seconds": 45.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__early_5_20__all",
+        "condition": "eyes_closed",
+        "interval": "early_5_20",
+        "proxy_category": "all",
+        "sample_count": 15361,
+        "sample_equivalent_seconds": 60.00390625,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "cceb0b25c0a8655ab960668c9c2f9db906f41e987b162792101ebfc5da467d0e",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__early_5_20__proxy_local",
+        "condition": "eyes_closed",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_local",
+        "sample_count": 0,
+        "sample_equivalent_seconds": 0.0,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": null,
+        "empty": true,
+        "boolean_mask_sha256": "6266e29c37ce19d897db0d548d9ff71f71fc03fbc59ddce14ef08ec7c5281b37",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__early_5_20__proxy_outside_local",
+        "condition": "eyes_closed",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 15361,
+        "sample_equivalent_seconds": 60.00390625,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "cceb0b25c0a8655ab960668c9c2f9db906f41e987b162792101ebfc5da467d0e",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__early_5_20__proxy_context_touched",
+        "condition": "eyes_closed",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 2,
+        "sample_equivalent_seconds": 0.0078125,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "26f39c118df5e797a9ca96762ee6f7e17967994185eb75da41204f1d152512dc",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 1,
+            "sample_equivalent_seconds": 0.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 1,
+            "sample_equivalent_seconds": 0.00390625,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__early_5_20__proxy_context_untouched",
+        "condition": "eyes_closed",
+        "interval": "early_5_20",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 15359,
+        "sample_equivalent_seconds": 59.99609375,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "fb85b4d518d0842dcb18d52a3279f34bd9ec2173b3108d63bd1968189690fe70",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 3839,
+            "sample_equivalent_seconds": 14.99609375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 3841,
+            "sample_equivalent_seconds": 15.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 3840,
+            "sample_equivalent_seconds": 15.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 3839,
+            "sample_equivalent_seconds": 14.99609375,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__late_from20_to_original_mask_end__all",
+        "condition": "eyes_closed",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "all",
+        "sample_count": 35867,
+        "sample_equivalent_seconds": 140.10546875,
+        "frozen_proxy_peak_count": 8,
+        "frozen_proxy_peaks_per_minute": 3.425990464772632,
+        "empty": false,
+        "boolean_mask_sha256": "7203a28546b94bf3bd3345d9db0530e16301814977b1a0e9db79ceebea8699a8",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 8968,
+            "sample_equivalent_seconds": 35.03125,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 8963,
+            "sample_equivalent_seconds": 35.01171875,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 8968,
+            "sample_equivalent_seconds": 35.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 8968,
+            "sample_equivalent_seconds": 35.03125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__late_from20_to_original_mask_end__proxy_local",
+        "condition": "eyes_closed",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_local",
+        "sample_count": 1458,
+        "sample_equivalent_seconds": 5.6953125,
+        "frozen_proxy_peak_count": 8,
+        "frozen_proxy_peaks_per_minute": 84.2798353909465,
+        "empty": false,
+        "boolean_mask_sha256": "4a6fdd1d5e3c2c3998a06e06c339f175455f231b5f51ce8c7d428a2b981dc662",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 746,
+            "sample_equivalent_seconds": 2.9140625,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 192,
+            "sample_equivalent_seconds": 0.75,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 328,
+            "sample_equivalent_seconds": 1.28125,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__late_from20_to_original_mask_end__proxy_outside_local",
+        "condition": "eyes_closed",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_outside_local",
+        "sample_count": 34409,
+        "sample_equivalent_seconds": 134.41015625,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "df16fd469b887487d1ea9768a04f994f64e625bb4b38ed55611ac74e88271399",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 8222,
+            "sample_equivalent_seconds": 32.1171875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 8771,
+            "sample_equivalent_seconds": 34.26171875,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 8776,
+            "sample_equivalent_seconds": 34.28125,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 8640,
+            "sample_equivalent_seconds": 33.75,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__late_from20_to_original_mask_end__proxy_context_touched",
+        "condition": "eyes_closed",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_context_touched",
+        "sample_count": 5146,
+        "sample_equivalent_seconds": 20.1015625,
+        "frozen_proxy_peak_count": 8,
+        "frozen_proxy_peaks_per_minute": 23.87874076952973,
+        "empty": false,
+        "boolean_mask_sha256": "19044515e7c9fe7fa02e7683b647e7e55d4dd0b317b7c0c7933b3c3c6cd815ef",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 1287,
+            "sample_equivalent_seconds": 5.02734375,
+            "frozen_proxy_peak_count": 4
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 1284,
+            "sample_equivalent_seconds": 5.015625,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 1288,
+            "sample_equivalent_seconds": 5.03125,
+            "frozen_proxy_peak_count": 1
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 1287,
+            "sample_equivalent_seconds": 5.02734375,
+            "frozen_proxy_peak_count": 2
+          }
+        ]
+      },
+      {
+        "npz_key": "mask__eyes_closed__late_from20_to_original_mask_end__proxy_context_untouched",
+        "condition": "eyes_closed",
+        "interval": "late_from20_to_original_mask_end",
+        "proxy_category": "proxy_context_untouched",
+        "sample_count": 30721,
+        "sample_equivalent_seconds": 120.00390625,
+        "frozen_proxy_peak_count": 0,
+        "frozen_proxy_peaks_per_minute": 0.0,
+        "empty": false,
+        "boolean_mask_sha256": "e102fb077c0bb0399851038b268f8ee63ff369700e275bfdc3007dc958896ce6",
+        "per_block": [
+          {
+            "block_index": 0,
+            "node_id": "zuna_validation_eyes_open_1",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 1,
+            "node_id": "zuna_validation_eyes_closed_1",
+            "condition": "eyes_closed",
+            "sample_count": 7681,
+            "sample_equivalent_seconds": 30.00390625,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 2,
+            "node_id": "zuna_validation_eyes_closed_2",
+            "condition": "eyes_closed",
+            "sample_count": 7679,
+            "sample_equivalent_seconds": 29.99609375,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 3,
+            "node_id": "zuna_validation_eyes_open_2",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 4,
+            "node_id": "zuna_validation_eyes_closed_3",
+            "condition": "eyes_closed",
+            "sample_count": 7680,
+            "sample_equivalent_seconds": 30.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 5,
+            "node_id": "zuna_validation_eyes_open_3",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 6,
+            "node_id": "zuna_validation_eyes_open_4",
+            "condition": "eyes_open",
+            "sample_count": 0,
+            "sample_equivalent_seconds": 0.0,
+            "frozen_proxy_peak_count": 0
+          },
+          {
+            "block_index": 7,
+            "node_id": "zuna_validation_eyes_closed_4",
+            "condition": "eyes_closed",
+            "sample_count": 7681,
+            "sample_equivalent_seconds": 30.00390625,
+            "frozen_proxy_peak_count": 0
+          }
+        ]
+      }
+    ],
+    "inclusion_policy": "Primary full comparison retains every original eligible sample; no category is an exclusion.",
+    "empty_or_short_stratum_policy": "Report sample count and NOT_ESTIMABLE when required statistics lack support; never replace intervals or change thresholds.",
+    "spectral_policy": "Only complete, contiguous within-block Welch windows wholly inside the descriptive mask; never concatenate disjoint mask pieces. Record usable windows/coverage.",
+    "limitations": [
+      "The proxy was computed on historical preparation, which had a demonstrated boundary artifact; frozen labels are imperfect historical categories, not corrected-input blink detection.",
+      "Proxy-untouched and outside-local-proxy do not mean artifact-free or clean neural ground truth.",
+      "All proxy parameters, events and masks are reused, not retuned using corrected model output.",
+      "Early means relative seconds [5,20); later means [20, original eligible endpoint], including original eligible samples slightly beyond nominal second55.",
+      "The older audit late_20_55 denominator was slightly shorter; this plan explicitly uses the full original eligible late interval and recounts only already-frozen event indices.",
+      "Event rates within proxy-conditioned categories are mathematically conditioned by their definition; not estimates of physiological blink prevalence.",
+      "Counts/256 are sample-equivalent durations on the model grid, not claims of independently verified physical timing.",
+      "Forty-five overlapping descriptive intersections are not independent replications or multiplicity-adjusted hypothesis tests; no p-values or outcome-based exclusions.",
+      "No original report, recipe, recording, installed application or previous evaluation score is changed."
+    ]
+  }
+}

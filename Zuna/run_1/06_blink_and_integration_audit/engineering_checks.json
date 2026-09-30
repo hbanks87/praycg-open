@@ -1,0 +1,388 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "8c724d118495e758a08f72e06ca6e33a90d8c1d33e5ac92402786ecc315b2161",
+  "original_schema": "PRAYCG_PrivateZunaModelFreeEngineeringChecks_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld.",
+  "record": {
+    "schema": "PRAYCG_PrivateZunaModelFreeEngineeringChecks_v1_0",
+    "status": "PASS",
+    "elapsed_seconds": 3.297000000020489,
+    "package": "[LOCAL_PATH_REMOVED]",
+    "output_scope": "PRIVATE_POSTHOC_DEVELOPMENT_AUDIT",
+    "checks": [
+      {
+        "name": "verified_pinned_upstream_encoding_and_token_layout",
+        "status": "PASS",
+        "details": {
+          "schema": "PRAYCG_ZunaAdapterEngineeringAudit_v1_0",
+          "status": "PASS",
+          "adapter_sha256": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+          "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+          "audit_helper_sha256": "f9f44d15512661dab97128d0d665dfd2016259dfe5ceb92f2021ae4138d33bbf",
+          "model_lock_sha256": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+          "upstream_evidence": [
+            {
+              "wheel_member": "zuna/inference/AY2l/lingua/apps/AY2latent_bci/configs/config_infer_fif.yaml",
+              "sha256": "5b7cd9723dc25b09743670ed133ad99d709936e7348d33d6d9ce5d6b007ca4ee",
+              "finding": "Pinned FIF inference configuration selects twelves and 100 spatial bins. This is an inference-default parity decision, not proof of all training coordinates."
+            },
+            {
+              "wheel_member": "apps/AY2latent_bci/eeg_data.py",
+              "sha256": "170414f7375a47b83bdc4143a3cf2625ef25af1a0a4226263e1aea884398537f",
+              "finding": "V4 loader maps twelves to +/-0.12 m; discretize_chan_pos uses float32 subtraction/division/multiplication, truncation to integer then clamping. Coarse-time A token order is time-major then channel."
+            }
+          ],
+          "numerical_coordinate_vectors_tested": 4401,
+          "coordinate_bins_exact_upstream_float32_match": true,
+          "token_order_exact_upstream_coarse_time_A_match": true,
+          "time_indices_exact_match": true,
+          "target_tokens_exactly_zero": true,
+          "retained_only_scale_inverse_tolerance_uv": 1e-05,
+          "permutation_input_construction_consistent": true,
+          "target_count_does_not_change_retained_statistics": true,
+          "cpu_threads": 2,
+          "torch_version": "2.14.0+cpu",
+          "numpy_version": "2.3.3",
+          "model_weights_loaded": false,
+          "human_data_used": false,
+          "network_access": false,
+          "scope": "ENCODING_AND_INPUT_CONSTRUCTION_ONLY_NOT_FULL_UPSTREAM_PIPELINE_PARITY",
+          "remaining_differences": [
+            "Retained-only scalar normalization differs from upstream per-channel normalization and automatic reference. Do not call this a complete upstream-pipeline reproduction.",
+            "The worker owns explicit resampling, filtering and retained-only reference; adapter applies no additional filter or reference.",
+            "Independent five-second contexts and final reflected padding are preserved; no seam correction is claimed. Upstream partial-mask seam correction must not use hidden target measurements.",
+            "Explicit float32, 16 sampling steps and cfg 1.0 are a frozen PRAYCG evaluation choice, not all upstream defaults."
+          ],
+          "scientific_validation_claim": "NONE"
+        }
+      },
+      {
+        "name": "selected_existing_model_free_unit_tests",
+        "status": "PASS",
+        "details": {
+          "tests_run": 9,
+          "tests": [
+            "test_retained_statistics_only_and_zero_target_tokens",
+            "test_target_count_cannot_change_retained_normalization",
+            "test_validation_shape_rate_name_geometry_and_scale",
+            "test_spatial_temporal_token_order",
+            "test_fixed_fif_encoding_bounds_and_float32_quantization",
+            "test_coordinate_review_is_explicit_geometry_bound_and_no_rescale",
+            "test_channel_permutation_is_consistent_before_model_not_claim_model_equivariance",
+            "test_retained_positive_scale_and_offset_transform_without_unit_guessing",
+            "test_model_contexts_never_cross_declared_boundary"
+          ],
+          "output": "test_retained_statistics_only_and_zero_target_tokens (test_zuna_adapter.AdapterContractTests.test_retained_statistics_only_and_zero_target_tokens) ... ok\ntest_target_count_cannot_change_retained_normalization (test_zuna_adapter.AdapterContractTests.test_target_count_cannot_change_retained_normalization) ... ok\ntest_validation_shape_rate_name_geometry_and_scale (test_zuna_adapter.AdapterContractTests.test_validation_shape_rate_name_geometry_and_scale) ... ok\ntest_spatial_temporal_token_order (test_zuna_adapter.AdapterContractTests.test_spatial_temporal_token_order) ... ok\ntest_fixed_fif_encoding_bounds_and_float32_quantization (test_zuna_adapter.AdapterContractTests.test_fixed_fif_encoding_bounds_and_float32_quantization) ... ok\ntest_coordinate_review_is_explicit_geometry_bound_and_no_rescale (test_zuna_adapter.AdapterContractTests.test_coordinate_review_is_explicit_geometry_bound_and_no_rescale) ... ok\ntest_channel_permutation_is_consistent_before_model_not_claim_model_equivariance (test_zuna_adapter.AdapterContractTests.test_channel_permutation_is_consistent_before_model_not_claim_model_equivariance) ... ok\ntest_retained_positive_scale_and_offset_transform_without_unit_guessing (test_zuna_adapter.AdapterContractTests.test_retained_positive_scale_and_offset_transform_without_unit_guessing) ... ok\ntest_model_contexts_never_cross_declared_boundary (test_zuna_adapter.AdapterContractTests.test_model_contexts_never_cross_declared_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.007s\n\nOK\n",
+          "scope": "Existing installed production-helper tests, no model tests selected."
+        }
+      },
+      {
+        "name": "hidden_target_mutation_cannot_change_prepared_inputs_or_reference",
+        "status": "PASS",
+        "details": {
+          "synthetic_blocks": 8,
+          "model_input_windows_compared": 96,
+          "evaluation_samples": 102400,
+          "production_functions": [
+            "zuna_exploratory.prepare_reviewed_segments",
+            "worker.prepare_mapped_arrays",
+            "zuna_adapter.prepare_segment",
+            "zuna_adapter.inference_windows"
+          ],
+          "exact_unchanged_fields": [
+            "retained_uv",
+            "reference_uv",
+            "timestamps",
+            "source_fractional_index",
+            "evaluation_mask",
+            "tokens",
+            "normalization_statistics"
+          ],
+          "hidden_channel_mutation": "Finite independent 1e6-uV-SD replacement of F3/F4/P3/P4 only.",
+          "hidden_comparison_targets_changed": true,
+          "limitation": "Prepared-input independence, not a new model-output invariance run; nonfinite target data intentionally fail integrity checks."
+        }
+      },
+      {
+        "name": "actual_inverse_expression_reverses_nonzero_offset_and_scale",
+        "status": "PASS",
+        "details": {
+          "production_inverse_expression": "matrix[-len(target_names):, :right - left].astype(np.float64) * stats['scale_uv'] + stats['mean_uv']",
+          "maximum_error_uv": 7.4377108205681e-06,
+          "atol_uv": 1e-05,
+          "rtol": 3e-07,
+          "counts": [
+            137,
+            1280
+          ],
+          "offset_and_gain_reversal": true,
+          "limitation": "Production inverse expression evaluated in isolation with synthetic ideal outputs, not learned prediction calibration."
+        }
+      },
+      {
+        "name": "production_spline_unit_conversions_and_adapter_unit_guard",
+        "status": "PASS",
+        "details": {
+          "baseline_input_uv_to_mne_v_factor": 1e-06,
+          "baseline_output_v_to_uv_factor": 1000000.0,
+          "target_placeholders_zero": true,
+          "adapter_rejects_volts_before_model_access": true,
+          "actual_production_baseline_called": true,
+          "limitation": "No claim that declared acquisition hardware units or physical voltages were independently calibrated."
+        }
+      },
+      {
+        "name": "actual_praycg_template_geometry_clipping_disclosure",
+        "status": "PASS",
+        "details": {
+          "channel_names": [
+            "Fz",
+            "Cz",
+            "Pz",
+            "C3",
+            "C4",
+            "P7",
+            "P8",
+            "O1",
+            "O2",
+            "T7",
+            "T8",
+            "Fp1",
+            "F3",
+            "F4",
+            "P3",
+            "P4"
+          ],
+          "positions_m": [
+            [
+              -0.001229271161566281,
+              0.09327445200029715,
+              0.1026392934768164
+            ],
+            [
+              -0.0013741334028190722,
+              0.027617093595102737,
+              0.14019949417439556
+            ],
+            [
+              -0.001709445046746896,
+              -0.045212993324122014,
+              0.12667292418209622
+            ],
+            [
+              -0.0671487229331174,
+              0.023358230537446293,
+              0.10451068106024831
+            ],
+            [
+              0.06532888071838541,
+              0.0235731049615695,
+              0.10369243420047652
+            ],
+            [
+              -0.07445796452347851,
+              -0.042123164958505765,
+              0.04127363138738122
+            ],
+            [
+              0.07103247088902218,
+              -0.04225997601209522,
+              0.0411988627819509
+            ],
+            [
+              -0.03157355787465608,
+              -0.08056835212663661,
+              0.05478964562404762
+            ],
+            [
+              0.027683100559624117,
+              -0.08048883980936473,
+              0.0547340814777941
+            ],
+            [
+              -0.08598207795805729,
+              0.014871638175652204,
+              0.031173373739044698
+            ],
+            [
+              0.08326136985759491,
+              0.015258189278681372,
+              0.030972968524059938
+            ],
+            [
+              -0.03090258833242555,
+              0.114585178792428,
+              0.02786657432908913
+            ],
+            [
+              -0.05180903841183724,
+              0.08668789888287941,
+              0.07871409302883386
+            ],
+            [
+              0.050274277731628736,
+              0.08743838910239796,
+              0.07727065434234194
+            ],
+            [
+              -0.0550382318026169,
+              -0.04421030466234088,
+              0.09990897692200874
+            ],
+            [
+              0.05363601546337514,
+              -0.04433452185507687,
+              0.100516027732151
+            ]
+          ],
+          "coordinate_frame": "MNE_HEAD",
+          "units": "m",
+          "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+          "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+          "spatial_bins": [
+            [
+              49,
+              88,
+              92
+            ],
+            [
+              49,
+              61,
+              99
+            ],
+            [
+              49,
+              31,
+              99
+            ],
+            [
+              22,
+              59,
+              93
+            ],
+            [
+              77,
+              59,
+              93
+            ],
+            [
+              18,
+              32,
+              67
+            ],
+            [
+              79,
+              32,
+              67
+            ],
+            [
+              36,
+              16,
+              72
+            ],
+            [
+              61,
+              16,
+              72
+            ],
+            [
+              14,
+              56,
+              62
+            ],
+            [
+              84,
+              56,
+              62
+            ],
+            [
+              37,
+              97,
+              61
+            ],
+            [
+              28,
+              86,
+              82
+            ],
+            [
+              70,
+              86,
+              82
+            ],
+            [
+              27,
+              31,
+              91
+            ],
+            [
+              72,
+              31,
+              91
+            ]
+          ],
+          "clipped_channels": [
+            "Cz",
+            "Pz"
+          ],
+          "clipped_axes": {
+            "Cz": [
+              "z"
+            ],
+            "Pz": [
+              "z"
+            ]
+          },
+          "review_required": true,
+          "geometric_rescale_applied": false,
+          "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+          "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+        }
+      },
+      {
+        "name": "synthetic_frontal_transient_changes_shared_normalization",
+        "status": "PASS",
+        "details": {
+          "synthetic_pulse_peak_uv": 200,
+          "synthetic_pulse_sigma_seconds": 0.08,
+          "baseline_scale_uv": 70.35566503600278,
+          "pulse_scale_uv": 116.81154291465432,
+          "scale_ratio": 1.6603004584617158,
+          "identical_signal_normalized_amplitude_ratio": 0.6023006226996465,
+          "statistical_scope": "SYNTHETIC_MECHANISTIC_ILLUSTRATION_NOT_OBSERVED_BLINK_ESTIMATE",
+          "conclusion": "A transient in one retained frontal electrode can change shared scale and retained-average reference; this is expected from current definitions, not by itself a bug or proof of model harm."
+        }
+      }
+    ],
+    "checks_passed": 7,
+    "checks_total": 7,
+    "selected_existing_unit_tests": 9,
+    "model_weights_loaded": false,
+    "model_inference_executed": false,
+    "recordings_read": false,
+    "acquisition_hardware_accessed": false,
+    "network_access": false,
+    "installed_code_changed": false,
+    "file_hashes": {
+      "private_file_reference_1": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+      "private_file_reference_2": "8915ffbb21f3e8f26b83d4d2266d22033094fb13329eba8bec8fb6b1beb8356e",
+      "private_file_reference_3": "80ca30c820144982f4d145b60bc16d090c354f43c5b05b03a87508f1d2ddab30",
+      "private_file_reference_4": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+      "private_file_reference_5": "f9f44d15512661dab97128d0d665dfd2016259dfe5ceb92f2021ae4138d33bbf",
+      "private_file_reference_6": "40ac7eaa34c131e9fccacf3ec88b9e19a907791ee08c970040d2f9b6ca1d7585"
+    },
+    "limitations": [
+      "Engineering correctness does not establish neural accuracy, artifact removal or clinical validity.",
+      "Finite hidden-target mutation checks preprocessing and input construction, not a new model-output invariance experiment.",
+      "Pinned upstream coordinate/token parity is not equivalence of reference, normalization, filtering, context or training distribution.",
+      "Template-coordinate clipping is disclosed and unchanged; no geometry was optimized to improve results.",
+      "Synthetic pulse sensitivity demonstrates a mechanism only; recorded blink-like events require independent inspection.",
+      "Model weights are hashed for identity by the existing audit but never loaded or used for inference."
+    ]
+  }
+}

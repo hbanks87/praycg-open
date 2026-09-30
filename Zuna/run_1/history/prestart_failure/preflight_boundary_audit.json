@@ -1,0 +1,402 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "baf619385bebc1ee199a48bd127e85e61021ed77feb509c45eacbd563a1e6906",
+  "original_schema": "PRAYCG_FullCorrectedBoundaryPreflightResult_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Stopped before any model context because priority verification failed; later attempt completed separately.",
+  "record": {
+    "schema": "PRAYCG_FullCorrectedBoundaryPreflightResult_v1_0",
+    "status": "PASS",
+    "frozen_plan_sha256": "58d71f2e2c7f778408b29a931b3512984b247cbf78dc62992575885548c273d3",
+    "model_inference_executed": false,
+    "original_results_modified": false,
+    "numerical_versions": {
+      "numpy": "2.3.3",
+      "scipy": "1.16.2"
+    },
+    "verified_bindings": {
+      "private_file_reference_1": "792e066578baf458e265cb6c735593ac71aea40d96bc193a586a10ce340cedde",
+      "private_file_reference_2": "a1e72cd1b92e4a4678b457274ee027f3c84a39d2351a822b69c1e67745de3bee",
+      "private_file_reference_3": "fa56384fc150c900a30c06a3e60f3ee5e5150e5937b830273a3af525bfb6a270",
+      "private_file_reference_4": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+      "private_file_reference_5": "0ea02a5e7c1376ae41862f5b0bdb3ef18a4574df76e815a683b085b0409bf493",
+      "private_file_reference_6": "1c5b27b1ea55cf8b75f6e55b2a96b8a7a9c5e30083c2a4ce0dbe06bdec78379b",
+      "historical_report": "7da8a88f51bd68218addc1dc5679eaabd292e8a3f5b9d68c3210944a2c7a3687",
+      "historical_provenance": "c31772af3612ec73bec81e4d64e4cefc72cc1f6873276db1c722496af1aac5aa",
+      "historical_predictions": "44be66d1e9f5b2b7395d74c7fd1f5ce546afaca20942dc8f3bd7f33ea0c8190d",
+      "original_proxy_plan": "930132107ecdbbc26f17848ff7db781ad0c5e8fdae9c8c8d9c28ab7d6da63e1c",
+      "original_proxy_masks": "6fabd1185b7eadae68defbf04362b952d444aa8e6304b65830eb19170de0017b",
+      "reviewed_recipe": "9cd3a979a44976016c5fb6c833ea1a043e9cd87bc50a68e44ff91a3715c81586",
+      "recording": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303"
+    },
+    "candidate_worker_sha256": "a1e72cd1b92e4a4678b457274ee027f3c84a39d2351a822b69c1e67745de3bee",
+    "fixed_endpoint": {
+      "block_count": 8,
+      "total_samples": 122926,
+      "scored_samples": 102456,
+      "scored_seconds": 400.21875,
+      "masks_and_time_grid_unchanged": true,
+      "block_lengths": [
+        15367,
+        15367,
+        15363,
+        15365,
+        15367,
+        15367,
+        15365,
+        15365
+      ]
+    },
+    "historical_endpoint_reproduction": {
+      "status": "PASS",
+      "arrays": {
+        "measured": {
+          "max_abs_difference_uv": 0.0,
+          "bitwise_identical": true
+        },
+        "spherical_spline": {
+          "max_abs_difference_uv": 0.0,
+          "bitwise_identical": true
+        },
+        "zuna": {
+          "max_abs_difference_uv": 0.0,
+          "bitwise_identical": true
+        }
+      },
+      "max_block_metric_absolute_difference": 0.0,
+      "mean_nmse": {
+        "spherical_spline": 0.658757263906038,
+        "zuna": 1.2240845097516286
+      },
+      "mask_definition_reproduced_exactly": true
+    },
+    "tail_padding_diagnostics": {
+      "status": "DOCUMENTED_LIMITATION_NOT_REPAIRED",
+      "rows": [
+        {
+          "block_index": 0,
+          "original_samples": 7,
+          "original_seconds": 0.02734375,
+          "padded_samples": 128,
+          "padded_fraction": 0.9453125,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.976820647309069,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": -1.7756801320328598e-12,
+              "std_uv": 5097.395808772859,
+              "scale_uv": 50973.95808772859,
+              "original_samples": 7,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": -1.850371707708594e-17,
+              "std_uv": 3.1568384931149733,
+              "scale_uv": 31.568384931149733,
+              "original_samples": 7,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 8.767152398547443,
+              "rms_change_in_scored_samples_uv": 0.544235330554051,
+              "tail_change_before_filter_max_uv": 9504.442262998706
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0009992981453956773,
+              "rms_change_in_scored_samples_uv": 0.00010983848704810691,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 1,
+          "original_samples": 7,
+          "original_seconds": 0.02734375,
+          "padded_samples": 128,
+          "padded_fraction": 0.9453125,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.975013290939387,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": -3.0316490059097606e-13,
+              "std_uv": 5029.43463125879,
+              "scale_uv": 50294.346312587906,
+              "original_samples": 7,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": -2.114710523095536e-17,
+              "std_uv": 4.912863562553259,
+              "scale_uv": 49.12863562553259,
+              "original_samples": 7,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 5.230221401423535,
+              "rms_change_in_scored_samples_uv": 0.4138308473416549,
+              "tail_change_before_filter_max_uv": 5758.013283585871
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0009992981435140713,
+              "rms_change_in_scored_samples_uv": 0.00010983419924896485,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 2,
+          "original_samples": 3,
+          "original_seconds": 0.01171875,
+          "padded_samples": 128,
+          "padded_fraction": 0.9765625,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.9892161061870866,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": 1.2126596023639042e-12,
+              "std_uv": 5504.499318901895,
+              "scale_uv": 55044.99318901895,
+              "original_samples": 3,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": 8.635067969306773e-17,
+              "std_uv": 2.322416172601407,
+              "scale_uv": 23.22416172601407,
+              "original_samples": 3,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 12.193367038199131,
+              "rms_change_in_scored_samples_uv": 0.9625363857728814,
+              "tail_change_before_filter_max_uv": 12553.287994634462
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0010283753660687012,
+              "rms_change_in_scored_samples_uv": 0.00010949845651199094,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 3,
+          "original_samples": 5,
+          "original_seconds": 0.01953125,
+          "padded_samples": 128,
+          "padded_fraction": 0.9609375,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.979445477249101,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": -5.456968210637569e-13,
+              "std_uv": 5218.925539230562,
+              "scale_uv": 52189.255392305626,
+              "original_samples": 5,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": -7.401486830834377e-17,
+              "std_uv": 2.1222136185179483,
+              "scale_uv": 21.222136185179483,
+              "original_samples": 5,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 10.64146590209313,
+              "rms_change_in_scored_samples_uv": 0.6830808014742059,
+              "tail_change_before_filter_max_uv": 11292.669855337133
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0010213764840365513,
+              "rms_change_in_scored_samples_uv": 0.00010966796895267694,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 4,
+          "original_samples": 7,
+          "original_seconds": 0.02734375,
+          "padded_samples": 128,
+          "padded_fraction": 0.9453125,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.971457644132897,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": 2.7284841053187847e-12,
+              "std_uv": 4929.375476680132,
+              "scale_uv": 49293.75476680132,
+              "original_samples": 7,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": -2.6433881538694202e-17,
+              "std_uv": 4.105555424581005,
+              "scale_uv": 41.05555424581005,
+              "original_samples": 7,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 5.727156725466563,
+              "rms_change_in_scored_samples_uv": 0.3556244677893375,
+              "tail_change_before_filter_max_uv": 6347.4975047336575
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0010105368118775715,
+              "rms_change_in_scored_samples_uv": 0.00011019655858826871,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 5,
+          "original_samples": 7,
+          "original_seconds": 0.02734375,
+          "padded_samples": 128,
+          "padded_fraction": 0.9453125,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.975795080070384,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": 2.165463575649829e-13,
+              "std_uv": 4991.386669592427,
+              "scale_uv": 49913.86669592427,
+              "original_samples": 7,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": -5.28677630773884e-18,
+              "std_uv": 2.295302799437519,
+              "scale_uv": 22.953027994375187,
+              "original_samples": 7,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 7.329472733102188,
+              "rms_change_in_scored_samples_uv": 0.5923205092386129,
+              "tail_change_before_filter_max_uv": 8131.42561512441
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0009992981484829855,
+              "rms_change_in_scored_samples_uv": 0.00010983848706910858,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 6,
+          "original_samples": 5,
+          "original_seconds": 0.01953125,
+          "padded_samples": 128,
+          "padded_fraction": 0.9609375,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.9796270956867374,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": 1.8189894035458566e-13,
+              "std_uv": 5336.051627699532,
+              "scale_uv": 53360.516276995324,
+              "original_samples": 5,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": 1.7578531223231644e-16,
+              "std_uv": 3.512534693574443,
+              "scale_uv": 35.12534693574443,
+              "original_samples": 5,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 11.084353755169825,
+              "rms_change_in_scored_samples_uv": 0.8190108736503565,
+              "tail_change_before_filter_max_uv": 11755.42614499648
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0010213764813045145,
+              "rms_change_in_scored_samples_uv": 0.00010966796902816608,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        },
+        {
+          "block_index": 7,
+          "original_samples": 5,
+          "original_seconds": 0.01953125,
+          "padded_samples": 128,
+          "padded_fraction": 0.9609375,
+          "target_tokens_zero": true,
+          "tail_directly_scored": false,
+          "seconds_from_last_scored_sample_to_tail_start": 4.976887121389154,
+          "retained_only_normalization": {
+            "historical": {
+              "mean_uv": -4.0624096679190796e-12,
+              "std_uv": 5485.472319953125,
+              "scale_uv": 54854.723199531254,
+              "original_samples": 5,
+              "padded_samples": 128
+            },
+            "corrected": {
+              "mean_uv": -3.700743415417188e-17,
+              "std_uv": 2.6931914803359795,
+              "scale_uv": 26.931914803359795,
+              "original_samples": 5,
+              "padded_samples": 128
+            }
+          },
+          "sensitivity": {
+            "hold_previous_prediction": {
+              "max_abs_change_in_scored_samples_uv": 6.914780540824228,
+              "rms_change_in_scored_samples_uv": 0.5975882084061984,
+              "tail_change_before_filter_max_uv": 7027.608324867604
+            },
+            "unit_1uv_tail_shift": {
+              "max_abs_change_in_scored_samples_uv": 0.0010473303066511619,
+              "rms_change_in_scored_samples_uv": 0.00011005346986469873,
+              "tail_change_before_filter_max_uv": 1.0
+            }
+          }
+        }
+      ],
+      "interpretation": "Tiny terminal contexts are reflected to 128 model samples; padded points receive no original timestamps and are discarded. Tail predictions are outside direct scoring, but zero-phase block filtering can propagate their influence backward into scored samples. Diagnostic interventions are not new model predictions or endpoint substitutions."
+    },
+    "synthetic_filter_checks": {
+      "status": "PASS",
+      "block_isolation_exact": true,
+      "branch_isolation_exact": true,
+      "deterministic_exact": true,
+      "nonfinite_rejected": true,
+      "constant_residual_max_uv": 1.424402112160184e-08
+    },
+    "scope_limitations": [
+      "Engineering PASS does not establish efficacy, artifact removal, or independent validation.",
+      "Full endpoint preserves two filter passes on measured/spline versus the generated branch comparison pass.",
+      "Five-second independent model seams and tiny reflected terminal contexts remain disclosed limitations.",
+      "No corrected model predictions were generated by this audit; cached historical predictions only inform tail sensitivity."
+    ]
+  }
+}

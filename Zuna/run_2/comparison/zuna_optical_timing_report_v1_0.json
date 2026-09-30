@@ -1,0 +1,27 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "ab000a3870216d53930db59a5087efbcaf4c90e4364b9375e3857c007edff49c",
+  "original_schema": "PRAYCG_ZunaOpticalTimingReport_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED.",
+  "record": {
+    "schema": "PRAYCG_ZunaOpticalTimingReport_v1_0",
+    "status": "UNVERIFIED",
+    "run_uuid": "RUN_2",
+    "protocol_id": "ATLAS_AI_EEG_RECONSTRUCTION_VALIDATION_ALS",
+    "blocks_eeg_analysis": false,
+    "modifies_timestamps": false,
+    "independent_cross_device_synchronization_proven": false,
+    "claims_boundary": "Visual edges only: not sound onset, eye closure, missing-sample recovery, or proof of every intervening timestamp.",
+    "raw_data_modified": false,
+    "stream_binding_status": "ORIGINAL_ACQUISITION_DECLARATION",
+    "original_contract_modified": false,
+    "prospective_timing_validation": false,
+    "reason": "Exact optional ALS source is absent or ambiguous; EEG remains analyzable.",
+    "error_type": "ValueError"
+  }
+}

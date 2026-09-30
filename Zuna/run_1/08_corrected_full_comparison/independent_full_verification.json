@@ -1,0 +1,44 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "346d76cdd180de8f96ae7e1df0e795adea2ce283101242d14f899b99a39bac18",
+  "original_schema": "PRAYCG_PrivateFullZunaIndependentVerification_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning.",
+  "record": {
+    "schema": "PRAYCG_PrivateFullZunaIndependentVerification_v1_0",
+    "status": "PASS",
+    "reviewer_script_sha256": "898e10b3981e7e99a36dbe2de9446d05185bb4102d67b07d443d3b15666bf07a",
+    "frozen_bindings_verified": 59,
+    "checkpoint_contexts_verified": 104,
+    "blocks_verified": 8,
+    "original_evaluated_samples": 102456,
+    "strata_per_endpoint_verified": 45,
+    "numeric_values_checked": 298860,
+    "maximum_numeric_absolute_difference": 0.0,
+    "numeric_tolerance": {
+      "rtol": 1e-12,
+      "atol": 1e-12
+    },
+    "full_report_sha256": "255efed1397dbb11ccc80f6ed8a0f620ae201fcfe0e56a53b9c7a2340e671f28",
+    "completion_sha256": "8cc7fc68dd02d8c0280a75ac9fbad1fff5219c10d075a3cc54a62290708d65c8",
+    "plan_sha256": "1c67883263d9697d36046d2c43e1e15bd004ca2dd8ca98e7c507471e3ff897a5",
+    "actual_predictions_match_all_committed_checkpoints": true,
+    "raw_and_installed_bindings_unchanged": true,
+    "primary_and_companion_verified": true,
+    "spectra_verified_without_gap_stitching": true,
+    "tail_diagnostics_verified_without_endpoint_substitution": true,
+    "model_inference_executed_by_verifier": false,
+    "original_or_frozen_files_modified": false,
+    "scope": "NUMERICAL_AND_IDENTITY_VERIFICATION_NOT_SCIENTIFIC_VALIDATION",
+    "limitations": [
+      "Measured hidden targets are not clean neural ground truth.",
+      "All findings remain post-hoc, single-recording and historically BENCH.",
+      "Independent numerical recomputation uses the same pinned numerical libraries, not an independent scientific measurement.",
+      "PSD avoids gap stitching but intentionally retains genuine model-context seams as part of the signal under review."
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "15d7718ebbb4084253082f98487d4470dbcbb8d6420a1f9852c8a92d87062b2b",
+  "original_schema": "PRAYCG_eeg_signal_quality_v0_1_Report_v0_1",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "",
+  "record": {
+    "schema": "PRAYCG_eeg_signal_quality_v0_1_Report_v0_1",
+    "module_id": "eeg_signal_quality_v0_1",
+    "module_version": "0.1.0",
+    "status": "CAUTION",
+    "inputs": {
+      "run_folder": "[LOCAL_PATH_REMOVED]",
+      "xdf": "[LOCAL_PATH_REMOVED]",
+      "xdf_sha256": "1706122e44b743f9c839d1757b8f1296343d650d3c11f05d3cfec3403422d322",
+      "analysis_window_manifest": "[LOCAL_PATH_REMOVED]",
+      "analysis_window_manifest_sha256": "0bb05ea48000c1e021ca771fc5062d0a383ea6a8ac5eeee6487628d8daab6390"
+    },
+    "config_sha256": "8f12514a8aab0ffe97ea10e2a883c01cd8b5f82f91aab4214b5d958e9e6aecfc",
+    "effective_config_canonical_sha256": "8036e478f84190e3654057f2cbdaf9d11794bf74a89228d48898fabf3e81b1b9",
+    "random_seed": 990031,
+    "scientific_authority": "NONE_BY_EXECUTION",
+    "claims_boundary": "Outputs are method-bound descriptive or exploratory estimates. Software completion cannot establish construct validity, causality, diagnosis, treatment effect, consciousness, emotion, or a population result.",
+    "stream": {
+      "name": "obci_eeg1",
+      "type": "EEG",
+      "samples": 82693,
+      "channels": 16,
+      "type_match": true,
+      "nominal_rate_hz": 125.0,
+      "effective_rate_hz": 124.99670741908773,
+      "selected_rate_hz": 125.0,
+      "duration_seconds": 661.5534257454565,
+      "channel_labels": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5",
+        "Ch6",
+        "Ch7",
+        "Ch8",
+        "Ch9",
+        "Ch10",
+        "Ch11",
+        "Ch12",
+        "Ch13",
+        "Ch14",
+        "Ch15",
+        "Ch16"
+      ],
+      "declared_channel_units": [
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts",
+        "microvolts"
+      ]
+    },
+    "analysis_scope": "DUAL_RAW_CONTAINER_AND_PROTOCOL_WINDOW",
+    "duration_seconds": 648.0318909338093,
+    "sample_count": 81003,
+    "channel_count": 16,
+    "timestamp_gap_count": 3,
+    "maximum_timestamp_gap_seconds": 0.023036002938169986,
+    "scopes": {
+      "raw_container": {
+        "scope": "RAW_CONTAINER",
+        "status": "CAUTION",
+        "duration_seconds": 661.5534257454565,
+        "sample_count": 82693,
+        "channel_count": 16,
+        "timestamp_gap_count": 3,
+        "maximum_timestamp_gap_seconds": 0.023036002938169986,
+        "spectral_window_policy": {
+          "gap_crossing_prohibited": true,
+          "nperseg": 500,
+          "noverlap": 250,
+          "contributing_welch_windows": 325,
+          "aggregation": "window-count-weighted PSD across independent contiguous pieces"
+        },
+        "cautions": [
+          "Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+          "At least one measurable 50/60 Hz line ratio exceeds the frozen caution threshold."
+        ]
+      },
+      "protocol_window": {
+        "scope": "PROTOCOL_WINDOW",
+        "status": "CAUTION",
+        "duration_seconds": 648.0318909338093,
+        "sample_count": 81003,
+        "channel_count": 16,
+        "timestamp_gap_count": 3,
+        "maximum_timestamp_gap_seconds": 0.023036002938169986,
+        "spectral_window_policy": {
+          "gap_crossing_prohibited": true,
+          "nperseg": 500,
+          "noverlap": 250,
+          "contributing_welch_windows": 318,
+          "aggregation": "window-count-weighted PSD across independent contiguous pieces"
+        },
+        "cautions": [
+          "Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+          "At least one measurable 50/60 Hz line ratio exceeds the frozen caution threshold."
+        ]
+      }
+    },
+    "excluded_from_protocol_inference": {
+      "pre_protocol_samples": 968,
+      "post_protocol_samples": 722,
+      "post_protocol_tail_seconds": 5.7686090128845535
+    },
+    "channel_metrics_file": "eeg_signal_quality_channels_v0_1.csv",
+    "cautions": [
+      "RAW_CONTAINER: Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+      "RAW_CONTAINER: At least one measurable 50/60 Hz line ratio exceeds the frozen caution threshold.",
+      "PROTOCOL_WINDOW: Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+      "PROTOCOL_WINDOW: At least one measurable 50/60 Hz line ratio exceeds the frozen caution threshold."
+    ],
+    "eeg_respiration_association": {
+      "schema": "PRAYCG_EEGRespirationDiagnostic_v1_0",
+      "status": "DESCRIPTIVE_ONLY",
+      "claims_boundary": "Exploratory association of one-second EEG and belt sample means only. It cannot distinguish neural coupling, movement, reference pickup, shared trends, or coincidence. No causal, artifact-identification, respiration-rate, phase-locking, or clinical claim is supported; autocorrelated windows are not independent trials and no significance test is performed. Recorded LSL clock correction does not establish sensor latency or physiological synchrony.",
+      "required_for_qc": false,
+      "blocks_analysis": false,
+      "method": "Fixed 60-second nonoverlapping windows; zero-lag Pearson r of one-second arithmetic sample means; two boundary bins excluded on each side.",
+      "raw_clock_policy": "Original XDF untouched; pyxdf synchronize_clocks=True, dejitter_timestamps=False.",
+      "derived_clock_policy": "Integer-second bins on the corrected recorded LSL axis; no interpolation, extrapolation, timestamp rewriting, lag optimization, or cross-gap concatenation.",
+      "analysis_scope": {},
+      "eeg_stream": {
+        "name": "obci_eeg1",
+        "type": "EEG",
+        "nominal_rate_hz": 125.0,
+        "observed_span_rate_hz": 124.99670741908773,
+        "observed_median_interval_rate_hz": 124.86392279135352,
+        "sample_count": 82693,
+        "duration_seconds": 661.5534257454565,
+        "maximum_interval_seconds": 0.023036002938169986,
+        "clock_offset_observation_count": 133
+      },
+      "respiration_stream_inventory": [
+        {
+          "name": "VernierRespirationBelt",
+          "type": "Respiration",
+          "nominal_rate_hz": 10.0,
+          "observed_span_rate_hz": 9.999991165582527,
+          "observed_median_interval_rate_hz": 9.999980037140464,
+          "sample_count": 6616,
+          "duration_seconds": 661.5005843972322,
+          "maximum_interval_seconds": 0.10199249966535717,
+          "clock_offset_observation_count": 133,
+          "channel_labels": [
+            "force_N"
+          ]
+        }
+      ],
+      "analysis_specific_cautions": [
+        "Exploratory association of one-second EEG and belt sample means only. It cannot distinguish neural coupling, movement, reference pickup, shared trends, or coincidence. No causal, artifact-identification, respiration-rate, phase-locking, or clinical claim is supported; autocorrelated windows are not independent trials and no significance test is performed. Recorded LSL clock correction does not establish sensor latency or physiological synchrony.",
+        "Bin averaging is a descriptive aggregation, not a validated anti-aliasing or EEG-cleaning pipeline."
+      ],
+      "selected_respiration_stream": {
+        "name": "VernierRespirationBelt",
+        "type": "Respiration",
+        "nominal_rate_hz": 10.0,
+        "observed_span_rate_hz": 9.999991165582527,
+        "observed_median_interval_rate_hz": 9.999980037140464,
+        "sample_count": 6616,
+        "duration_seconds": 661.5005843972322,
+        "maximum_interval_seconds": 0.10199249966535717,
+        "clock_offset_observation_count": 133,
+        "channel_labels": [
+          "force_N"
+        ],
+        "channel_index": 0,
+        "channel_label": "force_N"
+      },
+      "alignment_evidence": {
+        "same_recorded_hostname": true,
+        "both_have_clock_offset_observations": true,
+        "status": "RECORDED_CLOCK_ALIGNMENT_ONLY",
+        "sensor_latency_measured": false
+      },
+      "reason": "Conditional on recorded clock alignment; no synchrony or causal inference.",
+      "considered_bin_count": 648,
+      "paired_valid_bin_count": 645,
+      "analyzed_bin_count": 540,
+      "excluded_bin_count": 108,
+      "edge_bins_each_side": 2,
+      "analyzed_intervals": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "median_absolute_r": 0.06170049184165971,
+      "maximum_absolute_r": 0.24126590232029133,
+      "aligned_trace_figure": {
+        "status": "SAVED",
+        "file": "private_eeg_respiration_aligned_trace_v1_0.svg",
+        "sha256": "f815e160f1b9c99de21c2359f27d4a8f3522a3421c9abeb34cc51f83384bc16a",
+        "privacy_class": "PRIVATE_DERIVED_TELEMETRY",
+        "requires_private_full_telemetry_opt_in": true,
+        "plotted_channel_labels": [
+          "Ch1",
+          "Ch2",
+          "Ch3",
+          "Ch4",
+          "Ch5",
+          "Ch6",
+          "Ch7",
+          "Ch8",
+          "Ch9",
+          "Ch10",
+          "Ch11",
+          "Ch12",
+          "Ch13",
+          "Ch14",
+          "Ch15",
+          "Ch16"
+        ],
+        "displayed_bin_count": 540,
+        "boundary": "Shape-only standardized one-second means, not raw data or evidence of physiological synchronization; human privacy review required."
+      }
+    },
+    "acquisition_context": {
+      "schema": "PRAYCG_AnalysisAcquisitionContext_v1_0",
+      "session_purpose": "PARTICIPANT_ACQUISITION",
+      "bench_test_mode": false,
+      "participant_data_eligible": true,
+      "historical_preflight": [
+        {
+          "kind": "DETAILED_EEG_ALS_PREFLIGHT",
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "2c45876ff29b60fa0192d4af3330a72c03f1b6344c41e99d3345c10312ff5e92",
+          "binding_status": "HASH_VERIFIED_RECORDED_REFERENCE",
+          "status": "WARN",
+          "tool_version": "1.0.2-alpha.10.3.9",
+          "quality_engine_version": "acquisition_quality_v1.1-alpha.10.3.9",
+          "quality_dimensions": {
+            "transport": {
+              "timing": {
+                "sample_count": 3846,
+                "duration_sec": 30.760306119918823,
+                "effective_rate_hz": 124.99875602701404,
+                "nonfinite_timestamps": 0,
+                "monotonic_violations": 0,
+                "duplicate_timestamps": 0,
+                "max_gap_sec": 0.01104879379272461,
+                "large_gap_count": 0,
+                "large_gap_threshold_sec": 0.05,
+                "positive_finite_timestamp_pair_count": 3845,
+                "timestamp_anomalies": [],
+                "sample_loss_status": "NOT_DETERMINED_FROM_TIMESTAMPS",
+                "sample_loss_note": "Timestamp gaps are observations, not independently verified packet loss. Device counter evidence must use its reviewed native stride.",
+                "threshold_scope": "DESCRIPTIVE_ACQUISITION_WARNING_NOT_ANALYSIS_WINDOW_ACCEPTANCE"
+              },
+              "observation_coverage": {
+                "requested_duration_seconds": 30.0,
+                "source_observed_span_seconds": 30.760306119918823,
+                "boundary_tolerance_seconds": 1.0,
+                "minimum_occupied_fraction": 0.9,
+                "physical_timing_validated": false,
+                "status": "PASS",
+                "elapsed_seconds": 30.12935150001431,
+                "first_receipt_delay_seconds": 0.20148909999988973,
+                "last_receipt_age_seconds": 1.8899969290941954e-05,
+                "receipt_occupied_fraction": 1.0,
+                "receipt_bin_seconds": 1.0
+              },
+              "source_receipt_comparison_status": "SOURCE_TO_RECEIPT_COMPARISON_AVAILABLE",
+              "physical_synchronization": "NOT_ESTABLISHED_BY_THIS_TEST"
+            },
+            "channel_integrity": {
+              "affected_channels": [],
+              "unavailable_observation_channels": [],
+              "scope": "Channel-specific findings remain visible; analysis chooses usable channels/windows, not this heuristic percentage."
+            },
+            "drift_and_amplitude": {
+              "status": "WARN",
+              "affected_channels": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "cause": "UNDETERMINED_NOT_A_BREATHING_OR_CONTACT_DIAGNOSIS"
+            },
+            "line_noise": {
+              "status": "DEFERRED_TO_FULL_RECORDING_QC"
+            },
+            "analysis_suitability": {
+              "status": "MODULE_SPECIFIC_REVIEW",
+              "note": "Amplitude warnings do not disable all analyses or certify cleaned data."
+            }
+          },
+          "warning_reasons": [
+            "one or more EEG channels show drift or high residual amplitude; advisory only, cause unresolved; review full-recording QC and intended analysis"
+          ],
+          "warning_codes": [
+            "EEG_SLOW_DC_DRIFT_DETECTED"
+          ],
+          "fail_reasons": [],
+          "failure_codes": [],
+          "participant_data_eligible": null,
+          "runner_arming_effect": "evidence input only; the Control Center combines this report with the full-profile and dedicated ALS placement gates, and this tool never arms a session by itself",
+          "stream_quality_summaries": {
+            "eeg": {
+              "classification": {
+                "algorithm": "acquisition_quality_v1.1-alpha.10.3.9",
+                "residual_noise_limit_uv": 150.0,
+                "residual_threshold_role": "ADVISORY_NOT_HARD_FAILURE",
+                "saturation_review_uv": 100000.0,
+                "hard_channel_fraction_limit": 0.25,
+                "hard_channel_fraction_limit_role": "LEGACY_DESCRIPTIVE_WARNING_ONLY_NOT_RECORDING_GATE",
+                "raw_samples_modified": false,
+                "input_units": "microvolts",
+                "scale_to_microvolts_for_metrics_only": 1.0
+              },
+              "hard_bad_channel_count": 0,
+              "advisory_channel_count": 16
+            },
+            "als": {}
+          }
+        }
+      ],
+      "required_for_analysis": false,
+      "boundary": "Historical acquisition preflight only; not a fresh assessment of recorded data. Missing historical reports do not block analysis. Bench labels and failures are not erased by later QC.",
+      "status": "HISTORICAL_CONTEXT_RECORDED"
+    },
+    "analysis_specific_readiness": {
+      "descriptive_qc": "AVAILABLE",
+      "whole_window_continuity": "GAPS_REQUIRE_EXPLICIT_SEGMENT_POLICY",
+      "respiration_association": "DESCRIPTIVE_ONLY",
+      "interpretation": "QC completion is not a universal fitness certificate. Each later analysis must check duration, continuity, channels, units, reference, and its own assumptions; warnings are retained."
+    },
+    "analysis_specific_cautions": [
+      "RAW_CONTAINER: Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+      "RAW_CONTAINER: At least one measurable 50/60 Hz line ratio exceeds the frozen caution threshold.",
+      "PROTOCOL_WINDOW: Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+      "PROTOCOL_WINDOW: At least one measurable 50/60 Hz line ratio exceeds the frozen caution threshold.",
+      "Exploratory association of one-second EEG and belt sample means only. It cannot distinguish neural coupling, movement, reference pickup, shared trends, or coincidence. No causal, artifact-identification, respiration-rate, phase-locking, or clinical claim is supported; autocorrelated windows are not independent trials and no significance test is performed. Recorded LSL clock correction does not establish sensor latency or physiological synchrony.",
+      "Bin averaging is a descriptive aggregation, not a validated anti-aliasing or EEG-cleaning pipeline.",
+      "The optional EEG-respiration diagnostic does not gate QC or authorize artifact correction."
+    ],
+    "interpretation": "Raw-container and marker-bounded protocol diagnostics are reported separately. Recorder tails cannot alter protocol-window inference. These diagnostics are not evidence of neural origin or absence of artifact."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "4b2aabb0a24c0eecb4c1826f17b3c8e1ed1bc6e96deee8b20adeaf7e403d3ce5",
+  "original_schema": "PRAYCG_PrivateThreadSwitchDecision_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Synthetic/runtime engineering comparison, not biological replication.",
+  "record": {
+    "schema": "PRAYCG_PrivateThreadSwitchDecision_v1_0",
+    "authorization": "User: benchmark and switch if the speedup is worthwhile.",
+    "switch_recommended": true,
+    "selected_threads": 8,
+    "benchmark_result_path": "[LOCAL_PATH_REMOVED]",
+    "benchmark_result_sha256": "b2d6a1457c64fca5c5ed307db1734ddf3bad839ae12a8858e9c1c75a82251919",
+    "policy_path": "[LOCAL_PATH_REMOVED]",
+    "policy_sha256": "efe9568dc4a2bf6baac313dfb8bc9735b51068366c6ea79f39ad0b36140fd985",
+    "private_adapter_path": "[LOCAL_PATH_REMOVED]",
+    "private_adapter_sha256": "012871990564724807aabbee839110f5b2e1c8d82603aea9ade22847535311a1",
+    "original_completed_checkpoints": [
+      {
+        "index": 0,
+        "original_samples": 1280,
+        "record_sha256": "40181833df0502eb7953a6752561d7e5a996d83769818f9a0fd04bc9b94bcc05"
+      },
+      {
+        "index": 1,
+        "original_samples": 1280,
+        "record_sha256": "eb32c35aabbf1ae80bd6c827d4b4960565cc4cd04a2ab56ff0b9abd81da801c4"
+      },
+      {
+        "index": 2,
+        "original_samples": 1280,
+        "record_sha256": "86bb2d8d71f2c613e9faae5c1dc259335bf4272d2ef061a0c19d9a5cf44b550e"
+      },
+      {
+        "index": 3,
+        "original_samples": 1280,
+        "record_sha256": "0deb56d54d4b69f33351b929b60a26b18cb93d0363d5984bb958bb921986f584"
+      },
+      {
+        "index": 4,
+        "original_samples": 1280,
+        "record_sha256": "a8ca56323eb81269fcc186441e0ffb8ff58d02afb2a99ad2ec4b11396454c97b"
+      },
+      {
+        "index": 5,
+        "original_samples": 1280,
+        "record_sha256": "9e86d852b4b0144d13d4175d0b30ead11d8daaa5112fba7033a8f07ad41d0ce7"
+      },
+      {
+        "index": 6,
+        "original_samples": 1280,
+        "record_sha256": "ffa2bbbe34e317d316557a3a810714b87fa5ef7f78ad9fd90401fd65df03b168"
+      },
+      {
+        "index": 7,
+        "original_samples": 1280,
+        "record_sha256": "b0215d3e0f35ba5f33f38b906e7344cbee00835185eb3fe25a3e84ae01aa3c4a"
+      },
+      {
+        "index": 8,
+        "original_samples": 1280,
+        "record_sha256": "5eb18349f4a3fedb44ff18fbf3f2562c58813cb24bdf5fc381182e23147f8539"
+      },
+      {
+        "index": 9,
+        "original_samples": 1280,
+        "record_sha256": "62acfde4f738dcb6bead214fa753c0f7c63badab98c0a97fe2138db79f3e3293"
+      },
+      {
+        "index": 10,
+        "original_samples": 1280,
+        "record_sha256": "ac552be6852edb96d8a8a3108558727a0e8d018e1f752ffe0b3422521eaa0441"
+      },
+      {
+        "index": 11,
+        "original_samples": 1280,
+        "record_sha256": "317deabec9f25bd28c2c2b088266b0c95e0fe90103447afa1ef4f3e3727821c4"
+      },
+      {
+        "index": 12,
+        "original_samples": 7,
+        "record_sha256": "efa96b5916a48bfcd33230e597efda0e1f00c4baa41d7ff076d64997563b653d"
+      },
+      {
+        "index": 13,
+        "original_samples": 1280,
+        "record_sha256": "9b04a7ceee3cc2b429934902749b922f58821e02040e5b04acb5bfb1e1987b57"
+      },
+      {
+        "index": 14,
+        "original_samples": 1280,
+        "record_sha256": "f4f8876b34420619ba5a6f05acfd5d848e9755b09ff0050a3cce9222c273badb"
+      },
+      {
+        "index": 15,
+        "original_samples": 1280,
+        "record_sha256": "eae4e645849c47ffd908512e393c6bae27ceacd279305fa88970dea77db9c8fc"
+      },
+      {
+        "index": 16,
+        "original_samples": 1280,
+        "record_sha256": "f6582537ab1deae13886b0bbfd6f30680066d363bc56622980942506916890d7"
+      },
+      {
+        "index": 17,
+        "original_samples": 1280,
+        "record_sha256": "1fef713e84fbac0c45740e42333c77f99ffd854e14c5ba3391eee9b6a0070753"
+      }
+    ],
+    "original_remaining_full_contexts": 79,
+    "original_estimated_remaining_seconds": 4068.5,
+    "original_full_contexts_total": 96,
+    "expected_new_windows": 104,
+    "candidates": [
+      {
+        "threads": 4,
+        "candidate_sampling_seconds": 35.96799999999348,
+        "estimated_new_run_seconds": 3830.671999999322,
+        "estimated_saved_seconds": 237.828000000678,
+        "estimated_saved_fraction": 0.0584559419935303,
+        "numerical_consistency_guard_pass": true,
+        "switch_worthwhile": false,
+        "observed_benchmark": {
+          "threads": 4,
+          "wall_seconds": 38.65600000001723,
+          "model_load_wall_seconds": 1.7820000000065193,
+          "sampling_wall_seconds": 35.75,
+          "sampling_cpu_seconds": 140.234375,
+          "total_cpu_seconds": 148.625,
+          "same_threads_replay_bitwise_equal": true,
+          "bitwise_equal_to_two_threads": false,
+          "max_absolute_difference_vs_two_threads_uv": 6.222653039356096e-05,
+          "rms_difference_vs_two_threads_uv": 1.3491784734532814e-05,
+          "relative_rms_difference_vs_two_threads": 2.375777830871666e-06,
+          "minimum_available_gib": 11.342308044433594,
+          "checkpoint_identity_sha256": "f2d1c4864b3b81345e3207663819f90a380dd0207dafb8ae71e7f4d0b90f84bb",
+          "sampling_speedup_vs_two_threads": 1.4833846153850974
+        }
+      },
+      {
+        "threads": 8,
+        "candidate_sampling_seconds": 31.54700000002049,
+        "estimated_new_run_seconds": 3370.888000002131,
+        "estimated_saved_seconds": 697.6119999978691,
+        "estimated_saved_fraction": 0.171466633894032,
+        "numerical_consistency_guard_pass": true,
+        "switch_worthwhile": true,
+        "observed_benchmark": {
+          "threads": 8,
+          "wall_seconds": 24.42200000002049,
+          "model_load_wall_seconds": 1.4690000000409782,
+          "sampling_wall_seconds": 22.030999999959022,
+          "sampling_cpu_seconds": 170.828125,
+          "total_cpu_seconds": 184.34375,
+          "same_threads_replay_bitwise_equal": true,
+          "bitwise_equal_to_two_threads": false,
+          "max_absolute_difference_vs_two_threads_uv": 5.790524356097393e-05,
+          "rms_difference_vs_two_threads_uv": 1.5192004577926122e-05,
+          "relative_rms_difference_vs_two_threads": 2.6751707348514512e-06,
+          "minimum_available_gib": 11.744583129882812,
+          "checkpoint_identity_sha256": "c857843244e773667e3e406e962ae86da72d78804327ed00f631020e079fa758",
+          "sampling_speedup_vs_two_threads": 2.4071081657716795
+        }
+      }
+    ],
+    "selection_uses_human_reconstruction_errors": false,
+    "old_checkpoints_reused": false,
+    "scientific_claim": "NONE",
+    "note": "Runtime estimate, not a guarantee; same-count synthetic reproducibility does not prove all-input or cross-platform equality."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "bf422d44a155b2f0caa7b3ddcb026461db23fe06800c023f1b61bdad91f0bc6c",
+  "original_schema": "PRAYCG_ZunaEEGReconstruction_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "BLOCKED; not a completed model comparison.",
+  "record": {
+    "schema": "PRAYCG_ZunaEEGReconstruction_v1_0",
+    "module_id": "zuna_eeg_reconstruction_v1_0",
+    "module_version": "1.1.0",
+    "status": "INELIGIBLE",
+    "execution_status": "BLOCKED",
+    "comparison_status": "INCOMPLETE",
+    "evidence_status": "NOT_ASSESSED",
+    "reason": "An acquisition gap or >2% sample-rate mismatch prevents this continuous-window benchmark. Raw QC remains available.",
+    "interpretation": "An acquisition gap or >2% sample-rate mismatch prevents this continuous-window benchmark. Raw QC remains available.",
+    "scientific_authority": "NONE",
+    "completed_checkpoint_windows": null,
+    "limitations": [
+      "Experimental within-recording prediction benchmark, not proof of artifact removal, neural origin, diagnosis, thought decoding, or generalizable scientific validity. The recorded held-out signal is a comparison target, not clean ground truth.",
+      "No successful model comparison is claimed."
+    ],
+    "error_type": "AnalysisIneligible"
+  }
+}

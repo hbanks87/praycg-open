@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_documents": 105,
+  "source_documents_unchanged": true,
+  "known_identifier_and_path_scan": "PASS",
+  "archive_type_allowlist": "PASS",
+  "static_html_links": "PASS",
+  "summary_metric_preservation": "PASS",
+  "retained_finite_numeric_values": 335541,
+  "raw_data_or_waveforms_included": false,
+  "limitations": [
+    "Automated identifier scanning is not a guarantee of anonymity.",
+    "Owner must review physiological disclosure before publication.",
+    "No new model execution or raw-data numerical replay was performed."
+  ]
+}

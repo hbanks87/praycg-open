@@ -1,0 +1,515 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "bf400648cd34ad539110cef04f19df6f59ecdc9eeadc9c279fae650521bc6f43",
+  "original_schema": "PRAYCG_ZunaExploratoryPreparation_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison.",
+  "record": {
+    "schema": "PRAYCG_ZunaExploratoryPreparation_v1_0",
+    "status": "PREPARED_NOT_INFERRED",
+    "model_executed": false,
+    "run_uuid": "RUN_1",
+    "execution_status": "PREPARED",
+    "comparison_status": "NOT_RUN",
+    "evidence_status": "POSTHOC_EXPLORATORY",
+    "coordinate_inspection": {
+      "channel_names": [
+        "Fz",
+        "Cz",
+        "Pz",
+        "C3",
+        "C4",
+        "P7",
+        "P8",
+        "O1",
+        "O2",
+        "T7",
+        "T8",
+        "Fp1",
+        "F3",
+        "F4",
+        "P3",
+        "P4"
+      ],
+      "positions_m": [
+        [
+          -0.001229271161566281,
+          0.09327445200029715,
+          0.1026392934768164
+        ],
+        [
+          -0.0013741334028190722,
+          0.027617093595102737,
+          0.14019949417439556
+        ],
+        [
+          -0.001709445046746896,
+          -0.045212993324122014,
+          0.12667292418209622
+        ],
+        [
+          -0.0671487229331174,
+          0.023358230537446293,
+          0.10451068106024831
+        ],
+        [
+          0.06532888071838541,
+          0.0235731049615695,
+          0.10369243420047652
+        ],
+        [
+          -0.07445796452347851,
+          -0.042123164958505765,
+          0.04127363138738122
+        ],
+        [
+          0.07103247088902218,
+          -0.04225997601209522,
+          0.0411988627819509
+        ],
+        [
+          -0.03157355787465608,
+          -0.08056835212663661,
+          0.05478964562404762
+        ],
+        [
+          0.027683100559624117,
+          -0.08048883980936473,
+          0.0547340814777941
+        ],
+        [
+          -0.08598207795805729,
+          0.014871638175652204,
+          0.031173373739044698
+        ],
+        [
+          0.08326136985759491,
+          0.015258189278681372,
+          0.030972968524059938
+        ],
+        [
+          -0.03090258833242555,
+          0.114585178792428,
+          0.02786657432908913
+        ],
+        [
+          -0.05180903841183724,
+          0.08668789888287941,
+          0.07871409302883386
+        ],
+        [
+          0.050274277731628736,
+          0.08743838910239796,
+          0.07727065434234194
+        ],
+        [
+          -0.0550382318026169,
+          -0.04421030466234088,
+          0.09990897692200874
+        ],
+        [
+          0.05363601546337514,
+          -0.04433452185507687,
+          0.100516027732151
+        ]
+      ],
+      "coordinate_frame": "MNE_HEAD",
+      "units": "m",
+      "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+      "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+      "spatial_bins": [
+        [
+          49,
+          88,
+          92
+        ],
+        [
+          49,
+          61,
+          99
+        ],
+        [
+          49,
+          31,
+          99
+        ],
+        [
+          22,
+          59,
+          93
+        ],
+        [
+          77,
+          59,
+          93
+        ],
+        [
+          18,
+          32,
+          67
+        ],
+        [
+          79,
+          32,
+          67
+        ],
+        [
+          36,
+          16,
+          72
+        ],
+        [
+          61,
+          16,
+          72
+        ],
+        [
+          14,
+          56,
+          62
+        ],
+        [
+          84,
+          56,
+          62
+        ],
+        [
+          37,
+          97,
+          61
+        ],
+        [
+          28,
+          86,
+          82
+        ],
+        [
+          70,
+          86,
+          82
+        ],
+        [
+          27,
+          31,
+          91
+        ],
+        [
+          72,
+          31,
+          91
+        ]
+      ],
+      "clipped_channels": [
+        "Cz",
+        "Pz"
+      ],
+      "clipped_axes": {
+        "Cz": [
+          "z"
+        ],
+        "Pz": [
+          "z"
+        ]
+      },
+      "review_required": true,
+      "geometric_rescale_applied": false,
+      "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+      "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+    },
+    "coordinate_review_sha256": "5e253036ed1b9e3420f18ed7326c9b481b8601ccfedcea0e9056cec140ea929e",
+    "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+    "recipe_sha256": "9cd3a979a44976016c5fb6c833ea1a043e9cd87bc50a68e44ff91a3715c81586",
+    "input_files": {
+      "xdf": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303"
+      },
+      "original_contract": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "247ba65e9dc3005ce5ade644d9d5d3611a991c4bb53221d46f53543c8f79946c"
+      },
+      "original_session_lock": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "3011d9bbb8bb19e2d4230ef88f5a2c16015c8efc73d6f2873daa00b1d3859302"
+      },
+      "observed_blocks": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "e15e8ff775a8be4e3d233b59866833cff46da990fd1a28c3acd560870bb434ed"
+      },
+      "eeg_quality": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "5ebed63c03c0dea489eb3827cd0f90c6d912ff126171a1feb21c5cd2553a6c64"
+      },
+      "chunk_diagnostics": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "849019508542e3d0b4985ffc7dfbcac693273a72a2d5370552a6a2b363a30312"
+      },
+      "mapping_review": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "c4cf2b87f466b0c10d5651b77bb9f268fdfc0c1d4980463924a70a4d15767eb1"
+      }
+    },
+    "original_session_purpose": "BENCH_TEST",
+    "original_bench_test_mode": true,
+    "original_participant_data_eligible": false,
+    "raw_recording_modified": false,
+    "prospective_endpoint_status": "NOT_ESTIMABLE_POSTHOC",
+    "recorded_channel_labels": [
+      "Fz",
+      "Cz",
+      "Pz",
+      "F3",
+      "F4",
+      "C3",
+      "C4",
+      "P3",
+      "P4",
+      "T5",
+      "T6",
+      "O1",
+      "O2",
+      "T3",
+      "T4",
+      "Fp1"
+    ],
+    "posthoc_reviewed_physical_labels": [
+      "Fz",
+      "Cz",
+      "Pz",
+      "F3",
+      "F4",
+      "C3",
+      "C4",
+      "P3",
+      "P4",
+      "T5",
+      "T6",
+      "O1",
+      "O2",
+      "T3",
+      "T4",
+      "Fp1"
+    ],
+    "canonical_template_labels": [
+      "Fz",
+      "Cz",
+      "Pz",
+      "F3",
+      "F4",
+      "C3",
+      "C4",
+      "P3",
+      "P4",
+      "P7",
+      "P8",
+      "O1",
+      "O2",
+      "T7",
+      "T8",
+      "Fp1"
+    ],
+    "label_aliases": {
+      "T3": "T7",
+      "T4": "T8",
+      "T5": "P7",
+      "T6": "P8"
+    },
+    "heldout_channels": [
+      "F3",
+      "F4",
+      "P3",
+      "P4"
+    ],
+    "retained_indices_1based": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "target_indices_1based": [
+      4,
+      5,
+      8,
+      9
+    ],
+    "timing": {
+      "policy": "LEGACY_OPENBCI_V1_5_DIAGNOSTIC_ENDPOINT_MAP",
+      "diagnostics_sha256": "849019508542e3d0b4985ffc7dfbcac693273a72a2d5370552a6a2b363a30312",
+      "grid_anchor_adjustment_seconds": -0.0009185140074568013,
+      "matched_chunk_endpoints": 10464,
+      "maximum_endpoint_lattice_error_seconds": 2.3040338419377804e-06,
+      "rejected_diagnostic_chunks": 242,
+      "verified_raw_samples": 84623,
+      "limitation": "Log-derived host receipt approximation, not independently calibrated ADC/display latency; no waveform alignment fitting, gap filling or original timestamp edits."
+    },
+    "calibration_policy": "EXCLUDED_NO_FITTED_CALIBRATION_RETAINED_ONLY_PER_WINDOW_NORMALIZATION",
+    "interval_policy": "ALL_OBSERVED_EVALUATION_BLOCKS_INDEPENDENT_NO_CALIBRATION_NO_GAP_REPAIR",
+    "block_eligibility_file": "zuna_block_eligibility_v1_0.json",
+    "block_eligibility_sha256": "4f3791092273d4a5fbabf3751f763ad3c39b7d63bddc5bc866178a8c4e37541a",
+    "sample_rate_hz": 256.0,
+    "independent_segment_boundaries": [
+      0,
+      15367,
+      30734,
+      46097,
+      61462,
+      76829,
+      92196,
+      107561,
+      122926
+    ],
+    "segments": [
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_OFFSET"
+        },
+        "model_samples": 15367,
+        "evaluated_samples": 12807,
+        "source_fractional_index_bounds": [
+          23448.0,
+          30950.9296875
+        ],
+        "evaluation_mask_sha256": "0ba13ffc32340b3f183796fc4e59739a56bfafd80d4e012435f3dcc52c533e1f",
+        "retained_input_sha256": "ae9373f9d1e66484b0b7b8308ad1db8e5ab9716a0c491a192d301667753fb7f4"
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_OFFSET"
+        },
+        "model_samples": 15367,
+        "evaluated_samples": 12808,
+        "source_fractional_index_bounds": [
+          30957.0,
+          38459.9296875
+        ],
+        "evaluation_mask_sha256": "23871f6f25289d8f48e026c3b3f329a94dd66ef4377ab0a4039afd6da960bfac",
+        "retained_input_sha256": "065a9f856d05d582fe80b738d35417245bbd71a5e1d09bfd34cb0628623885d5"
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_OFFSET"
+        },
+        "model_samples": 15363,
+        "evaluated_samples": 12804,
+        "source_fractional_index_bounds": [
+          38465.0,
+          45965.9765625
+        ],
+        "evaluation_mask_sha256": "ac0fa5ba5d71996ba6be80fd0af790a007abb84f7aa5e62e9c7ac41c6d186f53",
+        "retained_input_sha256": "26c40d9b09d6078acff317e40799275b7e8c03d382ea693777a444b2ceb4fe20"
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_OFFSET"
+        },
+        "model_samples": 15365,
+        "evaluated_samples": 12807,
+        "source_fractional_index_bounds": [
+          45973.0,
+          53474.953125
+        ],
+        "evaluation_mask_sha256": "96db863b2a241afcd12b90e9f8eb3e4c37c46579c9640e2db58ebd676900f9a1",
+        "retained_input_sha256": "08253e48f20c5dbb3b147927724dbfca20a88a0915a16d1027d5dbdc0c49ceb9"
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_OFFSET"
+        },
+        "model_samples": 15367,
+        "evaluated_samples": 12808,
+        "source_fractional_index_bounds": [
+          53481.0,
+          60983.9296875
+        ],
+        "evaluation_mask_sha256": "60e74ba5e61c9b1b5706774a4df1e48039e8fb6c650a4f84f421b827691dc53d",
+        "retained_input_sha256": "66c0ae3cfe078ccedeb44e49d127be07350934f4ea399bb46bc3747f40530b84"
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_OFFSET"
+        },
+        "model_samples": 15367,
+        "evaluated_samples": 12807,
+        "source_fractional_index_bounds": [
+          60989.0,
+          68491.9296875
+        ],
+        "evaluation_mask_sha256": "0ba13ffc32340b3f183796fc4e59739a56bfafd80d4e012435f3dcc52c533e1f",
+        "retained_input_sha256": "c317faaba27d8c372d8f03afb44f024f48f710bda934649043a4af365bb74ece"
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_OFFSET"
+        },
+        "model_samples": 15365,
+        "evaluated_samples": 12807,
+        "source_fractional_index_bounds": [
+          68497.0,
+          75998.953125
+        ],
+        "evaluation_mask_sha256": "96db863b2a241afcd12b90e9f8eb3e4c37c46579c9640e2db58ebd676900f9a1",
+        "retained_input_sha256": "464fb8fc0cac688f6b91b24b686eef8723da653ebcd36fa6feab29927f558c2e"
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_OFFSET"
+        },
+        "model_samples": 15365,
+        "evaluated_samples": 12808,
+        "source_fractional_index_bounds": [
+          76004.0,
+          83505.953125
+        ],
+        "evaluation_mask_sha256": "445d5597b29ba0a4d284e2ed2547f73bdd350d10eef5b36f954c3718a5111d88",
+        "retained_input_sha256": "019053860d535e4a2a6b8b4cb69ac131ba632e6aaad8dd6142f490716ea62e52"
+      }
+    ],
+    "frozen_before_predictions": true,
+    "quality_status": "CAUTION",
+    "model_parameters": {
+      "seed": 20260924,
+      "sample_steps": 16,
+      "segment_samples": 1280,
+      "device": "cpu"
+    },
+    "channel_positions": "MNE standard_1020 template, not digitized",
+    "normalization": "Per five-second model context, retained-only scalar statistics; no target signals or fitted calibration.",
+    "canonical_sha256": "33189b45b5092ab70b18b9d14bb2b5a27246abe0f1e94d0fc1d2b4163d226fb3"
+  }
+}

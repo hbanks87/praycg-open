@@ -1,0 +1,1363 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "dbe52eb9293fb48985c24c2e90242a25c526437abe9e09faa9a49263ceb3f109",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "",
+  "record": {
+    "scope": "Independent descriptive audit; not managed Forge QC or a model reconstruction result",
+    "original_xdf_sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303",
+    "input_file": "[LOCAL_PATH_REMOVED]",
+    "timestamp_processing": "Native timestamps; no clock correction or dejitter applied. All selected publishers are on the recorded local machine; no cross-device synchronization claim.",
+    "versions": {
+      "numpy": "2.4.6",
+      "pyxdf": "1.17.5",
+      "scipy": "1.17.1"
+    },
+    "diagnostic_script_sha256": "c376326ebfa9c65a9dee9e452d85d284eb2d8eaef0be07d63f854c8c0bd2f022",
+    "electrode_mapping_review": {
+      "status": "CONFLICT_REQUIRES_ACTUAL_WIRING_CONFIRMATION",
+      "contract_labels": [
+        "Fp1",
+        "Fp2",
+        "C3",
+        "C4",
+        "P7",
+        "P8",
+        "O1",
+        "O2",
+        "F7",
+        "F8",
+        "F3",
+        "F4",
+        "T7",
+        "T8",
+        "P3",
+        "P4"
+      ],
+      "stream_labels": [
+        "Fz",
+        "Cz",
+        "Pz",
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "P3",
+        "P4",
+        "T5",
+        "T6",
+        "O1",
+        "O2",
+        "T3",
+        "T4",
+        "Fp1"
+      ],
+      "stream_channel_map_confirmed": [
+        "False"
+      ],
+      "limitation": "Do not infer anatomy from either conflicting declaration; no channel relabeling or reordering applied."
+    },
+    "observed_blocks": {
+      "schema": "PRAYCG_ZunaObservedBlocks_v1_0",
+      "run_uuid": "RUN_1",
+      "protocol_id": "ATLAS_AI_EEG_RECONSTRUCTION_VALIDATION",
+      "validation_contract_sha256": "247ba65e9dc3005ce5ade644d9d5d3611a991c4bb53221d46f53543c8f79946c",
+      "compiled_timeline_sha256": "2ece7d9692774be5cd31fcb5541d616383e39143b147a8858bceb3569d12d5b5",
+      "blocks": [
+        {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_OFFSET"
+        },
+        {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_OFFSET"
+        },
+        {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_OFFSET"
+        },
+        {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_OFFSET"
+        },
+        {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_OFFSET"
+        },
+        {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_OFFSET"
+        },
+        {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_OFFSET"
+        },
+        {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_OFFSET"
+        }
+      ],
+      "calibration": {
+        "condition": "eyes_open_calibration",
+        "node_id": "zuna_validation_calibration",
+        "onset_marker": "ZUNA_VALIDATION_CALIBRATION_ONSET",
+        "offset_marker": "ZUNA_VALIDATION_CALIBRATION_OFFSET"
+      },
+      "timing_source": "observed_PsychoPy_display_flip_callbacks_in_LSL_local_clock",
+      "timing_limitation": "Audio/eye-state compliance and acoustic onset are not measured by a display marker.",
+      "completed_evaluation_blocks": 8,
+      "status": "COMPLETED_EVALUATION_INTERVALS_NOT_RUN_FINALIZATION"
+    },
+    "protocol_signal": {
+      "sample_count": 75007,
+      "duration_seconds": 600.4799979396048,
+      "scheduled_observed_span_seconds": 600.4887048000237,
+      "all_finite": true,
+      "nominal_rate": 125.0,
+      "effective_rate": 124.91007237104336,
+      "max_gap_seconds": 0.13599999999860302,
+      "gaps_over_2_5_samples": 7,
+      "gaps_over_50ms": 3,
+      "gaps": [
+        {
+          "interval_seconds": 0.13599999999860302
+        },
+        {
+          "interval_seconds": 0.04800000000977889
+        },
+        {
+          "interval_seconds": 0.09600000001955777
+        },
+        {
+          "interval_seconds": 0.023999999975785613
+        },
+        {
+          "interval_seconds": 0.04800000000977889
+        },
+        {
+          "interval_seconds": 0.08000000001629815
+        },
+        {
+          "interval_seconds": 0.023999999975785613
+        }
+      ]
+    },
+    "channel_diagnostics": [
+      {
+        "channel_index_1based": 1,
+        "contract_assumed_electrode": "Fp1",
+        "recorded_stream_label": "Fz",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -37400.2578125,
+        "raw_max_uV": -30061.509765625,
+        "bandpassed_0_5_40_std_uV": 15.397949344051545,
+        "band_power_uV2": {
+          "0.5_1_Hz": 159.23885755648158,
+          "1_40_Hz": 164.00138000237166,
+          "8_13_Hz": 11.774702491388034,
+          "58_62_Hz": 0.20323591450520895,
+          "0.5_62_Hz": 324.60745612258063
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0006260974930546928
+      },
+      {
+        "channel_index_1based": 2,
+        "contract_assumed_electrode": "Fp2",
+        "recorded_stream_label": "Cz",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -43037.7265625,
+        "raw_max_uV": -39953.09375,
+        "bandpassed_0_5_40_std_uV": 8.707028512095095,
+        "band_power_uV2": {
+          "0.5_1_Hz": 35.43958162412315,
+          "1_40_Hz": 62.10277330219805,
+          "8_13_Hz": 17.42368757374497,
+          "58_62_Hz": 0.20799649097746326,
+          "0.5_62_Hz": 98.97584358497075
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0021014874280803507
+      },
+      {
+        "channel_index_1based": 3,
+        "contract_assumed_electrode": "C3",
+        "recorded_stream_label": "Pz",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -40321.7421875,
+        "raw_max_uV": -38338.0234375,
+        "bandpassed_0_5_40_std_uV": 8.688167830457102,
+        "band_power_uV2": {
+          "0.5_1_Hz": 20.832681779377342,
+          "1_40_Hz": 67.88979680722419,
+          "8_13_Hz": 31.927540809558025,
+          "58_62_Hz": 0.2085893530691279,
+          "0.5_62_Hz": 90.12899317029937
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.002314342430021346
+      },
+      {
+        "channel_index_1based": 4,
+        "contract_assumed_electrode": "C4",
+        "recorded_stream_label": "F3",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -36710.7734375,
+        "raw_max_uV": -29565.345703125,
+        "bandpassed_0_5_40_std_uV": 16.53643883254234,
+        "band_power_uV2": {
+          "0.5_1_Hz": 195.5995662709937,
+          "1_40_Hz": 184.86621891292384,
+          "8_13_Hz": 9.791288002183386,
+          "58_62_Hz": 0.6030907547274066,
+          "0.5_62_Hz": 383.9549734093119
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0015707330194795702
+      },
+      {
+        "channel_index_1based": 5,
+        "contract_assumed_electrode": "P7",
+        "recorded_stream_label": "F4",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -27505.23046875,
+        "raw_max_uV": -24264.29296875,
+        "bandpassed_0_5_40_std_uV": 14.32550726821298,
+        "band_power_uV2": {
+          "0.5_1_Hz": 128.17926407649003,
+          "1_40_Hz": 139.9612414756865,
+          "8_13_Hz": 9.610770396024265,
+          "58_62_Hz": 0.2423157201463433,
+          "0.5_62_Hz": 269.83198808881474
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0008980244405514498
+      },
+      {
+        "channel_index_1based": 6,
+        "contract_assumed_electrode": "P8",
+        "recorded_stream_label": "C3",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -29433.515625,
+        "raw_max_uV": -27794.818359375,
+        "bandpassed_0_5_40_std_uV": 9.117626119633368,
+        "band_power_uV2": {
+          "0.5_1_Hz": 47.36429263254553,
+          "1_40_Hz": 63.82572093690827,
+          "8_13_Hz": 10.772620428241694,
+          "58_62_Hz": 0.5672927495879531,
+          "0.5_62_Hz": 114.39196637021723
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.004959200961298029
+      },
+      {
+        "channel_index_1based": 7,
+        "contract_assumed_electrode": "O1",
+        "recorded_stream_label": "C4",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -28772.23828125,
+        "raw_max_uV": -25704.818359375,
+        "bandpassed_0_5_40_std_uV": 12.25614201867484,
+        "band_power_uV2": {
+          "0.5_1_Hz": 58.23787601562382,
+          "1_40_Hz": 119.80947408973803,
+          "8_13_Hz": 11.520198427286132,
+          "58_62_Hz": 0.38819447089696935,
+          "0.5_62_Hz": 181.4147309684961
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0021398178021407865
+      },
+      {
+        "channel_index_1based": 8,
+        "contract_assumed_electrode": "O2",
+        "recorded_stream_label": "P3",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -36130.56640625,
+        "raw_max_uV": -34196.11328125,
+        "bandpassed_0_5_40_std_uV": 8.219562561995053,
+        "band_power_uV2": {
+          "0.5_1_Hz": 25.379748473112375,
+          "1_40_Hz": 58.666793158180155,
+          "8_13_Hz": 19.921945017019436,
+          "58_62_Hz": 0.2316630439712001,
+          "0.5_62_Hz": 85.53279750683049
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0027084703262827328
+      },
+      {
+        "channel_index_1based": 9,
+        "contract_assumed_electrode": "F7",
+        "recorded_stream_label": "P4",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -31182.896484375,
+        "raw_max_uV": -29804.7109375,
+        "bandpassed_0_5_40_std_uV": 8.15337829515922,
+        "band_power_uV2": {
+          "0.5_1_Hz": 23.64864835197872,
+          "1_40_Hz": 58.10166585387914,
+          "8_13_Hz": 22.140868297549147,
+          "58_62_Hz": 0.20644215779091213,
+          "0.5_62_Hz": 83.10706184840863
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.002484050731663126
+      },
+      {
+        "channel_index_1based": 10,
+        "contract_assumed_electrode": "F8",
+        "recorded_stream_label": "T5",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -34987.20703125,
+        "raw_max_uV": -32661.240234375,
+        "bandpassed_0_5_40_std_uV": 6.715480924232195,
+        "band_power_uV2": {
+          "0.5_1_Hz": 14.916893034451856,
+          "1_40_Hz": 41.50698806937351,
+          "8_13_Hz": 12.738289021267436,
+          "58_62_Hz": 0.6001517148319093,
+          "0.5_62_Hz": 60.369702729541444
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.009941273315865274
+      },
+      {
+        "channel_index_1based": 11,
+        "contract_assumed_electrode": "F3",
+        "recorded_stream_label": "T6",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -36137.49609375,
+        "raw_max_uV": -33171.57421875,
+        "bandpassed_0_5_40_std_uV": 6.49600190971748,
+        "band_power_uV2": {
+          "0.5_1_Hz": 9.252985551019886,
+          "1_40_Hz": 40.76519368144807,
+          "8_13_Hz": 14.727338611732863,
+          "58_62_Hz": 0.8564602777358671,
+          "0.5_62_Hz": 55.38909757691225
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.015462614760000425
+      },
+      {
+        "channel_index_1based": 12,
+        "contract_assumed_electrode": "F4",
+        "recorded_stream_label": "O1",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -41837.81640625,
+        "raw_max_uV": -37651.1796875,
+        "bandpassed_0_5_40_std_uV": 8.501431657386954,
+        "band_power_uV2": {
+          "0.5_1_Hz": 16.913252506129673,
+          "1_40_Hz": 67.28914941302578,
+          "8_13_Hz": 37.1018390208352,
+          "58_62_Hz": 0.20084966788046227,
+          "0.5_62_Hz": 85.52466627431362
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0023484414102973848
+      },
+      {
+        "channel_index_1based": 13,
+        "contract_assumed_electrode": "T7",
+        "recorded_stream_label": "O2",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -44826.98046875,
+        "raw_max_uV": -39894.734375,
+        "bandpassed_0_5_40_std_uV": 8.737208710018669,
+        "band_power_uV2": {
+          "0.5_1_Hz": 15.768765873465565,
+          "1_40_Hz": 71.23750990925953,
+          "8_13_Hz": 40.24056017720549,
+          "58_62_Hz": 0.20584500098209835,
+          "0.5_62_Hz": 88.29183295729752
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.0023314161014377807
+      },
+      {
+        "channel_index_1based": 14,
+        "contract_assumed_electrode": "T8",
+        "recorded_stream_label": "T3",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -31943.1015625,
+        "raw_max_uV": -27913.283203125,
+        "bandpassed_0_5_40_std_uV": 6.468959853862893,
+        "band_power_uV2": {
+          "0.5_1_Hz": 27.05926374522368,
+          "1_40_Hz": 32.96022997478827,
+          "8_13_Hz": 5.591247956526222,
+          "58_62_Hz": 0.31325297312913414,
+          "0.5_62_Hz": 61.98798860645409
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.005053446323575641
+      },
+      {
+        "channel_index_1based": 15,
+        "contract_assumed_electrode": "P3",
+        "recorded_stream_label": "T4",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -32765.802734375,
+        "raw_max_uV": -29215.65234375,
+        "bandpassed_0_5_40_std_uV": 8.143837871549712,
+        "band_power_uV2": {
+          "0.5_1_Hz": 21.065459516696457,
+          "1_40_Hz": 57.06147626696203,
+          "8_13_Hz": 5.608371949465694,
+          "58_62_Hz": 0.25478757011938374,
+          "0.5_62_Hz": 79.79064885297409
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.003193200879828249
+      },
+      {
+        "channel_index_1based": 16,
+        "contract_assumed_electrode": "P4",
+        "recorded_stream_label": "Fp1",
+        "physical_electrode_unresolved": true,
+        "raw_min_uV": -43304.60546875,
+        "raw_max_uV": -39379.48046875,
+        "bandpassed_0_5_40_std_uV": 37.89412562254128,
+        "band_power_uV2": {
+          "0.5_1_Hz": 981.8582086305767,
+          "1_40_Hz": 953.6814983094375,
+          "8_13_Hz": 15.94293206581475,
+          "58_62_Hz": 0.4388681067724748,
+          "0.5_62_Hz": 1938.2984829880952
+        },
+        "line_58_62_fraction_of_0_5_62_power": 0.00022641925927523426
+      }
+    ],
+    "block_diagnostics": [
+      {
+        "node_id": "zuna_validation_eyes_open_1",
+        "condition": "eyes_open",
+        "observed_duration_seconds": 60.02514909999445,
+        "trimmed_sample_count": 6253,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 12.730305504744738
+      },
+      {
+        "node_id": "zuna_validation_eyes_closed_1",
+        "condition": "eyes_closed",
+        "observed_duration_seconds": 60.02806659997441,
+        "trimmed_sample_count": 6253,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 28.42910096317632
+      },
+      {
+        "node_id": "zuna_validation_eyes_closed_2",
+        "condition": "eyes_closed",
+        "observed_duration_seconds": 60.01277229998959,
+        "trimmed_sample_count": 6251,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 41.451021158922636
+      },
+      {
+        "node_id": "zuna_validation_eyes_open_2",
+        "condition": "eyes_open",
+        "observed_duration_seconds": 60.02533089998178,
+        "trimmed_sample_count": 6253,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 3.634356406615375
+      },
+      {
+        "node_id": "zuna_validation_eyes_closed_3",
+        "condition": "eyes_closed",
+        "observed_duration_seconds": 60.02910399995744,
+        "trimmed_sample_count": 6253,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 23.164004746788436
+      },
+      {
+        "node_id": "zuna_validation_eyes_open_3",
+        "condition": "eyes_open",
+        "observed_duration_seconds": 60.02160320000257,
+        "trimmed_sample_count": 6252,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 4.539128019059741
+      },
+      {
+        "node_id": "zuna_validation_eyes_open_4",
+        "condition": "eyes_open",
+        "observed_duration_seconds": 60.01888049999252,
+        "trimmed_sample_count": 6253,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 12.666472573971717
+      },
+      {
+        "node_id": "zuna_validation_eyes_closed_4",
+        "condition": "eyes_closed",
+        "observed_duration_seconds": 60.02338899997994,
+        "trimmed_sample_count": 6253,
+        "max_trimmed_interval_seconds": 0.007999999972525984,
+        "trimmed_gaps_over_2_5_samples": 0,
+        "channels_7_8_mean_8_13Hz_power_uV2": 23.638226032016245
+      }
+    ],
+    "exploratory_channel_7_8_band_power": {
+      "block_mean_power_uV2": {
+        "eyes_open": 8.392565626097893,
+        "eyes_closed": 29.17058822522591
+      },
+      "closed_over_open_ratio": 3.475765281419517,
+      "limitations": "Provisional marker-assigned channel7/8 contrast only. These channels cannot be called O1/O2 or posterior until conflicting wiring maps are resolved. Bridge physical-time alignment remains unvalidated;5s trimming does not prove alignment. No statistical significance, compliance, neural-origin or model-benefit inference; no rereference;4blocks each,1session."
+    },
+    "preflight_comparison": [
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "WARN",
+        "score": 88,
+        "hard_channel_count": 3,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          89.50092334274295,
+          36.24727858869523,
+          35.10387612383574,
+          86.42814894564884,
+          152.83866712189965,
+          100.8808781276557,
+          169.8665559286583,
+          50.970454480572215,
+          33.769616673374216,
+          122.44221236940459,
+          32.98439474843866,
+          91.15931755092082,
+          122.67506483895627,
+          48.34072987683242,
+          84.88338386280493,
+          293.63437010595567
+        ],
+        "median_5s_detrended_std_uV": [
+          38.10870285443237,
+          15.144807163759584,
+          13.34545048134995,
+          58.364778253628046,
+          53.17583825606722,
+          18.365185052406698,
+          32.76713626457967,
+          19.571367799606712,
+          13.526083157210017,
+          37.696202232399116,
+          17.697304934608965,
+          24.216452702298902,
+          23.14841695544479,
+          26.83517588531918,
+          37.353009640431,
+          118.69370516513176
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          33.11162770933784,
+          13.080313014254187,
+          9.761137984991256,
+          32.868778359934005,
+          29.404133236354163,
+          13.255435941235405,
+          29.793416625501823,
+          12.504342012757203,
+          13.06525667302797,
+          11.746731787724663,
+          9.041641196663498,
+          12.02441752889233,
+          13.720948480558695,
+          10.480530011423129,
+          15.157719732679611,
+          86.79730139016444
+        ],
+        "robust_sample_step_scale_uV": [
+          3.1860209676813374,
+          3.071356973985865,
+          3.071356973985865,
+          4.240520195416484,
+          4.170902770672805,
+          3.3989683845443572,
+          3.3989683845443572,
+          3.304780104008791,
+          3.0693094026698744,
+          5.811007394781257,
+          6.349518650886778,
+          3.1164035429376575,
+          3.0017395492421852,
+          5.292971851835641,
+          5.176260286824178,
+          6.208236230083428
+        ],
+        "timing": {
+          "sample_count": 3770,
+          "duration_sec": 30.151999896450434,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 79,
+        "hard_channel_count": 9,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          155.47335543347452,
+          75.48738662910817,
+          70.35664377050499,
+          277.3490610558994,
+          286.47729111987206,
+          126.79206059224893,
+          149.05439739766098,
+          80.75380652373492,
+          55.45623570108714,
+          326.985342949031,
+          157.1804796055272,
+          103.2878161581919,
+          200.21539725383738,
+          255.89946170788647,
+          237.05784736027093,
+          545.4860276296577
+        ],
+        "median_5s_detrended_std_uV": [
+          75.64246263718101,
+          28.764448569224022,
+          25.531793650204047,
+          103.89141997915995,
+          81.30950011325899,
+          31.003122440484265,
+          35.846492569052884,
+          39.05255381438559,
+          21.840249299267253,
+          126.0443886938113,
+          52.504446016392166,
+          69.30537250719618,
+          86.53454536356824,
+          62.73093319162796,
+          165.65351381412245,
+          118.58738009484838
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          25.145055665563174,
+          19.037722464561547,
+          18.733118000598164,
+          34.10199056808249,
+          28.36929615798464,
+          20.557570686689996,
+          27.525919889205557,
+          18.9837798421687,
+          20.56442337756305,
+          23.935350760365964,
+          26.37070695717761,
+          24.69491440835662,
+          30.786172151228662,
+          27.12144508147558,
+          43.492838870051926,
+          49.66426538797421
+        ],
+        "robust_sample_step_scale_uV": [
+          3.0222152624020913,
+          2.8584095571228447,
+          3.09183268714577,
+          3.912908784857992,
+          3.5607265185076127,
+          3.4214916690202535,
+          3.5156799495558197,
+          3.210591823473224,
+          3.2822568195328943,
+          6.937171618576073,
+          8.435993821881176,
+          3.3252558171686966,
+          3.304780104008791,
+          5.761865683197483,
+          5.741389970037577,
+          5.131213717872385
+        ],
+        "timing": {
+          "sample_count": 3774,
+          "duration_sec": 30.183999896340538,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 69,
+        "hard_channel_count": 14,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          292.65231537421215,
+          180.91678566901084,
+          161.43438815010353,
+          623.0211463514725,
+          579.0814959930055,
+          268.10632028222966,
+          398.64915423071216,
+          100.24323070672938,
+          117.72745210757475,
+          843.3145267522095,
+          638.1267858822112,
+          744.0200865151319,
+          971.332459225983,
+          642.4161806668487,
+          661.7700976585069,
+          409.2310352528637
+        ],
+        "median_5s_detrended_std_uV": [
+          62.64643838818999,
+          34.90584636492716,
+          39.81379951611058,
+          159.2127335526245,
+          189.33778262476753,
+          42.80725538878745,
+          88.50725316034209,
+          20.107439834371803,
+          25.340294916691587,
+          186.244840084396,
+          176.49014484440767,
+          88.66765871771736,
+          165.5290679486101,
+          146.54860088197037,
+          227.25603603769844,
+          105.2865875312605
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          50.02655290337142,
+          56.248720273392266,
+          56.92513544436435,
+          56.74553166341991,
+          58.9400121232544,
+          52.845457963893935,
+          57.932696658193315,
+          56.98909189320124,
+          55.97831321865051,
+          58.65969767726125,
+          60.196940042340366,
+          58.98281718991856,
+          62.901995856060935,
+          59.196355941648875,
+          72.64539787896318,
+          62.8670964024321
+        ],
+        "robust_sample_step_scale_uV": [
+          3.292494676112847,
+          3.210591823473224,
+          3.4030635271763385,
+          4.381802616219834,
+          4.076714490137237,
+          3.8187205043224255,
+          4.076714490137237,
+          3.4911090937639333,
+          3.5965590165374475,
+          7.404017878621925,
+          8.552705386892638,
+          3.677438083519075,
+          4.029620349869455,
+          6.432445289184396,
+          6.665868419207323,
+          4.733984882570213
+        ],
+        "timing": {
+          "sample_count": 3771,
+          "duration_sec": 30.15999989642296,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 39,
+        "hard_channel_count": 11,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          85.6593172238694,
+          69.20202339507739,
+          96.33147521136081,
+          344.73256275568986,
+          374.2148157766276,
+          154.13271944581732,
+          190.88773863997395,
+          74.74372458698446,
+          84.61751079391037,
+          380.2734135108396,
+          420.6680893746593,
+          501.00796218386193,
+          879.769521985554,
+          348.8977605923926,
+          453.2255994275885,
+          291.4912292014566
+        ],
+        "median_5s_detrended_std_uV": [
+          68.51780251041747,
+          45.06617831049862,
+          52.43843889564483,
+          330.4228910177364,
+          316.88341680015776,
+          121.92248134277393,
+          122.9680146353503,
+          50.212902363748455,
+          57.05457853746539,
+          323.3271479656979,
+          295.03032815956504,
+          194.7111020463508,
+          349.25527015370204,
+          352.6454312544843,
+          412.82886570392395,
+          181.87172418178642
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          19.93987742936144,
+          11.114503777644616,
+          10.616936929494187,
+          44.101050413374026,
+          47.046264924438695,
+          21.087657590829973,
+          24.808682493984545,
+          12.175569960261676,
+          11.906653652187625,
+          49.055719728263945,
+          62.133824825238705,
+          53.40844938385385,
+          71.14136070150477,
+          57.83732511404082,
+          83.48731682103588,
+          38.35100619541717
+        ],
+        "robust_sample_step_scale_uV": [
+          3.724532223786859,
+          3.458347952708084,
+          3.5382032340317164,
+          4.99095508272703,
+          4.732961096912218,
+          4.217996910940588,
+          4.498514181231297,
+          4.007097065393558,
+          3.948741282887827,
+          7.731629289180417,
+          9.093264214314152,
+          4.767769809284058,
+          5.354398991315358,
+          6.901339120546239,
+          6.935124047260082,
+          4.699176170198373
+        ],
+        "timing": {
+          "sample_count": 3339,
+          "duration_sec": 33.97599991742754,
+          "effective_rate_hz": 98.24582081800091,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.1120000000228174,
+          "large_gap_count": 21,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 57,
+        "hard_channel_count": 14,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          188.49504498758182,
+          97.28266701247061,
+          113.58415428656247,
+          498.40025363043236,
+          375.34130649859367,
+          324.8904445417881,
+          955.3723261463259,
+          399.92408110037,
+          173.5955333050734,
+          603.4782851749507,
+          484.1950689514635,
+          488.80730953290384,
+          385.35791850470054,
+          398.27290229980014,
+          386.21038684831973,
+          154.46478061144109
+        ],
+        "median_5s_detrended_std_uV": [
+          69.99658080364388,
+          34.9501936821481,
+          40.502078792927435,
+          175.83746819722742,
+          158.93447000323334,
+          87.11969480274651,
+          274.24484228555303,
+          49.23858224429798,
+          58.86592622562232,
+          86.1143373559626,
+          124.63747925762914,
+          118.20560251231076,
+          129.14456078554656,
+          151.61985649066185,
+          150.37957344277658,
+          96.24391981944822
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          31.06297903660027,
+          18.971711487378617,
+          17.13262322134318,
+          43.072679641752586,
+          36.487543453691615,
+          22.103139080808912,
+          20.34217352015225,
+          16.721252273177182,
+          16.12261922102605,
+          32.55608246323741,
+          57.71274238010567,
+          49.10765421956481,
+          55.0649956232325,
+          39.969534666669084,
+          52.702644459034076,
+          66.77712630403421
+        ],
+        "robust_sample_step_scale_uV": [
+          6.095619807703946,
+          5.99938395585239,
+          6.281948797459089,
+          6.771318341980837,
+          5.856053963733049,
+          6.634131063809468,
+          6.396612791154562,
+          7.287306313610461,
+          6.376137077994655,
+          10.612562130779159,
+          10.05357516151373,
+          9.983957736770051,
+          8.972457506670706,
+          8.155476551590466,
+          5.553013408966444,
+          6.6300359211774875
+        ],
+        "timing": {
+          "sample_count": 3704,
+          "duration_sec": 30.41599989956012,
+          "effective_rate_hz": 121.7451345419538,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.08799999998882413,
+          "large_gap_count": 3,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 81,
+        "hard_channel_count": 7,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          106.35284540225555,
+          40.925031486716335,
+          57.54606616179309,
+          243.45413857709872,
+          195.95262740223254,
+          89.53343744601501,
+          168.60925036704035,
+          124.61999797211784,
+          36.90730614013552,
+          197.93374802113914,
+          138.29089829386234,
+          155.48692193455054,
+          156.73670065667838,
+          131.81717301728125,
+          202.83360811682806,
+          125.24227887164223
+        ],
+        "median_5s_detrended_std_uV": [
+          34.36419464703584,
+          19.629772883175548,
+          22.25584958447766,
+          78.7770215584496,
+          71.61967550122816,
+          22.481584520849662,
+          20.372324293140842,
+          20.682619234472888,
+          17.467821926122305,
+          21.587423366878458,
+          46.7510503125438,
+          52.307209612487746,
+          39.23399333917749,
+          55.64436385361961,
+          109.25823388215372,
+          45.56697986641943
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          13.535645720881208,
+          10.63990205027347,
+          11.34066762495693,
+          19.66195563270906,
+          20.71164711006191,
+          10.980618757899963,
+          10.906022990407745,
+          11.742074258548556,
+          10.447078512809602,
+          14.250975592728278,
+          15.604974069725278,
+          14.634114076260559,
+          15.700779944140834,
+          16.221645628809707,
+          26.899978831392538,
+          24.48493658204744
+        ],
+        "robust_sample_step_scale_uV": [
+          7.266830600450556,
+          7.498206159157491,
+          8.108382411322683,
+          8.177999836066363,
+          7.148071464123103,
+          8.41347053740528,
+          7.170594748599,
+          8.94993422219481,
+          7.9691475618353245,
+          12.864890578368792,
+          12.46561417175063,
+          11.29440337900402,
+          10.848032832118074,
+          9.674774468055475,
+          6.654606776969374,
+          8.972457506670706
+        ],
+        "timing": {
+          "sample_count": 3780,
+          "duration_sec": 30.231999896175694,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 68,
+        "hard_channel_count": 14,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          171.05260589303938,
+          150.0486828427683,
+          122.75128400627953,
+          859.6427335963157,
+          948.1766015281008,
+          406.3144450803551,
+          478.003862070477,
+          187.4817516256316,
+          111.51245712703401,
+          1253.7627201991495,
+          1131.9317026992346,
+          1018.5935435378249,
+          1164.1902830431334,
+          997.1796968153081,
+          1173.186333788539,
+          500.8032527404066
+        ],
+        "median_5s_detrended_std_uV": [
+          96.89641361683987,
+          37.03760014529854,
+          61.09393144761255,
+          242.52634065622982,
+          267.8567440194975,
+          111.88126879152964,
+          113.78499596046805,
+          54.24903930727682,
+          54.1631651851438,
+          370.3901395113894,
+          452.7044829804564,
+          395.42131865601476,
+          513.414093774357,
+          380.2960754557806,
+          451.01955772401004,
+          76.58468991895157
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          19.571241287395516,
+          15.385140185782943,
+          12.312551074136469,
+          56.68500503605599,
+          53.13940114512387,
+          24.63180682044756,
+          23.357859750136527,
+          13.358297287497042,
+          8.964236423909007,
+          95.78143669065747,
+          92.20770449369186,
+          67.6891046898875,
+          89.57299354320692,
+          89.60506864897309,
+          102.67240413604667,
+          45.15058760189438
+        ],
+        "robust_sample_step_scale_uV": [
+          3.3743975287524703,
+          3.349826672960583,
+          3.284304390848885,
+          5.882672390840927,
+          5.342113563419415,
+          4.2876143356842675,
+          4.193426055148701,
+          3.890385500382096,
+          3.630343943251292,
+          9.183357352217735,
+          10.356615716280336,
+          5.548918266334463,
+          6.089477093755974,
+          7.426541163097822,
+          7.920005850251551,
+          4.480086039387381
+        ],
+        "timing": {
+          "sample_count": 3768,
+          "duration_sec": 30.135999896505382,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 75,
+        "hard_channel_count": 11,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          181.972423278301,
+          101.57770048209649,
+          126.51523527840891,
+          664.9118250683429,
+          569.147927640113,
+          292.6537537301462,
+          314.23321209371124,
+          142.81916592084576,
+          85.60010421050505,
+          1015.2883975415299,
+          842.681505367637,
+          880.5494439602957,
+          843.901356247287,
+          767.1079605274005,
+          717.4637595361102,
+          108.01743836988322
+        ],
+        "median_5s_detrended_std_uV": [
+          99.33685172958435,
+          53.43109554276904,
+          65.25859007832204,
+          258.34485191847466,
+          268.6523089712054,
+          88.48889181568595,
+          91.07186968239495,
+          47.659629470488156,
+          48.64488132914212,
+          437.5481915683499,
+          433.1156509850747,
+          370.27626967636616,
+          403.05755577639775,
+          377.3245262072614,
+          378.89896135109643,
+          60.320464496436195
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          13.384088787656381,
+          10.849271615587787,
+          14.390175903679976,
+          33.67164011928628,
+          28.652185531485415,
+          17.084923441608847,
+          18.137082625985133,
+          11.696171269046308,
+          10.988410348233542,
+          76.3003755630111,
+          82.42195301976557,
+          52.63986486798326,
+          67.44701149419892,
+          62.212977378609,
+          73.35702668448528,
+          11.160930991682571
+        ],
+        "robust_sample_step_scale_uV": [
+          4.285566764368277,
+          4.1975211977806826,
+          4.639796602034647,
+          6.230759514559325,
+          5.272496138675734,
+          4.828173163105779,
+          4.265091051208371,
+          4.944884728117243,
+          4.2876143356842675,
+          9.51301633409222,
+          8.671464523220092,
+          8.644846096112214,
+          7.592394439693058,
+          6.8900774783082905,
+          5.692248258453803,
+          4.570179177290967
+        ],
+        "timing": {
+          "sample_count": 3768,
+          "duration_sec": 30.135999896505382,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      },
+      {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "status": "FAIL",
+        "score": 81,
+        "hard_channel_count": 8,
+        "hard_flags": [
+          "high_residual_noise_scale"
+        ],
+        "detrended_30s_std_uV": [
+          117.03990349094767,
+          58.39565591406913,
+          93.67477239923093,
+          270.221051165936,
+          196.20528811486204,
+          127.79805515548829,
+          92.2174211656049,
+          53.40819192827609,
+          52.73824486880585,
+          322.48643153757484,
+          309.6166021931116,
+          268.20680174795694,
+          283.4516508025135,
+          318.0018187322465,
+          279.9482725158901,
+          117.0786289235342
+        ],
+        "median_5s_detrended_std_uV": [
+          42.197980713244334,
+          23.74966909116479,
+          31.382803760403718,
+          98.62324756008803,
+          73.53577938658398,
+          44.43370255439329,
+          38.13829026286992,
+          18.362474104695167,
+          19.93274435148426,
+          107.22202323851768,
+          105.67445001801283,
+          79.74876108827485,
+          78.15778049351286,
+          124.6967897529779,
+          153.53968359119,
+          38.12310425472003
+        ],
+        "diagnostic_bandpassed_0_5_40_std_uV": [
+          11.623514432182875,
+          9.639944491630828,
+          10.25644833301378,
+          34.364155337502964,
+          28.624666192490263,
+          14.560601593573935,
+          10.992155889581275,
+          9.653719660621894,
+          9.426170029939708,
+          39.41930912626957,
+          45.08996636234368,
+          25.99967984803819,
+          32.493010558022696,
+          43.10524658498966,
+          49.88588681731222,
+          19.72855831450768
+        ],
+        "robust_sample_step_scale_uV": [
+          3.65696237035917,
+          3.7265797951028494,
+          4.009144636709549,
+          4.125856201721012,
+          3.6098682300913865,
+          4.125856201721012,
+          3.4685858092880366,
+          4.498514181231297,
+          3.7716263640546424,
+          7.567823583901172,
+          6.607512636701591,
+          6.703748488553148,
+          5.64720168950201,
+          5.319590278943518,
+          4.099237774613134,
+          4.381802616219834
+        ],
+        "timing": {
+          "sample_count": 3778,
+          "duration_sec": 30.21599989623064,
+          "effective_rate_hz": 125.0000004292815,
+          "monotonic_violations": 0,
+          "duplicate_timestamps": 0,
+          "max_gap_sec": 0.007999999972525984,
+          "large_gap_count": 0,
+          "large_gap_threshold_sec": 0.05
+        },
+        "limitations": "Post-hoc sample-sequence diagnostic only; no preflight status was changed. For gapped captures, filtering does not represent continuous time.5s subdivisions are illustrative, not a validated replacement classifier."
+      }
+    ],
+    "diagnostic_methods": {
+      "spectrum": "Native125Hz; Welch4s Hann segments, default50% overlap, linear detrend; gap-separated segments weighted by sample length; PSD bins integrated as sum*df.",
+      "filtered_amplitude": "Fourth-order0.5–40Hz forward-backward SOS filter per gap-separated span; omit2s at each span edge; no rereferencing.",
+      "limitations": "Descriptive only; not a calibrated impedance measure or proof of cortical origin. Missing samples are not repaired. Electrode names follow the operator-confirmed mapping, not measured physical locations."
+    },
+    "shipped_zuna_preparation_check": {
+      "status": "BLOCKED",
+      "reason": "An acquisition gap or >2% sample-rate mismatch prevents this continuous-window benchmark. Raw QC remains available.",
+      "model_executed": false
+    }
+  }
+}

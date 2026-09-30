@@ -1,0 +1,800 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "7db2d3bfa1f855925407213bd22d389a56881bee7dc72f4d3f12006b3b52c8c4",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint.",
+  "record": {
+    "blocks": [
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 31.68888717880855,
+            "rmse_uv": 5.629288336797872,
+            "mae_uv": 4.423380326582219,
+            "nmse": 0.3711515274340557,
+            "pearson_r": 0.8394063298444807,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 64.63002626632165,
+            "rmse_uv": 8.039280208222728,
+            "mae_uv": 6.5365841501598005,
+            "nmse": 0.995946083539542,
+            "pearson_r": 0.6970686851173674,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 24.067180193297112,
+            "rmse_uv": 4.905831243866539,
+            "mae_uv": 3.9669020001557342,
+            "nmse": 0.8491057058444886,
+            "pearson_r": 0.592853565892255,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 32.430327672924285,
+            "rmse_uv": 5.694763179705043,
+            "mae_uv": 4.540510523901409,
+            "nmse": 0.9394500244583665,
+            "pearson_r": 0.5562938491312734,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 76.44733628873475,
+            "rmse_uv": 8.743416739966976,
+            "mae_uv": 5.669021357048929,
+            "nmse": 0.8953784167846445,
+            "pearson_r": 0.47707342935366404,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 59.61358156690062,
+            "rmse_uv": 7.720983199496073,
+            "mae_uv": 5.434217448020395,
+            "nmse": 0.9186428741753132,
+            "pearson_r": 0.542832956808458,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 29.037611809027556,
+            "rmse_uv": 5.388655844366715,
+            "mae_uv": 3.932080260792695,
+            "nmse": 1.024465752660525,
+            "pearson_r": 0.462878133894296,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 69.66406457539749,
+            "rmse_uv": 8.346500139303748,
+            "mae_uv": 5.367619538744042,
+            "nmse": 2.018046435709203,
+            "pearson_r": 0.3416103439344267,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12808,
+            "mse_uv2": 32.81491431310958,
+            "rmse_uv": 5.728430353343714,
+            "mae_uv": 4.680268846917023,
+            "nmse": 0.6059107884651644,
+            "pearson_r": 0.7464885847077709,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12808,
+            "mse_uv2": 36.202342191020854,
+            "rmse_uv": 6.016838222108091,
+            "mae_uv": 4.865753453447863,
+            "nmse": 0.6671240910105136,
+            "pearson_r": 0.7224967784492581,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12808,
+            "mse_uv2": 17.594422755367212,
+            "rmse_uv": 4.194570628248762,
+            "mae_uv": 3.3222339014976634,
+            "nmse": 0.6015951896031703,
+            "pearson_r": 0.677175719921485,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12808,
+            "mse_uv2": 25.16720115678036,
+            "rmse_uv": 5.016692252548522,
+            "mae_uv": 3.8994407733928673,
+            "nmse": 0.6771523977683648,
+            "pearson_r": 0.6611856306253091,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12808,
+            "mse_uv2": 22.219395063933163,
+            "rmse_uv": 4.713745332952679,
+            "mae_uv": 3.547481274049306,
+            "nmse": 0.41026988685532717,
+            "pearson_r": 0.8339327506438151,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12808,
+            "mse_uv2": 36.03868392116644,
+            "rmse_uv": 6.00322279456347,
+            "mae_uv": 4.037649805159543,
+            "nmse": 0.6641082536943286,
+            "pearson_r": 0.6983102360124774,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12808,
+            "mse_uv2": 19.619670545617033,
+            "rmse_uv": 4.429409728803267,
+            "mae_uv": 3.5347411434517704,
+            "nmse": 0.6708432317418119,
+            "pearson_r": 0.6928294567627766,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12808,
+            "mse_uv2": 29.134835301802184,
+            "rmse_uv": 5.3976694324312025,
+            "mae_uv": 4.130185702750121,
+            "nmse": 0.7839061427729155,
+            "pearson_r": 0.6119924193263209,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12804,
+            "mse_uv2": 23.762891275314658,
+            "rmse_uv": 4.874719609917545,
+            "mae_uv": 3.9413597285144633,
+            "nmse": 0.6240969224364001,
+            "pearson_r": 0.7292004720278639,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12804,
+            "mse_uv2": 28.32015507110549,
+            "rmse_uv": 5.3216684480626455,
+            "mae_uv": 4.208539198447624,
+            "nmse": 0.5505737949557264,
+            "pearson_r": 0.7595751990589111,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12804,
+            "mse_uv2": 19.76927645271758,
+            "rmse_uv": 4.446265450096022,
+            "mae_uv": 3.5724256947189357,
+            "nmse": 0.5084672300921242,
+            "pearson_r": 0.7245606193320503,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12804,
+            "mse_uv2": 26.648731267499883,
+            "rmse_uv": 5.162240915290557,
+            "mae_uv": 4.1191693524949065,
+            "nmse": 0.5544864030917375,
+            "pearson_r": 0.7104748640623889,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12804,
+            "mse_uv2": 15.399006874089775,
+            "rmse_uv": 3.9241568360718935,
+            "mae_uv": 3.1677266118695684,
+            "nmse": 0.4044319644167181,
+            "pearson_r": 0.7959244555246049,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12804,
+            "mse_uv2": 32.88065794420594,
+            "rmse_uv": 5.7341658455442275,
+            "mae_uv": 3.4798666401015295,
+            "nmse": 0.6392347986629846,
+            "pearson_r": 0.6440906816071892,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12804,
+            "mse_uv2": 25.409091522990916,
+            "rmse_uv": 5.040743151856769,
+            "mae_uv": 3.8838828219982022,
+            "nmse": 0.6535236844278367,
+            "pearson_r": 0.7049796595284752,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12804,
+            "mse_uv2": 33.858950442241195,
+            "rmse_uv": 5.818844424990343,
+            "mae_uv": 4.486887049642368,
+            "nmse": 0.704511124928353,
+            "pearson_r": 0.6610760224888816,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 24.75267776773015,
+            "rmse_uv": 4.975206304037065,
+            "mae_uv": 3.904150813243494,
+            "nmse": 0.20417601410994823,
+            "pearson_r": 0.9175283090575183,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 45.75617076410139,
+            "rmse_uv": 6.764330769861967,
+            "mae_uv": 5.353921100182096,
+            "nmse": 0.6296961935847233,
+            "pearson_r": 0.7933367167889196,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 13.204932097270891,
+            "rmse_uv": 3.6338591190731226,
+            "mae_uv": 2.8945177992610525,
+            "nmse": 0.3662869623621478,
+            "pearson_r": 0.8136603160257725,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 25.223013669306468,
+            "rmse_uv": 5.022251852436959,
+            "mae_uv": 3.996885378919665,
+            "nmse": 0.4832641741801679,
+            "pearson_r": 0.7531725212645719,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 182.9821174270745,
+            "rmse_uv": 13.52708828340654,
+            "mae_uv": 8.642566399520257,
+            "nmse": 1.5093542500830033,
+            "pearson_r": 0.3344063734702874,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 101.70547500870485,
+            "rmse_uv": 10.084913237539768,
+            "mae_uv": 6.535649362589065,
+            "nmse": 1.3996702392315106,
+            "pearson_r": 0.2319245502429897,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 130.00160682848622,
+            "rmse_uv": 11.401824714864118,
+            "mae_uv": 7.084089393257639,
+            "nmse": 3.6060688019172638,
+            "pearson_r": 0.3765037402209878,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 61.26761864376317,
+            "rmse_uv": 7.827363454175561,
+            "mae_uv": 5.726614496378816,
+            "nmse": 1.1738662760942706,
+            "pearson_r": 0.4157386408861821,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12808,
+            "mse_uv2": 15.137797980273108,
+            "rmse_uv": 3.8907323192778382,
+            "mae_uv": 3.1684205864037445,
+            "nmse": 0.4792778343777022,
+            "pearson_r": 0.7508389954830562,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12808,
+            "mse_uv2": 54.26713746853676,
+            "rmse_uv": 7.366623206635233,
+            "mae_uv": 5.970882040808412,
+            "nmse": 1.3727217258857143,
+            "pearson_r": 0.5079803234037665,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12808,
+            "mse_uv2": 21.297564617098995,
+            "rmse_uv": 4.614928452002154,
+            "mae_uv": 3.6520244823331325,
+            "nmse": 0.9060349572990519,
+            "pearson_r": 0.5358651426314921,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12808,
+            "mse_uv2": 38.19847604923871,
+            "rmse_uv": 6.180491570193968,
+            "mae_uv": 5.032868638323263,
+            "nmse": 1.0382120105820707,
+            "pearson_r": 0.5223332029711921,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12808,
+            "mse_uv2": 18.94268462899713,
+            "rmse_uv": 4.3523194539230605,
+            "mae_uv": 3.3480528640815246,
+            "nmse": 0.599744353710931,
+            "pearson_r": 0.6829402725816668,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12808,
+            "mse_uv2": 24.39121123200248,
+            "rmse_uv": 4.938745916930985,
+            "mae_uv": 3.6127446975011863,
+            "nmse": 0.6169911873138694,
+            "pearson_r": 0.6657361215583251,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12808,
+            "mse_uv2": 19.816379717436586,
+            "rmse_uv": 4.451559245639284,
+            "mae_uv": 3.5808526337368445,
+            "nmse": 0.8430228091288247,
+            "pearson_r": 0.5825612721038957,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12808,
+            "mse_uv2": 35.56680122057946,
+            "rmse_uv": 5.963790843128174,
+            "mae_uv": 4.5894583358446,
+            "nmse": 0.9666846435861038,
+            "pearson_r": 0.477316463085361,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 20.452117256029897,
+            "rmse_uv": 4.522401713252583,
+            "mae_uv": 3.4207786269651157,
+            "nmse": 0.141732964775962,
+            "pearson_r": 0.9510265072544057,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 58.14413998917461,
+            "rmse_uv": 7.625230487609841,
+            "mae_uv": 6.14795426019743,
+            "nmse": 0.48170167969085637,
+            "pearson_r": 0.8316183611475271,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 30.211497203933934,
+            "rmse_uv": 5.496498631304654,
+            "mae_uv": 4.403981183408462,
+            "nmse": 0.6306192566095227,
+            "pearson_r": 0.7049233946770226,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 31.06761913364382,
+            "rmse_uv": 5.5738334325349035,
+            "mae_uv": 4.499094998387764,
+            "nmse": 0.5817029906216623,
+            "pearson_r": 0.7398300704918387,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 76.68393725510245,
+            "rmse_uv": 8.756936522272069,
+            "mae_uv": 5.547727746115559,
+            "nmse": 0.5314189060135138,
+            "pearson_r": 0.7001318758319248,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 77.05230523660711,
+            "rmse_uv": 8.777944248889208,
+            "mae_uv": 5.757806255240471,
+            "nmse": 0.638348505342698,
+            "pearson_r": 0.6645704394435191,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 67.5611788028469,
+            "rmse_uv": 8.219560742694641,
+            "mae_uv": 5.715376972369775,
+            "nmse": 1.4102373035245195,
+            "pearson_r": 0.4665160152832038,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 64.65870241579071,
+            "rmse_uv": 8.041063512732052,
+            "mae_uv": 5.466513424188031,
+            "nmse": 1.2106547464479023,
+            "pearson_r": 0.5307796464267137,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 18.245405769717934,
+            "rmse_uv": 4.2714641248309615,
+            "mae_uv": 3.261589778593801,
+            "nmse": 0.20161288143046466,
+            "pearson_r": 0.9085367757648707,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 78.43987382792484,
+            "rmse_uv": 8.856628807166125,
+            "mae_uv": 7.0458119690613366,
+            "nmse": 1.2423211867129322,
+            "pearson_r": 0.5578968093088064,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 36.550745964139345,
+            "rmse_uv": 6.045721293951562,
+            "mae_uv": 4.862637089474408,
+            "nmse": 0.912055549845163,
+            "pearson_r": 0.5270773658798862,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 39.847846749974686,
+            "rmse_uv": 6.312515089088872,
+            "mae_uv": 4.859944840864509,
+            "nmse": 1.0332771790113748,
+            "pearson_r": 0.5829709054200102,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12807,
+            "mse_uv2": 150.35047491459443,
+            "rmse_uv": 12.261748444434604,
+            "mae_uv": 7.44463845941346,
+            "nmse": 1.661382205173001,
+            "pearson_r": 0.44039129440415026,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12807,
+            "mse_uv2": 131.95319195846145,
+            "rmse_uv": 11.487088053917818,
+            "mae_uv": 7.5612215310511495,
+            "nmse": 2.089858614306391,
+            "pearson_r": 0.3211550698650049,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12807,
+            "mse_uv2": 82.2078013312229,
+            "rmse_uv": 9.066851787209433,
+            "mae_uv": 6.388650331066581,
+            "nmse": 2.0513420305641064,
+            "pearson_r": 0.2776093000702728,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12807,
+            "mse_uv2": 134.79383132269018,
+            "rmse_uv": 11.610074561461273,
+            "mae_uv": 6.875030155441864,
+            "nmse": 3.495280200487443,
+            "pearson_r": 0.27689349873667385,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_OFFSET"
+        },
+        "metrics": [
+          {
+            "method": "spherical_spline",
+            "channel": "F3",
+            "compared_samples": 12808,
+            "mse_uv2": 17.532954645910838,
+            "rmse_uv": 4.187237113647953,
+            "mae_uv": 3.257062374919816,
+            "nmse": 0.5736742025951026,
+            "pearson_r": 0.6865150050543275,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "F4",
+            "compared_samples": 12808,
+            "mse_uv2": 58.45874599887028,
+            "rmse_uv": 7.645831936347429,
+            "mae_uv": 6.110459842503766,
+            "nmse": 1.6384417340708402,
+            "pearson_r": 0.3860364304012859,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P3",
+            "compared_samples": 12808,
+            "mse_uv2": 34.34083396227023,
+            "rmse_uv": 5.860105285937295,
+            "mae_uv": 4.770383178779848,
+            "nmse": 1.2592538238851643,
+            "pearson_r": 0.3428179667678658,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "spherical_spline",
+            "channel": "P4",
+            "compared_samples": 12808,
+            "mse_uv2": 28.030290982246758,
+            "rmse_uv": 5.294364077228422,
+            "mae_uv": 4.291462774931761,
+            "nmse": 1.0753299712956517,
+            "pearson_r": 0.5688787407423054,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F3",
+            "compared_samples": 12808,
+            "mse_uv2": 28.968328914183186,
+            "rmse_uv": 5.382223417341869,
+            "mae_uv": 4.112295023536421,
+            "nmse": 0.9478369918804617,
+            "pearson_r": 0.5317729726229266,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "F4",
+            "compared_samples": 12808,
+            "mse_uv2": 39.029860027378135,
+            "rmse_uv": 6.247388256493919,
+            "mae_uv": 3.8760163439116733,
+            "nmse": 1.0939022117415145,
+            "pearson_r": 0.44330665064641944,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P3",
+            "compared_samples": 12808,
+            "mse_uv2": 28.466908670290614,
+            "rmse_uv": 5.335438938858791,
+            "mae_uv": 4.260569218101692,
+            "nmse": 1.0438611839374032,
+            "pearson_r": 0.4220873110703618,
+            "nmse_status": "ESTIMABLE"
+          },
+          {
+            "method": "zuna",
+            "channel": "P4",
+            "compared_samples": 12808,
+            "mse_uv2": 29.93736151503151,
+            "rmse_uv": 5.471504501965754,
+            "mae_uv": 4.08278785983707,
+            "nmse": 1.1484911847335377,
+            "pearson_r": 0.49968571890499486,
+            "nmse_status": "ESTIMABLE"
+          }
+        ]
+      }
+    ],
+    "independence": "NOT_INDEPENDENT_PARTICIPANTS"
+  }
+}

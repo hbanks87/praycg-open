@@ -1,0 +1,906 @@
+{
+  "schema": "PRAYCG_PublicAnalysisArchiveManifest_v1_0",
+  "bundle": "PRAYCG_Zuna_Runs_1_and_2_Public_Analysis_v1_0",
+  "publication_class": "REPORTS_AND_SUMMARY_MEASUREMENTS_ONLY_REQUIRES_HUMAN_PRIVACY_REVIEW",
+  "original_evidence_unchanged": true,
+  "numerical_aggregate_values_not_recomputed": true,
+  "raw_data_included": false,
+  "waveform_arrays_included": false,
+  "model_inference_performed": false,
+  "source_documents": [
+    {
+      "file": "run_1/01_recording_review/ALPHA_10_3_1_RUN_REVIEW.md",
+      "original_document_sha256": "df27cbb7170edb6db38113d9a3bf25c8d657480210902536ceaf677e3caefe92",
+      "public_file_sha256": "9683a576c12377db01d09df998fd43e401d30c366e7fd80fce06c544db5f62a8",
+      "bytes": 5619,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/REVIEW_AND_PATCH_RECOMMENDATIONS.md",
+      "original_document_sha256": "06b1deaf4b000530788c6d60d021b65d6e6fddd48d28432dbcb09e39121dd77c",
+      "public_file_sha256": "1de79cf9b5c110213fc8a1365ed40578a296d8e4384b24436fc50da43432d450",
+      "bytes": 16712,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/recording_diagnostic_audit.json",
+      "original_document_sha256": "dbe52eb9293fb48985c24c2e90242a25c526437abe9e09faa9a49263ceb3f109",
+      "public_file_sha256": "33f9c142134cefe5e2f5ab1c3c7d51ac2e7b04a370be71150fedbbd837cdda6a",
+      "bytes": 46086,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/alpha1031_offline_qc/run_integrity_timing_qc_v0_1.json",
+      "original_document_sha256": "431ba17d56879220d0aa960054acfad92d7dfedf3a6fe1fc35db53dbe9fd86b1",
+      "public_file_sha256": "c99530e479ec2df752dd89ab9c32457f29cf9b57fccaed903ade8b33ea32f5d6",
+      "bytes": 3297,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/alpha1031_offline_qc/eeg_signal_quality_v0_1.json",
+      "original_document_sha256": "b7cf94ebdaa2473515653ba2d2d473beb3e74871ddd19957768ac250961feca8",
+      "public_file_sha256": "acbd78525d928ce5fbbe11f67bc4a5f89b348985e44df3f31bf1acd5d904cd04",
+      "bytes": 12606,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/alpha1031_offline_qc/eeg_signal_quality_channels_v0_1.csv",
+      "original_document_sha256": "68adc03995674953b7b3b23dba06510c1c6711ac14ce1c76b8c22c0087f9b0f2",
+      "public_file_sha256": "58f23f14cf08c71b378df064aae8833ddf1063f10f62040a054a3612c6099431",
+      "bytes": 4777,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/alpha1031_trace_release_check/run_integrity_timing_qc_v0_1.json",
+      "original_document_sha256": "3a057cc2107e727961834ad4e7af9335b8402c8f8e61db20a91c0b37dc8ad461",
+      "public_file_sha256": "82eac071cd0aaa8efe819e030b8e35a5fa86a5f546ae3ca236ef78ea00162de8",
+      "bytes": 3297,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/alpha1031_trace_release_check/eeg_signal_quality_v0_1.json",
+      "original_document_sha256": "463f320e826b13f28db03f7f8f332537b18475651e7754f7d608fdad695adb20",
+      "public_file_sha256": "ec17a653a37948f84c5c22713acd1e3020218dabec1c857106541e01f5602895",
+      "bytes": 13701,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/01_recording_review/alpha1031_trace_release_check/eeg_signal_quality_channels_v0_1.csv",
+      "original_document_sha256": "68adc03995674953b7b3b23dba06510c1c6711ac14ce1c76b8c22c0087f9b0f2",
+      "public_file_sha256": "58f23f14cf08c71b378df064aae8833ddf1063f10f62040a054a3612c6099431",
+      "bytes": 4777,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/02_reviewed_mapping/zuna_mapping_reviewed_v1_0.json",
+      "original_document_sha256": "4b4ef41027c95a2f9f9f852c9c8038d800c08ffe3026baadde03bda618847c8b",
+      "public_file_sha256": "0796782c49f11288417c88e649d2ec475ecde0a13be672754a606336d1b42450",
+      "bytes": 4213,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/02_reviewed_mapping/zuna_exploratory_recipe_reviewed_v1_0.json",
+      "original_document_sha256": "a8284388cb85bbe3e6f46094c158d0bf0fb570dffaca5e2dbeff791adcd04785",
+      "public_file_sha256": "510a53e78a7468af74af03ed4769751e8b6294bf57b9bc5293292c861686dc64",
+      "bytes": 2681,
+      "derivative": true,
+      "context": ""
+    },
+    {
+      "file": "run_1/03_initial_comparison/zuna_eeg_reconstruction_v1_0.json",
+      "original_document_sha256": "38bf20f4314677ef21eecfdba9a1965f65aaf9e5c6ea51d397be71a61c22638b",
+      "public_file_sha256": "e790b3af02ccf5b0501fc533c230d34c9961676a2af972f1ac80c4783c228273",
+      "bytes": 12619,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/zuna_comparison_metrics_v1_0.csv",
+      "original_document_sha256": "2f34bc804fef1865eceb14901f8e9a075291864a4b19a20fd04dba5e8665e2ec",
+      "public_file_sha256": "b6168eb3fa118d76afed09eaf8a64bf8e9ce8efa1fcb33e898939c573610cd47",
+      "bytes": 1069,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/zuna_exploratory_block_metrics_v1_0.json",
+      "original_document_sha256": "7db2d3bfa1f855925407213bd22d389a56881bee7dc72f4d3f12006b3b52c8c4",
+      "public_file_sha256": "052a6e97ff0efcb1eb8982abfc8429ab471848445d6509424dce62d84009e594",
+      "bytes": 27128,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/zuna_provenance_v1_0.json",
+      "original_document_sha256": "039563d3256c36fb4e8878ca212b49ea6e57d60e4e7f381d201ec051ebc5c170",
+      "public_file_sha256": "9c38cff86a5ce6e5c6a339f33c4cfa175021a393410c0907ba7fe7d4611808f2",
+      "bytes": 19837,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/ZUNA_COMPARISON_INTERPRETATION.md",
+      "original_document_sha256": "487d8e2989c866ae03b34e4a618acb16f5388e5013415e001b99bb59e41f7955",
+      "public_file_sha256": "407910e87520923ea2efca386d25acebe901d495a8f83da2e4945a4a29dde593",
+      "bytes": 5337,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/zuna_exploratory_preparation_v1_0.json",
+      "original_document_sha256": "df855a981486e8872f4da334b252567ce454231371601b11c80f396c32999fe1",
+      "public_file_sha256": "676738a4cbb14a86214d5aa4b70e3ba0c4913240e451dcf1f4de82bc4f7b0e63",
+      "bytes": 9752,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/execution_completion.json",
+      "original_document_sha256": "b02084fa643f9b76364052a79dceb47d6fd261ded52c0bbc777bb88d1a7090d0",
+      "public_file_sha256": "fd6420cf5cd792a8bf67e5a448cadbe10d44c90e7313c63dec0a94d804d4b213",
+      "bytes": 3004,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/03_initial_comparison/execution_transition_v1_0.json",
+      "original_document_sha256": "5a6588389345d4597b2ae36983c62b83cec260293f729ff6713237114eeb0730",
+      "public_file_sha256": "41d4d18c2c9cd841f892229d397e0ff71e5933d035ab1eb3d4cd88d573839567",
+      "bytes": 1425,
+      "derivative": true,
+      "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_eeg_reconstruction_v1_0.json",
+      "original_document_sha256": "7da8a88f51bd68218addc1dc5679eaabd292e8a3f5b9d68c3210944a2c7a3687",
+      "public_file_sha256": "d829171f8f6bf18b6ce2ac162d634ef2227adae6dac21166819b70bfca5eb9e4",
+      "bytes": 45114,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_comparison_metrics_v1_0.csv",
+      "original_document_sha256": "f8452cd34681587feeebddc404c12f4be116042a6fdb54ef99a7319f65f24ed5",
+      "public_file_sha256": "de5aeee625c62f39e3eec5b38197d30ec552adae0a4da466ee8dcc3ec3fe628d",
+      "bytes": 1070,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_exploratory_block_metrics_v1_0.json",
+      "original_document_sha256": "38b1a4a72de388a53f501904a69f890582fdfcdf839984083464421253ab9f7c",
+      "public_file_sha256": "689cfde783c8a8cdc6b2555d410781b2ab53ec221ae433d797e7a080d3a4720f",
+      "bytes": 27150,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_provenance_v1_0.json",
+      "original_document_sha256": "c31772af3612ec73bec81e4d64e4cefc72cc1f6873276db1c722496af1aac5aa",
+      "public_file_sha256": "a1d38eda8ecad91306d79b963459fca769015a53f8ddbe209e2f4f8bf6beefb8",
+      "bytes": 30344,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_preparation_v1_0.json",
+      "original_document_sha256": "bf400648cd34ad539110cef04f19df6f59ecdc9eeadc9c279fae650521bc6f43",
+      "public_file_sha256": "ff59089ac2e4993492d699391007dbcc428ecf02e2074014314fc9d011861f98",
+      "bytes": 14158,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_exploratory_preparation_v1_0.json",
+      "original_document_sha256": "bf400648cd34ad539110cef04f19df6f59ecdc9eeadc9c279fae650521bc6f43",
+      "public_file_sha256": "ff59089ac2e4993492d699391007dbcc428ecf02e2074014314fc9d011861f98",
+      "bytes": 14158,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_comparison_receipt_v1_0.json",
+      "original_document_sha256": "09994557436f9e7c05567dfc0225d262988c5f19a9cd1dd1a14ae020ae940956",
+      "public_file_sha256": "a7545f399720f869f8d29be2da5b8e8b33ca6496d14c0e5212b1efc4c392d234",
+      "bytes": 35067,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_block_eligibility_v1_0.json",
+      "original_document_sha256": "4f3791092273d4a5fbabf3751f763ad3c39b7d63bddc5bc866178a8c4e37541a",
+      "public_file_sha256": "1014fea4e4389ea79dca07ef36856ae95fe77bb02cff2ce652208eed11b56b78",
+      "bytes": 7153,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_development_plan_v1_0.json",
+      "original_document_sha256": "2fdc2af26588211ac890b087d93e77d3d644cc587c9e25bc9eb9ad6b946885ac",
+      "public_file_sha256": "845985dc36dc4d1ce1227e01f9062db423e3c1457bb9f02c5964f65437b05786",
+      "bytes": 4146,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/04_guided_comparison/zuna_guided_execution_v1_0.json",
+      "original_document_sha256": "1b0253abf0232f4ebd80326942978d076d39ef85976befd159889186ee1dd10f",
+      "public_file_sha256": "f86722e7bb57ed652aedbcb17fdeb4750ae949c8e71a8f28844a272887ad115f",
+      "bytes": 1299,
+      "derivative": true,
+      "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison."
+    },
+    {
+      "file": "run_1/history/blocked_guided_attempt/zuna_eeg_reconstruction_v1_0.json",
+      "original_document_sha256": "bf422d44a155b2f0caa7b3ddcb026461db23fe06800c023f1b61bdad91f0bc6c",
+      "public_file_sha256": "f2513f689f9c1bd201f275f565dc360327fab6ecd5d42478fe561f35292108f4",
+      "bytes": 1433,
+      "derivative": true,
+      "context": "BLOCKED; not a completed model comparison."
+    },
+    {
+      "file": "run_1/05_respiration_association/EEG_VERNIER_FINDINGS.md",
+      "original_document_sha256": "6b968ccbe3f4d4a9e9c59f89bde774604b8c3941b1760a7127ec3a153065f665",
+      "public_file_sha256": "1629802416661ef95d6df88ec691643e6ec9b76b84708a66c0c035856df0b2b9",
+      "bytes": 9776,
+      "derivative": true,
+      "context": "Exploratory association, not proof that breathing caused drift or preflight failures."
+    },
+    {
+      "file": "run_1/05_respiration_association/respiration_eeg_comparison.json",
+      "original_document_sha256": "8819d9f188693afbc354f9f78d70d31083f3c66e6c9e7637927b28b1016af598",
+      "public_file_sha256": "f994e300416a05d8f422919c427ac92c955ef92a0f1813c7c5721a079c5f4ed2",
+      "bytes": 48969,
+      "derivative": true,
+      "context": "Exploratory association, not proof that breathing caused drift or preflight failures."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/ZUNA_AUDIT_REPORT.md",
+      "original_document_sha256": "c351eab2b8836b29ddeea34cc231af24b2165934c6d08749e645e9c6d080de4a",
+      "public_file_sha256": "010b1a20f984325cf546c9e41689c7e1798d263b5efd20030b10a23059883012",
+      "bytes": 14516,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/metrics_table.md",
+      "original_document_sha256": "0a873e6edfb5cc90f7f06a9f31d2ce6f07f2be93b4d654d273da147773926fe3",
+      "public_file_sha256": "b231b16d485e3f82a46b5a0eb826930989ed10b5fea25a6aeb0a7e745385a06d",
+      "bytes": 1662,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/methodology_review.md",
+      "original_document_sha256": "da2dd8172773c331cbf487dc90de6b764f68592119a1b3c60c27ec73c7d5b845",
+      "public_file_sha256": "2e10163433d8c93155c8e6bc2e3dd3d8caa930b3c0adcdc32456cef5ddc89186",
+      "bytes": 8879,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/visual_proxy_review.md",
+      "original_document_sha256": "0db7950bf4b1fab6cba69eead0986a43035c3f9049f66d080347cdd87a55d125",
+      "public_file_sha256": "2553aa493cbdf1828854ffcc6a78574406ed011084e14d90ef18349b64837e0a",
+      "bytes": 4033,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/integration_source_audit.md",
+      "original_document_sha256": "37548f4072c8c1f2b6e82e1e0db4afd958ea8348bdd30233c9edee1253e23af4",
+      "public_file_sha256": "88cf91513a29aea36ca9b22dbbada38440d4081fc3814f38e2cadef37e82bc2f",
+      "bytes": 14284,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/boundary_audit.md",
+      "original_document_sha256": "c675e9832ff5b7c0b8c90cd9f94e32abb0b18a3600750060f10cdc701706bfa4",
+      "public_file_sha256": "e0dc8c90072528ce5f3cd2f0a2f1122b8f5edb981430529bae662f618fdf8bd4",
+      "bytes": 8126,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/boundary_audit.json",
+      "original_document_sha256": "75fc3878bbb1072be0566b573cbcf71b9e503260a2872029c29e44813b659c57",
+      "public_file_sha256": "212f99c0e137b3bbdd5192912ac3386306aa9f32952eaf66df23fb7ab1185e85",
+      "bytes": 27743,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/engineering_checks.md",
+      "original_document_sha256": "c8a9ad2a28067ba4ae74e785e564fc848ed7cc206df59d14baa1e73b36b314fb",
+      "public_file_sha256": "b3bf739c54c18b6f8dc883f4959846c2e29489dfd743b5654901e7e8d951a5e1",
+      "bytes": 11817,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/engineering_checks.json",
+      "original_document_sha256": "8c724d118495e758a08f72e06ca6e33a90d8c1d33e5ac92402786ecc315b2161",
+      "public_file_sha256": "a53c14a48b0678c74fe2b12165b3ce146b9066ab9e179812804f6d57759124a4",
+      "bytes": 15876,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/additional_saved_input_checks.md",
+      "original_document_sha256": "cd4e8799a2725c9d1dd8e1d749843a1ea4713dc70d7a337b5b1ab09c090166f5",
+      "public_file_sha256": "3493bdfe2ad16824c5a37d6cc128befa83accd08c5e08da3df3a1b03a42e2763",
+      "bytes": 21504,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/additional_saved_input_checks.json",
+      "original_document_sha256": "28d4e7e8772a0af98c02be75c5ec489467600f756f33848cb2573c3931b3ba8b",
+      "public_file_sha256": "c824f98df2474c56b852c7cd220aaac1524d37acbb09d7380f3779a34990f72b",
+      "bytes": 22634,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/filter_sensitivity.json",
+      "original_document_sha256": "7e25b3147fae0b785a50d842fc265aa98154f91ce960ac1b7947aef20265d9e6",
+      "public_file_sha256": "3f754ac5987724679631592939351c4e86ed5968b560e4cfb5d860994fe751aa",
+      "bytes": 6749,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/interior_seam_check.json",
+      "original_document_sha256": "d18a6cf01eef06acd085695467e6e8960aa4019d4ace8e6de0faa23595951193",
+      "public_file_sha256": "7e7a2eb18f742f51be587869938708b5af30481df62b5f41c1a30942d4d00f8a",
+      "bytes": 3728,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/blink_sensitivity_results.json",
+      "original_document_sha256": "f02ae309c9814095f593154543981a7f962cf3df37d9ec9506997b4492fbb9f0",
+      "public_file_sha256": "9d25126450e28ccc39b88bc202589e1ba1d0d49cce3df5d2cdbd6dc0c83ef449",
+      "bytes": 227349,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/proxy_plan.json",
+      "original_document_sha256": "930132107ecdbbc26f17848ff7db781ad0c5e8fdae9c8c8d9c28ab7d6da63e1c",
+      "public_file_sha256": "b3b79f1277e67b75d278309b18c4a92b36fbac932e7c0a017f504a05d3dd5221",
+      "bytes": 2609,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/06_blink_and_integration_audit/proxy_summary.json",
+      "original_document_sha256": "71db1b51df6d3329130314fc4ea444e8f361a0fde7c6bcd465ec1c9055c8edc1",
+      "public_file_sha256": "ab92c073ce008f57a6ad2928ac77042e9d28fc7c6b2193abbf4190fad99ca4e7",
+      "bytes": 1517,
+      "derivative": true,
+      "context": "Post-hoc proxy analysis; no independently verified blink labels. Private events, masks and waveform figures are withheld."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/BOUNDARY_FIX_RESULT.md",
+      "original_document_sha256": "1abec325748649dc40df720a1f74836bf55acc011b5d786274e5e6b6c2356027",
+      "public_file_sha256": "9c6f0171c0dd002d0037d4269f9bbe35d523bd550f64cddc6c728a0701544340",
+      "bytes": 9427,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/BOUNDARY_PREPARATION_CHANGE.md",
+      "original_document_sha256": "3fa37a3ae1799be1b021d96b96fc5cd89b16b9594fdae4531c3848d2c71e9442",
+      "public_file_sha256": "c6409198bc153adbf3999dbbe54e8245d233a2652c798e191d7068f32bc3cc4c",
+      "bytes": 2469,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/BOUNDARY_REGRESSION_REPORT.md",
+      "original_document_sha256": "8903124e8c233ca1299f8ec5feb275eb84b5e1e286c05bdd59e9de7d30f78d77",
+      "public_file_sha256": "bd1211adfe4ef6e47a2d06b69ec9b55b901ebd9f4dd0b6ff08ec12e7403dbac3",
+      "bytes": 2860,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/INDEPENDENT_RESULT_VERIFICATION.md",
+      "original_document_sha256": "91fa28541fe57b3343be8042b1dfd8054e19212afe1cd59c3da465e1d76a7aa8",
+      "public_file_sha256": "4d9eb984610675ceed2a3a1f040e0cd4ff51259b6973c0ddc3d0bb16f40e7766",
+      "bytes": 2520,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/design_review.md",
+      "original_document_sha256": "01fa29c685a6fca3d5ebc78fbefb250484a38574ad35343a3b44a5dec7012641",
+      "public_file_sha256": "02cf0d258e4d060cc44d6aa89e5da765bf86fb7a00a7601ea765efcb4355641e",
+      "bytes": 7288,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/short_comparison_result.json",
+      "original_document_sha256": "77cf31ccb375a7a169b8069e69fddd2c09b176d95c962061f6c8efc12f0141f9",
+      "public_file_sha256": "12bb4b0f3fdd7faa530417133d7dc54bf3bfce67980cf4b99271b04235da6011",
+      "bytes": 97711,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/short_comparison_plan.json",
+      "original_document_sha256": "e27e234c34fcbccf877ccc8da619bf3910032514364d97749598483aebb4da1c",
+      "public_file_sha256": "765aa79e89b789dfd88dbc73c5a4c75ebccc7d30535f5f8dcf83c21bd8aa48eb",
+      "bytes": 6283,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/corrected_preparation_receipt.json",
+      "original_document_sha256": "947195318a8bef060d15212b24287a089fe69e1508c2e752b0ac10d2282af785",
+      "public_file_sha256": "51dd733d82614ea0d9da7f89bcc487271eec6aa8ce5f637bacd8acbdd2a45c2b",
+      "bytes": 26839,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/independent_result_verification.json",
+      "original_document_sha256": "0bf0f4d100d55df9dfa9617e13deb5f25fcfb05bae43b523e462be58dd6ed74e",
+      "public_file_sha256": "17763a24ecab8e09111f93fd48e74be4f0758b481038ad3bb5434ca8b1b0440a",
+      "bytes": 3876,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/regression_gate.json",
+      "original_document_sha256": "b9ad1de580d2dd01be52c89c5c5366088c4888625091be939d5827a62254c41f",
+      "public_file_sha256": "46830060f3b4402587c1622582ef05f77a09dacc4743e84f9f978d19d920440c",
+      "bytes": 2608,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/execution_status.json",
+      "original_document_sha256": "5975761be25783f6d382f3084e7c52d999ea9f798ef8e29a6ef3fd758bc77701",
+      "public_file_sha256": "a5d74073b47c73ab66688d02ff09b81d0599a024cba5224c8a5b3320ec86c121",
+      "bytes": 1008,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/07_boundary_fix_short_comparison/boundary_regression_evidence_pinned.json",
+      "original_document_sha256": "9008a151619ac08297c132b46b8319e7d20c7174a5c9fd6b5ae2119ff8456758",
+      "public_file_sha256": "f3c6aa916548d0968d648e69d904dcd8c5a6aba218db0b763114e207aa589ac4",
+      "bytes": 6532,
+      "derivative": true,
+      "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history."
+    },
+    {
+      "file": "run_1/history/prestart_failure/PRESTART_FAILURE.md",
+      "original_document_sha256": "078c695ef398a5c2b457cdc293b70f56d7fbe7245e2622443832d6f8d899a7aa",
+      "public_file_sha256": "64d6871bcc4fd6c8bb9d0dbd5f8f797d35228c57633a6cc6a5e58a68e9aec5a7",
+      "bytes": 1548,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/history/prestart_failure/RUN_PLAN.md",
+      "original_document_sha256": "3e031e0ff00ba8995241a3ba3d473f122c5192e93d49f25adc6f69bc9b719a6d",
+      "public_file_sha256": "3994a97f964cf898a1a6223809354d9a0a753ab27401dbae84b7845ef323b589",
+      "bytes": 4361,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/history/prestart_failure/PREFLIGHT_BOUNDARY_AUDIT.md",
+      "original_document_sha256": "11eeb5d2b71cc5b884b9bc40e563eb7bfddaeae13dacef0bb51336841961f199",
+      "public_file_sha256": "a9f91502b4ea01aaf42fcbb11d30dbc53da8e3c14315385e866a85de55b4d2ca",
+      "bytes": 2174,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/history/prestart_failure/STRATA_PREDECLARED.md",
+      "original_document_sha256": "51ca946d236b5bf69d78ea736ccb105959d31700d39681c9a1601e94b246f8ee",
+      "public_file_sha256": "1d7f3725adbe6c3f2801fb54b3a3e456779513e7c56f2ab025741adf8f42a08e",
+      "bytes": 2610,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/history/prestart_failure/full_comparison_plan.json",
+      "original_document_sha256": "e5e21408aa27a831f5ff224f9f690f7d942a83b7c817508fcfbb5f9455984794",
+      "public_file_sha256": "1c53de0f6589d0a740831d6ed4d895cac9839b09f56dc35ee95b54db02045103",
+      "bytes": 50538,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/history/prestart_failure/preflight_boundary_audit.json",
+      "original_document_sha256": "baf619385bebc1ee199a48bd127e85e61021ed77feb509c45eacbd563a1e6906",
+      "public_file_sha256": "7dc36c0ee027cc8acd0b882288877af9ca09cb96f5daa66b0877224f51eeeb86",
+      "bytes": 16307,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/history/prestart_failure/strata_predeclared.json",
+      "original_document_sha256": "048731df078f1c298af677e4e24605328d3acc6e2e100c267c83a306d2c4ea54",
+      "public_file_sha256": "51cc8e34754ab1bc84ff2b2edb74e18c604cdb8618800f0376927435995a4bb3",
+      "bytes": 130797,
+      "derivative": true,
+      "context": "Stopped before any model context because priority verification failed; later attempt completed separately."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/INTERPRETATION.md",
+      "original_document_sha256": "def532c89d3133a2904f36ef33a8561bb3351d32ccaa3bc6dffc122a7af74a34",
+      "public_file_sha256": "cce0d6caa09f329a5b6a81d51c5dc5265bc10b744ddc8a9fe50a7f09674451b4",
+      "bytes": 7700,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/INDEPENDENT_FULL_VERIFICATION.md",
+      "original_document_sha256": "f786c4f8b7d62d72fe063acc3ddae821fa0160cecf77727e48c2a7a5a179cf38",
+      "public_file_sha256": "e4f2a9e3acd6e96b4cc0017ba58cb448308259ae6bdf27b6e7fe01e7fe6793d9",
+      "bytes": 1473,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/independent_full_verification.json",
+      "original_document_sha256": "346d76cdd180de8f96ae7e1df0e795adea2ce283101242d14f899b99a39bac18",
+      "public_file_sha256": "aebaa42b1dc85109c26d5ce47fdbbba1780831ecba579eaac92f29d1e0972a88",
+      "bytes": 2296,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/RUN_PLAN.md",
+      "original_document_sha256": "3e031e0ff00ba8995241a3ba3d473f122c5192e93d49f25adc6f69bc9b719a6d",
+      "public_file_sha256": "ee2231502e9f141365b2911e81bb44699c5f58f26a22aee8b8a44263f4418154",
+      "bytes": 4444,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/PREFLIGHT_BOUNDARY_AUDIT.md",
+      "original_document_sha256": "11eeb5d2b71cc5b884b9bc40e563eb7bfddaeae13dacef0bb51336841961f199",
+      "public_file_sha256": "cc6e1fdecf2637e777dd95c04226a53285cfd551b402675839f8bd2458fba3b4",
+      "bytes": 2257,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/STRATA_PREDECLARED.md",
+      "original_document_sha256": "51ca946d236b5bf69d78ea736ccb105959d31700d39681c9a1601e94b246f8ee",
+      "public_file_sha256": "5f46672cc4bc4af060543463e0b493a339c7e81d9cceee1f0c9c2b6a5ee3c855",
+      "bytes": 2693,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/full_comparison_plan.json",
+      "original_document_sha256": "1c67883263d9697d36046d2c43e1e15bd004ca2dd8ca98e7c507471e3ff897a5",
+      "public_file_sha256": "f1f3e9e16b1d51fa1dd7841c2f7351a0e600e14a24f5467db70c19658b8d86c6",
+      "bytes": 51188,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/preflight_boundary_audit.json",
+      "original_document_sha256": "baf619385bebc1ee199a48bd127e85e61021ed77feb509c45eacbd563a1e6906",
+      "public_file_sha256": "c9700a874bc328485b825c25ef30c30e7c9618119f1fd487623b30509cddfe2a",
+      "bytes": 16390,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/strata_predeclared.json",
+      "original_document_sha256": "048731df078f1c298af677e4e24605328d3acc6e2e100c267c83a306d2c4ea54",
+      "public_file_sha256": "dd3f2c8897b8aeec6ca0751722e34d4af62aee8672632d502832389b37fe8e4a",
+      "bytes": 130880,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/execution_completion.json",
+      "original_document_sha256": "8cc7fc68dd02d8c0280a75ac9fbad1fff5219c10d075a3cc54a62290708d65c8",
+      "public_file_sha256": "91fcb9689ba7def6fe5b9c210ed68b7c11b7b02d33597855ca25a99c2680ecc2",
+      "bytes": 1764,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/report/FULL_COMPARISON_REPORT.md",
+      "original_document_sha256": "6f1d8bc6be963f220847171eb4aea78d0fa41b23d7a03bfc4e2c32f2e0e6f368",
+      "public_file_sha256": "f7a98206231a2931201725c0d55c2ba979256e1fef464dc09d8e9677acb9097c",
+      "bytes": 22685,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/report/FULL_COMPARISON_REPORT.json",
+      "original_document_sha256": "255efed1397dbb11ccc80f6ed8a0f620ae201fcfe0e56a53b9c7a2340e671f28",
+      "public_file_sha256": "749a184823bfccb928881cc7055e88d07b4fab28098072b9f5f5005aa549f242",
+      "bytes": 13210559,
+      "derivative": true,
+      "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_eeg_reconstruction_v1_0.json",
+      "original_document_sha256": "80cf78f2f2d0704d100fa4176f36c46354a9cbb1595174dc41b0868163940059",
+      "public_file_sha256": "9f2aef5e237a0de6c226431846dd376c58cc27bfeb73c324cca9c3b052bc8535",
+      "bytes": 45377,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_comparison_metrics_v1_0.csv",
+      "original_document_sha256": "05d578785def11da64d9be085bbbd80c5bd5c998d1f852228bd02c9d2144bbc4",
+      "public_file_sha256": "c02126f057245b4663e7db8b2200dadbda1b17eb9bc5cc461d020d353198f810",
+      "bytes": 1065,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_exploratory_block_metrics_v1_0.json",
+      "original_document_sha256": "3bcf4cbe92604681ba39f837f32e35622de71bdd563bc386f91315168a5720d5",
+      "public_file_sha256": "b930b6f2d03b590ff17d165e5c837e3160485b6c85dc00d921ab6aca04084965",
+      "bytes": 27112,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_provenance_v1_0.json",
+      "original_document_sha256": "0682d36e81d1b376eab811860d060aba954f1256ecc15ff623e7ab5de9c41b9c",
+      "public_file_sha256": "3768ad0841f4b66780bb33af7d2aa05f6335f6aa7f40017d0346da43b9caa48d",
+      "bytes": 38993,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_preparation_v1_0.json",
+      "original_document_sha256": "ed20467a04bfbd844575e1172ca082176c2bccbc091cad408d47d60fbf72823d",
+      "public_file_sha256": "bb1ed19d9c36bfc2cfa5929d37cae7d96f9abfbdaad3890fa01823dc67964b32",
+      "bytes": 20899,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_comparison_receipt_v1_0.json",
+      "original_document_sha256": "73a8847c59e02c659740d8d0eacaa13443dbfb4ff0dccec93d53cef0f5687eee",
+      "public_file_sha256": "e2d6a23cc2a5371a0af999fb002acb0fa6f43a137110dd64f42f6b921c25f473",
+      "bytes": 35029,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "run_1/08_corrected_full_comparison/module/zuna_block_eligibility_v1_0.json",
+      "original_document_sha256": "4f3791092273d4a5fbabf3751f763ad3c39b7d63bddc5bc866178a8c4e37541a",
+      "public_file_sha256": "b4e821c30dd779da38da32b1a776c56d8a28110ce5be6b1379bd735f831ce564",
+      "bytes": 7128,
+      "derivative": true,
+      "context": "Final corrected full Run 1 module; original BENCH designation is retained."
+    },
+    {
+      "file": "engineering/thread_benchmark/THREAD_BENCHMARK_SUMMARY.md",
+      "original_document_sha256": "529f0d37537b80e6b5dc8a7e83a7d6e855c8cf3d575e15585d3088cb216faa37",
+      "public_file_sha256": "43b2f823a7ca55544fca2b7baa6d1f5e3d4556e1b01668d5a2e0a9dbaa59d6c0",
+      "bytes": 2537,
+      "derivative": true,
+      "context": "Synthetic/runtime engineering comparison, not biological replication."
+    },
+    {
+      "file": "engineering/thread_benchmark/benchmark_acceptance_policy_v1_0.json",
+      "original_document_sha256": "efe9568dc4a2bf6baac313dfb8bc9735b51068366c6ea79f39ad0b36140fd985",
+      "public_file_sha256": "9986ecb0ff28f8f3195577c67c2b1cb4adbba634d1ca451ea17a6c4fa3637b57",
+      "bytes": 2242,
+      "derivative": true,
+      "context": "Synthetic/runtime engineering comparison, not biological replication."
+    },
+    {
+      "file": "engineering/thread_benchmark/benchmark_result.json",
+      "original_document_sha256": "b2d6a1457c64fca5c5ed307db1734ddf3bad839ae12a8858e9c1c75a82251919",
+      "public_file_sha256": "6b37f64bdf7ee1532d04c0bef7ba4a9c1dbcff09ed41bbac4fa4a220ab461a98",
+      "bytes": 4030,
+      "derivative": true,
+      "context": "Synthetic/runtime engineering comparison, not biological replication."
+    },
+    {
+      "file": "engineering/thread_benchmark/switch_decision_v1_0.json",
+      "original_document_sha256": "4b2aabb0a24c0eecb4c1826f17b3c8e1ed1bc6e96deee8b20adeaf7e403d3ce5",
+      "public_file_sha256": "20cb4990c14a6d315bc5c32829cea3ed5d009afd6f08a514144639f07db78598",
+      "bytes": 6954,
+      "derivative": true,
+      "context": "Synthetic/runtime engineering comparison, not biological replication."
+    },
+    {
+      "file": "engineering/thread_benchmark/final_execution_decision_v1_0.json",
+      "original_document_sha256": "767468f417a3c28acf58992e4c32e881e97c31f418e6c77ab21d3891fb53b0ab",
+      "public_file_sha256": "d166a07b62a916201442ca15059c81c1eb42eb059736afc6bf202f5cd6ee1ff4",
+      "bytes": 2219,
+      "derivative": true,
+      "context": "Synthetic/runtime engineering comparison, not biological replication."
+    },
+    {
+      "file": "run_1/history/thread_switch_not_launched/NOT_LAUNCHED.md",
+      "original_document_sha256": "5f291a26fbb802c68d023a6a298a99459ea4ad06f1453d4b39f13d03763bcac1",
+      "public_file_sha256": "4b8644cc109e9375da7f96b489aaeaf89658a59b8ec1503e230ae9b065132b80",
+      "bytes": 896,
+      "derivative": true,
+      "context": "Preparation only; the proposed replacement inference was NOT_LAUNCHED."
+    },
+    {
+      "file": "run_1/history/thread_switch_not_launched/execution_status.json",
+      "original_document_sha256": "a703fc3d81ba27f179540837b7b0f49c3bb1b3343661e5ebf307cd2a111b714a",
+      "public_file_sha256": "2c71e84de228afa7cffc90fb0b5face2afbeaed10189edf7e251d5754dc5c76e",
+      "bytes": 1034,
+      "derivative": true,
+      "context": "Preparation only; the proposed replacement inference was NOT_LAUNCHED."
+    },
+    {
+      "file": "run_2/execution/execution_plan.json",
+      "original_document_sha256": "5a686652db01d6347e8c4a8ae42629897e16ccd5031cf5f145bfeffbab49256a",
+      "public_file_sha256": "c6eba26d913be436dc405b751059fbd4741ff78f2b5468c291460e98d9a20105",
+      "bytes": 93632,
+      "derivative": true,
+      "context": "Completed full comparison using Alpha 10.3.12 and eight CPU threads."
+    },
+    {
+      "file": "run_2/execution/execution_completion.json",
+      "original_document_sha256": "59a82f3387466c7921199c5986d4826f3bc6772686d65caa0dcf70ac7c44ed8c",
+      "public_file_sha256": "4ab01bf713aa02679b13ae204fc8fcb30777bdd6d9e33d56434db7d6c72e25df",
+      "bytes": 3098,
+      "derivative": true,
+      "context": "Completed full comparison using Alpha 10.3.12 and eight CPU threads."
+    },
+    {
+      "file": "run_2/comparison/zuna_eeg_reconstruction_v1_0.json",
+      "original_document_sha256": "f6e3880aacc691958536c4a5002f96461770ce83ca1eed01700689ef5c315869",
+      "public_file_sha256": "93cce8cd89cbf65156097f44fada72c16c180ec97e697edf5f61b8160e894e85",
+      "bytes": 280091,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_comparison_metrics_v1_0.csv",
+      "original_document_sha256": "72d4e2fa31a3a6be2438d4258a8d66a85ff8595222b19d98d48140c415c5d7d6",
+      "public_file_sha256": "0b1c976247b5eba2e73211e8121eb07d0f42adc07adc3aa4b38bd965f9c4113d",
+      "bytes": 1068,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_exploratory_block_metrics_v1_0.json",
+      "original_document_sha256": "e6af65fad0cb3461dd83a6342802882cb07502129831116242d6979ddf7d7b22",
+      "public_file_sha256": "376dd66c98b4f23dbe69baeeeee338092bca990bf4809d8040250e623fdd79ef",
+      "bytes": 27184,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_provenance_v1_0.json",
+      "original_document_sha256": "3e933ab34e1e7bc8ebf08bd6668eb34676eaabd80b9e5b5f637e3155b20b762f",
+      "public_file_sha256": "f2f7e4fde91c407362e8fc33282edaf33bd5b0fd337a28d5e75609449971019e",
+      "bytes": 48123,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_preparation_v1_0.json",
+      "original_document_sha256": "29d7e8898a1bb7a166520fc18fa9876ee8061576f0ce36263eacb94e221f98d4",
+      "public_file_sha256": "a07187ba6d4ad99c8055179212457902b7ac0064f75e5f82692b08d4bdadf941",
+      "bytes": 25881,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_comparison_receipt_v1_0.json",
+      "original_document_sha256": "42867db590922ef2f65177d0f3ab389c1c21a373d9bd657eb3e78ce369614f75",
+      "public_file_sha256": "7af519d2577e6a8438f96be2e6cfd6d19534e6a0c59c314a4a46dca9327245dd",
+      "bytes": 35293,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_block_eligibility_v1_0.json",
+      "original_document_sha256": "3220a2e4033287b6864559cd1fc7b593be550d6f1e461292e743a13776dfb274",
+      "public_file_sha256": "74d430d8f5f8c9e7ed290e724b52bbe62029893240d50076ad0e60f15f9020f8",
+      "bytes": 9164,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_timing_derivative_v1_0.json",
+      "original_document_sha256": "687edba383eb2b43d57e84239dec4f565f214393140d29f7b94d6030981ca839",
+      "public_file_sha256": "9d0ed3a6159be9a168528ad8f3336735574726f28cfc8f554bfdd50fc3337bf7",
+      "bytes": 4403,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/comparison/zuna_optical_timing_report_v1_0.json",
+      "original_document_sha256": "ab000a3870216d53930db59a5087efbcaf4c90e4364b9375e3857c007edff49c",
+      "public_file_sha256": "5097542b7be95b1385b7a2156060d4e7ac92b75f933b9dc9152d74cdc826d141",
+      "bytes": 1279,
+      "derivative": true,
+      "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED."
+    },
+    {
+      "file": "run_2/required_qc/eeg_signal_quality_v0_1.json",
+      "original_document_sha256": "15d7718ebbb4084253082f98487d4470dbcbb8d6420a1f9852c8a92d87062b2b",
+      "public_file_sha256": "99d38fb02c41be8e7b9d4d7c9da5638bd24a3869b774f434c8809196db78c2ac",
+      "bytes": 16899,
+      "derivative": true,
+      "context": ""
+    }
+  ],
+  "transformation_counts": {
+    "local_path": 375,
+    "uuid": 18,
+    "exact_time": 0,
+    "private_label": 0,
+    "device_address": 0,
+    "stream_identity": 0,
+    "port": 0,
+    "omitted_field_streams": 3,
+    "omitted_field_markers": 1,
+    "omitted_field_eeg_metadata": 1,
+    "omitted_field_start_lsl": 286,
+    "omitted_field_end_lsl": 272,
+    "omitted_field_updated_utc": 4,
+    "omitted_field_after_lsl": 7,
+    "omitted_field_generated_utc": 15,
+    "omitted_field_gap_intervals_lsl": 6,
+    "omitted_field_source_id": 3,
+    "omitted_field_hostname": 3,
+    "omitted_field_windows": 13,
+    "omitted_field_missing_or_invalid_bin_start_lsl": 3,
+    "omitted_field_source_id_sha256": 6,
+    "omitted_field_hostname_sha256": 6,
+    "omitted_field_recorded_clock_start_lsl": 2,
+    "omitted_field_recorded_clock_end_lsl": 2,
+    "omitted_field_reviewer": 9,
+    "omitted_field_reviewed_utc": 10,
+    "omitted_field_eeg_stream_name": 5,
+    "omitted_field_eeg_source_id": 5,
+    "omitted_field_started_utc": 8,
+    "omitted_field_wrapper_pid": 3,
+    "omitted_field_worker_pid": 3,
+    "omitted_field_command": 4,
+    "omitted_field_recent_progress": 2,
+    "omitted_field_completed_utc": 3,
+    "omitted_field_stderr_tail": 2,
+    "omitted_field_observed_start_lsl": 56,
+    "omitted_field_observed_end_lsl": 56,
+    "omitted_field_trace_selection": 3,
+    "omitted_field_created_utc": 3,
+    "omitted_field_operator": 1,
+    "omitted_field_window_metrics": 1,
+    "omitted_field_frozen_utc": 7,
+    "omitted_field_first_sample_lsl": 8,
+    "omitted_field_last_sample_lsl": 8,
+    "omitted_field_pid": 1,
+    "omitted_field_finished_utc": 5,
+    "omitted_field_coordinator_pid": 1,
+    "omitted_field_child_pid": 1,
+    "omitted_field_original_status_updated_utc": 1,
+    "omitted_field_check_utc": 1,
+    "omitted_field_source_minus_receipt_seconds": 1
+  },
+  "finite_numeric_values_carried": 335541
+}

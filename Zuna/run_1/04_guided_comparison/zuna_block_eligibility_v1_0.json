@@ -1,0 +1,168 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "4f3791092273d4a5fbabf3751f763ad3c39b7d63bddc5bc866178a8c4e37541a",
+  "original_schema": "PRAYCG_ZunaBlockEligibility_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison.",
+  "record": {
+    "schema": "PRAYCG_ZunaBlockEligibility_v1_0",
+    "policy": "FIXED_EVALUATION_BLOCK_LOCAL_INTEGRITY",
+    "status": "ALL_BLOCKS_ELIGIBLE",
+    "eligible_blocks": 8,
+    "evaluated_blocks": 8,
+    "blocks": [
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7504,
+        "expected_duration_seconds": 60.02514909999445,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.02514909999445,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_1",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7504,
+        "expected_duration_seconds": 60.02806659997441,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.02806659997441,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7502,
+        "expected_duration_seconds": 60.01277229998959,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.01277229998959,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_2",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7503,
+        "expected_duration_seconds": 60.02533089998178,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.02533089998178,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7504,
+        "expected_duration_seconds": 60.02910399995744,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.02910399995744,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_3",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7504,
+        "expected_duration_seconds": 60.02160320000257,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.02160320000257,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_open",
+          "node_id": "zuna_validation_eyes_open_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7503,
+        "expected_duration_seconds": 60.01888049999252,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.01888049999252,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      },
+      {
+        "block": {
+          "condition": "eyes_closed",
+          "node_id": "zuna_validation_eyes_closed_4",
+          "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_ONSET",
+          "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_OFFSET"
+        },
+        "status": "ELIGIBLE",
+        "reasons": [],
+        "source_sample_count": 7503,
+        "expected_duration_seconds": 60.02338899997994,
+        "maximum_timestamp_separation_seconds": 0.007999999972525984,
+        "timestamp_gap_count": 0,
+        "effective_sample_rate_hz": 125.0000004292815,
+        "fixed_edge_exclusion_seconds": 5.0,
+        "intended_evaluation_seconds": 50.02338899997994,
+        "loss_semantics": "Timestamp gaps are not independently confirmed packet-loss counts."
+      }
+    ],
+    "calibration_and_outside_block_samples_excluded": true,
+    "missing_samples_filled": false,
+    "endpoint_policy": "Original eight-block comparison requires all eight; no silent reduced endpoint or outcome-selected exclusions.",
+    "amplitude_or_prediction_based_selection": false
+  }
+}

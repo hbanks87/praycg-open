@@ -1,0 +1,92 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "b2d6a1457c64fca5c5ed307db1734ddf3bad839ae12a8858e9c1c75a82251919",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Synthetic/runtime engineering comparison, not biological replication.",
+  "record": {
+    "status": "PASS",
+    "adapter_path": "[LOCAL_PATH_REMOVED]",
+    "adapter_sha256": "012871990564724807aabbee839110f5b2e1c8d82603aea9ade22847535311a1",
+    "helper_sha256": "d0d6acbe09354bdaa46476c69578e319ea408cdc2a6eec8a007e47cda9ee16b9",
+    "synthetic_data_only": true,
+    "existing_data_run_interrupted": false,
+    "thread_order": [
+      2,
+      4,
+      8
+    ],
+    "completed_thread_cases": [
+      2,
+      4,
+      8
+    ],
+    "method": "Sequential isolated child processes; one fresh warmup plus one fresh measured5s16-step call per thread count.",
+    "limitations": [
+      "Benchmark runs concurrently with existing2-thread participant-recording comparison.",
+      "Timings are contention-conditioned, not isolated hardware capacity or guaranteed future speedup.",
+      "Sequential order and OS caching may affect timings; model sampling time separated from load and total time.",
+      "No measured participant targets or reconstruction-error scores enter thread selection."
+    ],
+    "current_threads": 8,
+    "rows": [
+      {
+        "threads": 2,
+        "wall_seconds": 56.10999999998603,
+        "model_load_wall_seconds": 1.9839999999967404,
+        "sampling_wall_seconds": 53.03100000001723,
+        "sampling_cpu_seconds": 103.6875,
+        "total_cpu_seconds": 108.625,
+        "same_threads_replay_bitwise_equal": true,
+        "bitwise_equal_to_two_threads": true,
+        "max_absolute_difference_vs_two_threads_uv": 0.0,
+        "rms_difference_vs_two_threads_uv": 0.0,
+        "relative_rms_difference_vs_two_threads": 0.0,
+        "minimum_available_gib": 11.825828552246094,
+        "checkpoint_identity_sha256": "e8ac16f74470333e596d3cb431f045626fa888c6cb6a92d65af28ef7debb2599",
+        "sampling_speedup_vs_two_threads": 1.0
+      },
+      {
+        "threads": 4,
+        "wall_seconds": 38.65600000001723,
+        "model_load_wall_seconds": 1.7820000000065193,
+        "sampling_wall_seconds": 35.75,
+        "sampling_cpu_seconds": 140.234375,
+        "total_cpu_seconds": 148.625,
+        "same_threads_replay_bitwise_equal": true,
+        "bitwise_equal_to_two_threads": false,
+        "max_absolute_difference_vs_two_threads_uv": 6.222653039356096e-05,
+        "rms_difference_vs_two_threads_uv": 1.3491784734532814e-05,
+        "relative_rms_difference_vs_two_threads": 2.375777830871666e-06,
+        "minimum_available_gib": 11.342308044433594,
+        "checkpoint_identity_sha256": "f2d1c4864b3b81345e3207663819f90a380dd0207dafb8ae71e7f4d0b90f84bb",
+        "sampling_speedup_vs_two_threads": 1.4833846153850974
+      },
+      {
+        "threads": 8,
+        "wall_seconds": 24.42200000002049,
+        "model_load_wall_seconds": 1.4690000000409782,
+        "sampling_wall_seconds": 22.030999999959022,
+        "sampling_cpu_seconds": 170.828125,
+        "total_cpu_seconds": 184.34375,
+        "same_threads_replay_bitwise_equal": true,
+        "bitwise_equal_to_two_threads": false,
+        "max_absolute_difference_vs_two_threads_uv": 5.790524356097393e-05,
+        "rms_difference_vs_two_threads_uv": 1.5192004577926122e-05,
+        "relative_rms_difference_vs_two_threads": 2.6751707348514512e-06,
+        "minimum_available_gib": 11.744583129882812,
+        "checkpoint_identity_sha256": "c857843244e773667e3e406e962ae86da72d78804327ed00f631020e079fa758",
+        "sampling_speedup_vs_two_threads": 2.4071081657716795
+      }
+    ],
+    "frozen_release_adapter_unchanged": true,
+    "private_adapter_unchanged": true,
+    "live_run_switched": false,
+    "automatic_switch_performed": false,
+    "scientific_validation_claim": "NONE"
+  }
+}

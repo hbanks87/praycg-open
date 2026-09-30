@@ -1,0 +1,352 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "38bf20f4314677ef21eecfdba9a1965f65aaf9e5c6ea51d397be71a61c22638b",
+  "original_schema": "PRAYCG_ZunaEEGReconstruction_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint.",
+  "record": {
+    "schema": "PRAYCG_ZunaEEGReconstruction_v1_0",
+    "module_id": "zuna_eeg_reconstruction_v1_0",
+    "module_version": "1.0.1",
+    "status": "CAUTION",
+    "analysis_role": "POSTHOC_EXPLORATORY",
+    "scientific_authority": "NONE",
+    "prediction_status": "MODEL_GENERATED",
+    "channel_count": 16,
+    "measured_input_channels": 12,
+    "generated_target_channels": 4,
+    "sample_count": 122926,
+    "duration_seconds": 480.1796875,
+    "heldout_targets": "MEASURED_WITHHELD",
+    "original_session_purpose": "BENCH_TEST",
+    "original_participant_data_eligible": false,
+    "inputs": {
+      "xdf_sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303",
+      "quality_report_sha256": "b7cf94ebdaa2473515653ba2d2d473beb3e74871ddd19957768ac250961feca8"
+    },
+    "model_comparison": {
+      "primary": "mean per-electrode NMSE, post-hoc one-session descriptive",
+      "mean_nmse": {
+        "spherical_spline": 0.658757263906038,
+        "zuna": 1.2118288082828501
+      },
+      "zuna_minus_spline_nmse": 0.5530715443768122,
+      "zuna_error_relative_to_spline": "higher",
+      "compared_samples": 102456,
+      "prospective_endpoint_status": "NOT_ESTIMABLE_POSTHOC",
+      "evaluation_scope": "ALL_OBSERVED_EVALUATION_BLOCKS_INDEPENDENT_NO_CALIBRATION_NO_GAP_REPAIR"
+    },
+    "spectrum": {
+      "status": "DESCRIPTIVE",
+      "units": "uV^2",
+      "estimator": "scipy.signal.welch; Hann 2s, 50% overlap, constant detrend; per-contiguous-interval PSDs weighted by complete Welch-window count",
+      "contiguous_interval_count": 8,
+      "complete_welch_windows": 392,
+      "omitted_short_interval_count": 0,
+      "seam_policy": "NO_WINDOW_CROSSES_EXCLUDED_SAMPLES_OR_BLOCK_TRANSITIONS",
+      "count_semantics": "WINDOW_WEIGHTS_NOT_INDEPENDENT_PARTICIPANTS",
+      "values": {
+        "measured": {
+          "theta_4_8": [
+            5.800997554652342,
+            4.9892957258081445,
+            2.869773858349889,
+            3.5234439865129685
+          ],
+          "alpha_8_13": [
+            9.687267856187656,
+            10.033006647254945,
+            6.801359791936849,
+            8.518228996133777
+          ],
+          "beta_13_30": [
+            2.339605585990993,
+            1.9223884856679703,
+            2.0001514736812,
+            1.9400197362961116
+          ]
+        },
+        "zuna": {
+          "theta_4_8": [
+            12.700652032735313,
+            8.771082519602993,
+            8.621209878505743,
+            11.120012853257393
+          ],
+          "alpha_8_13": [
+            16.713913389172113,
+            13.73664736588829,
+            12.871072281029702,
+            18.142284045458037
+          ],
+          "beta_13_30": [
+            3.6636787095434062,
+            2.3953850478626606,
+            3.264598789844683,
+            3.540120349812867
+          ]
+        },
+        "spherical_spline": {
+          "theta_4_8": [
+            7.1136224758527895,
+            6.0453743088268945,
+            2.365273479814976,
+            3.2666958631441867
+          ],
+          "alpha_8_13": [
+            9.733969358379785,
+            10.710580448351166,
+            7.109493442842203,
+            8.984290520466898
+          ],
+          "beta_13_30": [
+            1.8269688158190147,
+            2.1337424369938804,
+            1.677463350686398,
+            2.070358443529357
+          ]
+        }
+      }
+    },
+    "condition_comparison": {
+      "status": "DESCRIPTIVE",
+      "blocks": [
+        {
+          "condition": "eyes_open",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            4.512772361106473,
+            6.098317100644186,
+            3.1410246067413228,
+            3.466071959645946
+          ],
+          "zuna_alpha_uv2": [
+            10.103818278725463,
+            6.678694586137097,
+            3.88247364629339,
+            12.647287116581131
+          ],
+          "spherical_spline_alpha_uv2": [
+            5.053056355874746,
+            6.291162104957769,
+            3.6398943296533486,
+            4.86088753451655
+          ]
+        },
+        {
+          "condition": "eyes_closed",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            13.12526758480308,
+            13.39954157973663,
+            9.106658108781652,
+            11.40182836969993
+          ],
+          "zuna_alpha_uv2": [
+            16.40514324146751,
+            15.903376804392751,
+            13.258377064380987,
+            15.73323352488224
+          ],
+          "spherical_spline_alpha_uv2": [
+            11.68629398375451,
+            14.122179960557649,
+            8.508459521511726,
+            12.79287302129446
+          ]
+        },
+        {
+          "condition": "eyes_closed",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            22.902044381841588,
+            24.941424338908305,
+            17.181672377307454,
+            20.94334651034057
+          ],
+          "zuna_alpha_uv2": [
+            23.293773063087507,
+            21.672190177829197,
+            29.121484180749853,
+            34.77414330373043
+          ],
+          "spherical_spline_alpha_uv2": [
+            23.41013100903943,
+            26.381796495498968,
+            19.894777929884967,
+            20.320484325603204
+          ]
+        },
+        {
+          "condition": "eyes_open",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            2.604110764143121,
+            2.2546772054711286,
+            1.6984259068505219,
+            2.062153538385295
+          ],
+          "zuna_alpha_uv2": [
+            10.052399781784196,
+            4.80462555009761,
+            13.759674712407026,
+            3.275040677079506
+          ],
+          "spherical_spline_alpha_uv2": [
+            3.31174592227851,
+            2.985475231321811,
+            1.4744235646724744,
+            1.7340038739479198
+          ]
+        },
+        {
+          "condition": "eyes_closed",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            13.187026815632347,
+            13.17172191197164,
+            7.918029711197684,
+            11.972654261617429
+          ],
+          "zuna_alpha_uv2": [
+            14.056760184794266,
+            15.150754779237646,
+            10.184027660038717,
+            17.49199015405627
+          ],
+          "spherical_spline_alpha_uv2": [
+            12.26166641802789,
+            13.773840334451599,
+            7.737878873022172,
+            11.825679864694177
+          ]
+        },
+        {
+          "condition": "eyes_open",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            3.0976764275017694,
+            2.758043682645714,
+            2.2064834950955086,
+            2.313067817863291
+          ],
+          "zuna_alpha_uv2": [
+            3.4231372465062915,
+            3.555538872694963,
+            3.2802774711977754,
+            4.171168434500083
+          ],
+          "spherical_spline_alpha_uv2": [
+            3.8278255787893034,
+            3.2962400284970728,
+            1.9912045068145365,
+            2.5645348217871033
+          ]
+        },
+        {
+          "condition": "eyes_open",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            6.748767195570297,
+            6.333094631724449,
+            5.633812015149684,
+            6.1305088492029345
+          ],
+          "zuna_alpha_uv2": [
+            40.51215316862068,
+            26.176356234311847,
+            20.34092112605518,
+            39.73933861161622
+          ],
+          "spherical_spline_alpha_uv2": [
+            7.801455360250721,
+            7.072460005189935,
+            5.660354452621085,
+            7.0428077242687275
+          ]
+        },
+        {
+          "condition": "eyes_closed",
+          "excluded_transition_seconds": 5,
+          "measured_alpha_uv2": [
+            11.320477318902586,
+            11.307232726937501,
+            7.524772114370961,
+            9.856200662314826
+          ],
+          "zuna_alpha_uv2": [
+            15.864122148390997,
+            15.951641922405214,
+            9.141342387114712,
+            17.306070541218368
+          ],
+          "spherical_spline_alpha_uv2": [
+            10.519580239023185,
+            11.761489426334508,
+            7.968954364557329,
+            10.73305299762302
+          ]
+        }
+      ],
+      "alpha_closed_minus_open_uv2": {
+        "measured": [
+          10.892872338214485,
+          11.343946984267149,
+          7.262846571955179,
+          10.050556909718823
+        ],
+        "zuna": [
+          1.382072540525911,
+          6.865687110155822,
+          5.110471084082725,
+          6.368150671027596
+        ],
+        "spherical_spline": [
+          9.470897108162934,
+          11.598492211719037,
+          7.836048458803686,
+          9.86746406367364
+        ]
+      },
+      "inference": "One session, not independent participants; no p-value or population inference."
+    },
+    "interpretation": "Post-hoc exploratory comparison: Zuna had higher mean normalized error than spherical-spline interpolation (Zuna 1.2118288082828501; spline 0.658757263906038). Four measured electrodes were withheld. This does not validate the original frozen protocol, remove its QC warnings, or establish recovery of clean neural activity.",
+    "limitations": [
+      "Experimental within-recording prediction benchmark, not proof of artifact removal, neural origin, diagnosis, thought decoding, or generalizable scientific validity. The recorded held-out signal is a comparison target, not clean ground truth.",
+      "Explicit post-hoc exploratory recipe: the original frozen endpoint remains NOT ESTIMABLE; original BENCH and QC records remain unchanged.",
+      "Actual electrode mapping is an operator post-hoc declaration, not independent measured proof. Legacy aliases T3/T4/T5/T6 map to T7/T8/P7/P8 template coordinates.",
+      "Original calibration is excluded, not repaired. The fixed pretrained model uses retained-only per-window normalization; no fitted calibration or target-informed selection.",
+      "Log-derived host receipt approximation, not independently calibrated ADC/display latency; no waveform alignment fitting, gap filling or original timestamp edits.",
+      "Each observed block is independently resampled and filtered; no computation crosses an inter-block or acquisition gap. Five seconds at each block edge are excluded.",
+      "All branches receive the same fixed post-prediction 0.5–40Hz filter; measured and spline branches consequently have two filter passes. Unfiltered generated arrays are retained.",
+      "Five-second independent model contexts may produce seams; this is a PRAYCG operationalization, not an exact reproduction of the upstream paper.",
+      "Condition labels follow software observations; actual acoustic onset and eye-state compliance were not independently measured.",
+      "No inferential p-value, clean-brain claim, automatic artifact removal or participant-data promotion is permitted.",
+      "RAW_CONTAINER: Timestamp gaps exceed the frozen multiple of the expected sampling interval.",
+      "PROTOCOL_WINDOW: Timestamp gaps exceed the frozen multiple of the expected sampling interval."
+    ],
+    "methods": [
+      {
+        "id": "mne_spherical_spline",
+        "software": "MNE accurate spherical spline, origin=(0,0,0)",
+        "reference": "Perrin et al. (1989), doi:10.1016/0013-4694(89)90180-6"
+      },
+      {
+        "id": "zuna",
+        "reference": "Zuna technical report arXiv:2602.18478; pinned ZUNA1.1 PRAYCG adapter, not exact paper evaluation"
+      },
+      {
+        "id": "praycg_nmse",
+        "definition": "mean((prediction-target)^2)/mean((target-mean(target))^2); undefined zero target variance"
+      }
+    ],
+    "metrics_file": "zuna_comparison_metrics_v1_0.csv",
+    "provenance_file": "zuna_provenance_v1_0.json",
+    "derivative_file": "zuna_reconstruction_derivatives_v1_0.npz",
+    "derivative_sha256": "815fe37351605787e9d48157078d187f34b8b14e99e403338174146e52fc4683"
+  }
+}

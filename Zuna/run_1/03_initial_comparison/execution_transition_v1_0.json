@@ -1,0 +1,22 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "5a6588389345d4597b2ae36983c62b83cec260293f729ff6713237114eeb0730",
+  "original_schema": "PRAYCG_PrivateExecutionTransition_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical uncorrected preparation; not the final corrected Run 1 endpoint.",
+  "record": {
+    "schema": "PRAYCG_PrivateExecutionTransition_v1_0",
+    "status": "NOT_EXECUTED_ORIGINAL_RUN_CONTINUES",
+    "reason": "The initial benchmark decision selected eight threads, but the mandatory fresh progress check before stopping the original worker found that a restart no longer met the frozen savings threshold. Stop and launch guards both refused the transition. The original two-thread run remains active and unmodified.",
+    "old_attempt": "alpha1031_zuna_comparison_20260926_attempt1",
+    "new_attempt": "[LOCAL_PATH_REMOVED]",
+    "decision": "[LOCAL_PATH_REMOVED]",
+    "old_checkpoints_preserved": true,
+    "old_checkpoints_reused_in_new_attempt": false,
+    "instruction_for_status_interpretation": "Continue monitoring attempt1. Attempt2 contains preparation only and was never launched. The original worker was not stopped; no checkpoints were discarded or reused across thread settings. Do not launch attempt2 automatically."
+  }
+}

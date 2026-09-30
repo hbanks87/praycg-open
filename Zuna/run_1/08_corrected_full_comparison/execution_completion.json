@@ -1,0 +1,42 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "8cc7fc68dd02d8c0280a75ac9fbad1fff5219c10d075a3cc54a62290708d65c8",
+  "original_schema": "PRAYCG_PRIVATE_FULL_CORRECTED_EXECUTION_1",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Final corrected full Run 1 comparison. The two-sample eyes-closed/early/proxy-touched subgroup is insufficient for interpretation; historical numeric values are preserved with this warning.",
+  "record": {
+    "schema": "PRAYCG_PRIVATE_FULL_CORRECTED_EXECUTION_1",
+    "status": "COMPLETED",
+    "prediction_status": "MODEL_GENERATED",
+    "plan_sha256": "1c67883263d9697d36046d2c43e1e15bd004ca2dd8ca98e7c507471e3ff897a5",
+    "model_windows": 104,
+    "block_count": 8,
+    "compared_samples": 102456,
+    "outputs": {
+      "module_report": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "80cf78f2f2d0704d100fa4176f36c46354a9cbb1595174dc41b0868163940059"
+      },
+      "module_provenance": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "0682d36e81d1b376eab811860d060aba954f1256ecc15ff623e7ab5de9c41b9c"
+      },
+      "derivatives": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "56acea2d1b50544173b49d25ad247d6047b1c20eb54b4c5c862337724c4f524c"
+      }
+    },
+    "input_and_source_bindings_unchanged": true,
+    "installed_app_changed": false,
+    "original_session_purpose": "BENCH_TEST",
+    "role": "POSTHOC_DEVELOPMENT_NOT_PREREGISTERED_OR_PROSPECTIVE_VALIDATION",
+    "elapsed_seconds": 3998.375,
+    "cpu_threads": 2,
+    "checkpoint_resume_count": 0,
+    "final_interpretation_status": "PENDING_INDEPENDENT_REPORT_REVIEW"
+  }
+}

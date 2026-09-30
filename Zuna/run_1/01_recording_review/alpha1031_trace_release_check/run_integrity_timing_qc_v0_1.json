@@ -1,0 +1,97 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "3a057cc2107e727961834ad4e7af9335b8402c8f8e61db20a91c0b37dc8ad461",
+  "original_schema": "PRAYCG_RunIntegrityTimingQC_v0_1",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "",
+  "record": {
+    "schema": "PRAYCG_RunIntegrityTimingQC_v0_1",
+    "version": "0.1.0",
+    "status": "CAUTION",
+    "run_folder": "[LOCAL_PATH_REMOVED]",
+    "run_uuid_candidates": [
+      "[PRIVATE_ID_REMOVED]",
+      "[PRIVATE_ID_REMOVED]",
+      "RUN_1",
+      "[PRIVATE_ID_REMOVED]"
+    ],
+    "metadata_uuid_candidates": [
+      "[PRIVATE_ID_REMOVED]",
+      "[PRIVATE_ID_REMOVED]",
+      "RUN_1",
+      "[PRIVATE_ID_REMOVED]"
+    ],
+    "recording": {
+      "match_count": 1,
+      "files": [
+        {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "byte_count": 8412195,
+          "sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303"
+        }
+      ],
+      "stream_inventory": {
+        "status": "PASS",
+        "stream_count": 7,
+        "run_uuid_observed": true
+      }
+    },
+    "event_log": {
+      "match_count": 2,
+      "logical_set_count": 1,
+      "canonical_file": "[LOCAL_PATH_REMOVED]",
+      "files": [
+        {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "byte_count": 93078,
+          "sha256": "baf0793f10f60ac9b97c7ea58c83818fbafa21da260813cfdeb2909331dfdf58"
+        },
+        {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "byte_count": 45568,
+          "sha256": "4937bf04cf11f6671d2db62b1464def763037b6f61e6ab9843a3da6c27aa125b"
+        }
+      ],
+      "timing": {
+        "status": "PASS",
+        "row_count": 80,
+        "timestamp_field": "lsl_timestamp_seconds",
+        "monotonic_non_decreasing": true,
+        "strictly_increasing": true,
+        "negative_gap_count": 0,
+        "duplicate_timestamp_count": 0,
+        "timed_row_count": 79,
+        "untimed_row_count": 1,
+        "clock_basis": "ATLAS_RECORDED_LSL_LOCAL_CLOCK",
+        "timing_limitation": "Display/marker timestamps do not measure sensor delay, acoustic onset, eye state, or physiological synchrony.",
+        "minimum_gap_s": 1.3800046872347593e-05,
+        "maximum_gap_s": 120.02173889998812
+      }
+    },
+    "findings": [],
+    "warnings": [
+      "1 pre-LSL authority row(s) have no timestamp; only recorded LSL events were tested for ordering.",
+      "Multiple UUIDs were found (4); this preflight does not infer which one is authoritative."
+    ],
+    "governed_identity": {
+      "run_uuid": "RUN_1",
+      "classification": "COMPLETE",
+      "runner_state": "COMPLETED",
+      "complete_protocol_run": true,
+      "composite_run_manifest": "[LOCAL_PATH_REMOVED]",
+      "run_state_manifest": "[LOCAL_PATH_REMOVED]",
+      "runtime_session_lock": "[LOCAL_PATH_REMOVED]"
+    },
+    "not_performed": [
+      "EEG signal-quality or artifact evaluation",
+      "physiological plausibility",
+      "hardware or ALS bench validation",
+      "scientific, causal, clinical, or endpoint validation"
+    ],
+    "boundary": "File/event integrity QC is required workflow evidence, not evidence that a physiological signal or scientific claim is valid."
+  }
+}

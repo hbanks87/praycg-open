@@ -1,0 +1,23 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "5975761be25783f6d382f3084e7c52d999ea9f798ef8e29a6ef3fd758bc77701",
+  "original_schema": null,
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history.",
+  "record": {
+    "status": "COMPLETED",
+    "completed_contexts": 4,
+    "expected_contexts": 4,
+    "plan_sha256": "e27e234c34fcbccf877ccc8da619bf3910032514364d97749598483aebb4da1c",
+    "regression_gate_sha256": "b9ad1de580d2dd01be52c89c5c5366088c4888625091be939d5827a62254c41f",
+    "script_sha256": "8a06991d6f5054064e40d28904afefa6b007cdee811334cb95b720f353b436e1",
+    "priority": "BELOW_NORMAL",
+    "threads": 2,
+    "last_case": "eyes_closed__proxy_touched",
+    "elapsed_seconds": 174.90600000001723
+  }
+}

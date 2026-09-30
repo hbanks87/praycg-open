@@ -1,0 +1,159 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "9008a151619ac08297c132b46b8319e7d20c7174a5c9fd6b5ae2119ff8456758",
+  "original_schema": "PRAYCG_PrivateBoundaryPreparationRegressionEvidence_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history.",
+  "record": {
+    "schema": "PRAYCG_PrivateBoundaryPreparationRegressionEvidence_v1_0",
+    "scope": "SYNTHETIC_ENGINEERING_NOT_MODEL_OR_HUMAN_VALIDATION",
+    "versions": {
+      "numpy": "2.3.3",
+      "scipy": "1.16.2",
+      "mne": "1.10.2",
+      "pytest": "8.4.2"
+    },
+    "runtime_executable": "[LOCAL_PATH_REMOVED]",
+    "numpy_import_path": "[LOCAL_PATH_REMOVED]",
+    "worker_import_path": "[LOCAL_PATH_REMOVED]",
+    "external_pytest_import_path": "[LOCAL_PATH_REMOVED]",
+    "fixed_tolerances": {
+      "dc_translation_max_abs_uv": 2e-06,
+      "gain_relative_error": 0.01,
+      "phase_radians": 0.005
+    },
+    "measurements": {
+      "dc_invariance_125_100000": {
+        "retained_uv": 1.1970424651508438e-11,
+        "target_uv": 1.0632383862230199e-11,
+        "reference_uv": 2.5845992013273644e-12
+      },
+      "dc_invariance_250_100000": {
+        "retained_uv": 1.4319212482405419e-11,
+        "target_uv": 1.0032863428932615e-11,
+        "reference_uv": 1.8145485114473558e-12
+      },
+      "dc_invariance_256_100000": {
+        "retained_uv": 1.24127375045191e-11,
+        "target_uv": 1.099209612220875e-11,
+        "reference_uv": 2.035482893347762e-12
+      },
+      "dc_invariance_500_100000": {
+        "retained_uv": 8.716583010937029e-12,
+        "target_uv": 6.973976951485383e-12,
+        "reference_uv": 1.4628298572461063e-12
+      },
+      "dc_invariance_125_1e+07": {
+        "retained_uv": 1.4051506624923604e-09,
+        "target_uv": 1.743366340178909e-09,
+        "reference_uv": 2.5409896409200883e-10
+      },
+      "dc_invariance_250_1e+07": {
+        "retained_uv": 1.3080532212939033e-09,
+        "target_uv": 1.2471010890635625e-09,
+        "reference_uv": 1.7955947839709552e-10
+      },
+      "dc_invariance_256_1e+07": {
+        "retained_uv": 1.1812950617695606e-09,
+        "target_uv": 1.5499868055712795e-09,
+        "reference_uv": 1.8717138949853052e-10
+      },
+      "dc_invariance_500_1e+07": {
+        "retained_uv": 1.1648362274740975e-09,
+        "target_uv": 1.0103313741183229e-09,
+        "reference_uv": 1.1491863016743764e-10
+      },
+      "passband_125_10": {
+        "gain": 1.0003662213023765,
+        "phase_error_radians": 5.9306722310914495e-09
+      },
+      "passband_250_10": {
+        "gain": 1.001250574926321,
+        "phase_error_radians": 6.230881277602407e-08
+      },
+      "passband_256_10": {
+        "gain": 0.9999987365820834,
+        "phase_error_radians": 1.6503465261052952e-13
+      },
+      "passband_500_10": {
+        "gain": 1.0012276487637681,
+        "phase_error_radians": 6.291782889134012e-08
+      },
+      "passband_125_20": {
+        "gain": 0.9994480194335618,
+        "phase_error_radians": 2.1404202521502214e-08
+      },
+      "passband_250_20": {
+        "gain": 0.9987091770550791,
+        "phase_error_radians": 3.371165996357561e-08
+      },
+      "passband_256_20": {
+        "gain": 0.9983423609286293,
+        "phase_error_radians": 5.495603971894525e-14
+      },
+      "passband_500_20": {
+        "gain": 0.9987865340723899,
+        "phase_error_radians": 2.0761214969411412e-08
+      },
+      "hidden_target_independence": {
+        "retained_reference_tokens_identical": true,
+        "target_tokens_zero": true,
+        "model_inference_executed": false
+      },
+      "input_memory_layout_independence": "EXACT_C_AND_FORTRAN_LAYOUT_EQUALITY",
+      "timestamp_grid_125": {
+        "input_samples": 1500,
+        "output_samples": 3070
+      },
+      "timestamp_grid_250": {
+        "input_samples": 3000,
+        "output_samples": 3071
+      },
+      "timestamp_grid_256": {
+        "input_samples": 3072,
+        "output_samples": 3072
+      },
+      "timestamp_grid_500": {
+        "input_samples": 6000,
+        "output_samples": 3072
+      },
+      "block_independence": {
+        "interblock_gap_preserved": true,
+        "guard_seconds": 5,
+        "samples_scored_per_block": 12800,
+        "inputs_unchanged": true
+      },
+      "preparation_policy": {
+        "identifier": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+        "method_version": "1.0",
+        "execution_scope": "OFFLINE_NONCAUSAL_DERIVATIVE_NOT_HISTORICAL_REPLAY",
+        "offset_removal": "Independent full-preparation-interval arithmetic mean per channel, before resampling; offsets not restored",
+        "target_isolation": "Each target is centered/filtered independently; target values or statistics never enter retained inputs or reference",
+        "resampling": "scipy.signal.resample_poly",
+        "resampling_padtype": "line",
+        "resampling_window": [
+          "kaiser",
+          5.0
+        ],
+        "model_sample_rate_hz": 256.0,
+        "preparation_filter": "scipy.signal.butter order4 bandpass 0.5-40 Hz at 256 Hz; scipy.signal.sosfiltfilt default odd extension",
+        "reference": "average_of_12_retained_channels_only",
+        "timestamp_policy": "Unchanged source-fractional-index interpolation; no time shift, gap filling or waveform alignment",
+        "comparison_filter": "Unchanged common post-prediction order4 0.5-40 Hz zero-phase pass on measured/spline/Zuna branches",
+        "model_context_policy": "Unchanged five-second independent contexts and existing reflected-tail behavior",
+        "evaluation_mask_policy": "Unchanged caller-governed exclusions; no amplitude- or outcome-selected exclusion",
+        "limitation": "Linear endpoint extension and centering mitigate DC-padding artifacts, not all filter transients or model seams; not a live/causal implementation"
+      }
+    },
+    "source_sha256": {
+      "private_file_reference_1": "792e066578baf458e265cb6c735593ac71aea40d96bc193a586a10ce340cedde",
+      "private_file_reference_2": "a1e72cd1b92e4a4678b457274ee027f3c84a39d2351a822b69c1e67745de3bee",
+      "private_file_reference_3": "fa56384fc150c900a30c06a3e60f3ee5e5150e5937b830273a3af525bfb6a270",
+      "private_file_reference_4": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29"
+    }
+  }
+}

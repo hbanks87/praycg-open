@@ -1,0 +1,42 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "efe9568dc4a2bf6baac313dfb8bc9735b51068366c6ea79f39ad0b36140fd985",
+  "original_schema": "PRAYCG_PrivateThreadBenchmarkDecisionPolicy_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Synthetic/runtime engineering comparison, not biological replication.",
+  "record": {
+    "schema": "PRAYCG_PrivateThreadBenchmarkDecisionPolicy_v1_0",
+    "frozen_before_four_and_eight_thread_results": true,
+    "purpose": "Engineering runtime selection only; no participant target-error or scientific outcome selection.",
+    "candidates": [
+      4,
+      8
+    ],
+    "synthetic_input_only": true,
+    "candidate_timing_seconds": "Slower sampling time of the two fresh five-second calls at that count, excluding separately reported load time.",
+    "new_run_estimate_seconds": "104 times candidate timing plus 90 seconds startup/reporting allowance; treats even short trailing contexts as full windows conservatively.",
+    "old_run_estimate_seconds": "Remaining full 1280-sample contexts times 51.5 seconds; ignores cost of short trailing contexts conservatively.",
+    "old_prebenchmark_interval_seconds": [
+      57.8,
+      52.4,
+      50.0,
+      50.6,
+      51.5
+    ],
+    "old_reference_median_seconds": 51.5,
+    "minimum_estimated_savings_fraction": 0.15,
+    "minimum_estimated_savings_seconds": 600,
+    "require_all_outputs_finite": true,
+    "require_repeated_same_count_bitwise_equal": true,
+    "maximum_cross_thread_absolute_difference_uv": 0.01,
+    "maximum_cross_thread_relative_rms_difference": 0.001,
+    "numerical_tolerance_limitation": "Operational synthetic numerical-consistency check, not proof of identical predictions for every input or scientific equivalence.",
+    "fresh_checkpoints_required": true,
+    "mixed_thread_checkpoint_reuse_allowed": false,
+    "limitations": "Single laptop, small sequential benchmark, existing job continues in parallel. Thermal state and shared resources can change actual runtime; estimated savings are not guaranteed. Choose by time only among candidates meeting all guards."
+  }
+}

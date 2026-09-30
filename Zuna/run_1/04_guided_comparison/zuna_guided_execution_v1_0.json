@@ -1,0 +1,28 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "1b0253abf0232f4ebd80326942978d076d39ef85976befd159889186ee1dd10f",
+  "original_schema": "PRAYCG_ZunaGuidedExecution_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Historical Alpha 10.3.5 result used by the blink-proxy audit; distinct from the initial comparison.",
+  "record": {
+    "schema": "PRAYCG_ZunaGuidedExecution_v1_0",
+    "returncode": 0,
+    "cancel_requested": false,
+    "run_uuid": "RUN_1",
+    "xdf_sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303",
+    "cpu_threads": 2,
+    "checkpoint_source": "",
+    "outcome": {
+      "execution": "SUCCEEDED",
+      "comparison": "BASELINE_FAVORED",
+      "evidence": "POSTHOC_EXPLORATORY / BENCH",
+      "scored_seconds": 400.21875,
+      "processed_seconds": 480.1796875,
+      "interpretation": "Post-hoc exploratory comparison: Zuna had higher mean normalized error than spherical-spline interpolation (Zuna 1.2240845097516286; spline 0.658757263906038). Four measured electrodes were withheld. Completion does not remove original QC warnings or establish recovery of clean neural activity."
+    }
+  }
+}

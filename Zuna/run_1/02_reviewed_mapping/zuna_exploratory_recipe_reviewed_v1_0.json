@@ -1,0 +1,83 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "a8284388cb85bbe3e6f46094c158d0bf0fb570dffaca5e2dbeff791adcd04785",
+  "original_schema": "PRAYCG_ZunaExploratoryRecipe_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "",
+  "record": {
+    "schema": "PRAYCG_ZunaExploratoryRecipe_v1_0",
+    "status": "REVIEWED_POSTHOC",
+    "run_uuid": "RUN_1",
+    "inputs": {
+      "xdf": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "1937dad998f3cf265df32d3e235429a877b3f650f64c4ffde1b7e3d642b7c303"
+      },
+      "original_contract": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "247ba65e9dc3005ce5ade644d9d5d3611a991c4bb53221d46f53543c8f79946c"
+      },
+      "original_session_lock": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "3011d9bbb8bb19e2d4230ef88f5a2c16015c8efc73d6f2873daa00b1d3859302"
+      },
+      "observed_blocks": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "e15e8ff775a8be4e3d233b59866833cff46da990fd1a28c3acd560870bb434ed"
+      },
+      "eeg_quality": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "b7cf94ebdaa2473515653ba2d2d473beb3e74871ddd19957768ac250961feca8"
+      },
+      "chunk_diagnostics": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "849019508542e3d0b4985ffc7dfbcac693273a72a2d5370552a6a2b363a30312"
+      },
+      "mapping_review": {
+        "path": "[LOCAL_PATH_REMOVED]",
+        "sha256": "4b4ef41027c95a2f9f9f852c9c8038d800c08ffe3026baadde03bda618847c8b"
+      }
+    },
+    "recorded_channel_labels": [
+      "Fz",
+      "Cz",
+      "Pz",
+      "F3",
+      "F4",
+      "C3",
+      "C4",
+      "P3",
+      "P4",
+      "T5",
+      "T6",
+      "O1",
+      "O2",
+      "T3",
+      "T4",
+      "Fp1"
+    ],
+    "heldout_channel_labels": [
+      "F3",
+      "F4",
+      "P3",
+      "P4"
+    ],
+    "interval_policy": "ALL_OBSERVED_EVALUATION_BLOCKS_INDEPENDENT_NO_CALIBRATION_NO_GAP_REPAIR",
+    "transition_exclusion_seconds": 5,
+    "calibration_policy": "EXCLUDED_NO_FITTED_CALIBRATION_RETAINED_ONLY_PER_WINDOW_NORMALIZATION",
+    "timestamp_policy": "LEGACY_OPENBCI_V1_5_DIAGNOSTIC_ENDPOINT_MAP",
+    "model_parameters": {
+      "seed": 20260924,
+      "sample_steps": 16,
+      "segment_samples": 1280,
+      "device": "cpu"
+    },
+    "canonical_sha256": "24be946768b137d99f9ba2ee3409121eee51633ed018c6b9ee25897eabe15d72",
+    "review_scope": "Explicit post-hoc mapping/reference review; original prospective contract, BENCH status and QC unchanged",
+    "original_draft_path": "[LOCAL_PATH_REMOVED]"
+  }
+}

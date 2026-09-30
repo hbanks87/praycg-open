@@ -1,0 +1,23 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "a703fc3d81ba27f179540837b7b0f49c3bb1b3343661e5ebf307cd2a111b714a",
+  "original_schema": "PRAYCG_PrivateZunaExecution_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Preparation only; the proposed replacement inference was NOT_LAUNCHED.",
+  "record": {
+    "schema": "PRAYCG_PrivateZunaExecution_v1_0",
+    "status": "NOT_LAUNCHED",
+    "reason": "The final progress guard rejected the switch because expected restart savings no longer met the frozen threshold.",
+    "cpu_threads_maximum": 8,
+    "expected_windows": 104,
+    "completed_checkpoint_windows": 0,
+    "model_executed": false,
+    "active_attempt": "[LOCAL_PATH_REMOVED]",
+    "automatic_launch_allowed": false,
+    "note": "Preserve this preparation as an unexecuted attempt. A future runtime change requires a fresh decision and a new output directory."
+  }
+}

@@ -1,0 +1,3264 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "77cf31ccb375a7a169b8069e69fddd2c09b176d95c962061f6c8efc12f0141f9",
+  "original_schema": "PRAYCG_BOUNDARY_SAFE_SHORT_COMPARISON_RESULT_1",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Four fixed five-second contexts, not an independent recording or a full endpoint. See subsequent priority-status correction in prestart history.",
+  "record": {
+    "schema": "PRAYCG_BOUNDARY_SAFE_SHORT_COMPARISON_RESULT_1",
+    "status": "COMPLETED",
+    "plan_sha256": "e27e234c34fcbccf877ccc8da619bf3910032514364d97749598483aebb4da1c",
+    "preparation_receipt_sha256": "947195318a8bef060d15212b24287a089fe69e1508c2e752b0ac10d2282af785",
+    "regression_gate_sha256": "b9ad1de580d2dd01be52c89c5c5366088c4888625091be939d5827a62254c41f",
+    "script_sha256": "8a06991d6f5054064e40d28904afefa6b007cdee811334cb95b720f353b436e1",
+    "new_model_contexts": 4,
+    "new_model_seconds": 20,
+    "elapsed_seconds": 174.90600000001723,
+    "prediction_status": "MODEL_GENERATED",
+    "role": "POSTHOC_DEVELOPMENT_ENGINEERING_NOT_VALIDATION",
+    "original_session_purpose": "BENCH_TEST",
+    "aggregate": {
+      "corrected": {
+        "spline": {
+          "pooled_rmse_uv": 5.734792292540354,
+          "mean_channel_nmse": 0.5248729308103223,
+          "per_channel_rmse_uv": [
+            5.930482727032064,
+            6.647503354868519,
+            4.706718524725574,
+            5.480715742921927
+          ],
+          "per_channel_nmse": [
+            0.2720600016105415,
+            0.48759916498915123,
+            0.49693612105596324,
+            0.8428964355856331
+          ],
+          "per_channel_mae_uv": [
+            4.7427028342078135,
+            5.407859553239083,
+            3.7787035108223677,
+            4.273300018704495
+          ],
+          "target_variance_uv2": [
+            129.2752523980832,
+            90.6262849198509,
+            44.57957136205051,
+            35.63693448749973
+          ],
+          "pearson_r": [
+            0.889073514359625,
+            0.8264018422782936,
+            0.738897254910787,
+            0.6849815110332825
+          ]
+        },
+        "zuna": {
+          "pooled_rmse_uv": 5.058575004257723,
+          "mean_channel_nmse": 0.4278081854827964,
+          "per_channel_rmse_uv": [
+            5.851609969441238,
+            4.467202912071495,
+            4.716735889793479,
+            5.090371867423252
+          ],
+          "per_channel_nmse": [
+            0.26487157131221967,
+            0.22019993289219425,
+            0.4990536421578228,
+            0.7271075955689489
+          ],
+          "per_channel_mae_uv": [
+            4.625355450755519,
+            3.624122367844214,
+            3.849208979287274,
+            3.9420670164765594
+          ],
+          "target_variance_uv2": [
+            129.2752523980832,
+            90.6262849198509,
+            44.57957136205051,
+            35.63693448749973
+          ],
+          "pearson_r": [
+            0.8779098063249706,
+            0.9014945120369995,
+            0.7511692985697221,
+            0.7245485176933913
+          ]
+        }
+      },
+      "historical_same_intervals": {
+        "spline": {
+          "pooled_rmse_uv": 5.739696518901194,
+          "mean_channel_nmse": 0.5234419086029283,
+          "per_channel_rmse_uv": [
+            5.940321600694642,
+            6.655255413514651,
+            4.703644335740053,
+            5.483826140607581
+          ],
+          "per_channel_nmse": [
+            0.2729492126362331,
+            0.485083036203396,
+            0.49623134387441775,
+            0.8395040416976662
+          ],
+          "per_channel_mae_uv": [
+            4.741247427970945,
+            5.4167474574364975,
+            3.777996942453714,
+            4.274329680400818
+          ],
+          "target_variance_uv2": [
+            129.28200224086328,
+            91.3089539592644,
+            44.584588035895045,
+            35.82156564678114
+          ],
+          "pearson_r": [
+            0.888720741894163,
+            0.8262321580353781,
+            0.739236465683834,
+            0.6850460559784061
+          ]
+        },
+        "zuna": {
+          "pooled_rmse_uv": 5.073029828312725,
+          "mean_channel_nmse": 0.42570899548102514,
+          "per_channel_rmse_uv": [
+            5.91029166662916,
+            4.508690778049813,
+            4.698144855506358,
+            5.060644361717602
+          ],
+          "per_channel_nmse": [
+            0.270196523716779,
+            0.22263197255704484,
+            0.49507163922991143,
+            0.7149358464203653
+          ],
+          "per_channel_mae_uv": [
+            4.679415545271121,
+            3.6615015253648417,
+            3.8280509579554134,
+            3.9119153058904375
+          ],
+          "target_variance_uv2": [
+            129.28200224086328,
+            91.3089539592644,
+            44.584588035895045,
+            35.82156564678114
+          ],
+          "pearson_r": [
+            0.8787523570921075,
+            0.9017972648634544,
+            0.752013539308373,
+            0.7238567699511225
+          ]
+        }
+      }
+    },
+    "cases": [
+      {
+        "case_id": "eyes_open__proxy_untouched",
+        "condition": "eyes_open",
+        "original_proxy_context_touched": false,
+        "original_window_index_zero_based": 1,
+        "original_window_seed": 20260925,
+        "segment_index": 0,
+        "block": "zuna_validation_eyes_open_1",
+        "start_sample": 1280,
+        "stop_sample_exclusive": 2560,
+        "relative_start_seconds": 5.001702930370811,
+        "seconds": 5.0,
+        "prediction_status": "MODEL_GENERATED",
+        "corrected": {
+          "spline": {
+            "pooled_rmse_uv": 4.922073389391594,
+            "mean_channel_nmse": 1.4635587835956252,
+            "per_channel_rmse_uv": [
+              4.540121126484778,
+              5.962190650195991,
+              4.426516617632827,
+              4.599212893921083
+            ],
+            "per_channel_nmse": [
+              0.7962780975752215,
+              2.7117275959552964,
+              1.2204430214140218,
+              1.1257864194379608
+            ],
+            "per_channel_mae_uv": [
+              3.711640049779754,
+              4.751882701756217,
+              3.606359069468514,
+              3.6642453604469267
+            ],
+            "target_variance_uv2": [
+              25.886307693156414,
+              13.108882102430211,
+              16.05486616120565,
+              18.789318185389263
+            ],
+            "pearson_r": [
+              0.492817591586105,
+              0.3537995856455541,
+              0.20092444763028752,
+              0.46818714584856413
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.326373046225826,
+            "mean_channel_nmse": 1.0711914195817358,
+            "per_channel_rmse_uv": [
+              4.232559120563424,
+              4.1172140871551255,
+              4.3370731254426325,
+              4.603672783383649
+            ],
+            "per_channel_nmse": [
+              0.692047584437881,
+              1.2931271871249832,
+              1.171620062513443,
+              1.127970844250636
+            ],
+            "per_channel_mae_uv": [
+              3.467962666274782,
+              3.3868837118495563,
+              3.508618061236291,
+              3.8372678408254273
+            ],
+            "target_variance_uv2": [
+              25.886307693156414,
+              13.108882102430211,
+              16.05486616120565,
+              18.789318185389263
+            ],
+            "pearson_r": [
+              0.5560478664772998,
+              0.45647449680258956,
+              0.2587546552907233,
+              0.5293809137524765
+            ]
+          }
+        },
+        "historical_same_intervals": {
+          "spline": {
+            "pooled_rmse_uv": 4.926727082335044,
+            "mean_channel_nmse": 1.4444598030154945,
+            "per_channel_rmse_uv": [
+              4.551503104053801,
+              5.968742690542414,
+              4.422155752535319,
+              4.603588563659683
+            ],
+            "per_channel_nmse": [
+              0.8004751292227092,
+              2.641847204176724,
+              1.2173060774054225,
+              1.1182108012571226
+            ],
+            "per_channel_mae_uv": [
+              3.700242294889892,
+              4.738868245726532,
+              3.6034676479278973,
+              3.6633131395793526
+            ],
+            "target_variance_uv2": [
+              25.879855288355508,
+              13.48521945159412,
+              16.06453944710594,
+              18.952622921932473
+            ],
+            "pearson_r": [
+              0.49140886523865857,
+              0.35729389116938914,
+              0.2036918900575076,
+              0.46953768337271545
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 4.322746317913924,
+            "mean_channel_nmse": 1.0514378259627455,
+            "per_channel_rmse_uv": [
+              4.319354807004066,
+              4.04654319405409,
+              4.297648994556286,
+              4.609058284032463
+            ],
+            "per_channel_nmse": [
+              0.7209014788109602,
+              1.2142562366242997,
+              1.1497240204877472,
+              1.1208695679279748
+            ],
+            "per_channel_mae_uv": [
+              3.5282867574195533,
+              3.3368779475755987,
+              3.4686076498906955,
+              3.815039730106439
+            ],
+            "target_variance_uv2": [
+              25.879855288355508,
+              13.48521945159412,
+              16.06453944710594,
+              18.952622921932473
+            ],
+            "pearson_r": [
+              0.532244856016782,
+              0.4692981634945224,
+              0.2704056305604734,
+              0.5273403807418525
+            ]
+          }
+        },
+        "prepared_target_change_rms_uv": 0.38343642125089894,
+        "prepared_input_change_rms_uv": 0.39593778391476137,
+        "corrected_spectrum": {
+          "measured": {
+            "theta_4_8": [
+              1.1501894381848536,
+              2.2445885424339775,
+              2.6234396097116104,
+              1.3247580549499052
+            ],
+            "alpha_8_13": [
+              0.9246855251932334,
+              1.103035911616487,
+              1.2064229864982012,
+              1.0415792256966365
+            ],
+            "beta_13_30": [
+              3.870742398091797,
+              1.8740769111751432,
+              1.5706077076318736,
+              1.115583300734097
+            ]
+          },
+          "spline": {
+            "theta_4_8": [
+              1.4627431375821018,
+              3.3267897361241325,
+              0.9003324107985317,
+              1.6778393142028514
+            ],
+            "alpha_8_13": [
+              0.8392089720049545,
+              1.3697758518992451,
+              0.6634713169049082,
+              0.8126660837527194
+            ],
+            "beta_13_30": [
+              1.8630634313815764,
+              4.1757483918996785,
+              1.7385484916569351,
+              1.9750623767094924
+            ]
+          },
+          "zuna": {
+            "theta_4_8": [
+              1.1681384304665414,
+              1.4396856364485813,
+              1.332352564538706,
+              1.4291459962583943
+            ],
+            "alpha_8_13": [
+              0.9067546672236526,
+              0.8044125998728467,
+              0.7116738546415227,
+              0.7126144473181472
+            ],
+            "beta_13_30": [
+              1.3964170226381594,
+              1.2405701999005547,
+              1.583996807652383,
+              1.3749783261379884
+            ]
+          }
+        },
+        "model_provenance": {
+          "schema": "PRAYCG_ZunaAdapterProvenance_v1_0",
+          "model_id": "Zyphra/ZUNA1.1",
+          "model_revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+          "weight_sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33",
+          "upstream_wheel_sha256": "ce32703536cb347c55051d20b81250e70907ccf67eb4378b104311b9546214e2",
+          "adapter_sha256": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+          "adapter_contract_id": "ZUNA1_1_PINNED_FIF_COORDINATES_RETAINED_ONLY_V1_1",
+          "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+          "model_lock_sha256": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+          "model_install_receipt_sha256": "acfa5fea18978ac992e7c2190a485cb7a126322303b9a995b8b87ce91f699314",
+          "device": "cpu",
+          "torch_version": "2.14.0+cpu",
+          "precision": "float32",
+          "cpu_threads": 2,
+          "observed_torch_cpu_threads": 2,
+          "torch_interop_threads": 1,
+          "observed_torch_interop_threads": 1,
+          "seed": 20260925,
+          "sample_steps": 16,
+          "cfg": 1.0,
+          "segment_samples": 1280,
+          "independent_segment_boundaries": [
+            0,
+            1280
+          ],
+          "checkpoint_identity_sha256": "e1150b6861dd8a13b0ff8af66aff97e35beb56e85e63ca94d85b1d0f1eb2306f",
+          "resumed_window_count": 0,
+          "sample_rate_hz": 256.0,
+          "retained_names": [
+            "Fz",
+            "Cz",
+            "Pz",
+            "C3",
+            "C4",
+            "P7",
+            "P8",
+            "O1",
+            "O2",
+            "T7",
+            "T8",
+            "Fp1"
+          ],
+          "target_names": [
+            "F3",
+            "F4",
+            "P3",
+            "P4"
+          ],
+          "target_measurements_seen_by_model": false,
+          "additional_filter_or_reference": false,
+          "positions_m": [
+            [
+              -0.001229271161566281,
+              0.09327445200029715,
+              0.1026392934768164
+            ],
+            [
+              -0.0013741334028190722,
+              0.027617093595102737,
+              0.14019949417439556
+            ],
+            [
+              -0.001709445046746896,
+              -0.045212993324122014,
+              0.12667292418209622
+            ],
+            [
+              -0.0671487229331174,
+              0.023358230537446293,
+              0.10451068106024831
+            ],
+            [
+              0.06532888071838541,
+              0.0235731049615695,
+              0.10369243420047652
+            ],
+            [
+              -0.07445796452347851,
+              -0.042123164958505765,
+              0.04127363138738122
+            ],
+            [
+              0.07103247088902218,
+              -0.04225997601209522,
+              0.0411988627819509
+            ],
+            [
+              -0.03157355787465608,
+              -0.08056835212663661,
+              0.05478964562404762
+            ],
+            [
+              0.027683100559624117,
+              -0.08048883980936473,
+              0.0547340814777941
+            ],
+            [
+              -0.08598207795805729,
+              0.014871638175652204,
+              0.031173373739044698
+            ],
+            [
+              0.08326136985759491,
+              0.015258189278681372,
+              0.030972968524059938
+            ],
+            [
+              -0.03090258833242555,
+              0.114585178792428,
+              0.02786657432908913
+            ],
+            [
+              -0.05180903841183724,
+              0.08668789888287941,
+              0.07871409302883386
+            ],
+            [
+              0.050274277731628736,
+              0.08743838910239796,
+              0.07727065434234194
+            ],
+            [
+              -0.0550382318026169,
+              -0.04421030466234088,
+              0.09990897692200874
+            ],
+            [
+              0.05363601546337514,
+              -0.04433452185507687,
+              0.100516027732151
+            ]
+          ],
+          "input_unit": "uV",
+          "output_unit": "uV",
+          "spatial_encoding": "Pinned FIF-default parity: float32 arithmetic, integer truncation, 100 bins from -0.12 to +0.12 m. Not proof of training coordinates; no geometric rescale.",
+          "spatial_encoding_clipped_channels": [
+            "Cz",
+            "Pz"
+          ],
+          "coordinate_inspection": {
+            "channel_names": [
+              "Fz",
+              "Cz",
+              "Pz",
+              "C3",
+              "C4",
+              "P7",
+              "P8",
+              "O1",
+              "O2",
+              "T7",
+              "T8",
+              "Fp1",
+              "F3",
+              "F4",
+              "P3",
+              "P4"
+            ],
+            "positions_m": [
+              [
+                -0.001229271161566281,
+                0.09327445200029715,
+                0.1026392934768164
+              ],
+              [
+                -0.0013741334028190722,
+                0.027617093595102737,
+                0.14019949417439556
+              ],
+              [
+                -0.001709445046746896,
+                -0.045212993324122014,
+                0.12667292418209622
+              ],
+              [
+                -0.0671487229331174,
+                0.023358230537446293,
+                0.10451068106024831
+              ],
+              [
+                0.06532888071838541,
+                0.0235731049615695,
+                0.10369243420047652
+              ],
+              [
+                -0.07445796452347851,
+                -0.042123164958505765,
+                0.04127363138738122
+              ],
+              [
+                0.07103247088902218,
+                -0.04225997601209522,
+                0.0411988627819509
+              ],
+              [
+                -0.03157355787465608,
+                -0.08056835212663661,
+                0.05478964562404762
+              ],
+              [
+                0.027683100559624117,
+                -0.08048883980936473,
+                0.0547340814777941
+              ],
+              [
+                -0.08598207795805729,
+                0.014871638175652204,
+                0.031173373739044698
+              ],
+              [
+                0.08326136985759491,
+                0.015258189278681372,
+                0.030972968524059938
+              ],
+              [
+                -0.03090258833242555,
+                0.114585178792428,
+                0.02786657432908913
+              ],
+              [
+                -0.05180903841183724,
+                0.08668789888287941,
+                0.07871409302883386
+              ],
+              [
+                0.050274277731628736,
+                0.08743838910239796,
+                0.07727065434234194
+              ],
+              [
+                -0.0550382318026169,
+                -0.04421030466234088,
+                0.09990897692200874
+              ],
+              [
+                0.05363601546337514,
+                -0.04433452185507687,
+                0.100516027732151
+              ]
+            ],
+            "coordinate_frame": "MNE_HEAD",
+            "units": "m",
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "spatial_bins": [
+              [
+                49,
+                88,
+                92
+              ],
+              [
+                49,
+                61,
+                99
+              ],
+              [
+                49,
+                31,
+                99
+              ],
+              [
+                22,
+                59,
+                93
+              ],
+              [
+                77,
+                59,
+                93
+              ],
+              [
+                18,
+                32,
+                67
+              ],
+              [
+                79,
+                32,
+                67
+              ],
+              [
+                36,
+                16,
+                72
+              ],
+              [
+                61,
+                16,
+                72
+              ],
+              [
+                14,
+                56,
+                62
+              ],
+              [
+                84,
+                56,
+                62
+              ],
+              [
+                37,
+                97,
+                61
+              ],
+              [
+                28,
+                86,
+                82
+              ],
+              [
+                70,
+                86,
+                82
+              ],
+              [
+                27,
+                31,
+                91
+              ],
+              [
+                72,
+                31,
+                91
+              ]
+            ],
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "clipped_axes": {
+              "Cz": [
+                "z"
+              ],
+              "Pz": [
+                "z"
+              ]
+            },
+            "review_required": true,
+            "geometric_rescale_applied": false,
+            "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+            "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+          },
+          "coordinate_review": {
+            "schema": "PRAYCG_ZunaCoordinateReview_v1_0",
+            "confirmed": true,
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "acknowledgement": "TEMPLATE_COORDINATES_WITH_DISCLOSED_BOUNDARY_CLIPPING_NOT_DIGITIZED"
+          },
+          "coordinate_review_sha256": "5e253036ed1b9e3420f18ed7326c9b481b8601ccfedcea0e9056cec140ea929e",
+          "coordinate_encoding_status": "CAUTION_REVIEWED_CLIPPING",
+          "normalization": "Per-window single mean and population standard deviation from retained channels only; scale to std 0.1; target tokens exactly zero. Apply inverse scalar transformation from retained channels only. No additional re-reference or filter.",
+          "upstream_pipeline_difference": "Uses the pinned low-level model sample API; deliberately does not use upstream per-channel normalization, automatic average reference, filtering, masking heuristics, or seam corrections. This is a PRAYCG experimental operationalization, not an exact reproduction of the published evaluation.",
+          "elapsed_seconds": 42.79700000002049,
+          "inference_network_access": false,
+          "model_load_seconds": 1.5619999999762513,
+          "sampling_seconds": 41.23500000004424,
+          "sampling_process_cpu_seconds": 81.796875,
+          "context_seam_correction_applied": false,
+          "context_seam_limitation": "Independent model contexts and reflected final padding can affect spectra and errors; no hidden-target seam anchoring is permitted.",
+          "installed_distributions": [
+            {
+              "name": "antlr4-python3-runtime",
+              "version": "4.9.3"
+            },
+            {
+              "name": "certifi",
+              "version": "2026.7.22"
+            },
+            {
+              "name": "charset-normalizer",
+              "version": "3.5.1"
+            },
+            {
+              "name": "colorama",
+              "version": "0.4.6"
+            },
+            {
+              "name": "contourpy",
+              "version": "1.3.3"
+            },
+            {
+              "name": "cycler",
+              "version": "0.12.1"
+            },
+            {
+              "name": "decorator",
+              "version": "5.3.1"
+            },
+            {
+              "name": "einops",
+              "version": "0.8.1"
+            },
+            {
+              "name": "filelock",
+              "version": "4.0.3"
+            },
+            {
+              "name": "fonttools",
+              "version": "4.66.0"
+            },
+            {
+              "name": "fsspec",
+              "version": "2026.9.0"
+            },
+            {
+              "name": "huggingface-hub",
+              "version": "0.35.0"
+            },
+            {
+              "name": "idna",
+              "version": "3.20"
+            },
+            {
+              "name": "Jinja2",
+              "version": "3.1.6"
+            },
+            {
+              "name": "joblib",
+              "version": "1.5.2"
+            },
+            {
+              "name": "kiwisolver",
+              "version": "1.5.1"
+            },
+            {
+              "name": "lazy-loader",
+              "version": "0.6"
+            },
+            {
+              "name": "MarkupSafe",
+              "version": "3.0.3"
+            },
+            {
+              "name": "matplotlib",
+              "version": "3.10.6"
+            },
+            {
+              "name": "mne",
+              "version": "1.10.2"
+            },
+            {
+              "name": "mpmath",
+              "version": "1.3.0"
+            },
+            {
+              "name": "networkx",
+              "version": "3.6.1"
+            },
+            {
+              "name": "numpy",
+              "version": "2.3.3"
+            },
+            {
+              "name": "omegaconf",
+              "version": "2.3.0"
+            },
+            {
+              "name": "packaging",
+              "version": "26.3"
+            },
+            {
+              "name": "pillow",
+              "version": "12.3.0"
+            },
+            {
+              "name": "pip",
+              "version": "24.0"
+            },
+            {
+              "name": "platformdirs",
+              "version": "4.11.12"
+            },
+            {
+              "name": "pooch",
+              "version": "1.9.0"
+            },
+            {
+              "name": "pyparsing",
+              "version": "3.3.3"
+            },
+            {
+              "name": "python-dateutil",
+              "version": "2.9.0.post0"
+            },
+            {
+              "name": "python-dotenv",
+              "version": "1.1.1"
+            },
+            {
+              "name": "pyxdf",
+              "version": "1.17.0"
+            },
+            {
+              "name": "PyYAML",
+              "version": "6.0.3"
+            },
+            {
+              "name": "requests",
+              "version": "2.34.2"
+            },
+            {
+              "name": "safetensors",
+              "version": "0.6.2"
+            },
+            {
+              "name": "scipy",
+              "version": "1.16.2"
+            },
+            {
+              "name": "setuptools",
+              "version": "84.0.0"
+            },
+            {
+              "name": "six",
+              "version": "1.17.0"
+            },
+            {
+              "name": "sympy",
+              "version": "1.14.0"
+            },
+            {
+              "name": "torch",
+              "version": "2.14.0"
+            },
+            {
+              "name": "tqdm",
+              "version": "4.70.1"
+            },
+            {
+              "name": "typing_extensions",
+              "version": "4.16.0"
+            },
+            {
+              "name": "urllib3",
+              "version": "2.8.0"
+            },
+            {
+              "name": "zuna",
+              "version": "1.1.6"
+            }
+          ],
+          "generated_data_are_measurements": false,
+          "scientific_validation_claim": "NONE",
+          "cross_platform_bitwise_reproducibility_claim": false,
+          "license_review_limitation": "The wheel includes Meta copyright headers and an Llama 2 notice in eeg_eval.py alongside project Apache-2.0 metadata. PRAYCG does not redistribute the wheel or weights, does not overwrite notices, and does not claim comprehensive upstream provenance clearance."
+        }
+      },
+      {
+        "case_id": "eyes_open__proxy_touched",
+        "condition": "eyes_open",
+        "original_proxy_context_touched": true,
+        "original_window_index_zero_based": 2,
+        "original_window_seed": 20260926,
+        "segment_index": 0,
+        "block": "zuna_validation_eyes_open_1",
+        "start_sample": 2560,
+        "stop_sample_exclusive": 3840,
+        "relative_start_seconds": 10.000415211601648,
+        "seconds": 5.0,
+        "prediction_status": "MODEL_GENERATED",
+        "corrected": {
+          "spline": {
+            "pooled_rmse_uv": 6.330871933879611,
+            "mean_channel_nmse": 0.9067877576589274,
+            "per_channel_rmse_uv": [
+              5.755228082469672,
+              7.034452205647067,
+              5.408465081127597,
+              6.961472195174042
+            ],
+            "per_channel_nmse": [
+              0.30854424875663766,
+              0.7142341315423149,
+              0.7287116854522575,
+              1.8756609648844997
+            ],
+            "per_channel_mae_uv": [
+              4.421005943639687,
+              5.7897678595590065,
+              4.604490020675473,
+              5.5909321790079956
+            ],
+            "target_variance_uv2": [
+              107.35137801052585,
+              69.28192821964186,
+              40.14138254915221,
+              25.837342692241567
+            ],
+            "pearson_r": [
+              0.8495341509649991,
+              0.7791110418982156,
+              0.6101392648432391,
+              0.4559061035101434
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.397190485528714,
+            "mean_channel_nmse": 0.560870537908995,
+            "per_channel_rmse_uv": [
+              7.215094139591145,
+              3.9405131447886874,
+              5.105315775846376,
+              4.782173573784824
+            ],
+            "per_channel_nmse": [
+              0.4849270163822045,
+              0.2241225705356487,
+              0.6493111974703611,
+              0.8851213672477656
+            ],
+            "per_channel_mae_uv": [
+              5.889767889831466,
+              3.0862861050496635,
+              4.232107101356334,
+              3.6706907031171143
+            ],
+            "target_variance_uv2": [
+              107.35137801052585,
+              69.28192821964186,
+              40.14138254915221,
+              25.837342692241567
+            ],
+            "pearson_r": [
+              0.7308568520452031,
+              0.8837709738916391,
+              0.6102690311901428,
+              0.6799524945008257
+            ]
+          }
+        },
+        "historical_same_intervals": {
+          "spline": {
+            "pooled_rmse_uv": 6.336501627233238,
+            "mean_channel_nmse": 0.9027595807276851,
+            "per_channel_rmse_uv": [
+              5.767859837180308,
+              7.047815976583336,
+              5.402348183574844,
+              6.962738574009691
+            ],
+            "per_channel_nmse": [
+              0.3098177474709546,
+              0.7131841507263887,
+              0.7268154239303816,
+              1.8612210007830157
+            ],
+            "per_channel_mae_uv": [
+              4.413823707752007,
+              5.8108257273669235,
+              4.603602904222745,
+              5.601744475952621
+            ],
+            "target_variance_uv2": [
+              107.37992698264176,
+              69.64780413192292,
+              40.15512733446058,
+              26.047271350155132
+            ],
+            "pearson_r": [
+              0.8486446787436055,
+              0.777880776673531,
+              0.6111964947416979,
+              0.45684237830715946
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.462245476918059,
+            "mean_channel_nmse": 0.5722110055770121,
+            "per_channel_rmse_uv": [
+              7.2949852293796615,
+              3.9890739133762665,
+              5.188152277578423,
+              4.826806227917019
+            ],
+            "per_channel_nmse": [
+              0.4955936457795325,
+              0.2284739753781481,
+              0.6703234640783331,
+              0.8944529370720348
+            ],
+            "per_channel_mae_uv": [
+              5.952010516628555,
+              3.147020101126041,
+              4.2930258075992125,
+              3.7165352416402273
+            ],
+            "target_variance_uv2": [
+              107.37992698264176,
+              69.64780413192292,
+              40.15512733446058,
+              26.047271350155132
+            ],
+            "pearson_r": [
+              0.7242029976443319,
+              0.8810446183608889,
+              0.5986431218662679,
+              0.675841666381168
+            ]
+          }
+        },
+        "prepared_target_change_rms_uv": 0.3834358786480391,
+        "prepared_input_change_rms_uv": 0.3959372263661659,
+        "corrected_spectrum": {
+          "measured": {
+            "theta_4_8": [
+              9.61687290757454,
+              10.934452171060993,
+              3.251990239574706,
+              4.151026186564714
+            ],
+            "alpha_8_13": [
+              19.392136250411497,
+              32.416203887989575,
+              7.199432707211057,
+              5.094727755258524
+            ],
+            "beta_13_30": [
+              4.766559527291645,
+              2.8868424765231837,
+              2.1879920073551973,
+              1.8131930093025608
+            ]
+          },
+          "spline": {
+            "theta_4_8": [
+              9.563296471465074,
+              12.432756410891216,
+              3.523333816770748,
+              6.270503119826038
+            ],
+            "alpha_8_13": [
+              22.443034807573166,
+              34.07908547655741,
+              10.692725845088699,
+              9.557347461286394
+            ],
+            "beta_13_30": [
+              2.512993660706978,
+              4.44290152992118,
+              1.8079288595907048,
+              2.5874148519137736
+            ]
+          },
+          "zuna": {
+            "theta_4_8": [
+              6.949102825049021,
+              4.677445370443942,
+              3.0825422625229777,
+              7.700982136958664
+            ],
+            "alpha_8_13": [
+              22.46351906849213,
+              15.911391617626645,
+              9.024479686937347,
+              13.760220558621079
+            ],
+            "beta_13_30": [
+              3.308912075800613,
+              1.0626167678971616,
+              1.1057521033217361,
+              2.399584085647847
+            ]
+          }
+        },
+        "model_provenance": {
+          "schema": "PRAYCG_ZunaAdapterProvenance_v1_0",
+          "model_id": "Zyphra/ZUNA1.1",
+          "model_revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+          "weight_sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33",
+          "upstream_wheel_sha256": "ce32703536cb347c55051d20b81250e70907ccf67eb4378b104311b9546214e2",
+          "adapter_sha256": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+          "adapter_contract_id": "ZUNA1_1_PINNED_FIF_COORDINATES_RETAINED_ONLY_V1_1",
+          "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+          "model_lock_sha256": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+          "model_install_receipt_sha256": "acfa5fea18978ac992e7c2190a485cb7a126322303b9a995b8b87ce91f699314",
+          "device": "cpu",
+          "torch_version": "2.14.0+cpu",
+          "precision": "float32",
+          "cpu_threads": 2,
+          "observed_torch_cpu_threads": 2,
+          "torch_interop_threads": 1,
+          "observed_torch_interop_threads": 1,
+          "seed": 20260926,
+          "sample_steps": 16,
+          "cfg": 1.0,
+          "segment_samples": 1280,
+          "independent_segment_boundaries": [
+            0,
+            1280
+          ],
+          "checkpoint_identity_sha256": "62a745381a45d8fa9c9c618ceefcbf4fe75ad80b43d65896635fd09589e063d2",
+          "resumed_window_count": 0,
+          "sample_rate_hz": 256.0,
+          "retained_names": [
+            "Fz",
+            "Cz",
+            "Pz",
+            "C3",
+            "C4",
+            "P7",
+            "P8",
+            "O1",
+            "O2",
+            "T7",
+            "T8",
+            "Fp1"
+          ],
+          "target_names": [
+            "F3",
+            "F4",
+            "P3",
+            "P4"
+          ],
+          "target_measurements_seen_by_model": false,
+          "additional_filter_or_reference": false,
+          "positions_m": [
+            [
+              -0.001229271161566281,
+              0.09327445200029715,
+              0.1026392934768164
+            ],
+            [
+              -0.0013741334028190722,
+              0.027617093595102737,
+              0.14019949417439556
+            ],
+            [
+              -0.001709445046746896,
+              -0.045212993324122014,
+              0.12667292418209622
+            ],
+            [
+              -0.0671487229331174,
+              0.023358230537446293,
+              0.10451068106024831
+            ],
+            [
+              0.06532888071838541,
+              0.0235731049615695,
+              0.10369243420047652
+            ],
+            [
+              -0.07445796452347851,
+              -0.042123164958505765,
+              0.04127363138738122
+            ],
+            [
+              0.07103247088902218,
+              -0.04225997601209522,
+              0.0411988627819509
+            ],
+            [
+              -0.03157355787465608,
+              -0.08056835212663661,
+              0.05478964562404762
+            ],
+            [
+              0.027683100559624117,
+              -0.08048883980936473,
+              0.0547340814777941
+            ],
+            [
+              -0.08598207795805729,
+              0.014871638175652204,
+              0.031173373739044698
+            ],
+            [
+              0.08326136985759491,
+              0.015258189278681372,
+              0.030972968524059938
+            ],
+            [
+              -0.03090258833242555,
+              0.114585178792428,
+              0.02786657432908913
+            ],
+            [
+              -0.05180903841183724,
+              0.08668789888287941,
+              0.07871409302883386
+            ],
+            [
+              0.050274277731628736,
+              0.08743838910239796,
+              0.07727065434234194
+            ],
+            [
+              -0.0550382318026169,
+              -0.04421030466234088,
+              0.09990897692200874
+            ],
+            [
+              0.05363601546337514,
+              -0.04433452185507687,
+              0.100516027732151
+            ]
+          ],
+          "input_unit": "uV",
+          "output_unit": "uV",
+          "spatial_encoding": "Pinned FIF-default parity: float32 arithmetic, integer truncation, 100 bins from -0.12 to +0.12 m. Not proof of training coordinates; no geometric rescale.",
+          "spatial_encoding_clipped_channels": [
+            "Cz",
+            "Pz"
+          ],
+          "coordinate_inspection": {
+            "channel_names": [
+              "Fz",
+              "Cz",
+              "Pz",
+              "C3",
+              "C4",
+              "P7",
+              "P8",
+              "O1",
+              "O2",
+              "T7",
+              "T8",
+              "Fp1",
+              "F3",
+              "F4",
+              "P3",
+              "P4"
+            ],
+            "positions_m": [
+              [
+                -0.001229271161566281,
+                0.09327445200029715,
+                0.1026392934768164
+              ],
+              [
+                -0.0013741334028190722,
+                0.027617093595102737,
+                0.14019949417439556
+              ],
+              [
+                -0.001709445046746896,
+                -0.045212993324122014,
+                0.12667292418209622
+              ],
+              [
+                -0.0671487229331174,
+                0.023358230537446293,
+                0.10451068106024831
+              ],
+              [
+                0.06532888071838541,
+                0.0235731049615695,
+                0.10369243420047652
+              ],
+              [
+                -0.07445796452347851,
+                -0.042123164958505765,
+                0.04127363138738122
+              ],
+              [
+                0.07103247088902218,
+                -0.04225997601209522,
+                0.0411988627819509
+              ],
+              [
+                -0.03157355787465608,
+                -0.08056835212663661,
+                0.05478964562404762
+              ],
+              [
+                0.027683100559624117,
+                -0.08048883980936473,
+                0.0547340814777941
+              ],
+              [
+                -0.08598207795805729,
+                0.014871638175652204,
+                0.031173373739044698
+              ],
+              [
+                0.08326136985759491,
+                0.015258189278681372,
+                0.030972968524059938
+              ],
+              [
+                -0.03090258833242555,
+                0.114585178792428,
+                0.02786657432908913
+              ],
+              [
+                -0.05180903841183724,
+                0.08668789888287941,
+                0.07871409302883386
+              ],
+              [
+                0.050274277731628736,
+                0.08743838910239796,
+                0.07727065434234194
+              ],
+              [
+                -0.0550382318026169,
+                -0.04421030466234088,
+                0.09990897692200874
+              ],
+              [
+                0.05363601546337514,
+                -0.04433452185507687,
+                0.100516027732151
+              ]
+            ],
+            "coordinate_frame": "MNE_HEAD",
+            "units": "m",
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "spatial_bins": [
+              [
+                49,
+                88,
+                92
+              ],
+              [
+                49,
+                61,
+                99
+              ],
+              [
+                49,
+                31,
+                99
+              ],
+              [
+                22,
+                59,
+                93
+              ],
+              [
+                77,
+                59,
+                93
+              ],
+              [
+                18,
+                32,
+                67
+              ],
+              [
+                79,
+                32,
+                67
+              ],
+              [
+                36,
+                16,
+                72
+              ],
+              [
+                61,
+                16,
+                72
+              ],
+              [
+                14,
+                56,
+                62
+              ],
+              [
+                84,
+                56,
+                62
+              ],
+              [
+                37,
+                97,
+                61
+              ],
+              [
+                28,
+                86,
+                82
+              ],
+              [
+                70,
+                86,
+                82
+              ],
+              [
+                27,
+                31,
+                91
+              ],
+              [
+                72,
+                31,
+                91
+              ]
+            ],
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "clipped_axes": {
+              "Cz": [
+                "z"
+              ],
+              "Pz": [
+                "z"
+              ]
+            },
+            "review_required": true,
+            "geometric_rescale_applied": false,
+            "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+            "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+          },
+          "coordinate_review": {
+            "schema": "PRAYCG_ZunaCoordinateReview_v1_0",
+            "confirmed": true,
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "acknowledgement": "TEMPLATE_COORDINATES_WITH_DISCLOSED_BOUNDARY_CLIPPING_NOT_DIGITIZED"
+          },
+          "coordinate_review_sha256": "5e253036ed1b9e3420f18ed7326c9b481b8601ccfedcea0e9056cec140ea929e",
+          "coordinate_encoding_status": "CAUTION_REVIEWED_CLIPPING",
+          "normalization": "Per-window single mean and population standard deviation from retained channels only; scale to std 0.1; target tokens exactly zero. Apply inverse scalar transformation from retained channels only. No additional re-reference or filter.",
+          "upstream_pipeline_difference": "Uses the pinned low-level model sample API; deliberately does not use upstream per-channel normalization, automatic average reference, filtering, masking heuristics, or seam corrections. This is a PRAYCG experimental operationalization, not an exact reproduction of the published evaluation.",
+          "elapsed_seconds": 41.875,
+          "inference_network_access": false,
+          "model_load_seconds": 1.452999999979511,
+          "sampling_seconds": 40.39100000000326,
+          "sampling_process_cpu_seconds": 80.421875,
+          "context_seam_correction_applied": false,
+          "context_seam_limitation": "Independent model contexts and reflected final padding can affect spectra and errors; no hidden-target seam anchoring is permitted.",
+          "installed_distributions": [
+            {
+              "name": "antlr4-python3-runtime",
+              "version": "4.9.3"
+            },
+            {
+              "name": "certifi",
+              "version": "2026.7.22"
+            },
+            {
+              "name": "charset-normalizer",
+              "version": "3.5.1"
+            },
+            {
+              "name": "colorama",
+              "version": "0.4.6"
+            },
+            {
+              "name": "contourpy",
+              "version": "1.3.3"
+            },
+            {
+              "name": "cycler",
+              "version": "0.12.1"
+            },
+            {
+              "name": "decorator",
+              "version": "5.3.1"
+            },
+            {
+              "name": "einops",
+              "version": "0.8.1"
+            },
+            {
+              "name": "filelock",
+              "version": "4.0.3"
+            },
+            {
+              "name": "fonttools",
+              "version": "4.66.0"
+            },
+            {
+              "name": "fsspec",
+              "version": "2026.9.0"
+            },
+            {
+              "name": "huggingface-hub",
+              "version": "0.35.0"
+            },
+            {
+              "name": "idna",
+              "version": "3.20"
+            },
+            {
+              "name": "Jinja2",
+              "version": "3.1.6"
+            },
+            {
+              "name": "joblib",
+              "version": "1.5.2"
+            },
+            {
+              "name": "kiwisolver",
+              "version": "1.5.1"
+            },
+            {
+              "name": "lazy-loader",
+              "version": "0.6"
+            },
+            {
+              "name": "MarkupSafe",
+              "version": "3.0.3"
+            },
+            {
+              "name": "matplotlib",
+              "version": "3.10.6"
+            },
+            {
+              "name": "mne",
+              "version": "1.10.2"
+            },
+            {
+              "name": "mpmath",
+              "version": "1.3.0"
+            },
+            {
+              "name": "networkx",
+              "version": "3.6.1"
+            },
+            {
+              "name": "numpy",
+              "version": "2.3.3"
+            },
+            {
+              "name": "omegaconf",
+              "version": "2.3.0"
+            },
+            {
+              "name": "packaging",
+              "version": "26.3"
+            },
+            {
+              "name": "pillow",
+              "version": "12.3.0"
+            },
+            {
+              "name": "pip",
+              "version": "24.0"
+            },
+            {
+              "name": "platformdirs",
+              "version": "4.11.12"
+            },
+            {
+              "name": "pooch",
+              "version": "1.9.0"
+            },
+            {
+              "name": "pyparsing",
+              "version": "3.3.3"
+            },
+            {
+              "name": "python-dateutil",
+              "version": "2.9.0.post0"
+            },
+            {
+              "name": "python-dotenv",
+              "version": "1.1.1"
+            },
+            {
+              "name": "pyxdf",
+              "version": "1.17.0"
+            },
+            {
+              "name": "PyYAML",
+              "version": "6.0.3"
+            },
+            {
+              "name": "requests",
+              "version": "2.34.2"
+            },
+            {
+              "name": "safetensors",
+              "version": "0.6.2"
+            },
+            {
+              "name": "scipy",
+              "version": "1.16.2"
+            },
+            {
+              "name": "setuptools",
+              "version": "84.0.0"
+            },
+            {
+              "name": "six",
+              "version": "1.17.0"
+            },
+            {
+              "name": "sympy",
+              "version": "1.14.0"
+            },
+            {
+              "name": "torch",
+              "version": "2.14.0"
+            },
+            {
+              "name": "tqdm",
+              "version": "4.70.1"
+            },
+            {
+              "name": "typing_extensions",
+              "version": "4.16.0"
+            },
+            {
+              "name": "urllib3",
+              "version": "2.8.0"
+            },
+            {
+              "name": "zuna",
+              "version": "1.1.6"
+            }
+          ],
+          "generated_data_are_measurements": false,
+          "scientific_validation_claim": "NONE",
+          "cross_platform_bitwise_reproducibility_claim": false,
+          "license_review_limitation": "The wheel includes Meta copyright headers and an Llama 2 notice in eeg_eval.py alongside project Apache-2.0 metadata. PRAYCG does not redistribute the wheel or weights, does not overwrite notices, and does not claim comprehensive upstream provenance clearance."
+        }
+      },
+      {
+        "case_id": "eyes_closed__proxy_untouched",
+        "condition": "eyes_closed",
+        "original_proxy_context_touched": false,
+        "original_window_index_zero_based": 14,
+        "original_window_seed": 20260938,
+        "segment_index": 1,
+        "block": "zuna_validation_eyes_closed_1",
+        "start_sample": 16647,
+        "stop_sample_exclusive": 17927,
+        "relative_start_seconds": 5.006482282013167,
+        "seconds": 5.0,
+        "prediction_status": "MODEL_GENERATED",
+        "corrected": {
+          "spline": {
+            "pooled_rmse_uv": 5.98107421626211,
+            "mean_channel_nmse": 1.5151535542697527,
+            "per_channel_rmse_uv": [
+              6.28101537693042,
+              7.016690512667558,
+              4.480159987543973,
+              5.859698088805967
+            ],
+            "per_channel_nmse": [
+              1.7067285861312356,
+              1.9205039913583508,
+              0.8731587261801106,
+              1.5602229134093137
+            ],
+            "per_channel_mae_uv": [
+              5.253132176688699,
+              5.827649565128784,
+              3.42323678092115,
+              4.582249524691586
+            ],
+            "target_variance_uv2": [
+              23.115072007238805,
+              25.63595075672626,
+              22.98761142982577,
+              22.00715128386816
+            ],
+            "pearson_r": [
+              0.1828661264194741,
+              0.3410318746892694,
+              0.48565590947726306,
+              0.40202836091642863
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.339781268306074,
+            "mean_channel_nmse": 1.2392957730820982,
+            "per_channel_rmse_uv": [
+              5.4059638374288665,
+              4.344382493948692,
+              4.560924850696915,
+              6.719591967849573
+            ],
+            "per_channel_nmse": [
+              1.2643025729029351,
+              0.7362184236048221,
+              0.9049237480460727,
+              2.0517383477745623
+            ],
+            "per_channel_mae_uv": [
+              4.419559738040349,
+              3.573855934952168,
+              3.597360846630984,
+              5.316517661215004
+            ],
+            "target_variance_uv2": [
+              23.115072007238805,
+              25.63595075672626,
+              22.98761142982577,
+              22.00715128386816
+            ],
+            "pearson_r": [
+              0.4876834926154111,
+              0.6319603250077249,
+              0.4176408997806194,
+              0.28350991154739347
+            ]
+          }
+        },
+        "historical_same_intervals": {
+          "spline": {
+            "pooled_rmse_uv": 5.982893986988492,
+            "mean_channel_nmse": 1.4983345812059672,
+            "per_channel_rmse_uv": [
+              6.290808610068625,
+              7.015322910066886,
+              4.477959220448594,
+              5.859943221324654
+            ],
+            "per_channel_nmse": [
+              1.71242217597888,
+              1.8690190966998437,
+              0.8723636029167897,
+              1.5395334492283554
+            ],
+            "per_channel_mae_uv": [
+              5.251810077209337,
+              5.8374893650956245,
+              3.419351299173788,
+              4.570141156062403
+            ],
+            "target_variance_uv2": [
+              23.11011473901961,
+              26.331863392625895,
+              22.985964468204944,
+              22.304766794355857
+            ],
+            "pearson_r": [
+              0.18024267267739638,
+              0.35087622341362046,
+              0.4855989196442826,
+              0.4054085982521388
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.264244152230572,
+            "mean_channel_nmse": 1.1925731957032653,
+            "per_channel_rmse_uv": [
+              5.248887804956768,
+              4.333781453977804,
+              4.560280196797027,
+              6.6121422870360345
+            ],
+            "per_channel_nmse": [
+              1.192154322908076,
+              0.7132674741166124,
+              0.9047327773461565,
+              1.9601382084422163
+            ],
+            "per_channel_mae_uv": [
+              4.309192172392104,
+              3.5743834484714547,
+              3.6003811141228725,
+              5.1846411931359935
+            ],
+            "target_variance_uv2": [
+              23.11011473901961,
+              26.331863392625895,
+              22.985964468204944,
+              22.304766794355857
+            ],
+            "pearson_r": [
+              0.5075092567201293,
+              0.6347441160267546,
+              0.4201670568957836,
+              0.2866458491411771
+            ]
+          }
+        },
+        "prepared_target_change_rms_uv": 0.39310010580832105,
+        "prepared_input_change_rms_uv": 0.39032685450316734,
+        "corrected_spectrum": {
+          "measured": {
+            "theta_4_8": [
+              1.9918369195074574,
+              2.1144517141673242,
+              1.7019195221805323,
+              2.2776182077606197
+            ],
+            "alpha_8_13": [
+              4.510451412203661,
+              4.14326845082837,
+              5.8310700767322,
+              5.312861926583892
+            ],
+            "beta_13_30": [
+              2.4755617665114054,
+              2.3013038891526927,
+              2.239952245339325,
+              2.1196141823826817
+            ]
+          },
+          "spline": {
+            "theta_4_8": [
+              2.7614552424306256,
+              2.5120359753828265,
+              1.1326409290876076,
+              1.5710944279628587
+            ],
+            "alpha_8_13": [
+              4.1048178132428434,
+              4.922640618618875,
+              5.335399815147695,
+              10.622886767118493
+            ],
+            "beta_13_30": [
+              2.0073130530882817,
+              3.137426078101573,
+              1.5644524885359452,
+              1.8724006455012208
+            ]
+          },
+          "zuna": {
+            "theta_4_8": [
+              4.557494202769284,
+              2.4678788327474366,
+              0.6316390266322998,
+              1.5320119207243932
+            ],
+            "alpha_8_13": [
+              9.951370834924194,
+              5.082441221453184,
+              2.673149016071706,
+              8.475771342879472
+            ],
+            "beta_13_30": [
+              3.608110341295111,
+              2.0548170019754832,
+              0.8963890201639947,
+              1.4795504796255008
+            ]
+          }
+        },
+        "model_provenance": {
+          "schema": "PRAYCG_ZunaAdapterProvenance_v1_0",
+          "model_id": "Zyphra/ZUNA1.1",
+          "model_revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+          "weight_sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33",
+          "upstream_wheel_sha256": "ce32703536cb347c55051d20b81250e70907ccf67eb4378b104311b9546214e2",
+          "adapter_sha256": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+          "adapter_contract_id": "ZUNA1_1_PINNED_FIF_COORDINATES_RETAINED_ONLY_V1_1",
+          "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+          "model_lock_sha256": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+          "model_install_receipt_sha256": "acfa5fea18978ac992e7c2190a485cb7a126322303b9a995b8b87ce91f699314",
+          "device": "cpu",
+          "torch_version": "2.14.0+cpu",
+          "precision": "float32",
+          "cpu_threads": 2,
+          "observed_torch_cpu_threads": 2,
+          "torch_interop_threads": 1,
+          "observed_torch_interop_threads": 1,
+          "seed": 20260938,
+          "sample_steps": 16,
+          "cfg": 1.0,
+          "segment_samples": 1280,
+          "independent_segment_boundaries": [
+            0,
+            1280
+          ],
+          "checkpoint_identity_sha256": "99a31a8d9d7bf80d5ea861d6ea17b5fe9415412e089db843fccced97c194c299",
+          "resumed_window_count": 0,
+          "sample_rate_hz": 256.0,
+          "retained_names": [
+            "Fz",
+            "Cz",
+            "Pz",
+            "C3",
+            "C4",
+            "P7",
+            "P8",
+            "O1",
+            "O2",
+            "T7",
+            "T8",
+            "Fp1"
+          ],
+          "target_names": [
+            "F3",
+            "F4",
+            "P3",
+            "P4"
+          ],
+          "target_measurements_seen_by_model": false,
+          "additional_filter_or_reference": false,
+          "positions_m": [
+            [
+              -0.001229271161566281,
+              0.09327445200029715,
+              0.1026392934768164
+            ],
+            [
+              -0.0013741334028190722,
+              0.027617093595102737,
+              0.14019949417439556
+            ],
+            [
+              -0.001709445046746896,
+              -0.045212993324122014,
+              0.12667292418209622
+            ],
+            [
+              -0.0671487229331174,
+              0.023358230537446293,
+              0.10451068106024831
+            ],
+            [
+              0.06532888071838541,
+              0.0235731049615695,
+              0.10369243420047652
+            ],
+            [
+              -0.07445796452347851,
+              -0.042123164958505765,
+              0.04127363138738122
+            ],
+            [
+              0.07103247088902218,
+              -0.04225997601209522,
+              0.0411988627819509
+            ],
+            [
+              -0.03157355787465608,
+              -0.08056835212663661,
+              0.05478964562404762
+            ],
+            [
+              0.027683100559624117,
+              -0.08048883980936473,
+              0.0547340814777941
+            ],
+            [
+              -0.08598207795805729,
+              0.014871638175652204,
+              0.031173373739044698
+            ],
+            [
+              0.08326136985759491,
+              0.015258189278681372,
+              0.030972968524059938
+            ],
+            [
+              -0.03090258833242555,
+              0.114585178792428,
+              0.02786657432908913
+            ],
+            [
+              -0.05180903841183724,
+              0.08668789888287941,
+              0.07871409302883386
+            ],
+            [
+              0.050274277731628736,
+              0.08743838910239796,
+              0.07727065434234194
+            ],
+            [
+              -0.0550382318026169,
+              -0.04421030466234088,
+              0.09990897692200874
+            ],
+            [
+              0.05363601546337514,
+              -0.04433452185507687,
+              0.100516027732151
+            ]
+          ],
+          "input_unit": "uV",
+          "output_unit": "uV",
+          "spatial_encoding": "Pinned FIF-default parity: float32 arithmetic, integer truncation, 100 bins from -0.12 to +0.12 m. Not proof of training coordinates; no geometric rescale.",
+          "spatial_encoding_clipped_channels": [
+            "Cz",
+            "Pz"
+          ],
+          "coordinate_inspection": {
+            "channel_names": [
+              "Fz",
+              "Cz",
+              "Pz",
+              "C3",
+              "C4",
+              "P7",
+              "P8",
+              "O1",
+              "O2",
+              "T7",
+              "T8",
+              "Fp1",
+              "F3",
+              "F4",
+              "P3",
+              "P4"
+            ],
+            "positions_m": [
+              [
+                -0.001229271161566281,
+                0.09327445200029715,
+                0.1026392934768164
+              ],
+              [
+                -0.0013741334028190722,
+                0.027617093595102737,
+                0.14019949417439556
+              ],
+              [
+                -0.001709445046746896,
+                -0.045212993324122014,
+                0.12667292418209622
+              ],
+              [
+                -0.0671487229331174,
+                0.023358230537446293,
+                0.10451068106024831
+              ],
+              [
+                0.06532888071838541,
+                0.0235731049615695,
+                0.10369243420047652
+              ],
+              [
+                -0.07445796452347851,
+                -0.042123164958505765,
+                0.04127363138738122
+              ],
+              [
+                0.07103247088902218,
+                -0.04225997601209522,
+                0.0411988627819509
+              ],
+              [
+                -0.03157355787465608,
+                -0.08056835212663661,
+                0.05478964562404762
+              ],
+              [
+                0.027683100559624117,
+                -0.08048883980936473,
+                0.0547340814777941
+              ],
+              [
+                -0.08598207795805729,
+                0.014871638175652204,
+                0.031173373739044698
+              ],
+              [
+                0.08326136985759491,
+                0.015258189278681372,
+                0.030972968524059938
+              ],
+              [
+                -0.03090258833242555,
+                0.114585178792428,
+                0.02786657432908913
+              ],
+              [
+                -0.05180903841183724,
+                0.08668789888287941,
+                0.07871409302883386
+              ],
+              [
+                0.050274277731628736,
+                0.08743838910239796,
+                0.07727065434234194
+              ],
+              [
+                -0.0550382318026169,
+                -0.04421030466234088,
+                0.09990897692200874
+              ],
+              [
+                0.05363601546337514,
+                -0.04433452185507687,
+                0.100516027732151
+              ]
+            ],
+            "coordinate_frame": "MNE_HEAD",
+            "units": "m",
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "spatial_bins": [
+              [
+                49,
+                88,
+                92
+              ],
+              [
+                49,
+                61,
+                99
+              ],
+              [
+                49,
+                31,
+                99
+              ],
+              [
+                22,
+                59,
+                93
+              ],
+              [
+                77,
+                59,
+                93
+              ],
+              [
+                18,
+                32,
+                67
+              ],
+              [
+                79,
+                32,
+                67
+              ],
+              [
+                36,
+                16,
+                72
+              ],
+              [
+                61,
+                16,
+                72
+              ],
+              [
+                14,
+                56,
+                62
+              ],
+              [
+                84,
+                56,
+                62
+              ],
+              [
+                37,
+                97,
+                61
+              ],
+              [
+                28,
+                86,
+                82
+              ],
+              [
+                70,
+                86,
+                82
+              ],
+              [
+                27,
+                31,
+                91
+              ],
+              [
+                72,
+                31,
+                91
+              ]
+            ],
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "clipped_axes": {
+              "Cz": [
+                "z"
+              ],
+              "Pz": [
+                "z"
+              ]
+            },
+            "review_required": true,
+            "geometric_rescale_applied": false,
+            "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+            "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+          },
+          "coordinate_review": {
+            "schema": "PRAYCG_ZunaCoordinateReview_v1_0",
+            "confirmed": true,
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "acknowledgement": "TEMPLATE_COORDINATES_WITH_DISCLOSED_BOUNDARY_CLIPPING_NOT_DIGITIZED"
+          },
+          "coordinate_review_sha256": "5e253036ed1b9e3420f18ed7326c9b481b8601ccfedcea0e9056cec140ea929e",
+          "coordinate_encoding_status": "CAUTION_REVIEWED_CLIPPING",
+          "normalization": "Per-window single mean and population standard deviation from retained channels only; scale to std 0.1; target tokens exactly zero. Apply inverse scalar transformation from retained channels only. No additional re-reference or filter.",
+          "upstream_pipeline_difference": "Uses the pinned low-level model sample API; deliberately does not use upstream per-channel normalization, automatic average reference, filtering, masking heuristics, or seam corrections. This is a PRAYCG experimental operationalization, not an exact reproduction of the published evaluation.",
+          "elapsed_seconds": 42.17099999997299,
+          "inference_network_access": false,
+          "model_load_seconds": 1.5459999999729916,
+          "sampling_seconds": 40.61000000004424,
+          "sampling_process_cpu_seconds": 81.0625,
+          "context_seam_correction_applied": false,
+          "context_seam_limitation": "Independent model contexts and reflected final padding can affect spectra and errors; no hidden-target seam anchoring is permitted.",
+          "installed_distributions": [
+            {
+              "name": "antlr4-python3-runtime",
+              "version": "4.9.3"
+            },
+            {
+              "name": "certifi",
+              "version": "2026.7.22"
+            },
+            {
+              "name": "charset-normalizer",
+              "version": "3.5.1"
+            },
+            {
+              "name": "colorama",
+              "version": "0.4.6"
+            },
+            {
+              "name": "contourpy",
+              "version": "1.3.3"
+            },
+            {
+              "name": "cycler",
+              "version": "0.12.1"
+            },
+            {
+              "name": "decorator",
+              "version": "5.3.1"
+            },
+            {
+              "name": "einops",
+              "version": "0.8.1"
+            },
+            {
+              "name": "filelock",
+              "version": "4.0.3"
+            },
+            {
+              "name": "fonttools",
+              "version": "4.66.0"
+            },
+            {
+              "name": "fsspec",
+              "version": "2026.9.0"
+            },
+            {
+              "name": "huggingface-hub",
+              "version": "0.35.0"
+            },
+            {
+              "name": "idna",
+              "version": "3.20"
+            },
+            {
+              "name": "Jinja2",
+              "version": "3.1.6"
+            },
+            {
+              "name": "joblib",
+              "version": "1.5.2"
+            },
+            {
+              "name": "kiwisolver",
+              "version": "1.5.1"
+            },
+            {
+              "name": "lazy-loader",
+              "version": "0.6"
+            },
+            {
+              "name": "MarkupSafe",
+              "version": "3.0.3"
+            },
+            {
+              "name": "matplotlib",
+              "version": "3.10.6"
+            },
+            {
+              "name": "mne",
+              "version": "1.10.2"
+            },
+            {
+              "name": "mpmath",
+              "version": "1.3.0"
+            },
+            {
+              "name": "networkx",
+              "version": "3.6.1"
+            },
+            {
+              "name": "numpy",
+              "version": "2.3.3"
+            },
+            {
+              "name": "omegaconf",
+              "version": "2.3.0"
+            },
+            {
+              "name": "packaging",
+              "version": "26.3"
+            },
+            {
+              "name": "pillow",
+              "version": "12.3.0"
+            },
+            {
+              "name": "pip",
+              "version": "24.0"
+            },
+            {
+              "name": "platformdirs",
+              "version": "4.11.12"
+            },
+            {
+              "name": "pooch",
+              "version": "1.9.0"
+            },
+            {
+              "name": "pyparsing",
+              "version": "3.3.3"
+            },
+            {
+              "name": "python-dateutil",
+              "version": "2.9.0.post0"
+            },
+            {
+              "name": "python-dotenv",
+              "version": "1.1.1"
+            },
+            {
+              "name": "pyxdf",
+              "version": "1.17.0"
+            },
+            {
+              "name": "PyYAML",
+              "version": "6.0.3"
+            },
+            {
+              "name": "requests",
+              "version": "2.34.2"
+            },
+            {
+              "name": "safetensors",
+              "version": "0.6.2"
+            },
+            {
+              "name": "scipy",
+              "version": "1.16.2"
+            },
+            {
+              "name": "setuptools",
+              "version": "84.0.0"
+            },
+            {
+              "name": "six",
+              "version": "1.17.0"
+            },
+            {
+              "name": "sympy",
+              "version": "1.14.0"
+            },
+            {
+              "name": "torch",
+              "version": "2.14.0"
+            },
+            {
+              "name": "tqdm",
+              "version": "4.70.1"
+            },
+            {
+              "name": "typing_extensions",
+              "version": "4.16.0"
+            },
+            {
+              "name": "urllib3",
+              "version": "2.8.0"
+            },
+            {
+              "name": "zuna",
+              "version": "1.1.6"
+            }
+          ],
+          "generated_data_are_measurements": false,
+          "scientific_validation_claim": "NONE",
+          "cross_platform_bitwise_reproducibility_claim": false,
+          "license_review_limitation": "The wheel includes Meta copyright headers and an Llama 2 notice in eeg_eval.py alongside project Apache-2.0 metadata. PRAYCG does not redistribute the wheel or weights, does not overwrite notices, and does not claim comprehensive upstream provenance clearance."
+        }
+      },
+      {
+        "case_id": "eyes_closed__proxy_touched",
+        "condition": "eyes_closed",
+        "original_proxy_context_touched": true,
+        "original_window_index_zero_based": 20,
+        "original_window_seed": 20260944,
+        "segment_index": 1,
+        "block": "zuna_validation_eyes_closed_1",
+        "start_sample": 24327,
+        "stop_sample_exclusive": 25607,
+        "relative_start_seconds": 35.00443818717031,
+        "seconds": 5.0,
+        "prediction_status": "MODEL_GENERATED",
+        "corrected": {
+          "spline": {
+            "pooled_rmse_uv": 5.609935461317196,
+            "mean_channel_nmse": 0.1780990771036758,
+            "per_channel_rmse_uv": [
+              6.891733977227019,
+              6.518590528525053,
+              4.43795219330193,
+              4.0251787735579425
+            ],
+            "per_channel_nmse": [
+              0.13180227790663954,
+              0.16732335902396553,
+              0.19935591691480647,
+              0.21391475456929174
+            ],
+            "per_channel_mae_uv": [
+              5.58503316672311,
+              5.262138086512328,
+              3.480728172224334,
+              3.2557730106714686
+            ],
+            "target_variance_uv2": [
+              360.35793893113544,
+              253.95152671116557,
+              98.79526012990189,
+              75.74075099084955
+            ],
+            "pearson_r": [
+              0.9621564160466325,
+              0.939947627868332,
+              0.9018222020214371,
+              0.9251381099462924
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.0986558453440125,
+            "mean_channel_nmse": 0.16086058960126887,
+            "per_channel_rmse_uv": [
+              6.1456302991670935,
+              5.335808513527381,
+              4.828447147480879,
+              3.7988997873008623
+            ],
+            "per_channel_nmse": [
+              0.10480904593379374,
+              0.11211136574663283,
+              0.2359819876516518,
+              0.1905399590729971
+            ],
+            "per_channel_mae_uv": [
+              4.7241315088754785,
+              4.449463719525468,
+              4.058749907925487,
+              2.9437918607486946
+            ],
+            "target_variance_uv2": [
+              360.35793893113544,
+              253.95152671116557,
+              98.79526012990189,
+              75.74075099084955
+            ],
+            "pearson_r": [
+              0.9620173185816203,
+              0.9589278754991029,
+              0.9129400760117219,
+              0.9352009690894418
+            ]
+          }
+        },
+        "historical_same_intervals": {
+          "spline": {
+            "pooled_rmse_uv": 5.617610830331685,
+            "mean_channel_nmse": 0.17833876169751656,
+            "per_channel_rmse_uv": [
+              6.898624667470672,
+              6.5312589596698825,
+              4.438933877892499,
+              4.034563903451609
+            ],
+            "per_channel_nmse": [
+              0.13206235960278556,
+              0.1671239180515562,
+              0.19944756167810845,
+              0.21472120745761605
+            ],
+            "per_channel_mae_uv": [
+              5.599113632032546,
+              5.27980649155691,
+              3.4855659184904253,
+              3.262119950008894
+            ],
+            "target_variance_uv2": [
+              360.3678023456353,
+              255.24379810859105,
+              98.79355659460278,
+              75.80856164032028
+            ],
+            "pearson_r": [
+              0.9621260864582157,
+              0.9396291045698623,
+              0.9017649250531662,
+              0.9246736413996643
+            ]
+          },
+          "zuna": {
+            "pooled_rmse_uv": 5.16797820064661,
+            "mean_channel_nmse": 0.16028295424840733,
+            "per_channel_rmse_uv": [
+              6.348364490467126,
+              5.499480514532188,
+              4.701850053354685,
+              3.7654459459219005
+            ],
+            "per_channel_nmse": [
+              0.11183499591667129,
+              0.11849175632801102,
+              0.2237736415842247,
+              0.1870314231647223
+            ],
+            "per_channel_mae_uv": [
+              4.928172734644269,
+              4.587724604286274,
+              3.9501892602088744,
+              2.931445058679091
+            ],
+            "target_variance_uv2": [
+              360.3678023456353,
+              255.24379810859105,
+              98.79355659460278,
+              75.80856164032028
+            ],
+            "pearson_r": [
+              0.9631502699428034,
+              0.9583574047138538,
+              0.915884862871061,
+              0.9341654896549862
+            ]
+          }
+        },
+        "prepared_target_change_rms_uv": 0.39309953540988524,
+        "prepared_input_change_rms_uv": 0.39032629100279764,
+        "corrected_spectrum": {
+          "measured": {
+            "theta_4_8": [
+              5.519483793816276,
+              4.479988958505519,
+              2.2312565929909294,
+              2.7273172339469176
+            ],
+            "alpha_8_13": [
+              5.237572974944722,
+              6.217106739320547,
+              3.998340469624443,
+              6.2316887701124974
+            ],
+            "beta_13_30": [
+              2.021932543102924,
+              1.595668924544104,
+              2.097026256286391,
+              1.8149016048262279
+            ]
+          },
+          "spline": {
+            "theta_4_8": [
+              6.585838838285645,
+              6.448456256283174,
+              2.4394318824158803,
+              3.5932530941766365
+            ],
+            "alpha_8_13": [
+              4.684676990769945,
+              6.341139124691825,
+              4.844050442443464,
+              8.541930887377635
+            ],
+            "beta_13_30": [
+              1.7160996980828966,
+              1.8665436116235365,
+              1.8256014801468203,
+              2.484764338827912
+            ]
+          },
+          "zuna": {
+            "theta_4_8": [
+              5.778769051682556,
+              4.87903643570804,
+              2.4503413445827236,
+              3.4070842768778604
+            ],
+            "alpha_8_13": [
+              4.68266622139249,
+              6.543943533984501,
+              4.5500987670586115,
+              5.748410160872855
+            ],
+            "beta_13_30": [
+              1.5699402195981664,
+              1.842000542022582,
+              1.4360310132012237,
+              2.1254212942562094
+            ]
+          }
+        },
+        "model_provenance": {
+          "schema": "PRAYCG_ZunaAdapterProvenance_v1_0",
+          "model_id": "Zyphra/ZUNA1.1",
+          "model_revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+          "weight_sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33",
+          "upstream_wheel_sha256": "ce32703536cb347c55051d20b81250e70907ccf67eb4378b104311b9546214e2",
+          "adapter_sha256": "eb4aa436aea03f13c48e41f40f1f10c11c8fddf7444696d1ea3eac796cbf4c29",
+          "adapter_contract_id": "ZUNA1_1_PINNED_FIF_COORDINATES_RETAINED_ONLY_V1_1",
+          "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+          "model_lock_sha256": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+          "model_install_receipt_sha256": "acfa5fea18978ac992e7c2190a485cb7a126322303b9a995b8b87ce91f699314",
+          "device": "cpu",
+          "torch_version": "2.14.0+cpu",
+          "precision": "float32",
+          "cpu_threads": 2,
+          "observed_torch_cpu_threads": 2,
+          "torch_interop_threads": 1,
+          "observed_torch_interop_threads": 1,
+          "seed": 20260944,
+          "sample_steps": 16,
+          "cfg": 1.0,
+          "segment_samples": 1280,
+          "independent_segment_boundaries": [
+            0,
+            1280
+          ],
+          "checkpoint_identity_sha256": "d8fe8fadf938b06deb5d6ac4b2368b4027ab0810fabb6f74645e59c102371fda",
+          "resumed_window_count": 0,
+          "sample_rate_hz": 256.0,
+          "retained_names": [
+            "Fz",
+            "Cz",
+            "Pz",
+            "C3",
+            "C4",
+            "P7",
+            "P8",
+            "O1",
+            "O2",
+            "T7",
+            "T8",
+            "Fp1"
+          ],
+          "target_names": [
+            "F3",
+            "F4",
+            "P3",
+            "P4"
+          ],
+          "target_measurements_seen_by_model": false,
+          "additional_filter_or_reference": false,
+          "positions_m": [
+            [
+              -0.001229271161566281,
+              0.09327445200029715,
+              0.1026392934768164
+            ],
+            [
+              -0.0013741334028190722,
+              0.027617093595102737,
+              0.14019949417439556
+            ],
+            [
+              -0.001709445046746896,
+              -0.045212993324122014,
+              0.12667292418209622
+            ],
+            [
+              -0.0671487229331174,
+              0.023358230537446293,
+              0.10451068106024831
+            ],
+            [
+              0.06532888071838541,
+              0.0235731049615695,
+              0.10369243420047652
+            ],
+            [
+              -0.07445796452347851,
+              -0.042123164958505765,
+              0.04127363138738122
+            ],
+            [
+              0.07103247088902218,
+              -0.04225997601209522,
+              0.0411988627819509
+            ],
+            [
+              -0.03157355787465608,
+              -0.08056835212663661,
+              0.05478964562404762
+            ],
+            [
+              0.027683100559624117,
+              -0.08048883980936473,
+              0.0547340814777941
+            ],
+            [
+              -0.08598207795805729,
+              0.014871638175652204,
+              0.031173373739044698
+            ],
+            [
+              0.08326136985759491,
+              0.015258189278681372,
+              0.030972968524059938
+            ],
+            [
+              -0.03090258833242555,
+              0.114585178792428,
+              0.02786657432908913
+            ],
+            [
+              -0.05180903841183724,
+              0.08668789888287941,
+              0.07871409302883386
+            ],
+            [
+              0.050274277731628736,
+              0.08743838910239796,
+              0.07727065434234194
+            ],
+            [
+              -0.0550382318026169,
+              -0.04421030466234088,
+              0.09990897692200874
+            ],
+            [
+              0.05363601546337514,
+              -0.04433452185507687,
+              0.100516027732151
+            ]
+          ],
+          "input_unit": "uV",
+          "output_unit": "uV",
+          "spatial_encoding": "Pinned FIF-default parity: float32 arithmetic, integer truncation, 100 bins from -0.12 to +0.12 m. Not proof of training coordinates; no geometric rescale.",
+          "spatial_encoding_clipped_channels": [
+            "Cz",
+            "Pz"
+          ],
+          "coordinate_inspection": {
+            "channel_names": [
+              "Fz",
+              "Cz",
+              "Pz",
+              "C3",
+              "C4",
+              "P7",
+              "P8",
+              "O1",
+              "O2",
+              "T7",
+              "T8",
+              "Fp1",
+              "F3",
+              "F4",
+              "P3",
+              "P4"
+            ],
+            "positions_m": [
+              [
+                -0.001229271161566281,
+                0.09327445200029715,
+                0.1026392934768164
+              ],
+              [
+                -0.0013741334028190722,
+                0.027617093595102737,
+                0.14019949417439556
+              ],
+              [
+                -0.001709445046746896,
+                -0.045212993324122014,
+                0.12667292418209622
+              ],
+              [
+                -0.0671487229331174,
+                0.023358230537446293,
+                0.10451068106024831
+              ],
+              [
+                0.06532888071838541,
+                0.0235731049615695,
+                0.10369243420047652
+              ],
+              [
+                -0.07445796452347851,
+                -0.042123164958505765,
+                0.04127363138738122
+              ],
+              [
+                0.07103247088902218,
+                -0.04225997601209522,
+                0.0411988627819509
+              ],
+              [
+                -0.03157355787465608,
+                -0.08056835212663661,
+                0.05478964562404762
+              ],
+              [
+                0.027683100559624117,
+                -0.08048883980936473,
+                0.0547340814777941
+              ],
+              [
+                -0.08598207795805729,
+                0.014871638175652204,
+                0.031173373739044698
+              ],
+              [
+                0.08326136985759491,
+                0.015258189278681372,
+                0.030972968524059938
+              ],
+              [
+                -0.03090258833242555,
+                0.114585178792428,
+                0.02786657432908913
+              ],
+              [
+                -0.05180903841183724,
+                0.08668789888287941,
+                0.07871409302883386
+              ],
+              [
+                0.050274277731628736,
+                0.08743838910239796,
+                0.07727065434234194
+              ],
+              [
+                -0.0550382318026169,
+                -0.04421030466234088,
+                0.09990897692200874
+              ],
+              [
+                0.05363601546337514,
+                -0.04433452185507687,
+                0.100516027732151
+              ]
+            ],
+            "coordinate_frame": "MNE_HEAD",
+            "units": "m",
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "spatial_bins": [
+              [
+                49,
+                88,
+                92
+              ],
+              [
+                49,
+                61,
+                99
+              ],
+              [
+                49,
+                31,
+                99
+              ],
+              [
+                22,
+                59,
+                93
+              ],
+              [
+                77,
+                59,
+                93
+              ],
+              [
+                18,
+                32,
+                67
+              ],
+              [
+                79,
+                32,
+                67
+              ],
+              [
+                36,
+                16,
+                72
+              ],
+              [
+                61,
+                16,
+                72
+              ],
+              [
+                14,
+                56,
+                62
+              ],
+              [
+                84,
+                56,
+                62
+              ],
+              [
+                37,
+                97,
+                61
+              ],
+              [
+                28,
+                86,
+                82
+              ],
+              [
+                70,
+                86,
+                82
+              ],
+              [
+                27,
+                31,
+                91
+              ],
+              [
+                72,
+                31,
+                91
+              ]
+            ],
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "clipped_axes": {
+              "Cz": [
+                "z"
+              ],
+              "Pz": [
+                "z"
+              ]
+            },
+            "review_required": true,
+            "geometric_rescale_applied": false,
+            "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+            "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+          },
+          "coordinate_review": {
+            "schema": "PRAYCG_ZunaCoordinateReview_v1_0",
+            "confirmed": true,
+            "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+            "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+            "clipped_channels": [
+              "Cz",
+              "Pz"
+            ],
+            "acknowledgement": "TEMPLATE_COORDINATES_WITH_DISCLOSED_BOUNDARY_CLIPPING_NOT_DIGITIZED"
+          },
+          "coordinate_review_sha256": "5e253036ed1b9e3420f18ed7326c9b481b8601ccfedcea0e9056cec140ea929e",
+          "coordinate_encoding_status": "CAUTION_REVIEWED_CLIPPING",
+          "normalization": "Per-window single mean and population standard deviation from retained channels only; scale to std 0.1; target tokens exactly zero. Apply inverse scalar transformation from retained channels only. No additional re-reference or filter.",
+          "upstream_pipeline_difference": "Uses the pinned low-level model sample API; deliberately does not use upstream per-channel normalization, automatic average reference, filtering, masking heuristics, or seam corrections. This is a PRAYCG experimental operationalization, not an exact reproduction of the published evaluation.",
+          "elapsed_seconds": 41.76600000000326,
+          "inference_network_access": false,
+          "model_load_seconds": 1.3910000000032596,
+          "sampling_seconds": 40.35899999999674,
+          "sampling_process_cpu_seconds": 80.5,
+          "context_seam_correction_applied": false,
+          "context_seam_limitation": "Independent model contexts and reflected final padding can affect spectra and errors; no hidden-target seam anchoring is permitted.",
+          "installed_distributions": [
+            {
+              "name": "antlr4-python3-runtime",
+              "version": "4.9.3"
+            },
+            {
+              "name": "certifi",
+              "version": "2026.7.22"
+            },
+            {
+              "name": "charset-normalizer",
+              "version": "3.5.1"
+            },
+            {
+              "name": "colorama",
+              "version": "0.4.6"
+            },
+            {
+              "name": "contourpy",
+              "version": "1.3.3"
+            },
+            {
+              "name": "cycler",
+              "version": "0.12.1"
+            },
+            {
+              "name": "decorator",
+              "version": "5.3.1"
+            },
+            {
+              "name": "einops",
+              "version": "0.8.1"
+            },
+            {
+              "name": "filelock",
+              "version": "4.0.3"
+            },
+            {
+              "name": "fonttools",
+              "version": "4.66.0"
+            },
+            {
+              "name": "fsspec",
+              "version": "2026.9.0"
+            },
+            {
+              "name": "huggingface-hub",
+              "version": "0.35.0"
+            },
+            {
+              "name": "idna",
+              "version": "3.20"
+            },
+            {
+              "name": "Jinja2",
+              "version": "3.1.6"
+            },
+            {
+              "name": "joblib",
+              "version": "1.5.2"
+            },
+            {
+              "name": "kiwisolver",
+              "version": "1.5.1"
+            },
+            {
+              "name": "lazy-loader",
+              "version": "0.6"
+            },
+            {
+              "name": "MarkupSafe",
+              "version": "3.0.3"
+            },
+            {
+              "name": "matplotlib",
+              "version": "3.10.6"
+            },
+            {
+              "name": "mne",
+              "version": "1.10.2"
+            },
+            {
+              "name": "mpmath",
+              "version": "1.3.0"
+            },
+            {
+              "name": "networkx",
+              "version": "3.6.1"
+            },
+            {
+              "name": "numpy",
+              "version": "2.3.3"
+            },
+            {
+              "name": "omegaconf",
+              "version": "2.3.0"
+            },
+            {
+              "name": "packaging",
+              "version": "26.3"
+            },
+            {
+              "name": "pillow",
+              "version": "12.3.0"
+            },
+            {
+              "name": "pip",
+              "version": "24.0"
+            },
+            {
+              "name": "platformdirs",
+              "version": "4.11.12"
+            },
+            {
+              "name": "pooch",
+              "version": "1.9.0"
+            },
+            {
+              "name": "pyparsing",
+              "version": "3.3.3"
+            },
+            {
+              "name": "python-dateutil",
+              "version": "2.9.0.post0"
+            },
+            {
+              "name": "python-dotenv",
+              "version": "1.1.1"
+            },
+            {
+              "name": "pyxdf",
+              "version": "1.17.0"
+            },
+            {
+              "name": "PyYAML",
+              "version": "6.0.3"
+            },
+            {
+              "name": "requests",
+              "version": "2.34.2"
+            },
+            {
+              "name": "safetensors",
+              "version": "0.6.2"
+            },
+            {
+              "name": "scipy",
+              "version": "1.16.2"
+            },
+            {
+              "name": "setuptools",
+              "version": "84.0.0"
+            },
+            {
+              "name": "six",
+              "version": "1.17.0"
+            },
+            {
+              "name": "sympy",
+              "version": "1.14.0"
+            },
+            {
+              "name": "torch",
+              "version": "2.14.0"
+            },
+            {
+              "name": "tqdm",
+              "version": "4.70.1"
+            },
+            {
+              "name": "typing_extensions",
+              "version": "4.16.0"
+            },
+            {
+              "name": "urllib3",
+              "version": "2.8.0"
+            },
+            {
+              "name": "zuna",
+              "version": "1.1.6"
+            }
+          ],
+          "generated_data_are_measurements": false,
+          "scientific_validation_claim": "NONE",
+          "cross_platform_bitwise_reproducibility_claim": false,
+          "license_review_limitation": "The wheel includes Meta copyright headers and an Llama 2 notice in eeg_eval.py alongside project Apache-2.0 metadata. PRAYCG does not redistribute the wheel or weights, does not overwrite notices, and does not claim comprehensive upstream provenance clearance."
+        }
+      }
+    ],
+    "arrays_sha256": "cea9b3944e3df0222b3c06e6e17a95157ac3758d1d7e4d55abd56e13f6fa3795",
+    "input_and_source_bindings_unchanged": true,
+    "installed_app_changed": false,
+    "limitations": [
+      "20 seconds from one previously inspected recording; not independent validation.",
+      "Original proxy categories are frozen on old preparation, not verified blinks.",
+      "Precomparison scoring differs from the original final-filter endpoint.",
+      "Historical and corrected pipelines have different prepared targets; no common clean ground truth.",
+      "No post-hoc gain, shift, seed or favorable-case selection; all four planned cases reported.",
+      "No new full-recording, sparse-input, artifact-removal or live-decoder claim."
+    ]
+  }
+}

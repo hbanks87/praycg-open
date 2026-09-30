@@ -1,0 +1,1422 @@
+{
+  "schema": "PRAYCG_PublicAnalysisDerivative_v1_0",
+  "public_run_labels": [
+    "RUN_1",
+    "RUN_2"
+  ],
+  "original_document_sha256": "3e933ab34e1e7bc8ebf08bd6668eb34676eaabd80b9e5b5f637e3155b20b762f",
+  "original_schema": "PRAYCG_ZunaExploratoryProvenance_v1_0",
+  "transformation": "PUBLIC_REPORT_ONLY_REDACTED_DERIVATIVE_NOT_ORIGINAL_OR_EXECUTABLE_RECIPE",
+  "context": "Prospectively reviewed acquisition, post-hoc timing preparation, one-recording descriptive comparison. ALS timing remains UNVERIFIED.",
+  "record": {
+    "schema": "PRAYCG_ZunaExploratoryProvenance_v1_0",
+    "recipe_sha256": "cc6b53ec360923dbfcc6c11a8ee25a075529d88016f71b42c594bd73f23ea09e",
+    "preparation_identity": {
+      "schema": "PRAYCG_ZunaPreparationIdentity_v1_0",
+      "policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+      "policy": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+      "policy_sha256": "a22bcfcf1bdea8c13df9c9f4da3fcbecbd03273f7e24dcbdbc18533b72a09c88",
+      "route": "PROSPECTIVE_BLOCKS",
+      "input_shape": [
+        12,
+        122867
+      ],
+      "retained_input_sha256": "c38afb2e1a4954393e0f5c2e2ab9ddaf39161303615a7ea98c68d2ab384d94d6",
+      "timestamp_grid_sha256": "1f4f47da085ddd08b789cb11b241cfc222241bf4958c7ad3d5ef4fd2353deeb6",
+      "segment_boundaries": [
+        0,
+        15358,
+        30716,
+        46077,
+        61435,
+        76793,
+        92151,
+        107509,
+        122867
+      ],
+      "numerical_source_sha256": {
+        "prepare_mapped_arrays": "cd47ce0160627ebe5718d3ee84e61a297cf5c44e119e5815516b48661ad69c14",
+        "numerical_preparation_policy": "c73e8d830b8353d87cef4cf6c0fb38af97def50a1f9cc301fae1bc52c839c89a"
+      },
+      "target_measurements_bound": false,
+      "presentation_only_changes_invalidate_predictions": false,
+      "timing_derivative_identity": {
+        "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+        "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+        "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+        "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+      },
+      "canonical_sha256": "d5f5918624ad358d4eb92998d3b261192960307dde2cb74e45f4edb5624bdef9"
+    },
+    "preparation": {
+      "schema": "PRAYCG_ZunaPreparation_v1_0",
+      "status": "PREPARED_NOT_INFERRED",
+      "model_executed": false,
+      "preparation_identity": {
+        "schema": "PRAYCG_ZunaPreparationIdentity_v1_0",
+        "policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+        "policy": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+        "policy_sha256": "a22bcfcf1bdea8c13df9c9f4da3fcbecbd03273f7e24dcbdbc18533b72a09c88",
+        "route": "PROSPECTIVE_BLOCKS",
+        "input_shape": [
+          12,
+          122867
+        ],
+        "retained_input_sha256": "c38afb2e1a4954393e0f5c2e2ab9ddaf39161303615a7ea98c68d2ab384d94d6",
+        "timestamp_grid_sha256": "1f4f47da085ddd08b789cb11b241cfc222241bf4958c7ad3d5ef4fd2353deeb6",
+        "segment_boundaries": [
+          0,
+          15358,
+          30716,
+          46077,
+          61435,
+          76793,
+          92151,
+          107509,
+          122867
+        ],
+        "numerical_source_sha256": {
+          "prepare_mapped_arrays": "cd47ce0160627ebe5718d3ee84e61a297cf5c44e119e5815516b48661ad69c14",
+          "numerical_preparation_policy": "c73e8d830b8353d87cef4cf6c0fb38af97def50a1f9cc301fae1bc52c839c89a"
+        },
+        "target_measurements_bound": false,
+        "presentation_only_changes_invalidate_predictions": false,
+        "timing_derivative_identity": {
+          "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+          "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+          "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+          "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+        },
+        "canonical_sha256": "d5f5918624ad358d4eb92998d3b261192960307dde2cb74e45f4edb5624bdef9"
+      },
+      "numerical_preparation_policy": {
+        "identifier": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+        "method_version": "1.0",
+        "execution_scope": "OFFLINE_NONCAUSAL_DERIVATIVE_NOT_HISTORICAL_REPLAY",
+        "offset_removal": "Independent full-preparation-interval arithmetic mean per channel, before resampling; offsets not restored",
+        "target_isolation": "Each target is centered/filtered independently; target values or statistics never enter retained inputs or reference",
+        "resampling": "scipy.signal.resample_poly",
+        "resampling_padtype": "line",
+        "resampling_window": [
+          "kaiser",
+          5.0
+        ],
+        "model_sample_rate_hz": 256.0,
+        "preparation_filter": "scipy.signal.butter order4 bandpass 0.5-40 Hz at 256 Hz; scipy.signal.sosfiltfilt default odd extension",
+        "reference": "average_of_12_retained_channels_only",
+        "timestamp_policy": "Fractional-index interpolation of the separately declared counter-supported timing derivative, not unchanged native times. No waveform alignment or missing-sample filling.",
+        "comparison_filter": "Unchanged common post-prediction order4 0.5-40 Hz zero-phase pass on measured/spline/Zuna branches",
+        "model_context_policy": "Unchanged five-second independent contexts and existing reflected-tail behavior",
+        "evaluation_mask_policy": "Unchanged caller-governed exclusions; no amplitude- or outcome-selected exclusion",
+        "limitation": "Linear endpoint extension and centering mitigate DC-padding artifacts, not all filter transients or model seams; not a live/causal implementation",
+        "timing_derivative_identity": {
+          "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+          "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+          "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+          "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+        }
+      },
+      "numerical_preparation_worker_sha256": "9971080a9a91748d6f81e52f0b65e8e7de138e8fc9d23a101ac24749cbd819a6",
+      "run_uuid": "RUN_2",
+      "execution_status": "PREPARED",
+      "comparison_status": "NOT_RUN",
+      "evidence_status": "PROSPECTIVE_ACQUISITION_POSTHOC_TIMING_DESCRIPTIVE",
+      "coordinate_inspection": {
+        "channel_names": [
+          "Fz",
+          "Cz",
+          "Pz",
+          "C3",
+          "C4",
+          "P7",
+          "P8",
+          "O1",
+          "O2",
+          "T7",
+          "T8",
+          "Fp1",
+          "F3",
+          "F4",
+          "P3",
+          "P4"
+        ],
+        "positions_m": [
+          [
+            -0.001229271161566281,
+            0.09327445200029715,
+            0.1026392934768164
+          ],
+          [
+            -0.0013741334028190722,
+            0.027617093595102737,
+            0.14019949417439556
+          ],
+          [
+            -0.001709445046746896,
+            -0.045212993324122014,
+            0.12667292418209622
+          ],
+          [
+            -0.0671487229331174,
+            0.023358230537446293,
+            0.10451068106024831
+          ],
+          [
+            0.06532888071838541,
+            0.0235731049615695,
+            0.10369243420047652
+          ],
+          [
+            -0.07445796452347851,
+            -0.042123164958505765,
+            0.04127363138738122
+          ],
+          [
+            0.07103247088902218,
+            -0.04225997601209522,
+            0.0411988627819509
+          ],
+          [
+            -0.03157355787465608,
+            -0.08056835212663661,
+            0.05478964562404762
+          ],
+          [
+            0.027683100559624117,
+            -0.08048883980936473,
+            0.0547340814777941
+          ],
+          [
+            -0.08598207795805729,
+            0.014871638175652204,
+            0.031173373739044698
+          ],
+          [
+            0.08326136985759491,
+            0.015258189278681372,
+            0.030972968524059938
+          ],
+          [
+            -0.03090258833242555,
+            0.114585178792428,
+            0.02786657432908913
+          ],
+          [
+            -0.05180903841183724,
+            0.08668789888287941,
+            0.07871409302883386
+          ],
+          [
+            0.050274277731628736,
+            0.08743838910239796,
+            0.07727065434234194
+          ],
+          [
+            -0.0550382318026169,
+            -0.04421030466234088,
+            0.09990897692200874
+          ],
+          [
+            0.05363601546337514,
+            -0.04433452185507687,
+            0.100516027732151
+          ]
+        ],
+        "coordinate_frame": "MNE_HEAD",
+        "units": "m",
+        "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+        "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+        "spatial_bins": [
+          [
+            49,
+            88,
+            92
+          ],
+          [
+            49,
+            61,
+            99
+          ],
+          [
+            49,
+            31,
+            99
+          ],
+          [
+            22,
+            59,
+            93
+          ],
+          [
+            77,
+            59,
+            93
+          ],
+          [
+            18,
+            32,
+            67
+          ],
+          [
+            79,
+            32,
+            67
+          ],
+          [
+            36,
+            16,
+            72
+          ],
+          [
+            61,
+            16,
+            72
+          ],
+          [
+            14,
+            56,
+            62
+          ],
+          [
+            84,
+            56,
+            62
+          ],
+          [
+            37,
+            97,
+            61
+          ],
+          [
+            28,
+            86,
+            82
+          ],
+          [
+            70,
+            86,
+            82
+          ],
+          [
+            27,
+            31,
+            91
+          ],
+          [
+            72,
+            31,
+            91
+          ]
+        ],
+        "clipped_channels": [
+          "Cz",
+          "Pz"
+        ],
+        "clipped_axes": {
+          "Cz": [
+            "z"
+          ],
+          "Pz": [
+            "z"
+          ]
+        },
+        "review_required": true,
+        "geometric_rescale_applied": false,
+        "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+        "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+      },
+      "coordinate_review_sha256": "f665831753b47d518f4b13f031afe0ba5493a1daffae1ad1c37897c1bad7e9ab",
+      "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+      "analysis_role": "PROSPECTIVE_REVIEWED_MONTAGE",
+      "input_files": {
+        "xdf": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "1706122e44b743f9c839d1757b8f1296343d650d3c11f05d3cfec3403422d322"
+        },
+        "validation_contract": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "cc6b53ec360923dbfcc6c11a8ee25a075529d88016f71b42c594bd73f23ea09e"
+        },
+        "observed_blocks": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "583c92d00cfd3b8e9d7745de93145619aa9b6ea6b8ec6c5198a4c5867cc4c134"
+        },
+        "eeg_quality": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "15d7718ebbb4084253082f98487d4470dbcbb8d6420a1f9852c8a92d87062b2b"
+        },
+        "analysis_window": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "0bb05ea48000c1e021ca771fc5062d0a383ea6a8ac5eeee6487628d8daab6390"
+        },
+        "bridge_manifest": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "838e9eed67b9e7d9d89c939fb79c37b49dc6bb916e7a40605886339ce562031d"
+        },
+        "chunk_diagnostics": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "207394e065e10797397727f045017094a3b908de1b6227a3af625761423ce43e"
+        },
+        "optical_observations": {
+          "path": "[LOCAL_PATH_REMOVED]",
+          "sha256": "8d91e16dfd93ae00a6dab780f3388163276710eae78566dc4e9e8c4548c84806"
+        }
+      },
+      "original_session_purpose": "PARTICIPANT_ACQUISITION",
+      "original_bench_test_mode": false,
+      "original_participant_data_eligible": true,
+      "session_purpose_binding": {
+        "schema": "PRAYCG_ZunaSessionPurposeBinding_v1_0",
+        "binding_status": "PRESERVED_FROM_VALIDATED_ACQUIRE_SESSION_LOCK",
+        "run_uuid": "RUN_2",
+        "validated_session_lock_sha256_at_acquire": "fd69f06779191df379ba03d98ea2fd742a7f823f7fdc9976258abc4ba2fd74ef",
+        "validated_session_sha256": "81145b14db718d89d63c2d35b06a5067ab6cbfb06740a53395d5afbe69e5831a",
+        "session_purpose": "PARTICIPANT_ACQUISITION",
+        "participant_data_eligible": true,
+        "bench_test_mode": false,
+        "bench_readiness_bypass_active": false,
+        "bench_test_reason": ""
+      },
+      "participant_eligibility_policy": "PRESERVE_ORIGINAL_SESSION; NO_PROMOTION",
+      "raw_recording_modified": false,
+      "prospective_endpoint_status": "NOT_YET_COMPARED",
+      "canonical_template_labels": [
+        "Fz",
+        "Cz",
+        "Pz",
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "P3",
+        "P4",
+        "P7",
+        "P8",
+        "O1",
+        "O2",
+        "T7",
+        "T8",
+        "Fp1"
+      ],
+      "recorded_channel_labels": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5",
+        "Ch6",
+        "Ch7",
+        "Ch8",
+        "Ch9",
+        "Ch10",
+        "Ch11",
+        "Ch12",
+        "Ch13",
+        "Ch14",
+        "Ch15",
+        "Ch16"
+      ],
+      "sample_rate_hz": 256.0,
+      "source_rate_hz": 125.0,
+      "independent_segment_boundaries": [
+        0,
+        15358,
+        30716,
+        46077,
+        61435,
+        76793,
+        92151,
+        107509,
+        122867
+      ],
+      "block_eligibility_file": "zuna_block_eligibility_v1_0.json",
+      "block_eligibility_sha256": "3220a2e4033287b6864559cd1fc7b593be550d6f1e461292e743a13776dfb274",
+      "optical_timing_report_file": "zuna_optical_timing_report_v1_0.json",
+      "optical_timing_status": "UNVERIFIED",
+      "optical_stream_binding_status": "ORIGINAL_ACQUISITION_DECLARATION",
+      "optical_binding_correction_file": null,
+      "optical_binding_correction_sha256": null,
+      "timing": {
+        "schema": "PRAYCG_ZunaTimingDerivative_v1_0",
+        "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+        "policy_definition": {
+          "identifier": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+          "scope": "OFFLINE_POSTHOC_TIMING_DERIVATIVE",
+          "supported_route": "PRAYCG explicit-push-chunk Cyton-Daisy, 125 Hz, package step 2",
+          "endpoint_tolerance_seconds": 1e-06,
+          "package_modulus": 256,
+          "package_step": 2,
+          "supported_mapper_guards": {
+            "maximum_clock_pair_uncertainty_seconds": 0.005,
+            "clean_status_maximum_offset_change_seconds": 0.01,
+            "clean_status_lead_bounds_seconds": [
+              -1.0,
+              0.002
+            ]
+          },
+          "clock_ambiguity_guard": "Reject >= half a 128-sample counter cycle (0.512 s); residual envelope < quarter-cycle (0.256 s). These are counter-ambiguity guards, not timing accuracy claims.",
+          "grid": "Least-squares sample-index affine fit of native host-receipt timestamps within each independently counter-verified contiguous region; apply only recorded XDF clock offsets.",
+          "maximum_relative_rate_discrepancy": 0.02,
+          "missing_sample_policy": "No insertion, deletion, interpolation of EEG, or gap stitching; anomalous chunks and adjoining boundary are unverified.",
+          "selection": "All supported evidence-qualified recordings, not a retry selected by failed gates or model outcomes.",
+          "physical_sample_timing": "UNMEASURED",
+          "original_timestamps_modified": false,
+          "amplitude_or_target_information_used": false
+        },
+        "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+        "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+        "status": "COUNTER_SUPPORTED_HOST_RECEIPT_APPROXIMATION",
+        "processing_review_timing": "POSTHOC_VERSIONED_PREPARATION",
+        "run_uuid": "RUN_2",
+        "inputs": {
+          "bridge_manifest": {
+            "path": "[LOCAL_PATH_REMOVED]",
+            "sha256": "838e9eed67b9e7d9d89c939fb79c37b49dc6bb916e7a40605886339ce562031d"
+          },
+          "chunk_diagnostics": {
+            "path": "[LOCAL_PATH_REMOVED]",
+            "sha256": "207394e065e10797397727f045017094a3b908de1b6227a3af625761423ce43e"
+          }
+        },
+        "native_timestamp_sha256": "8bf3e076fc3b6d76a514dc75fa1115a0dbe6f377d8e36c7c86a129403bc7c72c",
+        "recorded_clock_timestamp_sha256": "1075b6e6fb04beb23ebe983618839866566c90d66ba794143368244bb97a0429",
+        "derivative_timestamp_sha256": "4c70babc0bab5d712f8d032a2e5eefb65a9b3388875309893d48464d97f6d2ab",
+        "verification_mask_sha256": "b004503dac6e2c02a5318e38ad407184b1ddde4f52533ea30d02e774220f0699",
+        "exact_endpoint_matches": 19546,
+        "maximum_endpoint_error_seconds": 0.0,
+        "source_sample_offset": 16380,
+        "recorded_samples": 82693,
+        "diagnostic_chunks": 12273,
+        "anomalous_chunks": 0,
+        "unverified_recorded_samples": 0,
+        "maximum_native_grid_residual_seconds": 0.015371569548733532,
+        "regions": [
+          {
+            "start_index": 0,
+            "stop_index": 82693,
+            "status": "COUNTER_SUPPORTED_APPROXIMATION",
+            "fitted_rate_hz": 124.99697308432988,
+            "maximum_native_residual_seconds": 0.015371569548733532,
+            "maximum_native_separation_seconds": 0.02303600311279297
+          }
+        ],
+        "original_timestamps_modified": false,
+        "samples_added_or_removed": 0,
+        "limitation": "Post-hoc sample-index timing approximation supported by exact diagnostic/XDF count alignment and recorded counters. Counters wrap and are not independently recorded in XDF; host receipt times do not establish physical ADC/display timing or prove zero hardware loss. No waveform fitting, ALS correction, target-informed selection, missing-sample filling, or raw timestamp edits.",
+        "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+      },
+      "timing_derivative_identity": {
+        "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+        "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+        "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+        "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+      },
+      "timing_derivative_file": "zuna_timing_derivative_v1_0.json",
+      "timing_derivative_sha256": "687edba383eb2b43d57e84239dec4f565f214393140d29f7b94d6030981ca839",
+      "processing_method_review_timing": "POSTHOC_VERSIONED_TIMING_DERIVATIVE",
+      "calibration_policy": "EXCLUDED_NO_FITTED_CALIBRATION_RETAINED_ONLY_PER_WINDOW_NORMALIZATION",
+      "interval_policy": "ALL_OBSERVED_EVALUATION_BLOCKS_INDEPENDENT_NO_CALIBRATION_NO_GAP_REPAIR",
+      "model_parameters": {
+        "seed": 20260924,
+        "sample_steps": 16,
+        "segment_samples": 1280,
+        "device": "cpu"
+      },
+      "segments": [
+        {
+          "block": {
+            "condition": "eyes_open",
+            "node_id": "zuna_validation_eyes_open_1",
+            "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_1_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12800,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -25762.592262760416,
+            -24018.180685416668,
+            -34712.7924,
+            -17289.450328125,
+            -23982.163366145833,
+            -17491.378659114584,
+            -20388.58855416667,
+            -21032.65313359375,
+            -20258.92468359375,
+            -14036.223273567708,
+            -19607.031171354167,
+            -20987.073698697917,
+            -24316.136521875,
+            -17667.919234375,
+            -18312.768108333334,
+            -36928.59400052083
+          ],
+          "evaluation_mask_sha256": "9c085f4f25b7f90dfc9708ce9e4885b09eebe1ac1ab1f7387eecdd5010b82d77"
+        },
+        {
+          "block": {
+            "condition": "eyes_closed",
+            "node_id": "zuna_validation_eyes_closed_1",
+            "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_1_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12800,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -25177.472163020833,
+            -23704.83208828125,
+            -34293.68155260417,
+            -17920.713208333334,
+            -23960.00841484375,
+            -16852.890569791667,
+            -20080.56129375,
+            -20559.624530208333,
+            -19988.177726822916,
+            -14402.743572395833,
+            -19641.71695989583,
+            -21339.947621354167,
+            -23988.826982552084,
+            -18246.476478645833,
+            -18106.875731770833,
+            -36225.17976510416
+          ],
+          "evaluation_mask_sha256": "9c4f73a29abcb9b3cea83f162059233ce3d11aa931a11fc1d300da7ea5a6ecc3"
+        },
+        {
+          "block": {
+            "condition": "eyes_closed",
+            "node_id": "zuna_validation_eyes_closed_2",
+            "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_2_OFFSET"
+          },
+          "model_samples": 15361,
+          "evaluated_samples": 12801,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -25143.90336991526,
+            -23299.500343704174,
+            -33948.2340245259,
+            -18237.928545985535,
+            -23696.552813791495,
+            -16505.872889994876,
+            -20167.088566055776,
+            -19962.308666917328,
+            -19938.811896955405,
+            -15458.040846506925,
+            -20695.822231254584,
+            -21489.801529587723,
+            -24104.463752489253,
+            -19438.951405177228,
+            -18862.30669790903,
+            -35271.35234364585
+          ],
+          "evaluation_mask_sha256": "48e4f3344d4fdea8b40347fa228ad0f3d58206f9efe81a9b7ec273ec14123ccd"
+        },
+        {
+          "block": {
+            "condition": "eyes_open",
+            "node_id": "zuna_validation_eyes_open_2",
+            "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_2_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12801,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -24182.11590625,
+            -22643.125390364585,
+            -33106.08135182292,
+            -16682.832436458335,
+            -22880.976132291667,
+            -15431.111951953126,
+            -19356.063051041667,
+            -18884.428623958334,
+            -19033.64268984375,
+            -12929.779695572917,
+            -18618.124749479168,
+            -19834.158714322915,
+            -22395.548495572915,
+            -17356.112659114584,
+            -17479.415071354168,
+            -34164.352030208334
+          ],
+          "evaluation_mask_sha256": "031537a0473e8251936e7170d199d08cff895c2070951d23294248014d184559"
+        },
+        {
+          "block": {
+            "condition": "eyes_closed",
+            "node_id": "zuna_validation_eyes_closed_3",
+            "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_3_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12801,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -23560.29729505208,
+            -22223.4033171875,
+            -32568.50929635417,
+            -16618.97450950521,
+            -22801.247362760416,
+            -14668.574961328124,
+            -19100.329076302085,
+            -18224.89506328125,
+            -18518.68757109375,
+            -12697.14993515625,
+            -18221.40353671875,
+            -19410.144100520833,
+            -21701.095917708335,
+            -16824.755713020833,
+            -16950.747063802082,
+            -34031.21273177084
+          ],
+          "evaluation_mask_sha256": "10a9bfc796f511a836bcbbe790cc99c1aa6855755bdc90dd537de9c5920d4f56"
+        },
+        {
+          "block": {
+            "condition": "eyes_open",
+            "node_id": "zuna_validation_eyes_open_3",
+            "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_3_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12801,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -22673.775122916668,
+            -21857.012316927085,
+            -32117.767161458334,
+            -16485.31102122396,
+            -22505.075374739583,
+            -13863.180429036458,
+            -18894.00775390625,
+            -17682.586783854167,
+            -18058.737885677085,
+            -12261.305575911458,
+            -18157.1692625,
+            -18913.94040078125,
+            -21432.325258854165,
+            -16476.92841953125,
+            -16952.395107291668,
+            -33274.15232447917
+          ],
+          "evaluation_mask_sha256": "10a9bfc796f511a836bcbbe790cc99c1aa6855755bdc90dd537de9c5920d4f56"
+        },
+        {
+          "block": {
+            "condition": "eyes_open",
+            "node_id": "zuna_validation_eyes_open_4",
+            "onset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_OPEN_4_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12801,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -22407.823395572916,
+            -21611.985073177082,
+            -31734.53648125,
+            -16604.073828125,
+            -22268.7194640625,
+            -13602.468655989584,
+            -18829.966473958335,
+            -17289.029308072917,
+            -17841.325290625,
+            -12301.669304036459,
+            -18729.683226041667,
+            -18670.314280208335,
+            -21527.31395807292,
+            -16497.085485546875,
+            -17416.62114140625,
+            -32678.10862734375
+          ],
+          "evaluation_mask_sha256": "003e9ae0e45049f19aa8036917ee66c57567a5a2bb54373222930e38a0157eed"
+        },
+        {
+          "block": {
+            "condition": "eyes_closed",
+            "node_id": "zuna_validation_eyes_closed_4",
+            "onset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_ONSET",
+            "offset_marker": "ZUNA_VALIDATION_EYES_CLOSED_4_OFFSET"
+          },
+          "model_samples": 15358,
+          "evaluated_samples": 12801,
+          "numerical_preparation_policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+          "channel_block_mean_removed_uv": [
+            -22558.633658333332,
+            -21263.82406432292,
+            -31336.764202604165,
+            -16539.658791145834,
+            -22109.13485390625,
+            -13444.944423307292,
+            -18973.469406770833,
+            -17160.524575520834,
+            -17630.372760416667,
+            -11818.89849140625,
+            -18470.785100520832,
+            -18370.7918296875,
+            -21265.86863072917,
+            -15987.018496614583,
+            -17259.96856614583,
+            -32647.854480208334
+          ],
+          "evaluation_mask_sha256": "10a9bfc796f511a836bcbbe790cc99c1aa6855755bdc90dd537de9c5920d4f56"
+        }
+      ],
+      "frozen_before_predictions": true,
+      "quality_status": "CAUTION",
+      "canonical_sha256": "2ed1197f251c9de5bddfd2e1f6db7445525e26a86e7f2afa08997e6cbcd4d29c"
+    },
+    "model": {
+      "schema": "PRAYCG_ZunaAdapterProvenance_v1_0",
+      "model_id": "Zyphra/ZUNA1.1",
+      "model_revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+      "weight_sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33",
+      "upstream_wheel_sha256": "ce32703536cb347c55051d20b81250e70907ccf67eb4378b104311b9546214e2",
+      "adapter_sha256": "9511fdc57360686310cc29cc48dfa682bb148db5c32d60a9f175eb67e0dc641f",
+      "adapter_contract_id": "ZUNA1_1_PINNED_FIF_COORDINATES_RETAINED_ONLY_V1_1",
+      "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+      "model_lock_sha256": "4c75de94b326290178165b7932b9e0407dfc8b4c4c6364683b52a8f2869f916d",
+      "model_install_receipt_sha256": "76e8267e67c9ed40008806bcb2703a2ac7d668f7bc1cad1631b00fd1743bcc28",
+      "model_install_receipt_path": "[LOCAL_PATH_REMOVED]",
+      "model_storage_directory": "[LOCAL_PATH_REMOVED]",
+      "device": "cpu",
+      "torch_version": "2.14.0+cpu",
+      "precision": "float32",
+      "cpu_threads": 8,
+      "observed_torch_cpu_threads": 8,
+      "torch_interop_threads": 1,
+      "observed_torch_interop_threads": 1,
+      "seed": 20260924,
+      "sample_steps": 16,
+      "cfg": 1.0,
+      "segment_samples": 1280,
+      "independent_segment_boundaries": [
+        0,
+        15358,
+        30716,
+        46077,
+        61435,
+        76793,
+        92151,
+        107509,
+        122867
+      ],
+      "checkpoint_identity_sha256": "3f12550f942dc23ec1651b38fa7ee614c05fa4055d4b7b14cda3ba7a38368cd1",
+      "resumed_window_count": 0,
+      "preparation_identity": {
+        "schema": "PRAYCG_ZunaPreparationIdentity_v1_0",
+        "policy_id": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+        "policy": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+        "policy_sha256": "a22bcfcf1bdea8c13df9c9f4da3fcbecbd03273f7e24dcbdbc18533b72a09c88",
+        "route": "PROSPECTIVE_BLOCKS",
+        "input_shape": [
+          12,
+          122867
+        ],
+        "retained_input_sha256": "c38afb2e1a4954393e0f5c2e2ab9ddaf39161303615a7ea98c68d2ab384d94d6",
+        "timestamp_grid_sha256": "1f4f47da085ddd08b789cb11b241cfc222241bf4958c7ad3d5ef4fd2353deeb6",
+        "segment_boundaries": [
+          0,
+          15358,
+          30716,
+          46077,
+          61435,
+          76793,
+          92151,
+          107509,
+          122867
+        ],
+        "numerical_source_sha256": {
+          "prepare_mapped_arrays": "cd47ce0160627ebe5718d3ee84e61a297cf5c44e119e5815516b48661ad69c14",
+          "numerical_preparation_policy": "c73e8d830b8353d87cef4cf6c0fb38af97def50a1f9cc301fae1bc52c839c89a"
+        },
+        "target_measurements_bound": false,
+        "presentation_only_changes_invalidate_predictions": false,
+        "timing_derivative_identity": {
+          "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+          "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+          "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+          "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+        },
+        "canonical_sha256": "d5f5918624ad358d4eb92998d3b261192960307dde2cb74e45f4edb5624bdef9"
+      },
+      "preparation_identity_status": "VERSIONED_WORKER_BOUND",
+      "sample_rate_hz": 256.0,
+      "retained_names": [
+        "Fz",
+        "Cz",
+        "Pz",
+        "C3",
+        "C4",
+        "P7",
+        "P8",
+        "O1",
+        "O2",
+        "T7",
+        "T8",
+        "Fp1"
+      ],
+      "target_names": [
+        "F3",
+        "F4",
+        "P3",
+        "P4"
+      ],
+      "target_measurements_seen_by_model": false,
+      "additional_filter_or_reference": false,
+      "positions_m": [
+        [
+          -0.001229271161566281,
+          0.09327445200029715,
+          0.1026392934768164
+        ],
+        [
+          -0.0013741334028190722,
+          0.027617093595102737,
+          0.14019949417439556
+        ],
+        [
+          -0.001709445046746896,
+          -0.045212993324122014,
+          0.12667292418209622
+        ],
+        [
+          -0.0671487229331174,
+          0.023358230537446293,
+          0.10451068106024831
+        ],
+        [
+          0.06532888071838541,
+          0.0235731049615695,
+          0.10369243420047652
+        ],
+        [
+          -0.07445796452347851,
+          -0.042123164958505765,
+          0.04127363138738122
+        ],
+        [
+          0.07103247088902218,
+          -0.04225997601209522,
+          0.0411988627819509
+        ],
+        [
+          -0.03157355787465608,
+          -0.08056835212663661,
+          0.05478964562404762
+        ],
+        [
+          0.027683100559624117,
+          -0.08048883980936473,
+          0.0547340814777941
+        ],
+        [
+          -0.08598207795805729,
+          0.014871638175652204,
+          0.031173373739044698
+        ],
+        [
+          0.08326136985759491,
+          0.015258189278681372,
+          0.030972968524059938
+        ],
+        [
+          -0.03090258833242555,
+          0.114585178792428,
+          0.02786657432908913
+        ],
+        [
+          -0.05180903841183724,
+          0.08668789888287941,
+          0.07871409302883386
+        ],
+        [
+          0.050274277731628736,
+          0.08743838910239796,
+          0.07727065434234194
+        ],
+        [
+          -0.0550382318026169,
+          -0.04421030466234088,
+          0.09990897692200874
+        ],
+        [
+          0.05363601546337514,
+          -0.04433452185507687,
+          0.100516027732151
+        ]
+      ],
+      "input_unit": "uV",
+      "output_unit": "uV",
+      "spatial_encoding": "Pinned FIF-default parity: float32 arithmetic, integer truncation, 100 bins from -0.12 to +0.12 m. Not proof of training coordinates; no geometric rescale.",
+      "spatial_encoding_clipped_channels": [
+        "Cz",
+        "Pz"
+      ],
+      "coordinate_inspection": {
+        "channel_names": [
+          "Fz",
+          "Cz",
+          "Pz",
+          "C3",
+          "C4",
+          "P7",
+          "P8",
+          "O1",
+          "O2",
+          "T7",
+          "T8",
+          "Fp1",
+          "F3",
+          "F4",
+          "P3",
+          "P4"
+        ],
+        "positions_m": [
+          [
+            -0.001229271161566281,
+            0.09327445200029715,
+            0.1026392934768164
+          ],
+          [
+            -0.0013741334028190722,
+            0.027617093595102737,
+            0.14019949417439556
+          ],
+          [
+            -0.001709445046746896,
+            -0.045212993324122014,
+            0.12667292418209622
+          ],
+          [
+            -0.0671487229331174,
+            0.023358230537446293,
+            0.10451068106024831
+          ],
+          [
+            0.06532888071838541,
+            0.0235731049615695,
+            0.10369243420047652
+          ],
+          [
+            -0.07445796452347851,
+            -0.042123164958505765,
+            0.04127363138738122
+          ],
+          [
+            0.07103247088902218,
+            -0.04225997601209522,
+            0.0411988627819509
+          ],
+          [
+            -0.03157355787465608,
+            -0.08056835212663661,
+            0.05478964562404762
+          ],
+          [
+            0.027683100559624117,
+            -0.08048883980936473,
+            0.0547340814777941
+          ],
+          [
+            -0.08598207795805729,
+            0.014871638175652204,
+            0.031173373739044698
+          ],
+          [
+            0.08326136985759491,
+            0.015258189278681372,
+            0.030972968524059938
+          ],
+          [
+            -0.03090258833242555,
+            0.114585178792428,
+            0.02786657432908913
+          ],
+          [
+            -0.05180903841183724,
+            0.08668789888287941,
+            0.07871409302883386
+          ],
+          [
+            0.050274277731628736,
+            0.08743838910239796,
+            0.07727065434234194
+          ],
+          [
+            -0.0550382318026169,
+            -0.04421030466234088,
+            0.09990897692200874
+          ],
+          [
+            0.05363601546337514,
+            -0.04433452185507687,
+            0.100516027732151
+          ]
+        ],
+        "coordinate_frame": "MNE_HEAD",
+        "units": "m",
+        "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+        "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+        "spatial_bins": [
+          [
+            49,
+            88,
+            92
+          ],
+          [
+            49,
+            61,
+            99
+          ],
+          [
+            49,
+            31,
+            99
+          ],
+          [
+            22,
+            59,
+            93
+          ],
+          [
+            77,
+            59,
+            93
+          ],
+          [
+            18,
+            32,
+            67
+          ],
+          [
+            79,
+            32,
+            67
+          ],
+          [
+            36,
+            16,
+            72
+          ],
+          [
+            61,
+            16,
+            72
+          ],
+          [
+            14,
+            56,
+            62
+          ],
+          [
+            84,
+            56,
+            62
+          ],
+          [
+            37,
+            97,
+            61
+          ],
+          [
+            28,
+            86,
+            82
+          ],
+          [
+            70,
+            86,
+            82
+          ],
+          [
+            27,
+            31,
+            91
+          ],
+          [
+            72,
+            31,
+            91
+          ]
+        ],
+        "clipped_channels": [
+          "Cz",
+          "Pz"
+        ],
+        "clipped_axes": {
+          "Cz": [
+            "z"
+          ],
+          "Pz": [
+            "z"
+          ]
+        },
+        "review_required": true,
+        "geometric_rescale_applied": false,
+        "coordinate_provenance": "STANDARD_TEMPLATE_NOT_INDIVIDUALLY_DIGITIZED",
+        "encoding_policy": "PINNED_FIF_DEFAULT_PARITY_NOT_TRAINING_COORDINATE_PROOF"
+      },
+      "coordinate_review": {
+        "schema": "PRAYCG_ZunaCoordinateReview_v1_0",
+        "confirmed": true,
+        "geometry_sha256": "a758812e70f8600edd45038afa7afe8ca111957bcc7ee8aed8e5ac8925c405cf",
+        "adapter_contract_sha256": "76d276f38e2dc777aa10fb18aec59410f6a619ee453bf4d857e201026d4aaf25",
+        "clipped_channels": [
+          "Cz",
+          "Pz"
+        ],
+        "acknowledgement": "TEMPLATE_COORDINATES_WITH_DISCLOSED_BOUNDARY_CLIPPING_NOT_DIGITIZED"
+      },
+      "coordinate_review_sha256": "f665831753b47d518f4b13f031afe0ba5493a1daffae1ad1c37897c1bad7e9ab",
+      "coordinate_encoding_status": "CAUTION_REVIEWED_CLIPPING",
+      "normalization": "Per-window single mean and population standard deviation from retained channels only; scale to std 0.1; target tokens exactly zero. Apply inverse scalar transformation from retained channels only. No additional re-reference or filter.",
+      "upstream_pipeline_difference": "Uses the pinned low-level model sample API; deliberately does not use upstream per-channel normalization, automatic average reference, filtering, masking heuristics, or seam corrections. This is a PRAYCG experimental operationalization, not an exact reproduction of the published evaluation.",
+      "elapsed_seconds": 1868.4379999999655,
+      "inference_network_access": false,
+      "model_load_seconds": 1.437999999965541,
+      "sampling_seconds": 1865.998000000487,
+      "sampling_process_cpu_seconds": 14735.015625,
+      "context_seam_correction_applied": false,
+      "context_seam_limitation": "Independent model contexts and reflected final padding can affect spectra and errors; no hidden-target seam anchoring is permitted.",
+      "installed_distributions": [
+        {
+          "name": "antlr4-python3-runtime",
+          "version": "4.9.3"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.7.22"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.1"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "contourpy",
+          "version": "1.3.3"
+        },
+        {
+          "name": "cycler",
+          "version": "0.12.1"
+        },
+        {
+          "name": "decorator",
+          "version": "5.3.1"
+        },
+        {
+          "name": "einops",
+          "version": "0.8.1"
+        },
+        {
+          "name": "filelock",
+          "version": "4.0.3"
+        },
+        {
+          "name": "fonttools",
+          "version": "4.66.0"
+        },
+        {
+          "name": "fsspec",
+          "version": "2026.9.0"
+        },
+        {
+          "name": "huggingface-hub",
+          "version": "0.35.0"
+        },
+        {
+          "name": "idna",
+          "version": "3.20"
+        },
+        {
+          "name": "Jinja2",
+          "version": "3.1.6"
+        },
+        {
+          "name": "joblib",
+          "version": "1.5.2"
+        },
+        {
+          "name": "kiwisolver",
+          "version": "1.5.1"
+        },
+        {
+          "name": "lazy-loader",
+          "version": "0.6"
+        },
+        {
+          "name": "MarkupSafe",
+          "version": "3.0.3"
+        },
+        {
+          "name": "matplotlib",
+          "version": "3.10.6"
+        },
+        {
+          "name": "mne",
+          "version": "1.10.2"
+        },
+        {
+          "name": "mpmath",
+          "version": "1.3.0"
+        },
+        {
+          "name": "networkx",
+          "version": "3.6.1"
+        },
+        {
+          "name": "numpy",
+          "version": "2.3.3"
+        },
+        {
+          "name": "omegaconf",
+          "version": "2.3.0"
+        },
+        {
+          "name": "packaging",
+          "version": "26.3"
+        },
+        {
+          "name": "pillow",
+          "version": "12.3.0"
+        },
+        {
+          "name": "pip",
+          "version": "24.0"
+        },
+        {
+          "name": "platformdirs",
+          "version": "4.11.12"
+        },
+        {
+          "name": "pooch",
+          "version": "1.9.0"
+        },
+        {
+          "name": "pyparsing",
+          "version": "3.3.3"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0"
+        },
+        {
+          "name": "python-dotenv",
+          "version": "1.1.1"
+        },
+        {
+          "name": "pyxdf",
+          "version": "1.17.0"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3"
+        },
+        {
+          "name": "requests",
+          "version": "2.34.2"
+        },
+        {
+          "name": "safetensors",
+          "version": "0.6.2"
+        },
+        {
+          "name": "scipy",
+          "version": "1.16.2"
+        },
+        {
+          "name": "setuptools",
+          "version": "84.0.0"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0"
+        },
+        {
+          "name": "sympy",
+          "version": "1.14.0"
+        },
+        {
+          "name": "torch",
+          "version": "2.14.0"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.70.1"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.8.0"
+        },
+        {
+          "name": "zuna",
+          "version": "1.1.6"
+        }
+      ],
+      "generated_data_are_measurements": false,
+      "scientific_validation_claim": "NONE",
+      "cross_platform_bitwise_reproducibility_claim": false,
+      "license_review_limitation": "The wheel includes Meta copyright headers and an Llama 2 notice in eeg_eval.py alongside project Apache-2.0 metadata. PRAYCG does not redistribute the wheel or weights, does not overwrite notices, and does not claim comprehensive upstream provenance clearance."
+    },
+    "worker_sha256": "c461dc0b939c077fa44071c5d4f1457290f45d2c6b2d885238a8960f74a3596f",
+    "numerical_preparation_policy": {
+      "identifier": "PRAYCG_ZUNA_OFFLINE_BLOCK_CENTER_LINE_RESAMPLE_V1_0",
+      "method_version": "1.0",
+      "execution_scope": "OFFLINE_NONCAUSAL_DERIVATIVE_NOT_HISTORICAL_REPLAY",
+      "offset_removal": "Independent full-preparation-interval arithmetic mean per channel, before resampling; offsets not restored",
+      "target_isolation": "Each target is centered/filtered independently; target values or statistics never enter retained inputs or reference",
+      "resampling": "scipy.signal.resample_poly",
+      "resampling_padtype": "line",
+      "resampling_window": [
+        "kaiser",
+        5.0
+      ],
+      "model_sample_rate_hz": 256.0,
+      "preparation_filter": "scipy.signal.butter order4 bandpass 0.5-40 Hz at 256 Hz; scipy.signal.sosfiltfilt default odd extension",
+      "reference": "average_of_12_retained_channels_only",
+      "timestamp_policy": "Fractional-index interpolation of the separately declared counter-supported timing derivative, not unchanged native times. No waveform alignment or missing-sample filling.",
+      "comparison_filter": "Unchanged common post-prediction order4 0.5-40 Hz zero-phase pass on measured/spline/Zuna branches",
+      "model_context_policy": "Unchanged five-second independent contexts and existing reflected-tail behavior",
+      "evaluation_mask_policy": "Unchanged caller-governed exclusions; no amplitude- or outcome-selected exclusion",
+      "limitation": "Linear endpoint extension and centering mitigate DC-padding artifacts, not all filter transients or model seams; not a live/causal implementation",
+      "timing_derivative_identity": {
+        "policy": "PRAYCG_CYTON_DAISY_COUNTER_SUPPORTED_RECEIPT_GRID_V1_0",
+        "policy_sha256": "efb271c5de61c0ad5123e5ea1f89187d86f64e2877d906b0d942b11b4e7cccd5",
+        "implementation_sha256": "43b1d86b15cb947a88e54352cad251ce9118632432f65f28a788a65804fa4192",
+        "canonical_sha256": "c88ddc3a25bd28e0545a288f2e90c3007b9cb8bfbfc78f6dfcccf9244d937136"
+      }
+    },
+    "frozen_worker_sha256": "9971080a9a91748d6f81e52f0b65e8e7de138e8fc9d23a101ac24749cbd819a6",
+    "versions": {
+      "numpy": "2.3.3",
+      "scipy": "1.16.2",
+      "mne": "1.10.2",
+      "pyxdf": "1.17.0"
+    },
+    "methods": [
+      {
+        "id": "mne_spherical_spline",
+        "software": "MNE accurate spherical spline, origin=(0,0,0)",
+        "reference": "Perrin et al. (1989), doi:10.1016/0013-4694(89)90180-6"
+      },
+      {
+        "id": "zuna",
+        "reference": "Zuna technical report arXiv:2602.18478; pinned ZUNA1.1 PRAYCG adapter, not exact paper evaluation"
+      },
+      {
+        "id": "praycg_nmse",
+        "definition": "mean((prediction-target)^2)/mean((target-mean(target))^2); undefined zero target variance"
+      }
+    ]
+  }
+}
