@@ -21,11 +21,11 @@ Using the Workbench does not require agreement with a research theory. Running a
 
 The Workbench helps preserve protocol, stimulus, hardware, stream, analysis and output identities. Its purpose is to make methods and limitations visible enough for other people to inspect, reproduce and challenge.
 
-**Packaged version in this repository: Alpha 10.2.1.**
+**Current release: Alpha 10.5.2 — Gamma Scalpel 2.0 and adaptive optical exploration.**
 
-[Application package](workbench/releases/alpha-10.2.1/PRAYCG_ControlCenter_v1_0_0_alpha_10_2_1.zip) · [Installation](workbench/docs/installation.md) · [Workflow](workbench/docs/workflow.md) · [Hardware routes](workbench/docs/hardware-support.md)
+[Download Alpha 10.5.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.2) · [Changelog](workbench/CHANGELOG.md) · [Installation](workbench/docs/installation.md) · [Workflow](workbench/docs/workflow.md) · [Hardware routes](workbench/docs/hardware-support.md)
 
-The versioned application ZIP retains its original contents. This repository organization update is not a new application release. The separately documented attribution source update must not be assumed to be included in that ZIP.
+The complete release includes the application source, installers, timing-patched LabRecorder, method guides, third-party notices and validation records. Gamma Scalpel checks measured EEG and optional recorded EOG/EMG references. Optical exploration uses whole-recording defaults and adaptive spectral windows; the bundled Athena profile supports raw signals, while HbO/HbR remains unavailable until the required conversion facts are established. Earlier releases retain their original contents and evidence.
 
 ## PRAYCG Neuro Research Program
 

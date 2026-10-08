@@ -1,18 +1,21 @@
 # PRAYCG — Master Citations and Attribution
 
-**PRAYCG Workbench / Control Center Alpha 10.2.1**  
-**Document revision:** 2.0 · **Updated:** 22 September 2026  
+**Current PRAYCG Workbench / Control Center release: Alpha 10.5.2**
+
+**Document revision:** 2.1 · **Updated:** 8 October 2026
+
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
 PRAYCG brings together original project software, scientific methods, public research paradigms and independently maintained software. This page credits those contributions and gives researchers a single reference for citing the parts of PRAYCG they use.
 
-This is the canonical public attribution page for Alpha 10.2.1. It consolidates software acknowledgments, acquisition references, protocol citations, the complete packaged-protocol index and the project's attribution policy. Source author lists and historical protocol identities are retained. A project's appearance here does not imply its authors' affiliation with, endorsement of, or review of PRAYCG.
+This page adds a current-release supplement to the preserved Alpha 10.2.1 attribution review. The historical dependency lists, hardware review, protocol and module counts, source comparisons and environment inventories below retain their original dates and scope. They are not a complete inventory of Alpha 10.5.2. Source author lists and historical protocol identities are retained. A project's appearance here does not imply its authors' affiliation with, endorsement of, or review of PRAYCG.
 
-Revision 2 adds an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. The accompanying **Attribution Update v1** implements new-run credits in the development source. It is a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged.
+The historical revision 2 added an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. Its accompanying **Attribution Update v1** implemented new-run credits in the development source. It was a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged. Revision 2.1 documents the bundled recorder and newer exploratory methods in Alpha 10.5.2 without extending the historical audit's coverage.
 
 ## Contents
 
 - [How to cite PRAYCG and a study](#how-to-cite-praycg-and-a-study)
+- [Alpha 10.5.2 attribution supplement](#alpha-1052-attribution-supplement)
 - [Authorship, copyright and licenses](#authorship-copyright-and-licenses)
 - [Software acknowledgments and references](#software-acknowledgments-and-references)
 - [Declared installation dependencies](#declared-installation-dependencies)
@@ -28,7 +31,11 @@ Revision 2 adds an artifact-level inventory, preserved upstream notices, commit-
 
 ## How to cite PRAYCG and a study
 
-Suggested software citation:
+Suggested citation when using the current release:
+
+> Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.5.2; 1.0.0-alpha.10.5.2) [Computer software].
+
+For the preserved Alpha 10.2.1 release, retain its original citation:
 
 > Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.2.1) [Computer software].
 
@@ -41,6 +48,38 @@ For a PRAYCG-defined protocol, use:
 > Banks, Hoyt. (2026). *[Protocol title]* ([protocol identifier], version [version]) [PRAYCG protocol definition]. In *PRAYCG Workbench / Control Center*, [release actually used].
 
 The bracketed fields are filled from the study's locked definition. For a third-party adaptation, retain the original authors' citation alongside this PRAYCG implementation credit.
+
+## Alpha 10.5.2 attribution supplement
+
+The [current Workbench](workbench/README.md) ships the complete application, including a locally modified LabRecorder runtime. The Alpha 10.2.1 statements below about a separately installed recorder and an archive without executables describe that older archive. They do not describe Alpha 10.5.2.
+
+### Bundled timing-patched LabRecorder
+
+Credit Christian Kothe and the Lab Streaming Layer / LabRecorder contributors for the upstream recorder. The bundled build starts from official [LabRecorder v1.17.0 commit `6ee154d3b4213b9c400e8233f023b30284c167ed`](https://github.com/labstreaminglayer/App-LabRecorder/tree/6ee154d3b4213b9c400e8233f023b30284c167ed), with the PRAYCG local patch `labrecorder_exact_timestamp_v1`. It is a PRAYCG-modified build, not an upstream LabRecorder release. The patch corrects timestamp prediction and shutdown/clock-offset handling and adds the disclosed local-control safeguards and opt-in synthetic qualification hooks. Cite LabRecorder and LSL alongside the exact PRAYCG release and recorder binary identity used.
+
+These records and notices are inside `app/tools/Acquisition/LabRecorder_TimingPatched_v1_17_0/` in the complete download:
+
+| Component or record | Exact packaged evidence and source |
+| --- | --- |
+| Recorder source and local modifications | `LICENSE` retains the upstream MIT text and Christian Kothe's copyright; `labrecorder_exact_timestamp_v1.patch`, `BUILD_NOTES.md` and `praycg_recorder_build.json` identify the source and changes. The patch SHA-256 is `04c2e003210c6a9598f6da75318519fdefeb8c61d8dcca3587d14d5c34b6f65a`. |
+| Native LSL 1.17.7 | `licenses/liblsl1.17.7/LICENSE` and the build manifest identify the supplied native library; [corresponding upstream source](https://github.com/sccn/liblsl/tree/v1.17.7). |
+| Qt 6.8.3 runtime | `licenses/Qt6.8.3/` preserves license texts and `qtbase-6.8.3.spdx`; [Qtbase source](https://github.com/qt/qtbase/tree/v6.8.3) and [Qt source archive](https://download.qt.io/archive/qt/6.8/6.8.3/single/qt-everywhere-src-6.8.3.tar.xz). The packaged DLLs are dynamically linked and replaceable. |
+| MinGW-w64 13.1.0 runtime/build information | `licenses/MinGW13.1.0/build-info.txt` and its `licenses/` collection preserve component/source information and notices. `dependencies.json` records exact official download URLs, sizes and hashes for the build dependencies. |
+| Qualification and distribution scope | `praycg_recorder_qualification.json`, `praycg_recorder_qualification_cli.json` and `WORKBENCH_DISTRIBUTION_NOTE.md` retain the October 5, 2026 synthetic-only qualification. The Workbench omits raw synthetic XDF fixtures; the distribution note identifies their complete companion archive. GUI remote control remains unqualified and disabled. |
+
+The recorder and its runtime retain their own artifact-specific terms. The project's MIT grant does not replace upstream licenses. Historical synthetic qualification does not establish physical synchronization, human-participant readiness or physiological validity.
+
+### New exploratory methods and visual concept
+
+The newer Time–Frequency Explorer, Gamma Scalpel and optical review are PRAYCG implementations credited to Hoyt Banks. They use the relevant numerical/input libraries cited below; conceptual or methodological references do not imply incorporation of their authors' code. This supplement does not claim a comprehensive source-similarity audit or complete new-module coverage by the historical automatic-credit registry.
+
+| Component | Attribution and method record |
+| --- | --- |
+| Time–Frequency Explorer 1.0 and shared live/replay viewer | The visual concept was informed by kolascoco's [eeg-tfr-volume at commit `93b970d7a085b9d9967c0184e0d688adab1cfd13`](https://github.com/kolascoco/eeg-tfr-volume/tree/93b970d7a085b9d9967c0184e0d688adab1cfd13). Its code and example recording are not bundled. PRAYCG independently implements the numerical engine and viewer; named-channel views do not imply anatomical interpolation. Read the [versioned viewer guide](workbench/docs/releases/alpha-10.5.2/TIME_FREQUENCY_EXPLORER_ALPHA_10_5_1.md) and packaged `tools/Time_Frequency_Explorer_v1_0/README.md` for estimator, support and export definitions. |
+| Gamma Scalpel 2.0 | The [method guide](workbench/docs/releases/alpha-10.5.2/Gamma_Scalpel_v2_0/README.md) specifies native measured-electrode gamma, optional measured EOG/EMG screening, timing requirements and matched-window comparisons. It cites [Whitham et al. on scalp muscle contamination](https://pubmed.ncbi.nlm.nih.gov/17574912/) and [Yuval-Greenberg et al. on eye movements and transient gamma](https://pubmed.ncbi.nlm.nih.gov/18466752/) as scientific motivation. These papers do not validate PRAYCG's engineering thresholds. No waveform subtraction or neural-origin conclusion is supplied by screening. |
+| Optical Signal Review 1.0 | The [method guide](workbench/docs/releases/alpha-10.5.2/Optical_Signal_Review_v1_0/README.md) and [reusable profile guide](workbench/docs/releases/alpha-10.5.2/Optical_Signal_Review_v1_0/REUSABLE_PROFILE_GUIDE.md) identify raw optical trends, adaptive spectra and the optional modified Beer–Lambert inversion with explicit instrument and pathlength assumptions. The [Athena source review](workbench/docs/releases/alpha-10.5.2/ATHENA_OPTICAL_SOURCE_REVIEW_ALPHA_10_5_2.md) retains its manufacturer, pinned BrainFlow and MNE processing references. The bundled Athena profile supports raw exploration; relative HbO/HbR remains unavailable because conversion facts are unresolved. |
+
+Use each result's exact source, recipe/profile, processing and software identities. The [10.5.2 release notes](workbench/docs/releases/alpha-10.5.2/RELEASE_NOTES_v1_0_0_alpha_10_5_2.md) and packaged `deployment/validation/BUILD_VALIDATION_v1_0_0_alpha_10_5_2.json` state current checks and retained evidence separately. Neither an exploratory method reference nor a software pass establishes scientific validity.
 
 ## Authorship, copyright and licenses
 
@@ -56,7 +95,7 @@ This page documents known relationships and limitations. It does not certify a c
 
 ## Software acknowledgments and references
 
-The following relationships were identified in the packaged source and prior component reviews:
+The following relationships were identified in the Alpha 10.2.1 source and prior component reviews. Read the current-release supplement above for later additions and the bundled recorder:
 
 | PRAYCG function | Upstream contribution |
 | --- | --- |
@@ -67,7 +106,7 @@ The following relationships were identified in the packaged source and prior com
 | BIDS export | MNE-Python, MNE-BIDS, pybv and supporting numerical/XDF packages, when that export route runs. |
 | New managed acquisition routes | BrainFlow and/or Bleak with pylsl; see route-specific credits below. |
 | Protocol presentation | Separately installed PsychoPy, when a PsychoPy runner is used. |
-| XDF recording | Separately installed LabRecorder, operated by the user. |
+| XDF recording in Alpha 10.2.1 | Separately installed LabRecorder, operated by the user. Alpha 10.5.2 includes the timing-patched build documented above. |
 
 ### Core software references
 
@@ -137,11 +176,11 @@ The Core requirement file declares the following 29 packages. This is a direct-d
 
 The Live Monitor environment additionally pins `numpy==2.2.6`, `mne==1.10.2`, `mne-lsl==1.13.2` and `pyxdf==1.17.0`. The isolated hardware environment pins `brainflow==5.23.0`, `numpy==2.2.6`, `pylsl==1.17.6` and `bleak==1.1.1`. Installer tooling also uses pip and wheel.
 
-The public software archive's packaging declaration excludes Python, dependency wheels, PsychoPy, LabRecorder and separately managed publishers. Installing those packages can introduce additional native libraries and license obligations. NumPy/SciPy numerical libraries, FFmpeg/codecs, Qt or other application dependencies must be inventoried in the actual environment or redistributed artifact. A requirements list is not a complete software bill of materials.
+The preserved Alpha 10.2.1 software archive's packaging declaration excludes Python, dependency wheels, PsychoPy, LabRecorder and separately managed publishers. Alpha 10.5.2 instead includes the recorder and runtime documented in the current-release supplement. Installing dependencies can introduce additional native libraries and license obligations. NumPy/SciPy numerical libraries, FFmpeg/codecs, Qt or other application dependencies must be inventoried in the actual environment or redistributed artifact. A requirements list is not a complete software bill of materials.
 
 ## Hardware and acquisition credits
 
-The table records the project's acquisition-source review of 21 September 2026. Commit links preserve the inspected source; they do not certify physical device performance. The integration includes five managed and eight external experimental routes. Cerelog 16 remains withheld. Existing OpenBCI/ALS, Polar RR and Vernier paths remain separate.
+The table records the project's Alpha 10.2.1 acquisition-source review of 21 September 2026. Commit links preserve the inspected source; they do not certify physical device performance. That historical integration included five managed and eight external experimental routes. Cerelog 16 remained withheld. Existing OpenBCI/ALS, Polar RR and Vernier paths were separate.
 
 | Upstream project or specification | Relationship to PRAYCG | Recorded source and licensing boundary |
 | --- | --- | --- |
@@ -176,7 +215,7 @@ PRAYCG-specific endpoints such as CAI/SID, Micro Handoff and other exploratory s
 
 ### Packaged analysis-module index
 
-This release's execution registry contains 23 modules. The index identifies their packaged implementation versions; it is not a record that they executed in any particular study. The companion attribution registry explicitly marks reviewed subsets and pending legacy-method coverage; a complete original-method bibliography is not asserted.
+The reviewed Alpha 10.2.1 execution registry contains 23 modules. This historical index identifies their packaged implementation versions; it is not a current Alpha 10.5.2 module inventory or a record that they executed in any particular study. The companion attribution registry explicitly marks reviewed subsets and pending legacy-method coverage; a complete original-method bibliography is not asserted.
 
 | Analysis module | Stable identifier | Packaged module version |
 | --- | --- | --- |
@@ -206,7 +245,7 @@ This release's execution registry contains 23 modules. The index identifies thei
 
 ## Scientific protocol bibliography
 
-The 16 records below cover 23 externally sourced packaged protocols. They are consolidated from the project's primary-source bibliography reviewed on 20 September 2026. This document preserves those source records and their stated limits; it does not claim a fresh review of all underlying studies. The other 44 packaged definitions have PRAYCG local-definition attribution and retained internal lineage where available.
+The 16 records below cover 23 externally sourced protocols packaged in Alpha 10.2.1. They are consolidated from the project's primary-source bibliography reviewed on 20 September 2026. This document preserves those source records and their stated limits; it does not claim a fresh review of all underlying studies. The other 44 definitions in that historical package have PRAYCG local-definition attribution and retained internal lineage where available. These counts do not describe the expanded Alpha 10.5.2 protocol library.
 
 Article, preprint and dataset references remain distinct. Dataset author order follows the dataset record where it differs from the paper. A missing dataset publication year is shown as undated rather than inferred. The P-numbers are document reference labels.
 
@@ -341,7 +380,7 @@ Journal date October 2017; online publication 10 November 2016. This replaces de
 
 ## Complete protocol-to-source index
 
-All 67 packaged definitions are indexed below: 57 entries in the main protocol browser and 10 prospective counterbalance sequences. Public display names are taken from the current Alpha 10.2.1 files; stable identifiers are retained for traceability. Hoyt Banks is the PRAYCG development/adaptation byline for these entries. The external authors credited in P01–P16 retain authorship of their source works.
+All 67 definitions from the reviewed Alpha 10.2.1 package are indexed below: 57 entries in its main protocol browser and 10 prospective counterbalance sequences. Public display names are taken from that release's files; stable identifiers are retained for traceability. Hoyt Banks is the PRAYCG development/adaptation byline for these entries. The external authors credited in P01–P16 retain authorship of their source works. This is the preserved historical index, not the current Alpha 10.5.2 inventory.
 
 “Local definition” means a PRAYCG-defined operational protocol with no verified external article/dataset citation in the present registry. Retained D-number lineage identifies internal source documents, not independently published evidence. It does not establish that a protocol is scientifically novel or lacks relevant prior literature.
 
@@ -417,7 +456,7 @@ All 67 packaged definitions are indexed below: 57 entries in the main protocol b
 
 ### Versioned local definitions
 
-Each registry entry retains a historical source-definition citation, commonly tied to Alpha 10.0.3. Those historical release labels and hashes must remain attached to their original artifacts. They are not hashes of current Alpha 10.2.1 manifests.
+Each registry entry retains a historical source-definition citation, commonly tied to Alpha 10.0.3. Those historical release labels and hashes must remain attached to their original artifacts. They are not hashes of Alpha 10.2.1 or Alpha 10.5.2 manifests.
 
 For a published study, cite the current locked protocol version and file hash from that study alongside the intellectual sources above. The packaged files `protocol_scholarly_attribution_v1_0.json` and `protocol_verified_source_records_v1_0.json` under `config/` retain the detailed author, source, path and historical-hash records. A later metadata correction should be preserved as a separate revision; it must not rewrite an old run's identity, marker namespace, original output or evidence.
 
@@ -435,7 +474,7 @@ When using a source dataset, follow its complete acknowledgment instructions. P1
 
 ## Artifact inventory and preserved notices
 
-The audit distinguishes three different things: files actually distributed in the original release, packages observed in selected local environments, and source notices retrieved to supplement incomplete installed metadata. These are not interchangeable.
+The historical Alpha 10.2.1 audit distinguishes three different things: files actually distributed in that original release, packages observed in selected local environments, and source notices retrieved to supplement incomplete installed metadata. These are not interchangeable.
 
 | Evidence | Result and boundary |
 | --- | --- |
@@ -450,7 +489,7 @@ Original release SHA-256: `9b1645741f63157e1a15a8c5d8b818e47f48b0f5a65bed67f636b
 
 The [artifact inventory](docs/attribution/ARTIFACT_INVENTORY.md), [machine-readable audit](docs/attribution/artifact_audit.json), [upstream recovery records](docs/attribution/upstream_notice_recovery.json) and [release-source notice records](docs/attribution/repository_notice_recovery.json) provide versions, hashes and distinctions. The source screening snapshot preceded the final attribution tests and publication scripts; it is not a hash inventory of the final patch.
 
-The environment inventory records observed installations, not a recommended lockfile or a reproduction of every supported setup. It does not include a complete PsychoPy installation, separately installed LabRecorder, every user's environment, all wheel variants, firmware or operating-system components. Packages downloaded during a future installation must retain their own notices. Any future release that embeds wheels or binaries requires a new artifact inventory and notice review.
+The historical environment inventory records observed installations, not a recommended lockfile or a reproduction of every supported setup. It did not include a complete PsychoPy installation, separately installed LabRecorder, every user's environment, all wheel variants, firmware or operating-system components. Packages downloaded during installation must retain their own notices. Newer releases embedding wheels or binaries require their own artifact inventory and notice review; the recorder records in the current-release supplement do not replace a complete Alpha 10.5.2 audit.
 
 ### Bounded source-provenance comparisons
 
@@ -493,7 +532,9 @@ Submit attribution corrections through the project's public issue tracker or rep
 
 ## Document provenance
 
-This public master page was prepared from the Alpha 10.2.1 source tree, the 67-entry protocol attribution registry, the 16-record verified protocol-source registry, the 23-module execution registry, Core/Live Monitor/hardware requirements and the hardware-source evidence record. The older analysis/Live Monitor review covered an Alpha 10.0.3 baseline; its observations are distinguished here from the newer hardware records and the current implementation checks.
+The preserved revision 2 review was prepared from the Alpha 10.2.1 source tree, the 67-entry protocol attribution registry, the 16-record verified protocol-source registry, the 23-module execution registry, Core/Live Monitor/hardware requirements and the hardware-source evidence record. The older analysis/Live Monitor review covered an Alpha 10.0.3 baseline; its observations are distinguished here from the later hardware records and implementation checks.
+
+Revision 2.1 adds facts from the complete Alpha 10.5.2 package's recorder build/qualification manifests, dependency and license records, release notes and Time–Frequency Explorer/Gamma Scalpel/optical method guides. It does not modify the release ZIP, backfill historical run credits or extend the earlier artifact audit to all newer files and native dependencies.
 
 Official NumPy, SciPy, MNE-LSL, MNE-Python, MNE-BIDS, LSL, BrainFlow, PsychoPy and LabRecorder documentation was consulted while consolidating the software references. The source links above provide the relevant public records. External protocol records retain their original review date; no independent legal clearance, comprehensive source audit or scientific validation is claimed.
 
