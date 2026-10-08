@@ -1,6 +1,6 @@
 # Workbench roadmap
 
-This page identifies proposed software and documentation work. It is not a release commitment or a record of completed validation. The current packaged application is [Alpha 10.2.1](README.md); research hypotheses and study planning belong to the [PRAYCG Neuro Research Program](../research/README.md).
+This page identifies proposed software and documentation work. It is not a release commitment or a record of completed validation. The current packaged application is [Alpha 10.5.2](README.md); research hypotheses and study planning belong to the [PRAYCG Neuro Research Program](../research/README.md).
 
 ## Priorities
 
@@ -9,7 +9,7 @@ This page identifies proposed software and documentation work. It is not a relea
 | Publish a maintained application source tree | A traceable relationship to the release ZIP, documented build/packaging steps, retained licenses and an explicit release identity |
 | Improve independent installation and reproduction | Recorded installation and representative workflow results on another machine, with versions and unresolved differences |
 | Complete physical evaluation of experimental connectors | Device-specific transport, sample-delivery and timing evidence, documented conditions and clear limits for each route |
-| Strengthen acquisition and artifact controls | Repeatable checks for stream continuity, marker alignment and applicable EOG/EMG, line-noise and other confound controls |
+| Extend physical timing and artifact evaluation | Independent device-specific evaluation beyond the shipped stream checks and Gamma Scalpel EOG/EMG screening, with timing uncertainty and negative controls |
 | Improve method review and negative controls | Clear numerical definitions, interpretable synthetic cases and results that distinguish estimator failure from missing evidence |
 | Improve documentation and examples | Version-matched instructions, working navigation, reproducible example inputs and explicit media/attribution terms |
 
