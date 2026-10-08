@@ -1,0 +1,107 @@
+{
+  "schema": "PRAYCG_AthenaScopedPhysicalAcquisitionReceipt_v1_0",
+  "version": "1.0.0-alpha.10.5.1",
+  "status": "PASS",
+  "observed_utc": "2026-10-08T14:45:55.871303+00:00",
+  "physical_units_tested": 1,
+  "synthetic": false,
+  "scope": "EEG_ACQUISITION_RECORDING",
+  "wearer_status": "NOT_CONFIRMED_OR_REQUIRED_FOR_TRANSPORT_CHECK",
+  "EEG": {
+    "measured_channels": [
+      "TP9",
+      "AF7",
+      "AF8",
+      "TP10"
+    ],
+    "declared_rate_hz": 256,
+    "units": "uV",
+    "native_values_preserved": true,
+    "advancing_published_timestamps": true
+  },
+  "checks": {
+    "connection": true,
+    "EEG_identity_units": true,
+    "timestamp_progression": true,
+    "live_monitor": true,
+    "saved_XDF_reopened": true,
+    "clean_disconnect": true
+  },
+  "recording": {
+    "fully_finalized": true,
+    "reopening_analysis_loader": true,
+    "replay_renderer": true,
+    "private_XDF_sha256": "d1bd9b36eb2344c60a8ed60df06d6ac4e94d31be9c329a17bff953063d08fa04"
+  },
+  "UI_validation": "ACTUAL_WITHDRAWN_TK_RENDERER_AND_DATA_WORKER_NOT_VISUAL_HUMAN_QUALIFICATION",
+  "reconnect": {
+    "status": "PASS",
+    "distinct_run_segment_outlet_identities": true,
+    "observed_outlets": [
+      {
+        "type": "EEG",
+        "channels": 4,
+        "samples": 3882
+      },
+      {
+        "type": "OTHER",
+        "channels": 4,
+        "samples": 3868
+      },
+      {
+        "type": "Diagnostic",
+        "channels": 3,
+        "samples": 3868
+      },
+      {
+        "type": "Accelerometer",
+        "channels": 3,
+        "samples": 771
+      },
+      {
+        "type": "Gyroscope",
+        "channels": 3,
+        "samples": 768
+      },
+      {
+        "type": "Diagnostic",
+        "channels": 3,
+        "samples": 768
+      },
+      {
+        "type": "Optical",
+        "channels": 16,
+        "samples": 966
+      },
+      {
+        "type": "Diagnostic",
+        "channels": 4,
+        "samples": 964
+      }
+    ]
+  },
+  "lifecycle": {
+    "clean_stop": true,
+    "retrieved_sample_conservation": true,
+    "private_transport_replay_audit_matches": true,
+    "samples_by_preset": {
+      "2": 71768,
+      "1": 57054,
+      "0": 285824
+    },
+    "all_owned_processes_exited": true
+  },
+  "private_evidence_fingerprints": {
+    "observer_sha256": "a6ff504031a386bc73577dea1ec85809beb52a6a4b16d306b924a9c11561bb6c",
+    "connector_terminal_sha256": "ba1d580a5a4ee463c954e56366380eea8f0f5915f9a7dcc5ed43d62f738d6087",
+    "reconnect_sha256": "d0d31d7583ad9463feb8011cad4a63b9be76ba6b8f70378e2845d176e24bef72"
+  },
+  "not_validated": [
+    "Physiological signal accuracy or electrode coupling",
+    "Clinical performance or electrical safety",
+    "Physical stimulus or cross-sensor latency",
+    "Athena optical wavelength/geometry hemoglobin mapping",
+    "Zuna cleanup efficacy",
+    "Population-wide or other firmware/device-unit performance"
+  ]
+}
