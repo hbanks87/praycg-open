@@ -1,0 +1,68 @@
+{
+  "schema": "PRAYCG_AthenaEEGAcquisitionAdmission_v1_0",
+  "status": "PASS",
+  "scope": "EEG_ACQUISITION_RECORDING",
+  "synthetic": false,
+  "human_recording_authorized": true,
+  "wear_validation": "NOT_REQUIRED_FOR_TRANSPORT_SCOPE",
+  "checks": {
+    "connection": true,
+    "EEG_identity_units": true,
+    "timestamp_progression": true,
+    "live_monitor": true,
+    "saved_XDF_reopened": true,
+    "clean_disconnect": true
+  },
+  "source_ledger": [
+    {
+      "relative_path": "control_center/scripts/praycg_acquisition_preflight_v1_0.py",
+      "sha256": "78321791c98588a2f4a078fdd5d7bafcfe447fdeb7cd7521a7e9c89960fe29f9"
+    },
+    {
+      "relative_path": "control_center/scripts/praycg_profile_preflight_contract_v1_0.py",
+      "sha256": "bc35505b3d94e4688914ac7575c65b55b9ecff47fe9e69aa36c97d0ac411b08b"
+    },
+    {
+      "relative_path": "deployment/requirements_hardware_connectors.txt",
+      "sha256": "69396736e514596a062197a313c1fc1125cfa20861dd3fe1da19b235f7652aee"
+    },
+    {
+      "relative_path": "platform_core/praycg_exact_route_preflight_v1_0.py",
+      "sha256": "a61068d259ed569a8aeb2b139ff9b01c55823e665f1d58c3b63e906eba340808"
+    },
+    {
+      "relative_path": "platform_core/praycg_platform_core_v1_0_alpha_3.py",
+      "sha256": "4e1f413fc648d8018321f183465fb641e10d3e75eb6588a1ae9a02ca42bfbc8f"
+    },
+    {
+      "relative_path": "platform_core/praycg_platform_core_v1_0_alpha_4.py",
+      "sha256": "c215799e27d4213538faf955aaf4c15c38613025f1642bd3b33def0b18f90e91"
+    },
+    {
+      "relative_path": "tools/Acquisition/BrainFlow_to_LSL_v1_0/athena_timing.py",
+      "sha256": "d64eb667807f5263dfcea80bac7b3384b01cdfb98194ab73d63e34a1322c9a70"
+    },
+    {
+      "relative_path": "tools/Acquisition/BrainFlow_to_LSL_v1_0/brainflow_to_lsl.py",
+      "sha256": "fe3390e30215f072b1621aa9099a485d88dfa05ca05944e2d20015a777ab9b77"
+    },
+    {
+      "relative_path": "tools/Acquisition/BrainFlow_to_LSL_v1_0/profiles/muse_s_athena.json",
+      "sha256": "931036a549f8121d5b4344ead7c78344b451af767f82944ebc1991e17974383c"
+    },
+    {
+      "relative_path": "tools/Hardware_Registry_v0_1/praycg_hardware_registry_v0_1.py",
+      "sha256": "42eb0e15f9811cdaa46e9e8355a2141229534b1c30fb1248023cdbcddfe0458b"
+    },
+    {
+      "relative_path": "tools/Hardware_Workflow_v0_1/praycg_hardware_route_bindings_v1_0.py",
+      "sha256": "cda5a57fcf0368e29af17d38699e2898406c4a6aede2417ab82d5c68448ab18b"
+    }
+  ],
+  "evidence": [
+    {
+      "relative_path": "validation/athena_eeg_acquisition_10_5_1.json",
+      "sha256": "4cf2a6b468f46bc5191f993d75b9543a40bb1a837c1d5620153ea8ae600da17e"
+    }
+  ]
+}
