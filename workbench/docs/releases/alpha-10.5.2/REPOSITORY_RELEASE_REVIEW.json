@@ -1,0 +1,44 @@
+{
+  "schema": "PRAYCG_RepositoryReleaseReview_v1_0",
+  "review_date": "2026-10-08",
+  "repository": "hbanks87/praycg-open",
+  "version": "1.0.0-alpha.10.5.2",
+  "release_tag": "PRAYCG_Workbench_A10.5.2",
+  "package": "PRAYCG_Workbench_Alpha_10_5_2.zip",
+  "package_sha256": "fc86175ab71aaa230456190c0b8b01caf3f5e5926db85ad5a92448c0ac009318",
+  "package_changed": false,
+  "review_result": "NO_RELEASE_BLOCKING_DEFECTS_FOUND",
+  "fresh_validation": {
+    "focused_tests": {"passed": 98, "scope": ["Gamma Scalpel 2.0", "optical signal exploration and profiles", "current Gamma and optical Forge integration"]},
+    "zip_crc": {"status": "PASS", "files": 1765},
+    "distribution_manifest": {"status": "PASS", "entries": 1763},
+    "shipped_checksums": "PASS",
+    "gamma_source_binding": "PASS",
+    "documentation_links": "PASS_CHECKED_AGAINST_WORKING_TREE_AND_FULL_GIT_TREE",
+    "whitespace_check": "PASS"
+  },
+  "shipped_evidence": {
+    "build_status": "PASS_WITH_DECLARED_LIMITATIONS",
+    "unique_tests_passed": 4192,
+    "tests_skipped": 6,
+    "failures": 0,
+    "errors": 0,
+    "separate_pinned_sdk_tests_passed": 89,
+    "protocol_definitions": 91,
+    "source_full_isolated_installation": "PASS_AS_RECORDED_IN_SHIPPED_RECEIPT"
+  },
+  "necessary_repository_updates": [
+    "Replace outdated Alpha 10.2.1 current-release navigation with Alpha 10.5.2",
+    "Update isolated installation, bundled recorder, recording and analysis instructions",
+    "Correct current hardware evidence boundaries and Cerelog guide destination",
+    "Add current method guides, cumulative changelog, release notes and validation receipts",
+    "Update bundled-recorder and new-method attribution while preserving historical audit scope"
+  ],
+  "limitations": [
+    "No new physical Cerelog-Athena timing or physiological validation",
+    "Bundled Athena optical profile remains raw-only; HbO/HbR unavailable",
+    "Optional Zuna installation and inference not repeated in repository review",
+    "Fresh installation of exact extracted delivery not repeated in repository review",
+    "Software and offline checks do not establish participant safety or scientific validity"
+  ]
+}

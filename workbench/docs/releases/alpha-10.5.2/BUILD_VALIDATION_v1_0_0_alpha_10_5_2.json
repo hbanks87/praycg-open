@@ -1,0 +1,813 @@
+{
+  "schema": "PRAYCG_FullGammaOpticalWorkbenchReleaseValidation_v1_0",
+  "version": "1.0.0-alpha.10.5.2",
+  "status": "PASS_WITH_DECLARED_LIMITATIONS",
+  "release_scope": "FULL_WORKBENCH_10_5_2",
+  "baseline": "1.0.0-alpha.10.5.1",
+  "baseline_source_unchanged": true,
+  "test_binding": {
+    "status": "PASS",
+    "version": "1.0.0-alpha.10.5.2",
+    "source_sha256": "eab0dd9dbd381ef76add6a588f48d94b2d385209ba661c4f9adbb92f69e367a7",
+    "source_unchanged_during_tests": true,
+    "suites": [
+      {
+        "name": "attribution",
+        "paths": [
+          "tools/Attribution_v1/test_attribution_v1.py"
+        ],
+        "exit_code": 0,
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "control_center",
+        "paths": [
+          "control_center/tests"
+        ],
+        "exit_code": 0,
+        "tests": 2632,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 4,
+        "exact_selected_test_files": [
+          "control_center/tests/test_acquisition_clock_alpha1031.py",
+          "control_center/tests/test_acquisition_install_v0_95a.py",
+          "control_center/tests/test_active_alpha3_compatibility_regression.py",
+          "control_center/tests/test_active_context_v0_92.py",
+          "control_center/tests/test_alpha1001_protocol_configuration.py",
+          "control_center/tests/test_alpha1001_protocol_configuration_ui.py",
+          "control_center/tests/test_alpha1001_public_protocol_names.py",
+          "control_center/tests/test_alpha1002_session_edit_reconciliation.py",
+          "control_center/tests/test_alpha1002_windows_process_identity.py",
+          "control_center/tests/test_alpha1003_profile_preflight.py",
+          "control_center/tests/test_alpha1004_recipe_ai_handoff.py",
+          "control_center/tests/test_alpha1004_shared_runner_handoff.py",
+          "control_center/tests/test_alpha100_exchange_integration.py",
+          "control_center/tests/test_alpha100_research_exchange_ui.py",
+          "control_center/tests/test_alpha1010_my_protocols_ui.py",
+          "control_center/tests/test_alpha1010_protocol_ai_admission.py",
+          "control_center/tests/test_alpha1010_protocol_extension_evidence.py",
+          "control_center/tests/test_alpha1010_protocol_extension_integration.py",
+          "control_center/tests/test_alpha1010_protocol_extensions.py",
+          "control_center/tests/test_alpha1010_three_novel_protocol_acceptance.py",
+          "control_center/tests/test_alpha1011_external_binding.py",
+          "control_center/tests/test_alpha1011_external_lsl_ui.py",
+          "control_center/tests/test_alpha1011_lsl_full_metadata.py",
+          "control_center/tests/test_alpha1011_session_anchor.py",
+          "control_center/tests/test_alpha1020_connectors_ui.py",
+          "control_center/tests/test_alpha1020_managed_binding.py",
+          "control_center/tests/test_alpha1020_route_binding.py",
+          "control_center/tests/test_alpha1021_exact_route_preflight.py",
+          "control_center/tests/test_alpha1021_external_profile_privacy.py",
+          "control_center/tests/test_alpha1021_hardware_ui_integration.py",
+          "control_center/tests/test_alpha1021_release_boundaries.py",
+          "control_center/tests/test_alpha1022_cerelog.py",
+          "control_center/tests/test_alpha1023_cerelog.py",
+          "control_center/tests/test_alpha1023_channel_metadata.py",
+          "control_center/tests/test_alpha1030_zuna_integration.py",
+          "control_center/tests/test_alpha10310_zuna_contract_discovery.py",
+          "control_center/tests/test_alpha10313_als_session_binding.py",
+          "control_center/tests/test_alpha10314_muse_integration.py",
+          "control_center/tests/test_alpha10314_release_history.py",
+          "control_center/tests/test_alpha1031_acquisition_quality.py",
+          "control_center/tests/test_alpha1031_atlas_forge_handoff.py",
+          "control_center/tests/test_alpha1031_prearm_and_privacy.py",
+          "control_center/tests/test_alpha1031_profile_rate_metadata.py",
+          "control_center/tests/test_alpha1031_warning_readiness.py",
+          "control_center/tests/test_alpha1035_recording_analysis_policy.py",
+          "control_center/tests/test_alpha1035_results_integrity_and_coverage.py",
+          "control_center/tests/test_alpha1035_tolerant_recording_policy.py",
+          "control_center/tests/test_alpha1035_zuna_ui_error_and_threading.py",
+          "control_center/tests/test_alpha1036_forge_ai_integration.py",
+          "control_center/tests/test_alpha1036_module_explanations.py",
+          "control_center/tests/test_alpha1036_reporting_workflow.py",
+          "control_center/tests/test_alpha1037_zuna_explanations.py",
+          "control_center/tests/test_alpha1038_acquisition_correctness.py",
+          "control_center/tests/test_alpha1038_evidence_and_exports.py",
+          "control_center/tests/test_alpha1038_fingerprint_alignment.py",
+          "control_center/tests/test_alpha1038_graceful_bridge_ui.py",
+          "control_center/tests/test_alpha1038_micro_sensitivity_disclosure.py",
+          "control_center/tests/test_alpha1038_numerical_chain_acceptance.py",
+          "control_center/tests/test_alpha1038_numerical_integrity.py",
+          "control_center/tests/test_alpha1039_bridge_process_families.py",
+          "control_center/tests/test_alpha1051_recording_readiness.py",
+          "control_center/tests/test_alpha2_consolidation.py",
+          "control_center/tests/test_alpha4_forges_and_analysis_catalog_v0_1.py",
+          "control_center/tests/test_alpha84_ui_and_cerelog.py",
+          "control_center/tests/test_alpha851_als_recovery_stress.py",
+          "control_center/tests/test_alpha851_bench_mode_stress.py",
+          "control_center/tests/test_alpha852_bench_readiness_bypass.py",
+          "control_center/tests/test_alpha900_hardware_forge_stream_contracts.py",
+          "control_center/tests/test_alpha9100_recipe_isolation_and_rollback.py",
+          "control_center/tests/test_alpha9100_single_page_forge.py",
+          "control_center/tests/test_alpha9101_analysis_inputs.py",
+          "control_center/tests/test_alpha9101_protocol_candidate_review.py",
+          "control_center/tests/test_alpha9101_recipe_revision_ui.py",
+          "control_center/tests/test_alpha9101_research_handoff_ui.py",
+          "control_center/tests/test_alpha9101_results_reporting.py",
+          "control_center/tests/test_alpha9102_plan_session_recovery.py",
+          "control_center/tests/test_alpha9102_replay_context.py",
+          "control_center/tests/test_alpha9102_replay_ui.py",
+          "control_center/tests/test_alpha931_prestart_recovery.py",
+          "control_center/tests/test_alpha9910_analysis_execution_recovery.py",
+          "control_center/tests/test_alpha9911_analysis_results_dashboard.py",
+          "control_center/tests/test_alpha9911_results_integration.py",
+          "control_center/tests/test_alpha996_drift_aware_acquisition_preflight.py",
+          "control_center/tests/test_alpha996_prestart_runner_configuration.py",
+          "control_center/tests/test_alpha996_runner_launch_recovery.py",
+          "control_center/tests/test_athena_analysis_binding_alpha1040.py",
+          "control_center/tests/test_athena_dashboard_alpha1044.py",
+          "control_center/tests/test_athena_integration_alpha1040.py",
+          "control_center/tests/test_athena_protocol_profiles_alpha1040.py",
+          "control_center/tests/test_athena_setup_alpha1040.py",
+          "control_center/tests/test_bench_test_mode_alpha82.py",
+          "control_center/tests/test_brainflow_transport_alpha82.py",
+          "control_center/tests/test_cerelog_bench_controls.py",
+          "control_center/tests/test_cerelog_explicit_xdf_recorder.py",
+          "control_center/tests/test_cerelog_main_safety_wiring.py",
+          "control_center/tests/test_cerelog_raw_xdf_audit.py",
+          "control_center/tests/test_cerelog_recording_timing_fix.py",
+          "control_center/tests/test_command_path_integration_hardening_v1_0_0_alpha_2.py",
+          "control_center/tests/test_control_center_alpha4_integration.py",
+          "control_center/tests/test_control_center_alpha8_integration.py",
+          "control_center/tests/test_control_center_alpha8_layout_integration.py",
+          "control_center/tests/test_control_center_alpha900_integration.py",
+          "control_center/tests/test_control_center_alpha930_integration.py",
+          "control_center/tests/test_control_center_alpha931_integration.py",
+          "control_center/tests/test_control_center_alpha996_integration.py",
+          "control_center/tests/test_control_center_alpha997_integration.py",
+          "control_center/tests/test_control_center_alpha998_analysis_windows.py",
+          "control_center/tests/test_control_center_alpha999_analysis_eligibility.py",
+          "control_center/tests/test_exploratory_prospective_v0_94.py",
+          "control_center/tests/test_forge_organization_alpha1051.py",
+          "control_center/tests/test_forge_recording_selection_alpha1047.py",
+          "control_center/tests/test_gamma_optical_forge_alpha1052.py",
+          "control_center/tests/test_hardware_admission_roles_v1_0_0_alpha_4.py",
+          "control_center/tests/test_hardware_launch_click_gate_alpha8.py",
+          "control_center/tests/test_hardware_preflight_hardening_v1_0_0_alpha_2.py",
+          "control_center/tests/test_labrecorder_identity.py",
+          "control_center/tests/test_live_hardware_diagnostics_alpha8.py",
+          "control_center/tests/test_memory_stability_alpha83.py",
+          "control_center/tests/test_micro_handoff_integration_v0_95a.py",
+          "control_center/tests/test_muse_connect_alpha1043.py",
+          "control_center/tests/test_muse_forge_workflow_alpha1044.py",
+          "control_center/tests/test_muse_quick_setup_alpha1043.py",
+          "control_center/tests/test_muse_signal_check_alpha1048.py",
+          "control_center/tests/test_muse_stream_handoff_alpha1043.py",
+          "control_center/tests/test_openbci_bridge_recovery_alpha842.py",
+          "control_center/tests/test_optical_forge_governance_alpha1051.py",
+          "control_center/tests/test_platform_gates_v1_0_0_alpha_2.py",
+          "control_center/tests/test_platform_integration_v1_0_0_alpha_2.py",
+          "control_center/tests/test_protocol_atlas_integration_v1_0_0_alpha_3.py",
+          "control_center/tests/test_protocol_atlas_runtime_authority_v1_0_0_alpha_3.py",
+          "control_center/tests/test_protocol_attribution_v1_0.py",
+          "control_center/tests/test_protocol_library_v0_94.py",
+          "control_center/tests/test_protocol_stimulus_flow_alpha8.py",
+          "control_center/tests/test_public_bundle_migration_alpha1052.py",
+          "control_center/tests/test_recording_finalization_alpha1048.py",
+          "control_center/tests/test_recording_review_ui_alpha10410.py",
+          "control_center/tests/test_release_identity_and_public_workflow_alpha1003.py",
+          "control_center/tests/test_release_promotion_alpha1049.py",
+          "control_center/tests/test_release_recorder_defaults_alpha1049.py",
+          "control_center/tests/test_runner_runtime_binding_v1_0_0_alpha_2.py",
+          "control_center/tests/test_terminal_session_history_alpha1045.py",
+          "control_center/tests/test_time_frequency_forge_ui_alpha1050.py",
+          "control_center/tests/test_uuid_history_alpha1046.py",
+          "control_center/tests/test_windows_pid_probe_alpha854.py",
+          "control_center/tests/test_workbench_integration_alpha1040.py",
+          "control_center/tests/test_zuna_guided_forge_alpha1032.py",
+          "control_center/tests/test_zuna_guided_production_boundary_alpha1032.py",
+          "control_center/tests/test_zuna_optical_review_ui_alpha10310.py",
+          "control_center/tests/test_zuna_protocol_workflow_alpha1030.py",
+          "control_center/tests/test_zuna_shared_storage_alpha10312.py",
+          "control_center/tests/test_zuna_signal_review_ui_alpha1048.py",
+          "control_center/tests/test_zuna_timing_integration_alpha10311.py"
+        ],
+        "shards": [
+          {
+            "name": "control_center_shard_1",
+            "paths": [
+              "control_center/tests/test_acquisition_clock_alpha1031.py",
+              "control_center/tests/test_active_context_v0_92.py",
+              "control_center/tests/test_alpha1001_public_protocol_names.py",
+              "control_center/tests/test_alpha1003_profile_preflight.py",
+              "control_center/tests/test_alpha100_exchange_integration.py",
+              "control_center/tests/test_alpha1010_protocol_ai_admission.py",
+              "control_center/tests/test_alpha1010_protocol_extensions.py",
+              "control_center/tests/test_alpha1011_external_lsl_ui.py",
+              "control_center/tests/test_alpha1020_connectors_ui.py",
+              "control_center/tests/test_alpha1021_exact_route_preflight.py",
+              "control_center/tests/test_alpha1021_release_boundaries.py",
+              "control_center/tests/test_alpha1023_channel_metadata.py",
+              "control_center/tests/test_alpha10313_als_session_binding.py",
+              "control_center/tests/test_alpha1031_acquisition_quality.py",
+              "control_center/tests/test_alpha1031_profile_rate_metadata.py",
+              "control_center/tests/test_alpha1035_results_integrity_and_coverage.py",
+              "control_center/tests/test_alpha1036_forge_ai_integration.py",
+              "control_center/tests/test_alpha1037_zuna_explanations.py",
+              "control_center/tests/test_alpha1038_fingerprint_alignment.py",
+              "control_center/tests/test_alpha1038_numerical_chain_acceptance.py",
+              "control_center/tests/test_alpha1051_recording_readiness.py",
+              "control_center/tests/test_alpha84_ui_and_cerelog.py",
+              "control_center/tests/test_alpha852_bench_readiness_bypass.py",
+              "control_center/tests/test_alpha9100_single_page_forge.py",
+              "control_center/tests/test_alpha9101_recipe_revision_ui.py",
+              "control_center/tests/test_alpha9102_plan_session_recovery.py",
+              "control_center/tests/test_alpha931_prestart_recovery.py",
+              "control_center/tests/test_alpha9911_results_integration.py",
+              "control_center/tests/test_alpha996_runner_launch_recovery.py",
+              "control_center/tests/test_athena_integration_alpha1040.py",
+              "control_center/tests/test_bench_test_mode_alpha82.py",
+              "control_center/tests/test_cerelog_explicit_xdf_recorder.py",
+              "control_center/tests/test_cerelog_recording_timing_fix.py",
+              "control_center/tests/test_control_center_alpha8_integration.py",
+              "control_center/tests/test_control_center_alpha930_integration.py",
+              "control_center/tests/test_control_center_alpha997_integration.py",
+              "control_center/tests/test_exploratory_prospective_v0_94.py",
+              "control_center/tests/test_gamma_optical_forge_alpha1052.py",
+              "control_center/tests/test_hardware_preflight_hardening_v1_0_0_alpha_2.py",
+              "control_center/tests/test_memory_stability_alpha83.py",
+              "control_center/tests/test_muse_forge_workflow_alpha1044.py",
+              "control_center/tests/test_muse_stream_handoff_alpha1043.py",
+              "control_center/tests/test_platform_gates_v1_0_0_alpha_2.py",
+              "control_center/tests/test_protocol_atlas_runtime_authority_v1_0_0_alpha_3.py",
+              "control_center/tests/test_protocol_stimulus_flow_alpha8.py",
+              "control_center/tests/test_recording_review_ui_alpha10410.py",
+              "control_center/tests/test_release_recorder_defaults_alpha1049.py",
+              "control_center/tests/test_time_frequency_forge_ui_alpha1050.py",
+              "control_center/tests/test_workbench_integration_alpha1040.py",
+              "control_center/tests/test_zuna_optical_review_ui_alpha10310.py",
+              "control_center/tests/test_zuna_signal_review_ui_alpha1048.py"
+            ],
+            "exit_code": 0,
+            "tests": 728,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 1
+          },
+          {
+            "name": "control_center_shard_2",
+            "paths": [
+              "control_center/tests/test_acquisition_install_v0_95a.py",
+              "control_center/tests/test_alpha1001_protocol_configuration.py",
+              "control_center/tests/test_alpha1002_session_edit_reconciliation.py",
+              "control_center/tests/test_alpha1004_recipe_ai_handoff.py",
+              "control_center/tests/test_alpha100_research_exchange_ui.py",
+              "control_center/tests/test_alpha1010_protocol_extension_evidence.py",
+              "control_center/tests/test_alpha1010_three_novel_protocol_acceptance.py",
+              "control_center/tests/test_alpha1011_lsl_full_metadata.py",
+              "control_center/tests/test_alpha1020_managed_binding.py",
+              "control_center/tests/test_alpha1021_external_profile_privacy.py",
+              "control_center/tests/test_alpha1022_cerelog.py",
+              "control_center/tests/test_alpha1030_zuna_integration.py",
+              "control_center/tests/test_alpha10314_muse_integration.py",
+              "control_center/tests/test_alpha1031_atlas_forge_handoff.py",
+              "control_center/tests/test_alpha1031_warning_readiness.py",
+              "control_center/tests/test_alpha1035_tolerant_recording_policy.py",
+              "control_center/tests/test_alpha1036_module_explanations.py",
+              "control_center/tests/test_alpha1038_acquisition_correctness.py",
+              "control_center/tests/test_alpha1038_graceful_bridge_ui.py",
+              "control_center/tests/test_alpha1038_numerical_integrity.py",
+              "control_center/tests/test_alpha2_consolidation.py",
+              "control_center/tests/test_alpha851_als_recovery_stress.py",
+              "control_center/tests/test_alpha900_hardware_forge_stream_contracts.py",
+              "control_center/tests/test_alpha9101_analysis_inputs.py",
+              "control_center/tests/test_alpha9101_research_handoff_ui.py",
+              "control_center/tests/test_alpha9102_replay_context.py",
+              "control_center/tests/test_alpha9910_analysis_execution_recovery.py",
+              "control_center/tests/test_alpha996_drift_aware_acquisition_preflight.py",
+              "control_center/tests/test_athena_analysis_binding_alpha1040.py",
+              "control_center/tests/test_athena_protocol_profiles_alpha1040.py",
+              "control_center/tests/test_brainflow_transport_alpha82.py",
+              "control_center/tests/test_cerelog_main_safety_wiring.py",
+              "control_center/tests/test_command_path_integration_hardening_v1_0_0_alpha_2.py",
+              "control_center/tests/test_control_center_alpha8_layout_integration.py",
+              "control_center/tests/test_control_center_alpha931_integration.py",
+              "control_center/tests/test_control_center_alpha998_analysis_windows.py",
+              "control_center/tests/test_forge_organization_alpha1051.py",
+              "control_center/tests/test_hardware_admission_roles_v1_0_0_alpha_4.py",
+              "control_center/tests/test_labrecorder_identity.py",
+              "control_center/tests/test_micro_handoff_integration_v0_95a.py",
+              "control_center/tests/test_muse_quick_setup_alpha1043.py",
+              "control_center/tests/test_openbci_bridge_recovery_alpha842.py",
+              "control_center/tests/test_platform_integration_v1_0_0_alpha_2.py",
+              "control_center/tests/test_protocol_attribution_v1_0.py",
+              "control_center/tests/test_public_bundle_migration_alpha1052.py",
+              "control_center/tests/test_release_identity_and_public_workflow_alpha1003.py",
+              "control_center/tests/test_runner_runtime_binding_v1_0_0_alpha_2.py",
+              "control_center/tests/test_uuid_history_alpha1046.py",
+              "control_center/tests/test_zuna_guided_forge_alpha1032.py",
+              "control_center/tests/test_zuna_protocol_workflow_alpha1030.py",
+              "control_center/tests/test_zuna_timing_integration_alpha10311.py"
+            ],
+            "exit_code": 0,
+            "tests": 1009,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 1
+          },
+          {
+            "name": "control_center_shard_3",
+            "paths": [
+              "control_center/tests/test_active_alpha3_compatibility_regression.py",
+              "control_center/tests/test_alpha1001_protocol_configuration_ui.py",
+              "control_center/tests/test_alpha1002_windows_process_identity.py",
+              "control_center/tests/test_alpha1004_shared_runner_handoff.py",
+              "control_center/tests/test_alpha1010_my_protocols_ui.py",
+              "control_center/tests/test_alpha1010_protocol_extension_integration.py",
+              "control_center/tests/test_alpha1011_external_binding.py",
+              "control_center/tests/test_alpha1011_session_anchor.py",
+              "control_center/tests/test_alpha1020_route_binding.py",
+              "control_center/tests/test_alpha1021_hardware_ui_integration.py",
+              "control_center/tests/test_alpha1023_cerelog.py",
+              "control_center/tests/test_alpha10310_zuna_contract_discovery.py",
+              "control_center/tests/test_alpha10314_release_history.py",
+              "control_center/tests/test_alpha1031_prearm_and_privacy.py",
+              "control_center/tests/test_alpha1035_recording_analysis_policy.py",
+              "control_center/tests/test_alpha1035_zuna_ui_error_and_threading.py",
+              "control_center/tests/test_alpha1036_reporting_workflow.py",
+              "control_center/tests/test_alpha1038_evidence_and_exports.py",
+              "control_center/tests/test_alpha1038_micro_sensitivity_disclosure.py",
+              "control_center/tests/test_alpha1039_bridge_process_families.py",
+              "control_center/tests/test_alpha4_forges_and_analysis_catalog_v0_1.py",
+              "control_center/tests/test_alpha851_bench_mode_stress.py",
+              "control_center/tests/test_alpha9100_recipe_isolation_and_rollback.py",
+              "control_center/tests/test_alpha9101_protocol_candidate_review.py",
+              "control_center/tests/test_alpha9101_results_reporting.py",
+              "control_center/tests/test_alpha9102_replay_ui.py",
+              "control_center/tests/test_alpha9911_analysis_results_dashboard.py",
+              "control_center/tests/test_alpha996_prestart_runner_configuration.py",
+              "control_center/tests/test_athena_dashboard_alpha1044.py",
+              "control_center/tests/test_athena_setup_alpha1040.py",
+              "control_center/tests/test_cerelog_bench_controls.py",
+              "control_center/tests/test_cerelog_raw_xdf_audit.py",
+              "control_center/tests/test_control_center_alpha4_integration.py",
+              "control_center/tests/test_control_center_alpha900_integration.py",
+              "control_center/tests/test_control_center_alpha996_integration.py",
+              "control_center/tests/test_control_center_alpha999_analysis_eligibility.py",
+              "control_center/tests/test_forge_recording_selection_alpha1047.py",
+              "control_center/tests/test_hardware_launch_click_gate_alpha8.py",
+              "control_center/tests/test_live_hardware_diagnostics_alpha8.py",
+              "control_center/tests/test_muse_connect_alpha1043.py",
+              "control_center/tests/test_muse_signal_check_alpha1048.py",
+              "control_center/tests/test_optical_forge_governance_alpha1051.py",
+              "control_center/tests/test_protocol_atlas_integration_v1_0_0_alpha_3.py",
+              "control_center/tests/test_protocol_library_v0_94.py",
+              "control_center/tests/test_recording_finalization_alpha1048.py",
+              "control_center/tests/test_release_promotion_alpha1049.py",
+              "control_center/tests/test_terminal_session_history_alpha1045.py",
+              "control_center/tests/test_windows_pid_probe_alpha854.py",
+              "control_center/tests/test_zuna_guided_production_boundary_alpha1032.py",
+              "control_center/tests/test_zuna_shared_storage_alpha10312.py"
+            ],
+            "exit_code": 0,
+            "tests": 895,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 2
+          }
+        ]
+      },
+      {
+        "name": "report_bundle_roundtrip",
+        "paths": [
+          "tools/Research_Study_Package_v0_1/tests"
+        ],
+        "exit_code": 0,
+        "tests": 71,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "analysis_and_bundling",
+        "paths": [
+          "tools/Zuna_EEG_Reconstruction_v1_0/tests",
+          "tools/Zuna_EEG_Reconstruction_v1_0/test_zuna_adapter.py",
+          "tools/Zuna_EEG_Reconstruction_v1_0/test_zuna_diagnostics.py",
+          "tools/Zuna_Signal_Review_v1_0/tests",
+          "tools/Zuna_Muse_Reconstruction_v1_0/tests",
+          "tools/EEG_Analysis_Modules_v0_1/tests",
+          "tools/Analysis_Orchestrator_v0_1/tests",
+          "tools/Analysis_Forge_v0_2/tests",
+          "tools/Analysis_Session_v1_0/tests",
+          "tools/Research_Exchange_v1_0/tests",
+          "tools/Research_Bundle_Verifier_v0_1/tests",
+          "tools/Results_Bundle_Builder_v0_1/tests",
+          "tools/Synthetic_Validation_v0_1/tests",
+          "tools/Time_Frequency_Explorer_v1_0/tests",
+          "tools/Optical_Signal_Review_v1_0/tests"
+        ],
+        "exit_code": 0,
+        "tests": 718,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 1
+      },
+      {
+        "name": "protocol_and_installer",
+        "paths": [
+          "tools/ProtocolAtlas_ModuleLibrary_v2_0/tests",
+          "deployment/tests",
+          "platform_core/tests/test_als_geometry_v1_0.py"
+        ],
+        "exit_code": 0,
+        "tests": 236,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "brainflow_connector",
+        "paths": [
+          "tools/Acquisition/BrainFlow_to_LSL_v1_0/tests"
+        ],
+        "exit_code": 0,
+        "tests": 89,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 1
+      },
+      {
+        "name": "retained_hardware",
+        "paths": [
+          "tools/Hardware_Forge_v1_0/tests",
+          "tools/Hardware_Workflow_v0_1/tests",
+          "tools/Live_Monitor_v1_0/tests",
+          "tools/Acquisition/Polar_H10_ECG_to_LSL_v1_0/test_polar_h10_ecg.py",
+          "tools/Acquisition/Generic_EDA_PPG_Stream_Bridge_v0_1/tests",
+          "tools/Acquisition/Cerelog_V1_EMG_EOG_ALS_v1_0/tests"
+        ],
+        "exit_code": 0,
+        "tests": 178,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "numerical_and_managed",
+        "paths": [
+          "tools/MasterComprehensiveSuite_v1_6_1_CURRENT/tests",
+          "tools/Micro_Handoff_v0_1/tests",
+          "tools/CAI_SID_Exploratory_v0_2/tests",
+          "tools/Legacy_Analysis_Managed_v1_0/tests",
+          "tools/Atlas_Research_Analysis_v1_0/tests",
+          "tools/Analysis_Module_Catalog_v0_1/tests",
+          "tools/Gamma_Scalpel_v2_0/tests"
+        ],
+        "exit_code": 0,
+        "tests": 97,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "name": "release_contracts",
+        "paths": [
+          "tools/Release_Validation_v0_1/tests/test_release_validator_v0_1.py",
+          "tools/Release_Validation_v0_1/tests/test_alpha1003_protocol_coverage.py",
+          "tools/Release_Validation_v0_1/tests/test_alpha1032_protocol_inventory.py"
+        ],
+        "exit_code": 0,
+        "tests": 170,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "skipped": [
+      {
+        "suite": "control_center_shard_1",
+        "test": [
+          "control_center.tests.test_alpha9911_results_integration",
+          "test_results_session_root_rejects_linked_session_directory"
+        ],
+        "reason": "this Windows account cannot create directory symbolic links"
+      },
+      {
+        "suite": "control_center_shard_2",
+        "test": [
+          "control_center.tests.test_labrecorder_identity",
+          "test_manifest_symlink_escape_rejected"
+        ],
+        "reason": "Windows account cannot create symlinks"
+      },
+      {
+        "suite": "control_center_shard_3",
+        "test": [
+          "control_center.tests.test_alpha9101_protocol_candidate_review",
+          "test_symlink_candidate_is_rejected_when_platform_supports_it"
+        ],
+        "reason": "This Windows account cannot create symlinks"
+      },
+      {
+        "suite": "control_center_shard_3",
+        "test": [
+          "control_center.tests.test_zuna_shared_storage_alpha10312",
+          "test_dangling_binding_symlink_is_not_legacy_fallback"
+        ],
+        "reason": "Host does not permit unprivileged symlinks."
+      },
+      {
+        "suite": "analysis_and_bundling",
+        "test": [
+          "tools.Research_Exchange_v1_0.tests.test_exchange_bundle.ExchangeBundleTests",
+          "test_source_symlink_rejected_when_supported"
+        ],
+        "reason": "Host does not allow unprivileged symlink creation"
+      },
+      {
+        "suite": "brainflow_connector",
+        "test": [
+          "tools.Acquisition.BrainFlow_to_LSL_v1_0.tests.test_connector.InstalledSDKTests",
+          "test_three_exact_profiles_match_installed_pinned_sdk"
+        ],
+        "reason": "Optional installed-SDK check requires brainflow==5.23.0; found 5.22.2; installed SDK not validated"
+      }
+    ],
+    "unique_passed_tests": 4192,
+    "completed_utc": "2026-10-08T19:51:16.913611+00:00",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "full_declared_offline_regression_groups": true,
+    "physical_hardware": false,
+    "actual_model_acceptance": false,
+    "fresh_full_installation": false,
+    "protected_runtime_configuration_accessed": false
+  },
+  "current_full_install_acceptance": {
+    "status": "PASS",
+    "actual_full_install_executed": true,
+    "components": [
+      {
+        "component": "Core",
+        "status": "PASS",
+        "steps": [
+          {
+            "label": "Install Core requirements",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check Core dependencies",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check Core imports",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check acquisition libraries without opening devices",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Record Core environment",
+            "exit_code": 0,
+            "error": ""
+          }
+        ]
+      },
+      {
+        "component": "Live Monitor",
+        "status": "PASS",
+        "steps": [
+          {
+            "label": "Verify monitor Python version",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Install Live Monitor requirements",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check Live Monitor dependencies",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check Live Monitor imports and native library",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Record Live Monitor environment",
+            "exit_code": 0,
+            "error": ""
+          }
+        ]
+      },
+      {
+        "component": "Hardware Connectors",
+        "status": "PASS",
+        "steps": [
+          {
+            "label": "Verify hardware Python version",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Install Hardware Connectors requirements",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check Hardware Connectors dependencies",
+            "exit_code": 0,
+            "error": ""
+          },
+          {
+            "label": "Check Hardware Connectors without opening devices",
+            "exit_code": 0,
+            "error": ""
+          }
+        ]
+      }
+    ],
+    "completed_utc": "2026-10-08T19:27:52.601869+00:00",
+    "installation_report_sha256": "d7c4dbfea5009b8020b882e90fe94e7b382f031b299393257799d883561cb294",
+    "environment": "Separate new-release Core, Live Monitor and Hardware Connector environments with isolated application settings",
+    "first_attempt": "Restricted network could not download packages; authorized online retry completed and repaired the partial environments.",
+    "optional_zuna_model_installation_executed": false,
+    "physical_device_opened": false
+  },
+  "pinned_sdk_acceptance": {
+    "status": "PASS",
+    "brainflow_version": "5.23.0",
+    "counts": {
+      "selected": 89,
+      "executed": 89,
+      "passed": 89,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0
+    },
+    "source_unchanged": true,
+    "hardware_access": false,
+    "scope": "STATIC_INSTALLED_SDK_DESCRIPTORS_AND_MOCKED_CONNECTOR_UNITTESTS",
+    "receipt_sha256": "55ba0f45f42852cfe29abb80cbd5a8e156c845a24ecd94cd6e38e88da0dbafb0",
+    "repeat_tests_not_added_to_unique_test_count": true
+  },
+  "gamma_scalpel_acceptance": {
+    "schema": "PRAYCG_GammaScalpelAcceptance_v2_0",
+    "created_utc": "2026-10-08T19:33:05.649215+00:00",
+    "status": "PASS",
+    "software_tests": {
+      "passed": 42,
+      "failed": 0,
+      "skipped": 0,
+      "junit": "gamma_scalpel_tests.xml",
+      "junit_sha256": "010d2a6f514f1745d116a7cbbea8833323819c62d2d9e8e72aaaf6eda60e5bcc"
+    },
+    "saved_athena_format_check": {
+      "status": "PASS",
+      "recording_sha256": "ad1e794ac04082081a00d2ff74af0c09af2f7ca3469e132fbf1875c6bbfbe641",
+      "scope_seconds": 626.3275238068309,
+      "measured_labels": [
+        "TP9",
+        "AF7",
+        "AF8",
+        "TP10"
+      ],
+      "gamma_rows": 1252,
+      "references_absent": true,
+      "reference_unassessed_preserved": true,
+      "source_inputs_unchanged": true,
+      "output_report_hash": "2201c190c7c5890f83a52be047f3a5aee056d8b95a92e06a0794e9f0e79f5268",
+      "private_outputs_not_for_distribution": true,
+      "reference_assessment": {
+        "EMG": "UNASSESSED_EEG_PROXY_FALLBACK",
+        "EOG": "UNASSESSED_NO_MEASURED_EOG"
+      }
+    },
+    "visual_review": {
+      "gamma_plot": "PASS; four labeled measured electrodes, visible axes and measured-power legend, no unavailable reference trace advertised"
+    },
+    "scope": "Synthetic numerical and provenance tests plus read-only saved Athena format smoke test. No live connection, human Cerelog EMG/EOG, physical synchronization, cleanup efficacy or physiological outcome validation.",
+    "source_files": {
+      "tools/Gamma_Scalpel_v2_0/praycg_gamma_scalpel_v2_0.py": "bbe3a45c78900d7c4337f9c302cee12a9ba0241c6a597071172006af70c84a0d",
+      "tools/Gamma_Scalpel_v2_0/README.md": "eb67359482e1ee1456229697434cae36a6345b7a86edda9cdbe0a1742baa6919",
+      "tools/Gamma_Scalpel_v2_0/REFERENCE_PROFILE_GUIDE.md": "ca39ddfebf3d1716d09e0618eca24ba5fb0e3523e85b1714bfd3458407a9cec7",
+      "tools/Gamma_Scalpel_v2_0/tests/test_gamma_scalpel_v2_0.py": "0f5248931275fa19a37619fc560f00256f6daf9ab24f55453fbb1162986cafab"
+    },
+    "cross_review_repairs": [
+      "All nested/list participant/acquisition/clock occurrences must agree; profiles cannot override conflicts.",
+      "Condition status derives from supported matches, including PARTIAL.",
+      "Missing EOG explicitly unassessed without claiming an EEG eye proxy."
+    ]
+  },
+  "optical_saved_recording_acceptance": {
+    "status": "PASS",
+    "recorded_duration_seconds": 653.521,
+    "samples": 42027,
+    "recorded_optical_channels": 16,
+    "spectral_columns_per_channel": 624,
+    "original_inputs_unchanged": true,
+    "normalized_recorded_value_trends_available": true,
+    "athena_hemoglobin_available": false,
+    "acceptance_receipt_sha256": "04621db9beb835e49ca4b7b006a5163e1f4444694dc1fc64020ab1c7e2fc7d58",
+    "scope": "Read-only existing Athena recording plus numerical/profile tests, not physical fNIRS or hemoglobin validation"
+  },
+  "retained_recorder_qualification": {
+    "LabRecorder.exe": {
+      "schema": "PRAYCG_LabRecorderInspection_v1_0",
+      "path": "C:\\Users\\hoytb\\Desktop\\5.6solPRAYCGSOURCE\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2_Work\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2\\tools\\Acquisition\\LabRecorder_TimingPatched_v1_17_0\\LabRecorder.exe",
+      "timing_capability": "VERIFIED_TIMING_BUILD",
+      "launch_allowed": true,
+      "bench_eligible": true,
+      "governed_study_approved": false,
+      "qualification_scope": "synthetic-only",
+      "warnings": [],
+      "action": "This hash-bound build may be launched for bench recording. Full-study admission, hardware safety, and cross-device synchronization remain separate checks.",
+      "recorder_sha256": "860f97855787b1b9a50139309231797d3130101b19d53169cad2168f4ffcfd6c",
+      "native_lsl_sha256": "8156d0021794135ce217821cae0e99912753d86d8519e349756d13d99e0292ff",
+      "native_lsl_version": "1.17.7",
+      "native_lsl_verification": "independently_approved_file_sha256",
+      "source_git_commit": "6ee154d3b4213b9c400e8233f023b30284c167ed",
+      "source_patch_id": "labrecorder_exact_timestamp_v1",
+      "recorder_filename": "LabRecorder.exe",
+      "gui_config_path": "C:\\Users\\hoytb\\Desktop\\5.6solPRAYCGSOURCE\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2_Work\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2\\tools\\Acquisition\\LabRecorder_TimingPatched_v1_17_0\\LabRecorder.cfg",
+      "gui_config_sha256": "6af390091e620b3bab8fd3263063f103048c3ff52f7314eb32826739ab8a98c9",
+      "startup_policy": {
+        "rcs_enabled_on_launch": false,
+        "automatic_recording_on_launch": false,
+        "online_sync_enabled_on_launch": false
+      },
+      "qualification_manifest": "C:\\Users\\hoytb\\Desktop\\5.6solPRAYCGSOURCE\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2_Work\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2\\tools\\Acquisition\\LabRecorder_TimingPatched_v1_17_0\\praycg_recorder_qualification.json",
+      "qualified_checks": [
+        "regular_1khz",
+        "two_ms_step",
+        "duplicate_timestamp",
+        "large_gap",
+        "irregular_markers",
+        "mixed_rates",
+        "recorder_stops_first",
+        "outlet_stops_first"
+      ],
+      "workflow_limits": {
+        "mode": "gui_manual_stop_slot",
+        "result": "PASS",
+        "rcs_control": "NOT_QUALIFIED",
+        "test_invocation": "explicit_synthetic_QTimers_same_MainWindow_Start_Stop_slots_RCS_disabled"
+      }
+    },
+    "LabRecorderCLI.exe": {
+      "schema": "PRAYCG_LabRecorderInspection_v1_0",
+      "path": "C:\\Users\\hoytb\\Desktop\\5.6solPRAYCGSOURCE\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2_Work\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2\\tools\\Acquisition\\LabRecorder_TimingPatched_v1_17_0\\LabRecorderCLI.exe",
+      "timing_capability": "VERIFIED_TIMING_BUILD",
+      "launch_allowed": true,
+      "bench_eligible": true,
+      "governed_study_approved": false,
+      "qualification_scope": "synthetic-only",
+      "warnings": [],
+      "action": "This hash-bound build may be launched for bench recording. Full-study admission, hardware safety, and cross-device synchronization remain separate checks.",
+      "recorder_sha256": "1fe4c0dfc0e85d9252ca605e01c3dc8692f8f9b3a2de192d5fde86f7e2739192",
+      "native_lsl_sha256": "8156d0021794135ce217821cae0e99912753d86d8519e349756d13d99e0292ff",
+      "native_lsl_version": "1.17.7",
+      "native_lsl_verification": "independently_approved_file_sha256",
+      "source_git_commit": "6ee154d3b4213b9c400e8233f023b30284c167ed",
+      "source_patch_id": "labrecorder_exact_timestamp_v1",
+      "recorder_filename": "LabRecorderCLI.exe",
+      "qualification_manifest": "C:\\Users\\hoytb\\Desktop\\5.6solPRAYCGSOURCE\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2_Work\\PRAYCG_ControlCenter_v1_0_0_alpha_10_5_2\\tools\\Acquisition\\LabRecorder_TimingPatched_v1_17_0\\praycg_recorder_qualification_cli.json",
+      "qualified_checks": [
+        "regular_1khz",
+        "two_ms_step",
+        "duplicate_timestamp",
+        "large_gap",
+        "irregular_markers",
+        "mixed_rates",
+        "recorder_stops_first",
+        "outlet_stops_first"
+      ],
+      "workflow_limits": {
+        "mode": "cli_stdin_stop",
+        "result": "PASS",
+        "rcs_control": "NOT_APPLICABLE",
+        "test_invocation": "CLI newline"
+      }
+    }
+  },
+  "retained_scoped_athena_admission": {
+    "original_release": "1.0.0-alpha.10.5.1",
+    "status": "PASS",
+    "source_unchanged": true,
+    "new_physical_test_performed": false
+  },
+  "limitations": [
+    "Actual Athena HbO/HbR remains unavailable: required mapping, geometry, intensity and firmware facts remain unresolved.",
+    "No new physical Cerelog–Athena reference or cross-device timing qualification.",
+    "No new live hardware session, physiological validation, cleanup efficacy or clinical validation.",
+    "Optional Zuna model installation and model inference were not repeated."
+  ],
+  "historical_evidence_reclassified_as_current": false,
+  "existing_studies_or_settings_modified": false,
+  "raw_private_or_synthetic_recordings_in_archive": false
+}
