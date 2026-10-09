@@ -1,6 +1,6 @@
-# Study workflow in Alpha 10.5.2
+# Study workflow in Alpha 10.5.3
 
-Start with the [current installation and workflow guide](releases/alpha-10.5.2/INSTALL_AND_WORKFLOW_ALPHA_10_5_2.md). Alpha 10.5.2 keeps the Analysis Forge's **Recording → Analyze → Results** workflow and adds Gamma Scalpel 2.0 and improved optical exploration.
+Start with the [current installation and workflow guide](releases/alpha-10.5.3/INSTALL_AND_WORKFLOW_ALPHA_10_5_3.md). Alpha 10.5.3 adds **Visual Analysis** with a shared recording cursor across PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector. The existing Analysis Forge **Recording → Analyze → Results** workflow, Gamma Scalpel 2.0 and optical exploration remain available.
 
 ## Prepare and record
 
@@ -12,9 +12,19 @@ Start with the [current installation and workflow guide](releases/alpha-10.5.2/I
 
 The [recording-with-cautions guide](releases/alpha-10.5.2/RECORDING_WITH_CAUTIONS_ALPHA_10_5_1.md) describes exact findings and Athena's scoped acquisition admission. Review [route-specific restrictions](hardware-support.md) before connecting equipment. Live Monitor observes live streams and replay; LabRecorder saves the recording.
 
-## Analyze a completed recording
+## Open Visual Analysis
 
-Choose the completed recording in **Recording**, review its signal and any condition/activity notes, then choose an analysis in **Analyze** and open the report in **Results**. The recording remains selected. See the [Alpha 10.5.2 Forge guide](releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md) for controls and result behavior.
+Select the intended XDF in Forge, then open **Visual Analysis** and choose **State landscape**, **Timescale inspector** or **Paired well + TFR**. **Visual sources** selects the exact EEG and optional RR streams, declared EEG units and electrode names, and calibration. Generic channel numbers are not electrode positions. See the [current Visual Analysis guide](releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) for the supported views and recipes.
+
+Recorded replay uses one playback clock. **As seen live** uses only the recording prefix available at the playhead; backward seeks rebuild the engine. Playback speed changes presentation, while gaps, warming-up windows, missing support and stale data remain explicit. Live Monitor uses the same views as a passive consumer of selected sources; the visual feed does not start acquisition or recording.
+
+For a compatible completed result, choose **Attach completed visual analysis…**, select its JSON, then **Open attached completed view**. Its identity must verify against the selected recording and is checked again when reopened. Full-recording estimates stay labeled **Completed analysis** and are withheld from **As seen live**. **Save view record** preserves review context, not a replacement analysis payload.
+
+Completed CAI, historical NIP and experimental Autonomic state remain distinct choices. Raw EEG/RR does not supply all required CAI, NIP or CAI-SID components, so those incremental values remain unavailable. Gamma threshold events, media landmarks and inspection bookmarks are separate navigation choices. A shared cursor does not establish physical device synchronization or an unsupported media clock relation; a flowing surface does not establish an attractor, absorption or a physical force.
+
+## Run the retained analyses
+
+Choose the completed recording in **Recording**, review its signal and any condition/activity notes, then choose an analysis in **Analyze** and open the report in **Results**. The recording remains selected. The [retained Gamma Scalpel and optical Forge guide](releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md) documents these unchanged implementations.
 
 | Analysis | What to review |
 | --- | --- |
@@ -35,4 +45,4 @@ Review consent, privacy, identifiers and stimulus rights before sharing a bundle
 
 The preserved [Alpha 10.2.1 detailed workflow](releases/alpha-10.2.1/WORKFLOW_ALPHA_10_2_1.md) remains a historical reference for workspace, packaging, authoring and recovery concepts. Use current guides for recording readiness, acquisition status and Forge controls.
 
-[Workbench](../README.md) · [Installation](installation.md) · [Current Forge guide](releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md)
+[Workbench](../README.md) · [Installation](installation.md) · [Visual Analysis guide](releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) · [Retained Gamma and optical guide](releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md)
