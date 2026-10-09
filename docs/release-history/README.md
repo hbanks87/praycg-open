@@ -1,12 +1,14 @@
 # Release and repository history
 
-## Current release — Alpha 10.5.3
+## Current release — Alpha 10.5.4
 
-The [Alpha 10.5.3 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3) provides the complete Workbench ZIP, SHA-256 checksum, changelog, installation guide and validation receipts. Published October 9, 2026, it adds shared Visual Analysis, completed-result attachment, recorded prefix replay, passive live views and START.bat.
+The [Alpha 10.5.4 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4) provides the complete Workbench ZIP, SHA-256 checksum, changelog, installation guide and validation receipts. Published October 9, 2026, it improves visual entry points, recorded source selection and explicit calibration, and restores the exact retained Athena admission receipt required by profile validation.
 
-Read the [cumulative changelog](../../workbench/CHANGELOG.md), [current guide collection](../../workbench/docs/releases/alpha-10.5.3/README.md), and [release review](../../workbench/docs/releases/alpha-10.5.3/REPOSITORY_RELEASE_REVIEW.json). The exact validated archive is preserved. Its version manifest retains an inherited September 30 date; the GitHub publication date and current 10.5.3 validation records identify this release.
+Read the [cumulative changelog](../../workbench/CHANGELOG.md), [current guide collection](../../workbench/docs/releases/alpha-10.5.4/README.md), and [release review](../../workbench/docs/releases/alpha-10.5.4/REPOSITORY_RELEASE_REVIEW.json). The exact validated archive is preserved. Its version manifest retains an inherited September 30 date; the GitHub publication date and current 10.5.4 validation records identify this release.
 
 ## Earlier packaged applications
+
+The [Alpha 10.5.3 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3), published October 9, introduced shared Visual Analysis, completed-result attachment, recorded prefix replay, passive live views and START.bat. Its [guides and evidence](../../workbench/docs/releases/alpha-10.5.3/README.md) retain their original scope.
 
 The [Alpha 10.5.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.2), published October 8, added Gamma Scalpel 2.0 and adaptive optical exploration. Its [guides and evidence](../../workbench/docs/releases/alpha-10.5.2/README.md) retain their original scope. The [GitHub release history](https://github.com/hbanks87/praycg-open/releases) includes Alpha 10.4.10 and earlier versions. The preserved [Alpha 10.2.1 release folder](../../workbench/releases/alpha-10.2.1/) contains that application ZIP and its original companion files.
 
