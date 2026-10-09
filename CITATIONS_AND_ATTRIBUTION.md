@@ -1,8 +1,8 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current PRAYCG Workbench / Control Center release: Alpha 10.5.2**
+**Current PRAYCG Workbench / Control Center release: Alpha 10.5.3**
 
-**Document revision:** 2.1 · **Updated:** 8 October 2026
+**Document revision:** 2.2 · **Updated:** 9 October 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -10,11 +10,12 @@ PRAYCG brings together original project software, scientific methods, public res
 
 This page adds a current-release supplement to the preserved Alpha 10.2.1 attribution review. The historical dependency lists, hardware review, protocol and module counts, source comparisons and environment inventories below retain their original dates and scope. They are not a complete inventory of Alpha 10.5.2. Source author lists and historical protocol identities are retained. A project's appearance here does not imply its authors' affiliation with, endorsement of, or review of PRAYCG.
 
-The historical revision 2 added an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. Its accompanying **Attribution Update v1** implemented new-run credits in the development source. It was a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged. Revision 2.1 documents the bundled recorder and newer exploratory methods in Alpha 10.5.2 without extending the historical audit's coverage.
+The historical revision 2 added an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. Its accompanying **Attribution Update v1** implemented new-run credits in the development source. It was a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged. Revision 2.1 documents the bundled recorder and newer exploratory methods in Alpha 10.5.2 without extending the historical audit's coverage. Revision 2.2 adds the Alpha 10.5.3 Visual Analysis supplement while retaining those earlier records and scopes.
 
 ## Contents
 
 - [How to cite PRAYCG and a study](#how-to-cite-praycg-and-a-study)
+- [Alpha 10.5.3 Visual Analysis supplement](#alpha-1053-visual-analysis-supplement)
 - [Alpha 10.5.2 attribution supplement](#alpha-1052-attribution-supplement)
 - [Authorship, copyright and licenses](#authorship-copyright-and-licenses)
 - [Software acknowledgments and references](#software-acknowledgments-and-references)
@@ -33,6 +34,10 @@ The historical revision 2 added an artifact-level inventory, preserved upstream 
 
 Suggested citation when using the current release:
 
+> Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.5.3; 1.0.0-alpha.10.5.3) [Computer software].
+
+When using Alpha 10.5.2, retain its version-specific citation:
+
 > Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.5.2; 1.0.0-alpha.10.5.2) [Computer software].
 
 For the preserved Alpha 10.2.1 release, retain its original citation:
@@ -48,6 +53,16 @@ For a PRAYCG-defined protocol, use:
 > Banks, Hoyt. (2026). *[Protocol title]* ([protocol identifier], version [version]) [PRAYCG protocol definition]. In *PRAYCG Workbench / Control Center*, [release actually used].
 
 The bracketed fields are filled from the study's locked definition. For a third-party adaptation, retain the original authors' citation alongside this PRAYCG implementation credit.
+
+## Alpha 10.5.3 Visual Analysis supplement
+
+PRAYCG's native Visual Analysis links PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector with a source-bound recording cursor. Credit Hoyt Banks for the PRAYCG implementation and retain the actual numerical/input-library identities. The [versioned Visual Analysis guide](workbench/docs/releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) defines source mapping, fixed calibration, timing, support and display recipes; it is the method record for this exploratory feature.
+
+The default incremental gamma feature requires measured P7/P8 electrodes, and theta requires measured Pz/P3/P4. Generic channel numbers are not electrode positions. Athena's TP9, AF7, AF8 and TP10 cannot satisfy these default regional requirements; missing features remain unavailable. This is separate from Gamma Scalpel's measured-electrode analysis described in the retained 10.5.2 supplement.
+
+Completed CAI and historical NIP come from compatible, recording-bound completed-analysis payloads and retain their producing methods and retrospective scope. Raw EEG/RR does not supply their missing semantic, task and other required components, so incremental CAI, NIP and CAI-SID remain unavailable. Experimental Autonomic state uses its own versioned RR/calibration recipe and display mapping; it does not inherit frozen CAI/SID validation. The landscape geometry does not establish an attractor, narrative absorption, consciousness or a physical force.
+
+Current regression and native-view acceptance assess source-identified engineering behavior, including prefix availability, seek/reset, shared selection and missing-data handling. Passive-live acceptance uses mocked inlets. These checks do not establish fresh physical acquisition/timing, full installation, optional Zuna inference or physiological validity. Earlier acquisition, SDK, model and installation evidence retains its historical scope; the new visual feature does not extend it.
 
 ## Alpha 10.5.2 attribution supplement
 
