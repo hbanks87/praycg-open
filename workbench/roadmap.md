@@ -1,6 +1,6 @@
 # Workbench roadmap
 
-This page identifies proposed software and documentation work. It is not a release commitment or a record of completed validation. The current packaged application is [Alpha 10.5.3](README.md); research hypotheses and study planning belong to the [PRAYCG Neuro Research Program](../research/README.md).
+This page identifies proposed software and documentation work. It is not a release commitment or a record of completed validation. The current packaged application is [Alpha 10.5.4](README.md); research hypotheses and study planning belong to the [PRAYCG Neuro Research Program](../research/README.md).
 
 ## Priorities
 

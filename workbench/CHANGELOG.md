@@ -1,5 +1,18 @@
 # PRAYCG Workbench changelog
 
+## Alpha 10.5.4 — visual entry points and Athena admission packaging
+
+- Places Visual Analysis beside Time–Frequency in Live Monitor and immediately after Analyze in the Forge.
+- Repairs the recorded-XDF Visual sources dialog workflow and exposes source-selection errors.
+- Adds an explicit calibration start offset from the unchanged recording origin, with versioned v1.1 experimental streaming methods and unchanged minimum valid-support requirements.
+- Restores the exact retained Athena acquisition admission receipt required by Human connected profile validation.
+- Audits recursive hash dependencies and runtime configuration paths in source, public layout and extracted delivery.
+- Keeps admission checks intact; missing or changed evidence is rejected. Adds packaged positive and negative regression coverage.
+- Preserves private-data exclusions, prior releases, all 35 scientific registry modules and the strict current-source full regression gate.
+- Retains prior device evidence at its original scope; this release creates no new physical or physiological qualification.
+
+
+
 ## Alpha 10.5.3 — shared Visual Analysis
 
 - Adds native PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector with one source-bound cursor.
@@ -73,4 +86,4 @@
 - New 10.4.9 acceptance is source-bound offline contract/regression checking only. Copied 10.4.8 full-install, saved-recording and model acceptance remain historical; no fresh full installation, model execution, physical acquisition, manual whole-workflow or second-machine validation is claimed. Consult the current build record for exact results.
 - See the [10.4.9 installation and workflow guide](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.10).
 
-Earlier release entries are preserved in the [complete packaged changelog](docs/releases/alpha-10.5.3/CHANGELOG.md) and the [GitHub release history](https://github.com/hbanks87/praycg-open/releases).
+Earlier release entries are preserved in the [complete packaged changelog](docs/releases/alpha-10.5.4/CHANGELOG.md) and the [GitHub release history](https://github.com/hbanks87/praycg-open/releases).
