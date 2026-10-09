@@ -1,0 +1,45 @@
+{
+  "schema": "PRAYCG_RepositoryReleaseReview_v1_0",
+  "review_date": "2026-10-09",
+  "repository": "hbanks87/praycg-open",
+  "version": "1.0.0-alpha.10.5.3",
+  "release_tag": "PRAYCG_Workbench_A10.5.3",
+  "package": "PRAYCG_Workbench_Alpha_10_5_3.zip",
+  "package_sha256": "5b440d596afc17ae4b13ed7a5ef3084f543595ec7137d97694114c689dc10e38",
+  "package_changed": false,
+  "review_result": "PASS_WITH_DECLARED_NONBLOCKING_METADATA_DEFECT",
+  "fresh_validation": {
+    "focused_tests": {"passed": 57, "scope": ["visual state core", "native visual analysis", "shared cursor integration", "inline TFR clock", "passive feeds"]},
+    "zip_crc": {"status": "PASS", "files": 1783},
+    "distribution_manifest": {"status": "PASS", "entries": 1781},
+    "shipped_checksums": "PASS",
+    "native_source_binding": "PASS",
+    "exact_zip_folder_match": "PASS",
+    "private_recording_cache_environment_exclusion": "PASS",
+    "documentation_links": "PASS_CHECKED_AGAINST_WORKING_TREE_AND_FULL_GIT_TREE"
+  },
+  "shipped_evidence": {
+    "build_status": "PASS_WITH_DECLARED_LIMITATIONS",
+    "unique_tests_passed": 4249,
+    "tests_skipped": 6,
+    "failures": 0,
+    "errors": 0,
+    "native_visual_acceptance_passed": 57,
+    "native_count_not_added_to_unique_total": true,
+    "protocol_definitions": 91
+  },
+  "metadata_defect": {
+    "field": "VERSION_MANIFEST_v1_0_0_alpha_10_5_3.json.release_date",
+    "inherited_value": "2026-09-30",
+    "actual_publication_date": "2026-10-09",
+    "runtime_use_found": false,
+    "resolution": "Preserve exact validated archive; disclose inherited date in current guides and GitHub notes"
+  },
+  "limitations": [
+    "No fresh full installation, SDK descriptor acceptance, physical acquisition/timing or optional Zuna inference",
+    "No new physiological validation",
+    "Default incremental gamma needs P7/P8 and theta needs Pz/P3/P4; Athena cannot supply these defaults",
+    "Raw EEG/RR does not supply complete CAI/NIP/CAI-SID",
+    "Bundled Athena optical profile remains raw-only"
+  ]
+}
