@@ -1,12 +1,14 @@
-# Hardware support in Alpha 10.5.3
+# Hardware support in Alpha 10.5.4
 
 The Workbench's software routes and the repository's [physical hardware projects](../../hardware/README.md) answer different questions. Review each route's exact source, firmware, mapping, timing and acquisition evidence. A connector or successful installation alone does not certify an attached device, electrode placement, electrical safety or stimulus synchronization.
 
-The [complete Alpha 10.5.3 package](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.3/PRAYCG_Workbench_Alpha_10_5_3.zip) contains the route-specific profiles, source evidence and acquisition guides. The [retained recording guide](releases/alpha-10.5.2/RECORDING_WITH_CAUTIONS_ALPHA_10_5_1.md) defines the unchanged readiness checks and Athena admission scope. Current software and native-view checks do not constitute new physical hardware acquisition or cross-device timing validation.
+The [complete Alpha 10.5.4 package](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip) contains the route-specific profiles, source evidence and acquisition guides. The [retained recording guide](releases/alpha-10.5.2/RECORDING_WITH_CAUTIONS_ALPHA_10_5_1.md) defines the unchanged readiness checks and Athena admission scope. Current software and native-view checks do not constitute new physical hardware acquisition or cross-device timing validation.
 
 ## Athena EEG acquisition
 
-The packaged BrainFlow Athena p1041 route has **ACQUISITION_VERIFIED** admission with **TRANSPORT_RECORDING_VERIFIED** physical scope when its source-bound acquisition receipt passes. That scoped evidence covers connection, EEG identity/units, timestamp progression, live display, finalized XDF reopening and clean disconnect on the tested configuration. Alpha 10.5.3 retains this unchanged route; its earlier acquisition evidence keeps its original scope.
+The packaged BrainFlow Athena p1041 route has **ACQUISITION_VERIFIED** admission with **TRANSPORT_RECORDING_VERIFIED** physical scope when its source-bound acquisition receipt passes. That scoped evidence covers connection, EEG identity/units, timestamp progression, live display, finalized XDF reopening and clean disconnect on the tested configuration. Alpha 10.5.4 retains this unchanged route; its earlier acquisition evidence keeps its original scope.
+
+Alpha 10.5.4 restores `app/validation/athena_eeg_acquisition_10_5_1.json`, the exact retained receipt omitted from the earlier public package. This repairs the **Human connected** profile's runtime dependency without issuing new device evidence. Validation still checks its source ledger and receipt hashes; absent or changed evidence remains a blocking error. The builder checks recursive runtime dependencies in source, staged layout and extracted delivery.
 
 The receipt does not establish that the headset was worn during the equipment check, physiological accuracy, clinical suitability, precise ERP/cross-sensor timing, optical hemoglobin mapping or Zuna reconstruction accuracy. Changed or unverified source/receipt bindings require review. Ordinary recordings can retain **PARTICIPANT_ACQUISITION** purpose when Bench Test Mode is off, including recordings with signal cautions. Bench Test Mode remains an explicit no-participant choice; earlier recordings keep their original classification.
 
@@ -14,9 +16,11 @@ Athena provides four measured EEG electrodes: TP9, AF7, AF8 and TP10. Its separa
 
 ## Visual sources and passive viewing
 
-Alpha 10.5.3's **Visual sources** requires an explicitly selected EEG stream, electrode names, units and calibration, plus an optional RR source. Source changes reset calibration and history. The default incremental gamma recipe needs measured P7/P8, and theta needs Pz/P3/P4; Athena's four named electrodes do not supply those positions. Missing required channels leave the corresponding features unsupported rather than inventing electrode locations. The retained Gamma Scalpel analysis uses its separate, recorded-electrode contract.
+Alpha 10.5.4's **Visual sources** requires an explicitly selected EEG stream, electrode names, units and calibration, plus an optional RR source. Source changes reset calibration and history. The default incremental gamma recipe needs measured P7/P8, and theta needs Pz/P3/P4; Athena's four named electrodes do not supply those positions. Missing required channels leave the corresponding features unsupported rather than inventing electrode locations. The retained Gamma Scalpel analysis uses its separate, recorded-electrode contract.
 
-Passive live views consume incoming samples and issue no acquisition, stimulation, outlet or recording commands. Raw EEG/RR leaves CAI, NIP and CAI-SID unavailable without their required completed-analysis components. Generated Zuna channels remain reconstructions and do not count as independent measured electrodes. See the [Visual Analysis guide](releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) and [current validation boundaries](releases/alpha-10.5.3/UPDATE_TRACEABILITY_ALPHA_10_5_3.md).
+The calibration start is an explicit nonnegative offset from the unchanged shared recording origin, default 0. Choosing the selected EEG stream's recorded start changes the requested baseline interval, not EEG/RR/media alignment. At least 30 valid seconds of EEG feature support and the existing gap checks still apply. A later baseline start does not establish successful calibration or supply missing regional electrodes.
+
+Passive live views consume incoming samples and issue no acquisition, stimulation, outlet or recording commands. Raw EEG/RR leaves CAI, NIP and CAI-SID unavailable without their required completed-analysis components. Generated Zuna channels remain reconstructions and do not count as independent measured electrodes. See the [Visual Analysis guide](releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) and [current validation boundaries](releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md).
 
 ## Other route boundaries
 

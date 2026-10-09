@@ -1,6 +1,6 @@
-# Study workflow in Alpha 10.5.3
+# Study workflow in Alpha 10.5.4
 
-Start with the [current installation and workflow guide](releases/alpha-10.5.3/INSTALL_AND_WORKFLOW_ALPHA_10_5_3.md). Alpha 10.5.3 adds **Visual Analysis** with a shared recording cursor across PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector. The existing Analysis Forge **Recording → Analyze → Results** workflow, Gamma Scalpel 2.0 and optical exploration remain available.
+Start with the [current installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md). Alpha 10.5.4 repairs Visual Analysis entry points, recorded source selection and Athena profile validation. It retains the shared recording cursor across PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector. The existing Analysis Forge **Recording → Analyze → Results** workflow, Gamma Scalpel 2.0 and optical exploration remain available.
 
 ## Prepare and record
 
@@ -14,7 +14,9 @@ The [recording-with-cautions guide](releases/alpha-10.5.2/RECORDING_WITH_CAUTION
 
 ## Open Visual Analysis
 
-Select the intended XDF in Forge, then open **Visual Analysis** and choose **State landscape**, **Timescale inspector** or **Paired well + TFR**. **Visual sources** selects the exact EEG and optional RR streams, declared EEG units and electrode names, and calibration. Generic channel numbers are not electrode positions. See the [current Visual Analysis guide](releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) for the supported views and recipes.
+Select the intended XDF in Forge, then open the **Visual Analysis** tab immediately after **Analyze** and choose **State landscape**, **Timescale inspector** or **Paired well + TFR**. In Live Monitor, **Visual Analysis** sits beside **Time–Frequency**. **Visual sources** opens while a recording loads, updates when its streams arrive and keeps setup errors visible. Select the exact EEG and optional RR streams, declared EEG units and electrode names, and calibration interval. Generic channel numbers are not electrode positions. See the [current Visual Analysis guide](releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) for the supported views and recipes.
+
+Calibration starts at shared-recording time 0 by default. When EEG begins later, deliberately select its recorded start and the intended calibration duration. This sets an offset from the shared origin; it does not move the clock or relax gap and valid-support requirements. EEG calibration still needs at least 30 seconds of valid feature support, and insufficient support leaves metrics unavailable. The revised streaming visual-state and API-A method labels are v1.1; completed historical methods keep their own identities.
 
 Recorded replay uses one playback clock. **As seen live** uses only the recording prefix available at the playhead; backward seeks rebuild the engine. Playback speed changes presentation, while gaps, warming-up windows, missing support and stale data remain explicit. Live Monitor uses the same views as a passive consumer of selected sources; the visual feed does not start acquisition or recording.
 
@@ -45,4 +47,4 @@ Review consent, privacy, identifiers and stimulus rights before sharing a bundle
 
 The preserved [Alpha 10.2.1 detailed workflow](releases/alpha-10.2.1/WORKFLOW_ALPHA_10_2_1.md) remains a historical reference for workspace, packaging, authoring and recovery concepts. Use current guides for recording readiness, acquisition status and Forge controls.
 
-[Workbench](../README.md) · [Installation](installation.md) · [Visual Analysis guide](releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) · [Retained Gamma and optical guide](releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md)
+[Workbench](../README.md) · [Installation](installation.md) · [Visual Analysis guide](releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) · [Retained Gamma and optical guide](releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md)

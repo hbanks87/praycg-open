@@ -1,6 +1,6 @@
 # Installation and first launch
 
-**Current packaged release: Alpha 10.5.3.** Download the complete [PRAYCG Workbench Alpha 10.5.3 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.3/PRAYCG_Workbench_Alpha_10_5_3.zip) and follow the [current installation and workflow guide](releases/alpha-10.5.3/INSTALL_AND_WORKFLOW_ALPHA_10_5_3.md).
+**Current packaged release: Alpha 10.5.4.** Download the complete [PRAYCG Workbench Alpha 10.5.4 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip) and follow the [current installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md).
 
 ## Before you begin
 
@@ -13,7 +13,7 @@
 
 Run `INSTALL.bat`, then `START.bat` or `START_PRAYCG.bat`. The normal installation includes all three components in separate release-local environments:
 
-| Component | Alpha 10.5.3 environment |
+| Component | Alpha 10.5.4 environment |
 | --- | --- |
 | Core | `app/.core-env/` |
 | Live Monitor | `app/.live-monitor-env/` |
@@ -31,10 +31,10 @@ Connect Athena through the normal Muse connection action. Use its red/yellow/gre
 
 Confirm and arm the setup, start LabRecorder before the protocol, then **Stop LabRecorder** when finished so the XDF closes before analysis. Select the separate Optical stream if later optical analysis is intended; save any required EOG/EMG references in the same XDF. Continue to the [workflow](workflow.md) and [hardware-support notes](hardware-support.md).
 
-Open the completed recording in Analysis Forge for **Visual Analysis**. Use **Visual sources** to select the exact EEG and optional RR inputs and declare electrode names, units and calibration. The [Visual Analysis guide](releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md) distinguishes recorded prefix replay, passive live views and compatible completed-result attachments.
+Open the completed recording in Analysis Forge for **Visual Analysis**, immediately after **Analyze**. Live Monitor places **Visual Analysis** beside **Time–Frequency**. Use **Visual sources** to select the exact EEG and optional RR inputs and declare electrode names, units and calibration. The dialog opens while recorded streams are loading, updates when they arrive and shows setup failures. Calibration starts at shared-recording time 0 by default; selecting the EEG stream's recorded start keeps that clock unchanged and still requires valid support. The [Visual Analysis guide](releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) distinguishes recorded prefix replay, passive live views and compatible completed-result attachments.
 
-Alpha 10.5.3's current evidence covers software regression, native visual integration and distribution hashes. A fresh full installation, optional Zuna installation/inference, physical acquisition and cross-device timing were not reexecuted as part of this release gate; retained earlier evidence keeps its original scope. See the [current implementation and validation boundaries](releases/alpha-10.5.3/UPDATE_TRACEABILITY_ALPHA_10_5_3.md).
+Alpha 10.5.4 restores the exact retained receipt required by Athena **Human connected** profile validation and checks runtime dependency closure. Missing or altered evidence still blocks admission. Current checks cover software regression, native visual integration, packaged admission and distribution hashes. A fresh full installation, optional Zuna installation/inference, physical acquisition and cross-device timing were not reexecuted as part of this release gate; retained earlier evidence keeps its original scope. See the [current implementation and validation boundaries](releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md).
 
 The preserved [Alpha 10.2.1 installation guide](releases/alpha-10.2.1/INSTALLATION_ALPHA_10_2_1.md) documents that historical release, including its different Core installation behavior.
 
-[Workbench](../README.md) · [Current installation guide](releases/alpha-10.5.3/INSTALL_AND_WORKFLOW_ALPHA_10_5_3.md) · [Release notes](releases/alpha-10.5.3/RELEASE_NOTES_v1_0_0_alpha_10_5_3.md)
+[Workbench](../README.md) · [Current installation guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md) · [Release notes](releases/alpha-10.5.4/RELEASE_NOTES_v1_0_0_alpha_10_5_4.md)
