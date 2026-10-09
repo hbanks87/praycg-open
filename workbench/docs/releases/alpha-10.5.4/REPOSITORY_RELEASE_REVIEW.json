@@ -1,0 +1,79 @@
+{
+  "schema": "PRAYCG_RepositoryReleaseReview_v1",
+  "review_date": "2026-10-09",
+  "repository": "hbanks87/praycg-open",
+  "version": "1.0.0-alpha.10.5.4",
+  "tag": "PRAYCG_Workbench_A10.5.4",
+  "result": "PASS_WITH_DECLARED_NONBLOCKING_METADATA_DEFECT",
+  "package": {
+    "filename": "PRAYCG_Workbench_Alpha_10_5_4.zip",
+    "bytes": 41795758,
+    "sha256": "515ae2d3de8e78c6706744146e036cec371f4f912f83c19561afbecbb2e3ce43",
+    "archive_changed_during_publication_review": false,
+    "zip_files": 1791,
+    "distribution_manifest_entries": 1789,
+    "crc": "PASS",
+    "exact_folder_match": "PASS",
+    "distribution_checksums": "PASS",
+    "current_source_bindings": "PASS",
+    "runtime_dependency_hashes": "PASS",
+    "private_recordings_arrays_caches_environments_excluded": true
+  },
+  "fresh_publication_checks": {
+    "focused_tests_passed": 93,
+    "failures": 0,
+    "scope": "Calibration offsets, recorded source selection/errors, visual entry points, shared cursor/TFR clock, passive feeds and Athena admission positive/negative cases using existing Core Python without new dependency installation.",
+    "local_documentation_links": "PASS"
+  },
+  "shipped_evidence": {
+    "full_regression_unique_passed": 4285,
+    "skipped": 6,
+    "failures": 0,
+    "errors": 0,
+    "declared_regression_groups": 9,
+    "native_visual_acceptance_passed": 93,
+    "native_count_added_to_unique_total": false,
+    "software_certified_protocol_definitions": 91
+  },
+  "separate_original_delivery_evidence": {
+    "archive_sha256_matches": true,
+    "public_layout_dependency_audit": "PASS",
+    "extracted_layout_dependency_audit": "PASS",
+    "config_files_scanned": 76,
+    "local_reference_count": 1165,
+    "closure_files": 137,
+    "extracted_tests_passed": 191,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "shipped_hashes_verified_before_and_after": true,
+    "count_added_to_unique_regression_total": false,
+    "scope": "Fresh extraction with source identity and offline native/control tests; not installation or physical validation. Summarized from original delivery receipts, with private local paths omitted."
+  },
+  "restored_runtime_receipt": {
+    "path": "app/validation/athena_eeg_acquisition_10_5_1.json",
+    "sha256": "4cf2a6b468f46bc5191f993d75b9543a40bb1a837c1d5620153ea8ae600da17e",
+    "scope": "Retained 10.5.1 single-unit EEG acquisition/recording admission dependency; exact historical bytes, not new device evidence.",
+    "missing_or_tampered_evidence_rejected": true
+  },
+  "metadata_defect": {
+    "field": "app/VERSION_MANIFEST_v1_0_0_alpha_10_5_4.json.release_date",
+    "inherited_value": "2026-09-30",
+    "actual_publication_date": "2026-10-09",
+    "runtime_release_identity_uses_date_field": false,
+    "resolution": "Publish the exact verified archive, disclose inherited date, preserve current identity and source/distribution hashes."
+  },
+  "limitations": {
+    "fresh_full_installation": false,
+    "fresh_physical_acquisition_or_timing": false,
+    "current_sdk_descriptor_acceptance": false,
+    "optional_zuna_inference": false,
+    "physiological_validation": false,
+    "incremental_gamma_requires": ["P7", "P8"],
+    "incremental_theta_requires": ["Pz", "P3", "P4"],
+    "athena_measured_electrodes_supply_default_regional_recipe": false,
+    "calibration_start_offset_relaxes_support_or_gap_checks": false,
+    "raw_eeg_rr_supply_missing_cai_nip_cai_sid": false,
+    "bundled_athena_optical_profile": "RAW_ONLY"
+  }
+}
