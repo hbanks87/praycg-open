@@ -1,5 +1,16 @@
 # PRAYCG Workbench changelog
 
+## Alpha 10.5.3 — shared Visual Analysis
+
+- Adds native PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector with one source-bound cursor.
+- Adds verified completed JSON attachment, recorded prefix replay and passive live feeds with explicit mapping, calibration, support and availability.
+- Keeps completed CAI/NIP separate from experimental Autonomic state; raw EEG/RR leaves unsupported CAI/NIP/SID components unavailable.
+- Separates gamma threshold events, fast and slower theta response availability, media landmarks and inspection bookmarks.
+- Preserves original review/TFR workflows through optional cursor links and records source/method/display context.
+- Provides START.bat, current offline/native engineering evidence and complete packaging without private study payloads or screenshots.
+- Retains prior hardware, SDK, reconstruction and installation evidence as historical; makes no new physiological or physical timing claim.
+
+
 ## Alpha 10.5.2 — Gamma Scalpel 2.0 and simpler optical exploration
 
 - Adds one governed Gamma Scalpel action with measured EEG and optional Cerelog or compatible EOG/EMG references.
@@ -62,4 +73,4 @@
 - New 10.4.9 acceptance is source-bound offline contract/regression checking only. Copied 10.4.8 full-install, saved-recording and model acceptance remain historical; no fresh full installation, model execution, physical acquisition, manual whole-workflow or second-machine validation is claimed. Consult the current build record for exact results.
 - See the [10.4.9 installation and workflow guide](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.10).
 
-Earlier release entries are preserved in the [complete packaged changelog](docs/releases/alpha-10.5.2/CHANGELOG.md) and the [GitHub release history](https://github.com/hbanks87/praycg-open/releases).
+Earlier release entries are preserved in the [complete packaged changelog](docs/releases/alpha-10.5.3/CHANGELOG.md) and the [GitHub release history](https://github.com/hbanks87/praycg-open/releases).
