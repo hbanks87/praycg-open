@@ -21,11 +21,11 @@ Using the Workbench does not require agreement with a research theory. Running a
 
 The Workbench helps preserve protocol, stimulus, hardware, stream, analysis and output identities. Its purpose is to make methods and limitations visible enough for other people to inspect, reproduce and challenge.
 
-**Current release: Alpha 10.5.3 — shared Visual Analysis.**
+**Current release: Alpha 10.5.4 — visual entry points and Athena admission packaging.**
 
-[Download Alpha 10.5.3](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3) · [Changelog](workbench/CHANGELOG.md) · [Installation](workbench/docs/installation.md) · [Workflow](workbench/docs/workflow.md) · [Hardware routes](workbench/docs/hardware-support.md)
+[Download Alpha 10.5.4](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4) · [Changelog](workbench/CHANGELOG.md) · [Installation](workbench/docs/installation.md) · [Workflow](workbench/docs/workflow.md) · [Hardware routes](workbench/docs/hardware-support.md)
 
-The complete release includes the application source, installers, timing-patched LabRecorder, method guides, third-party notices and validation records. Visual Analysis links PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector through one recording cursor, with verified completed results, recorded prefix replay and passive live viewing. Gamma Scalpel and optical exploration remain available. Earlier releases retain their original contents and evidence.
+The complete release includes the application source, installers, timing-patched LabRecorder, method guides, third-party notices and validation records. Alpha 10.5.4 improves Visual Analysis entry points, recorded source selection and explicit calibration offsets. It restores the exact retained Athena acquisition receipt required by Human connected profile validation, with recursive runtime-dependency checks and missing/tampered-evidence rejection. The four shared Visual Analysis views, completed results, recorded replay and passive live viewing remain available. Gamma Scalpel and optical exploration remain available. Earlier releases retain their original contents and evidence.
 
 ## PRAYCG Neuro Research Program
 

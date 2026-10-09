@@ -1,8 +1,8 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current PRAYCG Workbench / Control Center release: Alpha 10.5.3**
+**Current PRAYCG Workbench / Control Center release: Alpha 10.5.4**
 
-**Document revision:** 2.2 · **Updated:** 9 October 2026
+**Document revision:** 2.3 · **Updated:** 9 October 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -12,9 +12,12 @@ This page adds a current-release supplement to the preserved Alpha 10.2.1 attrib
 
 The historical revision 2 added an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. Its accompanying **Attribution Update v1** implemented new-run credits in the development source. It was a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged. Revision 2.1 documents the bundled recorder and newer exploratory methods in Alpha 10.5.2 without extending the historical audit's coverage. Revision 2.2 adds the Alpha 10.5.3 Visual Analysis supplement while retaining those earlier records and scopes.
 
+Revision 2.3 adds the Alpha 10.5.4 calibration and admission-packaging supplement. Earlier supplements, citations and evidence retain their version-specific scope.
+
 ## Contents
 
 - [How to cite PRAYCG and a study](#how-to-cite-praycg-and-a-study)
+- [Alpha 10.5.4 calibration and admission supplement](#alpha-1054-calibration-and-admission-supplement)
 - [Alpha 10.5.3 Visual Analysis supplement](#alpha-1053-visual-analysis-supplement)
 - [Alpha 10.5.2 attribution supplement](#alpha-1052-attribution-supplement)
 - [Authorship, copyright and licenses](#authorship-copyright-and-licenses)
@@ -33,6 +36,10 @@ The historical revision 2 added an artifact-level inventory, preserved upstream 
 ## How to cite PRAYCG and a study
 
 Suggested citation when using the current release:
+
+> Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.5.4; 1.0.0-alpha.10.5.4) [Computer software].
+
+When using Alpha 10.5.3, retain its version-specific citation:
 
 > Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.5.3; 1.0.0-alpha.10.5.3) [Computer software].
 
@@ -53,6 +60,14 @@ For a PRAYCG-defined protocol, use:
 > Banks, Hoyt. (2026). *[Protocol title]* ([protocol identifier], version [version]) [PRAYCG protocol definition]. In *PRAYCG Workbench / Control Center*, [release actually used].
 
 The bracketed fields are filled from the study's locked definition. For a third-party adaptation, retain the original authors' citation alongside this PRAYCG implementation credit.
+
+## Alpha 10.5.4 calibration and admission supplement
+
+Credit Hoyt Banks for the PRAYCG Visual Analysis maintenance and packaging correction. The [10.5.4 Visual Analysis guide](workbench/docs/releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) specifies the explicit calibration start offset from the unchanged shared recording origin. Its default is 0; selecting the EEG stream's recorded start deliberately changes the requested baseline interval, not the recording clock. The revised method identities are `experimental_streaming_visual_state_v1_1` and `experimental_streaming_api_a_v1_1`. Minimum valid support, gap checks and unavailable outcomes remain unchanged; choosing a later baseline does not establish successful calibration. These experimental recipes remain separate from frozen completed CAI/SID methods.
+
+The release restores the exact retained `app/validation/athena_eeg_acquisition_10_5_1.json` needed by Athena's acquisition admission source ledger. Its SHA-256 is `4cf2a6b468f46bc5191f993d75b9543a40bb1a837c1d5620153ea8ae600da17e`. This is the original single-unit 10.5.1 EEG acquisition/recording receipt, omitted from the 10.5.3 public layout; restoring it creates no new device evidence. Its scope covers transport, EEG identity/units, timestamp progression, live display, finalized XDF reopening and clean disconnect. It does not establish wearer physiology, clinical performance, precise cross-device timing, hemoglobin conversion or reconstruction accuracy.
+
+The [10.5.4 implementation and evidence guide](workbench/docs/releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md) distinguishes current source/native packaging checks from that retained receipt. Recursive runtime dependency auditing and positive/negative profile checks preserve rejection of missing or changed evidence. Visual entry-point and recorded-source-dialog repairs change access to the existing views. Current software checks do not establish fresh physical acquisition, full installation, optional Zuna inference or physiological validation. Earlier scientific-method, hardware and attribution records remain historical.
 
 ## Alpha 10.5.3 Visual Analysis supplement
 
