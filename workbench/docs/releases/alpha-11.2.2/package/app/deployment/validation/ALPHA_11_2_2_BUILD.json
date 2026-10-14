@@ -1,0 +1,22 @@
+{
+  "status": "PASS_TARGETED_WORKFLOW_CHECKS",
+  "created_utc": "2026-10-14T02:59:17.878390+00:00",
+  "public_private_native_constructor": "PASS_ISOLATED",
+  "real_recording_scope": "READ_ONLY_SAVED_TFR_OPTICAL_RAW_VIEWS_AND_16_MODULE_REPORT_PROJECTION",
+  "original_recordings_and_analysis_evidence_unchanged": true,
+  "all_shipped_protocol_materials_lock_resolution": 71,
+  "optional_media": "TWO_HASH_PINNED_PACKAGES_8_MASTERS_70_INVENTORIED_FILES",
+  "provider_calls": 0,
+  "installed": false,
+  "fresh_machine_install_tested": false,
+  "physical_hardware_validated": false,
+  "zuna_inference_run": false,
+  "all_functions_certified": false,
+  "test_counts": {
+    "PASS": 545,
+    "FAIL": 0,
+    "ERROR": 0,
+    "SKIP": 0
+  },
+  "unique_tests": 545
+}

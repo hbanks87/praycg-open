@@ -1,0 +1,53 @@
+{
+  "status": "documentation_snapshot_for_proposed_update",
+  "source_archive": "PRAYCG_Workbench_Public_Alpha_11_2_1.zip",
+  "source_archive_bytes": 43737009,
+  "source_archive_sha256": "cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b",
+  "source_version": "1.0.0-alpha.11.2.1",
+  "source_edition": "PUBLIC",
+  "files": [
+    {
+      "repository_path": "package/README.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/README.md",
+      "bytes": 4591,
+      "sha256": "f2a8d33334f2fda73e121d6ddc97aa3176d010c883e7366cba491ae83d9b962d"
+    },
+    {
+      "repository_path": "package/CHANGELOG.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/CHANGELOG.md",
+      "bytes": 7870,
+      "sha256": "ae788f30c16df1369e9294a5f73e3288b29a8b1095a076132570f3053766ff28"
+    },
+    {
+      "repository_path": "package/INSTALL_WORKFLOW.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/INSTALL_WORKFLOW.md",
+      "bytes": 14135,
+      "sha256": "b4d1be1660dea9cb3bcbbf7d6b45bd2699ab3581252168c602c1a210303ff1ad"
+    },
+    {
+      "repository_path": "package/BUILD_REPORT.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/BUILD_REPORT.md",
+      "bytes": 1851,
+      "sha256": "11cc32405b436b0e842b7527ba8ddcb0705f8c64e62dcbb8b9b15c386d4fb8dc"
+    },
+    {
+      "repository_path": "package/app/docs/PUBLIC_PRIVATE_BOUNDARY_ALPHA_11_0_0.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/docs/PUBLIC_PRIVATE_BOUNDARY_ALPHA_11_0_0.md",
+      "bytes": 4805,
+      "sha256": "ad6e1771c8124db5a10c755aba97230ba700fea6063475e931f799d28960bdbd"
+    },
+    {
+      "repository_path": "package/app/VERSION_MANIFEST_v1_0_0_alpha_11_2_1.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/VERSION_MANIFEST_v1_0_0_alpha_11_2_1.json",
+      "bytes": 7874,
+      "sha256": "7f67cf844679388cbe4af805b10d6b0c2775579252fbf621544cb31a5f6e189a"
+    },
+    {
+      "repository_path": "package/app/deployment/validation/ALPHA_11_2_1_BUILD.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/deployment/validation/ALPHA_11_2_1_BUILD.json",
+      "bytes": 670,
+      "sha256": "d480de3cccb8f35bd7a93b33c6997e257dfb8133a420e457bf8d925eef455b98"
+    }
+  ],
+  "scope": "Selected documents and existing receipts copied byte-for-byte; no application installation, fresh test execution or GitHub publication performed."
+}

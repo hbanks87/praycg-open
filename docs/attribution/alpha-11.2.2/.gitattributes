@@ -1,0 +1,2 @@
+# Preserve selected sealed attribution records and upstream notice bytes.
+package/** -text

@@ -4,6 +4,8 @@ This index connects named quantities to their original definitions, equations, a
 
 [Research entrance](../README.md) · [Theory](../theory/README.md) · [Protocols](../protocols/README.md) · [Studies](../studies/README.md)
 
+For a detailed reading path, use [research concepts](../concepts/README.md) for the questions, definitions and equations, then [algorithms and implementations](../algorithms/README.md) for inputs, processing, outputs and version-specific code locations. These companion pages distinguish preserved method definitions from the algorithms present in the proposed Public Alpha 11.2.1 package.
+
 ## Begin with status and boundaries
 
 Start with the [module tier map v1.5.5](originals/master-suite-v1-5-5/MODULE_TIER_MAP_v1_5_5.md), the [methods supplement v0.93–v0.95](../protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md), and the [Topo-OSM claim boundary v1.4.7](originals/master-suite-v1-5-5/TOPO_OSM_CLAIM_BOUNDARY_v1_4_7.md). They distinguish purposes and limits that a result table alone cannot show.

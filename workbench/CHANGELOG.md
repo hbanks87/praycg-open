@@ -1,5 +1,35 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.2.2 — workflow hardening and optional media
+
+Sealed local release record; GitHub publication is pending. The [versioned guide](docs/releases/alpha-11.2.2/README.md) and [byte-exact build report](docs/releases/alpha-11.2.2/package/BUILD_REPORT.md) record 545 unique selected targeted checks passed, zero final failures/errors/skips, and byte-verified extraction. This is not fresh hardware or scientific validation.
+
+- Repairs catalog/core identity agreement and the resulting Materials dead end.
+- Makes recorded figures and saved TFR accessible independently of unavailable advanced state estimates, with source-bound choices and local error feedback.
+- Separates worker completion, descriptive support, strict endpoints and missing modality requirements in reports and guided analysis.
+- Expands structured numerical evidence and scope information for the public AI Assistant; preserves original measurements and historical explanations.
+- Completes governed protocol-rating handoff and repairs its credit-record launch defect; historical scoring remains explicitly post hoc where required.
+- Adds an opt-in seven-film plus original Lantern installer with pinned manifests, default release URLs, local archives, storage preflight, tamper rejection and verified repeat behavior. Original Lantern media bytes are unchanged.
+- Carries forward the cumulative 11.2.1 changes below and the full public research update: Opto-PING, ladders, reproduction programs, five concept guides, implementation map, bibliography and retained notices.
+- Preserves existing settings, recordings, source studies, Zuna environments and prior release evidence. Private assistant technology and study records are not public release assets.
+
+These are software and workflow improvements, not new device, timing, clinical or scientific validation. See the [combined repository update](../docs/updates/2026-10-14-public-workflow-release.md).
+
+## Proposed Public Alpha 11.2.1 — cumulative update since 10.5.4
+
+Prepared for review; this entry does not declare a GitHub release.
+
+- Retains the 10.6-series Study / Prepare / Run / Analyze / Share navigation, recording/viewer controls, measured-sensor displays and detailed protocol design workflow.
+- Adds the independent public PRAYCG AI Assistant for optional explanations, drafts and passive snapshots, with explicit provider requests and local receipts.
+- Guides saved recordings through recommended analyses, results and dated local/AI report history.
+- Adds Signal Quality & Cleaning Review and four registered modules for signal support, ECG/HRV, respiration/RSA and line-noise comparison.
+- Separates Atlas recording compatibility from the intended endpoint and preserves scoped Athena channel/pair reporting when a full-montage endpoint is unavailable.
+- Adds source-bound descriptive rating analysis; the private study protocol, media and participant data are excluded from Public.
+- Includes runner/recording identity, replay, media preparation, interval-adjacency, report-handoff and preprocessing-isolation fixes.
+- Restores prominent repository navigation to Opto-PING, documented ladders/rungs and public reproducibility materials.
+
+See the [cumulative proposal and validation limits](docs/proposed-alpha-11.2.1.md), [package documentation](docs/releases/alpha-11.2.1/README.md) and [research update coverage](../docs/updates/2026-10-13-public-research-update.md). The package records 535 targeted checks; these existing receipts do not establish a fresh install, hardware retest or independent scientific replication.
+
 ## Alpha 10.5.4 — visual entry points and Athena admission packaging
 
 - Places Visual Analysis beside Time–Frequency in Live Monitor and immediately after Analyze in the Forge.

@@ -1,6 +1,6 @@
 # Research protocols
 
-The preserved documents describe three named protocol families. Protocol versions and software release numbers refer to different records; use the selected protocol's own specification alongside the [Workbench workflow](../../workbench/docs/releases/alpha-10.2.1/WORKFLOW_ALPHA_10_2_1.md).
+The preserved documents describe three named protocol families. Protocol versions and software release numbers refer to different records; use the selected protocol's own specification alongside the [Workbench workflow](../../workbench/docs/workflow.md).
 
 [Research entrance](../README.md) · [Theory](../theory/README.md) · [Measures](../measures/README.md)
 

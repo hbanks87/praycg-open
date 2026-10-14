@@ -1,0 +1,54 @@
+{
+  "status": "SEALED_PUBLIC_ARCHIVE_DOCUMENTATION_SNAPSHOT",
+  "source_archive": "PRAYCG_Workbench_Public_Alpha_11_2_2.zip",
+  "source_archive_bytes": 43802130,
+  "source_archive_sha256": "839e1201caf7fce6227682ff58ffa33951fc4ceeb3d2767e3ed970fe127ef26a",
+  "source_version": "1.0.0-alpha.11.2.2",
+  "source_edition": "PUBLIC",
+  "files": [
+    {
+      "repository_path": "package/README.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/README.md",
+      "bytes": 3868,
+      "sha256": "674ef0c633a444d22161c19892acc58b348461d84a1294cb6126b21c9df905b3"
+    },
+    {
+      "repository_path": "package/INSTALL_WORKFLOW.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/INSTALL_WORKFLOW.md",
+      "bytes": 7439,
+      "sha256": "f49b4659ecb24b4b197fd1fa929a06b454ab21a166b21cd753848ec437d73c27"
+    },
+    {
+      "repository_path": "package/CHANGELOG.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/CHANGELOG.md",
+      "bytes": 2706,
+      "sha256": "cdc806f0b6bc65bacb4d427bc802b3404b3562953c3f97d9f58cfa739e102647"
+    },
+    {
+      "repository_path": "package/BUILD_REPORT.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/BUILD_REPORT.md",
+      "bytes": 2299,
+      "sha256": "17633d70c423a88162c64dd139886a460849485428dbdeafdd4e637a6cbd5441"
+    },
+    {
+      "repository_path": "package/app/VERSION_MANIFEST_v1_0_0_alpha_11_2_2.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/VERSION_MANIFEST_v1_0_0_alpha_11_2_2.json",
+      "bytes": 7402,
+      "sha256": "a07661a6e36e1d188e8828cceaecd44917372c2584faf28828957da0f09556c3"
+    },
+    {
+      "repository_path": "package/app/deployment/validation/ALPHA_11_2_2_BUILD.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/deployment/validation/ALPHA_11_2_2_BUILD.json",
+      "bytes": 778,
+      "sha256": "88e6d077d14036d0664887c44334cd11b63eb923ff11b292a34cea1ac889bdef"
+    },
+    {
+      "repository_path": "package/app/config/release_identity_v1_0.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/config/release_identity_v1_0.json",
+      "bytes": 143,
+      "sha256": "63ef18d7afe31d0b87a19bfd35313006b3f6068f2f061db9dfa0869714e0fb5d"
+    }
+  ],
+  "publication_status": "CHECK_RELEASE_PUBLICATION_RECEIPT_SEPARATELY",
+  "scope": "Selected original Public archive records copied byte-for-byte; not an installation or independent scientific validation."
+}

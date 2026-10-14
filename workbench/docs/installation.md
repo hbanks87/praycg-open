@@ -1,5 +1,19 @@
 # Installation and first launch
 
+## Public Alpha 11.2.2 update
+
+Public Alpha 11.2.2 is the prepared replacement described in the [release guide](releases/alpha-11.2.2/README.md). Final publication is pending. Follow the new archive's own instructions and verification record; the Alpha 10.5.4 instructions below remain labeled historical published behavior until the new asset is verified.
+
+Install an update into a **new release folder**, never over an old application or study-data folder. Retain existing settings, workspaces, recordings, external PsychoPy settings and Zuna environment/model paths. New release-local Core, Live Monitor and connector environments are independent of those study files. Do not reinstall Zuna merely to update the Workbench; first verify the existing configured environment and model paths. Back up important studies before any upgrade.
+
+The standard path remains **INSTALL.bat → START.bat**. The Public package contains the independent PRAYCG AI Assistant and needs no private extension. Optional AI configuration is separate from local numerical analysis; do not paste credentials into public issue reports.
+
+**INSTALL_STIMULUS_PACKAGE.bat** now offers the seven-film collection plus the original Lantern demo as two separate verified packages. It uses pinned release URLs, supports exact local ZIPs and checks destination/storage before installation. See [optional stimulus instructions](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md). After installation, refresh installed masters in Prepare Materials and select the master for normal protocol-specific preparation and fingerprinting.
+
+Saved studies and original measurements are not migrated into a new numerical meaning by this patch. Reanalysis and new explanations create new derivatives. A missing endpoint, absent physical sensor or unavailable provider remains visible without erasing available reports.
+
+## Preserved Alpha 10.5.4 installation
+
 **Current packaged release: Alpha 10.5.4.** Download the complete [PRAYCG Workbench Alpha 10.5.4 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip) and follow the [current installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md).
 
 ## Before you begin

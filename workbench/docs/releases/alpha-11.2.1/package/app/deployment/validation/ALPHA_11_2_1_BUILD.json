@@ -1,0 +1,21 @@
+{
+  "status": "PASS_TARGETED_WORKFLOW_CHECKS",
+  "installed": false,
+  "actual_athena_numeric_and_mask_parity": true,
+  "saved_athena_ai_projection": "PASS_NO_PROVIDER_CALL",
+  "synthetic_protocol_ratings": "PASS_SIMULATED_NOT_PARTICIPANT_FINDINGS",
+  "public_private_native_constructor": "PASS_ISOLATED",
+  "real_provider_requests": 0,
+  "physical_hardware_retest": false,
+  "zuna_inference_run": false,
+  "fresh_machine_install_tested": false,
+  "all_functions_certified": false,
+  "source_recordings_and_prior_results_unchanged": true,
+  "test_counts": {
+    "PASS": 535,
+    "FAIL": 0,
+    "ERROR": 0,
+    "SKIP": 0
+  },
+  "unique_tests": 535
+}

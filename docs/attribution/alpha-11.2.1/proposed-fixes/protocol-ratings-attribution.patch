@@ -1,0 +1,17 @@
+--- a/app/config/attribution_registry_v1.json
++++ b/app/config/attribution_registry_v1.json
+@@ -1602,10 +1602,14 @@
+     "protocol_rating_last_valid_v0_1": {
+       "name": "PRAYCG last valid response within a complete recorded rating window v0.1",
+       "implementation_status": "PRAYCG_SPECIFIC_OPERATIONAL_DEFINITION",
+       "source": "tools/Protocol_Ratings_Analysis_v0_1/protocol_ratings.py",
+       "source_sha256": "9110809024fe73a45d760f959ca903de620d4819400fbde069c1a69638ab4069",
++      "functions": [
++        "analyze_events"
++      ],
++      "definition": "Select the last valid recorded key within each exact rating node window. Retain all responses, exclusions and missingness. Compare condition-coded ordinal ratings descriptively; no p-values, equal-interval assumption or causal inference.",
+       "implementation": "Select the last valid recorded key within each exact rating node window. Retain all responses, exclusions and missingness. Compare condition-coded ordinal ratings descriptively; no p-values, equal-interval assumption or causal inference.",
+       "references": [],
+       "limitations": [
+         "Historical unfrozen response selection is post-hoc. No confirmatory primary endpoint has been selected."
+       ]

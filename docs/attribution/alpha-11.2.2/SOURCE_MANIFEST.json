@@ -1,0 +1,78 @@
+{
+  "status": "SEALED_PUBLIC_ARCHIVE_DOCUMENTATION_SNAPSHOT",
+  "source_archive": "PRAYCG_Workbench_Public_Alpha_11_2_2.zip",
+  "source_archive_bytes": 43802130,
+  "source_archive_sha256": "839e1201caf7fce6227682ff58ffa33951fc4ceeb3d2767e3ed970fe127ef26a",
+  "source_version": "1.0.0-alpha.11.2.2",
+  "source_edition": "PUBLIC",
+  "files": [
+    {
+      "repository_path": "package/app/CITATIONS_AND_ATTRIBUTION.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/CITATIONS_AND_ATTRIBUTION.md",
+      "bytes": 66477,
+      "sha256": "ca74ec532c38c09916aed9161d907d3ca0fa2c0ed7d4a4869bd26411dbecfbde"
+    },
+    {
+      "repository_path": "package/app/config/attribution_registry_v1.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/config/attribution_registry_v1.json",
+      "bytes": 69912,
+      "sha256": "4b7c634f7f075f787cba41487a5ed6717fd2d85b9abbebe68b044a78135fc52e"
+    },
+    {
+      "repository_path": "package/app/requirements_PRAYCG_v1_0_0_alpha_11_2_2.txt",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/requirements_PRAYCG_v1_0_0_alpha_11_2_2.txt",
+      "bytes": 787,
+      "sha256": "acafded948f10eba8fc38e1831b3533ec31a047a33cfe4c0092e6112b3deb82e"
+    },
+    {
+      "repository_path": "package/app/tools/Signal_Review_v1_0/methods_denoising_v1.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/tools/Signal_Review_v1_0/methods_denoising_v1.json",
+      "bytes": 4981,
+      "sha256": "8a8a75b3953b980d6eded5f8198e254e9bd9ef891ee857a7e84e2c80dbfc2d1b"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/SIGNAL_REVIEW_11_2_0.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/SIGNAL_REVIEW_11_2_0.md",
+      "bytes": 7909,
+      "sha256": "cb5bdab2762ce7c35894874ae45d927d3f8072b46742d8b469000e0c23e5fa35"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/core/PyWavelets-1.9.0/pywavelets-1.9.0.dist-info/licenses/LICENSE",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/core/PyWavelets-1.9.0/pywavelets-1.9.0.dist-info/licenses/LICENSE",
+      "bytes": 1191,
+      "sha256": "c11ed9dd380510d277ca9e57d3820f680c4c0c58bfd3ff5c18272bea1cdd6779"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/core/PyWavelets-1.9.0/pywavelets-1.9.0.dist-info/licenses/licenses_bundled/LICENSE_numpy.txt",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/core/PyWavelets-1.9.0/pywavelets-1.9.0.dist-info/licenses/licenses_bundled/LICENSE_numpy.txt",
+      "bytes": 1573,
+      "sha256": "2b3e076071410ffafe86fa9ddaff63f5ae3c50056f7802f13a87386c6921f526"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/core/PyWavelets-1.9.0/pywavelets-1.9.0.dist-info/licenses/licenses_bundled/LICENSE_scipy.txt",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/core/PyWavelets-1.9.0/pywavelets-1.9.0.dist-info/licenses/licenses_bundled/LICENSE_scipy.txt",
+      "bytes": 1566,
+      "sha256": "0bc9049fda0257f1aa8128e3e13c431af7267e25ba93562baeb4b545a8fc02bc"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/core/mne-denoise-0.0.3/mne_denoise-0.0.3.dist-info/licenses/LICENSE",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/core/mne-denoise-0.0.3/mne_denoise-0.0.3.dist-info/licenses/LICENSE",
+      "bytes": 1541,
+      "sha256": "4bc26bbf85dd083e877c4c4d12746afd0fde984bb5f599c3333bba60d6bf2237"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/core/neurokit2-0.2.13/neurokit2-0.2.13.dist-info/licenses/LICENSE",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/core/neurokit2-0.2.13/neurokit2-0.2.13.dist-info/licenses/LICENSE",
+      "bytes": 1077,
+      "sha256": "89a0c90cb8331319e1baea34b004fd6121247e89d132c3fcd01c86353aac8733"
+    },
+    {
+      "repository_path": "package/app/THIRD_PARTY_NOTICES/core/neurokit2-0.2.13/neurokit2-0.2.13.dist-info/licenses/AUTHORS.rst",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/THIRD_PARTY_NOTICES/core/neurokit2-0.2.13/neurokit2-0.2.13.dist-info/licenses/AUTHORS.rst",
+      "bytes": 4020,
+      "sha256": "3e314a0baadd077a82c834c6d5c6c92eab681ec5d33c74917168af55dce85820"
+    }
+  ],
+  "publication_status": "CHECK_RELEASE_PUBLICATION_RECEIPT_SEPARATELY",
+  "scope": "Selected original Public archive records copied byte-for-byte; not an installation or independent scientific validation."
+}

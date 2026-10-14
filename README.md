@@ -12,14 +12,21 @@ Using the Workbench does not require agreement with a research theory. Running a
 | --- | --- |
 | Install the software and run a study or demonstration | [PRAYCG Workbench](workbench/README.md) |
 | Read the theories, protocols and research questions | [PRAYCG Neuro Research Program](research/README.md) |
+| Follow Opto-PING and its synthetic tests | [Opto-PING research](research/optoping/README.md) |
+| Trace the research ladders and individual rungs | [Ladders and rungs](research/ladders/README.md) |
+| Find reproduction scripts, locked specifications and reference outputs | [Reproducibility programs](research/reproducibility/README.md) |
+| Understand the project's concepts and calculations | [Research concepts](research/concepts/README.md) · [Algorithm and implementation guide](research/algorithms/README.md) |
 | Browse original theory documents and earlier versions | [Theory reading index](research/theory/README.md) |
 | Review device builds, sensor holders and experimental integrations | [Hardware projects](hardware/README.md) |
 | Find synthetic demonstrations and stimulus recipes | [Examples](examples/README.md) |
-| Review authorship, sources and reuse boundaries | [Master citations and attribution](CITATIONS_AND_ATTRIBUTION.md) |
+| Find the original stimulus masters and bridge video | [Eleven-master catalog](examples/stimulus-masters/README.md) · [Demo Lantern Bridge](examples/bridge-demo/README.md) |
+| Review authorship, sources and reuse boundaries | [Master citations and attribution](CITATIONS_AND_ATTRIBUTION.md) · [Current bibliography](research/bibliography/README.md) |
 
 ## PRAYCG Workbench
 
 The Workbench helps preserve protocol, stimulus, hardware, stream, analysis and output identities. Its purpose is to make methods and limitations visible enough for other people to inspect, reproduce and challenge.
+
+**Prepared update: Public Alpha 11.2.2.** The [new workflow-hardening guide](workbench/docs/releases/alpha-11.2.2/README.md) covers Materials catalog agreement, recording-aware figures, scoped analysis explanations, rating handoff and the optional seven-film plus original Lantern installer. It includes the [cumulative changes since 10.5.4](workbench/docs/proposed-alpha-11.2.1.md) and the [full research/navigation update](docs/updates/2026-10-14-public-workflow-release.md). The [11.2.1 package snapshot](workbench/docs/releases/alpha-11.2.1/README.md) remains historical evidence. Final release publication is pending.
 
 **Current release: Alpha 10.5.4 — visual entry points and Athena admission packaging.**
 
@@ -34,6 +41,12 @@ The research program investigates controlled differences in audiovisual structur
 Readers are invited to examine assumptions, identify confounds, propose falsifiable alternatives and attempt replication. Historical documents retain their original context; their preservation is not a declaration that every proposed mechanism is supported.
 
 [Research program](research/README.md) · [Theory library](research/theory/README.md) · [Protocols](research/protocols/README.md) · [Measures](research/measures/README.md) · [Studies](research/studies/README.md)
+
+[Opto-PING](research/optoping/README.md) · [Ladders and rungs](research/ladders/README.md) · [Reproducibility programs](research/reproducibility/README.md)
+
+[Research concepts and definitions](research/concepts/README.md) · [Algorithms, inputs and implementation versions](research/algorithms/README.md)
+
+The research indexes bring the preserved Opto-PING Rungs 0J–0O, external reproduction handoff, null controls, calibration and locked reproduction back into the main navigation. Earlier rungs described in the source documents remain visible with their artifact availability stated explicitly. See the [combined repository update](docs/updates/2026-10-14-public-workflow-release.md) and its [preserved research review](docs/updates/2026-10-13-public-research-update.md) for coverage and remaining gaps.
 
 ## Repository layout
 

@@ -1,22 +1,28 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current PRAYCG Workbench / Control Center release: Alpha 10.5.4**
+**Published PRAYCG Workbench / Control Center release: Alpha 10.5.4**
 
-**Document revision:** 2.3 · **Updated:** 9 October 2026
+**Sealed local update: Public Alpha 11.2.2; GitHub publication pending. Preserved source/bibliography review: Public Alpha 11.2.1.**
+
+**Document revision:** 2.5 · **Updated:** 14 October 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
 PRAYCG brings together original project software, scientific methods, public research paradigms and independently maintained software. This page credits those contributions and gives researchers a single reference for citing the parts of PRAYCG they use.
 
-This page adds a current-release supplement to the preserved Alpha 10.2.1 attribution review. The historical dependency lists, hardware review, protocol and module counts, source comparisons and environment inventories below retain their original dates and scope. They are not a complete inventory of Alpha 10.5.2. Source author lists and historical protocol identities are retained. A project's appearance here does not imply its authors' affiliation with, endorsement of, or review of PRAYCG.
+This page adds version-specific supplements to the preserved Alpha 10.2.1 attribution review. The historical dependency lists, hardware review, protocol and module counts, source comparisons and environment inventories below retain their original dates and scope. They are not a complete inventory of later releases. Source author lists and historical protocol identities are retained. A project's appearance here does not imply its authors' affiliation with, endorsement of, or review of PRAYCG.
 
 The historical revision 2 added an artifact-level inventory, preserved upstream notices, commit-pinned source comparisons and reviewed estimator definitions. Its accompanying **Attribution Update v1** implemented new-run credits in the development source. It was a separately identified source update, not a claim that these features were already present in the original Alpha 10.2.1 download. That original archive remains unchanged. Revision 2.1 documents the bundled recorder and newer exploratory methods in Alpha 10.5.2 without extending the historical audit's coverage. Revision 2.2 adds the Alpha 10.5.3 Visual Analysis supplement while retaining those earlier records and scopes.
 
 Revision 2.3 adds the Alpha 10.5.4 calibration and admission-packaging supplement. Earlier supplements, citations and evidence retain their version-specific scope.
 
+Revision 2.4 adds the proposed Public Alpha 11.2.1 software and bibliography review, including NeuroKit2, PyWavelets and mne-denoise, and identifies EEGLAB's external-reference status. It preserves the new package's existing upstream notices without changing that package or historical research records. See the [current bibliography](research/bibliography/README.md) and [dated attribution evidence](docs/attribution/alpha-11.2.1/README.md).
+
 ## Contents
 
+- [Public Alpha 11.2.2 release supplement](#public-alpha-1122-release-supplement)
 - [How to cite PRAYCG and a study](#how-to-cite-praycg-and-a-study)
+- [Proposed Public Alpha 11.2.1 attribution supplement](#proposed-public-alpha-1121-attribution-supplement)
 - [Alpha 10.5.4 calibration and admission supplement](#alpha-1054-calibration-and-admission-supplement)
 - [Alpha 10.5.3 Visual Analysis supplement](#alpha-1053-visual-analysis-supplement)
 - [Alpha 10.5.2 attribution supplement](#alpha-1052-attribution-supplement)
@@ -35,9 +41,33 @@ Revision 2.3 adds the Alpha 10.5.4 calibration and admission-packaging supplemen
 
 ## How to cite PRAYCG and a study
 
-Suggested citation when using the current release:
+For Public Alpha 11.2.2, cite the edition and actual distribution used, and add its final release URL only after publication:
+
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.2.2; 1.0.0-alpha.11.2.2) [Computer software].
+
+## Public Alpha 11.2.2 release supplement
+
+The [11.2.2 release guide](workbench/docs/releases/alpha-11.2.2/README.md) describes workflow repairs and their verification boundaries. The [11.2.1 attribution review](docs/attribution/alpha-11.2.1/README.md) remains an unchanged historical source review; it is not a new file-by-file clearance of 11.2.2. Its NeuroKit2, PyWavelets, mne-denoise, method references and exact retained upstream notices continue to apply where those components and methods are actually used. EEGLAB remains external/reference-only, not a newly integrated backend.
+
+The protocol-rating credits correction proposed in the historical review is applied in this release. Fresh managed-wrapper checks exercise the corrected observer metadata and worker launch; they do not backfill old executions. The [11.2.2 attribution snapshot](docs/attribution/alpha-11.2.2/README.md) records the new package separately from the unchanged 11.2.1 proposal and registry. Preserve execution state and actual module use when aggregating Methods and Credits. A planned, skipped, failed or unavailable analysis must not be presented as a completed numerical result merely because a citation exists.
+
+The optional [seven-film and original Lantern installer](workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) preserves source-edition hashes, attribution and license/permission records separately from method citations. The seven-film archive is the recorded public subset; the four unresolved editions in the eleven-master catalog are not included. The installer-ready Lantern companion preserves the original CC0 master bytes and notice. Historical media preparation records retain their original status and do not qualify a new study.
+
+Original PRAYCG authorship does not transfer rights over upstream software, native libraries, wheels or films. Retain applicable notices in each distribution; do not replace them with this bibliography or claim endorsement. This patch does not assert a repository-wide source-similarity audit, complete transitive-wheel inventory, clinical validation or comprehensive legal clearance.
+
+The scientific originals, marker identities, historical result files and versioned attribution evidence remain unchanged. Citation-display improvements and explanatory derivatives cannot retroactively validate an experiment or silently redefine a measure.
+
+### Earlier citation identities
+
+Suggested citation when using the published Alpha 10.5.4 release:
 
 > Banks, Hoyt. (2026). *PRAYCG Workbench / Control Center* (Alpha 10.5.4; 1.0.0-alpha.10.5.4) [Computer software].
+
+For the inspected local Public Alpha 11.2.1 package, use its own identity and do not imply a GitHub release already exists:
+
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.2.1; 1.0.0-alpha.11.2.1) [Computer software; local distribution].
+
+The [source manifest](workbench/docs/releases/alpha-11.2.1/SOURCE_MANIFEST.json) records the inspected archive and checksum. Replace the local-distribution locator with the actual release/archive URL only when that artifact is published.
 
 When using Alpha 10.5.3, retain its version-specific citation:
 
@@ -60,6 +90,22 @@ For a PRAYCG-defined protocol, use:
 > Banks, Hoyt. (2026). *[Protocol title]* ([protocol identifier], version [version]) [PRAYCG protocol definition]. In *PRAYCG Workbench / Control Center*, [release actually used].
 
 The bracketed fields are filled from the study's locked definition. For a third-party adaptation, retain the original authors' citation alongside this PRAYCG implementation credit.
+
+## Proposed Public Alpha 11.2.1 attribution supplement
+
+The package already contains a Signal Review attribution addendum, six upstream notice files, denoising method records and new active attribution-registry entries. This repository supplement makes those records accessible alongside the older review. The [dated evidence page](docs/attribution/alpha-11.2.1/README.md) distinguishes exact copied package files from newly written bibliography guidance.
+
+| Component | Inspected requirement and contribution | Attribution boundary |
+| --- | --- | --- |
+| NeuroKit2 | `neurokit2==0.2.13`; ECG detector comparisons, candidate beat correction, time-domain HRV reference and respiration reference processing | Credit Makowski and colleagues (2021), plus the specific methods used. The preserved MIT license and AUTHORS record remain applicable. |
+| PyWavelets | `PyWavelets==1.9.0`; required to support the NeuroKit2 environment | Credit Lee and colleagues (2019) when used. Preserve its main MIT license and bundled NumPy/SciPy notices; installation alone does not establish execution of a wavelet method. |
+| mne-denoise | `mne-denoise==0.0.3`; actual `SpectrumInterpolation` and fixed-selection `ZapLine` implementations | Credit the software contributors and Leske & Dalal (2019) or de Cheveigné (2020) for the selected method. Preserve the BSD-3-Clause notice. No claim that all methods offered by this library run in PRAYCG. |
+| PyJWT | `PyJWT[crypto]>=2.8,<3`; account/authentication support | This requirement is a range. The dated evidence page separately preserves notices for observed PyJWT 2.15.1 and cryptography 50.0.2; these are local environment observations, not release-wide pins or files copied from the application ZIP. |
+| EEGLAB | External software reference; no bundled EEGLAB implementation or direct EEGLAB execution route identified in this package review | Retain Delorme & Makeig (2004) as the reference when discussing or independently using EEGLAB. LabRecorder's mention of an EEGLAB XDF importer and historical MNE optional I/O metadata are not evidence of an EEGLAB analysis. |
+
+The [bibliography and method-to-source table](research/bibliography/README.md) provide the full references, official sources and implementation distinctions. Pan–Tompkins detection and the Lipponen–Tarvainen correction implemented by NeuroKit2 have their own method citations; the latter does not imply that Kubios software is bundled. Respiration reference methods are likewise credited separately from PRAYCG's own relative-signal review and exploratory phase/RR regression. Spectrum interpolation, ZapLine and Welch spectra retain their original method lineage. PRAYCG integration and review interfaces do not transfer authorship of those methods to PRAYCG.
+
+This is a focused dependency and bibliography update. It does not refresh every legacy estimator's source review, resolve historical code provenance, or make every citation an automatically verified executed-method record. The [coverage and remaining gaps](docs/attribution/alpha-11.2.1/README.md#coverage-and-remaining-gaps) state the limits. Historical records below remain version-specific; the inspected application archive is unchanged.
 
 ## Alpha 10.5.4 calibration and admission supplement
 
@@ -531,6 +577,8 @@ A comprehensive historical copy/paste audit remains unresolved. No complete sour
 
 ## Automatic Methods and Credits
 
+The following describes the historical Attribution Update v1. For the newer active registry and Signal Review coverage, use the [Public Alpha 11.2.1 supplement](docs/attribution/alpha-11.2.1/README.md). The historical 23-module count is not the current Workbench module count.
+
 Attribution Update v1 adds a versioned registry covering all 23 analysis module identifiers. Each record exposes the entry point, static import candidates and method-review status. Fourteen method records describe the reviewed EEG implementations, with source hashes, function names, scientific lineage and material differences. [Reviewed analysis methods](docs/attribution/ANALYSIS_METHODS.md) contains the readable definitions and references; [the registry](docs/attribution/attribution_registry_v1.json) is the machine-readable counterpart.
 
 New managed Analysis Forge launches run an observer in the selected worker interpreter. It records:
@@ -561,6 +609,8 @@ Remaining work is specific: establish historical provenance for unresolved sourc
 Submit attribution corrections through the project's public issue tracker or repository contribution process, identifying the component, exact version, primary source and requested correction. Preserve original notices while a correction is reviewed.
 
 ## Document provenance
+
+Revision 2.4 was prepared from the exact Public Alpha 11.2.1 archive, its requirements, active attribution registry, Signal Review implementations, method records and preserved notices, with primary software citation pages checked on 13 October 2026. The [source manifest](docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json) binds selected evidence to archive bytes. The new [research bibliography](research/bibliography/README.md) supplies a current reading and citation index; preserved manuscripts and earlier bibliographies are unchanged.
 
 The preserved revision 2 review was prepared from the Alpha 10.2.1 source tree, the 67-entry protocol attribution registry, the 16-record verified protocol-source registry, the 23-module execution registry, Core/Live Monitor/hardware requirements and the hardware-source evidence record. The older analysis/Live Monitor review covered an Alpha 10.0.3 baseline; its observations are distinguished here from the later hardware records and implementation checks.
 

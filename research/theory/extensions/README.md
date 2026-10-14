@@ -4,6 +4,8 @@ This guide connects the broad framework to versioned developments in the preserv
 
 [Theory index](../README.md) · [Foundations](../foundations/README.md) · [Full measures index](../../measures/README.md)
 
+Read the [concept explanations](../../concepts/README.md) alongside the [algorithm implementation guide](../../algorithms/README.md) for the inputs, calculations, outputs and limitations behind these names. Method versions and current software implementations are identified separately.
+
 | Topic | Original documents |
 | --- | --- |
 | Human-scale network-state framing | [Topo-OSM reformulation v1.4.7](../../measures/originals/master-suite-v1-5-5/TOPO_OSM_NETWORK_STATE_REFORMULATION_v1_4_7.md) · [claim boundary](../../measures/originals/master-suite-v1-5-5/TOPO_OSM_CLAIM_BOUNDARY_v1_4_7.md) |

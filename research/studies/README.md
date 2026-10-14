@@ -4,11 +4,13 @@ This collection preserves exploratory human pilot outputs, versioned analysis re
 
 [Research entrance](../README.md) · [Measures](../measures/README.md) · [Research roadmap](../roadmap.md)
 
+[Opto-PING research](../optoping/README.md) · [Ladders and rungs](../ladders/README.md) · [Reproducibility programs and run instructions](../reproducibility/README.md)
+
 | Collection | Start here | Interpretation |
 | --- | --- | --- |
 | Contact public pilot | [Original README](contact-pilot/README.md) · [pilot context](../ethics-and-claim-boundaries/originals/contact_gold_plated_not_gold_record.md) | Derived outputs from a self-run; explicitly not confirmatory evidence |
 | Versioned analysis reports | [Report index](reports/README.md) | Arrival, Contact, Field of Dreams, and cross-run analysis packages |
-| Opto-PING Rung 0 | [Original README](optoping-rung0/README.md) | Synthetic identifiability and specificity tests, Rungs 0J–0O |
+| Opto-PING Rung 0 | [Research hub and rung index](../optoping/README.md) · [Original README](optoping-rung0/README.md) | Synthetic identifiability and specificity tests, Rungs 0J–0O; earlier documented stages have their availability recorded separately |
 | NUPI framework companion | [Preserved update package](../collections/public-docs/Framework_NUPI_Update_v0_5/README_NUPI_Framework_Update_v0_5.md) | Framework register, report, tables, and reproduction script retained together |
 
 The Contact public folder excludes the copyrighted stimulus video and raw XDF. Its derived outputs help inspect table conventions, visualization, and interpretation. Read the [public data boundary](../ethics-and-claim-boundaries/originals/public_data_boundary.md) before sharing further material.

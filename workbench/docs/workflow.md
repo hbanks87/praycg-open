@@ -1,4 +1,25 @@
-# Study workflow in Alpha 10.5.4
+# Study workflow
+
+## Public Alpha 11.2.2 workflow
+
+The [11.2.2 release guide](releases/alpha-11.2.2/README.md) records current build/publication status. Keep the exact version with a study; older release behavior is documented below rather than silently rewritten.
+
+1. **Study and protocol.** Create or select the persistent workspace, then select a shipped or reviewed imported protocol. A successful AI return installs a reviewed declarative proposal, not new hardware or arbitrary analysis code. Review required materials and hardware before acquisition.
+2. **Materials.** Choose a master or install the optional seven-film and original Lantern packages. Refresh installed masters, select one and prepare the protocol's required variants, cues, fingerprints and review records. A protocol requiring forward, retrograde and ambient movies still needs those actual assets; merely importing its definition does not construct them.
+3. **Connect, record and run.** Select the real device profile, verify required streams, resolve identity/ownership/operational issues, start LabRecorder and run the protocol. Record actual eye/activity instructions and condition events. Do not infer what happened from a protocol title or folder name. Stop LabRecorder so the XDF closes before analysis.
+4. **Analyze.** Open the completed recording. Run recommended analyses or choose modules. Required integrity and signal reviews establish what is available. Distinguish a finished worker from a supported endpoint; narrower descriptions cannot silently unlock a stricter prerequisite.
+5. **Visual Analysis.** Start with the views available for the selected recording and verified saved outputs. Open saved TFR, measured sensor maps, traces or raw optical trends without demanding a separate state estimate. Advanced calibrated views explain their additional requirements. An unavailable state metric must not hide an otherwise available TFR pane.
+6. **Results and explanation.** Read the individual native reports and local study summary. Generate an AI explanation only when wanted and configured. Numerical claims should identify their source, electrodes, support, units and screening scope. Missing ECG, respiration, calibration or optical mapping stays explicit; useful EEG/optical descriptions remain available.
+7. **Ratings.** For a protocol with a supported rating contract, use the recommended native rating analysis. Read response selection, exclusions, missing windows, ordinal-category comparisons and scoring version. Newly specified rules applied to older records are post hoc. Do not borrow another protocol's question labels or contrasts.
+8. **Share.** Review the bundle contents, consent, identifiers, media rights and file ledger. Public bundles, private full-telemetry bundles and AI evidence packages serve different purposes. Exporting or hashing a file does not grant permission to publish it.
+
+The public Assistant can explain saved evidence and draft supported protocol proposals without private extensions. Provider failures do not invalidate successful numerical work. Regenerating an explanation should preserve earlier reports and the locked analysis history.
+
+Use **Recording conditions (optional)** for explicit eye/activity context, including a short note for mixed conditions or activities not represented by the broad categories. Unknown stays unknown. These annotations are post-hoc operator reports, not measured or independently verified conditions. Revisions preserve prior files and source references; names such as “eyes closed” in a task or folder do not automatically populate them.
+
+[Installation](installation.md) · [Optional stimuli](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) · [Hardware and endpoint limits](hardware-support.md)
+
+## Preserved Alpha 10.5.4 workflow
 
 Start with the [current installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md). Alpha 10.5.4 repairs Visual Analysis entry points, recorded source selection and Athena profile validation. It retains the shared recording cursor across PRAYCG 3 Review, Time–Frequency, State landscape and Timescale inspector. The existing Analysis Forge **Recording → Analyze → Results** workflow, Gamma Scalpel 2.0 and optical exploration remain available.
 

@@ -1,0 +1,1614 @@
+{
+  "schema": "PRAYCG_AttributionRegistry_v1",
+  "revision": "1.1.1-alpha11.2.1",
+  "migration": "ADDITIVE_NEW_EXECUTIONS_ONLY_NO_HISTORICAL_BACKFILL",
+  "modules": {
+    "signal_quality_review_v1_0": {
+      "methods": [
+        "signal_review_quality_scopes"
+      ],
+      "entry": "tools/Signal_Review_v1_0/review_service.py",
+      "declared_import_roots": [
+        "numpy",
+        "scipy",
+        "neurokit2",
+        "pywt",
+        "mne_denoise",
+        "pyxdf"
+      ],
+      "declaration_boundary": "Static candidates only. Runtime distribution imports and function entry do not prove successful numerical completion. Read result status; inline denoising candidate status is retained in its comparison report.",
+      "method_coverage": "FIRST_CYCLE_OPERATIONAL_REVIEW_NOT_ENDPOINT_VALIDATION"
+    },
+    "ecg_heartbeat_hrv_review_v1_0": {
+      "methods": [
+        "signal_review_quality_scopes",
+        "signal_review_rr_adjacency",
+        "signal_review_neurokit_ecg",
+        "signal_review_neurokit_hrv"
+      ],
+      "entry": "tools/Signal_Review_v1_0/review_service.py",
+      "declared_import_roots": [
+        "numpy",
+        "scipy",
+        "neurokit2",
+        "pywt",
+        "mne_denoise",
+        "pyxdf"
+      ],
+      "declaration_boundary": "Static candidates only. Runtime distribution imports and function entry do not prove successful numerical completion. Read result status; inline denoising candidate status is retained in its comparison report.",
+      "method_coverage": "FIRST_CYCLE_OPERATIONAL_REVIEW_NOT_ENDPOINT_VALIDATION"
+    },
+    "respiration_rsa_review_v1_0": {
+      "methods": [
+        "signal_review_quality_scopes",
+        "signal_review_rr_adjacency",
+        "signal_review_relative_respiration",
+        "signal_review_neurokit_respiration",
+        "signal_review_measured_rsa"
+      ],
+      "entry": "tools/Signal_Review_v1_0/review_service.py",
+      "declared_import_roots": [
+        "numpy",
+        "scipy",
+        "neurokit2",
+        "pywt",
+        "mne_denoise",
+        "pyxdf"
+      ],
+      "declaration_boundary": "Static candidates only. Runtime distribution imports and function entry do not prove successful numerical completion. Read result status; inline denoising candidate status is retained in its comparison report.",
+      "method_coverage": "FIRST_CYCLE_OPERATIONAL_REVIEW_NOT_ENDPOINT_VALIDATION"
+    },
+    "line_noise_comparison_v1_0": {
+      "methods": [
+        "signal_review_quality_scopes",
+        "signal_review_current_transform",
+        "signal_review_welch_comparison",
+        "signal_review_spectrum_interpolation",
+        "signal_review_fixed_zapline"
+      ],
+      "entry": "tools/Signal_Review_v1_0/review_service.py",
+      "declared_import_roots": [
+        "numpy",
+        "scipy",
+        "neurokit2",
+        "pywt",
+        "mne_denoise",
+        "pyxdf"
+      ],
+      "declaration_boundary": "Static candidates only. Runtime distribution imports and function entry do not prove successful numerical completion. Read result status; inline denoising candidate status is retained in its comparison report.",
+      "method_coverage": "FIRST_CYCLE_OPERATIONAL_REVIEW_NOT_ENDPOINT_VALIDATION"
+    },
+    "zuna_muse_reconstruction_v1_0": {
+      "methods": [
+        "zuna_muse_sparse_reconstruction"
+      ],
+      "entry": "tools/Zuna_Muse_Reconstruction_v1_0/praycg_zuna_muse_reconstruction_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "hashlib",
+        "html",
+        "inspect",
+        "json",
+        "numpy",
+        "pathlib",
+        "praycg_zuna_eeg_reconstruction_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "time",
+        "zuna_adapter",
+        "zuna_diagnostics"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions and observed function entry are recorded separately. No model execution is implied by module registration.",
+      "method_coverage": "PRAYCG_SPARSE_PROTOCOL_OPERATIONAL_DEFINITION_NOT_MODEL_EFFICACY_VALIDATION"
+    },
+    "run_integrity_timing_qc_v0_1": {
+      "methods": [],
+      "entry": "tools/Analysis_Orchestrator_v0_1/praycg_run_integrity_qc_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "praycg_external_stream_binding_v1_0",
+        "pyxdf",
+        "re",
+        "sys",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "atlas_meditation_vs_thinking_v0_1": {
+      "methods": [],
+      "entry": "tools/Atlas_Meditation_Analysis_v0_1/praycg_atlas_meditation_analysis_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "master_comprehensive_suite_v1_6_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "full_chained_analysis_v1_6_1": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "hocr_shotorder_v1_6_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "confound_expansion_v1_5_7": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "cai_sid_exploratory_v0_2": {
+      "methods": [],
+      "entry": "tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_managed_v0_2.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "importlib",
+        "json",
+        "math",
+        "numpy",
+        "pandas",
+        "pathlib",
+        "platform",
+        "sys",
+        "traceback",
+        "types",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "continuous_autonomic_respdualpath_v1_0": {
+      "methods": [],
+      "entry": "tools/Continuous_Autonomic_RespDualPath_v1_0/scripts/praycg_continuous_autonomic_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "threading",
+        "tkinter",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "micro_handoff_v0_1": {
+      "methods": [],
+      "entry": "tools/Micro_Handoff_v0_1/scripts/praycg_micro_handoff_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "json",
+        "micro_handoff_core_v0_1",
+        "pathlib",
+        "sys"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "cue_locked_gamma_forensics_v0_1": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "master_sync_visualizer_v1_4_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "offline_master_interpreter_v1_6_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "eeg_signal_quality_v0_1": {
+      "methods": [
+        "welch"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_preprocessing_derivative_v0_1": {
+      "methods": [],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_spectral_aperiodic_v0_1": {
+      "methods": [
+        "welch",
+        "aperiodic"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_erp_time_frequency_v0_1": {
+      "methods": [
+        "erp"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_connectivity_pac_v0_1": {
+      "methods": [
+        "connectivity",
+        "pac",
+        "bh"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_complexity_v0_1": {
+      "methods": [
+        "sample_entropy",
+        "permutation_entropy",
+        "lz",
+        "spectral_entropy"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_microstates_v0_1": {
+      "methods": [
+        "microstates"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_motor_imagery_v0_1": {
+      "methods": [
+        "csp",
+        "lda"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_sensor_rsa_v0_1": {
+      "methods": [
+        "rsa"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "torcheeg_research_sandbox_v0_1": {
+      "methods": [],
+      "entry": "tools/TorchEEG_Research_Sandbox_v0_1/praycg_torcheeg_research_sandbox_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "importlib",
+        "json",
+        "pathlib",
+        "re",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "atlas_research_analysis_v1_0": {
+      "methods": [],
+      "entry": "tools/Atlas_Research_Analysis_v1_0/scripts/praycg_atlas_research_analysis_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "statistics",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "eeg_athena_descriptive_v1_0": {
+      "methods": [
+        "welch",
+        "athena_four_site_descriptive"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_OPERATIONAL_RECIPE"
+    },
+    "zuna_eeg_reconstruction_v1_0": {
+      "methods": [],
+      "entry": "tools/Zuna_EEG_Reconstruction_v1_0/praycg_zuna_eeg_reconstruction_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "fractions",
+        "hashlib",
+        "html",
+        "importlib",
+        "inspect",
+        "json",
+        "mne",
+        "numpy",
+        "pathlib",
+        "praycg_eeg_analysis_modules_v0_1",
+        "scipy",
+        "sys",
+        "typing",
+        "zuna_adapter",
+        "zuna_exploratory",
+        "zuna_optical_analysis",
+        "zuna_optical_binding",
+        "zuna_reporting",
+        "zuna_timing_policy"
+      ],
+      "method_coverage": "METHOD_REVIEW_PENDING",
+      "limitations": "Retained sixteen-channel worker inventory only. Its protocol citations and own provenance remain separate; this observer registry does not establish method review or model efficacy."
+    },
+    "zuna_signal_review_v1_0": {
+      "methods": [],
+      "entry": "tools/Zuna_Signal_Review_v1_0/praycg_zuna_signal_review_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "fractions",
+        "hashlib",
+        "html",
+        "importlib",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_eeg_analysis_modules_v0_1",
+        "pyxdf",
+        "scipy",
+        "shutil",
+        "signal_review_comparison_v1_1",
+        "signal_review_report",
+        "sys",
+        "zuna_masked_adapter_v1_0"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions and observed function entry are recorded separately. No model execution is implied by module registration.",
+      "method_coverage": "EXPERIMENTAL_TARGETED_MASKED_PROCESSING_NOT_MODEL_EFFICACY_VALIDATION"
+    },
+    "eeg_spectral_conventional_review_v1_0": {
+      "methods": [
+        "welch",
+        "aperiodic"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_spectral_zuna_review_v1_0": {
+      "methods": [
+        "welch",
+        "aperiodic"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_complexity_conventional_review_v1_0": {
+      "methods": [
+        "sample_entropy",
+        "permutation_entropy",
+        "lz",
+        "spectral_entropy"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_complexity_zuna_review_v1_0": {
+      "methods": [
+        "sample_entropy",
+        "permutation_entropy",
+        "lz",
+        "spectral_entropy"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_athena_calibration_v1_0": {
+      "methods": [
+        "welch",
+        "athena_four_site_descriptive"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "praycg_athena_calibration_v1_0",
+        "praycg_athena_quality_v1_2",
+        "praycg_eeg_respiration_diagnostic_v1_0",
+        "praycg_zuna_signal_review_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_ENGINEERING_SENSITIVITY"
+    },
+    "eeg_time_frequency_explorer_v1_0": {
+      "methods": [
+        "explorer_hann_periodogram",
+        "explorer_supported_morlet"
+      ],
+      "entry": "tools/Time_Frequency_Explorer_v1_0/praycg_time_frequency_explorer_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "json",
+        "numpy",
+        "pathlib",
+        "praycg_eeg_analysis_modules_v0_1",
+        "praycg_time_frequency_core_v1_0",
+        "praycg_time_frequency_exports_v1_0",
+        "praycg_time_frequency_signal_review_v1_0",
+        "praycg_xdf_replay_v1_0",
+        "pyxdf",
+        "sys"
+      ],
+      "declaration_boundary": "Static candidates only. Runtime versions and observed function entry are recorded separately; registration does not imply model inference.",
+      "method_coverage": "REVIEWED_EXPLORATORY_NUMERICAL_METHODS_NOT_PHYSIOLOGICAL_VALIDATION"
+    },
+    "optical_signal_review_v1_0": {
+      "methods": [
+        "optical_raw_review",
+        "optical_verified_relative_hemoglobin",
+        "explorer_hann_periodogram",
+        "optical_instrument_profile_binding"
+      ],
+      "entry": "tools/Optical_Signal_Review_v1_0/praycg_optical_signal_review_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "pathlib",
+        "praycg_eeg_analysis_modules_v0_1",
+        "praycg_optical_profiles_v1_0",
+        "praycg_time_frequency_core_v1_0",
+        "praycg_time_frequency_explorer_v1_0",
+        "praycg_xdf_replay_v1_0",
+        "pyxdf",
+        "sys"
+      ],
+      "declaration_boundary": "Recorded optical source and method provenance only. Registration does not validate anatomy, concentration assumptions or physiological interpretation.",
+      "method_coverage": "REVIEWED_EXPLORATORY_OPTICAL_METHODS_NOT_PHYSIOLOGICAL_VALIDATION"
+    },
+    "gamma_scalpel_v2_0": {
+      "methods": [
+        "gamma_measured_reference_review"
+      ],
+      "entry": "tools/Gamma_Scalpel_v2_0/praycg_gamma_scalpel_v2_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "itertools",
+        "json",
+        "matplotlib",
+        "numpy",
+        "pathlib",
+        "praycg_eeg_analysis_modules_v0_1",
+        "praycg_xdf_replay_v1_0",
+        "pyxdf",
+        "scipy",
+        "sys"
+      ],
+      "method_coverage": "REVIEWED_EXPLORATORY_NUMERICAL_AND_REFERENCE_CONTRACTS",
+      "declaration_boundary": "Measured-electrode descriptive gamma and recorded reference screening. No automatic subtraction, neural-origin, regional or meaning validation."
+    },
+    "protocol_ratings_v0_1": {
+      "methods": [
+        "protocol_rating_last_valid_v0_1"
+      ],
+      "entry": "tools/Protocol_Ratings_Analysis_v0_1/protocol_ratings.py",
+      "declared_import_roots": [
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "declaration_boundary": "PRAYCG operational response-selection rule, not an externally validated psychological measure.",
+      "method_coverage": "VERSIONED_OPERATIONAL_DEFINITION_NO_CONFIRMATORY_AUTHORITY"
+    }
+  },
+  "methods": {
+    "signal_review_quality_scopes": {
+      "name": "Signal support and descriptive quality review",
+      "source": "tools/Signal_Review_v1_0/review_service.py",
+      "source_sha256": "38b6358fce0ebcabb0e6722f7a5cf94377a34e2ea7ab5997c8756ab20bc2b7d8",
+      "functions": [
+        "quality_review"
+      ],
+      "definition": "Channel, pair and selected-group support is reviewed with original timestamps, exclusions and gaps. Review thresholds and accepted masks remain recorded PRAYCG operational choices.",
+      "limitations": "Review indicators are not validated clinical thresholds or endpoint certification.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": []
+    },
+    "signal_review_rr_adjacency": {
+      "name": "Accepted original-adjacency interval summaries",
+      "source": "tools/Signal_Review_v1_0/physiology.py",
+      "source_sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "functions": [
+        "rr_evidence",
+        "interval_metrics"
+      ],
+      "definition": "Preserve interval decisions and original indices; calculate accepted interval summaries and successive differences only for eligible original neighbors.",
+      "limitations": "Not a certification that accepted intervals are artifact-free normal-to-normal intervals; short-window dispersion is not interchangeable with full-session HRV.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": []
+    },
+    "signal_review_neurokit_ecg": {
+      "name": "NeuroKit2 ECG detector comparison",
+      "source": "tools/Signal_Review_v1_0/physiology.py",
+      "source_sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "functions": [
+        "_ecg_review"
+      ],
+      "definition": "Compare neurokit and pantompkins1985 ECG detector routes; retain averageQRS quality and candidate artifact-correction evidence. Corrections are not silently adopted.",
+      "limitations": "Wrapper entry does not establish that every detector completed. Detector agreement is not ground truth.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": [
+        {
+          "id": "neurokit2_2021",
+          "citation": "Makowski et al. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing. Behavior Research Methods.",
+          "url": "https://doi.org/10.3758/s13428-020-01516-y"
+        },
+        {
+          "id": "pan_tompkins_1985",
+          "citation": "Pan and Tompkins (1985). A real-time QRS detection algorithm. IEEE Transactions on Biomedical Engineering.",
+          "url": "https://doi.org/10.1109/TBME.1985.325532"
+        }
+      ]
+    },
+    "signal_review_neurokit_hrv": {
+      "name": "NeuroKit2 time-domain HRV reference",
+      "source": "tools/Signal_Review_v1_0/physiology.py",
+      "source_sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "functions": [
+        "_nk_hrv"
+      ],
+      "definition": "Call NeuroKit2 hrv_time with explicit RRI and RRI_Time evidence subject to the recorded adjacency/window contract.",
+      "limitations": "No frequency-domain or nonlinear HRV is implied. Read eligibility and completion status before interpreting output.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": [
+        {
+          "id": "neurokit2_2021",
+          "citation": "Makowski et al. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing. Behavior Research Methods.",
+          "url": "https://doi.org/10.3758/s13428-020-01516-y"
+        }
+      ]
+    },
+    "signal_review_relative_respiration": {
+      "name": "Relative measured-respiration trace",
+      "source": "tools/Signal_Review_v1_0/physiology.py",
+      "source_sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "functions": [
+        "respiration_trace"
+      ],
+      "definition": "PRAYCG bandpass and Hilbert-phase review within supported continuous pieces, preserving original time support and relative amplitude.",
+      "limitations": "Belt amplitude is not calibrated airflow or volume; phase is quality masked. No endpoint validation.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": []
+    },
+    "signal_review_neurokit_respiration": {
+      "name": "NeuroKit2 respiration reference pipeline",
+      "source": "tools/Signal_Review_v1_0/physiology.py",
+      "source_sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "functions": [
+        "_resp_nk"
+      ],
+      "definition": "Within supported pieces, call rsp_process(method='khodadad2018', method_rvt='harrison2021'); preserve any explicit resampling and unavailable-piece status.",
+      "limitations": "Configured route names do not validate a given belt as an airflow measurement; no calibrated volume claim.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": [
+        {
+          "id": "neurokit2_2021",
+          "citation": "Makowski et al. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing. Behavior Research Methods.",
+          "url": "https://doi.org/10.3758/s13428-020-01516-y"
+        },
+        {
+          "id": "neurokit2_rsp_api",
+          "citation": "NeuroKit2 respiration API. PRAYCG pins NeuroKit2 0.2.13 and calls khodadad2018 processing with harrison2021 RVT; the configured methods and limitations are retained with each result.",
+          "url": "https://neuropsychology.github.io/NeuroKit/functions/rsp.html"
+        }
+      ]
+    },
+    "signal_review_measured_rsa": {
+      "name": "Measured-respiration first-harmonic RR association",
+      "source": "tools/Signal_Review_v1_0/physiology.py",
+      "source_sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "functions": [
+        "measured_respiration_coupling"
+      ],
+      "definition": "Least-squares RR = intercept + beta_sin*sin(measured phase) + beta_cos*cos(measured phase); report hypot(beta_sin,beta_cos), fit error and supported same-clock window evidence.",
+      "limitations": "PRAYCG exploratory RSA-related coupling, not NeuroKit RSA or a vagal-tone endpoint. Same clock-domain text does not prove negligible clock uncertainty. Not causal.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": []
+    },
+    "signal_review_current_transform": {
+      "name": "Existing recipe transform preview",
+      "source": "tools/Signal_Review_v1_0/denoising.py",
+      "source_sha256": "66794cd4bf1297ed403527ea0361c5658451487ba9410ae0ac0ed5de7a9c7c9e",
+      "functions": [
+        "_current_transform"
+      ],
+      "definition": "Apply the recorded Standard v0.1 or Athena v1.2 recipe filter/reference choices on independent supported pieces. Preserve the recipe hash, parameters, original signal and edge guards.",
+      "limitations": "Transform-only comparison, not full governed derivative QC or endpoint/epoch replay. Unknown route remains unavailable.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": []
+    },
+    "signal_review_welch_comparison": {
+      "name": "Matched-support Welch residual spectra",
+      "source": "tools/Signal_Review_v1_0/denoising.py",
+      "source_sha256": "66794cd4bf1297ed403527ea0361c5658451487ba9410ae0ac0ed5de7a9c7c9e",
+      "functions": [
+        "_matched_spectra"
+      ],
+      "definition": "Four-second Hann windows with 50% overlap and shared frequency grid. Estimate each supported continuous piece separately and weight piece spectra by window counts without joining gaps.",
+      "limitations": "Attenuation and off-band change are descriptive; reduced line power does not establish improved neural validity.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": [
+        {
+          "id": "welch_1967",
+          "citation": "Welch (1967). The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms.",
+          "url": "https://doi.org/10.1109/TAU.1967.1161901"
+        }
+      ]
+    },
+    "signal_review_spectrum_interpolation": {
+      "name": "SpectrumInterpolation candidate, mne-denoise 0.0.3",
+      "source": "tools/Signal_Review_v1_0/denoising.py",
+      "source_sha256": "66794cd4bf1297ed403527ea0361c5658451487ba9410ae0ac0ed5de7a9c7c9e",
+      "functions": [],
+      "definition": "Real upstream SpectrumInterpolation with recorded frequency, harmonics, bandwidth half-width and neighbor width; no reconstructed samples replace the original.",
+      "limitations": "DECLARED_ONLY in function-entry credits because the upstream call is inline. Read per-candidate/per-segment comparison status for execution evidence. No endpoint-validation or automatic adoption.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": [
+        {
+          "id": "leske_dalal_2019",
+          "citation": "Leske and Dalal (2019). Reducing power line noise in EEG and MEG data via spectrum interpolation. NeuroImage 189, 763–776. Used through mne-denoise 0.0.3 with recorded parameters.",
+          "url": "https://doi.org/10.1016/j.neuroimage.2019.01.026"
+        }
+      ]
+    },
+    "signal_review_fixed_zapline": {
+      "name": "Fixed-selection ZapLine candidate, mne-denoise 0.0.3",
+      "source": "tools/Signal_Review_v1_0/denoising.py",
+      "source_sha256": "66794cd4bf1297ed403527ea0361c5658451487ba9410ae0ac0ed5de7a9c7c9e",
+      "functions": [],
+      "definition": "Real upstream ZapLine with recorded n_select and adaptive=False on supported continuous pieces; not ZapLine-plus.",
+      "limitations": "DECLARED_ONLY in function-entry credits because the upstream call is inline. Read per-candidate/per-segment comparison status for execution evidence. Spatial subtraction can remove true activity; no automatic adoption.",
+      "verification": "SOURCE_CONFIGURATION_REVIEW_AND_SYNTHETIC_CONTRACT_TESTS_NOT_ENDPOINT_VALIDATION",
+      "references": [
+        {
+          "id": "decheveigne_zapline_2020",
+          "citation": "de Cheveigné (2020). ZapLine: A simple and effective method to remove power line artifacts. NeuroImage 207, 116356. PRAYCG uses fixed-selection mne-denoise 0.0.3, not ZapLine-plus.",
+          "url": "https://doi.org/10.1016/j.neuroimage.2019.116356"
+        }
+      ]
+    },
+    "zuna_muse_sparse_reconstruction": {
+      "name": "Muse S Athena fixed four-fold sparse reconstruction comparison",
+      "source": "tools/Zuna_Muse_Reconstruction_v1_0/praycg_zuna_muse_reconstruction_v1_0.py",
+      "source_sha256": "8f8c9c5c0c6770fef004eb1b8741d4a23f64d2209ff98ee6c1c6b81f4c146789",
+      "functions": [
+        "run_comparison"
+      ],
+      "definition": "PRAYCG operational study: withhold each of TP9, AF7, AF8 and TP10 once, retaining the other three measured native channels. Compare generated estimates with withheld measurements, spherical-spline and fixed-zero predictions on the same eligible masks. Normalize only from retained inputs; do not use a digital four-channel common average that includes the hidden target. Report absolute and target-variance-normalized error without treating folds/windows as independent participants.",
+      "limitations": "Only three retained electrodes support each spline estimate; poor sparse interpolation is not a strong ground-truth baseline and beating it alone does not establish useful reconstruction. Generated channels are estimates, not measured or noise-free neural ground truth. The PRAYCG task/preparation differs from upstream validation; no physical Muse test, clean-signal restoration, population efficacy or live decoding follows from these software checks.",
+      "verification": "PRAYCG_OPERATIONAL_DEFINITION_AND_SYNTHETIC_CONTRACT_TESTS_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "zyphra_zuna",
+          "citation": "Zyphra. Zuna EEG foundation model and inference software. Exact installed revision and assets are recorded in the model lock and execution provenance.",
+          "url": "https://github.com/Zyphra/zuna"
+        },
+        {
+          "id": "mne_spherical_spline",
+          "citation": "MNE-Python interpolate_bads documentation. EEG interpolation uses spherical splines; PRAYCG's three-retained-electrode comparison is a sparse operational baseline, not a validated dense montage reconstruction.",
+          "url": "https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw.interpolate_bads"
+        }
+      ]
+    },
+    "welch": {
+      "name": "Welch PSD",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_quality_scope",
+        "run_spectral",
+        "_spectral_entropy",
+        "_athena_epochs"
+      ],
+      "definition": "SciPy Welch PSD: average of segment periodograms; parameters come from the module configuration and installed SciPy defaults.",
+      "limitations": "Different call sites use different segment lengths. Preserve configuration and SciPy version; no claim that all call sites share one estimator configuration.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "welch",
+          "citation": "Welch PD (1967). The use of the fast Fourier transform for the estimation of power spectra.",
+          "url": "https://doi.org/10.1109/TAU.1967.1161901"
+        }
+      ]
+    },
+    "aperiodic": {
+      "name": "Log-log robust aperiodic screening",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_aperiodic_screen"
+      ],
+      "definition": "Theil-Sen fit of log10 PSD against log10 frequency after configured exclusions; exponent=-slope, intercept and median absolute residual retained.",
+      "limitations": "Not specparam/FOOOF; excluded bands and positive-power masking define the PRAYCG screen.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "sen",
+          "citation": "Sen PK (1968). Estimates of the regression coefficient based on Kendall's tau.",
+          "url": "https://doi.org/10.1080/01621459.1968.10480934"
+        }
+      ]
+    },
+    "erp": {
+      "name": "Recipe-defined ERP and Morlet power",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_morlet_power"
+      ],
+      "definition": "Trial baseline subtraction, trial mean and SEM; Gaussian complex carrier sigma=cycles/(2*pi*f), truncated to min(half epoch, ceil(3.5*sigma*fs)), L2 normalization, convolution power averaged across trials; baseline ratio in dB.",
+      "limitations": "PRAYCG operational implementation, not a validated named ERP component. No zero-mean wavelet correction or cone-of-influence exclusion; epoch boundaries can bias power.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": []
+    },
+    "connectivity": {
+      "name": "Band-pooled spectral connectivity",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_connectivity_matrices"
+      ],
+      "definition": "Hann-window FFT; cross spectra averaged over frequencies within each epoch and then epochs. Coherence=abs(mean cross)^2/(mean power x * mean power y); PLI=abs(mean sign(imag cross_epoch)); wPLI=abs(mean imag cross_epoch)/mean abs(imag cross_epoch).",
+      "limitations": "wPLI is not debiased squared wPLI. Band pooling differs from frequency-resolved estimators. Signed imaginary coherency is antisymmetric in revision 11.0.2-r4-signed-imaginary-coherency-v1. Earlier mirrored-triangle outputs are legacy implementation artifacts and are not rewritten or retroactively reclassified. References identify lineage, not estimator equivalence.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "vinck",
+          "citation": "Vinck M et al. (2011). An improved index of phase-synchronization for electrophysiological data in the presence of volume-conduction, noise and sample-size bias.",
+          "url": "https://doi.org/10.1016/j.neuroimage.2011.01.055"
+        },
+        {
+          "id": "nolte",
+          "citation": "Nolte G, Bai O, Wheaton L, Mari Z, Vorbach S, Hallett M (2004). Identifying true brain interaction from EEG data using the imaginary part of coherency.",
+          "url": "https://doi.org/10.1016/j.clinph.2004.04.029"
+        },
+        {
+          "id": "stam",
+          "citation": "Stam CJ, Nolte G, Daffertshofer A (2007). Phase lag index: assessment of functional connectivity from multi channel EEG and MEG with diminished bias from common sources.",
+          "url": "https://doi.org/10.1002/hbm.20346"
+        }
+      ]
+    },
+    "pac": {
+      "name": "Binned phase-amplitude modulation index",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_pac_mi"
+      ],
+      "definition": "Mean amplitude per phase bin, normalize to probabilities p; MI=(log(K)+sum(p*log(p)))/log(K), empty bins initially zero.",
+      "limitations": "Tort-style modulation index; filtering, surrogate construction and trial handling are PRAYCG-specific. MI alone does not establish physiological coupling.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "tort",
+          "citation": "Tort ABL, Komorowski R, Eichenbaum H, Kopell N (2010). Measuring phase-amplitude coupling between neuronal oscillations of different frequencies.",
+          "url": "https://doi.org/10.1152/jn.00106.2010"
+        }
+      ]
+    },
+    "bh": {
+      "name": "Benjamini-Hochberg adjustment",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_benjamini_hochberg"
+      ],
+      "definition": "Sort p-values, multiply by comparison count/rank, apply reverse cumulative minimum and restore order.",
+      "limitations": "The code supplies the family of comparisons. Appropriate dependence assumptions and family definition remain necessary.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "bh",
+          "citation": "Benjamini Y, Hochberg Y (1995). Controlling the false discovery rate: a practical and powerful approach to multiple testing.",
+          "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+        }
+      ]
+    },
+    "sample_entropy": {
+      "name": "Sample entropy and coarse-scale screening",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_sample_entropy"
+      ],
+      "definition": "Aligned m and m+1 embeddings; unordered non-self pairs within Chebyshev distance r*SD; SampEn=-log(A/B). Missing when either pair count is zero.",
+      "limitations": "Coarse-graining uses non-overlapping means, but tolerance is recomputed at each scale rather than fixed to original-signal SD. Complexity input may be stride-decimated without a new antialias filter. Do not present this as equivalent to canonical multiscale entropy.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "richman",
+          "citation": "Richman JS, Moorman JR (2000). Physiological time-series analysis using approximate entropy and sample entropy.",
+          "url": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+        },
+        {
+          "id": "costa",
+          "citation": "Costa M, Goldberger AL, Peng CK (2002). Multiscale entropy analysis of complex physiologic time series.",
+          "url": "https://doi.org/10.1103/PhysRevLett.89.068102"
+        }
+      ]
+    },
+    "permutation_entropy": {
+      "name": "Normalized permutation entropy",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_permutation_entropy"
+      ],
+      "definition": "Delayed ordinal patterns with stable sorting for ties; Shannon entropy divided by log(order factorial).",
+      "limitations": "Ties are assigned by temporal index, not discarded or jittered; result depends on recipe order and delay.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "bandt",
+          "citation": "Bandt C, Pompe B (2002). Permutation entropy: a natural complexity measure for time series.",
+          "url": "https://doi.org/10.1103/PhysRevLett.88.174102"
+        }
+      ]
+    },
+    "lz": {
+      "name": "Binary parsing complexity screen",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_lz76_complexity"
+      ],
+      "definition": "Binary parsing count c normalized by c*log2(n)/n.",
+      "limitations": "Lempel-Ziv lineage only. Equivalence of this parser to a reference implementation has not been certified; do not claim independent authorship from its header.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "lempel",
+          "citation": "Lempel A, Ziv J (1976). On the complexity of finite sequences.",
+          "url": "https://doi.org/10.1109/TIT.1976.1055501"
+        }
+      ]
+    },
+    "spectral_entropy": {
+      "name": "Normalized spectral entropy",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_spectral_entropy"
+      ],
+      "definition": "Welch PSD over 1 Hz to min(45 Hz, Nyquist); normalized positive-bin probabilities; entropy/log(number of bins).",
+      "limitations": "A PRAYCG operational bandwidth-limited entropy measure, dependent on sampling and frequency resolution.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "welch",
+          "citation": "Welch PD (1967). The use of the fast Fourier transform for the estimation of power spectra.",
+          "url": "https://doi.org/10.1109/TAU.1967.1161901"
+        }
+      ]
+    },
+    "microstates": {
+      "name": "Run-local polarity-invariant topographic clustering",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_microstate_fit"
+      ],
+      "definition": "GFP-peak centered maps; unit-norm topographies; absolute-correlation assignment and principal-eigenvector centers; seeded restarts with GFP-squared weighted explained variance.",
+      "limitations": "Update centers are unweighted within each cluster although restart selection is GFP-weighted. No canonical A-D labels, cross-run alignment or temporal smoothing; states sorted by coverage.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "microstates",
+          "citation": "Pascual-Marqui RD, Michel CM, Lehmann D (1995). Segmentation of brain electrical activity into microstates: model estimation and validation.",
+          "url": "https://doi.org/10.1109/10.391164"
+        }
+      ]
+    },
+    "csp": {
+      "name": "Train-fold CSP and ridge discriminant decoding",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_csp_features"
+      ],
+      "definition": "Trace-normalized uncentered trial.T@trial matrices averaged within class, generalized eigenproblem C0 v=lambda(C0+C1)v, extreme eigenvectors; log normalized projected variance.",
+      "limitations": "Uncentered covariance differs when means are nonzero. CSP fitted in training folds; trial-level cross-validation does not establish subject/session generalization.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "csp",
+          "citation": "Ramoser H, Mueller-Gerking J, Pfurtscheller G (2000). Optimal spatial filtering of single trial EEG during imagined hand movement.",
+          "url": "https://doi.org/10.1109/86.895946"
+        }
+      ]
+    },
+    "lda": {
+      "name": "PRAYCG ridge linear discriminant",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "_ridge_lda_predict"
+      ],
+      "definition": "Pooled within-class covariance with trace-scaled ridge, pseudoinverse and equal-prior linear discriminant scores.",
+      "limitations": "Custom implementation, not a claim that scikit-learn LDA ran. Frozen regularization and split design matter.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": []
+    },
+    "rsa": {
+      "name": "Sensor-time split-half representational distances",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "functions": [
+        "run_sensor_rsa"
+      ],
+      "definition": "Flatten sensor-time features; even/odd condition mean differences; mean product weighted by inverse diagonal-shrunk residual variance. Optional Spearman upper-triangle model comparison with condition-label permutations.",
+      "limitations": "Noise precision is estimated using all trials, not independent training data. Do not label this fully unbiased crossnobis. Negative distances are retained; sensor-level representations are not localized brain mechanisms.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "rsa",
+          "citation": "Kriegeskorte N, Mur M, Bandettini P (2008). Representational similarity analysis: connecting the branches of systems neuroscience.",
+          "url": "https://doi.org/10.3389/neuro.06.004.2008"
+        }
+      ]
+    },
+    "athena_four_site_descriptive": {
+      "name": "PRAYCG native-reference four-site descriptive EEG recipe v1.0",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "7160ebf80672e98dfd35db88409525c4cc447364c065bac11a99d061f5a59a9d",
+      "definition": "Independent continuous-piece zero-phase Butterworth filtering; deterministic epoch exclusion; measured-site theta, alpha and beta band power under the packaged recipe.",
+      "functions": [
+        "run_athena_descriptive",
+        "_athena_epochs"
+      ],
+      "verification": "SOURCE_FORMULA_REVIEW_AND_SOFTWARE_TESTS_NOT_SCIENTIFIC_VALIDATION",
+      "limitations": "Descriptive power at four measured Athena sites with the native reference retained. Engineering artifact thresholds are not validated physiological criteria. No canonical ERP, regional connectivity, inferred mental state, clinical or causal conclusion. This recipe never preprocesses Zuna inputs.",
+      "references": [],
+      "reference_boundary": "PRAYCG operational recipe, not an independently validated method. Underlying Welch implementation is credited separately."
+    },
+    "explorer_hann_periodogram": {
+      "name": "Windowed Hann one-sided power spectral density",
+      "source": "platform_core/praycg_time_frequency_core_v1_0.py",
+      "source_sha256": "317d0d5b682752b6886195b7fdb62b865b04cbf438ffbeeeaacd3c75aad0bc24",
+      "functions": [
+        "compute_spectrogram"
+      ],
+      "definition": "Complete continuous windows, channel-specific finite support, demeaning and Hann taper. One-sided squared Fourier amplitude is normalized by sampling rate and taper energy; timestamps are original window centers. Missing support is preserved, never interpolated across channels or acquisition gaps.",
+      "limitations": "Windowed spectra smooth temporal changes and overlapping windows are not independent trials. Raw artifacts can dominate full-recording power. Spectral differences do not identify mental state or neural origin.",
+      "verification": "NUMERICAL_UNIT_AND_CONTINUITY_TESTS_NOT_PHYSIOLOGICAL_VALIDATION",
+      "references": []
+    },
+    "explorer_supported_morlet": {
+      "name": "Context-supported complex Morlet power helper",
+      "source": "platform_core/praycg_time_frequency_core_v1_0.py",
+      "source_sha256": "317d0d5b682752b6886195b7fdb62b865b04cbf438ffbeeeaacd3c75aad0bc24",
+      "functions": [
+        "morlet_power_supported",
+        "baseline_db"
+      ],
+      "definition": "Six-cycle complex Morlet kernels retain their five-sigma support. Samples without complete continuous kernel context remain missing. Baselines require supported finite values; decibel differences use factor ten. Existing governed event displays retain their legacy method label.",
+      "limitations": "The new helper does not alter or validate historical truncated-wavelet results. Event outcomes still require original eligibility, timing and retained trial checks.",
+      "verification": "NUMERICAL_CONTEXT_AND_BASELINE_TESTS_NOT_PHYSIOLOGICAL_VALIDATION",
+      "references": []
+    },
+    "optical_raw_review": {
+      "name": "Raw optical continuity, quality and trends",
+      "source": "tools/Optical_Signal_Review_v1_0/praycg_optical_signal_review_v1_0.py",
+      "source_sha256": "17a690c69c633aaeba9d1bd0891948d3502efc70dbd7c1e6ff8f6f8dcba3ee84",
+      "functions": [
+        "run_review",
+        "screen",
+        "trends"
+      ],
+      "definition": "Exact recorded native optical intensities retain original sampling times, finite support and declared units. Continuity, variability, saturation and motion overlays provide descriptive recording review. Automatic spectral windows retain matching full/screened resolution; normalized positive recorded-value changes are explicitly distinct from hemoglobin.",
+      "limitations": "Raw optical values are not HbO/HbR and artifacts or superficial/systemic activity can dominate them. Quality statistics do not validate neural origin or regional measurement.",
+      "verification": "SOFTWARE_NUMERICAL_AND_SOURCE_CONTRACT_TESTS_ONLY",
+      "references": []
+    },
+    "optical_verified_relative_hemoglobin": {
+      "name": "Profile-verified relative optical density and modified Beer–Lambert conversion",
+      "source": "tools/Optical_Signal_Review_v1_0/praycg_optical_signal_review_v1_0.py",
+      "source_sha256": "17a690c69c633aaeba9d1bd0891948d3502efc70dbd7c1e6ff8f6f8dcba3ee84",
+      "functions": [
+        "verify_profile",
+        "hemoglobin"
+      ],
+      "definition": "A verified exact-source profile supplies wavelength pairing, constant gain, geometry, pathlength factors and an extinction matrix with declared units. Relative intensity against the documented baseline is converted to optical density; wavelength-specific pathlength and extinction equations produce relative HbO/HbR only when the profile and local evidence verify.",
+      "limitations": "Results depend on supplied optical assumptions, baseline and physical mapping. They are relative changes and cannot establish absolute concentration, regional neural activity or a clinical endpoint. Athena mapping is unavailable until independently documented.",
+      "verification": "SYNTHETIC_ALGEBRA_AND_PROFILE_BINDING_ONLY_NO_FNIRS_PHYSICAL_VALIDATION",
+      "references": [
+        {
+          "url": "https://mne.tools/stable/auto_tutorials/preprocessing/70_fnirs_processing.html"
+        }
+      ]
+    },
+    "gamma_measured_reference_review": {
+      "name": "Measured-electrode gamma and optional native-rate EMG/EOG reference screening",
+      "source": "tools/Gamma_Scalpel_v2_0/praycg_gamma_scalpel_v2_0.py",
+      "source_sha256": "bbe3a45c78900d7c4337f9c302cee12a9ba0241c6a597071172006af70c84a0d",
+      "functions": [
+        "analyze_streams",
+        "bandpower",
+        "reference_metric",
+        "run_review"
+      ],
+      "definition": "Two-second measured EEG windows report 30–45 Hz and component-band power. Compatible same-participant references assess muscle/eye activity with explicit quality, coverage and timing support. Original, legacy-formula and supported reference-screened comparisons remain distinct.",
+      "limitations": "Quiet references do not establish neural origin; engineering thresholds require physiological calibration. Independent-device precise attribution needs timing evidence. Athena has only its recorded four EEG electrodes.",
+      "verification": "SOFTWARE_NUMERICAL_AND_SOURCE_CONTRACT_TESTS_PLUS_SAVED_ATHENA_EEG_ONLY_FORMAT_CHECK",
+      "references": [
+        {
+          "id": "muthukumaraswamy_2013",
+          "citation": "Muthukumaraswamy SD (2013). High-frequency brain activity and muscle artifacts in MEG/EEG: a review and recommendations. Frontiers in Human Neuroscience 7:138.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3706727/"
+        }
+      ]
+    },
+    "optical_instrument_profile_binding": {
+      "name": "Reusable instrument-profile matching and recording binding",
+      "source": "tools/Optical_Signal_Review_v1_0/praycg_optical_profiles_v1_0.py",
+      "source_sha256": "1de4953eb0c8a06044759f70a2f59fca54c928a93feef0f78204f37570b85e56",
+      "functions": [],
+      "definition": "Versioned instrument facts and evidence hashes match exact recorded model, decoder and channels; verified support generates recording-specific conversion bindings and baseline assumptions.",
+      "limitations": "A recognized draft raw profile does not verify missing conversion facts. Synthetic inverse tests do not validate Athena hemoglobin accuracy.",
+      "verification": "SOFTWARE_PROFILE_AND_SOURCE_MATCHING_TESTS_ONLY",
+      "references": []
+    },
+    "protocol_rating_last_valid_v0_1": {
+      "name": "PRAYCG last valid response within a complete recorded rating window v0.1",
+      "implementation_status": "PRAYCG_SPECIFIC_OPERATIONAL_DEFINITION",
+      "source": "tools/Protocol_Ratings_Analysis_v0_1/protocol_ratings.py",
+      "source_sha256": "9110809024fe73a45d760f959ca903de620d4819400fbde069c1a69638ab4069",
+      "implementation": "Select the last valid recorded key within each exact rating node window. Retain all responses, exclusions and missingness. Compare condition-coded ordinal ratings descriptively; no p-values, equal-interval assumption or causal inference.",
+      "references": [],
+      "limitations": [
+        "Historical unfrozen response selection is post-hoc. No confirmatory primary endpoint has been selected."
+      ]
+    }
+  }
+}

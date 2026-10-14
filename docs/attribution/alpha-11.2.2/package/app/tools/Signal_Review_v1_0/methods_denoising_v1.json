@@ -1,0 +1,54 @@
+{
+  "schema": "PRAYCG_DenoisingMethodRecords_v1",
+  "method_revision": "PRAYCG_DenoisingComparison_v1.0.0",
+  "endpoint_validation": false,
+  "automatic_selection_or_adoption": false,
+  "checked_date": "2026-10-13",
+  "software": {
+    "distribution": "mne-denoise",
+    "reviewed_version": "0.0.3",
+    "source": "https://github.com/mne-tools/mne-denoise",
+    "distribution_record": "https://pypi.org/project/mne-denoise/",
+    "license": "BSD-3-Clause",
+    "copyright": "Copyright (c) 2024-2025, Sina Esmaeili, Hamza Abdelhedi",
+    "distribution_policy": "Installed optionally from upstream. No upstream implementation is copied into this adapter. A method citation is not a replacement for required license notices.",
+    "python_requires": ">=3.11",
+    "declared_core_requirements": ["joblib>=1.4", "numpy>=1.26,<3", "scikit-learn>=1.5", "scipy>=1.13"],
+    "version_evidence": "Official PyPI and stable API documentation checked; both classes executed from the actual 0.0.3 distribution in an isolated test dependency directory. Runtime versions are recorded in each comparison."
+  },
+  "methods": [
+    {
+      "id": "spectrum_interpolation",
+      "citation": "Leske S, Dalal SS (2019). Reducing power line noise in EEG and MEG data via spectrum interpolation. NeuroImage 189:763-776.",
+      "doi": "10.1016/j.neuroimage.2019.01.026",
+      "api": "https://mne.tools/mne-denoise/stable/generated/mne_denoise.spectrum_interpolation.SpectrumInterpolation.html",
+      "operation": "Upstream SpectrumInterpolation on each supported continuous piece independently, preserving its original time axis.",
+      "parameters": "Explicit 50 or 60 Hz fundamental, harmonic count limited by Nyquist and reference-band support, default 1 Hz replacement half-width and 2 Hz neighboring reference width.",
+      "boundary": "Frequency-domain amplitude replacement can remove an overlapping biological component. A reduction in line-frequency power does not identify the removed component as artifact."
+    },
+    {
+      "id": "zapline",
+      "citation": "de Cheveigne A (2020). ZapLine: A simple and effective method to remove power line artifacts. NeuroImage 207:116356.",
+      "doi": "10.1016/j.neuroimage.2019.116356",
+      "api": "https://mne.tools/mne-denoise/stable/generated/mne_denoise.zapline.ZapLine.html",
+      "operation": "Upstream standard ZapLine, with a prospectively fixed component count and adaptive mode disabled, fitted separately within each supported piece.",
+      "parameters": "Default one removed component; explicit 50 or 60 Hz fundamental and harmonics; nfft represents 4 seconds (minimum 256); reg=1e-9, whiten=false, crossfade=0.",
+      "boundary": "This is not ZapLine-plus. Fixed component removal can change off-target frequencies and remove genuine signal, including in a line-free control. No automatic best-method choice is made."
+    },
+    {
+      "id": "current_transform",
+      "operation": "Loads the shipped PRAYCG recipe and reproduces its numerical bandpass/reference transform for comparison, not the full governed derivative's task, QC, event or artifact-eligibility workflow.",
+      "athena_v1_2": "Fourth-order Butterworth 1-40 Hz, scipy sosfiltfilt with default odd-reflection padding, native acquisition reference, no notch.",
+      "standard_v0_1": "Shipped standard recipe: fourth-order Butterworth 1-45 Hz, optional configured Q=30 notch (currently null), average reference of nonflat retained channels. Preview channel retention is assessed within each selected support piece, not over a separate governed protocol window.",
+      "boundary": "Bandpass/reference changes and line suppression are different operations. Candidate line suppressors operate on original data, not on already-bandlimited current output. This is intentionally displayed rather than hidden in a single improvement score."
+    }
+  ],
+  "evidence_rules": {
+    "units": "Explicit voltage units converted to microvolts, with per-channel conversion factors retained. Unknown units are not inferred.",
+    "timing": "Original seconds and sample indices retained. Unsupported timing, NaNs, user exclusions and declared boundaries are never bridged. No resampling, interpolation of missing samples, or clock repair.",
+    "support": "Independent pieces, at least 16 seconds by default, five-second edge guards on each side. Whole-segment retrospective support is disclosed; guards are not a proof of finite impulse support.",
+    "difference": "Original minus transformed includes any signal removed, not only noise.",
+    "spectra": "Four-second Hann Welch estimates, 50% overlap, constant detrend, density scaling. Piece-specific estimates pooled by actual Welch-window count; temporal gaps never concatenated.",
+    "controls": "Fixed-seed clean, additive-60-Hz and genuine-58-Hz-plus-60-Hz synthetic controls report error against known truth and retained 58-Hz amplitude. These test software behavior, not hardware or physiological validity."
+  }
+}

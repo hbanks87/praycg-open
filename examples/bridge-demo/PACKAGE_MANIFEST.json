@@ -1,0 +1,134 @@
+{
+  "schema": "praycg_preserved_demo_package_v1",
+  "title": "Demo Lantern Bridge - preserved CC0 demonstration",
+  "status": "PREPARED_LOCAL_COMPANION_NOT_PUBLISHED",
+  "source_repository": "https://github.com/hbanks87/praycg-open",
+  "source_commit": "bc17059f10d0756f811c4ec900be8d4a476f191f",
+  "source_tree": "examples/synthetic-demo",
+  "source_bytes": "Canonical Git blobs; no checkout line-ending conversion or media re-encoding.",
+  "original_file_count": 23,
+  "original_files": [
+    {
+      "path": ".mp4s/stimulus_control_cued_phase_scrambled_Lantern_shotcramble_v1_7A.zip",
+      "bytes": 85146635,
+      "sha256": "a13d9d746409076df58e548ae55500981610fa6387b9313e1552e530be268c62"
+    },
+    {
+      "path": ".mp4s/stimulus_master_cleaned_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+      "bytes": 5760853,
+      "sha256": "4b8a96892d840070176307c9ac169910993ebdaece8cf41ade774bafc97a141f"
+    },
+    {
+      "path": ".mp4s/stimulus_override_cued_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+      "bytes": 5791081,
+      "sha256": "893d56424b4e0c3b68fddfec0c950281ad39f59f2dfef093c66c4e2961f7168d"
+    },
+    {
+      "path": ".mp4s/stimulus_structural_control_clean_shot_order_scrambled_lantern_shot_scramble_v1_9.mp4",
+      "bytes": 4508603,
+      "sha256": "27a93ad12bc0fcea8a770f6674d48938359637e9dfd6112a9d1e9853bd8ae48b"
+    },
+    {
+      "path": ".mp4s/stimulus_target_cued_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4",
+      "bytes": 5791081,
+      "sha256": "893d56424b4e0c3b68fddfec0c950281ad39f59f2dfef093c66c4e2961f7168d"
+    },
+    {
+      "path": "Fingerprint_Stimulus_QC_report.zip",
+      "bytes": 1311722,
+      "sha256": "edb110486b63eed5f0c38aca83b96565f1ac73e683138a688d43f38df306ba44"
+    },
+    {
+      "path": "Mediaprep_Outputs/ALS_PT19_SENSOR_TIMING_QC_CHECKLIST_v1_7A.md",
+      "bytes": 1471,
+      "sha256": "b60412e9c83e5b3e8254e1027bcb1cc5d5288fe656f7462e3a252902d62f42f2"
+    },
+    {
+      "path": "Mediaprep_Outputs/ANCHOR_LOCK_CHECKLIST_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.md",
+      "bytes": 1468,
+      "sha256": "dac0ddd3f7a44536618caf2c32fde10be885c2b6f326f216d7bfb8592c31664f"
+    },
+    {
+      "path": "Mediaprep_Outputs/CC0_DEMO_LICENSE.txt",
+      "bytes": 20,
+      "sha256": "89558e3b971deab1d88d7a9f5acd8b3206d01aa136c6c9df07ffecc73ee7799a"
+    },
+    {
+      "path": "Mediaprep_Outputs/CONTROL_AUDIO_QC_CHECKLIST_v1_7A.md",
+      "bytes": 904,
+      "sha256": "04772b1cd3ac5c4b27363ea0c350901a2f7782b0b89f88c1f1f4d732c24b8ffa"
+    },
+    {
+      "path": "Mediaprep_Outputs/PRAYCG_MediaPrep_v1_7A_report.md",
+      "bytes": 6369,
+      "sha256": "9b58408f4bc7fe85b1c31453eabec83a10227fce437212ba9ff9c5d5dd5498f1"
+    },
+    {
+      "path": "Mediaprep_Outputs/VISUAL_SOURCE_STAMP_QC_CHECKLIST_v1_7A.md",
+      "bytes": 866,
+      "sha256": "7e957ff6871a6ce625bc1da1f62ff760f03a2c469e571b65c4d3086d297a5c7e"
+    },
+    {
+      "path": "Mediaprep_Outputs/cue_schedule_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.csv",
+      "bytes": 6509,
+      "sha256": "30f832dbcf586b38f666198c87c192ebd5d0f0440e48799776c0e7ddb7c52a23"
+    },
+    {
+      "path": "Mediaprep_Outputs/cue_schedule_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.json",
+      "bytes": 34526,
+      "sha256": "5d0687426e2c17700676b5e60d023daab9879533f50a053cf767d4238dc7344f"
+    },
+    {
+      "path": "Mediaprep_Outputs/media_prep_manifest_v1_8.json",
+      "bytes": 10125,
+      "sha256": "5ab02069cd836abae900880c546b96e6ebab2e08d929a11515cd17a37b54f696"
+    },
+    {
+      "path": "Mediaprep_Outputs/predeclared_anchors_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A_DRAFT.csv",
+      "bytes": 1523,
+      "sha256": "1415f32e39b4c6e2e56d3a7a54a923c910ca0e7bd8fcd0dd9e682de2c821073c"
+    },
+    {
+      "path": "Mediaprep_Outputs/predeclared_anchors_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A_DRAFT.json",
+      "bytes": 4973,
+      "sha256": "74d07377dd21b7d38584cdf1f8f3f199956b87efc263a8a9063420c4735af89d"
+    },
+    {
+      "path": "README_Lantern.md",
+      "bytes": 172,
+      "sha256": "31f28bfc55ddfb0ce2a110880336578511a8ad9eee171807ae85e8a3e47930d9"
+    },
+    {
+      "path": "Shotscramble_QC/shot_order_scramble_manifest_lantern_shot_scramble_v1_9.json",
+      "bytes": 107520,
+      "sha256": "545b18f11216118a666e49189fc23c1bcc24a088c28a1c7c9dca1edd7e46ed19"
+    },
+    {
+      "path": "Shotscramble_QC/shot_order_scramble_preview_contact_sheet_lantern_shot_scramble_v1_9.jpg",
+      "bytes": 233227,
+      "sha256": "814e4fda70df7797aeabcbec868613199b0beedd001b988f498245f5b0b48420"
+    },
+    {
+      "path": "Shotscramble_QC/shot_order_scramble_qc_report_lantern_shot_scramble_v1_9.md",
+      "bytes": 1900,
+      "sha256": "3f029f1e9dfd405c108cb42c1a63f37dc06d26ed2247211fc1e6af24d04d3084"
+    },
+    {
+      "path": "Shotscramble_QC/shot_order_scramble_shot_table_lantern_shot_scramble_v1_9.csv",
+      "bytes": 3229,
+      "sha256": "296fa9b6395164be7b078db98a61ba467d9d63efc4fcfb41bb4d62d48ccccac2"
+    },
+    {
+      "path": "Shotscramble_QC/stimulus_structural_control_clean_shot_order_scrambled_lantern_shot_scramble_v1_9_concat_list.txt",
+      "bytes": 6840,
+      "sha256": "b7d74cb40cff83f236173ffb1713c0d3c8367683468b5f214a58b1c29fae3472"
+    }
+  ],
+  "license_record": "Mediaprep_Outputs/CC0_DEMO_LICENSE.txt",
+  "scope": "Historical synthetic demo and its original prepared variants, cue schedules, draft anchors and QC records. This package does not establish qualification against Public Alpha11.2.1.",
+  "added_packaging_files": [
+    "START_HERE.md",
+    "PACKAGE_MANIFEST.json",
+    "SOURCE_REPOSITORY_LICENSE.md"
+  ]
+}

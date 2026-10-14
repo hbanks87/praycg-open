@@ -12,12 +12,20 @@ This is the research entrance to PRAYCG. The [Workbench](../workbench/README.md)
 | Read the theory and its development | [Theory](theory/README.md) · [foundations](theory/foundations/README.md) · [extensions](theory/extensions/README.md) |
 | Compare research designs | [Protocols](protocols/README.md): PRAYCG3, PRAYCG4, and Semantic Meaning Gradient |
 | Understand what is computed | [Measures and method notes](measures/README.md) |
+| Read detailed explanations of the project's concepts | [Research concepts, definitions and interpretation](concepts/README.md) |
+| Trace a concept to calculations and available code | [Algorithm and implementation guide](algorithms/README.md) |
+| Credit upstream software and scientific methods | [Current bibliography](bibliography/README.md) · [Versioned attribution evidence](../docs/attribution/alpha-11.2.1/README.md) |
+| Follow Opto-PING from its research question to synthetic tests | [Opto-PING research](optoping/README.md) |
+| Trace the research ladders and every documented rung | [Ladders and rungs](ladders/README.md) |
+| Run or inspect a reproducibility program | [Reproducibility programs, scripts and reference evidence](reproducibility/README.md) |
 | Inspect pilot outputs and synthetic tests | [Studies and reproducibility](studies/README.md) |
 | Find public packages and earlier versions | [Collections](collections/README.md) · [historical theory](theory/historical-versions/README.md) |
 | Understand prospective research direction | [Research roadmap](roadmap.md) |
-| Run the software workflow | [Workbench](../workbench/README.md) · [Alpha 10.2.1 workflow](../workbench/docs/releases/alpha-10.2.1/WORKFLOW_ALPHA_10_2_1.md) |
+| Run the software workflow | [Workbench](../workbench/README.md) · [Published workflow](../workbench/docs/workflow.md) · [Proposed Public Alpha 11.2.1 update](../workbench/docs/proposed-alpha-11.2.1.md) |
 
 ## Read the evidence in context
+
+The [Opto-PING hub](optoping/README.md) connects the retained synthetic Rungs 0J–0O to their locked specifications, scripts, reports and reference outputs. The [ladder index](ladders/README.md) also records earlier documented stages and prospective steps without implying that every stage has a runnable package or a completed experiment. The [reproducibility catalog](reproducibility/README.md) distinguishes synthetic replay, exploratory reanalysis and planned replication.
 
 The program asks whether responses to an intact narrative differ from responses to altered stimulus structure and to the same narrative experienced under analytic task demand, after accounting for timing, sensory drive, and artifacts. The [master theory and protocol v1.1](theory/originals/docs/PRAYCG_Master_Theory_and_Protocol_PUBLIC_v1_1_v095.md) contains the full framing and limitations.
 

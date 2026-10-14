@@ -4,6 +4,16 @@ PRAYCG Workbench is local-first research software for taking a study from its qu
 
 The [PRAYCG Neuro Research Program](../research/README.md) uses this infrastructure for particular hypotheses and protocols. Researchers can use the Workbench without adopting those hypotheses.
 
+## Prepared Public Alpha 11.2.2 update
+
+The [11.2.2 workflow-hardening guide](docs/releases/alpha-11.2.2/README.md) describes the Materials catalog correction, usable recording-specific figures, scoped explanation handoff, rating-analysis workflow and optional seven-film plus original Lantern installer. The independent public PRAYCG AI Assistant and [cumulative changes since 10.5.4](docs/proposed-alpha-11.2.1.md) are retained. The [11.2.1 package snapshot](docs/releases/alpha-11.2.1/README.md), including its 535-check record, remains historical. The new sealed archive records 545 unique targeted checks passed and byte-verified extraction; GitHub publication and remote download verification are pending.
+
+The published release instructions below remain identified as Alpha 10.5.4. The separate [Opto-PING](../research/optoping/README.md), [ladder](../research/ladders/README.md) and [reproducibility](../research/reproducibility/README.md) indexes cover the preserved research programs.
+
+Prepared media companions are listed under [original stimulus masters](../examples/stimulus-masters/README.md) and [Demo Lantern Bridge](../examples/bridge-demo/README.md). They are separate from the application ZIP. The [concept](../research/concepts/README.md) and [algorithm](../research/algorithms/README.md) guides connect research definitions to versioned inputs, calculations and implementation paths.
+
+Use the [11.2.2 optional installer guide](docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) for the two pinned companions, local-ZIP installation and safe repeat behavior. The [complete repository update](../docs/updates/2026-10-14-public-workflow-release.md) carries forward Opto-PING, the rungs, reproducibility programs, concepts, bibliography and original research documents.
+
 ## Start with Alpha 10.5.4
 
 1. Get the [Alpha 10.5.4 complete release and SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4).

@@ -1,0 +1,4 @@
+# Preserve hashes of copied archive and installed upstream notice bytes.
+package/** -text
+observed-environment/** -text
+proposed-fixes/*.patch -text

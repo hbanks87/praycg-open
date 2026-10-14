@@ -1,0 +1,2 @@
+# Preserve selected sealed archive bytes and their recorded hashes.
+package/** -text

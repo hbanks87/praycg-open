@@ -1,0 +1,37 @@
+# PRAYCG Control Center v1.0.0-alpha.11.2.1
+# Python 3.11 is the supported alpha acquisition environment.
+setuptools>=80.9,<82
+pyserial>=3.5,<4
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.1,<3
+tabulate>=0.9,<1
+matplotlib>=3.8,<4
+opencv-python>=4.8,<5
+moviepy==1.0.3
+imageio>=2.31,<3
+imageio-ffmpeg>=0.4.9,<1
+decorator>=4.4,<6
+proglog>=0.1,<1
+requests>=2.31,<3
+tqdm>=4.66,<5
+pillow>=10,<13
+pylsl>=1.16,<2
+pyxdf>=1.16,<2
+mne>=1.6,<2
+mne-bids>=0.16,<1
+pybv>=0.7,<1
+pyyaml>=6,<7
+brainflow>=5.12,<6
+bleak>=0.21,<2
+godirect>=1.2,<2
+scenedetect[opencv]>=0.6,<1
+openpyxl>=3.1,<4
+scikit-learn>=1.3,<2
+pytest>=8,<9
+neurokit2==0.2.13
+PyWavelets==1.9.0
+mne-denoise==0.0.3
+
+# Signed identity verification for optional ChatGPT account connection
+PyJWT[crypto]>=2.8,<3

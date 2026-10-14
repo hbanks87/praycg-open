@@ -4,7 +4,8 @@ These materials support exploration of stimulus preparation and the [Workbench w
 
 | Collection | Start here | Contents |
 | --- | --- | --- |
-| Synthetic demo | [Demo Lantern Bridge](synthetic-demo/README_Lantern.md) | A synthetic three-minute CC0 demo with target, override and control materials, cue schedule, anchor scaffold and QC outputs |
+| Original eleven-film collection | [Stimulus masters and packaging status](stimulus-masters/README.md) | Catalog identity, source/attribution records, original master availability and optional-package scope |
+| Synthetic demo | [Demo Lantern Bridge and prepared companion](bridge-demo/README.md) · [Original README](synthetic-demo/README_Lantern.md) | A synthetic three-minute CC0 demo with target, override and control materials, cue schedule, anchor scaffold and QC outputs |
 | Sintel stimulus recipe | [Recipe and attribution](stimulus-recipes/sintel/README.md) | A local download/preparation script and source-credit instructions; the source film is not bundled |
 | Semantic meaning gradient | [Stimulus files](semantic-meaning-gradient/) | The preserved clockwise, counterclockwise and static pilot video variants |
 

@@ -1,0 +1,17 @@
+{
+  "status": "SEALED_PUBLIC_ARCHIVE_DOCUMENTATION_SUPPLEMENT",
+  "source_archive": "PRAYCG_Workbench_Public_Alpha_11_2_2.zip",
+  "source_archive_bytes": 43802130,
+  "source_archive_sha256": "839e1201caf7fce6227682ff58ffa33951fc4ceeb3d2767e3ed970fe127ef26a",
+  "source_version": "1.0.0-alpha.11.2.2",
+  "source_edition": "PUBLIC",
+  "files": [
+    {
+      "repository_path": "package/app/tools/Stimulus_Forge_Library_v1_0/OPTIONAL_STIMULUS_INSTALLATION.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_2/app/tools/Stimulus_Forge_Library_v1_0/OPTIONAL_STIMULUS_INSTALLATION.md",
+      "bytes": 2654,
+      "sha256": "689fd3298b7cf69234e5a463dd9a10a3b071ff44a75f9036b83eb30ad193f71f"
+    }
+  ],
+  "scope": "One exact media guide supplement. Earlier snapshot files and manifest are unchanged."
+}

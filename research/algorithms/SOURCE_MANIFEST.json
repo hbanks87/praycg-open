@@ -1,0 +1,314 @@
+{
+  "schema": "PRAYCG_AlgorithmImplementationSourceMap_v1",
+  "status": "READ_ONLY_SOURCE_INSPECTION",
+  "inspection_date": "2026-10-13",
+  "source_archive": {
+    "filename": "PRAYCG_Workbench_Public_Alpha_11_2_1.zip",
+    "bytes": 43737009,
+    "sha256": "cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b",
+    "version": "1.0.0-alpha.11.2.1",
+    "edition": "PUBLIC",
+    "publication_status": "Proposed repository update; no publication performed by this inspection"
+  },
+  "scope": "Selected implementation/configuration/specification paths were read in the supplied public distribution and byte-compared with immutable ZIP entries. Historical Git-tree sources are linked separately in README.md and are not declared byte-equivalent to current workers.",
+  "source_file_count": 28,
+  "runtime_entries": [
+    {
+      "module_id": "signal_quality_review_v1_0",
+      "module_version": "1.0.0",
+      "analysis_role": "VISUALIZATION_ONLY",
+      "entry_point": "app/tools/Signal_Review_v1_0/review_service.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "ecg_heartbeat_hrv_review_v1_0",
+      "module_version": "1.0.0",
+      "analysis_role": "EXPLORATORY",
+      "entry_point": "app/tools/Signal_Review_v1_0/review_service.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "respiration_rsa_review_v1_0",
+      "module_version": "1.0.0",
+      "analysis_role": "EXPLORATORY",
+      "entry_point": "app/tools/Signal_Review_v1_0/review_service.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "line_noise_comparison_v1_0",
+      "module_version": "1.0.0",
+      "analysis_role": "EXPLORATORY",
+      "entry_point": "app/tools/Signal_Review_v1_0/review_service.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "master_comprehensive_suite_v1_6_0",
+      "module_version": "1.6.0",
+      "analysis_role": "STANDARD_SECONDARY",
+      "entry_point": "app/tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "full_chained_analysis_v1_6_1",
+      "module_version": "1.6.1",
+      "analysis_role": "STANDARD_SECONDARY",
+      "entry_point": "app/tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "cai_sid_exploratory_v0_2",
+      "module_version": "0.2.0",
+      "analysis_role": "EXPLORATORY",
+      "entry_point": "app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_managed_v0_2.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "optical_signal_review_v1_0",
+      "module_version": "1.1.0",
+      "analysis_role": "EXPLORATORY",
+      "entry_point": "app/tools/Optical_Signal_Review_v1_0/praycg_optical_signal_review_v1_0.py",
+      "primary_conclusion_authority": "NONE"
+    },
+    {
+      "module_id": "gamma_scalpel_v2_0",
+      "module_version": "2.0.0",
+      "analysis_role": "EXPLORATORY",
+      "entry_point": "app/tools/Gamma_Scalpel_v2_0/praycg_gamma_scalpel_v2_0.py",
+      "primary_conclusion_authority": "NONE"
+    }
+  ],
+  "implementation_identities": [
+    {
+      "component": "CAI/SID",
+      "algorithm_version": "0.2.0",
+      "managed_version": "0.2.0-alpha.10.3.8",
+      "implementation_revision": "alpha10.3.8.condition-alias-v1"
+    },
+    {
+      "component": "NIP/CET/EET",
+      "filename_version": "1.6.0",
+      "declared_code_version": "1.6.1",
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_nip_cet_eet_modules_v1_6_0.py"
+    },
+    {
+      "component": "NUPI",
+      "conceptual_output_id": "NUPI_v0.1",
+      "implementation_version": "1.6.0",
+      "implementation_revision": "alpha10.3.8.optional-table-schema-v1"
+    },
+    {
+      "component": "Signal-review denoising comparison",
+      "method_revision": "PRAYCG_DenoisingComparison_v1.0.0",
+      "required_comparison_dependency": "mne-denoise==0.0.3"
+    },
+    {
+      "component": "Signal-review physiology",
+      "implementation_version": "1.0.0-alpha11.2.0",
+      "named_dependency": "neurokit2==0.2.13"
+    }
+  ],
+  "files": [
+    {
+      "source_path": "app/config/analysis_orchestration_registry_v0_1.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/config/analysis_orchestration_registry_v0_1.json",
+      "bytes": 258908,
+      "sha256": "a24ca672bb582874e1fdefd93f3e43d9892917fb829a2bfefd0c3dc5eb487b75",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/config/analysis_module_registry_v0_1.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/config/analysis_module_registry_v0_1.json",
+      "bytes": 19560,
+      "sha256": "4827b38fa55e60643e6651ce3a50db796ac578f628f8897a020a8ce0f1251988",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "bytes": 23764,
+      "sha256": "f69b806aee5e33e51a3d2fddb41f79bcc2a2f123576e356a8c48e9a18e296d89",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_master_comprehensive_suite_v1_6_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_master_comprehensive_suite_v1_6_0.py",
+      "bytes": 225708,
+      "sha256": "bd29ddfae3d64a216d85c7be702794f4f507766a6b6eba06d4534b711e69db00",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_chain_runner_v1_6_1.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_chain_runner_v1_6_1.py",
+      "bytes": 19347,
+      "sha256": "38050ad185072f792d3a8dc04f748c76bc30d9b14bf6f1dd0337bbe2d4bc7a53",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_nip_cet_eet_modules_v1_6_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_nip_cet_eet_modules_v1_6_0.py",
+      "bytes": 23400,
+      "sha256": "74c14e0b16962c7353c56095d58a531462835761335b1c2ba20fa438b347bf84",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_amred_endpoint_module_v1_6_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_amred_endpoint_module_v1_6_0.py",
+      "bytes": 25795,
+      "sha256": "3f939c111367ed19bc787b83b62b296072d3da296b3be9276d97b36eab9bc8fe",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_mred_itp_modules_v1_6_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_mred_itp_modules_v1_6_0.py",
+      "bytes": 34927,
+      "sha256": "8b428dd4331e15f9ac26a7e29653a58c0e0701156cb6cf1abcbd570d784a6b6a",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_mred_peak_resolution_module_v1_6_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_mred_peak_resolution_module_v1_6_0.py",
+      "bytes": 25240,
+      "sha256": "704a1c43fbd46d90cda4172e49b9d2265c401907e669c7ff601abad43aab270e",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_nupi_module_v1_6_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_nupi_module_v1_6_0.py",
+      "bytes": 16986,
+      "sha256": "9caecf74f21521a7f962fa3c408c57aae76eed9125f491277e956c9be0c95edb",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_tti_reception_extraction_module_v1_4_8.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_tti_reception_extraction_module_v1_4_8.py",
+      "bytes": 20042,
+      "sha256": "5e237ac76afe9ed922dc061496f5672c4077e11ee58f48ad724b0882dbba6a96",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_decoder_gate_availability_module_v1_5_6.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_decoder_gate_availability_module_v1_5_6.py",
+      "bytes": 12445,
+      "sha256": "f9a250ef20c419b295226f05638bbc8949543342e69a0a1132c969d695eefb28",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_topo_osm_network_state_module_v1_4_7.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/MasterComprehensiveSuite_v1_6_1_CURRENT/scripts/praycg_topo_osm_network_state_module_v1_4_7.py",
+      "bytes": 7279,
+      "sha256": "b8de03ea94c69e9e472126517110fde6f381535a46d6f2ad6166831b3f6fadde",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_v0_2.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_v0_2.py",
+      "bytes": 29840,
+      "sha256": "1db89786d2ba432e375e04f8028a76b47b2774e773fb15850fb5e73c0d331da4",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_managed_v0_2.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_managed_v0_2.py",
+      "bytes": 38484,
+      "sha256": "0aace03918d7bc0645a35b2eb04ad3d0ecaf15e2faf0cef9163e8cc57a1d8235",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_nast_adapter_v0_2.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_nast_adapter_v0_2.py",
+      "bytes": 17171,
+      "sha256": "4d23e6e0eafcbb869c12bae8de2111ea7bfd35749638062cea74785aaf0b1156",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_readiness_preflight_v0_2.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_readiness_preflight_v0_2.py",
+      "bytes": 21666,
+      "sha256": "d2c253102547e70cc27530c73f2bd115f2ba4ee4e1355488302bc9c888a5ebbc",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/CAI_SID_Exploratory_v0_2/config/analysis_config_v0_2.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/CAI_SID_Exploratory_v0_2/config/analysis_config_v0_2.json",
+      "bytes": 1660,
+      "sha256": "63747fea17760eadaf1cd7e16dcfea71af6ec0aab47ae2b697a5424aceb73f1f",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/CAI_SID_Exploratory_v0_2/docs/CAI_SID_MATHEMATICAL_SPECIFICATION_v0_2.md",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/CAI_SID_Exploratory_v0_2/docs/CAI_SID_MATHEMATICAL_SPECIFICATION_v0_2.md",
+      "bytes": 3709,
+      "sha256": "c16f5691cacdcdba5847479cce4f1a127f07a3a37cc9687283ce7f53ab927270",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Gamma_Scalpel_v2_0/praycg_gamma_scalpel_v2_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Gamma_Scalpel_v2_0/praycg_gamma_scalpel_v2_0.py",
+      "bytes": 37178,
+      "sha256": "bbe3a45c78900d7c4337f9c302cee12a9ba0241c6a597071172006af70c84a0d",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Optical_Signal_Review_v1_0/praycg_optical_signal_review_v1_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Optical_Signal_Review_v1_0/praycg_optical_signal_review_v1_0.py",
+      "bytes": 49145,
+      "sha256": "17a690c69c633aaeba9d1bd0891948d3502efc70dbd7c1e6ff8f6f8dcba3ee84",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Optical_Signal_Review_v1_0/praycg_optical_profiles_v1_0.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Optical_Signal_Review_v1_0/praycg_optical_profiles_v1_0.py",
+      "bytes": 8581,
+      "sha256": "1de4953eb0c8a06044759f70a2f59fca54c928a93feef0f78204f37570b85e56",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Optical_Signal_Review_v1_0/profiles/muse_s_athena_brainflow_raw_v1_0.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Optical_Signal_Review_v1_0/profiles/muse_s_athena_brainflow_raw_v1_0.json",
+      "bytes": 2390,
+      "sha256": "1b1975e3030c74df7fc0e247f1e02093b3d99d08a3fa138b1dbae16916659368",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Signal_Review_v1_0/review_service.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Signal_Review_v1_0/review_service.py",
+      "bytes": 25718,
+      "sha256": "38b6358fce0ebcabb0e6722f7a5cf94377a34e2ea7ab5997c8756ab20bc2b7d8",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Signal_Review_v1_0/recording_contract.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Signal_Review_v1_0/recording_contract.py",
+      "bytes": 11712,
+      "sha256": "20553e4b58633d34cf831e0c4abeb02c8e218677ea48f15433df5bf881059d72",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Signal_Review_v1_0/physiology.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Signal_Review_v1_0/physiology.py",
+      "bytes": 34680,
+      "sha256": "a20f488ad44abc88e6be12166e37848bd7dc0f92009aec93712fb5b5d124775d",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Signal_Review_v1_0/denoising.py",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Signal_Review_v1_0/denoising.py",
+      "bytes": 31007,
+      "sha256": "66794cd4bf1297ed403527ea0361c5658451487ba9410ae0ac0ed5de7a9c7c9e",
+      "extracted_copy_matches_archive": true
+    },
+    {
+      "source_path": "app/tools/Signal_Review_v1_0/methods_denoising_v1.json",
+      "archive_path": "PRAYCG_Workbench_Public_Alpha_11_2_1/app/tools/Signal_Review_v1_0/methods_denoising_v1.json",
+      "bytes": 4981,
+      "sha256": "8a8a75b3953b980d6eded5f8198e254e9bd9ef891ee857a7e84e2c80dbfc2d1b",
+      "extracted_copy_matches_archive": true
+    }
+  ],
+  "limitations": [
+    "No studies, numerical pipelines, model inference, dependency installation or hardware tests executed.",
+    "Registry inclusion, source hashes and successful byte comparisons establish identity, not construct validity, novelty, scientific priority or participant readiness.",
+    "Only the listed paths were compared; this is not a whole-application source audit.",
+    "Application code is not copied into the repository by this map."
+  ]
+}

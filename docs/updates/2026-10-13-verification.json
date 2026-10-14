@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-13",
+  "status": "PASS_DOCUMENTATION_CHECKS",
+  "base_commit": "bc17059f10d0756f811c4ec900be8d4a476f191f",
+  "scope": "Research navigation and six concept guides, algorithm implementation map, proposed Workbench release notes, selected public documents, current attribution and bibliography supplements, stimulus catalogs and three locally prepared media companions. Isolated attribution-observer metadata probe only; no scientific program execution or installation.",
+  "markdown": {
+    "files_checked": 36,
+    "local_links_checked": 612,
+    "heading_anchors_checked": 64,
+    "errors": [],
+    "heading_anchor_scope": "Heading and explicit HTML anchors whose Markdown target is present locally; preserved sparse-only targets are outside this anchor check."
+  },
+  "public_workbench_snapshot": {
+    "source_archive": "PRAYCG_Workbench_Public_Alpha_11_2_1.zip",
+    "source_archive_sha256": "cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b",
+    "checksum_sidecar_matched_during_package_audit": true,
+    "byte_identical_documents_and_receipts": 7
+  },
+  "optoping_archive_audit": {
+    "archive": "archive/software/components/03_Individual Files/10_SANITIZED_COMPONENT_ZIPS/06_OptoPING_Rung0_Reproducibility.zip",
+    "sha256": "96bab92b39f0c9dfa60e9b7d78c10c1228d579e752973dbf0be780096fe77270",
+    "archive_bytes": 2800878,
+    "payload_files": 126,
+    "canonical_git_blob_matches": 126,
+    "canonical_content_differences": 0,
+    "checkout_note": "112 working-copy byte differences were attributable to checkout newline conversion; use ZIP or byte-preserving checkout for supplied checksum verification."
+  },
+  "preservation": {
+    "modified_tracked_paths": [
+      "CITATIONS_AND_ATTRIBUTION.md",
+      "README.md",
+      "examples/README.md",
+      "research/README.md",
+      "research/measures/README.md",
+      "research/protocols/README.md",
+      "research/roadmap.md",
+      "research/studies/README.md",
+      "research/theory/extensions/README.md",
+      "workbench/CHANGELOG.md",
+      "workbench/README.md"
+    ],
+    "scientific_originals_modified": false,
+    "application_archive_modified": false,
+    "film_bytes_added_to_git_tree": false,
+    "existing_installed_stimuli_modified": false
+  },
+  "not_performed": [
+    "Scientific reproduction runs",
+    "Media re-encoding or fresh playback qualification",
+    "Renewed redistribution permissions review",
+    "Application installation or full application test suite",
+    "Hardware retest",
+    "Provider request",
+    "Git commit, push or release publication"
+  ],
+  "algorithm_source_files": {
+    "manifest": "research/algorithms/SOURCE_MANIFEST.json",
+    "archive_hash_matched": true,
+    "source_files_checked": 28,
+    "exact_hash_matches": 28,
+    "copied_application_code": false
+  },
+  "stimulus_companions": [
+    {
+      "archive": "PRAYCG_Demo_Lantern_Bridge_Preserved_CC0_2026-10-13.zip",
+      "bytes": 106074791,
+      "sha256": "3344980589bf3fae282d0a5049f882e3b479f62a5c9c7eb4c4efb446ee1e640d",
+      "status": "PREPARED_CC0_COMPANION",
+      "source_or_manifest_payload_files_verified_at_creation": 23,
+      "crc_and_payload_checks_at_creation": "PASS",
+      "final_archive_and_sidecar_check": "PASS"
+    },
+    {
+      "archive": "PRAYCG_Original_11_Stimulus_Masters_LOCAL_REVIEW_ONLY_2026-10-13.zip",
+      "bytes": 1269289300,
+      "sha256": "89dd81232c4e9b0fe17a06985e599a31c434a0cf89f429a6850978357c884c0c",
+      "status": "LOCAL_REVIEW_ONLY_NOT_REDISTRIBUTION_CLEARED",
+      "source_or_manifest_payload_files_verified_at_creation": 38,
+      "crc_and_payload_checks_at_creation": "PASS",
+      "final_archive_and_sidecar_check": "PASS"
+    },
+    {
+      "archive": "PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip",
+      "bytes": 691949836,
+      "sha256": "e851f0a6bea03ea381efe4c96c9a93685e6afdbfc9ecf05bdfd29741e6ca0a4b",
+      "status": "RECORDED_REDISTRIBUTION_REVIEW_SUBSET_NOT_UPLOADED",
+      "source_or_manifest_payload_files_verified_at_creation": 9,
+      "crc_and_payload_checks_at_creation": "PASS",
+      "final_archive_and_sidecar_check": "PASS"
+    }
+  ],
+  "optional_seven_manifest_check": "The current public installer safe_relative and validate_manifest accepted the explicitly supplied new manifest. The bundled default remains the older seven-film manifest. No package was installed or downloaded; release_url remains null and is not read by the current main().",
+  "current_installer_connection": {
+    "checked_against_archive_sha256": "cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b",
+    "bundled_manifest_present": true,
+    "bundled_manifest_path": "app/tools/Stimulus_Forge_Library_v1_0/config/optional_stimulus_release_v1.json",
+    "bundled_pack_id": "PRAYCG_OPTIONAL_MASTER_STIMULI_7_V1",
+    "bundled_archive_bytes": 691953162,
+    "bundled_archive_sha256": "b35de8ace6ea5c241158119f3aa261c50cfb46827dd0eafb23f58f3c4effb6d8",
+    "bundled_release_url": null,
+    "url_selection": "--url argument, otherwise operator HTTPS URL prompt",
+    "reads_manifest_release_url": false,
+    "new_pack_selected_by_default": false,
+    "integration_remaining": "Publish new seven-film asset, use its matching manifest, and wire the real URL into a reviewed installer or launcher revision. Current code requires both explicit new manifest and URL."
+  },
+  "attribution_review": {
+    "manifest": "docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json",
+    "master_document_revision": "2.4",
+    "bibliography": "research/bibliography/README.md",
+    "exact_package_records_verified": 10,
+    "observed_environment_notices_verified": 5,
+    "inspected_code_hashes_verified": 5,
+    "active_registry_revision": "1.1.1-alpha11.2.1",
+    "active_module_records": 40,
+    "active_method_records": 34,
+    "method_source_hashes_matching_archive": 34,
+    "module_records_with_nonempty_method_lists": 23,
+    "module_records_without_method_lists": 17,
+    "eeGLAB_status": "External software reference; no direct implementation/invocation identified in reviewed package.",
+    "historical_registry_rewritten": false,
+    "generated_application_bibliography_modified": false,
+    "ratings_observer_issue": "Original registry raises KeyError: functions before worker entry; standalone proposed metadata patch checked in isolation.",
+    "proposed_patch": "docs/attribution/alpha-11.2.1/proposed-fixes/protocol-ratings-attribution.patch",
+    "publication_status": "Documentation and proposed fix prepared locally; unchanged archive requires a corrected, verified release before publication.",
+    "proposed_patch_sha256": "33d8c22e22d61cc031dfb6c983371ee03c947e9a7c1e9ae02a95fb3ba1ee25f0",
+    "isolated_observer_original_exit": 1,
+    "isolated_observer_proposed_exit": 0,
+    "scientific_worker_executed": false
+  }
+}

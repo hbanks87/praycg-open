@@ -1,0 +1,2 @@
+# Preserve the already recorded historical archive bytes.
+package/** -text

@@ -1,4 +1,23 @@
-# Hardware support in Alpha 10.5.4
+# Hardware support and evidence boundaries
+
+## Public Alpha 11.2.2
+
+The [11.2.2 patch](releases/alpha-11.2.2/README.md) hardens software workflows. It does not newly qualify physical hardware, electrical safety, cross-device timing or physiological accuracy. Preserve each route's earlier evidence and exact source/firmware/mapping scope.
+
+The Atlas separates **can record this task** from **supports its intended endpoint**. Athena's four measured electrodes do not become a full scalp montage. Exploratory recording is not blocked merely because a stricter scientific endpoint will be unavailable. Missing task-critical streams, invalid source identity, unusable clocks, unresolved ownership or required physical equipment remain operational issues.
+
+| Recorded evidence | What can be reviewed | What it does not supply |
+| --- | --- | --- |
+| Athena TP9, AF7, AF8, TP10 EEG | Supported per-channel and explicitly named pair descriptions, saved TFR and measured-sensor views | Unrecorded electrodes, a guaranteed four-channel accepted window, or a mental-state label |
+| Athena raw Optical stream | Raw trends and descriptive analyses when recorded | Valid HbO/HbR without a verified instrument mapping and declared conversion assumptions |
+| Measured RR/heartbeat or eligible ECG | Supported interval or ECG-derived analysis with continuity and timing checks | Beat-to-beat HRV from sampled average heart rate alone |
+| Measured respiration | Recorded respiratory trends and eligible paired RSA review | Calibrated tidal volume or RSA without eligible overlapping cardiac evidence |
+| EOG/EMG references | Method-specific artifact evidence when mappings and timing are supported | Automatic proof that residual EEG is neural |
+| ALS | Measured stimulus-related timing evidence under its actual wiring and sampling route | A software-only replacement for a sensor that was not recorded |
+
+Select every intended stream in LabRecorder. A connected but unrecorded sensor cannot be recovered by the assistant. Zuna reconstruction is a separate labeled experiment, never a replacement for measured source channels or device qualification.
+
+## Preserved Alpha 10.5.4 route details
 
 The Workbench's software routes and the repository's [physical hardware projects](../../hardware/README.md) answer different questions. Review each route's exact source, firmware, mapping, timing and acquisition evidence. A connector or successful installation alone does not certify an attached device, electrode placement, electrical safety or stimulus synchronization.
 
