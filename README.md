@@ -28,11 +28,6 @@ The Workbench helps preserve protocol, stimulus, hardware, stream, analysis and 
 
 **Prepared update: Public Alpha 11.2.2.** The [new workflow-hardening guide](workbench/docs/releases/alpha-11.2.2/README.md) covers Materials catalog agreement, recording-aware figures, scoped analysis explanations, rating handoff and the optional seven-film plus original Lantern installer. It includes the [cumulative changes since 10.5.4](workbench/docs/proposed-alpha-11.2.1.md) and the [full research/navigation update](docs/updates/2026-10-14-public-workflow-release.md). The [11.2.1 package snapshot](workbench/docs/releases/alpha-11.2.1/README.md) remains historical evidence. Final release publication is pending.
 
-**Current release: Alpha 10.5.4 — visual entry points and Athena admission packaging.**
-
-[Download Alpha 10.5.4](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4) · [Changelog](workbench/CHANGELOG.md) · [Installation](workbench/docs/installation.md) · [Workflow](workbench/docs/workflow.md) · [Hardware routes](workbench/docs/hardware-support.md)
-
-The complete release includes the application source, installers, timing-patched LabRecorder, method guides, third-party notices and validation records. Alpha 10.5.4 improves Visual Analysis entry points, recorded source selection and explicit calibration offsets. It restores the exact retained Athena acquisition receipt required by Human connected profile validation, with recursive runtime-dependency checks and missing/tampered-evidence rejection. The four shared Visual Analysis views, completed results, recorded replay and passive live viewing remain available. Gamma Scalpel and optical exploration remain available. Earlier releases retain their original contents and evidence.
 
 ## PRAYCG Neuro Research Program
 
