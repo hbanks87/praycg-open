@@ -1,20 +1,22 @@
 # Installation and first launch
 
-## Public Alpha 11.2.2 update
+## Public Alpha 11.4.1
 
-Public Alpha 11.2.2 is the prepared replacement described in the [release guide](releases/alpha-11.2.2/README.md). Final publication is pending. Follow the new archive's own instructions and verification record; the Alpha 10.5.4 instructions below remain labeled historical published behavior until the new asset is verified.
+Download the complete [Public Alpha 11.4.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1), including the named Workbench ZIP and checksum. The [current packaged installation guide](releases/alpha-11.4.1/package/INSTALL_WORKFLOW.md) is the version-specific authority. GitHub's generated source archives are not application installers.
 
-Install an update into a **new release folder**, never over an old application or study-data folder. Retain existing settings, workspaces, recordings, external PsychoPy settings and Zuna environment/model paths. New release-local Core, Live Monitor and connector environments are independent of those study files. Do not reinstall Zuna merely to update the Workbench; first verify the existing configured environment and model paths. Back up important studies before any upgrade.
+For a manual update, extract into a **new release folder**, run **INSTALL.bat**, then **START.bat**. Native Windows Python 3.11 with Tcl/Tk is required. Preserve previous installations, settings, workspaces, recordings, external application configuration and existing Zuna environment/model paths. Do not merge release folders or reinstall Zuna merely for this patch.
 
-The standard path remains **INSTALL.bat → START.bat**. The Public package contains the independent PRAYCG AI Assistant and needs no private extension. Optional AI configuration is separate from local numerical analysis; do not paste credentials into public issue reports.
+Updater-enabled Public installations can use **Settings → Updates**. For offline import, keep the ZIP beside its exact signed `.zip.update.json` companion. The updater checks the signature, edition, archive identity and state compatibility before preparing a separate installation; dependency setup may still require internet access or cached packages. Follow the packaged instructions to finish acquisition, stop/save LabRecorder and close active work before restart.
 
-**INSTALL_STIMULUS_PACKAGE.bat** now offers the seven-film collection plus the original Lantern demo as two separate verified packages. It uses pinned release URLs, supports exact local ZIPs and checks destination/storage before installation. See [optional stimulus instructions](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md). After installation, refresh installed masters in Prepare Materials and select the master for normal protocol-specific preparation and fingerprinting.
+Core, Live Monitor and Hardware Connectors use separate release-local environments. Optional ASR, ICLabel and Pycrostates use **INSTALL_SIGNAL_EXTRAS.bat**. Optional AI configuration and numerical analysis are separate. Keep credentials out of public reports.
 
-Saved studies and original measurements are not migrated into a new numerical meaning by this patch. Reanalysis and new explanations create new derivatives. A missing endpoint, absent physical sensor or unavailable provider remains visible without erasing available reports.
+**INSTALL_STIMULUS_PACKAGE.bat** offers seven films plus the original Lantern as two separately verified packages pinned to the published 11.2.2 media assets. See the [optional stimulus instructions](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md). The full eleven-film companion is not included in this public release.
+
+This patch repairs optical attribution metadata without changing optical calculations. It does not rewrite prior receipts, results or plans. New analyses must satisfy the current release's QC and revision workflow; do not edit historical hashes to force compatibility. The [release guide](releases/alpha-11.4.1/README.md) and [build report](releases/alpha-11.4.1/package/BUILD_REPORT.md) state the verification scope.
 
 ## Preserved Alpha 10.5.4 installation
 
-**Current packaged release: Alpha 10.5.4.** Download the complete [PRAYCG Workbench Alpha 10.5.4 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip) and follow the [current installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md).
+**Historical packaged release: Alpha 10.5.4.** Download the complete [PRAYCG Workbench Alpha 10.5.4 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip) and follow the [historical installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md).
 
 ## Before you begin
 
@@ -47,8 +49,8 @@ Confirm and arm the setup, start LabRecorder before the protocol, then **Stop La
 
 Open the completed recording in Analysis Forge for **Visual Analysis**, immediately after **Analyze**. Live Monitor places **Visual Analysis** beside **Time–Frequency**. Use **Visual sources** to select the exact EEG and optional RR inputs and declare electrode names, units and calibration. The dialog opens while recorded streams are loading, updates when they arrive and shows setup failures. Calibration starts at shared-recording time 0 by default; selecting the EEG stream's recorded start keeps that clock unchanged and still requires valid support. The [Visual Analysis guide](releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) distinguishes recorded prefix replay, passive live views and compatible completed-result attachments.
 
-Alpha 10.5.4 restores the exact retained receipt required by Athena **Human connected** profile validation and checks runtime dependency closure. Missing or altered evidence still blocks admission. Current checks cover software regression, native visual integration, packaged admission and distribution hashes. A fresh full installation, optional Zuna installation/inference, physical acquisition and cross-device timing were not reexecuted as part of this release gate; retained earlier evidence keeps its original scope. See the [current implementation and validation boundaries](releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md).
+Alpha 10.5.4 restores the exact retained receipt required by Athena **Human connected** profile validation and checks runtime dependency closure. Missing or altered evidence still blocks admission. Current checks cover software regression, native visual integration, packaged admission and distribution hashes. A fresh full installation, optional Zuna installation/inference, physical acquisition and cross-device timing were not reexecuted as part of this release gate; retained earlier evidence keeps its original scope. See the [10.5.4 implementation and validation boundaries](releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md).
 
 The preserved [Alpha 10.2.1 installation guide](releases/alpha-10.2.1/INSTALLATION_ALPHA_10_2_1.md) documents that historical release, including its different Core installation behavior.
 
-[Workbench](../README.md) · [Current installation guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md) · [Release notes](releases/alpha-10.5.4/RELEASE_NOTES_v1_0_0_alpha_10_5_4.md)
+[Workbench](../README.md) · [Historical installation guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md) · [Release notes](releases/alpha-10.5.4/RELEASE_NOTES_v1_0_0_alpha_10_5_4.md)
