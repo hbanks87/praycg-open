@@ -6,6 +6,14 @@ Folders core, monitor and connectors contain installed package notices. upstream
 
 This collection contains no third-party wheels or native binaries. The original PRAYCG release did not embed those artifacts. This companion does not grant rights to redistribute unrelated binaries or establish complete transitive clearance.
 
+## Current release notices
+
+Public Alpha 11.4.1 corrects optical citation metadata; it does not replace upstream license terms. The [versioned attribution supplement](../docs/attribution/alpha-11.4.1/README.md) links the exact package notice and citation records. Current references cover retained NeuroKit2, PyWavelets and mne-denoise integration and the optional Signal Review tooling introduced since 11.3.0, including ASRpy, MNE-ICALabel, Pycrostates and adapted SPAR-EEG code. Follow the actual component's notice and record the version and operation used. A method paper is not a software license.
+
+The table below remains the historical collected-notice inventory. Its environment versions and statement about the original archive are not a complete inventory of 11.4.1 or its bundled recorder/native runtime. See the [master attribution](../CITATIONS_AND_ATTRIBUTION.md) and [current bibliography](../research/bibliography/README.md) for the version-specific distinctions. Exact historical notice texts and hashes are preserved.
+
+## Preserved historical inventory
+
 | Notice | SHA-256 |
 | --- | --- |
 | [connectors/bleak-1.1.1/bleak-1.1.1.dist-info/LICENSE](connectors/bleak-1.1.1/bleak-1.1.1.dist-info/LICENSE) | `c4029a2b63b3824ab68be841f414addbdde20cb79cdbe272fa80c0b2abe65374` |
