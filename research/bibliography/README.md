@@ -1,8 +1,10 @@
 # Research bibliography and software credits
 
-**Supplement reviewed 13 October 2026 for the proposed Public Alpha 11.2.1 update.**
+**Current supplement: Public Alpha 11.4.1, reviewed 18 October 2026.**
 
-The [Public Alpha 11.2.2 supplement](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-1122-release-supplement) carries these references forward where the actual code uses them and identifies the new workflow/rating-credit changes. This page preserves its 11.2.1 source-review scope; it is not a second independent source audit.
+The current section below corrects optical citation metadata and identifies later NeuroKit2 and EEG comparison routes. The retained 11.2.1 source-review section keeps its original scope; its statements about absent routes describe that earlier package.
+
+The historical [Public Alpha 11.2.2 supplement](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-1122-release-supplement) carries these references forward where the actual code uses them and identifies the new workflow/rating-credit changes. The retained section preserves its 11.2.1 source-review scope; later additions do not turn it into a second independent source audit.
 
 This index connects PRAYCG's current integration code to upstream software and scientific methods. It supplements the [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md), [historical reviewed estimators](../../docs/attribution/ANALYSIS_METHODS.md) and bibliographies retained within original research documents. It does not rewrite those originals or establish that every listed method ran in a study.
 
@@ -12,9 +14,36 @@ This index connects PRAYCG's current integration code to upstream software and s
 
 A study should identify its PRAYCG release and protocol revision, actual software versions, selected algorithms and parameters, and the outputs that support its conclusions. Cite both an upstream implementation and its method paper where appropriate. An installed dependency, a candidate transform, a failed attempt and an adopted analysis are different facts. Retain applicable licenses as well as scholarly citations.
 
-The code paths below are relative to `app/` inside the inspected Public Alpha 11.2.1 archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
+The code paths in the retained 11.2.1 section below are relative to `app/` inside that inspected archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
 
-## New software and method references
+## Public Alpha 11.4.1 current integration
+
+The [current attribution supplement](../../docs/attribution/alpha-11.4.1/README.md) links the exact corrected registry and package addendum. Public Alpha 11.4.1 repairs required metadata on the relative-hemoglobin reference so new affected receipts can retain their automatic method/software credits. Optical numerical calculations and historical receipts are unchanged. Scholarly references identify the method lineage; an execution receipt must still identify what actually ran.
+
+| Component or route | Current attribution scope |
+| --- | --- |
+| Native optical relative-hemoglobin conversion | Cite Delpy and colleagues (O1), PRAYCG's versioned instrument/conversion recipe, and actual numerical libraries. MNE's fNIRS tutorial (O2) is context, not evidence that MNE's optical conversion code is called. |
+| Optical spectra | Retain Welch (M7) and actual SciPy/NumPy versions, with recorded window, frequency-support, gap and pooling choices. |
+| NeuroKit2 | Retain S1 and the method-specific references for the actual operation. Later `physiology_extras.py` routes include PPG (`elgendi`), EDA (`neurokit`), Welch HRV frequency comparison and explicitly paired measured ECG/respiration RSA. A native first-harmonic phase/RR estimate is not interchangeable with the separate NeuroKit RSA comparison. |
+| EEGLAB interoperability | `.set` import uses MNE's `read_raw_eeglab`; optional `eeglabio` supports export/test routes. Cite MNE, the actual I/O software and EEGLAB (E1) as applicable. A MATLAB EEGLAB runtime is not bundled. |
+| ASR, ICLabel and microstate candidates | Optional Python implementations use ASRpy (S7), MNE-ICALabel/ICLabel (S4) and Pycrostates (S5). Their versions, notices, method references and actual execution must be recorded. They are not automatic cleaning approval or proof of equivalence to MATLAB plugins. |
+| SPAR-EEG adaptation | PRAYCG adapts pass logic from upstream commit `7990bf1211c68fbf885749607939ae88fc208577`. Credit all four source authors (S6), retain the exact MIT notice and disclose native adaptations. Synthetic preservation results do not establish physiological validation. |
+
+**O1 — Optical pathlength.** Delpy, D. T., Cope, M., van der Zee, P., Arridge, S., Wray, S., & Wyatt, J. (1988). *Estimation of optical pathlength through tissue from direct time of flight measurement.* Physics in Medicine and Biology, 33(12), 1433–1442. [DOI](https://doi.org/10.1088/0031-9155/33/12/008) · [PubMed record](https://pubmed.ncbi.nlm.nih.gov/3237772/). This reference does not supply missing source-specific wavelengths, pathlength factors or calibration for a PRAYCG recording.
+
+**O2 — MNE fNIRS methodology context.** MNE-Python contributors. *Preprocessing functional near-infrared spectroscopy (fNIRS) data.* [Official tutorial](https://mne.tools/stable/auto_tutorials/preprocessing/70_fnirs_processing.html). Cite the actual MNE version and software reference when MNE is used; this contextual reference does not transfer authorship of PRAYCG's native implementation.
+
+**S4 — MNE-ICALabel and ICLabel.** Li, A., Feitelberg, J., Saini, A. P., Höchenberger, R., & Scheltienne, M. (2022). *MNE-ICALabel: Automatically annotating ICA components with ICLabel in Python.* Journal of Open Source Software, 7(76), 4484. [DOI](https://doi.org/10.21105/joss.04484). Credit the model separately: Pion-Tonachini, L., Kreutz-Delgado, K., & Makeig, S. (2019). *ICLabel: An automated electroencephalographic independent component classifier, dataset, and website.* NeuroImage, 198, 181–197. [DOI](https://doi.org/10.1016/j.neuroimage.2019.05.026). The optional PRAYCG route invokes MNE-ICALabel with the ONNX backend.
+
+**S5 — Pycrostates.** Férat, V., Scheltienne, M., Brunet, D., Ros, T., & Michel, C. (2022). *Pycrostates: a Python library to study EEG microstates.* Journal of Open Source Software, 7(78), 4564. [DOI](https://doi.org/10.21105/joss.04564). The optional comparison uses `ModKMeans`; algorithm availability does not establish a stable biological state or equivalence to another software implementation.
+
+**S6 — SPAR-EEG.** Shaikh, U. Q., Kalra, A. M., Lowe, A., & Niazi, I. K. (2026). *SPAR-EEG: Selective Pass-Wise Artifact Reduction for Wearable Single-Channel EEG Denoising.* IEEE Transactions on Neural Systems and Rehabilitation Engineering, 34, 4078–4089. [DOI](https://doi.org/10.1109/TNSRE.2026.3734253). The pinned software and adaptation details are supplied in the [current package attribution addendum](../../docs/attribution/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md). PRAYCG's own benchmark is a separate implementation and evidence record.
+
+**S7 — ASRpy.** Gütlin, D., and the ASRpy contributors. *ASRpy: Artifact Subspace Reconstruction for Python* [Computer software]. The inspected optional requirement is 0.0.8. [Official repository](https://github.com/DiGyt/asrpy) · [Project citation record](https://github.com/DiGyt/asrpy/blob/main/citation.cff). Retain its upstream credits and BSD-3-Clause license. Record the actual installed version and selected standard Euclidean ASR parameters; the route does not claim Riemannian ASR or MATLAB equivalence. A current repository citation DOI without an explicit version match is not assigned here to the 0.0.8 dependency.
+
+## Retained Public Alpha 11.2.1 source review
+
+### Software and method references reviewed for 11.2.1
 
 | Component or method | Relationship to the inspected Workbench | References |
 | --- | --- | --- |
@@ -60,7 +89,7 @@ Authentication infrastructure is recorded separately: the package declares `PyJW
 
 **E1 — EEGLAB.** Delorme, A., & Makeig, S. (2004). *EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis.* Journal of Neuroscience Methods, 134(1), 9–21. [DOI](https://doi.org/10.1016/j.jneumeth.2003.10.009) · [Official EEGLAB citation guidance](https://eeglab.org/others/EEGLAB_References.html).
 
-EEGLAB is recorded here as relevant external software. The inspected package has no identified bundled EEGLAB implementation or direct EEGLAB execution route. A LabRecorder README mention of an EEGLAB XDF importer and historical MNE optional I/O metadata are interoperability references, not evidence of use. No PRAYCG ASR, clean_rawdata or ICLabel integration was identified. Do not attach their citations as executed PRAYCG methods solely because those projects are related to EEG processing or an installed library offers them.
+In the retained Public Alpha 11.2.1 review, EEGLAB was recorded as relevant external software. That inspected package has no identified bundled EEGLAB implementation or direct EEGLAB execution route. A LabRecorder README mention of an EEGLAB XDF importer and historical MNE optional I/O metadata are interoperability references, not evidence of use. No PRAYCG ASR, clean_rawdata or ICLabel integration was identified in that 11.2.1 review. The current 11.4.1 section above records the later Python integrations. Do not attach their citations as executed PRAYCG methods solely because those projects are related to EEG processing or an installed library offers them.
 
 If a study independently uses EEGLAB or a plugin, record the exact software/plugin versions, actual operations, selected parameters and resulting outputs. Follow EEGLAB's official references and each plugin's own method and license requirements. EEGLAB's citation does not cover all independent plugins, and a citation is not a software license.
 
@@ -75,4 +104,4 @@ If a study independently uses EEGLAB or a plugin, record the exact software/plug
 | Opto-PING and research ladders | [Opto-PING source and rung records](../optoping/README.md), [ladder index](../ladders/README.md) and [reproducibility programs](../reproducibility/README.md); preserved reports retain their own bibliographies and evidence limits |
 | Stimulus editions and demonstration media | [Original master catalog](../../examples/stimulus-masters/README.md) and [Bridge demo](../../examples/bridge-demo/README.md); scientific references do not replace media credits or redistribution terms |
 
-This bibliography identifies contributions and source relationships. It does not establish scientific novelty, priority, validation, or complete historical code provenance. The [current attribution review](../../docs/attribution/alpha-11.2.1/README.md#coverage-and-remaining-gaps) distinguishes automatic-credit coverage from references that still require study-specific selection.
+This bibliography identifies contributions and source relationships. It does not establish scientific novelty, priority, validation, or complete historical code provenance. The [historical attribution review](../../docs/attribution/alpha-11.2.1/README.md#coverage-and-remaining-gaps) distinguishes automatic-credit coverage from references that still require study-specific selection.
