@@ -26,8 +26,7 @@ Using the Workbench does not require agreement with a research theory. Running a
 
 The Workbench helps preserve protocol, stimulus, hardware, stream, analysis and output identities. Its purpose is to make methods and limitations visible enough for other people to inspect, reproduce and challenge.
 
-**Prepared update: Public Alpha 11.2.2.** The [new workflow-hardening guide](workbench/docs/releases/alpha-11.2.2/README.md) covers Materials catalog agreement, recording-aware figures, scoped analysis explanations, rating handoff and the optional seven-film plus original Lantern installer. It includes the [cumulative changes since 10.5.4](workbench/docs/proposed-alpha-11.2.1.md) and the [full research/navigation update](docs/updates/2026-10-14-public-workflow-release.md). The [11.2.1 package snapshot](workbench/docs/releases/alpha-11.2.1/README.md) remains historical evidence. Final release publication is pending.
-
+**Current public release: [Public Alpha 11.4.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1).** This patch restores automatic optical method and software credits by correcting required citation metadata. It preserves optical calculations and earlier study records. See the [release guide](workbench/docs/releases/alpha-11.4.1/README.md), [changelog](workbench/CHANGELOG.md), [updated attribution](docs/attribution/alpha-11.4.1/README.md) and [current bibliography](research/bibliography/README.md). The release retains the 11.4.0 Signal Review and signed-update workflow, optional seven-film plus original Lantern installer, and the public research collections.
 
 ## PRAYCG Neuro Research Program
 

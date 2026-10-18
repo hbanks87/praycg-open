@@ -1,10 +1,10 @@
 # PRAYCG — Master Citations and Attribution
 
-**Published PRAYCG Workbench / Control Center release: Alpha 10.5.4**
+**Current public PRAYCG Workbench release: [Public Alpha 11.4.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1)**
 
-**Sealed local update: Public Alpha 11.2.2; GitHub publication pending. Preserved source/bibliography review: Public Alpha 11.2.1.**
+**Current attribution correction: Public Alpha 11.4.1. Earlier source reviews retain their stated version and date.**
 
-**Document revision:** 2.5 · **Updated:** 14 October 2026
+**Document revision:** 2.6 · **Updated:** 18 October 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -18,8 +18,11 @@ Revision 2.3 adds the Alpha 10.5.4 calibration and admission-packaging supplemen
 
 Revision 2.4 adds the proposed Public Alpha 11.2.1 software and bibliography review, including NeuroKit2, PyWavelets and mne-denoise, and identifies EEGLAB's external-reference status. It preserves the new package's existing upstream notices without changing that package or historical research records. See the [current bibliography](research/bibliography/README.md) and [dated attribution evidence](docs/attribution/alpha-11.2.1/README.md).
 
+Revision 2.6 adds the Public Alpha 11.4.1 optical-credit repair and current software/method references, including the newer NeuroKit2 and optional EEG comparison routes. The [11.4.1 supplement](docs/attribution/alpha-11.4.1/README.md) separates the focused fix from historical source-review evidence.
+
 ## Contents
 
+- [Public Alpha 11.4.1 attribution supplement](#public-alpha-1141-attribution-supplement)
 - [Public Alpha 11.2.2 release supplement](#public-alpha-1122-release-supplement)
 - [How to cite PRAYCG and a study](#how-to-cite-praycg-and-a-study)
 - [Proposed Public Alpha 11.2.1 attribution supplement](#proposed-public-alpha-1121-attribution-supplement)
@@ -41,9 +44,21 @@ Revision 2.4 adds the proposed Public Alpha 11.2.1 software and bibliography rev
 
 ## How to cite PRAYCG and a study
 
-For Public Alpha 11.2.2, cite the edition and actual distribution used, and add its final release URL only after publication:
+For Public Alpha 11.4.1, cite the exact edition and release used:
 
-> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.2.2; 1.0.0-alpha.11.2.2) [Computer software].
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.4.1; 1.0.0-alpha.11.4.1) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1).
+
+Keep the archive checksum with the study record. For an earlier study, use its actual release identity and citations, not this version by default.
+
+## Public Alpha 11.4.1 attribution supplement
+
+The optical relative-hemoglobin reference was missing fields required by automatic receipt-credit validation. An affected receipt could therefore lose its automatic method/software credits and carry an invalid-attribution state even though its numerical result was unchanged. Public Alpha 11.4.1 supplies valid citation metadata and source references for new affected executions. It does not change optical calculations, qualify conversion on unsupported instruments, or silently backfill prior receipts. The [versioned correction record](docs/attribution/alpha-11.4.1/README.md) links the exact package registry, explanatory addendum and verification evidence.
+
+Credit the six authors of the optical pathlength reference: Delpy, D. T., Cope, M., van der Zee, P., Arridge, S., Wray, S., & Wyatt, J. (1988). *Estimation of optical pathlength through tissue from direct time of flight measurement.* Physics in Medicine and Biology, 33(12), 1433–1442. [DOI](https://doi.org/10.1088/0031-9155/33/12/008). MNE-Python's [fNIRS processing tutorial](https://mne.tools/stable/auto_tutorials/preprocessing/70_fnirs_processing.html) supplies methodological context; it does not establish that PRAYCG's native conversion calls MNE's optical conversion functions. Retain PRAYCG's own versioned instrument, baseline, wavelength, pathlength and extinction-coefficient assumptions alongside the applicable source citations. The bundled Athena profile remains raw-only.
+
+The [current bibliography](research/bibliography/README.md#public-alpha-1141-current-integration) also updates the newer Signal Review routes. NeuroKit2 credits cover the actual ECG, respiration, PPG, EDA, frequency-domain HRV or paired-signal RSA operation used. Native phase/RR coupling remains a separate PRAYCG method. EEGLAB `.set` import through MNE and optional Python ASR/ICLabel comparisons are now present; no MATLAB EEGLAB runtime is bundled. Cite the exact Python implementation and original method where used, including MNE-ICALabel and the ICLabel model separately. Current references and retained licenses also cover Pycrostates and the native adaptation of pinned SPAR-EEG pass logic.
+
+Citation repair does not make every module observed, every candidate adopted or every result estimable. Preserve source hashes, actual software versions, execution state and study-specific method selection. The release's targeted correction and test record are not a new comprehensive source-origin audit, transitive-license review or scientific validation. Earlier source and bibliography snapshots remain unchanged.
 
 ## Public Alpha 11.2.2 release supplement
 
@@ -609,6 +624,8 @@ Remaining work is specific: establish historical provenance for unresolved sourc
 Submit attribution corrections through the project's public issue tracker or repository contribution process, identifying the component, exact version, primary source and requested correction. Preserve original notices while a correction is reviewed.
 
 ## Document provenance
+
+Revision 2.6 records the Public Alpha 11.4.1 citation-metadata correction, selected current implementation routes and primary citation sources checked on 18 October 2026. Its [versioned evidence](docs/attribution/alpha-11.4.1/README.md) is separate from the historical reviews below. Original scientific documents and earlier package snapshots are retained.
 
 Revision 2.4 was prepared from the exact Public Alpha 11.2.1 archive, its requirements, active attribution registry, Signal Review implementations, method records and preserved notices, with primary software citation pages checked on 13 October 2026. The [source manifest](docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json) binds selected evidence to archive bytes. The new [research bibliography](research/bibliography/README.md) supplies a current reading and citation index; preserved manuscripts and earlier bibliographies are unchanged.
 
