@@ -1,8 +1,30 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.4.1 — optical credits and current citations
+
+- Corrects required metadata for the relative-hemoglobin reference used by Optical Signal Review, restoring automatic method/software credits in new affected receipts.
+- Preserves optical numerical calculations, instrument requirements, unavailable outcomes and historical results. Existing receipts are not silently backfilled.
+- Updates repository attribution, the method bibliography, upstream notice navigation and current release/install links. Earlier source reviews and original scientific records retain their version-specific scope.
+- Retains the 11.4.0 Signal Review, report workflow, optional media and signed same-edition update features.
+
+See the [11.4.1 release guide](docs/releases/alpha-11.4.1/README.md), [packaged changelog](docs/releases/alpha-11.4.1/package/CHANGELOG.md), [current verification record](docs/releases/alpha-11.4.1/package/BUILD_REPORT.md) and [attribution supplement](../docs/attribution/alpha-11.4.1/README.md). This focused correction does not extend earlier device or scientific validation.
+
+## Public Alpha 11.4.0 — Signal Review and signed updates
+
+[Published release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.0), including the intervening 11.3.2 changes.
+
+- Requires measurable event-window support, compatible declared clocks and verified selected annotation/candidate sources.
+- Adds saved comparison playback, source-linked cursors and experimental delayed SPAR replay with bounded loading and cancellation.
+- Hardens guided QC, analysis handoffs, background refresh, receipt finalization and report selection; stale results remain rejected.
+- Binds Athena report explanations to exact result identities, hashes, values, methods and limitations.
+- Adds signed same-edition updates, offline ZIP import, guarded restart and compatible previous-version recovery through Settings → Updates.
+- Adds exact unchanged SPAR controls and a frozen synthetic preservation benchmark; adverse results remain disclosed.
+
+The 11.4.0 release disclosed the inherited optical-credit metadata defect corrected in 11.4.1. Its build evidence and testing limits remain part of that release's record.
+
 ## Public Alpha 11.2.2 — workflow hardening and optional media
 
-Sealed local release record; GitHub publication is pending. The [versioned guide](docs/releases/alpha-11.2.2/README.md) and [byte-exact build report](docs/releases/alpha-11.2.2/package/BUILD_REPORT.md) record 545 unique selected targeted checks passed, zero final failures/errors/skips, and byte-verified extraction. This is not fresh hardware or scientific validation.
+Historical sealed build record; [GitHub publication subsequently completed](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.2.2). The [versioned guide](docs/releases/alpha-11.2.2/README.md) and [byte-exact build report](docs/releases/alpha-11.2.2/package/BUILD_REPORT.md) record 545 unique selected targeted checks passed, zero final failures/errors/skips, and byte-verified extraction. This is not fresh hardware or scientific validation.
 
 - Repairs catalog/core identity agreement and the resulting Materials dead end.
 - Makes recorded figures and saved TFR accessible independently of unavailable advanced state estimates, with source-bound choices and local error feedback.

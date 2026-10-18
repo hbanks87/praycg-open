@@ -4,28 +4,24 @@ PRAYCG Workbench is local-first research software for taking a study from its qu
 
 The [PRAYCG Neuro Research Program](../research/README.md) uses this infrastructure for particular hypotheses and protocols. Researchers can use the Workbench without adopting those hypotheses.
 
-## Prepared Public Alpha 11.2.2 update
+## Current release: Public Alpha 11.4.1
 
-The [11.2.2 workflow-hardening guide](docs/releases/alpha-11.2.2/README.md) describes the Materials catalog correction, usable recording-specific figures, scoped explanation handoff, rating-analysis workflow and optional seven-film plus original Lantern installer. The independent public PRAYCG AI Assistant and [cumulative changes since 10.5.4](docs/proposed-alpha-11.2.1.md) are retained. The [11.2.1 package snapshot](docs/releases/alpha-11.2.1/README.md), including its 535-check record, remains historical. The new sealed archive records 545 unique targeted checks passed and byte-verified extraction; GitHub publication and remote download verification are pending.
+[Download the complete Public Alpha 11.4.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1). This patch corrects optical citation metadata so new affected receipts can retain their automatic method and software credits. It does not change optical calculations or rewrite prior results. The [release guide](docs/releases/alpha-11.4.1/README.md), [changelog](CHANGELOG.md) and [attribution supplement](../docs/attribution/alpha-11.4.1/README.md) describe the correction and verification scope.
 
-The published release instructions below remain identified as Alpha 10.5.4. The separate [Opto-PING](../research/optoping/README.md), [ladder](../research/ladders/README.md) and [reproducibility](../research/reproducibility/README.md) indexes cover the preserved research programs.
+The release retains 11.4.0 Signal Review support checks, source-bound saved comparison/playback views, experimental SPAR comparisons, report handoff and signed updates. These are research tools with explicit unavailable outcomes and documented limits, not automatic evidence that a physiological endpoint is valid. Read the current [Signal Review guide](docs/releases/alpha-11.4.1/package/SIGNAL_REVIEW_GUIDE.md) and [build report](docs/releases/alpha-11.4.1/package/BUILD_REPORT.md).
 
-Prepared media companions are listed under [original stimulus masters](../examples/stimulus-masters/README.md) and [Demo Lantern Bridge](../examples/bridge-demo/README.md). They are separate from the application ZIP. The [concept](../research/concepts/README.md) and [algorithm](../research/algorithms/README.md) guides connect research definitions to versioned inputs, calculations and implementation paths.
+## Install or update
 
-Use the [11.2.2 optional installer guide](docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) for the two pinned companions, local-ZIP installation and safe repeat behavior. The [complete repository update](../docs/updates/2026-10-14-public-workflow-release.md) carries forward Opto-PING, the rungs, reproducibility programs, concepts, bibliography and original research documents.
-
-## Start with Alpha 10.5.4
-
-1. Get the [Alpha 10.5.4 complete release and SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4).
-2. Read [installation and first launch](docs/installation.md), including the Python and external-application requirements.
-3. Follow the [study workflow](docs/workflow.md).
+1. For a first installation or an older release without the updater, download the named Workbench ZIP and its SHA-256 checksum. Extract into a **new writable folder**, run **INSTALL.bat**, then **START.bat**. GitHub's generated source archives contain repository documents and research files; they are not the Workbench installer.
+2. Updater-enabled Public installations can use **Settings → Updates**. For offline import, keep the release ZIP and its matching signed `.zip.update.json` together. Dependency setup may still need network access or cached packages.
+3. Keep previous installations, study folders, recordings, settings and existing Zuna assets. Follow [installation and first launch](docs/installation.md) and the [exact packaged instructions](docs/releases/alpha-11.4.1/package/INSTALL_WORKFLOW.md).
 4. Review [hardware support and its limits](docs/hardware-support.md) before selecting an acquisition route.
 
-Extract the complete ZIP into a new writable folder. Run **INSTALL.bat**, then **START.bat** or **START_PRAYCG.bat**. Core, Live Monitor and Hardware Connectors use separate environments; optional Zuna uses **INSTALL_ZUNA.bat**. The source, bundled recorder, launchers, documentation and release evidence are inside the ZIP. See [development guidance](development/README.md) for working from that package.
+Core, Live Monitor and Hardware Connectors use separate release-local environments. Optional ASR, ICLabel and Pycrostates comparisons use **INSTALL_SIGNAL_EXTRAS.bat**; optional Zuna remains separate. Existing QC and locked plans retain their original identity. New executions must satisfy the current release's normal QC and revision workflow.
 
-Alpha 10.5.4 places **Visual Analysis** beside Time–Frequency in Live Monitor and immediately after Analyze in Forge. It fixes recorded source selection, exposes selection failures and adds an explicit calibration start offset while preserving the recording clock and valid-support requirements. It restores the exact retained Athena acquisition receipt needed for Human connected profile validation; missing or altered evidence is still rejected. The four linked views, completed JSON attachment, recorded prefix replay and passive live feeds remain available. Source identity, actual electrodes, units, fixed calibration and unavailable values remain visible. Raw EEG/RR cannot supply missing CAI, NIP or CAI-SID components. The default visual gamma/theta recipe requires P7/P8 and Pz/P3/P4 respectively; Athena's four measured electrodes do not supply those defaults. The [Visual Analysis guide](docs/releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) explains supported sources and interpretation.
+The optional [seven-film and original Lantern packages](docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) remain pinned to their published media assets. They provide eight masters across two packages. The full eleven-film companion is not included in the public release. See the [original master catalog](../examples/stimulus-masters/README.md) and [Demo Lantern Bridge](../examples/bridge-demo/README.md).
 
-The existing **Recording → Analyze → Results** workflow, Gamma Scalpel 2.0, optical exploration, Live Time–Frequency, finalized-XDF replay and recording with cautions remain available. Read the [changelog](CHANGELOG.md) and [current release notes](docs/releases/alpha-10.5.4/RELEASE_NOTES_v1_0_0_alpha_10_5_4.md).
+The [Opto-PING](../research/optoping/README.md), [ladder](../research/ladders/README.md) and [reproducibility](../research/reproducibility/README.md) indexes preserve the research programs and Rung 0O materials. The [concept](../research/concepts/README.md) and [algorithm](../research/algorithms/README.md) guides connect definitions to versioned inputs and calculations.
 
 PRAYCG is alpha research software. Software checks do not establish scientific validity, participant safety, physical timing or clinical suitability. Consult the [project disclaimer](../DISCLAIMER.md) and the exact release's instructions.
 
@@ -52,14 +48,14 @@ The Workbench also supports protocol and EEG-recipe document packs for AI-assist
 - [Example stimuli and recipes](../examples/README.md)
 - [Development and release provenance](development/README.md)
 - [Workbench roadmap](roadmap.md)
-- [Current Visual Analysis methods](docs/releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md)
+- [Retained Visual Analysis methods](docs/releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md)
 - [Retained Gamma and optical Forge methods](docs/releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md)
 - [Gamma Scalpel methods and reference profiles](docs/releases/alpha-10.5.2/Gamma_Scalpel_v2_0/README.md)
 - [Optical methods and instrument profiles](docs/releases/alpha-10.5.2/Optical_Signal_Review_v1_0/README.md)
 - [Earlier analysis methods and limitations](../docs/attribution/ANALYSIS_METHODS.md)
 - [Citations and attribution](../CITATIONS_AND_ATTRIBUTION.md)
 
-The [Alpha 10.5.4 guide collection](docs/releases/alpha-10.5.4/README.md) mirrors current documentation, with links adapted for repository browsing. Its build receipt records 4,285 passing tests and six skips, with 93 native visual acceptance tests recorded separately. Runtime dependencies are checked recursively on source, staged and extracted layouts. The retained Athena admission receipt keeps its original 10.5.1 acquisition/recording scope. Earlier SDK, installation, acquisition and reconstruction evidence retains its historical scope. This release adds no fresh full installation, physical timing or physiological validation. The bundled Athena optical profile remains raw-only. Earlier guide collections and [attribution evidence](../docs/attribution/) retain their original scope.
+The [current guide collection](docs/releases/alpha-11.4.1/README.md) preserves selected package documents and the correction's verification record. The [Alpha 10.5.4 guides](docs/releases/alpha-10.5.4/README.md) and earlier attribution snapshots remain historical. Their test counts and device receipts are not new 11.4.1 evidence. The bundled Athena optical profile remains raw-only; citation repair does not qualify hemoglobin conversion or new device capabilities.
 
 ## Data and reporting
 
