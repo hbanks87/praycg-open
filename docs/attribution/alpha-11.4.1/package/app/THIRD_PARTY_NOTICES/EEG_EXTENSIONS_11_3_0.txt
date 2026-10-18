@@ -1,0 +1,137 @@
+PRAYCG EEG review extensions: upstream software and methods
+Attribution record revision: PRAYCG_EEGExtensions_11.3.0_v1
+
+Distribution boundary
+The Workbench archive contains PRAYCG adapters, tests and method records, not
+ASRpy, ICLabel model files, Pycrostates, ONNX binaries or copied upstream solver
+source. The explicit optional installer downloads them into a separate release-
+local environment. Their original upstream notices remain in their installed
+distributions. PRAYCG's license cannot relicense these upstream components.
+
+Direct optional requirements are pinned in requirements_signal_extras.txt.
+The installer records observed installed versions and hashes of discovered
+license/notice files, including transitive distributions, in
+.signal-review-env/UPSTREAM_INSTALLED_NOTICES.json. NumPy/SciPy wheels include
+their own numerical-library notices. This inventory is not a complete audit of
+every native object, historical source similarity or patent rights.
+
+New adapters call actual upstream APIs; they do not claim upstream endorsement:
+MNE 1.11.0: https://mne.tools/1.11/ (BSD-3-Clause)
+scikit-learn 1.9.0: https://scikit-learn.org/ (BSD-3-Clause)
+ASRpy 0.0.8: https://github.com/DiGyt/asrpy (BSD-3-Clause)
+MNE-ICALabel 0.10.0: https://github.com/mne-tools/mne-icalabel (BSD-3-Clause)
+Pycrostates 0.6.1: https://github.com/vferat/pycrostates (BSD-3-Clause)
+ONNX Runtime 1.31.0: https://github.com/microsoft/onnxruntime (MIT; retain its
+own bundled third-party notices when redistributing an installed environment)
+NumPy 1.26.4 / SciPy 1.17.1: https://numpy.org/ / https://scipy.org/
+EEGLABIO 0.1.2 / EDFIO 0.4.10 / pybv 0.7.6 supply optional test/export support;
+their upstream notices remain with the downloaded distributions.
+
+Actual operational definitions and method references are in
+tools/Signal_Review_v1_0/methods_eeg_extensions_v1.json. Results attach only the
+method record they actually ran. Method citations do not replace licenses.
+ASRpy's documentation cites a patent application; the software license alone
+does not establish comprehensive patent clearance. This is not legal advice.
+No code from iCanClean, EEGPrep, AMICA, SOUND or SPAR benchmarks is included in
+these EEG extension files. The centered reference-regression candidate is a
+PRAYCG-defined linear model, not iCanClean. EEGPrep remains explicitly deferred.
+
+The following exact notices are reproduced from the inspected installed wheels
+as a convenience. This does not substitute for inspecting all notices if an
+environment or additional upstream binaries are redistributed.
+
+ASRpy 0.0.8 / asrpy-0.0.8.dist-info/LICENSE
+------------------------------------------------------------
+BSD 3-Clause License
+
+Copyright (c) 2021, Dirk Gütlin
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+MNE-ICALabel 0.10.0 / mne_icalabel-0.10.0.dist-info/licenses/LICENSE
+------------------------------------------------------------
+BSD 3-Clause License
+
+Copyright (c) 2022, MNE
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Pycrostates 0.6.1 / pycrostates-0.6.1.dist-info/LICENSE
+------------------------------------------------------------
+BSD 3-Clause License
+
+Copyright (c) 2020, Victor Férat
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
