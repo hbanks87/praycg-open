@@ -1,0 +1,61 @@
+{
+  "schema": "PRAYCG_RepositoryReleaseSnapshot_v1",
+  "release": "Public Alpha 11.4.1",
+  "release_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1",
+  "archive": "PRAYCG_Workbench_Public_Alpha_11_4_1.zip",
+  "archive_sha256": "eab3ca5f8f6992ba8f3de7cb38259cf38317a4c82d38176fd949d69626763638",
+  "archive_bytes": 44166515,
+  "copy_policy": "Exact bytes from the published application archive; navigation documents are separate.",
+  "files": [
+    {
+      "path": "package/README.md",
+      "bytes": 11209,
+      "sha256": "4541e06cfee0fb4ddcc92a26ead3202eabde13a88ed0bce36c9ce059bf0b1b17"
+    },
+    {
+      "path": "package/CHANGELOG.md",
+      "bytes": 11056,
+      "sha256": "8e5bd798efc877b065e2728ce3970dfa47af6bf7571b8c88b8617708d83fb40a"
+    },
+    {
+      "path": "package/INSTALL_WORKFLOW.md",
+      "bytes": 18746,
+      "sha256": "4fc93cfc537a43f10f018139cc4524bac17bc3ba9e7016d20d9147b42fb0781a"
+    },
+    {
+      "path": "package/BUILD_REPORT.md",
+      "bytes": 3940,
+      "sha256": "8f13ba7a80958eabc5eca3508df7764aedc296f45762c5cef50bd7747d160c89"
+    },
+    {
+      "path": "package/SIGNAL_REVIEW_GUIDE.md",
+      "bytes": 6367,
+      "sha256": "8dbb0f460a0c084ac28a78debea472a41a511ab7b508126ac09406960129b285"
+    },
+    {
+      "path": "package/SIGNAL_INTEGRATION_11_4.md",
+      "bytes": 6427,
+      "sha256": "eae3c0e6501d09169e22e50f8e87a52522985b35edd1408cb188c669b378ceb6"
+    },
+    {
+      "path": "package/RELEASE_SCOPE_37.md",
+      "bytes": 10880,
+      "sha256": "027a559c59ac48d87362a3e24fcb0c7d8dbc01e5fe848678774c00561099b52b"
+    },
+    {
+      "path": "package/app/VERSION_MANIFEST_v1_0_0_alpha_11_4_1.json",
+      "bytes": 7412,
+      "sha256": "a90816beccbf41e5e79614913710d4c0152a371828c049bb88a25927f9b69ddb"
+    },
+    {
+      "path": "package/app/config/release_identity_v1_0.json",
+      "bytes": 143,
+      "sha256": "aef0a782dd87ba1c303546ade2778f244c9b5470536576881cc0512e1f62e85c"
+    },
+    {
+      "path": "package/app/deployment/validation/ALPHA_11_4_1_BUILD.json",
+      "bytes": 1024,
+      "sha256": "87e38d8a34986d9451a8ea9fd22bbcfcc13126b0060ab9a968ff0e1189d05660"
+    }
+  ]
+}
