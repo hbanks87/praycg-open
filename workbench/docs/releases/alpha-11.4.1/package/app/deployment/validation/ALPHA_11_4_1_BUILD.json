@@ -1,0 +1,32 @@
+{
+  "status": "PASS_OPTICAL_ATTRIBUTION_HOTFIX",
+  "created_utc": "2026-10-18T18:18:07.475014+00:00",
+  "test_counts": {
+    "PASS": 241,
+    "FAIL": 0,
+    "ERROR": 0,
+    "SKIP": 0
+  },
+  "unique_tests": 241,
+  "checks": {
+    "observed_optical_receipt_and_rendered_credits": "PASS",
+    "all_current_method_reference_shapes": "PASS",
+    "malformed_historical_credit_rejection": "PASS",
+    "public_constructor": "PASS",
+    "release_identity_and_launchers": "PASS",
+    "updater_regression": "PASS",
+    "optical_numerical_sources_unchanged": "PASS",
+    "credit_validator_and_observer_unchanged": "PASS"
+  },
+  "base_release": {
+    "version": "11.4.0",
+    "archive_sha256": "1a86e2d6e77176d330c8ed71f152db3b936a26afc81d0b99f1e8a61cc46fc185"
+  },
+  "installed": false,
+  "provider_calls": 0,
+  "all_functions_certified": false,
+  "fresh_machine_install_tested": false,
+  "physical_hardware_validated": false,
+  "historical_receipts_rewritten": false,
+  "scientific_validation": false
+}
