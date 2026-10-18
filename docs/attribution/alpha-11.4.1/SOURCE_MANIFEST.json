@@ -1,0 +1,51 @@
+{
+  "schema": "PRAYCG_RepositoryReleaseSnapshot_v1",
+  "release": "Public Alpha 11.4.1",
+  "release_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1",
+  "archive": "PRAYCG_Workbench_Public_Alpha_11_4_1.zip",
+  "archive_sha256": "eab3ca5f8f6992ba8f3de7cb38259cf38317a4c82d38176fd949d69626763638",
+  "archive_bytes": 44166515,
+  "copy_policy": "Exact bytes from the published application archive; navigation documents are separate.",
+  "files": [
+    {
+      "path": "package/app/CITATIONS_AND_ATTRIBUTION.md",
+      "bytes": 66884,
+      "sha256": "6a9ac1e6e4f1c8a6b2a85582ee89526465d9503da000b66833bb3b1e11e00a18"
+    },
+    {
+      "path": "package/app/config/attribution_registry_v1.json",
+      "bytes": 69123,
+      "sha256": "a58537fcead56de5b083dfcf15159432a1821513db9e287914155718b96e946b"
+    },
+    {
+      "path": "package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md",
+      "bytes": 14999,
+      "sha256": "96909e106bd94f75a246a8f403c8d12b60b5836700238f56b66417a796525cf8"
+    },
+    {
+      "path": "package/app/THIRD_PARTY_NOTICES/README.md",
+      "bytes": 47731,
+      "sha256": "d3738eecc93348126b6e305608e7fbe15079f0b8b29ad347b7a68b8d50208049"
+    },
+    {
+      "path": "package/app/THIRD_PARTY_NOTICES/EEG_EXTENSIONS_11_3_0.txt",
+      "bytes": 7480,
+      "sha256": "88a35b2c520e26e0a22b46e0f3b661212ec045157847768a2eab2a6ff312e27c"
+    },
+    {
+      "path": "package/app/THIRD_PARTY_NOTICES/SPAR_EEG_LICENSE.txt",
+      "bytes": 1295,
+      "sha256": "adf547050a3aa656a09f507b3403ec45fefa516427d290bdd0a500ed6f764d80"
+    },
+    {
+      "path": "package/app/THIRD_PARTY_NOTICES/SIGNAL_REVIEW_11_2_0.md",
+      "bytes": 7909,
+      "sha256": "cb5bdab2762ce7c35894874ae45d927d3f8072b46742d8b469000e0c23e5fa35"
+    },
+    {
+      "path": "package/app/tools/Attribution_v1/test_optical_credits_alpha1141.py",
+      "bytes": 8107,
+      "sha256": "a35b0f0857aac437a8f0f69e2cdaf41172f35a90a9cbe59176362721312a6201"
+    }
+  ]
+}
