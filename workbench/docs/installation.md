@@ -1,18 +1,20 @@
 # Installation and first launch
 
-## Public Alpha 11.4.1
+## Public Alpha 11.6.0 Revision 1
 
-Download the complete [Public Alpha 11.4.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1), including the named Workbench ZIP and checksum. The [current packaged installation guide](releases/alpha-11.4.1/package/INSTALL_WORKFLOW.md) is the version-specific authority. GitHub's generated source archives are not application installers.
+Download the complete [Public Alpha 11.6.0 Revision 1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0), using **PRAYCG_Workbench_Public_Alpha_11_6_0_Revision_1.zip** and its checksum. The [current packaged installation guide](releases/alpha-11.6.0/package/INSTALL_WORKFLOW.md) and [11.6 workflow](releases/alpha-11.6.0/package/WORKFLOW_COMPLETION_11_6.md) provide the version-specific instructions. GitHub's generated source archives are not application installers.
 
-For a manual update, extract into a **new release folder**, run **INSTALL.bat**, then **START.bat**. Native Windows Python 3.11 with Tcl/Tk is required. Preserve previous installations, settings, workspaces, recordings, external application configuration and existing Zuna environment/model paths. Do not merge release folders or reinstall Zuna merely for this patch.
+For a manual update, extract into a **new release folder**, run **INSTALL.bat**, then **START.bat**. Native Windows Python 3.11 with Tcl/Tk is required. Preserve previous installations, settings, workspaces, recordings, external application configuration and existing Zuna environment/model paths. Do not merge release folders or reinstall Zuna merely for this update.
 
-Updater-enabled Public installations can use **Settings → Updates**. For offline import, keep the ZIP beside its exact signed `.zip.update.json` companion. The updater checks the signature, edition, archive identity and state compatibility before preparing a separate installation; dependency setup may still require internet access or cached packages. Follow the packaged instructions to finish acquisition, stop/save LabRecorder and close active work before restart.
+Updater-enabled Public installations can use **Settings → Updates**. For offline import, keep **PRAYCG_Workbench_Public_Alpha_11_6_0_Revision_1.zip** beside its exact signed **PRAYCG_Workbench_Public_Alpha_11_6_0_Revision_1.zip.update.json** companion. Revision 1 corrects the Windows startup check used during update preparation. The updater checks the signature, edition, archive identity and state compatibility before preparing a separate installation; dependency setup may still require internet access or cached packages. Finish acquisition, stop/save LabRecorder and close active work before restart.
+
+If the initial 11.6.0 candidate is already installed, use a fresh Revision 1 folder. This revision retains application version 11.6.0, and the updater offers only higher application versions.
 
 Core, Live Monitor and Hardware Connectors use separate release-local environments. Optional ASR, ICLabel and Pycrostates use **INSTALL_SIGNAL_EXTRAS.bat**. Optional AI configuration and numerical analysis are separate. Keep credentials out of public reports.
 
 **INSTALL_STIMULUS_PACKAGE.bat** offers seven films plus the original Lantern as two separately verified packages pinned to the published 11.2.2 media assets. See the [optional stimulus instructions](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md). The full eleven-film companion is not included in this public release.
 
-This patch repairs optical attribution metadata without changing optical calculations. It does not rewrite prior receipts, results or plans. New analyses must satisfy the current release's QC and revision workflow; do not edit historical hashes to force compatibility. The [release guide](releases/alpha-11.4.1/README.md) and [build report](releases/alpha-11.4.1/package/BUILD_REPORT.md) state the verification scope.
+This release retains the optical-credit correction and adds explicit processing-comparison and reporting workflows. Earlier receipts, results and plans remain historical. New analyses must satisfy the current release's QC and revision workflow; do not edit historical hashes to force compatibility. The [release guide](releases/alpha-11.6.0/README.md) and [build report](releases/alpha-11.6.0/package/BUILD_REPORT.md) distinguish inherited application checks from the Revision 1 launcher checks. The [11.4.1 attribution guide](../../docs/attribution/alpha-11.4.1/README.md) remains available.
 
 ## Preserved Alpha 10.5.4 installation
 
