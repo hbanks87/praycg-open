@@ -1,0 +1,59 @@
+{
+  "status": "PASS_REVISION1_LAUNCHER_WITH_UNCHANGED_APPLICATION_EVIDENCE",
+  "created_utc": "2026-10-19T12:22:28.250353+00:00",
+  "checks": {
+    "public_constructor": "PASS",
+    "aul_constructor": "PASS",
+    "signal_review_workflow": "PASS",
+    "source_preservation": "PASS",
+    "private_boundary": "PASS",
+    "updater_compatibility": "PASS",
+    "paired_cai_sid": "PASS",
+    "optical_credit": "PASS",
+    "aul_integration_retained": "PASS",
+    "latest_recording_workflow": "PASS",
+    "paired_processing_workflow": "PASS",
+    "fresh_directory_install": "PASS"
+  },
+  "provider_calls": 0,
+  "installed": false,
+  "all_functions_certified": false,
+  "fresh_machine_install_tested": false,
+  "physical_hardware_validated": false,
+  "zuna_inference_run": false,
+  "matlab_equivalence_established": false,
+  "neural_preservation_validated": false,
+  "physical_live_cleaning_enabled": false,
+  "test_counts": {
+    "PASS": 1500,
+    "FAIL": 0,
+    "ERROR": 0,
+    "SKIP": 15
+  },
+  "unique_tests": 1515,
+  "distribution_revision": 1,
+  "revision_qualification": {
+    "runtime_delta": "deployment/praycg_entrypoint.ps1",
+    "tested_entrypoint_sha256": "0360b2399e755ebc4b844267745e3695ed1a814cfe49606df60d8791bf0aba14",
+    "launcher_shells": [
+      "WindowsPowerShell5",
+      "PowerShell7"
+    ],
+    "affected_test_counts": {
+      "PASS": 10,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "inherited_application_test_counts": {
+      "PASS": 1500,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 15
+    },
+    "prior_native_workflows_reused_by_unchanged_python_ui_numerical_bytes": true,
+    "new_full_source_native_walkthroughs_run": false,
+    "signed_update_delivery_qualification_recorded_separately": true,
+    "not_a_new_physiological_validation": true
+  }
+}
