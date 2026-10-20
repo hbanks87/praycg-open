@@ -1,0 +1,9 @@
+{
+  "schema": "PRAYCG_WorkbenchEdition_v1_0",
+  "edition": "PUBLIC",
+  "display_name": "PRAYCG Workbench - Public - Alpha 11.6.0",
+  "version": "11.6.0",
+  "core_version": "11.6.0",
+  "private_components": [],
+  "assistant": "PRAYCG AI Assistant"
+}
