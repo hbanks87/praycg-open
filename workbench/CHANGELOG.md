@@ -1,5 +1,20 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.6.0 Revision 1 — processing comparisons and report continuity
+
+[Published release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0), including the cumulative 11.5.0 changes since the prior public 11.4.1 release. Download **PRAYCG_Workbench_Public_Alpha_11_6_0_Revision_1.zip**.
+
+- Fixes the real Windows PowerShell startup-check failure encountered during signed update preparation. Revision 1 supplies the Python probe through standard input while preserving its checks and failure exits.
+- Adds paired canonical CAI/SID feature regeneration with the original reference frozen across branches and explicit feature-source mappings. Missing montage, baseline, events and temporal support remain unavailable; historical exports are not relabeled or rewritten.
+- Registers processing comparisons separately from locked-plan results, with source-bound per-module explanations and explicit original/current-preview/reviewed-candidate identity.
+- Clarifies current-plan versus prior-results selection, adds module-level report coverage, preserves zero-valued measurements and maps supported Gamma findings to exact evidence.
+- Adds measured EMG/EOG coverage, recorded phase boundaries and explicitly matched dual-ALS timing evidence without redefining the historical Gamma proxy.
+- Adds a separately authorized, bounded experimental Cerelog participant-pilot software route. Existing off-body bench evidence retains its original scope; this is not new physical-device qualification.
+- Carries forward 11.5 RR timestamp/reconnect semantics, explicit ICA convergence evidence, conservative versioned SPAR preservation, bounded MATLAB fixture review, fixed-scale playback, reviewed references and paired TFR/gamma-theta comparisons.
+- Retains the 11.4.1 optical-credit correction and upstream attribution, signed same-edition updates, optional media, research programs, external settings, recordings, historical results and Zuna contracts.
+
+The build records **1,500 passed / 15 skipped selected application checks** as inherited evidence after exact application-byte comparison, plus **10 passed Revision 1 launcher checks**. These are distinct scopes; the application workflows were not all rerun for Revision 1. See the [release guide](docs/releases/alpha-11.6.0/README.md), [packaged changelog](docs/releases/alpha-11.6.0/package/CHANGELOG.md), [build report](docs/releases/alpha-11.6.0/package/BUILD_REPORT.md) and [current processing workflow](docs/releases/alpha-11.6.0/package/WORKFLOW_COMPLETION_11_6.md). Software completion does not establish physiological validity, MATLAB equivalence, neural preservation or physical hardware safety.
+
 ## Public Alpha 11.4.1 — optical credits and current citations
 
 - Corrects required metadata for the relative-hemoglobin reference used by Optical Signal Review, restoring automatic method/software credits in new affected receipts.
