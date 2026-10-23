@@ -1,0 +1,91 @@
+{
+  "schema": "PRAYCG_RepositoryReleaseSnapshot_v1",
+  "release": "Public Alpha 11.9.2",
+  "release_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2",
+  "archive": "PRAYCG_Workbench_Public_Alpha_11_9_2.zip",
+  "archive_sha256": "b63a7f071e243d0d3a09a77600387d9c4082148c33f4aae68bff21af0446324c",
+  "archive_bytes": 44734605,
+  "copy_policy": "Exact bytes from the unchanged application archive; publication metadata and navigation are separate.",
+  "files": [
+    {
+      "path": "package/README.md",
+      "bytes": 6890,
+      "sha256": "321243dac327590f0ddff44aa25d4e3d8fe4fa207655efa829ec59de3797502f"
+    },
+    {
+      "path": "package/CHANGELOG.md",
+      "bytes": 20750,
+      "sha256": "13411c6674b4ae79d149bce412e43ce7624119e72d3315d85fcd93c33a8f1124"
+    },
+    {
+      "path": "package/INSTALL_WORKFLOW.md",
+      "bytes": 13663,
+      "sha256": "dd871a7fd2b09d81de567c4b558efad0fdd6274c28490c8ad42a75b2d93cbe9a"
+    },
+    {
+      "path": "package/BUILD_REPORT.md",
+      "bytes": 5788,
+      "sha256": "86749925e0c970f62cc609b9dd4f6d8bba36d691abfee242f3fad1f4ff91f930"
+    },
+    {
+      "path": "package/INTEGRATION_11_9.md",
+      "bytes": 4263,
+      "sha256": "5261d5370a96620ea718c56b7b78f7070b183d1ef4772c965f3d4586e84a3e45"
+    },
+    {
+      "path": "package/GUIDED_WORKSPACE_11_8.md",
+      "bytes": 11395,
+      "sha256": "dce5cce69dcd144a8fc589b046c9dabdacfa62d023a6880e73fb3134af23d17c"
+    },
+    {
+      "path": "package/PROTOCOL_EVIDENCE_11_7.md",
+      "bytes": 10558,
+      "sha256": "641531d6d242ce9cc41d135916bb181794dd0f0ea447fffc933e57b0f786c34e"
+    },
+    {
+      "path": "package/WORKFLOW_COMPLETION_11_6.md",
+      "bytes": 7056,
+      "sha256": "fae08c73412f275a8a235fd1daba0a79353cc477ee087601ac62356479f93bd2"
+    },
+    {
+      "path": "package/PRESERVATION_WORKFLOW_11_5.md",
+      "bytes": 9051,
+      "sha256": "d8cb3bc6f42118813de094d48cb18e925df2afceb22999890c21d6e70a6f68e3"
+    },
+    {
+      "path": "package/SIGNAL_REVIEW_GUIDE.md",
+      "bytes": 6367,
+      "sha256": "8dbb0f460a0c084ac28a78debea472a41a511ab7b508126ac09406960129b285"
+    },
+    {
+      "path": "package/SIGNAL_INTEGRATION_11_4.md",
+      "bytes": 6427,
+      "sha256": "eae3c0e6501d09169e22e50f8e87a52522985b35edd1408cb188c669b378ceb6"
+    },
+    {
+      "path": "package/RELEASE_SCOPE_37.md",
+      "bytes": 12785,
+      "sha256": "bcaeb8419c06800828d0ebc4e896e6730153990a7ef07616ddcbceda529ed51d"
+    },
+    {
+      "path": "package/edition.json",
+      "bytes": 258,
+      "sha256": "b5f40b29138240a01a98062bb4f6ac124e9d408ca9fa1b38974aeca20ccbc85b"
+    },
+    {
+      "path": "package/app/VERSION_MANIFEST_v1_0_0_alpha_11_9_2.json",
+      "bytes": 9973,
+      "sha256": "f305a34305e4dde09963dea28e93558c7c2a969d5bbe0e4b6f4ef86c04fe1244"
+    },
+    {
+      "path": "package/app/config/release_identity_v1_0.json",
+      "bytes": 143,
+      "sha256": "b65b8ab1d84152132845163e17b99b6abe805b9803e20a8c820f50a0795b2aea"
+    },
+    {
+      "path": "package/app/deployment/validation/ALPHA_11_9_2_BUILD.json",
+      "bytes": 1756,
+      "sha256": "f1696eb3957c7fdf29e0ecca250d64444555e72451204fcce41d4776f36051b7"
+    }
+  ]
+}
