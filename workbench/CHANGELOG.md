@@ -1,5 +1,21 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.9.2 — Results reliability and guided research workflows
+
+[Published release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2), including the cumulative 11.7, 11.8 and 11.9 changes since the prior public 11.6.0 Revision 1 release. Download **PRAYCG_Workbench_Public_Alpha_11_9_2.zip**.
+
+- Preserves unchanged Results presentations, native layout and expanded child results during background refresh. Changes to relevant source/context/evidence/actions or the widget lifecycle still rebuild the presentation.
+- Adds mutation, callback, lifecycle and no-op refresh regressions. Windows developer tests use Python-stream capture to avoid the reproduced file-descriptor-capture interaction; the installed Tcl/Tk runtime is unchanged. Synthetic fixture callbacks are cancelled before teardown, and native timing thresholds remain intact.
+- Carries forward 11.9.1 SVNA/NATVIEW generator corrections, stable physiology method attribution, bounded sampling/duration roundoff handling and current protocol/catalog verification. New reports retain processing provenance; historical reports and fingerprints are preserved.
+- Adds current Athena catalog/source bindings with explicit acquisition-versus-endpoint support, per-endpoint cardiac/respiration checks, verified native paired Original/Processed views and offline compact 3-EMG/2-EOG/ALS Cerelog review with separate provenance-bound exports.
+- Adds the guided study/recording/synthetic-example Home paths, persistent source context, frozen same-sample comparisons, question-first navigation, read-only evidence review and explicit measurement/estimate/exploratory labels. Local Research Bundle HTML export does not upload or anonymize content; browser rendering remains unverified.
+- Adds eight original research task packages with frozen materials and response evidence, recording-bound signal selections, independent short-window numerical checks, optional isolated HED validation and processing-history review. Unsupported measurements remain unavailable.
+- Retains the optical-credit correction and repository attribution, signed same-edition update support, optional media, public research programs, external settings, recordings, historical results and Zuna contracts. The independent Public AI Assistant requires no private AUL implementation.
+
+The Public build records **979 passed, 1 skipped and 10 installer-wrapper checks refused by the isolated test guard**. The refused cases remain unverified; repeated GUI qualifications overlap the selected cases and are not additional distinct passes. Fifteen synthetic data scenarios, a 1,335-check protocol/hardware contract matrix and eight-stream synthetic Athena readback supply separate bounded evidence. No fresh-machine installation, physical acquisition, real provider request, Zuna inference or browser rendering was performed for this build. The archive's original manual-build documents remain exact mirrors; the separately published signed updater companion and publication verification are described in the [release guide](docs/releases/alpha-11.9.2/README.md).
+
+See the [packaged changelog](docs/releases/alpha-11.9.2/package/CHANGELOG.md), [build report](docs/releases/alpha-11.9.2/package/BUILD_REPORT.md), [guided workspace](docs/releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md), [protocol evidence guide](docs/releases/alpha-11.9.2/package/PROTOCOL_EVIDENCE_11_7.md) and [integration guide](docs/releases/alpha-11.9.2/package/INTEGRATION_11_9.md). Software regression and scripted rehearsal do not establish physiological validity, device safety or every physical protocol/hardware combination.
+
 ## Public Alpha 11.6.0 Revision 1 — processing comparisons and report continuity
 
 [Published release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0), including the cumulative 11.5.0 changes since the prior public 11.4.1 release. Download **PRAYCG_Workbench_Public_Alpha_11_6_0_Revision_1.zip**.
