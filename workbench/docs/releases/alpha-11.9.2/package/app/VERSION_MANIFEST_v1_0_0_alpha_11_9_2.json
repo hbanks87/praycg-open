@@ -1,0 +1,212 @@
+{
+  "schema": "PRAYCG_PublicPackageManifest_v1_0_alpha_11_9_2",
+  "package": "PRAYCG_ControlCenter_v1_0_0_alpha_11_9_2",
+  "version": "1.0.0-alpha.11.9.2",
+  "requirements": "requirements_PRAYCG_v1_0_0_alpha_11_9_2.txt",
+  "control_center": "control_center/scripts/praycg_control_center_v1_0_0_alpha_11_9_2.py",
+  "display_name": "PRAYCG Workbench - Public - Alpha 11.9.2",
+  "edition": "PUBLIC",
+  "release_date": "2026-10-22",
+  "release_type": "GUI_RELIABILITY_PATCH",
+  "base_release": {
+    "archive": "PRAYCG_Workbench_Public_Alpha_11_9_1.zip",
+    "archive_sha256": "6217d4ec37299154f2d423eeb669a7bc9fb78ad16def668a5182960d34989fa4"
+  },
+  "assistant": {
+    "implementation": "PRAYCG_AI_ASSISTANT",
+    "private_component_included": false,
+    "real_provider_calls_during_build": false
+  },
+  "historical_manifest": "VERSION_MANIFEST_v1_0_0_alpha_11_9_1.json",
+  "verification": {
+    "status": "PASS_TARGETED_RELIABILITY_CHECKS",
+    "four_previously_outstanding_gui_checks": "PASS_REPEATED_WITH_ORIGINAL_ASSERTIONS",
+    "selected_distinct_testcases": {
+      "passed": 979,
+      "skipped": 1,
+      "guard_blocked": 10,
+      "failed": 0,
+      "error": 0
+    },
+    "combined_selected_distinct_testcases": {
+      "passed": 2012,
+      "skipped": 2,
+      "guard_blocked": 20,
+      "failed": 0,
+      "error": 0
+    },
+    "all_historical_tests_rerun": false,
+    "all_functions_certified": false,
+    "synthetic_pipeline_passes_per_edition": 15,
+    "matrix_checks_per_edition": 1335,
+    "actual_scripted_dispatch_cases_per_edition": 32,
+    "athena_synthetic_streams_readback_per_edition": 8,
+    "native_layout_thresholds_unchanged": true,
+    "absolute_gui_latency_guarantee": false,
+    "tcl_runtime_modified": false,
+    "numerical_algorithms_changed": false,
+    "unchanged_preservation_entries": 31581,
+    "large_recording_and_zuna_verification": "SIZE_AND_MTIME_NOT_EXHAUSTIVE_CONTENT_HASH",
+    "physical_hardware_tested": false,
+    "real_ai_provider_requests": 0,
+    "zuna_inference_run": false,
+    "fresh_machine_install_tested": false,
+    "installed": false,
+    "published": false
+  },
+  "inherited_feature_records": {
+    "alpha_10_5_4_protocol_extensions": {
+      "backend": "control_center/scripts/praycg_protocol_extensions_v1_0.py",
+      "interface": "control_center/scripts/praycg_my_protocols_ui_v1_0.py",
+      "ai_handoff": "control_center/scripts/praycg_protocol_extension_ai_v1_0.py",
+      "run_local_immutable_evidence": "control_center/scripts/praycg_protocol_extension_evidence_v1_0.py",
+      "schema": "PRAYCG_DataOnlyProtocolExtension_v1_0",
+      "admission": "EXPLICIT_REVIEWER_AND_EXACT_REVIEWED_SOURCE_HASH",
+      "storage": "VERSIONED_USER_STORE_OUTSIDE_APPLICATION",
+      "execution": "PACKAGED_ATLAS_ENGINE_ONLY_NORMAL_SESSION_LOCK_AND_ONE_USE_LEASE",
+      "arbitrary_executable_code": false,
+      "automatic_network_or_dependency_install": false,
+      "software_rehearsal_is_physical_validation": false,
+      "scientific_or_participant_approval": false,
+      "local_example_acceptance": "deployment/validation/ALPHA_10_1_0_EXTENSION_ACCEPTANCE.json",
+      "packaged_catalog_counts_exclude_user_extensions": true
+    },
+    "alpha_10_5_4_validation_scope": {
+      "release_identity": "config/release_identity_v1_0.json",
+      "installation_folder_is_not_release_identity": true,
+      "public_workflow_gate": "tools/Release_Validation_v0_1/praycg_public_workflow_acceptance_v1_0.py",
+      "profile_preflight_contract": "control_center/scripts/praycg_profile_preflight_contract_v1_0.py",
+      "als_optional_only_when_selected_profile_does_not_declare_als": true,
+      "watchdog_for_new_locks": "PROFILE_DERIVED_RATE_AND_STREAM_NAME",
+      "synthetic_validation": "tools/Synthetic_Validation_v0_1/praycg_synthetic_validation_v0_1.py",
+      "synthetic_evidence": "deployment/validation/ALPHA_10_1_0_SYNTHETIC_ACCEPTANCE.json",
+      "synthetic_profiles": [
+        "OPENBCI16_WITH_ALS",
+        "CROWN_NO_ALS",
+        "CERELOG16_NO_ASSUMED_ALS"
+      ],
+      "muse_s_athena": "MANAGED_FOUR_CHANNEL_SOFTWARE_CONTRACT_CHECKED_PHYSICAL_NOT_TESTED_NO_ALS",
+      "physical_device_validation": "NOT_TESTED",
+      "all_protocol_hardware_analysis_combinations": "NOT_TESTED",
+      "public_per_protocol_synthetic_bundles": "DEFERRED",
+      "gapped_continuous_eeg_derivative": "NOT_ESTIMABLE_NO_INVENTED_SAMPLES"
+    },
+    "alpha_10_5_4_ownership_hotfix": {
+      "cached_acquire_is_not_authority": true,
+      "terminal_reconciliation": "EXACT_VALIDATED_ARCHIVED_LOCK_AND_INACTIVE_LEASE_OWNER_ONLY",
+      "historical_evidence_rewritten": false,
+      "automatic_arm": false,
+      "windows_pid_reuse": "BOUNDED_CREATION_IDENTITY_CORROBORATION_FAIL_CLOSED",
+      "unresolved_acquire_requires_explicit_recovery": true
+    },
+    "alpha_10_5_4_protocol_setup": {
+      "contract": "control_center/scripts/praycg_protocol_run_configuration_v1_0.py",
+      "form": "control_center/scripts/praycg_protocol_configuration_ui_v1_0.py",
+      "browser_protocol_count": 71,
+      "prospective_candidates_separate_frozen_workflow": 20,
+      "neutral_public_names": 17,
+      "stable_ids_and_historical_aliases_preserved": true,
+      "freeze_point": "CONFIRM_SESSION_SETUP",
+      "configuration_edit_invalidates_confirmation": true,
+      "active_acquisition_configuration_editing": false,
+      "unsupported_timing_controls": "READ_ONLY_DESIGN_NOT_GENERIC_DEFAULTS"
+    },
+    "alpha_10_5_4_distribution": {
+      "public_root": [
+        "INSTALL.bat",
+        "START_PRAYCG.bat",
+        "README.md",
+        "CHANGELOG.md",
+        "LICENSE.md",
+        "app/"
+      ],
+      "default_install": "CORE_AND_ISOLATED_LIVE_MONITOR_AND_HARDWARE_CONNECTORS",
+      "live_monitor_environment": ".live-monitor-env",
+      "hardware_connectors_environment": ".hardware-connectors-env",
+      "source_validation_is_not_distribution_byte_inventory": true
+    },
+    "alpha_10_5_4_research_exchange": {
+      "schema": "tools/Research_Exchange_v1_0/schemas/research_bundle_v1_0.schema.json",
+      "user_interface": "control_center/scripts/praycg_research_exchange_ui_v1_0.py",
+      "bundle_flavors": [
+        "RESULTS_REVIEW",
+        "PRIVATE_REPLAY",
+        "AI_REVIEW"
+      ],
+      "privacy_tiers": [
+        "PRIVATE_LOCAL",
+        "COLLABORATOR_REVIEW",
+        "PUBLICATION_CANDIDATE"
+      ],
+      "imports": "VERIFIED_READ_ONLY_ORIGINALS_FRESH_LOCAL_WORKSPACE",
+      "execution": "CURRENT_INSTALLED_CODE_ONLY_EXPLICIT_SOURCE_PLAN_FROZEN_TOLERANCES",
+      "catalog": "LOCAL_SQLITE_WITH_VERSION_AND_REANALYSIS_REPLICATION_RELATIONSHIPS",
+      "automatic_upload": false,
+      "automatic_dependency_installation": false,
+      "full_result_equivalence": false,
+      "second_machine_execution": "NOT_TESTED",
+      "acquisition_authority": false
+    },
+    "alpha_10_5_4_session_recovery_and_replay": {
+      "session_recovery": "tools/Analysis_Session_v1_0/praycg_analysis_session_v1_0.py",
+      "replay_backend": "tools/Live_Monitor_v1_0/praycg_xdf_replay_v1_0.py",
+      "recorded_context": "control_center/scripts/praycg_replay_context_v1_0.py",
+      "transport": [
+        "PLAY",
+        "PAUSE",
+        "STOP_AND_REWIND",
+        "SEEK",
+        "SPEED"
+      ],
+      "stream_display": "ALL_RECORDED_STREAMS_WITH_EXPLICIT_RESOURCE_LIMITS",
+      "acquisition_authority": false,
+      "previous_analysis_preserved": true
+    },
+    "alpha_10_5_4_research_handoff": {
+      "input_manifest": "control_center/scripts/praycg_analysis_input_manifest_v1_0.py",
+      "study_package": "tools/Research_Study_Package_v0_1/research_study_package.py",
+      "module_interpretation": "tools/Analysis_Results_Dashboard_v0_1/praycg_module_interpretation_v0_1.py",
+      "candidate_review": "control_center/scripts/praycg_protocol_candidate_review_v1_0.py",
+      "export_profiles": [
+        "LOCAL_FULL_REPRODUCTION",
+        "AI_READY_STUDY"
+      ],
+      "network_upload": false,
+      "ai_return_authority": "UNTRUSTED_POSTHOC_STAGING_ONLY",
+      "candidate_authority": "HUMAN_REVIEWED_CANDIDATE_NOT_RUNTIME_APPROVED",
+      "scientific_boundary": "Readable reports and byte integrity do not validate constructs, repair absent data or demonstrate scientific replay."
+    }
+  },
+  "installed": false,
+  "published": false,
+  "guided_workspace_11_8": {
+    "features": [
+      "Three-path Home screen: study, recording, synthetic example",
+      "Source-bound persistent context with unknown metadata explicit",
+      "Frozen same-source samples for original/recipe/reviewed-candidate comparisons",
+      "Question-first routes through existing analysis services",
+      "Read-only source-scoped numerical/preservation evidence review",
+      "Versioned measurement-status records in plots/results/reports/AI packets",
+      "Portable local read-only Research Bundle HTML export"
+    ],
+    "no_new_numerical_engine": true,
+    "no_automatic_cleaner_selection": true,
+    "browser_viewer": "PORTABLE_INERT_PREVIEWS_NO_UPLOAD_NO_AUTORUN",
+    "rendering_validation": "NOT_OBSERVED_BROWSER_URL_POLICY_BLOCK",
+    "measurement_status_is_not_endpoint_validity": true,
+    "documentation": "../GUIDED_WORKSPACE_11_8.md"
+  },
+  "integration_11_9": {
+    "features": [
+      "Athena software compatibility and current catalog bindings",
+      "Per-endpoint breathing cardiac/respiration support",
+      "Verified paired-result native visual handoff with original calibration",
+      "Offline compact Cerelog capture review and explicit disabled slots"
+    ],
+    "guide": "../INTEGRATION_11_9.md",
+    "new_physical_validation": false,
+    "cerelog_compact": "OFFLINE_CLOSED_CAPTURE_REVIEW_NOT_LIVE_CONNECTOR",
+    "new_model_training": false,
+    "auto_adoption_of_pending_reports": false
+  }
+}
