@@ -1,0 +1,51 @@
+{
+  "schema": "PRAYCG_GuiReliabilityBuildEvidence_v1",
+  "edition": "PUBLIC",
+  "version": "11.9.2",
+  "core_version": "11.9.2",
+  "status": "PASS_TARGETED_RELIABILITY_CHECKS",
+  "all_functions_certified": false,
+  "installed": false,
+  "published": false,
+  "numerical_algorithms_changed": false,
+  "physical_hardware_tested": false,
+  "real_provider_requests": 0,
+  "zuna_inference_run": false,
+  "previous_build_evidence": "ALPHA_11_9_1_BUILD.json",
+  "verification": {
+    "status": "PASS_TARGETED_RELIABILITY_CHECKS",
+    "four_previously_outstanding_gui_checks": "PASS_REPEATED_WITH_ORIGINAL_ASSERTIONS",
+    "selected_distinct_testcases": {
+      "passed": 979,
+      "skipped": 1,
+      "guard_blocked": 10,
+      "failed": 0,
+      "error": 0
+    },
+    "combined_selected_distinct_testcases": {
+      "passed": 2012,
+      "skipped": 2,
+      "guard_blocked": 20,
+      "failed": 0,
+      "error": 0
+    },
+    "all_historical_tests_rerun": false,
+    "all_functions_certified": false,
+    "synthetic_pipeline_passes_per_edition": 15,
+    "matrix_checks_per_edition": 1335,
+    "actual_scripted_dispatch_cases_per_edition": 32,
+    "athena_synthetic_streams_readback_per_edition": 8,
+    "native_layout_thresholds_unchanged": true,
+    "absolute_gui_latency_guarantee": false,
+    "tcl_runtime_modified": false,
+    "numerical_algorithms_changed": false,
+    "unchanged_preservation_entries": 31581,
+    "large_recording_and_zuna_verification": "SIZE_AND_MTIME_NOT_EXHAUSTIVE_CONTENT_HASH",
+    "physical_hardware_tested": false,
+    "real_ai_provider_requests": 0,
+    "zuna_inference_run": false,
+    "fresh_machine_install_tested": false,
+    "installed": false,
+    "published": false
+  }
+}
