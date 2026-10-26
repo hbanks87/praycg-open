@@ -1,8 +1,8 @@
 # Original eleven stimulus masters
 
-**Public Alpha 11.2.2:** the [optional installer](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) connects the exact seven-film archive to a separate original Lantern companion. The default offers eight master choices across two verified packages. This does not expand redistribution permission for the four excluded editions. Final remote publication verification is recorded with the [combined release update](../../docs/updates/2026-10-14-public-workflow-release.md).
+**Availability for Public Workbench 11.9.2:** the [optional installer](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) connects the exact seven-film archive to a separate original Lantern companion. The default offers eight master choices across two verified packages. This does not expand redistribution permission for the four excluded editions. Final remote publication verification is recorded with the [combined release update](../../docs/updates/2026-10-14-public-workflow-release.md).
 
-The original eleven-film screening-master set is available locally and has been preserved in a complete **local-review companion archive**. A separate seven-film companion preserves the subset with recorded redistribution review. Neither archive has been uploaded by this update, and neither is inside the Public Alpha 11.2.1 application ZIP.
+The original eleven-film screening-master set is available locally and has been preserved in a complete **local-review companion archive**. A separate seven-film companion preserves the subset with recorded redistribution review. The seven-film package is now published with the 11.2.2 media release and remains the installer target for 11.9.2. The full eleven-film companion remains local-review material. Neither film package is embedded in the application ZIP.
 
 These are the existing standardized screening masters: 1920×1080 padded, 24 fps CFR, H.264/yuv420p and AAC 48 kHz stereo. They are distinct from the upstream source encodes, the Workbench's procedural demonstrations and the separate Lantern Bridge demo. Packaging preserves their bytes; it does not re-encode or retroactively repair them.
 
@@ -13,7 +13,7 @@ The [metadata catalog](catalog.json) records all eleven original filenames, size
 | Companion | Contents | Current status |
 | --- | --- | --- |
 | `PRAYCG_Original_11_Stimulus_Masters_LOCAL_REVIEW_ONLY_2026-10-13.zip` | All 11 masters, 27 existing source/evidence files and two packaging documents | Complete local preservation; **not cleared for public redistribution** |
-| `PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip` | Seven exact masters plus attribution/edition notes and source catalog | Recorded redistribution-review subset; separate installer manifest prepared; no published URL |
+| `PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip` | Seven exact masters plus attribution/edition notes and source catalog | Published with the [11.2.2 media release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.2.2); used by the current optional installer |
 
 The full eleven-film archive is **1,269,289,300 bytes**, SHA-256:
 
@@ -57,17 +57,19 @@ The same later build record keeps **Joy & Heron** and the exact editions of **Th
 
 The full eleven-film archive therefore remains **LOCAL_REVIEW_ONLY_NOT_REDISTRIBUTION_CLEARED**. Its presence on the developer's machine is not a public download or a clearance for study deployment. No missing rightsholder or edition record has been replaced with an assumption.
 
-## What is in Public Alpha 11.2.1?
+## Historical inspection: Public Alpha 11.2.1
+
+**Historical scope:** The paragraphs below describe the 11.2.1 inspection and its then-pending publication steps. The seven-film publication and installer connection were completed in 11.2.2 and remain available to 11.9.2 users; follow the [current stimulus installation instructions](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md).
 
 The inspected application archive, SHA-256 `cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b`, contains **eight MP4 files and ten WAV files**, all under `app/examples/no_copyright_media_demo/`. Its four catalog packs are marked **DEMO_ONLY** and **CC0-1.0**. These procedural examples are not the eleven films above.
 
 `INSTALL_STIMULUS_PACKAGE.bat`, its installer and a default `config/optional_stimulus_release_v1.json` are included. That default identifies the older `PRAYCG_OPTIONAL_MASTER_STIMULI_7_V1` archive: 691,953,162 bytes, SHA-256 `b35de8ace6ea5c241158119f3aa261c50cfb46827dd0eafb23f58f3c4effb6d8`, with `release_url: null`. It does not identify the newly prepared archive above. The film ZIP itself is not embedded, and the main installer does not install the optional films automatically.
 
-The prepared seven-film companion has a separate `PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.manifest.json`. Its new package ID prevents replacement of an existing package folder. The current public installer's exact manifest validator accepts it; its file inventory and every payload hash were checked. Its `release_url` remains `null` until a real HTTPS release asset exists.
+The prepared seven-film companion has a separate `PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.manifest.json`. Its new package ID prevents replacement of an existing package folder. The inspected 11.2.1 public installer's exact manifest validator accepts it; its file inventory and every payload hash were checked. Its `release_url` remains `null` until a real HTTPS release asset exists.
 
-The current installer's `main()` reads a supplied `--manifest` or the older bundled default. It then uses `--url` or asks the operator for an HTTPS ZIP URL; it does **not** read the manifest's `release_url` field. Using the newly prepared pack therefore requires both its new manifest and its eventual real URL. Supplying only the new URL while retaining the old default manifest would fail archive size/hash verification.
+The inspected 11.2.1 installer's `main()` reads a supplied `--manifest` or the older bundled default. It then uses `--url` or asks the operator for an HTTPS ZIP URL; it does **not** read the manifest's `release_url` field. Using the newly prepared pack therefore requires both its new manifest and its eventual real URL. Supplying only the new URL while retaining the old default manifest would fail archive size/hash verification.
 
-For an automatically connected release, publish the reviewed seven-film asset, bundle its matching manifest, and update the installer or launcher to use its published URL while retaining explicit overrides and integrity checks. Setting `release_url` alone is insufficient with the current code. No URL, installer change or application repack has been made by this documentation update.
+For an automatically connected release, publish the reviewed seven-film asset, bundle its matching manifest, and update the installer or launcher to use its published URL while retaining explicit overrides and integrity checks. Setting `release_url` alone is insufficient with that 11.2.1 code. That inspection did not itself publish a URL, change the installer or repack the application; see the completed 11.2.2 installation instructions above.
 
 The local-review eleven-film archive is intentionally not an installer-approved redistribution package. Its status should not be changed merely to make the optional installer accept it. After any permitted preparation or installation, importing a master into Prepare Materials still requires normal media and protocol review; installation does not create acquisition or scientific authority.
 
