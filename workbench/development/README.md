@@ -1,12 +1,16 @@
 # Workbench development
 
-The authoritative Alpha 10.5.4 application code is preserved inside the complete [PRAYCG Workbench Alpha 10.5.4 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip). This repository publishes release documentation and archives; this directory provides development guidance rather than a separate maintained extracted application source tree.
+The current Public Alpha 11.9.2 application source is inside the named Workbench ZIP on the [11.9.2 release page](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2). Read its [build scope](../docs/releases/alpha-11.9.2/package/BUILD_REPORT.md) and preserve its archive checksum before making a development copy. This repository publishes release documentation and archives; this directory provides development guidance rather than a separate maintained extracted application source tree.
 
 Extract the complete package into a new local development folder. Its `app/` directory contains the Control Center, tools, configuration, documentation and deployment resources. Keep the public launchers beside that directory, and follow the [installation guide](../docs/installation.md). `START.bat` and `START_PRAYCG.bat` are supported entry points. Core, Live Monitor and Hardware Connectors use separate release-local environments; optional Zuna is installed separately.
 
 ## Preserve the starting point
 
 Record the ZIP's filename and SHA-256 before development. Keep the original archive unchanged, and give modified builds their own identities. Keep releases in separate folders and study recordings in separate data locations.
+
+## Historical 10.5.4 implementation guidance
+
+The following retained guidance identifies 10.5.4 evidence and contracts. It is not a new inspection of 11.9.2. Use the current release above for a development starting point.
 
 The [Alpha 10.5.4 build validation](../docs/releases/alpha-10.5.4/BUILD_VALIDATION_v1_0_0_alpha_10_5_4.json) records current regression, native visual integration, packaged admission, runtime dependency closure and distribution checks. The [implementation and evidence guide](../docs/releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md) identifies the source bindings and boundaries. The [all-protocol certification](../docs/releases/alpha-10.5.4/PROTOCOL_CERTIFICATION_v1_0_0_alpha_10_5_4.md) has a software-only scope; it does not establish human-session, physical-device, display/audio timing or scientific validity. Package evidence applies to its identified source and environment; a modified build needs its own evidence.
 
