@@ -1,29 +1,29 @@
-# Release and repository history
+# Release history
 
-## Current release — Alpha 10.5.4
+**Current public release: [Public Alpha 11.9.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2)**, published October 23, 2026. Use the named Workbench ZIP and its matching checksum or signed updater companion. Start with [installation](../../workbench/docs/installation.md) for current instructions.
 
-The [Alpha 10.5.4 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4) provides the complete Workbench ZIP, SHA-256 checksum, changelog, installation guide and validation receipts. Published October 9, 2026, it improves visual entry points, recorded source selection and explicit calibration, and restores the exact retained Athena admission receipt required by profile validation.
+## Public releases and exact documentation
 
-Read the [cumulative changelog](../../workbench/CHANGELOG.md), [current guide collection](../../workbench/docs/releases/alpha-10.5.4/README.md), and [release review](../../workbench/docs/releases/alpha-10.5.4/REPOSITORY_RELEASE_REVIEW.json). The exact validated archive is preserved. Its version manifest retains an inherited September 30 date; the GitHub publication date and current 10.5.4 validation records identify this release.
+| Release | Main change | Preserved documents |
+| --- | --- | --- |
+| [11.9.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) | Results refresh reliability; cumulative protocol-evidence, guided-workspace and integration additions since 11.6 | [Release guide and package snapshot](../../workbench/docs/releases/alpha-11.9.2/README.md) |
+| [11.6.0 Revision 1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0) | Processing comparisons, paired CAI/SID, report coverage and Windows startup-check correction | [Release guide and package snapshot](../../workbench/docs/releases/alpha-11.6.0/README.md) |
+| [11.4.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1) | Optical method credits and attribution correction | [Release guide](../../workbench/docs/releases/alpha-11.4.1/README.md) · [correction evidence](../attribution/alpha-11.4.1/README.md) |
+| [11.2.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.2.2) | Public workflow hardening and optional stimulus packages | [Release guide](../../workbench/docs/releases/alpha-11.2.2/README.md) · [media installation](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) |
+| [10.5.4](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4) | Visual entry points, recorded source selection, calibration and retained Athena admission evidence | [Guides and validation records](../../workbench/docs/releases/alpha-10.5.4/README.md) |
+| [10.5.3](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3) | Shared Visual Analysis and recorded-prefix replay | [Guides and validation records](../../workbench/docs/releases/alpha-10.5.3/README.md) |
+| [10.5.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.2) | Gamma Scalpel 2.0 and optical exploration | [Guides and validation records](../../workbench/docs/releases/alpha-10.5.2/README.md) |
 
-## Earlier packaged applications
+This is a selected reading index. [All GitHub releases](https://github.com/hbanks87/praycg-open/releases), the [cumulative Workbench changelog](../../workbench/CHANGELOG.md) and the [complete snapshot directory](../../workbench/docs/releases/) retain the wider history. Packaged build reports describe the checks performed before their publication; later publication signatures and download verification are separate records.
 
-The [Alpha 10.5.3 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3), published October 9, introduced shared Visual Analysis, completed-result attachment, recorded prefix replay, passive live views and START.bat. Its [guides and evidence](../../workbench/docs/releases/alpha-10.5.3/README.md) retain their original scope.
+## Earlier applications and documents
 
-The [Alpha 10.5.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.2), published October 8, added Gamma Scalpel 2.0 and adaptive optical exploration. Its [guides and evidence](../../workbench/docs/releases/alpha-10.5.2/README.md) retain their original scope. The [GitHub release history](https://github.com/hbanks87/praycg-open/releases) includes Alpha 10.4.10 and earlier versions. The preserved [Alpha 10.2.1 release folder](../../workbench/releases/alpha-10.2.1/) contains that application ZIP and its original companion files.
+- [Alpha 10.2.1 application folder](../../workbench/releases/alpha-10.2.1/) and [separate documentation occurrence](../../workbench/docs/releases/alpha-10.2.1/).
+- [Historical application releases](../../archive/software/releases/), including Alpha 10.0.4, Alpha 9, v0.95, v0.92 and earlier material.
+- [Older component collections](../../archive/software/components/) and [older operating guides](../../archive/workbench-guides/).
+- [Detailed v0.62–v0.95 release notes](original-docs/PRAYCG_ControlCenter_v0_62_to_v0_95_Detailed_Release_Notes.md).
+- [Previous root navigation](../project-history/original-root/) and [October 25 navigation snapshot](../reorganization/navigation-2026-10-25/README.md).
 
-The [versioned documentation collection](../../workbench/docs/releases/alpha-10.2.1/) preserves the separate documentation occurrence from the old docs folder. Equal filenames are retained as distinct source occurrences rather than silently merged.
+Every snapshot keeps its own version, claims and evidence limits. Consult the [original-file locator](../reorganization/original-file-index.md) for former paths. This documentation reorganization does not rebuild or retag an application release.
 
-## Earlier versions
-
-[Historical application releases](../../archive/software/releases/) retain the earlier Alpha 10.0.4, Alpha 9, v0.95, v0.92, v0.62 and earlier release material. Historical labels containing Current or Stable are original labels, not the authority for the current packaged version.
-
-[Older component collections](../../archive/software/components/) and [older operating guides](../../archive/workbench-guides/) remain available for provenance and historical use.
-
-Use the [complete original-file locator](../reorganization/original-file-index.md) to find a document from a previous path.
-
-## Reorganization versus release changes
-
-This repository redesign changes public navigation and file placement. It does not rebuild the application, alter protocol markers, rewrite recorded studies or certify historical software against current environments.
-
-The preserved root pages in [project history](../project-history/original-root/) document the previous repository presentation. They may contain historical links; use current navigation or the original-file locator when those links no longer resolve.
+[Sources and history](../README.md) · [Workbench user guide](../../workbench/README.md)
