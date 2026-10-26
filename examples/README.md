@@ -1,18 +1,29 @@
-# Examples and stimulus recipes
+# Stimuli and examples
 
-These materials support exploration of stimulus preparation and the [Workbench workflow](../workbench/docs/workflow.md). An example's presence does not establish a validated protocol or a scientific result.
+Choose a demonstration, an existing screening master or a preparation recipe. This is the maintained catalog for Public Workbench **11.9.2**; the linked materials retain their own original versions.
 
-| Collection | Start here | Contents |
+| Your task | Start here | What you receive |
 | --- | --- | --- |
-| Original eleven-film collection | [Stimulus masters and packaging status](stimulus-masters/README.md) | Catalog identity, source/attribution records, original master availability and optional-package scope |
-| Synthetic demo | [Demo Lantern Bridge and prepared companion](bridge-demo/README.md) · [Original README](synthetic-demo/README_Lantern.md) | A synthetic three-minute CC0 demo with target, override and control materials, cue schedule, anchor scaffold and QC outputs |
-| Sintel stimulus recipe | [Recipe and attribution](stimulus-recipes/sintel/README.md) | A local download/preparation script and source-credit instructions; the source film is not bundled |
-| Semantic meaning gradient | [Stimulus files](semantic-meaning-gradient/) | The preserved clockwise, counterclockwise and static pilot video variants |
+| Try the software without a recording or device | [Synthetic Workbench example](../workbench/docs/workflow.md) | The Home example workflow creates explicitly synthetic data in a chosen folder |
+| Inspect the Lantern Bridge demonstration | [Demo Lantern Bridge](bridge-demo/README.md) | A synthetic three-minute CC0 demonstration with target, override/control materials, cue schedule and QC outputs |
+| Install available original screening masters | [Optional stimulus installation](../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) | Seven films plus a separate original Lantern package, pinned to the published 11.2.2 media assets |
+| Identify all eleven original masters | [Master catalog and availability](stimulus-masters/README.md) · [metadata and hashes](stimulus-masters/catalog.json) | Exact identities, attribution and the distinction between public assets and local-review material |
+| Prepare the Sintel recipe | [Recipe and attribution](stimulus-recipes/sintel/README.md) | A local preparation script and source-credit instructions; source film payload is not bundled |
+| Inspect the meaning-gradient pilot variants | [Preserved stimulus files](semantic-meaning-gradient/) | Clockwise, counterclockwise and static pilot variants |
 
-Keep accompanying manifests, schedules, QC outputs and license files with their materials. Before use, check the file identities and the protocol's input requirements against the release you are running. Preserved example outputs record their own versions; they are not evidence of a new run with the current Workbench.
+The **original Lantern master** and the **Lantern Bridge synthetic demo** are separate materials. The public installer provides eight master choices across two packages; it does not include the complete eleven-film companion.
 
-The Sintel recipe has its own attribution requirements. Consult the collection's README and the [master citations and attribution](../CITATIONS_AND_ATTRIBUTION.md) before creating or distributing derivative materials. Do not assume one collection's license applies to another.
+## Prepare materials for a protocol
 
-The Contact pilot's public study materials are in [research/studies/contact-pilot](../research/studies/contact-pilot/). Read them with the [research program's](../research/README.md) study context and claim boundaries.
+1. Read the chosen protocol's input requirements in the [protocol guide](../research/protocols/README.md) or the installed Workbench.
+2. Install or locate the exact master and verify its identity. Keep the source and attribution records.
+3. Prepare the required variants, cues and review records through the normal [study workflow](../workbench/docs/workflow.md). Importing a protocol definition does not create its movies.
+4. Retain the materials lock and participant-specific compiled plan with the study. An example's presence is not evidence of a completed or validated participant study.
 
-[Repository home](../README.md) · [Workbench](../workbench/README.md) · [Research program](../research/README.md) · [License](../LICENSE.md)
+## Preserved companions
+
+The [original Lantern README](synthetic-demo/README_Lantern.md), [Bridge companion manifest](bridge-demo/PACKAGE_MANIFEST.json), [Contact pilot collection](../research/studies/contact-pilot/README.md) and their supporting files remain unchanged. Their reports describe their own inputs and versions.
+
+Check each collection's license and [source credits](../CITATIONS_AND_ATTRIBUTION.md) before reuse or sharing. A public catalog is not redistribution permission for every film it describes.
+
+[Repository home](../README.md) · [Workbench user guide](../workbench/README.md) · [Hardware projects](../hardware/README.md) · [Sources and history](../docs/README.md)
