@@ -1,24 +1,25 @@
 # Hardware projects
 
-This directory contains physical designs, build documents and project evidence. For the Workbench's acquisition routes, use [hardware support](../workbench/docs/hardware-support.md) and the [operating workflow](../workbench/docs/workflow.md).
+For connecting equipment to Public Workbench **11.9.2**, start with [recording routes and support](../workbench/docs/hardware-support.md). This directory holds preserved physical designs, firmware packages and project evidence.
 
-## Browse the projects
+## Choose a project
 
-| Project | Start here | Scope |
+| Project | Read first | Supporting material |
 | --- | --- | --- |
-| ALS PT19 holders | [Designs and photos](als-pt19/) | Sensor-holder geometry, printable parts and placement photographs |
-| OpenBCI gelless cap | [Build document](openbci-gelless-cap/OpenBCI%20Gelless%20Cap.pdf) | Cap construction documentation |
-| Cerelog EMG + ALS | [Review-package introduction](cerelog-emg-als/README_FOR_SIMON.md), [manifest](cerelog-emg-als/MANIFEST.json), [bench checks](cerelog-emg-als/BENCH_CHECKS.md) | Custom firmware adaptation, exact binaries, matching reader and review evidence |
-| Shielding enclosure / The Box | [Project notes](shielding-enclosure/README.md), [safety notes](shielding-enclosure/grounding_and_electrical_safety.md), [test protocol](shielding-enclosure/testing_protocol.md) | Enclosure documentation and proposed environmental/QC checks |
+| ALS PT19 sensor holders | [Designs and placement photographs](als-pt19/) | Printable parts and mechanical geometry |
+| OpenBCI gelless cap | [Cap build document](openbci-gelless-cap/OpenBCI%20Gelless%20Cap.pdf) | Original construction documentation |
+| Cerelog: four EMG + ALS | [Original review-package introduction](cerelog-emg-als/4%20Chan%20EMG%20%2B%20ALS-19/README_FOR_SIMON.md) | [Build and protocol](cerelog-emg-als/4%20Chan%20EMG%20%2B%20ALS-19/BUILD_AND_PROTOCOL.md) · [bench checks](cerelog-emg-als/4%20Chan%20EMG%20%2B%20ALS-19/BENCH_CHECKS.md) · [manifest](cerelog-emg-als/4%20Chan%20EMG%20%2B%20ALS-19/MANIFEST.json) |
+| Cerelog: five EMG + two EOG + ALS | [Original bundle introduction](cerelog-emg-als/2%20EOG%20%2B%205%20EMG%20%2B%20ALS-PT19/README.md) | [Verification](cerelog-emg-als/2%20EOG%20%2B%205%20EMG%20%2B%20ALS-PT19/VERIFICATION.md) · [source and licensing notes](cerelog-emg-als/2%20EOG%20%2B%205%20EMG%20%2B%20ALS-PT19/LICENSE_NOTICE.md) |
+| Shielding enclosure / The Box | [Project notes](shielding-enclosure/README.md) | [Grounding and electrical safety](shielding-enclosure/grounding_and_electrical_safety.md) · [test protocol](shielding-enclosure/testing_protocol.md) |
 
-A design or connector listing does not certify electrical safety, electrode contact, calibration, signal origin or synchronization. Use each project's specific instructions and evidence. Shielding does not guarantee valid signals or remove the need for physiological and environmental QC.
+The two Cerelog firmware packages have different channel contracts and matching readers. The compact three-EMG capture review described in the [11.9 integration guide](../workbench/docs/releases/alpha-11.9.2/package/INTEGRATION_11_9.md) is a separate offline software workflow; it does not relabel these firmware packages.
 
-## Provenance and project boundaries
+## Use the right evidence
 
-Keep each project's source, build configuration, binaries, checksums, manifest, upstream credits and test evidence together. Distinguish intended channel roles and settings from measured performance.
+Each project retains its original source, binaries, build configuration, checksums, upstream credits and test records. Check the exact firmware and reader pairing before interpreting channel units or timing. A project listing does not qualify electrical safety or physical synchronization, and a shielding design does not establish signal validity.
 
-The Cerelog package is a custom adaptation for review, not an official Cerelog release. Its mixed-gain EMG/light-sensor configuration requires its matching host protocol; it is distinct from a general EEG route and from the withheld Cerelog 16 route in Alpha 10.2.1. The package's own notes describe its bench scope and binary privacy limitations. A Workbench application inventory does not automatically cover these firmware binaries.
+Cerelog packages are experimental custom adaptations with their own manufacturer-review and binary-provenance notes. Read those notes with the [current Workbench route requirements](../workbench/docs/hardware-support.md). Earlier bench records retain their original scope.
 
-Project files and manifests are preserved as supplied. Consult the [repository license](../LICENSE.md), [citations and attribution](../CITATIONS_AND_ATTRIBUTION.md), and each project's upstream notices for the applicable terms.
+For stimuli used alongside equipment, open the [stimulus and example library](../examples/README.md). Keep project-specific rights and notices with any reused materials.
 
-[Repository home](../README.md) · [Workbench](../workbench/README.md) · [Research program](../research/README.md)
+[Repository home](../README.md) · [Study workflow](../workbench/docs/workflow.md) · [Attribution](../CITATIONS_AND_ATTRIBUTION.md) · [Sources and history](../docs/README.md)
