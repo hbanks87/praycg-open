@@ -1,0 +1,316 @@
+{
+  "checked_date": "2026-10-26",
+  "scope": "Registration and title verification from official Crossref metadata. Metadata success does not claim publisher HTTP success or certify linked content.",
+  "unique_doi_count": 13,
+  "duplicate_url": {
+    "publisher_page_reachability": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+    "previous_http_status": 403,
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+    "same_doi": "10.1111/cogs.70050"
+  },
+  "schema": "PRAYCG_ExternalReferenceReview_v1",
+  "source_audit_date": "2026-10-25",
+  "non_doi_reference": {
+    "evidence": "Independently opened the primary NITRC page with the web tool on 2026-10-26; original link retained. This does not claim urllib TLS success.",
+    "previous_status": "NETWORK_UNVERIFIED",
+    "url": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html",
+    "review_status": "PRIMARY_PAGE_RETRIEVABLE_WITH_WEB_TOOL",
+    "title": "EEG/FMRI Naturalistic Viewing Dataset"
+  },
+  "doi_records": [
+    {
+      "doi": "10.1002/hbm.20346",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Human Brain Mapping",
+      "metadata_provider": "Crossref",
+      "title": "Phase lag index: Assessment of functional connectivity from multi channel EEG and MEG with diminished bias from common sources",
+      "preserve_original_link": true,
+      "registered_doi": "10.1002/hbm.20346",
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            1,
+            31
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1002%2Fhbm.20346",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1002/hbm.20346",
+      "publisher": "Wiley"
+    },
+    {
+      "doi": "10.1071/CH9490149",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Australian Journal of Scientific Research Series A: Physical Sciences",
+      "metadata_provider": "Crossref",
+      "title": "Experimental Designs Balanced for the Estimation of Residual Effects of Treatments",
+      "preserve_original_link": true,
+      "registered_doi": "10.1071/ch9490149",
+      "published": {
+        "date-parts": [
+          [
+            1949,
+            6,
+            1
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1071%2FCH9490149",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1071/CH9490149",
+      "publisher": "CSIRO Publishing"
+    },
+    {
+      "doi": "10.1080/01621459.1968.10480934",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Journal of the American Statistical Association",
+      "metadata_provider": "Crossref",
+      "title": "Estimates of the Regression Coefficient Based on Kendall's Tau",
+      "preserve_original_link": true,
+      "registered_doi": "10.1080/01621459.1968.10480934",
+      "published": {
+        "date-parts": [
+          [
+            1968,
+            12
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1080%2F01621459.1968.10480934",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1080/01621459.1968.10480934",
+      "publisher": "Informa UK Limited"
+    },
+    {
+      "doi": "10.1080/03091902.2019.1640306",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Journal of Medical Engineering &amp; Technology",
+      "metadata_provider": "Crossref",
+      "title": "A robust algorithm for heart rate variability time series artefact correction using novel beat classification",
+      "preserve_original_link": true,
+      "registered_doi": "10.1080/03091902.2019.1640306",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            3
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1080%2F03091902.2019.1640306",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1080/03091902.2019.1640306",
+      "publisher": "Informa UK Limited"
+    },
+    {
+      "doi": "10.1093/gigascience/giz002",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "GigaScience",
+      "metadata_provider": "Crossref",
+      "title": "EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy",
+      "preserve_original_link": true,
+      "registered_doi": "10.1093/gigascience/giz002",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            30
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1093%2Fgigascience%2Fgiz002",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1093/gigascience/giz002",
+      "publisher": "Oxford University Press (OUP)"
+    },
+    {
+      "doi": "10.1103/PhysRevLett.88.174102",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Physical Review Letters",
+      "metadata_provider": "Crossref",
+      "title": "Permutation Entropy: A Natural Complexity Measure for Time Series",
+      "preserve_original_link": true,
+      "registered_doi": "10.1103/physrevlett.88.174102",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            4,
+            11
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1103%2FPhysRevLett.88.174102",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1103/PhysRevLett.88.174102",
+      "publisher": "American Physical Society (APS)"
+    },
+    {
+      "doi": "10.1103/PhysRevLett.89.068102",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Physical Review Letters",
+      "metadata_provider": "Crossref",
+      "title": "Multiscale Entropy Analysis of Complex Physiologic Time Series",
+      "preserve_original_link": true,
+      "registered_doi": "10.1103/physrevlett.89.068102",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            7,
+            19
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1103%2FPhysRevLett.89.068102",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1103/PhysRevLett.89.068102",
+      "publisher": "American Physical Society (APS)"
+    },
+    {
+      "doi": "10.1111/cogs.70050",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Cognitive Science",
+      "metadata_provider": "Crossref",
+      "title": "A Computational Framework to Study Hierarchical Processing in Visual Narratives",
+      "preserve_original_link": true,
+      "registered_doi": "10.1111/cogs.70050",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1111%2Fcogs.70050",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1111/cogs.70050",
+      "publisher": "Wiley"
+    },
+    {
+      "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "metadata_provider": "Crossref",
+      "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+      "preserve_original_link": true,
+      "registered_doi": "10.1111/j.2517-6161.1995.tb02031.x",
+      "published": {
+        "date-parts": [
+          [
+            1995,
+            1,
+            1
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1111%2Fj.2517-6161.1995.tb02031.x",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+      "publisher": "Oxford University Press (OUP)"
+    },
+    {
+      "doi": "10.1152/ajpheart.2000.278.6.H2039",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "American Journal of Physiology-Heart and Circulatory Physiology",
+      "metadata_provider": "Crossref",
+      "title": "Physiological time-series analysis using approximate entropy and sample entropy",
+      "preserve_original_link": true,
+      "registered_doi": "10.1152/ajpheart.2000.278.6.h2039",
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            6,
+            1
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1152%2Fajpheart.2000.278.6.H2039",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039",
+      "publisher": "American Physiological Society"
+    },
+    {
+      "doi": "10.1152/jn.00106.2010",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Journal of Neurophysiology",
+      "metadata_provider": "Crossref",
+      "title": "Measuring Phase-Amplitude Coupling Between Neuronal Oscillations of Different Frequencies",
+      "preserve_original_link": true,
+      "registered_doi": "10.1152/jn.00106.2010",
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            8
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1152%2Fjn.00106.2010",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1152/jn.00106.2010",
+      "publisher": "American Physiological Society"
+    },
+    {
+      "doi": "10.1162/IMAG.a.136",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Imaging Neuroscience",
+      "metadata_provider": "Crossref",
+      "title": "The lab streaming layer for synchronized multimodal recording",
+      "preserve_original_link": true,
+      "registered_doi": "10.1162/imag.a.136",
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1162%2FIMAG.a.136",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1162/IMAG.a.136",
+      "publisher": "MIT Press"
+    },
+    {
+      "doi": "10.1167/14.12.6",
+      "previous_publisher_http_status": 403,
+      "metadata_result": "REGISTERED_DOI_METADATA_VERIFIED",
+      "container_title": "Journal of Vision",
+      "metadata_provider": "Crossref",
+      "title": "Time to wave good-bye to phase scrambling: Creating controlled scrambled images using diffeomorphic transformations",
+      "preserve_original_link": true,
+      "registered_doi": "10.1167/14.12.6",
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            10,
+            9
+          ]
+        ]
+      },
+      "metadata_url": "https://api.crossref.org/works/10.1167%2F14.12.6",
+      "publisher_page_reachability": "NOT_RETESTED_OR_CERTIFIED_BY_METADATA",
+      "doi_url": "https://doi.org/10.1167/14.12.6",
+      "publisher": "Association for Research in Vision and Ophthalmology (ARVO)"
+    }
+  ]
+}

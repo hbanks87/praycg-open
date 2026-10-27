@@ -1,0 +1,47 @@
+{
+  "schema": "PRAYCG_LinkRepairPreservation_v1",
+  "baseline_commit": "88c535f52958c908e1b8b14e46b7398451b22129",
+  "baseline_files": 1667,
+  "modified_maintained_guides": [
+    {
+      "path": "CITATIONS_AND_ATTRIBUTION.md",
+      "git_blob": "40d17d60d0c1a67459d511b721c39e14333e808c",
+      "sha256": "619de015766b27335158b4931d3575fa359e1d340cf231cd3477996d8ec18851",
+      "bytes": 85537
+    },
+    {
+      "path": "research/bibliography/README.md",
+      "git_blob": "d17755f6a9019d71edf961a22a54c4641d60ece3",
+      "sha256": "8a0f71e04a7b78ef8bfc0e6c62756e7b27de21ff74fbc5925d6d464b8eaadd2b",
+      "bytes": 18126
+    },
+    {
+      "path": "examples/stimulus-masters/README.md",
+      "git_blob": "6cf6b0c59741e994abdc2e566e8a55a8a00cea82",
+      "sha256": "6bc670dd2207e0f0325f027d25a4f44457ce9f1013375f5c60ca1a90ed2f6d29",
+      "bytes": 10156
+    },
+    {
+      "path": "examples/bridge-demo/README.md",
+      "git_blob": "4555978585a42be94c8f8389ac380cfc34546e9f",
+      "sha256": "eac9afd2cb8bbbce65f5e615e8fdf24ea82fd695b4df3072ca7c6d6fe7db5bc6",
+      "bytes": 4368
+    },
+    {
+      "path": "docs/README.md",
+      "git_blob": "880f32163e4a18e90b638c91faca3b09dd2199c3",
+      "sha256": "27b7d67521bf10aade1b9ceb9b197c30d0c0eb526e244dff841cc90748558b58",
+      "bytes": 5509
+    },
+    {
+      "path": "workbench/development/README.md",
+      "git_blob": "b7c2ff39dde10ca52be71a6ced1671ff20abbd8f",
+      "sha256": "1804f7b497b0888de4030e7f43d172d0e77fdc2af4ee64d16901aca32d4e88b9",
+      "bytes": 7146
+    }
+  ],
+  "unchanged_baseline_files": 1661,
+  "archive": "PREVIOUS_GUIDES.zip",
+  "archive_sha256": "0a4c6d48b0f7510bfc3e1e960afd6ffabfad225e7277a331abbea9027d12bf62",
+  "preservation": "All baseline files other than these six maintained guides retain their paths and exact bytes. Original scientific documents, core specifications, versioned snapshots and notices are unchanged. Missing companions are added separately."
+}

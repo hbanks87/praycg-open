@@ -1,0 +1,3800 @@
+{
+  "schema": "PRAYCG_PublicLinkRepairAudit_v1",
+  "baseline_commit": "88c535f52958c908e1b8b14e46b7398451b22129",
+  "checked_at_utc": "2026-10-27T01:59:09.453170+00:00",
+  "status": "INTERNAL_LINKS_PASS_EXTERNAL_LIMITS_RECORDED",
+  "publication_scope": "Frozen candidate files only; original public files remain present and the six maintained-guide originals are preserved in PREVIOUS_GUIDES.zip. This report describes the prepared publication; the separate final publication receipt verifies uploaded bytes.",
+  "baseline": {
+    "repository_files": 1667,
+    "markdown_documents": 467,
+    "link_occurrences": 4466,
+    "status_counts": {
+      "EXTERNAL": 959,
+      "PASS": 3190,
+      "NON_HTTP_SCHEME": 6,
+      "MISSING_PATH": 311
+    }
+  },
+  "candidate": {
+    "repository_files": 2014,
+    "markdown_documents": 551,
+    "link_occurrences": 4774,
+    "status_counts": {
+      "EXTERNAL": 1132,
+      "PASS": 3636,
+      "NON_HTTP_SCHEME": 6
+    },
+    "publication_files": 353,
+    "modified_existing_guides": 6,
+    "added_files": 347
+  },
+  "internal_links": {
+    "passing_occurrences": 3636,
+    "missing_paths": 0,
+    "missing_anchors": 0,
+    "empty_targets": 0,
+    "new_failures": 0,
+    "failures_in_changed_markdown": 0,
+    "baseline_missing_references": 311,
+    "baseline_references_now_resolved": 311,
+    "unresolved": []
+  },
+  "restoration": {
+    "plan_path": "tools/repository_maintenance/RESTORATION_PLAN.json",
+    "plan_sha256": "32036d9ee00d7dca51927adc45b386ec0b4952f1324f0f61d7d7a0078fe3231c",
+    "files": 332,
+    "exact_public_companions": 320,
+    "locator_pages": 12,
+    "original_guide_backup": "docs/reorganization/link-repair-2026-10-26/PREVIOUS_GUIDES.zip"
+  },
+  "external_links": {
+    "unique_urls": 289,
+    "status_counts": {
+      "PASS": 274,
+      "ACCESS_OR_RATE_LIMIT_UNVERIFIED": 14,
+      "NETWORK_UNVERIFIED": 1
+    },
+    "reused_successful_checks": 255,
+    "reused_successful_check_date": "2026-10-25",
+    "fresh_checks": 34,
+    "new_urls_checked": 19,
+    "previously_unverified_urls_rechecked": 15,
+    "new_url_status_counts": {
+      "PASS": 19
+    },
+    "confirmed_not_found": 0,
+    "unverified": [
+      {
+        "url": "https://doi.org/10.1002/hbm.20346",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/hbm.20346",
+        "checked_at_utc": "2026-10-27T01:59:07.299673+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1071/CH9490149",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://connectsci.au/ch/article/2/2/149/614/Experimental-Designs-Balanced-for-the-Estimation",
+        "checked_at_utc": "2026-10-27T01:59:07.614203+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 823,
+            "target": "https://doi.org/10.1071/CH9490149"
+          },
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1261,
+            "target": "https://doi.org/10.1071/CH9490149"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 823,
+            "target": "https://doi.org/10.1071/CH9490149"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1261,
+            "target": "https://doi.org/10.1071/CH9490149"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1080/01621459.1968.10480934",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1968.10480934",
+        "checked_at_utc": "2026-10-27T01:59:07.632270+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1080/03091902.2019.1640306",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://www.tandfonline.com/doi/full/10.1080/03091902.2019.1640306",
+        "checked_at_utc": "2026-10-27T01:59:07.675184+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md",
+            "line": 37,
+            "target": "https://doi.org/10.1080/03091902.2019.1640306"
+          },
+          {
+            "source": "research/bibliography/README.md",
+            "line": 96,
+            "target": "https://doi.org/10.1080/03091902.2019.1640306"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md",
+            "line": 37,
+            "target": "https://doi.org/10.1080/03091902.2019.1640306"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1093/gigascience/giz002",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giz002/5304369",
+        "checked_at_utc": "2026-10-27T01:59:07.740421+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 462,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 315,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 317,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 313,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1197,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1197,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1103/PhysRevLett.88.174102",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://link.aps.org/doi/10.1103/PhysRevLett.88.174102",
+        "checked_at_utc": "2026-10-27T01:59:07.771604+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1103/PhysRevLett.89.068102",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://link.aps.org/doi/10.1103/PhysRevLett.89.068102",
+        "checked_at_utc": "2026-10-27T01:59:07.709035+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1111/cogs.70050",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+        "checked_at_utc": "2026-10-27T01:59:07.785796+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 478,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 331,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 333,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 329,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://academic.oup.com/jrsssb/article/57/1/289/7035855",
+        "checked_at_utc": "2026-10-27T01:59:08.178300+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://journals.physiology.org/doi/10.1152/ajpheart.2000.278.6.H2039",
+        "checked_at_utc": "2026-10-27T01:59:08.492146+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1152/jn.00106.2010",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://journals.physiology.org/doi/10.1152/jn.00106.2010",
+        "checked_at_utc": "2026-10-27T01:59:08.517349+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1162/IMAG.a.136",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://direct.mit.edu/imag/article/doi/10.1162/IMAG.a.136/132678/The-lab-streaming-layer-for-synchronized",
+        "checked_at_utc": "2026-10-27T01:59:08.217057+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 229,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 82,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 84,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 80,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/UPSTREAM_ATTRIBUTION_REVIEW.md",
+            "line": 40,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/UPSTREAM_ATTRIBUTION_REVIEW.md",
+            "line": 40,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1167/14.12.6",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://jov.arvojournals.org/Article.aspx?doi=10.1167/14.12.6",
+        "checked_at_utc": "2026-10-27T01:59:08.372703+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 202,
+            "target": "https://doi.org/10.1167/14.12.6"
+          },
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1262,
+            "target": "https://doi.org/10.1167/14.12.6"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 202,
+            "target": "https://doi.org/10.1167/14.12.6"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1262,
+            "target": "https://doi.org/10.1167/14.12.6"
+          }
+        ]
+      },
+      {
+        "url": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html",
+        "status": "NETWORK_UNVERIFIED",
+        "method": "GET",
+        "checked_at_utc": "2026-10-27T01:59:08.017948+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1060,
+            "target": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1060,
+            "target": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html"
+          }
+        ]
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+        "checked_at_utc": "2026-10-27T01:59:09.063878+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 478,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 331,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 333,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 329,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1612,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1612,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "http://www.kevinsheppard.com",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.kevinsheppard.com/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://arxiv.org/abs/2602.18478",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://arxiv.org/abs/2602.18478",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://arxiv.org/abs/2608.28768",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://arxiv.org/abs/2608.28768",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files/events.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files/events.html",
+        "checked_at_utc": "2026-10-27T01:59:07.131732+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://bids-specification.readthedocs.io/en/stable/modality-specific-files/physiological-recordings.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://bids-specification.readthedocs.io/en/stable/modality-specific-files/physiological-recordings.html",
+        "checked_at_utc": "2026-10-27T01:59:07.192629+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://brainflow.readthedocs.io/en/stable/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://brainflow.readthedocs.io/en/stable/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://brainflow.readthedocs.io/en/stable/SupportedBoards.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://brainflow.readthedocs.io/en/stable/SupportedBoards.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://choosemuse.my.site.com/s/article/Comparing-Muse-Headbands?language=en_US",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://choosemuse.my.site.com/s/article/Comparing-Muse-Headbands?language=en_US",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://choosemuse.my.site.com/s/article/Muse-S-Athena-What-s-New",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://choosemuse.my.site.com/s/article/Muse-S-Athena-What-s-New?language=en_US",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://cli.github.com/manual/gh_release_upload",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://cli.github.com/manual/gh_release_upload",
+        "checked_at_utc": "2026-10-27T01:59:07.239723+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://devdocs.psychopy.org/about/index.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://devdocs.psychopy.org/about/index.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10054486/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://discovery.ucl.ac.uk/id/eprint/10054486/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://docs.github.com/en/actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/triggering-a-workflow",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow",
+        "checked_at_utc": "2026-10-27T01:59:08.101866+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows",
+        "checked_at_utc": "2026-10-27T01:59:07.058877+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://docs.github.com/en/actions/tutorials/authenticate-with-github_token",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.github.com/en/actions/tutorials/authenticate-with-github_token",
+        "checked_at_utc": "2026-10-27T01:59:07.253674+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://docs.openbci.com/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.openbci.com/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://docs.pupil-labs.com/neon/data-collection/lab-streaming-layer/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.pupil-labs.com/neon/data-collection/lab-streaming-layer/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://docs.scipy.org/doc/scipy-1.16.2/reference/generated/scipy.signal.welch.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.scipy.org/doc/scipy-1.16.2/reference/generated/scipy.signal.welch.html",
+        "checked_at_utc": "2026-10-27T01:59:07.118822+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.theilslopes.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.theilslopes.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1002/hbm.20346",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/hbm.20346",
+        "checked_at_utc": "2026-10-27T01:59:07.299673+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 89,
+            "target": "https://doi.org/10.1002/hbm.20346"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1016/0013-4694(89)90180-6",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/0013469489901806",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.clinph.2004.04.029",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1388245704001993",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.jneumeth.2003.10.009",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0165027003003479",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.neuroimage.2011.01.055",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811911000917",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.neuroimage.2019.01.026",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811919300266",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.neuroimage.2019.05.026",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811919304185",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.neuroimage.2019.116356",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811919309474",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.neuroimage.2020.117465",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811920309502",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1016/j.neuroimage.2021.117787",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811921000641",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-020-2649-2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/s41586-020-2649-2?error=cookies_not_supported&code=a30b8820-8e3e-4b79-be92-d07deb438c93",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1038/s41592-019-0686-2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/s41592-019-0686-2?error=cookies_not_supported&code=5d4a7ed8-0dce-4d2a-a0ff-c0373447da88",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1038/s41597-022-01147-2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/s41597-022-01147-2?error=cookies_not_supported&code=3cb40b75-9a70-4d2a-ac79-50c49586eb43",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1038/s41597-023-02458-8",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/s41597-023-02458-8?error=cookies_not_supported&code=c867b27f-0911-41a8-b2cc-15a4c5b11eb1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1038/sdata.2017.40",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/sdata201740?error=cookies_not_supported&code=dd827632-4d09-4c35-873e-5c8490152675",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1071/CH9490149",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://connectsci.au/ch/article/2/2/149/614/Experimental-Designs-Balanced-for-the-Estimation",
+        "checked_at_utc": "2026-10-27T01:59:07.614203+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 823,
+            "target": "https://doi.org/10.1071/CH9490149"
+          },
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1261,
+            "target": "https://doi.org/10.1071/CH9490149"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 823,
+            "target": "https://doi.org/10.1071/CH9490149"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1261,
+            "target": "https://doi.org/10.1071/CH9490149"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1080/01621459.1968.10480934",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1968.10480934",
+        "checked_at_utc": "2026-10-27T01:59:07.632270+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 59,
+            "target": "https://doi.org/10.1080/01621459.1968.10480934"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1080/03091902.2019.1640306",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://www.tandfonline.com/doi/full/10.1080/03091902.2019.1640306",
+        "checked_at_utc": "2026-10-27T01:59:07.675184+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md",
+            "line": 37,
+            "target": "https://doi.org/10.1080/03091902.2019.1640306"
+          },
+          {
+            "source": "research/bibliography/README.md",
+            "line": 96,
+            "target": "https://doi.org/10.1080/03091902.2019.1640306"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md",
+            "line": 37,
+            "target": "https://doi.org/10.1080/03091902.2019.1640306"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1088/0031-9155/33/12/008",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://iopscience.iop.org/article/10.1088/0031-9155/33/12/008",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1088/1361-6579/aad7e6",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://iopscience.iop.org/article/10.1088/1361-6579/aad7e6",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1093/gigascience/giz002",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giz002/5304369",
+        "checked_at_utc": "2026-10-27T01:59:07.740421+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 462,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 315,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 317,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 313,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1197,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1197,
+            "target": "https://doi.org/10.1093/gigascience/giz002"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1103/PhysRevLett.88.174102",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://link.aps.org/doi/10.1103/PhysRevLett.88.174102",
+        "checked_at_utc": "2026-10-27T01:59:07.771604+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 146,
+            "target": "https://doi.org/10.1103/PhysRevLett.88.174102"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1103/PhysRevLett.89.068102",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://link.aps.org/doi/10.1103/PhysRevLett.89.068102",
+        "checked_at_utc": "2026-10-27T01:59:07.709035+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 132,
+            "target": "https://doi.org/10.1103/PhysRevLett.89.068102"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1109/10.391164",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/391164/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1109/86.895946",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/895946/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1109/TAU.1967.1161901",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/1161901/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1109/TBME.1985.325532",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/4122029/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1109/TIT.1976.1055501",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/1055501/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1109/TNSRE.2016.2627556",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/7740878/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1109/TNSRE.2026.3734253",
+        "status": "PASS",
+        "http_status": 202,
+        "method": "HEAD",
+        "final_url": "https://ieeexplore.ieee.org/document/11693065/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1111/cogs.70050",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+        "checked_at_utc": "2026-10-27T01:59:07.785796+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 478,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 331,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 333,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 329,
+            "target": "https://doi.org/10.1111/cogs.70050"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://academic.oup.com/jrsssb/article/57/1/289/7035855",
+        "checked_at_utc": "2026-10-27T01:59:08.178300+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 117,
+            "target": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://journals.physiology.org/doi/10.1152/ajpheart.2000.278.6.H2039",
+        "checked_at_utc": "2026-10-27T01:59:08.492146+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 131,
+            "target": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1152/jn.00106.2010",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://journals.physiology.org/doi/10.1152/jn.00106.2010",
+        "checked_at_utc": "2026-10-27T01:59:08.517349+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "docs/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          },
+          {
+            "source": "docs/project-history/original-root/attribution/ANALYSIS_METHODS.md",
+            "line": 103,
+            "target": "https://doi.org/10.1152/jn.00106.2010"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1162/IMAG.a.136",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://direct.mit.edu/imag/article/doi/10.1162/IMAG.a.136/132678/The-lab-streaming-layer-for-synchronized",
+        "checked_at_utc": "2026-10-27T01:59:08.217057+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 229,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 82,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 84,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 80,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/UPSTREAM_ATTRIBUTION_REVIEW.md",
+            "line": 40,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/UPSTREAM_ATTRIBUTION_REVIEW.md",
+            "line": 40,
+            "target": "https://doi.org/10.1162/IMAG.a.136"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1167/14.12.6",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://jov.arvojournals.org/Article.aspx?doi=10.1167/14.12.6",
+        "checked_at_utc": "2026-10-27T01:59:08.372703+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 202,
+            "target": "https://doi.org/10.1167/14.12.6"
+          },
+          {
+            "source": "research/protocols/originals/docs/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1262,
+            "target": "https://doi.org/10.1167/14.12.6"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 202,
+            "target": "https://doi.org/10.1167/14.12.6"
+          },
+          {
+            "source": "research/protocols/originals/help-files/PRAYCG_v0_93_to_v0_95_Protocols_Theory_and_Analysis_Methods.md",
+            "line": 1262,
+            "target": "https://doi.org/10.1167/14.12.6"
+          }
+        ]
+      },
+      {
+        "url": "https://doi.org/10.13026/C28G6P",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.1371/journal.pone.0170647",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0170647",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.17605/OSF.IO/8N75V",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://osf.io/8n75v/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18112/openneuro.ds001787.v1.1.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds001787/versions/1.1.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18112/openneuro.ds002345.v1.1.4",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds002345/versions/1.1.4",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18112/openneuro.ds003816.v1.0.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds003816/versions/1.0.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18112/openneuro.ds003969.v1.0.0",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds003969/versions/1.0.0",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18112/openneuro.ds005551.v1.0.4",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds005551/versions/1.0.4",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18112/openneuro.ds008257.v1.0.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds008257/versions/1.0.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.18115/D5JW4R",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://osf.io/thsqg/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.21105/joss.01237",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.01237",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.21105/joss.01896",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.01896",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.21105/joss.04484",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.04484",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.21105/joss.04564",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.04564",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.21105/joss.08088",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.08088",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.3389/fnins.2013.00267",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2013.00267/full",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.3389/neuro.06.004.2008",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/neuro.06.004.2008/full",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.3758/s13428-018-01193-y",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://link.springer.com/article/10.3758/s13428-018-01193-y?error=cookies_not_supported&code=13ea636d-445a-4f79-a614-712df9b9338a",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.3758/s13428-020-01516-y",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://link.springer.com/article/10.3758/s13428-020-01516-y?error=cookies_not_supported&code=3f84154e-b87d-4d1d-bcca-3914d0375552",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.48550/arXiv.2608.28768",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://arxiv.org/abs/2608.28768",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.107955.3",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://elifesciences.org/articles/107955",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://download.qt.io/archive/qt/6.8/6.8.3/single/qt-everywhere-src-6.8.3.tar.xz",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://qt.mirror.constant.com/archive/qt/6.8/6.8.3/single/qt-everywhere-src-6.8.3.tar.xz",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://eeglab.org/others/EEGLAB_References.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://eeglab.org/others/EEGLAB_References.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://elifesciences.org/articles/107955",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "GET",
+        "final_url": "https://elifesciences.org/articles/107955",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://erpinfo.org/erp-core",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://erpinfo.org/erp-core",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html",
+        "status": "NETWORK_UNVERIFIED",
+        "method": "GET",
+        "checked_at_utc": "2026-10-27T01:59:08.017948+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1060,
+            "target": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1060,
+            "target": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html"
+          }
+        ]
+      },
+      {
+        "url": "https://gist.github.com/imneme/f1f7821f07cf76504a97f6537c818083",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://gist.github.com/imneme/f1f7821f07cf76504a97f6537c818083",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/af1a56e0127e71606afdc7e7ddf0ca831715e09c/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/af1a56e0127e71606afdc7e7ddf0ca831715e09c/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/tree/af1a56e0127e71606afdc7e7ddf0ca831715e09c",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/tree/af1a56e0127e71606afdc7e7ddf0ca831715e09c",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/tree/af1a56e0127e71606afdc7e7ddf0ca831715e09c/firmware/other/V1_special_differential_fw",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/tree/af1a56e0127e71606afdc7e7ddf0ca831715e09c/firmware/other/V1_special_differential_fw",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/Cerelog-ESP-EEG/Lab-Stream-Layer-LSL-Compatability/blob/e70fcf9a7fa16a7b7847b51116680b17dd34079b/cerelog_lsl.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/Cerelog-ESP-EEG/Lab-Stream-Layer-LSL-Compatability/blob/e70fcf9a7fa16a7b7847b51116680b17dd34079b/cerelog_lsl.py",
+        "checked_at_utc": "2026-10-27T01:59:08.589080+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/Cerelog-ESP-EEG/Lab-Stream-Layer-LSL-Compatability/tree/e70fcf9a7fa16a7b7847b51116680b17dd34079b",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/Cerelog-ESP-EEG/Lab-Stream-Layer-LSL-Compatability/tree/e70fcf9a7fa16a7b7847b51116680b17dd34079b",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/DiGyt/asrpy",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/DiGyt/asrpy",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/DiGyt/asrpy/blob/main/citation.cff",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/DiGyt/asrpy/blob/main/citation.cff",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/DominiqueMakowski/OpenMuse/tree/a9be252188321e269537eabf609bc207be293f8c",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/DominiqueMakowski/OpenMuse/tree/a9be252188321e269537eabf609bc207be293f8c",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/JuliaLang/julia/contributors",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/JuliaLang/julia/graphs/contributors",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/N-Nieto/Inner_Speech_Dataset",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/N-Nieto/Inner_Speech_Dataset",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/NeuroTechX/moabb/blob/develop/moabb/datasets/ssvep_wang.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/NeuroTechX/moabb/blob/develop/moabb/datasets/ssvep_wang.py",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/OpenNeuroDatasets/ds001787",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/OpenNeuroDatasets/ds001787",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/OpenNeuroDatasets/ds003969",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/OpenNeuroDatasets/ds003969",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/PatternRecognition/OpenBMI",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/PatternRecognition/OpenBMI",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/Zyphra/zuna",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/Zyphra/zuna",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+        "checked_at_utc": "2026-10-27T01:59:08.666488+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/brainflow-dev/brainflow/blob/5.23.0/docs/SupportedBoards.rst",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/brainflow-dev/brainflow/blob/5.23.0/docs/SupportedBoards.rst",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/brainflow-dev/brainflow/tree/7994b54b4ee23898456d96446dc7e51ebfa18840",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/brainflow-dev/brainflow/tree/7994b54b4ee23898456d96446dc7e51ebfa18840",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/espressif/arduino-esp32/blob/3.3.12/LICENSE.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/espressif/arduino-esp32/blob/3.3.12/LICENSE.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/espressif/arduino-esp32/tree/3.3.12",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/espressif/arduino-esp32/tree/3.3.12",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/espressif/esp-idf/blob/b774170ff46/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/espressif/esp-idf/blob/b774170ff46/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/espressif/esp-idf/blob/b774170ff46/docs/en/COPYRIGHT.rst",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/espressif/esp-idf/blob/b774170ff46/docs/en/COPYRIGHT.rst",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/gifale95/EMD",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/gifale95/EMD",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/actions/runs/40434259585",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/actions/runs/40434259585",
+        "checked_at_utc": "2026-10-27T01:59:08.886682+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/5ff99d267544f878dbc55e160b5c6b37a14d8054/THIRD_PARTY_NOTICES/README.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/5ff99d267544f878dbc55e160b5c6b37a14d8054/THIRD_PARTY_NOTICES/README.md",
+        "checked_at_utc": "2026-10-27T01:59:08.984748+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6.zip",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6.zip",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/CHANGELOG.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/CHANGELOG.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/CHECKSUMS_SHA256.txt",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/CHECKSUMS_SHA256.txt",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/DISCLAIMER.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/DISCLAIMER.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/README.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/README.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/examples/offline_interpretive_report_FIELD_SMOKE_EXAMPLE.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/examples/offline_interpretive_report_FIELD_SMOKE_EXAMPLE.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/requirements.txt",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/requirements.txt",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/run_offline_interpreter_EDIT_PATHS_windows.bat",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/run_offline_interpreter_EDIT_PATHS_windows.bat",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/run_offline_interpreter_gui_windows.bat",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/run_offline_interpreter_gui_windows.bat",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_decoder_gate_availability_module_v1_5_6.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_decoder_gate_availability_module_v1_5_6.py",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_mred_peak_resolution_module_v1_5_5.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_mred_peak_resolution_module_v1_5_5.py",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_offline_interpretive_report_generator_v1_5_6.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_offline_interpretive_report_generator_v1_5_6.py",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_offline_interpretive_report_gui_v1_5_6.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/scripts/praycg_offline_interpretive_report_gui_v1_5_6.py",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/templates/offline_interpretation_reporter_config_template.json",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/761a2b820403afd0a7fa7976711bcb740ccb82d7/software/03_Individual%20Files/07_Offline_data_interpreter/PRAYCG_Offline_Master_Interpreter_v1_5_6/PRAYCG_Offline_Master_Interpreter_v1_5_6/templates/offline_interpretation_reporter_config_template.json",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/CHANGELOG.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/CHANGELOG.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/ANALYSIS_FORGE_ALPHA_10_5_2.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/CHANGELOG.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/CHANGELOG.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/INSTALL_AND_WORKFLOW_ALPHA_10_5_2.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/INSTALL_AND_WORKFLOW_ALPHA_10_5_2.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/README.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.2/workbench/docs/releases/alpha-10.5.2/README.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/CHANGELOG.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/CHANGELOG.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/docs/releases/alpha-10.5.3/INSTALL_AND_WORKFLOW_ALPHA_10_5_3.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/docs/releases/alpha-10.5.3/INSTALL_AND_WORKFLOW_ALPHA_10_5_3.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/docs/releases/alpha-10.5.3/README.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/docs/releases/alpha-10.5.3/README.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/docs/releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.3/workbench/docs/releases/alpha-10.5.3/VISUAL_ANALYSIS_ALPHA_10_5_3.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/CHANGELOG.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/CHANGELOG.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/docs/releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/docs/releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/docs/releases/alpha-10.5.4/README.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/docs/releases/alpha-10.5.4/README.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/docs/releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_A10.5.4/workbench/docs/releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/CITATIONS_AND_ATTRIBUTION.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/CITATIONS_AND_ATTRIBUTION.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/docs/updates/2026-10-14-public-workflow-release.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/docs/updates/2026-10-14-public-workflow-release.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/hardware-support.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/hardware-support.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/installation.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/installation.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/SOURCE_MANIFEST.json",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/SOURCE_MANIFEST.json",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/package/BUILD_REPORT.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/package/BUILD_REPORT.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/package/app/deployment/validation/ALPHA_11_2_2_BUILD.json",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/releases/alpha-11.2.2/package/app/deployment/validation/ALPHA_11_2_2_BUILD.json",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/workflow.md",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/blob/PRAYCG_Workbench_Public_A11.2.2/workbench/docs/workflow.md",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1338880558/70ba9b82-7621-475b-a56d-b779ed73ea91?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-26T02%3A30%3A08Z&rscd=attachment%3B+filename%3DPRAYCG_Workbench_Alpha_10_5_4.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-26T01%3A30%3A02Z&ske=2026-10-26T02%3A30%3A08Z&sks=b&skv=2018-11-09&sig=R7ziF6x6K4t4%2FTDIxdPQ7NQl434KIKjF5FydTTYsHPg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5Mjk4MDYwOCwibmJmIjoxNzkyOTc4ODA4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.y6SV4Om5KI1JapxKnKsmOcwlP7gT9B2FV6yr_f4FpmY&response-content-disposition=attachment%3B%20filename%3DPRAYCG_Workbench_Alpha_10_5_4.zip&response-content-type=application%2Foctet-stream",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.2.2/PRAYCG_Workbench_Public_Alpha_11_2_2.zip",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1338880558/c33cebaa-c2a4-4b5a-a0e1-7fcafb3003c1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-27T02%3A55%3A03Z&rscd=attachment%3B+filename%3DPRAYCG_Workbench_Public_Alpha_11_2_2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-27T01%3A54%3A46Z&ske=2026-10-27T02%3A55%3A03Z&sks=b&skv=2018-11-09&sig=5TnqfvWFv9AnNFu9kN2Mn7NcERzkJE0fcQISB3O54KM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzA2ODE0NywibmJmIjoxNzkzMDY2MzQ3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.NT5wdHwFKPTiuXQnIJJ0AdlMkbiFV45M81X3HeGPloU&response-content-disposition=attachment%3B%20filename%3DPRAYCG_Workbench_Public_Alpha_11_2_2.zip&response-content-type=application%2Foctet-stream",
+        "checked_at_utc": "2026-10-27T01:59:08.805880+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.9.2/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1338880558/0ea4374f-3d98-4861-b5d7-fef770db6989?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-27T02%3A58%3A14Z&rscd=attachment%3B+filename%3DPRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-27T01%3A57%3A21Z&ske=2026-10-27T02%3A58%3A14Z&sks=b&skv=2018-11-09&sig=iOEt8es%2FLLBmQEb06%2FjAOfqCo0TaqXg1GZsDyEO%2BQlU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzA2OTk0NywibmJmIjoxNzkzMDY2MzQ3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8Zif-2ck45VorcGd1ZD_RA5uocK7tLReKwABbkeWn1U&response-content-disposition=attachment%3B%20filename%3DPRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip&response-content-type=application%2Foctet-stream",
+        "checked_at_utc": "2026-10-27T01:59:08.964088+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.9.2/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1338880558/07e69166-bde4-460a-a795-257f867274e9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-27T02%3A57%3A59Z&rscd=attachment%3B+filename%3DPRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-27T01%3A57%3A17Z&ske=2026-10-27T02%3A57%3A59Z&sks=b&skv=2018-11-09&sig=T0dXCzFVGGeL8ohL%2FfMuPIzD5Qr0TMiR3BFvh7VS3%2Fc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzA2OTk0NywibmJmIjoxNzkzMDY2MzQ3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8Zif-2ck45VorcGd1ZD_RA5uocK7tLReKwABbkeWn1U&response-content-disposition=attachment%3B%20filename%3DPRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip&response-content-type=application%2Foctet-stream",
+        "checked_at_utc": "2026-10-27T01:59:08.984748+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.0",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.0",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.10",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.10",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.6",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.6",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.8",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.4.8",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.2",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.3",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_A10.5.4",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.2.2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.2.2",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.0",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.0",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/hynchl/lsl-gp3/blob/9bd790d98fc0d9e6256a58cd4d326bd5ebc926d9/gp3-to-lsl.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hynchl/lsl-gp3/blob/9bd790d98fc0d9e6256a58cd4d326bd5ebc926d9/gp3-to-lsl.py",
+        "checked_at_utc": "2026-10-27T01:59:09.175783+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/hynchl/lsl-gp3/tree/9bd790d98fc0d9e6256a58cd4d326bd5ebc926d9",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/hynchl/lsl-gp3/tree/9bd790d98fc0d9e6256a58cd4d326bd5ebc926d9",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/jackz314/eeglabio",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/jackz314/eeglabio",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/kolascoco/eeg-tfr-volume",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/kolascoco/eeg-tfr-volume",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/kolascoco/eeg-tfr-volume/tree/93b970d7a085b9d9967c0184e0d688adab1cfd13",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/kolascoco/eeg-tfr-volume/tree/93b970d7a085b9d9967c0184e0d688adab1cfd13",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/labstreaminglayer/App-LabRecorder",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/labstreaminglayer/App-LabRecorder",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/labstreaminglayer/App-LabRecorder/tree/6ee154d3b4213b9c400e8233f023b30284c167ed",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/labstreaminglayer/App-LabRecorder/tree/6ee154d3b4213b9c400e8233f023b30284c167ed",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/labstreaminglayer/App-PupilLabs/tree/37dedd64c6a7691f9d8d3900f46d9b89f8e35e7e",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/labstreaminglayer/App-PupilLabs/tree/37dedd64c6a7691f9d8d3900f46d9b89f8e35e7e",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/labstreaminglayer/App-PupilLabs/tree/37dedd64c6a7691f9d8d3900f46d9b89f8e35e7e/pupil_capture",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/labstreaminglayer/App-PupilLabs/tree/37dedd64c6a7691f9d8d3900f46d9b89f8e35e7e/pupil_capture",
+        "checked_at_utc": "2026-10-27T01:59:09.306415+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://github.com/labstreaminglayer/pylsl/blob/main/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/labstreaminglayer/pylsl/blob/main/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/lucklab/ERP_CORE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/lucklab/ERP_CORE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/mne-rt-org/mne-rt",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/mne-rt-org/mne-rt",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/mne-rt-org/mne-rt/blob/main/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/mne-rt-org/mne-rt/blob/main/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/mne-tools/mne-bids/blob/main/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/mne-tools/mne-bids/blob/main/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/mne-tools/mne-denoise",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/mne-tools/mne-denoise",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/mne-tools/mne-icalabel",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/mne-tools/mne-icalabel",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/mne-tools/mne-lsl/blob/main/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/mne-tools/mne-lsl/blob/main/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/numpy/numpy/blob/main/LICENSE.txt",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/numpy/numpy/blob/main/LICENSE.txt",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/polarofficial/polar-ble-sdk/tree/a693e9e944c9bc925addbdd8cf07fb9b28748bf7",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/polarofficial/polar-ble-sdk/tree/a693e9e944c9bc925addbdd8cf07fb9b28748bf7",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/programmatix/Neurosity-Crown-LSL/tree/521bd20003dad2adae3d31fc548c28c58693a2c9",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/programmatix/Neurosity-Crown-LSL/tree/521bd20003dad2adae3d31fc548c28c58693a2c9",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/qt/qtbase/tree/v6.8.3",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/qt/qtbase/tree/v6.8.3",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/raphaelvallat/antropy/blob/dfbe688744021eb79c4745ceb02a1efc7cd3fbd8/src/antropy/entropy.py",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/sccn/labstreaminglayer",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/sccn/labstreaminglayer",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/sccn/liblsl/blob/main/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/sccn/liblsl/blob/main/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/sccn/liblsl/tree/v1.17.7",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/sccn/liblsl/tree/v1.17.7",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/scipy/scipy/blob/main/LICENSE.txt",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/scipy/scipy/blob/main/LICENSE.txt",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/shakimiansky/Shared_brainflow-cerelog/tree/932b3944bfe6c0f4e29a46b4a34afdeba39edd85",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/shakimiansky/Shared_brainflow-cerelog/tree/932b3944bfe6c0f4e29a46b4a34afdeba39edd85",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/snastase/narratives",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/snastase/narratives",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/torcheeg/torcheeg",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/torcheeg/torcheeg",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/usmanqamarshaikh/SPAR-EEG",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/usmanqamarshaikh/SPAR-EEG",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/usmanqamarshaikh/SPAR-EEG/tree/7990bf1211c68fbf885749607939ae88fc208577",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/usmanqamarshaikh/SPAR-EEG/tree/7990bf1211c68fbf885749607939ae88fc208577",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/xdf-modules/pyxdf",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/xdf-modules/pyxdf",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://github.com/xdf-modules/pyxdf/blob/main/LICENSE",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://github.com/xdf-modules/pyxdf/blob/main/LICENSE",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://gitlab.inria.fr/openvibe/extras",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://gitlab.inria.fr/openvibe/extras",
+        "checked_at_utc": "2026-10-27T01:59:09.445457+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://gitlab.inria.fr/openvibe/sdk",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://gitlab.inria.fr/openvibe/sdk",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://huggingface.co/Zyphra/ZUNA1.1/tree/10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://huggingface.co/Zyphra/ZUNA1.1/tree/10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://joss.theoj.org/papers/10.21105/joss.04484",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.04484",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://joss.theoj.org/papers/10.21105/joss.04564",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://joss.theoj.org/papers/10.21105/joss.04564",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://labstreaminglayer.readthedocs.io/info/time_synchronization.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://labstreaminglayer.readthedocs.io/info/time_synchronization.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/1.10/generated/mne.io.Raw.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/1.10/generated/mne.io.Raw.html",
+        "checked_at_utc": "2026-10-27T01:59:09.434172+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://mne.tools/1.11/generated/mne.io.read_raw_eeglab.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/1.11/generated/mne.io.read_raw_eeglab.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/mne-bids/stable/index.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/mne-bids/stable/index.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/mne-denoise/stable/generated/mne_denoise.spectrum_interpolation.SpectrumInterpolation.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/mne-denoise/stable/generated/mne_denoise.spectrum_interpolation.SpectrumInterpolation.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/mne-denoise/stable/generated/mne_denoise.zapline.ZapLine.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/mne-denoise/stable/generated/mne_denoise.zapline.ZapLine.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/mne-lsl/stable/index.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/mne-lsl/stable/index.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/stable/auto_tutorials/preprocessing/70_fnirs_processing.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/stable/auto_tutorials/preprocessing/70_fnirs_processing.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/stable/documentation/cite.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/stable/documentation/cite.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/stable/generated/mne.io.Raw.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/stable/generated/mne.io.Raw.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://mne.tools/stable/generated/mne.preprocessing.nirs.beer_lambert_law.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://mne.tools/stable/generated/mne.preprocessing.nirs.beer_lambert_law.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://musehealth.ai/pages/platform-data",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://musehealth.ai/pages/platform-data",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/cite_us.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/cite_us.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/functions/ecg.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/functions/ecg.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/functions/eda.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/functions/eda.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/functions/hrv.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/functions/hrv.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/functions/ppg.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/functions/ppg.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/functions/rsp.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/functions/rsp.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://neuropsychology.github.io/NeuroKit/functions/signal.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://neuropsychology.github.io/NeuroKit/functions/signal.html",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://numpy.org/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://numpy.org/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://numpy.org/citing-numpy/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://numpy.org/citing-numpy/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+        "status": "ACCESS_OR_RATE_LIMIT_UNVERIFIED",
+        "http_status": 403,
+        "method": "GET",
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050",
+        "checked_at_utc": "2026-10-27T01:59:09.063878+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": false,
+        "references": [
+          {
+            "source": "CITATIONS_AND_ATTRIBUTION.md",
+            "line": 478,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.2.2/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 331,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/attribution/alpha-11.4.1/package/app/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 333,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "docs/project-history/original-root/CITATIONS_AND_ATTRIBUTION.md",
+            "line": 329,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "workbench/docs/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1612,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          },
+          {
+            "source": "workbench/releases/alpha-10.2.1/PROTOCOL_CITATIONS.md",
+            "line": 1612,
+            "target": "https://onlinelibrary.wiley.com/doi/10.1111/cogs.70050"
+          }
+        ]
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds001787/versions/1.1.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds001787/versions/1.1.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds002345/versions/1.1.4",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds002345/versions/1.1.4",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds003626/versions/1.0.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds003626/versions/1.0.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds003816/versions/1.0.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds003816/versions/1.0.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds003969/versions/1.0.0",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds003969/versions/1.0.0",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds005551",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds005551",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds005551/versions/1.0.4",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds005551/versions/1.0.4",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds008257",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds008257",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://openneuro.org/datasets/ds008257/versions/1.0.1",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://openneuro.org/datasets/ds008257/versions/1.0.1",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://opensource.org/license/bsd-3-clause",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://opensource.org/license/bsd-3-clause",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://opensource.org/license/mit",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://opensource.org/license/mit",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://osf.io/8n75v/overview?view_only=928f1fa1974b40e89252101d0ba356d3",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://osf.io/8n75v/overview?view_only=928f1fa1974b40e89252101d0ba356d3",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://osf.io/s2h5x/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://osf.io/s2h5x/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://physionet.org/content/eegmmidb/1.0.0/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17574912/",
+        "status": "PASS",
+        "http_status": 203,
+        "method": "HEAD",
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/17574912/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18466752/",
+        "status": "PASS",
+        "http_status": 203,
+        "method": "HEAD",
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/18466752/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31103785/",
+        "status": "PASS",
+        "http_status": 203,
+        "method": "HEAD",
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/31103785/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3237772/",
+        "status": "PASS",
+        "http_status": 203,
+        "method": "HEAD",
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/3237772/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7622149/",
+        "status": "PASS",
+        "http_status": 203,
+        "method": "HEAD",
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/7622149/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8598068/",
+        "status": "PASS",
+        "http_status": 203,
+        "method": "HEAD",
+        "final_url": "https://pubmed.ncbi.nlm.nih.gov/8598068/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pycrostates.readthedocs.io/en/stable/api/generated/pycrostates.cluster.ModKMeans.html",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pycrostates.readthedocs.io/en/stable/api/generated/pycrostates.cluster.ModKMeans.html",
+        "checked_at_utc": "2026-10-27T01:59:09.177900+00:00",
+        "reused_prior_success": false,
+        "new_in_this_update": true
+      },
+      {
+        "url": "https://pyjwt.readthedocs.io/en/stable/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pyjwt.readthedocs.io/en/stable/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/bleak/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/bleak/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/brainflow/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/brainflow/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/decorator/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/decorator/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/godirect/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/godirect/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/imageio-ffmpeg/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/imageio-ffmpeg/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/imageio/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/imageio/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/matplotlib/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/matplotlib/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/mne-bids/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/mne-bids/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/mne/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/mne/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/moviepy/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/moviepy/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/numpy/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/numpy/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/opencv-python/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/opencv-python/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/openpyxl/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/openpyxl/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pandas/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pandas/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pillow/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pillow/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/proglog/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/proglog/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pybv/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pybv/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pylsl/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pylsl/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pyserial/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pyserial/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pytest/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pytest/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pyxdf/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pyxdf/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/pyyaml/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/pyyaml/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/requests/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/requests/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/scenedetect/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/scenedetect/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/scikit-learn/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/scikit-learn/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/scipy/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/scipy/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/setuptools/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/setuptools/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/tabulate/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/tabulate/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pypi.org/project/tqdm/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pypi.org/project/tqdm/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pytorch.org/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pytorch.org/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://pywavelets.readthedocs.io/en/latest/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://pywavelets.readthedocs.io/en/latest/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/mne-tools/mne-python/v1.10.2/LICENSE.txt",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://raw.githubusercontent.com/mne-tools/mne-python/v1.10.2/LICENSE.txt",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://scipy.org/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://scipy.org/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://scipy.org/citing-scipy/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://scipy.org/citing-scipy/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.gazept.com/dl/Gazepoint_API_v2.0.pdf",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.gazept.com/dl/Gazepoint_API_v2.0.pdf",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.nature.com/articles/s41597-022-01147-2",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/s41597-022-01147-2?error=cookies_not_supported&code=1c3affd5-c466-47fd-b1a1-7732e13b8d19",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.nature.com/articles/s41597-023-02458-8",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/s41597-023-02458-8?error=cookies_not_supported&code=7b4d2170-cd5e-43c7-b34a-d98939ab0278",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.nature.com/articles/sdata201740",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nature.com/articles/sdata201740?error=cookies_not_supported&code=c2b01c70-e892-4409-9720-3f0a954b0f7c",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.nemar.org/dataset/nm000153",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.nemar.org/dataset/nm000153",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.python.org/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.python.org/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.tcl-lang.org/",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.tcl-lang.org/",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      },
+      {
+        "url": "https://www.zyphra.com/our-work/zuna",
+        "status": "PASS",
+        "http_status": 200,
+        "method": "HEAD",
+        "final_url": "https://www.zyphra.com/our-work/zuna",
+        "original_check_date": "2026-10-25",
+        "reused_prior_success": true,
+        "new_in_this_update": false
+      }
+    ],
+    "limits": "HTTP reachability only. 255 successful checks from the prior audit are reused and labeled. All 19 new URLs and all 15 previously unresolved URLs were checked again. Fourteen URLs remain access/rate-limit unverified and one remains network unverified; these are not confirmed missing pages. External anchors, access permissions and page contents are not certified."
+  },
+  "parser_scope": "Prior audit_links.py Markdown inline/reference/autolink/GFM URL and HTML href/src parser; code excluded. Every repository target checked against exact tree/plan, Markdown heading anchors approximated; external fragments, binary/archived document internals and scientific contents are outside this audit.",
+  "excluded_content": "Links inside PDFs, Word documents, ZIP members, other binaries and executable source are not parsed. This audit does not validate scientific claims, permissions or experimental outcomes."
+}
