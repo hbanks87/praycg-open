@@ -4,6 +4,10 @@ The current Public Alpha 11.9.2 application source is inside the named Workbench
 
 Extract the complete package into a new local development folder. Its `app/` directory contains the Control Center, tools, configuration, documentation and deployment resources. Keep the public launchers beside that directory, and follow the [installation guide](../docs/installation.md). `START.bat` and `START_PRAYCG.bat` are supported entry points. Core, Live Monitor and Hardware Connectors use separate release-local environments; optional Zuna is installed separately.
 
+## Publish stimulus companions
+
+Follow the [public stimulus release policy](../../docs/release-history/stimulus-companions.md). The release workflow attaches the verified seven-film and original Lantern packs, with their manifests and checksums, to published public Workbench releases. A release created using another workflow's `GITHUB_TOKEN` must explicitly invoke or dispatch the helper as described there. Verify the six attachments before treating release publication as complete.
+
 ## Preserve the starting point
 
 Record the ZIP's filename and SHA-256 before development. Keep the original archive unchanged, and give modified builds their own identities. Keep releases in separate folders and study recordings in separate data locations.
