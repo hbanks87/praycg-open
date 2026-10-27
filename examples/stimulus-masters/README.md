@@ -8,6 +8,15 @@ These are the existing standardized screening masters: 1920×1080 padded, 24 fps
 
 The [metadata catalog](catalog.json) records all eleven original filenames, sizes, full SHA-256 hashes, source URLs, recorded rights statements and companion identities. It contains no film payloads or personal filesystem paths.
 
+## Download the public packs
+
+The [current Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) now carries both optional packs and each matching manifest/checksum:
+
+- [Seven original film masters](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.9.2/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip).
+- [Original Lantern Bridge installer pack](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.9.2/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip).
+
+Use the matching manifest and checksum from the release Assets. The installed Workbench continues to use the verified 11.2.2 source URLs; the added 11.9.2 attachments contain identical bytes. The [release companion workflow](../../docs/release-history/stimulus-companions.md) carries these six files with future published public Workbench releases and supports filling an existing release. It does not include the four editions whose redistribution remains unresolved.
+
 ## Prepared companions
 
 | Companion | Contents | Current status |
