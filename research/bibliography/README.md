@@ -1,20 +1,40 @@
 # Research bibliography and software credits
 
-**Current supplement: Public Alpha 11.4.1, reviewed 18 October 2026.**
+**Current release review: Public Alpha 11.9.2, reviewed 26 October 2026.**
 
-The current section below corrects optical citation metadata and identifies later NeuroKit2 and EEG comparison routes. The retained 11.2.1 source-review section keeps its original scope; its statements about absent routes describe that earlier package.
+The 11.9.2 section identifies the current citation scope. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
 
 The historical [Public Alpha 11.2.2 supplement](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-1122-release-supplement) carries these references forward where the actual code uses them and identifies the new workflow/rating-credit changes. The retained section preserves its 11.2.1 source-review scope; later additions do not turn it into a second independent source audit.
 
 This index connects PRAYCG's current integration code to upstream software and scientific methods. It supplements the [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md), [historical reviewed estimators](../../docs/attribution/ANALYSIS_METHODS.md) and bibliographies retained within original research documents. It does not rewrite those originals or establish that every listed method ran in a study.
 
-[Research entrance](../README.md) · [Concept definitions](../concepts/README.md) · [Implementation map](../algorithms/README.md) · [Exact notices and review evidence](../../docs/attribution/alpha-11.2.1/README.md)
+[Research entrance](../README.md) · [Concept definitions](../concepts/README.md) · [Implementation map](../algorithms/README.md) · [Attribution guide and versioned evidence](../../docs/attribution/README.md)
 
 ## Cite the work actually used
 
 A study should identify its PRAYCG release and protocol revision, actual software versions, selected algorithms and parameters, and the outputs that support its conclusions. Cite both an upstream implementation and its method paper where appropriate. An installed dependency, a candidate transform, a failed attempt and an adopted analysis are different facts. Retain applicable licenses as well as scholarly citations.
 
 The code paths in the retained 11.2.1 section below are relative to `app/` inside that inspected archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
+
+## Public Alpha 11.9.2 citation scope
+
+The current [attribution guide](../../docs/attribution/README.md) records a focused check of the exact 11.9.2 archive. Its Core requirements still name NeuroKit2 0.2.13, PyWavelets 1.9.0 and mne-denoise 0.0.3. The optional Signal Extras requirements name ASRpy 0.0.8, MNE-ICALabel 0.10.0, Pycrostates 0.6.1 and eeglabio 0.1.2. Preserve the actual installed versions in each study; the Core MNE requirement is a range, whereas Signal Extras declares MNE 1.11.0.
+
+| Operation used | References and implementation identity |
+| --- | --- |
+| NeuroKit2 ECG, respiration, PPG, EDA, HRV or paired ECG/respiration RSA comparison | Retain S1 and the applicable original-method references from the [expanded correction guide](../../docs/attribution/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md). The [official NeuroKit citation](https://neuropsychology.github.io/NeuroKit/cite_us.html) remains Makowski and colleagues (2021). Record the selected API/algorithm; native PRAYCG phase/RR association remains separate. |
+| Import an EEGLAB `.set` recording | Identify MNE's [`read_raw_eeglab`](https://mne.tools/1.11/generated/mne.io.read_raw_eeglab.html), the actual MNE version and any EEGLAB operations independently used to prepare the data. Retain E1 where applicable. Importing a format does not execute the complete MATLAB toolbox. |
+| Use eeglabio export or test support | Credit the actual I/O software (E2 below) and preserve its notice. Its declared presence alone does not establish execution. |
+| ASR or ICLabel comparison | Retain ASRpy (S7) or both MNE-ICALabel and the ICLabel model (S4), with the actual implementation and settings. The [official EEGLAB guidance](https://eeglab.org/others/EEGLAB_References.html) distinguishes its toolbox and plugin references. |
+| Pycrostates modified k-means comparison | Credit Pycrostates (S5) and the original modified k-means method (M8 below). Record fit/evaluation sample ranges, seed and selected parameters. |
+| Native optical relative-hemoglobin calculation | Retain O1 and O2 with the instrument-specific recipe. The corrected optical registry entry remains unchanged from 11.4.1; MNE's tutorial remains context, not evidence of an MNE conversion call. |
+| Protocol-evidence analysis | The 11.9.2 registry marks `protocol_evidence_v1_0` as `MODULE_REGISTERED_METHOD_LEVEL_ATTRIBUTION_REVIEW_PENDING`. Retain the locked protocol sources and per-result method descriptions; review citations manually before publication. |
+
+**E2 — eeglabio.** eeglabio contributors. *eeglabio: I/O support for EEGLAB files in Python* [Computer software]. [Official repository and usage](https://github.com/jackz314/eeglabio). The 11.9.2 optional requirement is 0.1.2; retain the BSD-3-Clause notice and actual installed version. This software credit was already present in the expanded 11.4.1 guide and is now directly discoverable here. No separate scholarly DOI is asserted.
+
+**M8 — Modified k-means microstates.** Pascual-Marqui, R. D., Michel, C. M., & Lehmann, D. (1995). *Segmentation of brain electrical activity into microstates: model estimation and validation.* IEEE Transactions on Biomedical Engineering, 42(7), 658–665. [DOI](https://doi.org/10.1109/10.391164) · [Official Pycrostates method reference](https://pycrostates.readthedocs.io/en/stable/api/generated/pycrostates.cluster.ModKMeans.html). Cite the software implementation as well as this method lineage. The reference was already preserved in the expanded 11.4.1 guide; adding it here does not assert a new method or validation.
+
+The complete 11.4.1 correction guide is distributed separately alongside the 11.9.2 release and remains available in the repository. The following historical integration section retains its original heading and links. No new scientific paper, attribution change to an original manuscript, or retrospective executed-method credit is inferred merely from the later software release.
 
 ## Public Alpha 11.4.1 current integration
 
