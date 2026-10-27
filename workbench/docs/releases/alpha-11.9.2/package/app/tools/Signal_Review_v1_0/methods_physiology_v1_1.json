@@ -1,0 +1,67 @@
+{
+  "schema": "PRAYCG_PhysiologyMethodInventory_v1",
+  "version": "1.2.0-alpha11.4.0",
+  "inventory_is_not_execution_evidence": true,
+  "software_ownership": "PRAYCG implementation and policy adapters are separate from upstream NeuroKit2 and SciPy. Existing upstream license notices remain applicable; this inventory grants no upstream rights.",
+  "dependencies": [
+    {"name": "numpy", "role": "array calculations; actual runtime version must be recorded"},
+    {"name": "scipy", "role": "segmented Butterworth/Hilbert and peak finding; actual runtime version must be recorded"},
+    {"name": "neurokit2", "version": "0.2.13", "role": "optional installed worker, not code copied into this module", "license": "MIT", "citation": "Makowski et al. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing.", "url": "https://doi.org/10.3758/s13428-020-01516-y"}
+  ],
+  "implemented_measures": [
+    {
+      "id": "original_adjacent_interval_metrics_v1",
+      "definition": "Mean and sample SD of accepted original intervals; RMSSD is sqrt(mean((RR[i]-RR[i-1])^2)) only on original neighboring accepted pairs within the same segment. Entire intervals must lie in requested windows. Sampled HR is never inverted to create a beat series.",
+      "normal_beat_certification": false,
+      "legacy_migration": "New Master Sync raw-XDF calculations now use the shared ledger. Existing render artifacts and reports are never rewritten. audit_hr_fallback.py remains available for historical inspection."
+    },
+    {
+      "id": "measured_respiration_first_harmonic_v1",
+      "definition": "OLS RR_ms = intercept + a*sin(measured_phase) + b*cos(measured_phase); reported semiamplitude sqrt(a*a+b*b). Same-clock overlap alone is insufficient: explicit reviewed participant/source/channel pairing and documented timing uncertainty within a declared tolerance are required.",
+      "boundary": "Exploratory measured-breathing coupling, not NeuroKit RSA or a specific vagal-tone endpoint."
+    },
+    {
+      "id": "neurokit_measured_rsa_comparison_v1",
+      "definition": "Optional NeuroKit2 hrv_rsa on 60-second common uninterrupted ECG/respiration windows. ECG detection is uncorrected; invalid original intervals reject a window instead of being removed and joined. Measured respiration is interpolated within that common segment onto the ECG grid. P2T, Porges-Bohrer and Gates retain their separate definitions and units.",
+      "url": "https://neuropsychology.github.io/NeuroKit/functions/hrv.html#neurokit2.hrv_rsa",
+      "clinical_or_physiological_validation": "Not established by synthetic workflow tests."
+    },
+    {
+      "id": "reviewed_beat_comparison_v1",
+      "definition": "One-to-one ordered earliest-feasible matching within a frozen tolerance; report missed and extra detections and signed/absolute timing error. Requires reviewer identity and reference-file SHA-256.",
+      "limitation": "The software cannot certify the supplied reference as independent or correct. Representative clean and difficult Polar recordings still require independently reviewed beats."
+    },
+    {
+      "id": "interval_domain_comparison_v1",
+      "definition": "Poincare sample dispersion in coordinates (RR[i]+RR[i-1])/sqrt(2) and (RR[i]-RR[i-1])/sqrt(2) from original accepted pairs. PRAYCG review policy requires 120 continuous seconds and 100 pairs. Optional NeuroKit2 Welch LF/HF requires 300 continuous accepted seconds, 4 Hz within-run interval interpolation and normalize=False. VLF/ULF results are omitted.",
+      "url": "https://neuropsychology.github.io/NeuroKit/functions/hrv.html",
+      "limitation": "These support thresholds are declared Workbench review policy, not universal scientific validity criteria. LF/HF is not presented as established sympathovagal balance. Poincare dispersion is not proof of nonlinear dynamics."
+    },
+    {
+      "id": "ppg_prv_elgendi_v1",
+      "definition": "NeuroKit2 ppg_process with elgendi cleaning/peaks and templatematch quality on each finite continuous segment. Default template-similarity floor 0.5 and two-second edge exclusion. An interval requires both pulse endpoints and intervening waveform to pass. Original pulse adjacency is preserved.",
+      "url": "https://neuropsychology.github.io/NeuroKit/functions/ppg.html",
+      "limitation": "Pulse-rate variability is not ECG HRV. Similarity screening is not a validated pulse-quality truth classifier. Requires at least 25 Hz and 20 continuous seconds under this worker policy."
+    },
+    {
+      "id": "eda_neurokit_highpass_v1",
+      "definition": "NeuroKit2 eda_process(method=neurokit), including high-pass tonic/phasic decomposition and SCR detector, on measured conductance converted explicitly to microsiemens. At least 10 Hz and 30 continuous seconds; two-second event edge exclusion.",
+      "url": "https://neuropsychology.github.io/NeuroKit/functions/eda.html",
+      "limitation": "Not cvxEDA, inferred emotion, or evidence that a particular stimulus caused a response."
+    },
+    {
+      "id": "reference_activity_overlay_v1",
+      "definition": "EOG 0.3-10 Hz absolute robust-z transients; EMG 20-min(100,0.45*fs) Hz, 100 ms RMS robust-z bursts; motion derivative robust-z transients. Default threshold 6, minimum candidate duration 20 ms, one-second edge exclusion. Separate finite segments and explicit EOG/EMG/motion types are required.",
+      "limitation": "PRAYCG heuristic candidates, not validated blink/jaw/movement labels. Genuine reference activity does not itself prove EEG contamination. No EEG subtraction is applied."
+    },
+    {
+      "id": "praycg_event_locked_autonomic_v2",
+      "definition": "Frozen nonoverlapping baseline/response windows around source-linked independent anchors in the explicitly documented signal clock. Report sampled HR, original-pair RMSSD and valid measured respiration rates, support unions and response-minus-baseline. Sample support requires retained original neighboring endpoints; no gap compression or final-sample extrapolation. RR events require declared interval-end timestamp semantics; a notification clock is not silently turned into beat time. Whole-segment filtering availability and declared edge guards are preserved.",
+      "support_policy": {"schema": "PRAYCG_EventSupportPolicy_v1", "version": "1.0.0", "minimum_window_seconds": 10, "minimum_usable_fraction": 0.8, "maximum_unsupported_gap_seconds": 3, "maximum_sample_step_seconds": 2, "sample_step_multiple": 3, "minimum_samples": 2, "minimum_intervals": 2, "minimum_original_pairs": 10},
+      "limitation": "These configurable thresholds are operational review choices, not physiological validation, universal minimum durations or protocol preflight gates. Default windows remain [-30,0] and [0,30] seconds. Clock uncertainty and computational delay are not inferred. Descriptive single-recording contrasts do not provide independent participant replication or causal effects. Historical v1 reports are unchanged."
+    }
+  ],
+  "annotation_semantics": "Every correction/retraction is a later immutable, source-bound version with reviewer, reason, previous version name/hash and original exclusion retained in the retraction record. Correct by retracting the old ID and adding a replacement. Explicit Signal Review worker selections pin both version path and SHA-256; reviewed candidates verify this lineage. No latest-version discovery or claim that all governed workers consume these annotations. Original recording and locked plan are not changed.",
+  "live_status": "These physiology comparison paths are offline. Every new derived trace records retrospective support and availability. Computational processing latency is unmeasured, not silently zero.",
+  "validation_boundary": "Unit tests and deterministic synthetic integrations establish software behavior, not scientific or medical validation. No independently reviewed human beats were fabricated, no real participant data were transmitted, and no upstream diagnostic claim is adopted."
+}

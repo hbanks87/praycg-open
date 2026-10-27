@@ -1,0 +1,103 @@
+{
+  "schema": "PRAYCG_method_record_1",
+  "revision": "SPAR_candidates_1.2.0",
+  "upstream": {
+    "name": "SPAR-EEG",
+    "authors": ["Usman Qamar Shaikh", "Anubha Manju Kalra", "Andrew Lowe", "Imran Khan Niazi"],
+    "repository": "https://github.com/usmanqamarshaikh/SPAR-EEG",
+    "revision": "7990bf1211c68fbf885749607939ae88fc208577",
+    "license": "MIT; third-party benchmarks expressly excluded",
+    "notice": "THIRD_PARTY_NOTICES/SPAR_EEG_LICENSE.txt",
+    "source_sha256": {
+      "LICENSE": "adf547050a3aa656a09f507b3403ec45fefa516427d290bdd0a500ed6f764d80",
+      "matlab/spar_eeg_adaptive.m": "418472d7feb4f1bd43d98090ed0c42f5b0124f61f95ee89b733bc3a4fa7f6dc4",
+      "matlab/spar_eeg_denoise.m": "6170ae11791da5b3a3328a89a10353ae05e5c66830c385a6745574f2bb3a7361",
+      "matlab/+burstdenoise/denoise_emg_vmd_window.m": "e2cd1348e42f3a8437317747b8f1296de187a801b00bef408e6ba0dde30878b2",
+      "matlab/+burstdenoise/denoise_eog_ssa_window.m": "28b841ad1ffc098c7ca9b2bed97a2c171c9277f6426a876f087afa8a5d9ea675",
+      "matlab/+burstdenoise/denoise_slow_ssa_window.m": "7c5cb68ebbcddc01c1bdcd7495627c582ddc1bad5bd3832fe4b2c3c7f6552946"
+    }
+  },
+  "methods": [
+    {
+      "id": "PRAYCG_SPAR_native_reference_candidate_1.0.0",
+      "label": "SPAR-style native reference candidate (equivalence unestablished)",
+      "mode": "completed-recording offline",
+      "defaults": {
+        "pass_order": ["emg", "eog", "slow"],
+        "normalization": "median absolute deviation + 1e-6; no centering",
+        "emg_vmd": {"modes": 8, "penalty": 1500, "max_iterations": 500, "upstream_initialization": "peaks", "native_initialization": "ranked real-FFT spectral peaks, then deterministic additional seeds"},
+        "emg_detection": {"minimum_center_hz": 15, "maximum_center_hz": 256, "z_threshold": 3, "dilation_seconds": 0.14},
+        "emg_treatment": {"minimum_center_hz": 5, "maximum_center_hz": 256, "minimum_attenuation": 0.01},
+        "ocular_ssa": {"embedding_seconds": 0.01, "minimum_embedding": 12, "maximum_fraction": 0.6, "mask_maximum_center_hz": 10, "z_threshold": 3, "dilation_seconds": 0.12, "minimum_attenuation": 0.05},
+        "burst_objective": "log((burst energy + 1e-12)/(baseline energy + 1e-12)) squared + 1e-3*(1-a)^2",
+        "gamma_gain": "1 - (1-a)*mask^min(1,0.9*a/(1-a+1e-12))",
+        "slow_ssa": {"embedding_seconds": 0.01, "minimum_embedding": 12, "maximum_fraction": 0.7, "candidate_maximum_center_hz": 3, "maximum_components": 2, "score_threshold": 0.5, "alpha_min": 0, "alpha_max": 1.2, "alpha_grid_points": 301},
+        "slow_objective_weights": {"relative_lf_ratio": 0.40, "relative_robust_peak_to_peak": 0.25, "relative_slope_rms": 0.10, "artifact_correlation": 0.10, "relative_change_rms": 0.05},
+        "adaptive_windows_seconds": [2, 4],
+        "first_window_when_multiple": "unchanged",
+        "vmd_residual": "discarded when attenuation is performed"
+      },
+      "numerical_equivalence": "UNESTABLISHED: no MATLAB outputs were obtained",
+      "differences": ["Independent VMD with zero dual step and relative-update tolerance 1e-7", "NumPy linear percentiles and SciPy optimizer may differ", "Common multichannel window boundaries from median per-channel scores", "Explicit finite/gap/irregularity splitting", "A reference-evidence veto is an optional PRAYCG modification, not the published method"],
+      "validation": "Synthetic preservation measurements only; reference parity and physiological validation remain open"
+    },
+    {
+      "id": "PRAYCG_SPAR_preservation_1.0.0",
+      "label": "Preservation-focused SPAR-style candidate",
+      "changes": ["Explicit VMD residual preserved", "Nonconverged VMD leaves EMG pass unchanged", "No special first-window bypass", "Burst correction bounded to detected common support and optional independent-reference support", "Correction tapered to zero at each block edge", "Exact unchanged samples outside support"],
+      "superiority_established": false,
+      "reference_and_preservation_pass_outputs": "original, after emg, after eog, after slow, removed, masks, strength",
+      "downstream_spatial_qualification": false
+    },
+    {
+      "id": "PRAYCG_SPAR_preservation_2.0.0",
+      "label": "Conservative SPAR-style candidate: evidence-gated slow subtraction",
+      "changes_from_v1": ["Historical reference and preservation_v1 remain available without changed numerical defaults", "Muscle and ocular passes retain preservation_v1 behavior and limitations", "Slow pass is unchanged unless reviewed, same-participant, timing-qualified independent motion evidence supports correction", "All supplied evidence in v2 requires the complete versioned review contract; a legacy pairing boolean is insufficient", "Missing evidence is an explicit unchanged result, not a clean-signal finding"],
+      "rationale": "The inspected clean slow-signal regression was substantially distorted by signal-only slow subtraction. Low-frequency dominance cannot by itself establish movement artifact. The new policy withholds this inference; it is not tuned to a desired neural result.",
+      "superiority_established": false,
+      "limitations": ["Independent motion evidence does not establish that every coincident EEG sample is artifact", "Known slow contamination remains when independent evidence is absent", "Muscle and ocular passes may still distort wanted activity", "New policy is offline-only, not enabled in the delayed replay prototype"],
+      "downstream_spatial_qualification": false,
+      "automatically_adopted": false
+    },
+    {
+      "id": "PRAYCG_SPAR_delayed_replay_1.0.0",
+      "label": "Delayed replay prototype, not live-acquisition-qualified",
+      "calibration": "First complete past window emitted unchanged; proxy median/MAD frozen until a gap",
+      "buffer": "One fixed window; partial tails emitted unchanged",
+      "delay": "Window-end availability recorded; each sample's buffer delay bounded by window duration",
+      "future_invariance": "Unit-tested append-only and input-chunk partition invariance",
+      "physical_acquisition_enabled": false
+    }
+  ],
+  "excluded_material": ["All upstream third-party benchmark implementations", "WQN", "MATLAB binaries and toolbox code"],
+  "correction_policy": {
+    "revision": "PRAYCG_SPAR_correction_policy_1.0.0",
+    "default": "hypothesis_only",
+    "hypothesis_only": "Historical numerical behavior retained as an experimental review candidate; signal-only detections remain hypotheses.",
+    "leave_unchanged": "Explicit no-operation control. Samples and timestamps remain unchanged, no artifact detector or decomposition runs, and no artifact-free claim is made.",
+    "independent_evidence_only": "Residual-preserving variants only. Missing reviewed sensor evidence leaves that pass unchanged. Supplied evidence must declare same participant, aligned timestamps, recorded source fingerprint, sensor type, method, reviewer, reason, timezone-aware review time, timing qualification, and matching typed mask/timestamp content digests.",
+    "evidence_authenticity": "Contract validation binds supplied arrays to declared provenance; it does not prove that the declarations or artifact interpretation are true.",
+    "mask_semantics": "True permits review of correction at that sample; false vetoes correction. Neither means demonstrated artifact or clean ground truth.",
+    "comparison": "Incremental pass changes and cumulative changes from the original are reported separately. A changed sample or removed signal is not proof of artifact removal.",
+    "automatic_adoption": false,
+    "delayed_replay": "Only the existing preservation_v1/hypothesis_only policy is supported. Offline unchanged controls and independent sensor-mask policy are rejected by the replay constructor; streaming independent-mask semantics have not been implemented."
+  },
+  "frozen_validation": {
+    "specification": "validation/SPAR_FROZEN_CONTROL_SPEC_v1.json",
+    "new_report": "validation/SPAR_FROZEN_PRESERVATION_BENCHMARK_v1.json",
+    "historical_report": "validation/SPAR_SYNTHETIC_PRESERVATION_BENCHMARK.json",
+    "historical_report_preserved": true,
+    "split": "Distinct fixed waveform parameters and artifact seeds for development and held-out synthetic cases. No method tuning or automatic selection. This is not independent real-data validation.",
+    "unavailable": ["Authentic pinned-upstream MATLAB exported fixtures", "Independently reviewed measured shielded clean control", "Arrival/Contact held-out ecological evaluation"],
+    "matlab_comparator": "Pass-level numerical agreement on a declared fixture does not authenticate that fixture or establish general equivalence. No new MATLAB fixture is shipped."
+  },
+  "dependencies": ["numpy", "scipy"],
+  "correctness_release_validation": {
+    "conservative_report": "validation/SPAR_CONSERVATIVE_POLICY_BENCHMARK_v1.json",
+    "split_policy": "All previously inspected frozen cases are regression cases in the new comparison. New synthetic cases are development cases, not untouched holdouts. Historical report bytes and labels are preserved as history.",
+    "matlab_intake": "spar_reference_review.py validates bounded inert JSON, the pinned declared source ledger and optionally actual checkout bytes before pass-specific comparison. Source identity does not authenticate exported outputs; no authentic fixture is shipped.",
+    "reviewed_control_enrollment": "validation_controls.py binds independently declared review labels to actual source-file hashes and records explicit uncertainty and review responsibility. No real-data labels were fabricated, no source scope or reviewer independence is inferred, and no eligibility is granted.",
+    "sustained_replay": "Bounded replay and cancellation tests qualify software behavior for their disclosed workloads only, not physical acquisition or neural preservation. The v2 policy remains offline-only."
+  },
+  "validation_limits": ["No independently reviewed Polar/EEG event labels were invented", "Measured shielded recordings require explicit enrollment and review", "Arrival/Contact remain held out", "Zuna is not a ground-truth target", "No gamma/theta or connectivity preservation claim follows from software tests"]
+}

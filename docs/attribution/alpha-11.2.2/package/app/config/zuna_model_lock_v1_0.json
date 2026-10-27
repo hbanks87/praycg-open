@@ -1,0 +1,26 @@
+{
+  "schema": "PRAYCG_ZunaModelLock_v1_0",
+  "model_id": "Zyphra/ZUNA1.1",
+  "model_revision": "10b9d6c8285ab808685f079f586bdafe3ad2c9a3",
+  "source_repository": "https://github.com/Zyphra/zuna",
+  "source_main_commit_observed": "c7b0195252e197bf0d1f9a0cebbb602ed0b69284",
+  "source_identity_note": "The installed wheel digest, not the separately observed main branch, defines executed source identity.",
+  "package_version": "1.1.6",
+  "wheel": {
+    "filename": "zuna-1.1.6-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/7e/e4/5e59fb0135fae52108beae61da68f216b97ae6142a5fcf28c77230c3f76c/zuna-1.1.6-py3-none-any.whl",
+    "sha256": "ce32703536cb347c55051d20b81250e70907ccf67eb4378b104311b9546214e2"
+  },
+  "files": {
+    "config.json": {"sha256": "5cbdcd12ab5e3298950836ed23e0eb1d2623ba349cab7baa9c1e08d54beb2de4", "size": 819},
+    "model-00001-of-00001.safetensors": {"sha256": "295fcddb42ab4623dc1346fba12176798d97ab95389c666907e32cbce23f7f33", "size": 1528504816},
+    "README.md": {"sha256": "936608df522da4a757fdd53c0f9007fda6cd1b39aa25c70e196cf411f34767c3", "size": 3666}
+  },
+  "runtime": {"python": "3.11", "torch": "2.14.0", "device_default": "cpu", "cpu_threads": 2, "precision": "float32", "sample_rate_hz": 256, "segment_samples": 1280, "sample_steps": 16, "cfg": 1.0, "seed": 20260924},
+  "normalization": "Per-window single mean and population standard deviation from retained channels only; scale to std 0.1; target tokens exactly zero. Apply inverse scalar transformation from retained channels only. No additional re-reference or filter.",
+  "upstream_pipeline_difference": "Uses the pinned low-level model sample API; deliberately does not use upstream per-channel normalization, automatic average reference, filtering, masking heuristics, or seam corrections. This is a PRAYCG experimental operationalization, not an exact reproduction of the published evaluation.",
+  "distribution": "OPTIONAL_UPSTREAM_INSTALL_ONLY_NOT_REDISTRIBUTED",
+  "license_metadata": "Apache-2.0",
+  "license_review_limitation": "The wheel includes Meta copyright headers and an Llama 2 notice in eeg_eval.py alongside project Apache-2.0 metadata. PRAYCG does not redistribute the wheel or weights, does not overwrite notices, and does not claim comprehensive upstream provenance clearance.",
+  "observed_utc": "2026-09-24"
+}

@@ -1,0 +1,823 @@
+{
+  "schema": "PRAYCG_AttributionRegistry_v1",
+  "revision": "1.0.0",
+  "migration": "ADDITIVE_NEW_EXECUTIONS_ONLY_NO_HISTORICAL_BACKFILL",
+  "modules": {
+    "run_integrity_timing_qc_v0_1": {
+      "methods": [],
+      "entry": "tools/Analysis_Orchestrator_v0_1/praycg_run_integrity_qc_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "praycg_external_stream_binding_v1_0",
+        "pyxdf",
+        "re",
+        "sys",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "atlas_meditation_vs_thinking_v0_1": {
+      "methods": [],
+      "entry": "tools/Atlas_Meditation_Analysis_v0_1/praycg_atlas_meditation_analysis_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "master_comprehensive_suite_v1_6_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "full_chained_analysis_v1_6_1": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "hocr_shotorder_v1_6_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "confound_expansion_v1_5_7": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "cai_sid_exploratory_v0_2": {
+      "methods": [],
+      "entry": "tools/CAI_SID_Exploratory_v0_2/scripts/praycg_cai_sid_managed_v0_2.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "importlib",
+        "json",
+        "math",
+        "numpy",
+        "pandas",
+        "pathlib",
+        "platform",
+        "sys",
+        "traceback",
+        "types",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "continuous_autonomic_respdualpath_v1_0": {
+      "methods": [],
+      "entry": "tools/Continuous_Autonomic_RespDualPath_v1_0/scripts/praycg_continuous_autonomic_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "threading",
+        "tkinter",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "micro_handoff_v0_1": {
+      "methods": [],
+      "entry": "tools/Micro_Handoff_v0_1/scripts/praycg_micro_handoff_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "json",
+        "micro_handoff_core_v0_1",
+        "pathlib",
+        "sys"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "cue_locked_gamma_forensics_v0_1": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "master_sync_visualizer_v1_4_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "offline_master_interpreter_v1_6_0": {
+      "methods": [],
+      "entry": "tools/Legacy_Analysis_Managed_v1_0/praycg_legacy_analysis_managed_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "csv",
+        "datetime",
+        "hashlib",
+        "html",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "praycg_analysis_input_manifest_v1_0",
+        "shutil",
+        "subprocess",
+        "sys",
+        "traceback",
+        "uuid"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "eeg_signal_quality_v0_1": {
+      "methods": [
+        "welch"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_preprocessing_derivative_v0_1": {
+      "methods": [],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_spectral_aperiodic_v0_1": {
+      "methods": [
+        "welch",
+        "aperiodic"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_erp_time_frequency_v0_1": {
+      "methods": [
+        "erp"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_connectivity_pac_v0_1": {
+      "methods": [
+        "connectivity",
+        "pac",
+        "bh"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_complexity_v0_1": {
+      "methods": [
+        "sample_entropy",
+        "permutation_entropy",
+        "lz",
+        "spectral_entropy"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_microstates_v0_1": {
+      "methods": [
+        "microstates"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_motor_imagery_v0_1": {
+      "methods": [
+        "csp",
+        "lda"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "eeg_sensor_rsa_v0_1": {
+      "methods": [
+        "rsa"
+      ],
+      "entry": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "pyxdf",
+        "scipy",
+        "sys",
+        "typing",
+        "zipfile"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "REVIEWED_SUBSET"
+    },
+    "torcheeg_research_sandbox_v0_1": {
+      "methods": [],
+      "entry": "tools/TorchEEG_Research_Sandbox_v0_1/praycg_torcheeg_research_sandbox_v0_1.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "importlib",
+        "json",
+        "pathlib",
+        "re",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    },
+    "atlas_research_analysis_v1_0": {
+      "methods": [],
+      "entry": "tools/Atlas_Research_Analysis_v1_0/scripts/praycg_atlas_research_analysis_v1_0.py",
+      "declared_import_roots": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib",
+        "statistics",
+        "typing"
+      ],
+      "declaration_boundary": "Static candidates, not executed dependencies; runtime versions are observed separately.",
+      "method_coverage": "METHOD_REVIEW_PENDING"
+    }
+  },
+  "methods": {
+    "welch": {
+      "name": "Welch PSD",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_quality_scope",
+        "run_spectral",
+        "_spectral_entropy"
+      ],
+      "definition": "SciPy Welch PSD: average of segment periodograms; parameters come from the module configuration and installed SciPy defaults.",
+      "limitations": "Different call sites use different segment lengths. Preserve configuration and SciPy version; no claim that all call sites share one estimator configuration.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "welch",
+          "citation": "Welch PD (1967). The use of the fast Fourier transform for the estimation of power spectra.",
+          "url": "https://doi.org/10.1109/TAU.1967.1161901"
+        }
+      ]
+    },
+    "aperiodic": {
+      "name": "Log-log robust aperiodic screening",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_aperiodic_screen"
+      ],
+      "definition": "Theil-Sen fit of log10 PSD against log10 frequency after configured exclusions; exponent=-slope, intercept and median absolute residual retained.",
+      "limitations": "Not specparam/FOOOF; excluded bands and positive-power masking define the PRAYCG screen.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "sen",
+          "citation": "Sen PK (1968). Estimates of the regression coefficient based on Kendall's tau.",
+          "url": "https://doi.org/10.1080/01621459.1968.10480934"
+        }
+      ]
+    },
+    "erp": {
+      "name": "Recipe-defined ERP and Morlet power",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_morlet_power"
+      ],
+      "definition": "Trial baseline subtraction, trial mean and SEM; Gaussian complex carrier sigma=cycles/(2*pi*f), truncated to min(half epoch, ceil(3.5*sigma*fs)), L2 normalization, convolution power averaged across trials; baseline ratio in dB.",
+      "limitations": "PRAYCG operational implementation, not a validated named ERP component. No zero-mean wavelet correction or cone-of-influence exclusion; epoch boundaries can bias power.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": []
+    },
+    "connectivity": {
+      "name": "Band-pooled spectral connectivity",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_connectivity_matrices"
+      ],
+      "definition": "Hann-window FFT; cross spectra averaged over frequencies within each epoch and then epochs. Coherence=abs(mean cross)^2/(mean power x * mean power y); PLI=abs(mean sign(imag cross_epoch)); wPLI=abs(mean imag cross_epoch)/mean abs(imag cross_epoch).",
+      "limitations": "wPLI is not debiased squared wPLI. Band pooling differs from frequency-resolved estimators. Signed imaginary coherency is mirrored into both matrix triangles; it must not be interpreted as a conventional antisymmetric imaginary-coherency matrix. References identify lineage, not estimator equivalence.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "vinck",
+          "citation": "Vinck M et al. (2011). An improved index of phase-synchronization for electrophysiological data in the presence of volume-conduction, noise and sample-size bias.",
+          "url": "https://doi.org/10.1016/j.neuroimage.2011.01.055"
+        },
+        {
+          "id": "nolte",
+          "citation": "Nolte G, Bai O, Wheaton L, Mari Z, Vorbach S, Hallett M (2004). Identifying true brain interaction from EEG data using the imaginary part of coherency.",
+          "url": "https://doi.org/10.1016/j.clinph.2004.04.029"
+        },
+        {
+          "id": "stam",
+          "citation": "Stam CJ, Nolte G, Daffertshofer A (2007). Phase lag index: assessment of functional connectivity from multi channel EEG and MEG with diminished bias from common sources.",
+          "url": "https://doi.org/10.1002/hbm.20346"
+        }
+      ]
+    },
+    "pac": {
+      "name": "Binned phase-amplitude modulation index",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_pac_mi"
+      ],
+      "definition": "Mean amplitude per phase bin, normalize to probabilities p; MI=(log(K)+sum(p*log(p)))/log(K), empty bins initially zero.",
+      "limitations": "Tort-style modulation index; filtering, surrogate construction and trial handling are PRAYCG-specific. MI alone does not establish physiological coupling.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "tort",
+          "citation": "Tort ABL, Komorowski R, Eichenbaum H, Kopell N (2010). Measuring phase-amplitude coupling between neuronal oscillations of different frequencies.",
+          "url": "https://doi.org/10.1152/jn.00106.2010"
+        }
+      ]
+    },
+    "bh": {
+      "name": "Benjamini-Hochberg adjustment",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_benjamini_hochberg"
+      ],
+      "definition": "Sort p-values, multiply by comparison count/rank, apply reverse cumulative minimum and restore order.",
+      "limitations": "The code supplies the family of comparisons. Appropriate dependence assumptions and family definition remain necessary.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "bh",
+          "citation": "Benjamini Y, Hochberg Y (1995). Controlling the false discovery rate: a practical and powerful approach to multiple testing.",
+          "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+        }
+      ]
+    },
+    "sample_entropy": {
+      "name": "Sample entropy and coarse-scale screening",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_sample_entropy"
+      ],
+      "definition": "Aligned m and m+1 embeddings; unordered non-self pairs within Chebyshev distance r*SD; SampEn=-log(A/B). Missing when either pair count is zero.",
+      "limitations": "Coarse-graining uses non-overlapping means, but tolerance is recomputed at each scale rather than fixed to original-signal SD. Complexity input may be stride-decimated without a new antialias filter. Do not present this as equivalent to canonical multiscale entropy.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "richman",
+          "citation": "Richman JS, Moorman JR (2000). Physiological time-series analysis using approximate entropy and sample entropy.",
+          "url": "https://doi.org/10.1152/ajpheart.2000.278.6.H2039"
+        },
+        {
+          "id": "costa",
+          "citation": "Costa M, Goldberger AL, Peng CK (2002). Multiscale entropy analysis of complex physiologic time series.",
+          "url": "https://doi.org/10.1103/PhysRevLett.89.068102"
+        }
+      ]
+    },
+    "permutation_entropy": {
+      "name": "Normalized permutation entropy",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_permutation_entropy"
+      ],
+      "definition": "Delayed ordinal patterns with stable sorting for ties; Shannon entropy divided by log(order factorial).",
+      "limitations": "Ties are assigned by temporal index, not discarded or jittered; result depends on recipe order and delay.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "bandt",
+          "citation": "Bandt C, Pompe B (2002). Permutation entropy: a natural complexity measure for time series.",
+          "url": "https://doi.org/10.1103/PhysRevLett.88.174102"
+        }
+      ]
+    },
+    "lz": {
+      "name": "Binary parsing complexity screen",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_lz76_complexity"
+      ],
+      "definition": "Binary parsing count c normalized by c*log2(n)/n.",
+      "limitations": "Lempel-Ziv lineage only. Equivalence of this parser to a reference implementation has not been certified; do not claim independent authorship from its header.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "lempel",
+          "citation": "Lempel A, Ziv J (1976). On the complexity of finite sequences.",
+          "url": "https://doi.org/10.1109/TIT.1976.1055501"
+        }
+      ]
+    },
+    "spectral_entropy": {
+      "name": "Normalized spectral entropy",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_spectral_entropy"
+      ],
+      "definition": "Welch PSD over 1 Hz to min(45 Hz, Nyquist); normalized positive-bin probabilities; entropy/log(number of bins).",
+      "limitations": "A PRAYCG operational bandwidth-limited entropy measure, dependent on sampling and frequency resolution.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "welch",
+          "citation": "Welch PD (1967). The use of the fast Fourier transform for the estimation of power spectra.",
+          "url": "https://doi.org/10.1109/TAU.1967.1161901"
+        }
+      ]
+    },
+    "microstates": {
+      "name": "Run-local polarity-invariant topographic clustering",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_microstate_fit"
+      ],
+      "definition": "GFP-peak centered maps; unit-norm topographies; absolute-correlation assignment and principal-eigenvector centers; seeded restarts with GFP-squared weighted explained variance.",
+      "limitations": "Update centers are unweighted within each cluster although restart selection is GFP-weighted. No canonical A-D labels, cross-run alignment or temporal smoothing; states sorted by coverage.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "microstates",
+          "citation": "Pascual-Marqui RD, Michel CM, Lehmann D (1995). Segmentation of brain electrical activity into microstates: model estimation and validation.",
+          "url": "https://doi.org/10.1109/10.391164"
+        }
+      ]
+    },
+    "csp": {
+      "name": "Train-fold CSP and ridge discriminant decoding",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_csp_features"
+      ],
+      "definition": "Trace-normalized uncentered trial.T@trial matrices averaged within class, generalized eigenproblem C0 v=lambda(C0+C1)v, extreme eigenvectors; log normalized projected variance.",
+      "limitations": "Uncentered covariance differs when means are nonzero. CSP fitted in training folds; trial-level cross-validation does not establish subject/session generalization.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "csp",
+          "citation": "Ramoser H, Mueller-Gerking J, Pfurtscheller G (2000). Optimal spatial filtering of single trial EEG during imagined hand movement.",
+          "url": "https://doi.org/10.1109/86.895946"
+        }
+      ]
+    },
+    "lda": {
+      "name": "PRAYCG ridge linear discriminant",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "_ridge_lda_predict"
+      ],
+      "definition": "Pooled within-class covariance with trace-scaled ridge, pseudoinverse and equal-prior linear discriminant scores.",
+      "limitations": "Custom implementation, not a claim that scikit-learn LDA ran. Frozen regularization and split design matter.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": []
+    },
+    "rsa": {
+      "name": "Sensor-time split-half representational distances",
+      "source": "tools/EEG_Analysis_Modules_v0_1/praycg_eeg_analysis_modules_v0_1.py",
+      "source_sha256": "a306c0621ac110dd7f82ace5ea55cae058bbdce8e4e5fc14c6b003048344e2c5",
+      "functions": [
+        "run_sensor_rsa"
+      ],
+      "definition": "Flatten sensor-time features; even/odd condition mean differences; mean product weighted by inverse diagonal-shrunk residual variance. Optional Spearman upper-triangle model comparison with condition-label permutations.",
+      "limitations": "Noise precision is estimated using all trials, not independent training data. Do not label this fully unbiased crossnobis. Negative distances are retained; sensor-level representations are not localized brain mechanisms.",
+      "verification": "SOURCE_FORMULA_REVIEW_NOT_SCIENTIFIC_VALIDATION",
+      "references": [
+        {
+          "id": "rsa",
+          "citation": "Kriegeskorte N, Mur M, Bandettini P (2008). Representational similarity analysis: connecting the branches of systems neuroscience.",
+          "url": "https://doi.org/10.3389/neuro.06.004.2008"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,119 @@
+PRAYCG Alpha 11.3: offline EEG review extensions
+
+These are inspectable processing candidates and exploratory comparison tools.
+They never overwrite a recording, unlock a plan or automatically adopt a cleaner.
+The desktop Signal Quality & Cleaning Review is the primary entry point. The
+file-based worker below also makes every implemented extension directly usable
+without modifying the Workbench code or introducing networked analysis.
+
+OPTIONAL INSTALLATION
+Run this release's Python 3.11 interpreter with:
+  python tools/Signal_Review_v1_0/install_signal_extras.py --install
+The installer creates .signal-review-env beside this release's app directory.
+It does not alter Core, Zuna, recordings, credentials or another release. It
+downloads upstream dependencies; it does not ship their wheels or native libraries
+in the Workbench ZIP. A recognized interrupted installation may be retried.
+No TLS verification is disabled. The launcher requires pip 22.3 or newer.
+
+WHY A SEPARATE ENVIRONMENT
+Actual tests found ASRpy 0.0.8's calibration incompatible with NumPy 2. The
+optional worker pins NumPy 1.26.4. ICLabel uses ONNX, not a language model.
+Pycrostates creates a home cache during import, so the dedicated subprocess
+redirects only its own home/cache variables into its request directory.
+No system-wide environment settings are changed.
+
+INPUT CONTRACT
+An NPZ contains numeric arrays samples [time,channel] and timestamps [time].
+Optional supported_mask and candidate arrays share that grid. Never enable
+pickle. A separate JSON request contains:
+  operation: one of the operations below
+  input_npz: absolute path, or path relative to this request JSON
+  record: descriptor plus optional segments and annotation_version
+  settings: explicit method options
+The descriptor requires nominal_srate, timestamp_units='s', channel_labels,
+channel_types, channel_units and recorded reference. Samples can be in V, mV or
+uV; processing comparisons return uV. Segments use start_index and stop_index,
+with the stop excluded. Unsupported gaps are never silently joined.
+
+Run:
+  .signal-review-env/Scripts/python.exe app/tools/Signal_Review_v1_0/optional_worker.py --request request.json --output NEW_RESULT_DIRECTORY
+The output parent must already exist. The result directory must not exist.
+result.json records method/settings/source hashes and an arrays.npz ledger.
+Array fields use array_key, shape and dtype. Original files remain untouched.
+
+OPERATIONS AND REQUIRED CHOICES
+ica: fit_range=[start,stop], seed, n_components (no greater than rank), optional
+exclude_components. No exclusions means exactly unchanged original samples.
+FastICA is the default; extended Infomax is also available. Component traces,
+maps and spectra are saved. A non-converged FastICA cannot remove components.
+Infomax convergence is not asserted from MNE's ambiguous iteration return.
+
+iclabel: fit_range and actual electrode_geometry_m in head-frame metres. It
+fits a separate extended-Infomax, common-average, 1–100 Hz decomposition and
+returns all seven probabilities. Recordings at 125 Hz cannot support this band.
+Probabilities are advisory; no deletion follows automatically.
+
+asr: fit_range spanning >=30 seconds and calibration_reviewed_clean=true.
+Use >=4 channels and full-rank calibration. cutoff defaults to 20. State resets
+at gaps, and one-second piece edges are marked unsupported. This is standard
+Euclidean ASRpy, not Riemannian ASR and not a qualified live process.
+
+reference_regression: fit_range, pairing_id, timing_qualified=true, optional
+ridge_alpha. Provide reference_samples/reference_timestamps arrays and a
+reference_record descriptor. Both descriptors need the same participant_id,
+clock_domain and explicit shared pairing_ids entry. The sample grids must match.
+References must be genuine EOG/EMG/motion channels with known units. This is
+centered regression, not iCanClean. Neural activity correlated with a reference
+can also be removed.
+
+spectral: optional window_seconds (default 2). Mean and median Welch, before
+and after, on identical common support. Existing aperiodic definitions remain.
+
+erp_tfr: supply events with timestamp, independently_identified=true and source.
+Settings include epoch_seconds, baseline_seconds, frequencies_hz, n_cycles,
+bootstrap_samples and seed. The report includes a trial-by-time data array,
+ERP, pointwise within-recording trial uncertainty, Morlet power and ITPC.
+Wavelet edges are explicitly unsupported. Independent participants are not
+invented from trials, channels or samples.
+
+connectivity: phase_band_hz, amplitude_band_hz, surrogates and seed. Report
+native/common-average PLV and amplitude-weighted-vector PAC before/after with
+circular-shift controls. This is NOT Tort modulation index. Unadjusted screening
+p-values, volume conduction and reference/periodicity limitations remain visible.
+
+complexity: window_seconds, permutation_order and delay_samples. Compare
+ordinal and spectral entropy before/after. Tied ordinal vectors are excluded
+and counted. Statistical complexity is not equivalent to meaning/consciousness.
+
+microstates: fit_range and a distinct evaluation_range; clusters and seed.
+Compare existing PRAYCG fitting and Pycrostates on identical calibration GFP
+peaks, then evaluate map agreement and GEV only on the held-out interval.
+No canonical brain-state name or neural-origin claim is assigned to the maps.
+
+external_import: source_path, study_identity containing actual study_id,
+participant_id and session_id; optional explicit channel_types map. Supports
+EEGLAB SET, EDF, BDF and BrainVision VHDR. Source events, BAD/boundary support,
+units, files and hashes are preserved. No PRAYCG protocol is invented.
+Mixed-rate EDF/BDF requiring hidden upsampling and unsupported discontinuities
+are rejected explicitly. BrainVision's native marker prefixes remain intact.
+
+paired_study: rows with participant_id, session_id, condition, endpoint, value,
+analysis_version and source_id; condition_a and condition_b; optional seed and
+bootstrap_samples. Duplicates and incompatible versions are rejected. Repeated
+sessions are averaged within participant. Sign-flip assumptions, paired support,
+participant bootstrap and the BH endpoint family are recorded.
+
+grouped_decoding: features, labels and participants arrays; n_splits and seed.
+Fixed-model logistic regression with training-only standardization and fully
+held-out participants. This is not a hyperparameter-search or feature-selection
+framework. Do not tune against the held-out result.
+
+BOUNDARIES AND REMAINING WORK
+Software tests establish behavior on synthetic fixtures, not superior cleaning
+on actual physiology. Independent reviewed beats, held-out ecological signals,
+clinical/causal interpretation and neural-feature preservation remain empirical.
+EEGPrep 0.4 requires Python >=3.12; no compatible isolated EEGPrep worker has
+been qualified in this Python 3.11 release. It is not counted as implemented.
+Source localization, SOUND, AMICA and EEG-fMRI/TMS remain deliberately deferred.
+See methods_eeg_extensions_v1.json and the separate third-party notice for
+operational definitions, source references and dependency/license distinctions.

@@ -1,0 +1,1615 @@
+{
+  "benchmark_revision": "PRAYCG_SPAR_preservation_benchmark_1.0.0",
+  "scope": "synthetic, not physiological validation",
+  "headline": "Both candidates distort the known clean control; the preservation variant is not uniformly better. Keep experimental and review-only.",
+  "clean_control_findings": [
+    {
+      "method": "reference_candidate",
+      "normalized_mean_squared_error": 0.08367132114503899,
+      "clean_interval_distortion_rms": 1.6598818704026777
+    },
+    {
+      "method": "preservation_v1",
+      "normalized_mean_squared_error": 0.029058184888376932,
+      "clean_interval_distortion_rms": 0.978189754310103
+    }
+  ],
+  "preservation_worse_than_reference_cases": [
+    {
+      "sampling_rate_hz": 125.0,
+      "channels": 4,
+      "contamination": "mixture",
+      "metric": "normalized_mean_squared_error",
+      "reference": 3.2663591630044997,
+      "preservation": 3.5868351227837563
+    },
+    {
+      "sampling_rate_hz": 250.0,
+      "channels": 4,
+      "contamination": "mixture",
+      "metric": "normalized_mean_squared_error",
+      "reference": 2.958578114227063,
+      "preservation": 3.763958803280773
+    },
+    {
+      "sampling_rate_hz": 250.0,
+      "channels": 4,
+      "contamination": "mixture",
+      "metric": "clean_interval_distortion_rms",
+      "reference": 0.1095741284108742,
+      "preservation": 0.4776076319765897
+    },
+    {
+      "sampling_rate_hz": 125.0,
+      "channels": 16,
+      "contamination": "mixture",
+      "metric": "normalized_mean_squared_error",
+      "reference": 2.5869803936834956,
+      "preservation": 3.08391797957988
+    },
+    {
+      "sampling_rate_hz": 125.0,
+      "channels": 16,
+      "contamination": "mixture",
+      "metric": "clean_interval_distortion_rms",
+      "reference": 0.6212906628337598,
+      "preservation": 1.0219346877450923
+    },
+    {
+      "sampling_rate_hz": 125.0,
+      "channels": 4,
+      "contamination": "clipping",
+      "metric": "normalized_mean_squared_error",
+      "reference": 1.7859389645131192,
+      "preservation": 1.9046194153894929
+    },
+    {
+      "sampling_rate_hz": 125.0,
+      "channels": 4,
+      "contamination": "clipping",
+      "metric": "clean_interval_distortion_rms",
+      "reference": 0.8392184381514846,
+      "preservation": 0.8476841569194378
+    }
+  ],
+  "release_decision": "No automatic adoption or live-acquisition qualification; pass inspection and unfavorable results remain visible.",
+  "evidence_paths_relative_to_packaged_report": {
+    "native_implementation": "../spar.py",
+    "benchmark_implementation": "../spar_benchmark.py",
+    "method_record": "../methods_spar_v1.json"
+  },
+  "source_sha256": {
+    "spar.py": "8b7d5bc4efa17313299591b4a2d9a285b3bd1b1922829ea69864f0e8691be79e",
+    "spar_benchmark.py": "d901d9f0879866d93b00db18f7c6d52266c5328fa192425bc9c81dd0abd4efd8",
+    "methods_spar_v1.json": "bc6bdcff1d8fb31dcab8877966323d39547356d5329435b20868537a59817777"
+  },
+  "observed_versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "cases": [
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 1,
+        "contamination": "clean",
+        "input_sha256": "3674057edb5905d37b52c5ed7529d90f22d941c275d80988664dfb252ab56eb9",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.0,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 0.0,
+        "input_normalized_mean_squared_error": 0.0,
+        "artifact_interval_error_rms": null,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "single_channel",
+          "spatial_qualification": false
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9946522967192397,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.9946522967192397,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": 0.0,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9607853776331616,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 3.9607853776331616,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "amplitude_change": 0.0,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.518709961573067,
+            "candidate_amplitude": 3.518709961573067,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 1,
+        "contamination": "clean",
+        "input_sha256": "3674057edb5905d37b52c5ed7529d90f22d941c275d80988664dfb252ab56eb9",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 0.07800000000020191,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 0.08367132114503899,
+        "input_normalized_mean_squared_error": 0.0,
+        "artifact_interval_error_rms": null,
+        "clean_interval_distortion_rms": 1.6598818704026777,
+        "spatial_distortion": {
+          "status": "single_channel",
+          "spatial_qualification": false
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9946522967192397,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.9946480436941765,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": -4.25302506323888e-06,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9607853776331616,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 3.5823567786818753,
+              "onset_seconds": 2.392,
+              "duration_seconds": 0.272
+            },
+            "amplitude_change": -0.37842859895128633,
+            "onset_error_seconds": -0.016000000000000014,
+            "duration_error_seconds": -0.21599999999999997,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.518709961573067,
+            "candidate_amplitude": -0.43438319872458964,
+            "amplitude_error": -3.9530931602976564,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 1,
+        "contamination": "clean",
+        "input_sha256": "3674057edb5905d37b52c5ed7529d90f22d941c275d80988664dfb252ab56eb9",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 0.10999999999989996,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 0.029058184888376932,
+        "input_normalized_mean_squared_error": 0.0,
+        "artifact_interval_error_rms": null,
+        "clean_interval_distortion_rms": 0.978189754310103,
+        "spatial_distortion": {
+          "status": "single_channel",
+          "spatial_qualification": false
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9946522967192397,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 3.0878133762701956,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.176
+            },
+            "amplitude_change": 0.09316107955095587,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": -0.10400000000000004,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9607853776331616,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 2.785579626917197,
+              "onset_seconds": 2.48,
+              "duration_seconds": 0.344
+            },
+            "amplitude_change": -1.1752057507159646,
+            "onset_error_seconds": 0.07200000000000006,
+            "duration_error_seconds": -0.14400000000000002,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.518709961573067,
+            "candidate_amplitude": 0.3761479480107345,
+            "amplitude_error": -3.1425620135623324,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 4,
+        "contamination": "mixture",
+        "input_sha256": "de51bfcd500e2d2d38e8614f078077c6310e0d65dc8e9bca0e7fc1f0e60813d9",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.015000000000100044,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.704123709716536,
+        "input_normalized_mean_squared_error": 4.704123709716536,
+        "artifact_interval_error_rms": 18.818546020837505,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 4.4651652441940435,
+          "maximum_correlation_change": 0.0070640024196571005,
+          "mean_pair_phase_distortion_radians": 0.1368981026832538,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.994619579801399,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.994619665677809,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": 8.587640998314328e-08,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.94365741293001,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 3.943754643639696,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "amplitude_change": 9.723070968581382e-05,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.386759102711063,
+            "candidate_amplitude": 3.386759102711063,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 4,
+        "contamination": "mixture",
+        "input_sha256": "de51bfcd500e2d2d38e8614f078077c6310e0d65dc8e9bca0e7fc1f0e60813d9",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 0.21899999999982356,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 3.2663591630044997,
+        "input_normalized_mean_squared_error": 4.704123709716536,
+        "artifact_interval_error_rms": 15.652693365649608,
+        "clean_interval_distortion_rms": 0.8323270287302552,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 2.845975817674229,
+          "maximum_correlation_change": 0.04553108377298465,
+          "mean_pair_phase_distortion_radians": 0.16321843082339588,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.994619579801399,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.9952672261151205,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": 0.000647646313721495,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.94365741293001,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 4.2402393914003,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "amplitude_change": 0.29658197847028944,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.386759102711063,
+            "candidate_amplitude": 2.8467313305030397,
+            "amplitude_error": -0.5400277722080231,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 4,
+        "contamination": "mixture",
+        "input_sha256": "de51bfcd500e2d2d38e8614f078077c6310e0d65dc8e9bca0e7fc1f0e60813d9",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 0.42200000000002547,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 3.5868351227837563,
+        "input_normalized_mean_squared_error": 4.704123709716536,
+        "artifact_interval_error_rms": 16.411270426665617,
+        "clean_interval_distortion_rms": 0.7348598967093226,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 3.2835798776876217,
+          "maximum_correlation_change": 0.00849487211109956,
+          "mean_pair_phase_distortion_radians": 0.13967520513444298,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.994619579801399,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 3.1073086306742272,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.2
+            },
+            "amplitude_change": 0.11268905087282821,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": -0.08000000000000002,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.94365741293001,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 2.5918622634841277,
+              "onset_seconds": 2.488,
+              "duration_seconds": 0.328
+            },
+            "amplitude_change": -1.3517951494458824,
+            "onset_error_seconds": 0.08000000000000007,
+            "duration_error_seconds": -0.15999999999999998,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.386759102711063,
+            "candidate_amplitude": 3.386759102711063,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 250.0,
+        "channels": 4,
+        "contamination": "mixture",
+        "input_sha256": "647859105940d653640122674968702c6828e73bebef1771ad0c80d26f52d6bb",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.0,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.642601644743388,
+        "input_normalized_mean_squared_error": 4.642601644743388,
+        "artifact_interval_error_rms": 18.695083478486406,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 4.392002469380493,
+          "maximum_correlation_change": 0.006919523796220961,
+          "mean_pair_phase_distortion_radians": 0.1376190970084271,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.998494908170284,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "candidate": {
+              "peak_amplitude": 2.998494569829076,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "amplitude_change": -3.383412079394077e-07,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 2,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.955733994447942,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "candidate": {
+              "peak_amplitude": 3.955814122778975,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "amplitude_change": 8.012833103299144e-05,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.400454168416929,
+            "candidate_amplitude": 3.400454168416929,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 250.0,
+        "channels": 4,
+        "contamination": "mixture",
+        "input_sha256": "647859105940d653640122674968702c6828e73bebef1771ad0c80d26f52d6bb",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 0.28099999999994907,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 2.958578114227063,
+        "input_normalized_mean_squared_error": 4.642601644743388,
+        "artifact_interval_error_rms": 14.923584095477674,
+        "clean_interval_distortion_rms": 0.1095741284108742,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 2.5551728681079116,
+          "maximum_correlation_change": 0.008719420167573655,
+          "mean_pair_phase_distortion_radians": 0.13088136646297688,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.998494908170284,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "candidate": {
+              "peak_amplitude": 2.9967746427998945,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "amplitude_change": -0.0017202653703893844,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.955733994447942,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "candidate": {
+              "peak_amplitude": 3.993940086757961,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.492
+            },
+            "amplitude_change": 0.038206092310018924,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.01200000000000001,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.400454168416929,
+            "candidate_amplitude": 3.2421111824053024,
+            "amplitude_error": -0.15834298601162677,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 250.0,
+        "channels": 4,
+        "contamination": "mixture",
+        "input_sha256": "647859105940d653640122674968702c6828e73bebef1771ad0c80d26f52d6bb",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 0.5160000000000764,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 3.763958803280773,
+        "input_normalized_mean_squared_error": 4.642601644743388,
+        "artifact_interval_error_rms": 16.824563407161488,
+        "clean_interval_distortion_rms": 0.4776076319765897,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 3.478332340979092,
+          "maximum_correlation_change": 0.0059461727368236295,
+          "mean_pair_phase_distortion_radians": 0.13899600150239105,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.998494908170284,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "candidate": {
+              "peak_amplitude": 0.6720658008684907,
+              "onset_seconds": null,
+              "duration_seconds": 0.0
+            },
+            "amplitude_change": -2.3264291073017933,
+            "onset_error_seconds": null,
+            "duration_error_seconds": -0.284,
+            "false_event_count": 3,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.955733994447942,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "candidate": {
+              "peak_amplitude": 3.335192878575956,
+              "onset_seconds": 2.44,
+              "duration_seconds": 0.424
+            },
+            "amplitude_change": -0.620541115871986,
+            "onset_error_seconds": 0.03200000000000003,
+            "duration_error_seconds": -0.055999999999999994,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.400454168416929,
+            "candidate_amplitude": 3.400454168416929,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 256.0,
+        "channels": 4,
+        "contamination": "gaps",
+        "input_sha256": "dde73041a9f2c61d46b17016f0b3053b311968d58a937f40fc25588792c0e434",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.0,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.729369456613057,
+        "input_normalized_mean_squared_error": 4.729369456613057,
+        "artifact_interval_error_rms": 18.81123998688603,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 4.478164275123277,
+          "maximum_correlation_change": 0.007102470784626447,
+          "mean_pair_phase_distortion_radians": 0.08979709015703921,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9985210169731804,
+              "onset_seconds": 1.859375,
+              "duration_seconds": 0.28515625
+            },
+            "candidate": {
+              "peak_amplitude": 2.9985210169731804,
+              "onset_seconds": 1.859375,
+              "duration_seconds": 0.28515625
+            },
+            "amplitude_change": 0.0,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9397887655203054,
+              "onset_seconds": 2.40625,
+              "duration_seconds": 0.48046875
+            },
+            "candidate": {
+              "peak_amplitude": 3.9397887655203054,
+              "onset_seconds": 2.40625,
+              "duration_seconds": 0.48046875
+            },
+            "amplitude_change": 0.0,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "unavailable_discontinuous_support"
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 256.0,
+        "channels": 4,
+        "contamination": "gaps",
+        "input_sha256": "dde73041a9f2c61d46b17016f0b3053b311968d58a937f40fc25588792c0e434",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 0.21800000000007458,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.745951667396875,
+        "input_normalized_mean_squared_error": 4.729369456613057,
+        "artifact_interval_error_rms": 18.81123998688603,
+        "clean_interval_distortion_rms": 0.9869521797849068,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 4.434420608904089,
+          "maximum_correlation_change": 0.007630072103874452,
+          "mean_pair_phase_distortion_radians": 0.09790761657984735,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9985210169731804,
+              "onset_seconds": 1.859375,
+              "duration_seconds": 0.28515625
+            },
+            "candidate": {
+              "peak_amplitude": 2.998564862199486,
+              "onset_seconds": 1.859375,
+              "duration_seconds": 0.28515625
+            },
+            "amplitude_change": 4.3845226305627705e-05,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9397887655203054,
+              "onset_seconds": 2.40625,
+              "duration_seconds": 0.48046875
+            },
+            "candidate": {
+              "peak_amplitude": 3.4492848129851645,
+              "onset_seconds": 2.39453125,
+              "duration_seconds": 0.265625
+            },
+            "amplitude_change": -0.4905039525351409,
+            "onset_error_seconds": -0.01171875,
+            "duration_error_seconds": -0.21484375,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "unavailable_discontinuous_support"
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 256.0,
+        "channels": 4,
+        "contamination": "gaps",
+        "input_sha256": "dde73041a9f2c61d46b17016f0b3053b311968d58a937f40fc25588792c0e434",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 0.765999999999849,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.1105325651095175,
+        "input_normalized_mean_squared_error": 4.729369456613057,
+        "artifact_interval_error_rms": 17.51657281648234,
+        "clean_interval_distortion_rms": 0.7568190433085843,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 3.5605336615315464,
+          "maximum_correlation_change": 0.08894349496321263,
+          "mean_pair_phase_distortion_radians": 0.11865556278887773,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9985210169731804,
+              "onset_seconds": 1.859375,
+              "duration_seconds": 0.28515625
+            },
+            "candidate": {
+              "peak_amplitude": 1.6008406112840605,
+              "onset_seconds": 1.9609375,
+              "duration_seconds": 0.0859375
+            },
+            "amplitude_change": -1.3976804056891199,
+            "onset_error_seconds": 0.1015625,
+            "duration_error_seconds": -0.19921875,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9397887655203054,
+              "onset_seconds": 2.40625,
+              "duration_seconds": 0.48046875
+            },
+            "candidate": {
+              "peak_amplitude": 3.12620615675083,
+              "onset_seconds": 2.4140625,
+              "duration_seconds": 0.2265625
+            },
+            "amplitude_change": -0.8135826087694755,
+            "onset_error_seconds": 0.0078125,
+            "duration_error_seconds": -0.25390625,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "unavailable_discontinuous_support"
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 16,
+        "contamination": "mixture",
+        "input_sha256": "eb570a420ac5c0828f70b89a7bd5e0330c1e6f69cedd0b82e73f80568bf4dce0",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.016000000000076398,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.647474440858203,
+        "input_normalized_mean_squared_error": 4.647474440858203,
+        "artifact_interval_error_rms": 18.674616213711417,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 5.237193540803468,
+          "maximum_correlation_change": 0.7113803028530133,
+          "mean_pair_phase_distortion_radians": 0.33319290266137397,
+          "input_rank": 7,
+          "output_rank": 8,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9945587510187135,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.9945588148688733,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": 6.385015982601772e-08,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.8704695174569324,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 3.8705064888486964,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "amplitude_change": 3.697139176406239e-05,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 2.858956138090326,
+            "candidate_amplitude": 2.858956138090326,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 16,
+        "contamination": "mixture",
+        "input_sha256": "eb570a420ac5c0828f70b89a7bd5e0330c1e6f69cedd0b82e73f80568bf4dce0",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 1.0,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 2.5869803936834956,
+        "input_normalized_mean_squared_error": 4.647474440858203,
+        "artifact_interval_error_rms": 13.914985488823536,
+        "clean_interval_distortion_rms": 0.6212906628337598,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 2.6758622735877764,
+          "maximum_correlation_change": 0.6067498867036735,
+          "mean_pair_phase_distortion_radians": 0.37497565996347954,
+          "input_rank": 7,
+          "output_rank": 16,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9945587510187135,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.994570374736841,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": 1.1623718127573568e-05,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.8704695174569324,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 3.48983591722808,
+              "onset_seconds": 2.4,
+              "duration_seconds": 0.36
+            },
+            "amplitude_change": -0.3806336002288524,
+            "onset_error_seconds": -0.008000000000000007,
+            "duration_error_seconds": -0.128,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 2.858956138090326,
+            "candidate_amplitude": 2.496217978888302,
+            "amplitude_error": -0.3627381592020238,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 16,
+        "contamination": "mixture",
+        "input_sha256": "eb570a420ac5c0828f70b89a7bd5e0330c1e6f69cedd0b82e73f80568bf4dce0",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 1.7650000000001,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 3.08391797957988,
+        "input_normalized_mean_squared_error": 4.647474440858203,
+        "artifact_interval_error_rms": 15.168002268269817,
+        "clean_interval_distortion_rms": 1.0219346877450923,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 3.205549954090312,
+          "maximum_correlation_change": 0.617405018595729,
+          "mean_pair_phase_distortion_radians": 0.3517921283985918,
+          "input_rank": 7,
+          "output_rank": 16,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.9945587510187135,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 0.4234811004100514,
+              "onset_seconds": null,
+              "duration_seconds": 0.0
+            },
+            "amplitude_change": -2.571077650608662,
+            "onset_error_seconds": null,
+            "duration_error_seconds": -0.28,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.8704695174569324,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 2.330907673166108,
+              "onset_seconds": 2.664,
+              "duration_seconds": 0.16
+            },
+            "amplitude_change": -1.5395618442908243,
+            "onset_error_seconds": 0.2560000000000002,
+            "duration_error_seconds": -0.32799999999999996,
+            "false_event_count": 2,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 2.858956138090326,
+            "candidate_amplitude": 2.858956138090326,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 4,
+        "contamination": "clipping",
+        "input_sha256": "9de009c1a6b16410bf0ed98dd0952e81ddcc9249a8e3b1e33187e79446881333",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.015999999999849024,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 2.3109399826863806,
+        "input_normalized_mean_squared_error": 2.3109399826863806,
+        "artifact_interval_error_rms": 13.189885684224878,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 1.8602327103120038,
+          "maximum_correlation_change": 0.01547450965149133,
+          "mean_pair_phase_distortion_radians": 0.11694743962918022,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.994619579801399,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.9946105863332915,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": -8.993468107565405e-06,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 2,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.94365741293001,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 3.943578462650623,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "amplitude_change": -7.895027938698007e-05,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 2,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.386759102711063,
+            "candidate_amplitude": 3.386759102711063,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 4,
+        "contamination": "clipping",
+        "input_sha256": "9de009c1a6b16410bf0ed98dd0952e81ddcc9249a8e3b1e33187e79446881333",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 0.29700000000002547,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 1.7859389645131192,
+        "input_normalized_mean_squared_error": 2.3109399826863806,
+        "artifact_interval_error_rms": 11.556054630734433,
+        "clean_interval_distortion_rms": 0.8392184381514846,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 1.273692086727098,
+          "maximum_correlation_change": 0.036569963334745936,
+          "mean_pair_phase_distortion_radians": 0.13205046265454312,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.994619579801399,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 2.995768737888434,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "amplitude_change": 0.0011491580870348628,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.94365741293001,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 4.219078003871218,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.496
+            },
+            "amplitude_change": 0.2754205909412075,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.008000000000000007,
+            "false_event_count": 2,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.386759102711063,
+            "candidate_amplitude": 3.277511774277199,
+            "amplitude_error": -0.10924732843386398,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 125.0,
+        "channels": 4,
+        "contamination": "clipping",
+        "input_sha256": "9de009c1a6b16410bf0ed98dd0952e81ddcc9249a8e3b1e33187e79446881333",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 0.5,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 1.9046194153894929,
+        "input_normalized_mean_squared_error": 2.3109399826863806,
+        "artifact_interval_error_rms": 11.935600033106313,
+        "clean_interval_distortion_rms": 0.8476841569194378,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 1.384355237837801,
+          "maximum_correlation_change": 0.03646626959345922,
+          "mean_pair_phase_distortion_radians": 0.13297111462558478,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.994619579801399,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.28
+            },
+            "candidate": {
+              "peak_amplitude": 3.107321060660047,
+              "onset_seconds": 1.864,
+              "duration_seconds": 0.2
+            },
+            "amplitude_change": 0.11270148085864795,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": -0.08000000000000002,
+            "false_event_count": 1,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.94365741293001,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.488
+            },
+            "candidate": {
+              "peak_amplitude": 2.6592081977928306,
+              "onset_seconds": 2.488,
+              "duration_seconds": 0.352
+            },
+            "amplitude_change": -1.2844492151371796,
+            "onset_error_seconds": 0.08000000000000007,
+            "duration_error_seconds": -0.136,
+            "false_event_count": 2,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "measured",
+            "truth_amplitude": 3.386759102711063,
+            "candidate_amplitude": 3.386759102711063,
+            "amplitude_error": 0.0,
+            "definition": "Mean 4.05\u20134.25s minus mean 3.7\u20133.9s; input amplitude units."
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 250.0,
+        "channels": 4,
+        "contamination": "timing_offset",
+        "input_sha256": "0a58f4f73edbba7728d5344a1f75ee1b9d5d861bf9727a9b20541df23290567e",
+        "seed": 741
+      },
+      "method": "unchanged",
+      "elapsed_seconds": 0.0,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.642601644743388,
+        "input_normalized_mean_squared_error": 4.642601644743388,
+        "artifact_interval_error_rms": 18.695083478486406,
+        "clean_interval_distortion_rms": 0.0,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 4.392002469380493,
+          "maximum_correlation_change": 0.006919523796220961,
+          "mean_pair_phase_distortion_radians": 0.08854787498397633,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.998494765446928,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "candidate": {
+              "peak_amplitude": 2.998494765446928,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "amplitude_change": 0.0,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9499527091871562,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "candidate": {
+              "peak_amplitude": 3.9499527091871562,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "amplitude_change": 0.0,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "unavailable_discontinuous_support"
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 250.0,
+        "channels": 4,
+        "contamination": "timing_offset",
+        "input_sha256": "0a58f4f73edbba7728d5344a1f75ee1b9d5d861bf9727a9b20541df23290567e",
+        "seed": 741
+      },
+      "method": "reference_candidate",
+      "elapsed_seconds": 0.26500000000010004,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.666151739776702,
+        "input_normalized_mean_squared_error": 4.642601644743388,
+        "artifact_interval_error_rms": 18.695083478486406,
+        "clean_interval_distortion_rms": 1.1730851883904196,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 4.349401553303625,
+          "maximum_correlation_change": 0.007406548958621806,
+          "mean_pair_phase_distortion_radians": 0.09961075168716212,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.998494765446928,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "candidate": {
+              "peak_amplitude": 2.9984952433013397,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "amplitude_change": 4.778544115957573e-07,
+            "onset_error_seconds": 0.0,
+            "duration_error_seconds": 0.0,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9499527091871562,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "candidate": {
+              "peak_amplitude": 3.3783864370693473,
+              "onset_seconds": 2.392,
+              "duration_seconds": 0.248
+            },
+            "amplitude_change": -0.571566272117809,
+            "onset_error_seconds": -0.016000000000000014,
+            "duration_error_seconds": -0.23199999999999998,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "unavailable_discontinuous_support"
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "sampling_rate_hz": 250.0,
+        "channels": 4,
+        "contamination": "timing_offset",
+        "input_sha256": "0a58f4f73edbba7728d5344a1f75ee1b9d5d861bf9727a9b20541df23290567e",
+        "seed": 741
+      },
+      "method": "preservation_v1",
+      "elapsed_seconds": 0.875,
+      "execution_state": "completed",
+      "metrics": {
+        "status": "measured_against_synthetic_truth",
+        "normalized_mean_squared_error": 4.306265432917899,
+        "input_normalized_mean_squared_error": 4.642601644743388,
+        "artifact_interval_error_rms": 17.997826784963124,
+        "clean_interval_distortion_rms": 0.45283436598021554,
+        "spatial_distortion": {
+          "status": "descriptive_only",
+          "covariance_relative_frobenius_change": 3.9081116222639314,
+          "maximum_correlation_change": 0.08175400954693768,
+          "mean_pair_phase_distortion_radians": 0.11000341661602181,
+          "input_rank": 4,
+          "output_rank": 4,
+          "spatial_qualification": false,
+          "limitation": "No KHT, connectivity or source-analysis eligibility is granted by these descriptive checks."
+        },
+        "events": {
+          "gamma": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 2.998494765446928,
+              "onset_seconds": 1.86,
+              "duration_seconds": 0.284
+            },
+            "candidate": {
+              "peak_amplitude": 1.2939829508054996,
+              "onset_seconds": null,
+              "duration_seconds": 0.0
+            },
+            "amplitude_change": -1.7045118146414284,
+            "onset_error_seconds": null,
+            "duration_error_seconds": -0.284,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "theta": {
+            "status": "measured",
+            "truth": {
+              "peak_amplitude": 3.9499527091871562,
+              "onset_seconds": 2.408,
+              "duration_seconds": 0.48
+            },
+            "candidate": {
+              "peak_amplitude": 3.3799304632100915,
+              "onset_seconds": 2.428,
+              "duration_seconds": 0.432
+            },
+            "amplitude_change": -0.5700222459770647,
+            "onset_error_seconds": 0.020000000000000018,
+            "duration_error_seconds": -0.04799999999999999,
+            "false_event_count": 0,
+            "definition": "Fixed half-clean-peak threshold on mean 3rd-order zero-phase Butterworth/Hilbert envelope; descriptive benchmark only."
+          },
+          "erp": {
+            "status": "unavailable_discontinuous_support"
+          }
+        }
+      }
+    }
+  ],
+  "matlab_reference_comparison": "not_run_no_reference_outputs",
+  "measured_shielded_control": "not_run_no_independently_reviewed_control_enrolled",
+  "held_out_arrival_contact": "reserved_not_used",
+  "zuna_as_ground_truth": false,
+  "unrun_competing_methods": [
+    "ICA",
+    "ASR",
+    "iCanClean",
+    "MATLAB SPAR"
+  ],
+  "inference": "Measure attenuation and preservation separately; completion does not imply improvement."
+}
