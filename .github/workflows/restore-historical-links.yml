@@ -1,0 +1,50 @@
+name: Restore historical link companions
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: restore-historical-link-companions
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    if: github.repository == 'hbanks87/praycg-open'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out maintained restoration plan
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - name: Check preservation safeguards
+        run: python -m unittest discover -s tools/repository_maintenance -p test_restore_historical_links.py -v
+      - name: Restore only verified missing companions
+        run: python tools/repository_maintenance/restore_historical_links.py --apply
+      - name: Verify existing tracked files remain unchanged
+        run: git diff --exit-code
+      - name: Commit restored companions
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          plan = json.loads(Path('tools/repository_maintenance/RESTORATION_PLAN.json').read_text())
+          paths = [row['path'] for row in plan['files']]
+          subprocess.run(['git', 'add', '--', *paths], check=True)
+          staged = subprocess.check_output(['git', 'diff', '--cached', '--name-only', '-z']).decode().split('\0')
+          staged = [p for p in staged if p]
+          if not set(staged).issubset(paths):
+              raise SystemExit('Unexpected staged path')
+          status = subprocess.check_output(['git', 'diff', '--cached', '--name-status']).decode().splitlines()
+          if any(not line.startswith('A\t') for line in status):
+              raise SystemExit('Restoration must only add missing files')
+          if staged:
+              subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
+              subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
+              subprocess.run(['git', 'commit', '-m', 'Restore verified companions for historical document links'], check=True)
+              subprocess.run(['git', 'push', 'origin', 'HEAD:main'], check=True)
+          print(f'{len(staged)} verified missing companion files committed; existing files unchanged.')
+          PY
