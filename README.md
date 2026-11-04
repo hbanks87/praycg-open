@@ -4,9 +4,9 @@
 
 Use the Workbench to prepare studies, record supported streams, inspect signals and produce reviewable results. The research library contains the project's theories, protocols, methods and reproduction programs, with their original evidence and limitations.
 
-**[Download Public Workbench 11.9.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2)** · [Install or update](workbench/docs/installation.md) · [What changed](workbench/CHANGELOG.md)
+**[Download Public Workbench 11.10.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0)** · [Install or update](workbench/docs/installation.md) · [What changed](workbench/CHANGELOG.md)
 
-Download the named Workbench ZIP from the release's Assets. Extract it into a new folder; the release page explains the checksum and signed updater companion. GitHub's automatically generated source archives contain this repository's research and documentation collection.
+Download **PRAYCG_Workbench_Public_Alpha_11_10_0.zip** from Assets and verify its SHA-256 before extracting it into a new folder. The release includes compact Cerelog acquisition and the multi-visit Decoder Gate behavioral pilot. GitHub's automatically generated source archives contain this repository's research and documentation collection.
 
 ## Choose a path
 
@@ -28,7 +28,7 @@ PRAYCG remains alpha research software. Software completion does not establish s
 
 The application source is distributed inside the versioned Workbench release ZIP. This repository also preserves research documents, scripts, hardware projects and historical packages. Current user guidance is separate from exact release snapshots and original research records. [Document status](docs/README.md#document-status) explains those distinctions.
 
-Original research, core specifications and release artifacts retain their existing paths and contents. Earlier navigation pages are preserved in the [dated navigation snapshot](docs/reorganization/navigation-2026-10-25/README.md).
+Original research, core specifications and release artifacts retain their existing paths and contents. Earlier navigation pages are preserved in the [dated navigation snapshot](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/navigation-2026-10-25/README.md).
 
 [Citations and attribution](CITATIONS_AND_ATTRIBUTION.md) · [Bibliography](research/bibliography/README.md) · [License](LICENSE.md) · [Third-party notices](THIRD_PARTY_NOTICES/README.md) · [Contributing](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md)
 
