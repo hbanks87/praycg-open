@@ -1,0 +1,139 @@
+{
+  "schema": "PRAYCG_CerelogCompactPublicEvidence_v1",
+  "firmware_identity": "CERELOG_V1_EMG3_EOG2_ALS1_1K_V1",
+  "scope": "Historical build, one off-body board check, and subsequent software qualification. This is a curated public summary, not a new hardware test.",
+  "artifacts": [
+    {
+      "kind": "Arduino sketch (local adaptation)",
+      "filename": "Cerelog_V1_EMG3_EOG2_ALS1_1k.ino",
+      "bytes": 14544,
+      "sha256": "cb68b05fe71aee0ef2088d43f4d39968687bf1db103a5ca53cab8e2df16f55c1",
+      "distribution": "WITHHELD"
+    },
+    {
+      "kind": "Compiled application image (not a full-device image)",
+      "filename": "Cerelog_V1_EMG3_EOG2_ALS1_1k.ino.bin",
+      "bytes": 281136,
+      "sha256": "bf13f11ac9a36be9d1cb64133f895a78c9fcc345f13932a4f5b2f7e051b2122f",
+      "distribution": "WITHHELD"
+    }
+  ],
+  "distribution": {
+    "folder_contains": "Documentation, reference profile, checksums and public evidence only.",
+    "firmware_source_included": false,
+    "compiled_firmware_included": false,
+    "full_device_images_included": false,
+    "raw_recordings_included": false,
+    "device_identifiers_included": false,
+    "hash_meaning": "The artifact hashes identify retained historical files. They are not downloads, evidence of a reproducible rebuild, or measurements of a currently connected board."
+  },
+  "upstream_source": {
+    "project": "Cerelog ESP-EEG",
+    "commit": "af1a56e0127e71606afdc7e7ddf0ca831715e09c",
+    "sketch_url": "https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/af1a56e0127e71606afdc7e7ddf0ca831715e09c/firmware/other/V1_special_differential_fw/V1_special_differential_fw.ino",
+    "lineage": "Local compact adaptation of the previous 5 EMG / 2 EOG / 1 ALS build; not unmodified vendor firmware."
+  },
+  "offline_build_2026_10_19": {
+    "qualification": "PASS_OFFLINE_REVIEW_ONLY",
+    "tests_passed": 43,
+    "test_failures": 0,
+    "hardware_used": false,
+    "flashed_during_this_build": false,
+    "toolchain": {
+      "arduino_cli": "1.5.1",
+      "esp32_core": "3.3.12",
+      "fqbn": "esp32:esp32:esp32da:UploadSpeed=115200",
+      "program_bytes_reported": 280988,
+      "static_ram_bytes_reported": 22780
+    },
+    "interpretation": "Program-storage usage reported by the compiler differs from the size of the emitted application image."
+  },
+  "off_body_flash_and_readback_2026_10_20": {
+    "scope": "One historical board, with no person connected. An application write and independent full readback were performed; full-device backups are private.",
+    "application_sha256": "bf13f11ac9a36be9d1cb64133f895a78c9fcc345f13932a4f5b2f7e051b2122f",
+    "application_only_write": true,
+    "written_application_bytes": 281136,
+    "independent_full_readback_verified": true,
+    "sector_padding_verified": true,
+    "outside_written_sectors_unchanged": true,
+    "configuration_readback_passed": true,
+    "capture_seconds": 30.0,
+    "accepted_records": 29792,
+    "runtime_corruption_discarded_bytes": 0,
+    "recovery_events": 0,
+    "closed_capture_replay": "CLOSED_EVIDENCE_REPLAY_AGREES",
+    "exact_missing_samples": null,
+    "exact_loss_percentage": null,
+    "interpretation": "The 15 observed timestamp gaps and the 2 ms largest forward step are device-clock observations, not exact lost-sample counts. Zero observed corruption is not proof of zero loss.",
+    "device_timestamp_gap_observations": 15,
+    "largest_forward_device_delta_ms": 2
+  },
+  "workbench_build_2026_10_31": {
+    "version": "Public Alpha 11.10.0",
+    "identity": "cerelog_v1_emg3_eog2_als1_1k",
+    "qualification": "PASS_SCOPED_WORKFLOW_QUALIFICATION",
+    "offline_cerelog_cases_public_edition": 182,
+    "separate_closed_capture_replay_accepted_records": 89752,
+    "release_qualification_record": "app/deployment/validation/ALPHA_11_10_0_BUILD.json",
+    "build_report_url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md",
+    "scope": "These are connector and replay checks; no live hardware session or reflash was performed by the build."
+  },
+  "dual_als_preparation_2026_11_01": {
+    "firmware_changed": false,
+    "hardware_access": false,
+    "live_recording_started": false,
+    "scope": "Host-side study preparation using the unchanged compact firmware. This preparation record is not a simultaneous physical timing result."
+  },
+  "not_established": [
+    "Electrical safety or general participant-use clearance",
+    "Physiological signal quality or source specificity",
+    "Long-duration transport stability or exact sample loss",
+    "Validated physical Cerelog/Cyton synchronization",
+    "Confirmatory gamma or other physiological endpoint validity"
+  ],
+  "source_record_fingerprints": {
+    "algorithm": "SHA-256 of the original record file bytes; references to retained records, not attached logs or recordings.",
+    "records": [
+      {
+        "scope": "offline_build_provenance",
+        "filename": "provenance_manifest.json",
+        "sha256": "a62ce2dbc0501a4d3f9b3ac661dbf9912974b58f76a586ff25f37894c8688238"
+      },
+      {
+        "scope": "offline_independent_review",
+        "filename": "independent_review.json",
+        "sha256": "178908657ee66641fdeb67d394c7c43df070c97ffc5beff699805f586cd36e1a"
+      },
+      {
+        "scope": "offline_compile_output",
+        "filename": "compile.log",
+        "sha256": "6325324ef150056fe8fa7b3e3d3ea3709d4c0bf1d2043267de9c0c707b4f85aa"
+      },
+      {
+        "scope": "application_flash_readback",
+        "filename": "flash_verified.json",
+        "sha256": "9801b445d625715874c8be7c894707e8dc51eba071b55dad47da53444911ea2f"
+      },
+      {
+        "scope": "off_body_check",
+        "filename": "session_result.json",
+        "sha256": "75d9876479b207a8b626cc2cc74a2e892bc23b046c42927d87d9db1c0e9b8505"
+      },
+      {
+        "scope": "dual_als_preparation",
+        "filename": "preparation.json",
+        "sha256": "7df712aa6704cc6b25fcaa5b5a803e76115b792ca8ed3e3e6e4b09308416cc50"
+      },
+      {
+        "scope": "public_workbench_qualification",
+        "filename": "ALPHA_11_10_0_BUILD.json",
+        "sha256": "bc8fdc82dbba14d0605271965a5c9b44fb5262b6fd5317f1aee3ef6e3d2b741c"
+      },
+      {
+        "scope": "public_workbench_build_report",
+        "filename": "BUILD_REPORT.md",
+        "sha256": "ca7afb849fdb90652971910c985c0adaa6a51eb5ae4e480ed16724451c98eb91"
+      }
+    ]
+  }
+}

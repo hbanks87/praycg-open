@@ -1,0 +1,138 @@
+{
+  "schema": "PRAYCG_CerelogCompactPublicProfile_v1",
+  "record_type": "Reference profile; does not install firmware or authorize acquisition.",
+  "firmware_identity": "CERELOG_V1_EMG3_EOG2_ALS1_1K_V1",
+  "workbench": {
+    "edition": "PUBLIC",
+    "version": "11.10.0",
+    "module_id": "cerelog_v1_emg3_eog2_als1_1k",
+    "archive_url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_Workbench_Public_Alpha_11_10_0.zip",
+    "contract_path_in_release_folder": "app/config/hardware/cerelog_v1_emg3_eog2_als1_1k.json",
+    "contract_sha256": "0eada3845028b94e18c1968c94c28f17965910fcea304ab9551503e197ea12d0",
+    "connector_guide_path_in_release_folder": "app/tools/Acquisition/Cerelog_V1_EMG_EOG_ALS_v1_0/COMPACT_WORKBENCH.md"
+  },
+  "signal_format": {
+    "adc": "ADS1299 (8-channel ID 0x3E)",
+    "nominal_sample_rate_hz": 1000,
+    "nominal_reference_volts": 4.5,
+    "reference_calibrated": false,
+    "stream_baud": 460800,
+    "frame_bytes": 37,
+    "wire_slots": 8,
+    "raw_count_format": "signed 24-bit",
+    "active_inputs": 6,
+    "channels": [
+      {
+        "wire_slot": 1,
+        "name": "Unused",
+        "role": "disabled",
+        "active": false,
+        "gain": 1,
+        "scaled_unit": null
+      },
+      {
+        "wire_slot": 2,
+        "name": "Unused",
+        "role": "disabled",
+        "active": false,
+        "gain": 1,
+        "scaled_unit": null
+      },
+      {
+        "wire_slot": 3,
+        "name": "Left temporalis",
+        "role": "EMG",
+        "active": true,
+        "gain": 24,
+        "scaled_unit": "uV"
+      },
+      {
+        "wire_slot": 4,
+        "name": "Right temporalis",
+        "role": "EMG",
+        "active": true,
+        "gain": 24,
+        "scaled_unit": "uV"
+      },
+      {
+        "wire_slot": 5,
+        "name": "Light sensor",
+        "role": "ALS",
+        "active": true,
+        "gain": 1,
+        "scaled_unit": "V"
+      },
+      {
+        "wire_slot": 6,
+        "name": "Right frontalis",
+        "role": "EMG",
+        "active": true,
+        "gain": 24,
+        "scaled_unit": "uV"
+      },
+      {
+        "wire_slot": 7,
+        "name": "Horizontal eye movement",
+        "role": "EOG",
+        "active": true,
+        "gain": 24,
+        "scaled_unit": "uV"
+      },
+      {
+        "wire_slot": 8,
+        "name": "Left-eye vertical movement",
+        "role": "EOG",
+        "active": true,
+        "gain": 24,
+        "scaled_unit": "uV"
+      }
+    ],
+    "disabled_slot_policy": "Retain raw counts. Scaled values and rail totals are null; disabled inputs are not physiological zeroes."
+  },
+  "register_checks": {
+    "readback_required": true,
+    "active_hardware_channels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "disabled_hardware_channels": [
+      1,
+      2
+    ],
+    "bias_driver": "off",
+    "srb1": "off",
+    "srb2": "off",
+    "lead_off_currents": "off",
+    "identity_check": "The connector requires the compact firmware identity and matching register readback. This is not a cryptographic check of installed firmware bytes."
+  },
+  "timing": {
+    "method": "device_ms_first_host_arrival_anchor",
+    "device_sequence_counter": false,
+    "exact_missing_sample_count": null,
+    "absolute_alignment_uncertainty_seconds": null,
+    "cross_device_hardware_sync_verified": false,
+    "interpretation": "Device millisecond timestamps are not ADC sample ticks. Gaps are preserved; exact loss is unknown."
+  },
+  "managed_route": {
+    "connection_modes": [
+      "off-body",
+      "experimental-on-body"
+    ],
+    "physical_validation": "PROVISIONAL_FUNCTIONAL_EVIDENCE",
+    "participant_route": "EXPERIMENTAL_PARTICIPANT only under the Workbench admission checks; not generally approved for human-connected recording.",
+    "optional_lsl_streams": [
+      "CerelogCompactEMG",
+      "CerelogCompactEOG",
+      "CerelogCompactALS",
+      "CerelogCompactTiming",
+      "CerelogCompactTransportEvents"
+    ],
+    "automatically_reconnects": false,
+    "flashes_firmware": false
+  },
+  "firmware_distribution": "The hardware profile and evidence are provided here; the sketch and compiled firmware are withheld. See VERIFICATION.json for historical artifact names, sizes and SHA-256 values."
+}
