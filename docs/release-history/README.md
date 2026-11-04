@@ -1,11 +1,12 @@
 # Release history
 
-**Current public release: [Public Alpha 11.9.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2)**, published October 23, 2026. Use the named Workbench ZIP and its matching checksum or signed updater companion. Start with [installation](../../workbench/docs/installation.md) for current instructions.
+**[Current public release, Public Alpha 11.10.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0)**. Use the named Workbench ZIP and matching checksum. The [installation guide](../../workbench/docs/installation.md) covers manual installation and the signed companion required by Settings → Updates.
 
 ## Public releases and exact documentation
 
 | Release | Main change | Preserved documents |
 | --- | --- | --- |
+| [11.10.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) | Compact Cerelog acquisition, passive dual-ALS timing review and the multi-visit Decoder Gate behavioral pilot | [Workflow guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md) |
 | [11.9.2](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) | Results refresh reliability; cumulative protocol-evidence, guided-workspace and integration additions since 11.6 | [Release guide and package snapshot](../../workbench/docs/releases/alpha-11.9.2/README.md) |
 | [11.6.0 Revision 1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.6.0) | Processing comparisons, paired CAI/SID, report coverage and Windows startup-check correction | [Release guide and package snapshot](../../workbench/docs/releases/alpha-11.6.0/README.md) |
 | [11.4.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.4.1) | Optical method credits and attribution correction | [Release guide](../../workbench/docs/releases/alpha-11.4.1/README.md) · [correction evidence](../attribution/alpha-11.4.1/README.md) |
@@ -22,8 +23,8 @@ This is a selected reading index. [All GitHub releases](https://github.com/hbank
 - [Historical application releases](../../archive/software/releases/), including Alpha 10.0.4, Alpha 9, v0.95, v0.92 and earlier material.
 - [Older component collections](../../archive/software/components/) and [older operating guides](../../archive/workbench-guides/).
 - [Detailed v0.62–v0.95 release notes](original-docs/PRAYCG_ControlCenter_v0_62_to_v0_95_Detailed_Release_Notes.md).
-- [Previous root navigation](../project-history/original-root/) and [October 25 navigation snapshot](../reorganization/navigation-2026-10-25/README.md).
+- [Previous root navigation](../project-history/original-root/) and [October 25 navigation snapshot](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/navigation-2026-10-25/README.md).
 
-Every snapshot keeps its own version, claims and evidence limits. Consult the [original-file locator](../reorganization/original-file-index.md) for former paths. This documentation reorganization does not rebuild or retag an application release.
+Every snapshot keeps its own version, claims and evidence limits. Consult the [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md) for former paths. This documentation reorganization does not rebuild or retag an application release.
 
 [Sources and history](../README.md) · [Workbench user guide](../../workbench/README.md)
