@@ -1,8 +1,8 @@
 # Original eleven stimulus masters
 
-**Availability for Public Workbench 11.9.2:** the [optional installer](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) connects the exact seven-film archive to a separate original Lantern companion. The default offers eight master choices across two verified packages. This does not expand redistribution permission for the four excluded editions. Final remote publication verification is recorded with the [combined release update](../../docs/updates/2026-10-14-public-workflow-release.md).
+**Availability for Public Workbench 11.10.0:** the [optional installer](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) connects the exact seven-film archive to a separate original Lantern companion. The default offers eight master choices across two verified packages. This does not expand redistribution permission for the four excluded editions. Final remote publication verification is recorded with the [combined release update](../../docs/updates/2026-10-14-public-workflow-release.md).
 
-The original eleven-film screening-master set is available locally and has been preserved in a complete **local-review companion archive**. A separate seven-film companion preserves the subset with recorded redistribution review. The seven-film package is now published with the 11.2.2 media release and remains the installer target for 11.9.2. The full eleven-film companion remains local-review material. Neither film package is embedded in the application ZIP.
+The original eleven-film screening-master set is available locally and has been preserved in a complete **local-review companion archive**. A separate seven-film companion preserves the subset with recorded redistribution review. The seven-film package is now published with the 11.2.2 media release and remains the installer target for 11.10.0. The full eleven-film companion remains local-review material. Neither film package is embedded in the application ZIP.
 
 These are the existing standardized screening masters: 1920×1080 padded, 24 fps CFR, H.264/yuv420p and AAC 48 kHz stereo. They are distinct from the upstream source encodes, the Workbench's procedural demonstrations and the separate Lantern Bridge demo. Packaging preserves their bytes; it does not re-encode or retroactively repair them.
 
@@ -10,12 +10,12 @@ The [metadata catalog](catalog.json) records all eleven original filenames, size
 
 ## Download the public packs
 
-The [current Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) now carries both optional packs and each matching manifest/checksum:
+The [current Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) now carries both optional packs and each matching manifest/checksum:
 
-- [Seven original film masters](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.9.2/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip).
-- [Original Lantern Bridge installer pack](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.9.2/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip).
+- [Seven original film masters](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip).
+- [Original Lantern Bridge installer pack](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip).
 
-Use the matching manifest and checksum from the release Assets. The installed Workbench continues to use the verified 11.2.2 source URLs; the added 11.9.2 attachments contain identical bytes. The [release companion workflow](../../docs/release-history/stimulus-companions.md) carries these six files with future published public Workbench releases and supports filling an existing release. It does not include the four editions whose redistribution remains unresolved.
+Use the matching manifest and checksum from the release Assets. The installed Workbench continues to use the verified 11.2.2 source URLs; the 11.10.0 attachments contain the same bytes. The [release companion procedure](../../docs/release-history/stimulus-companions.md) describes how to attach and verify all six files for each public Workbench release. It does not include the four editions whose redistribution remains unresolved.
 
 ## Prepared companions
 
