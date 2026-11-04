@@ -1,6 +1,6 @@
 # Hardware and recording support
 
-**Maintained guide · Public Alpha 11.9.2 · reviewed 2026-10-25.** Current software behavior is described in the [11.9 integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md); the [build report](releases/alpha-11.9.2/package/BUILD_REPORT.md) records the checks actually completed. Neither replaces a route's physical evidence.
+**Maintained guide · Public Alpha 11.10.0 · reviewed 2026-11-04.** The [Cerelog and Decoder Gate workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) describes compact acquisition. The [11.10.0 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md) records the checks performed. The [11.9 integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md) retains the earlier route history.
 
 ## Before recording
 
@@ -34,10 +34,10 @@ Athena's separate raw Optical stream must be selected in LabRecorder for later o
 | OpenMuse, Pupil Core/Neon and OpenViBE publishers | Manage the publisher separately, inspect the actual outlet and retain its version and metadata. Keep EEG and auxiliary stream identities distinct. |
 | OpenBCI, Polar RR, Vernier and generic LSL | Apply the selected profile's readiness, identity, units and timing requirements. |
 | Cerelog five-EMG/two-EOG/ALS | The off-body bench route and bounded experimental participant-pilot route are separate. The pilot requires its own fresh confirmations and recording controls; it is not a safety qualification. Follow the [11.6 pilot workflow](releases/alpha-11.9.2/package/WORKFLOW_COMPLETION_11_6.md#cerelog-experimental-pilot). |
-| Compact Cerelog three-EMG/two-EOG/ALS | The [compact capture review](releases/alpha-11.9.2/package/INTEGRATION_11_9.md#compact-cerelog-capture-review) reads a closed standalone capture and can explicitly export a new derivative. This review action does not open a serial port, flash firmware, record, publish LSL or manufacture an XDF. Live acquisition remains in its separately reviewed standalone tool. |
+| Compact Cerelog three-EMG/two-EOG/ALS | Select the compact 1,000 Hz route, confirm the `CERELOG_V1_EMG3_EOG2_ALS1_1K_V1` identity and register readback, then open the connector in **Connect & Launch**. Use LabRecorder for the multimodal study XDF. [Compact profile and evidence](../../hardware/cerelog-emg-als/3%20EMG%20%2B%202%20EOG%20%2B%20ALS-PT19/README.md) · [11.10.0 recording instructions](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) |
 | Cerelog 16 | Withheld/catalog candidate: exact firmware, transport, scaling, timing and physical contract remain unresolved. |
 
-The compact and five-EMG Cerelog layouts are different routes. Physical response, temple leads, eye cross-axis response, rail events and cross-device timing still need physical validation. Preserve the actual layout and capture identity with any result.
+Preserve the exact Cerelog layout and capture identity with each result. The compact route has provisional functional evidence. Electrical safety, amplitude calibration and simultaneous physical Cyton/Cerelog timing require separate qualification. To review a closed standalone capture, follow the [retained compact review workflow](releases/alpha-11.9.2/package/INTEGRATION_11_9.md#compact-cerelog-capture-review).
 
 ## Review the recording
 
