@@ -1,12 +1,12 @@
 # Workbench development
 
-The current Public Alpha 11.9.2 application source is inside the named Workbench ZIP on the [11.9.2 release page](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2). Read its [build scope](../docs/releases/alpha-11.9.2/package/BUILD_REPORT.md) and preserve its archive checksum before making a development copy. This repository publishes release documentation and archives; this directory provides development guidance rather than a separate maintained extracted application source tree.
+The Public Alpha 11.10.0 application source is inside **PRAYCG_Workbench_Public_Alpha_11_10_0.zip**. Verify the archive checksum before making a development copy. Read the build report for the tested scope. [11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md)
 
 Extract the complete package into a new local development folder. Its `app/` directory contains the Control Center, tools, configuration, documentation and deployment resources. Keep the public launchers beside that directory, and follow the [installation guide](../docs/installation.md). `START.bat` and `START_PRAYCG.bat` are supported entry points. Core, Live Monitor and Hardware Connectors use separate release-local environments; optional Zuna is installed separately.
 
 ## Publish stimulus companions
 
-Follow the [public stimulus release policy](../../docs/release-history/stimulus-companions.md). The release workflow attaches the verified seven-film and original Lantern packs, with their manifests and checksums, to published public Workbench releases. A release created using another workflow's `GITHUB_TOKEN` must explicitly invoke or dispatch the helper as described there. Verify the six attachments before treating release publication as complete.
+Attach the seven-film and original Lantern ZIPs with their two manifests and two checksums to every public Workbench release. Verify all six asset names, byte counts and SHA-256 values against the 11.2.2 source release. [Public stimulus release procedure](../../docs/release-history/stimulus-companions.md)
 
 ## Preserve the starting point
 
