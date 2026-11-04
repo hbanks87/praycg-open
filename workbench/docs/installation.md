@@ -1,6 +1,16 @@
 # Installation and first launch
 
-## Public Alpha 11.9.2
+## Public Alpha 11.10.0
+
+1. Download **PRAYCG_Workbench_Public_Alpha_11_10_0.zip** and its matching `.zip.sha256` file from the [11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0). The archive is 45,117,990 bytes and its SHA-256 is `025b328a894247eef94b928d07f875b15a5c90d959721c58ca6861ec424512be`.
+2. Finish acquisition, stop and save LabRecorder, and close the running Workbench. Extract the ZIP into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, run the outer `INSTALL.bat`, then `START.bat`.
+3. Reopen the existing Study Workspace and verify its recording, external application and shared Zuna paths. Keep the existing installations and referenced model/runtime folders.
+
+For **Settings → Updates**, the Public updater requires the signed `PRAYCG_Workbench_Public_Alpha_11_10_0.zip.update.json` companion for this exact archive. For a local import, put the ZIP and its companion in the same folder. Consult the release notes for publication-time updater verification. [Packaged installation guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/INSTALL_WORKFLOW.md)
+
+Choose `INSTALL_STIMULUS_PACKAGE.bat` to add the seven-film collection and original Lantern Bridge. The installer uses the pinned 11.2.2 URLs. The current release also offers copies with matching manifests and checksums. [Stimulus catalog](../../examples/stimulus-masters/README.md) · [Compact Cerelog and Decoder Gate instructions](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md)
+
+## Preserved Public Alpha 11.9.2 installation
 
 Download the complete [Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2), using **PRAYCG_Workbench_Public_Alpha_11_9_2.zip** and its checksum. The [current packaged installation guide](releases/alpha-11.9.2/package/INSTALL_WORKFLOW.md), [guided workspace](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md) and [integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md) provide the version-specific instructions. GitHub's generated source archives are not application installers.
 
