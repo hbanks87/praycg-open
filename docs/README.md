@@ -30,13 +30,13 @@ Alternate formats and separately located duplicate originals are intentionally r
 
 ## Releases, citations and provenance
 
-- [Release history](release-history/README.md): current download, previous public releases and exact documentation snapshots.
+- [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and [release history](release-history/README.md) provide the application, versioned guides and build evidence.
 - [Current attribution guide](attribution/README.md), [master attribution](../CITATIONS_AND_ATTRIBUTION.md), [bibliography](../research/bibliography/README.md) and [third-party notices](../THIRD_PARTY_NOTICES/README.md): method references and upstream credits.
 - [Optical-credit correction record](attribution/alpha-11.4.1/README.md): the versioned correction, companion guide and supporting evidence.
-- [Original-file locator](reorganization/original-file-index.md): maps paths from the earlier repository layout to preserved destinations.
-- [Original migration ledger](reorganization/FILE_MIGRATION_LEDGER.json): the earlier reorganization's per-file identity record.
-- [Current link repairs and preservation](reorganization/link-repair-2026-10-26/README.md): restored historical companions, the latest link audit and preserved guide versions.
-- [25 October navigation audit](reorganization/navigation-2026-10-25/README.md): the earlier baseline, previous navigation pages and historical findings before these repairs.
+- [Original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md): maps paths from the earlier repository layout to preserved destinations.
+- [Original migration ledger](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/FILE_MIGRATION_LEDGER.json): the earlier reorganization's per-file identity record.
+- [26 October link repairs and preservation](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/link-repair-2026-10-26/README.md): restored historical companions, the audit from that date and preserved guide versions.
+- [25 October navigation audit](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/navigation-2026-10-25/README.md): the earlier baseline, previous navigation pages and historical findings before these repairs.
 - [Project vision](project-vision.md) and [research roadmap](../research/roadmap.md): proposed directions, separate from completed work.
 
 ## Document status
