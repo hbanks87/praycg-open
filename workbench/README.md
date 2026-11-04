@@ -4,7 +4,7 @@ PRAYCG Workbench is local-first research software for preparing studies, recordi
 
 ## Get the current public version
 
-Download **PRAYCG_Workbench_Public_Alpha_11_9_2.zip** from the [Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2). Extract it into a new folder, run `INSTALL.bat`, then `START.bat`. GitHub's automatic source archives are repository snapshots; use the named Workbench asset for the application.
+Download **PRAYCG_Workbench_Public_Alpha_11_10_0.zip** from the [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0). Verify its checksum, extract it into a new folder, run `INSTALL.bat`, then `START.bat`.
 
 For requirements, verification, existing installations and update recovery, follow the [installation guide](docs/installation.md).
 
@@ -18,7 +18,7 @@ For requirements, verification, existing installations and update recovery, foll
 | Run analysis and interpret its evidence | [Analysis and interpretation](docs/analysis.md) |
 | Resolve installation, recording or analysis problems | [Troubleshooting](docs/troubleshooting.md) |
 
-These maintained guides describe Public Alpha 11.9.2. Keep the exact software version with a study. The [11.9.2 release archive](docs/releases/alpha-11.9.2/README.md) preserves the shipped documentation and build evidence; [release history](../docs/release-history/README.md) provides earlier versions.
+The study, analysis and troubleshooting guides describe the workflows documented through 11.9.2. For compact Cerelog recording, dual light-sensor timing review and Decoder Gate visits in 11.10.0, follow the [Cerelog and Decoder Gate guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md). Keep the software version with each study. [11.9.2 package archive](docs/releases/alpha-11.9.2/README.md) · [Release history](../docs/release-history/README.md)
 
 ## Materials, research and hardware
 
@@ -29,6 +29,6 @@ These maintained guides describe Public Alpha 11.9.2. Keep the exact software ve
 
 ## Changes and project records
 
-Read the [changelog](CHANGELOG.md) for changes and the [11.9.2 build report](docs/releases/alpha-11.9.2/package/BUILD_REPORT.md) for checks actually completed. A successful software check is not hardware qualification or scientific validation.
+Read the [changelog](CHANGELOG.md) for changes and the [11.10.0 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md) for checks actually completed. A successful software check is not hardware qualification or scientific validation.
 
 [Development](development/README.md) · [Roadmap](roadmap.md) · [Citations and attribution](../CITATIONS_AND_ATTRIBUTION.md) · [Contributing](../CONTRIBUTING.md) · [Research disclaimer](../DISCLAIMER.md) · [License](../LICENSE.md) · [Repository home](../README.md)

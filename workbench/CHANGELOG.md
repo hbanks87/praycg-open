@@ -1,5 +1,14 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.10.0 — compact Cerelog and Decoder Gate
+
+- Adds managed acquisition for the compact Cerelog profile with three EMG, two EOG and one ALS channel at 1,000 Hz. The experimental participant route records transport faults and supports separately selected companion devices.
+- Adds passive comparison of two light-sensor clocks using matched events and held-out checks. Simultaneous physical Cyton/Cerelog timing qualification remains open.
+- Adds the multi-visit Reading, Attention and Memory — Decoder Gate Pilot with a behavioral runner, interrupted-visit recovery, response-save retries and reviewed manual scoring. Behavioral reports can be created without an XDF. Private study bundles preserve source identity when reopened.
+- Adds versioned evidence exports for Cerelog and Decoder Gate that omit raw telemetry and written answers.
+
+The Public build records **1,028 selected checks passed and one Windows directory-symlink check skipped**. Separate evidence covers closed-capture replay, synthetic timing checks and a scripted behavioral walkthrough. See the build report for the scope of those checks. [Public release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) · [Packaged changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md)
+
 ## Public Alpha 11.9.2 — Results reliability and guided research workflows
 
 [Published release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2), including the cumulative 11.7, 11.8 and 11.9 changes since the prior public 11.6.0 Revision 1 release. Download **PRAYCG_Workbench_Public_Alpha_11_9_2.zip**.
