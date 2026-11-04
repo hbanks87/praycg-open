@@ -1,6 +1,6 @@
 # Attribution guide
 
-**Current application: Public Alpha 11.9.2. Guidance reviewed 26 October 2026.**
+**Current application: Public Alpha 11.10.0. Release comparison: 3 November 2026.**
 
 Use this guide to find the references for the software, methods and materials actually used in a study. The [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md) contains the project citation and retained source reviews; the [research bibliography](../../research/bibliography/README.md) supplies method and software references.
 
@@ -8,12 +8,15 @@ Use this guide to find the references for the software, methods and materials ac
 
 | Record | Purpose and scope |
 | --- | --- |
+| [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and [Cerelog / Decoder Gate guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) | Current software citation, compact connector provenance and new behavioral pilot. Cite the actual profile, protocol revision and release. |
 | [Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) | The application ZIP, checksum, updater companion and separately published attribution guide. Cite the version actually used. |
 | [11.9.2 source manifest](../../workbench/docs/releases/alpha-11.9.2/SOURCE_MANIFEST.json) and [build report](../../workbench/docs/releases/alpha-11.9.2/package/BUILD_REPORT.md) | Exact release identity and stated software checks; neither is a complete scholarly or transitive-license audit. |
-| [Expanded optical and upstream attribution guide](alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md) | The 11.4.1 correction and full NeuroKit2, MNE/EEGLAB, ASRpy, ICLabel, Pycrostates and SPAR-EEG references. The same guide is a separate 11.9.2 release asset; it is not inside the 11.9.2 ZIP. |
+| [Expanded optical and upstream attribution guide](alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md) | The 11.4.1 correction and full NeuroKit2, MNE/EEGLAB, ASRpy, ICLabel, Pycrostates and SPAR-EEG references. The same guide is a separate download for both 11.9.2 and 11.10.0; neither application ZIP embeds it. |
 | [11.4.1 correction evidence](alpha-11.4.1/README.md) | The original optical-credit fix, selected registry/source snapshot and its evidence boundaries. |
 | [11.2.2 supplement](alpha-11.2.2/README.md) and [11.2.1 source review](alpha-11.2.1/README.md) | Earlier release and dependency reviews. Their statements about absent routes and inspected versions remain historical. |
 | [Third-party notices](../../THIRD_PARTY_NOTICES/README.md) | Upstream rights and notices, distinct from bibliographic references. Preserve notices with redistributed components. |
+
+The 11.10.0 active credit registry, packaged master citation file and all 234 bundled third-party notice files match 11.9.2 byte for byte. The new Decoder Gate protocol credits Hoyt Banks for the October 30, 2026 PRAYCG pilot design. The compact Cerelog connector records its source files and adaptations in `compact_backend/PORT_PROVENANCE.json`; use the [bibliography](../../research/bibliography/README.md#public-alpha-11100-citation-scope) for the in-archive paths. This comparison does not resolve the pending protocol-evidence method credits or revisit the licenses of every dependency.
 
 The checked 11.9.2 ZIP is **44,734,605 bytes**, SHA-256 `b63a7f071e243d0d3a09a77600387d9c4082148c33f4aae68bff21af0446324c`. The focused review inspected its active `app/config/attribution_registry_v1.json`, selected Signal Review sources and method inventories, Core requirements and optional Signal Extras requirements. The registry SHA-256 is `4f25e299a0fcf7135183354b7471c8a2ce8fbaed48d1b719e2450082fcf739fc`. This identifies the inspected record; it does not replace execution evidence.
 
@@ -29,7 +32,7 @@ The checked 11.9.2 ZIP is **44,734,605 bytes**, SHA-256 `b63a7f071e243d0d3a09a77
 
 Record the application edition/version and archive hash, locked protocol revision, source recording and actual installed software versions. Select references from the methods that completed and contributed to the report, retaining parameters, component availability, exclusions and any manual adoption decision. Planned, skipped, failed or unavailable analyses do not become executed methods because their names appear in a registry.
 
-The 11.9.2 registry contains `protocol_evidence_v1_0` with no method-level entries and the explicit state `MODULE_REGISTERED_METHOD_LEVEL_ATTRIBUTION_REVIEW_PENDING`. Its static import declaration is not complete automatic credit coverage. Preserve the protocol's original sources and per-result method descriptions and review the resulting Methods and Credits before publication.
+The identical 11.9.2 and 11.10.0 registries contain `protocol_evidence_v1_0` with no method-level entries and the explicit state `MODULE_REGISTERED_METHOD_LEVEL_ATTRIBUTION_REVIEW_PENDING`. Its static import declaration is not complete automatic credit coverage. Preserve the protocol's original sources and per-result method descriptions and review the resulting Methods and Credits before publication.
 
 For research definitions, cite the original document and exact method version. For reused stimuli, retain the [edition-specific media credits](../../examples/stimulus-masters/README.md). Original papers, older receipts, versioned reviews and license notices remain unchanged by this maintained guide.
 
