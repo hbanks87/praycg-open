@@ -1,8 +1,8 @@
 # Research bibliography and software credits
 
-**Current release review: Public Alpha 11.9.2, reviewed 26 October 2026.**
+**Current public release: Public Alpha 11.10.0. Release comparison: 3 November 2026.**
 
-The 11.9.2 section identifies the current citation scope. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
+The 11.10.0 section identifies the new study and connector sources. The 11.9.2 section preserves the method and software citation review of 26 October 2026. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
 
 The historical [Public Alpha 11.2.2 supplement](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-1122-release-supplement) carries these references forward where the actual code uses them and identifies the new workflow/rating-credit changes. The retained section preserves its 11.2.1 source-review scope; later additions do not turn it into a second independent source audit.
 
@@ -16,9 +16,16 @@ A study should identify its PRAYCG release and protocol revision, actual softwar
 
 The code paths in the retained 11.2.1 section below are relative to `app/` inside that inspected archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
 
+## Public Alpha 11.10.0 citation scope
+
+- **Behavioral protocol:** Banks, Hoyt. (2026, October 30). *Reading, Attention and Memory — Decoder Gate Pilot* (v1) [Local protocol design, `DecoderGate_Pilot_Pack_v1_20261030`]. The shipped `app/tools/ProtocolAtlas_ModuleLibrary_v2_0/protocols/Decoder_gate_behavioral_pilot_v1_0.json` identifies PRAYCG protocol development, project-generated fictional materials and the design's feasibility scope. This protocol is separate from the earlier Atlas task and simulation; its citation does not establish psychometric validity or a biological mechanism.
+- **Compact Cerelog acquisition:** Cite the [11.10.0 Workbench](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and record the actual `CERELOG_V1_EMG3_EOG2_ALS1_1K_V1` profile used. The file `app/tools/Acquisition/Cerelog_V1_EMG_EOG_ALS_v1_0/compact_backend/PORT_PROVENANCE.json` identifies six unchanged portable sources from the October 31, 2026 PRAYCG capture implementation, plus the adapted capture source and changes. This records software lineage, not a separate method paper or physical timing qualification.
+
+The active attribution registry matches the 11.9.2 registry, including its corrected optical entry and pending `protocol_evidence_v1_0` method coverage. The Core declarations for NeuroKit2, PyWavelets, mne-denoise and MNE, and the optional Signal Extras requirement file, retain their reviewed 11.9.2 values. Use the implementation-specific references below when those operations contributed to a result. The [expanded optical and upstream credits](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/ATTRIBUTION_ALPHA_11_4_1.md) are available alongside the ZIP.
+
 ## Public Alpha 11.9.2 citation scope
 
-The current [attribution guide](../../docs/attribution/README.md) records a focused check of the exact 11.9.2 archive. Its Core requirements still name NeuroKit2 0.2.13, PyWavelets 1.9.0 and mne-denoise 0.0.3. The optional Signal Extras requirements name ASRpy 0.0.8, MNE-ICALabel 0.10.0, Pycrostates 0.6.1 and eeglabio 0.1.2. Preserve the actual installed versions in each study; the Core MNE requirement is a range, whereas Signal Extras declares MNE 1.11.0.
+The [attribution guide](../../docs/attribution/README.md) records a focused check of the exact 11.9.2 archive. Its Core requirements still name NeuroKit2 0.2.13, PyWavelets 1.9.0 and mne-denoise 0.0.3. The optional Signal Extras requirements name ASRpy 0.0.8, MNE-ICALabel 0.10.0, Pycrostates 0.6.1 and eeglabio 0.1.2. Preserve the actual installed versions in each study; the Core MNE requirement is a range, whereas Signal Extras declares MNE 1.11.0.
 
 | Operation used | References and implementation identity |
 | --- | --- |
