@@ -4,9 +4,9 @@
 
 Use the Workbench to prepare studies, record supported streams, inspect signals and produce reviewable results. The research library contains the project's theories, protocols, methods and reproduction programs, with their original evidence and limitations.
 
-**[Download Public Workbench 11.10.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0)** · [Install or update](workbench/docs/installation.md) · [What changed](workbench/CHANGELOG.md)
+**[Download Public Workbench 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1)** · [Install or update](workbench/docs/installation.md) · [What changed](workbench/CHANGELOG.md)
 
-Download **PRAYCG_Workbench_Public_Alpha_11_10_0.zip** from Assets and verify its SHA-256 before extracting it into a new folder. The release includes compact Cerelog acquisition and the multi-visit Decoder Gate behavioral pilot. GitHub's automatically generated source archives contain this repository's research and documentation collection.
+Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** from Assets and verify its SHA-256 before extracting it into a new folder. This update lets you record the compact Cerelog and a 16-channel Cyton/Daisy together during an off-body equipment check. GitHub's automatically generated source archives contain this repository's research and documentation collection.
 
 ## Choose a path
 

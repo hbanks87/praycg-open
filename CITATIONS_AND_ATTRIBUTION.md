@@ -1,10 +1,10 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current public PRAYCG Workbench release: [Public Alpha 11.10.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0)**
+**Current public PRAYCG Workbench release: [Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1)**
 
-**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.10.0. Earlier source reviews retain their stated version and date.**
+**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.10.1. Earlier source reviews retain their stated version and date.**
 
-**Document revision:** 2.8 · **Updated:** 3 November 2026
+**Document revision:** 2.9 · **Updated:** 6 November 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -47,6 +47,8 @@ Revision 2.7 updated the software citation to Public Alpha 11.9.2 and records a 
 - [Document provenance](#document-provenance)
 
 ## How to cite PRAYCG and a study
+
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.10.1) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).
 
 For Public Alpha 11.10.0, cite the exact edition and release used:
 
