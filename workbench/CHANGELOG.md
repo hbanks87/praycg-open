@@ -1,5 +1,9 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.10.1 — combined off-body EEG and facial-signal recording
+
+A single Workbench check records the compact Cerelog’s three EMG channels, two EOG channels and light input alongside the Cyton/Daisy’s 16 EEG channels and D12 light input. The two sensors share a screen patch. The Workbench reopens the saved XDF for review. [Release notes](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/RELEASE_NOTES.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/BUILD_REPORT.md)
+
 ## Public Alpha 11.10.0 — compact Cerelog and Decoder Gate
 
 - Adds managed acquisition for the compact Cerelog profile with three EMG, two EOG and one ALS channel at 1,000 Hz. The experimental participant route records transport faults and supports separately selected companion devices.
