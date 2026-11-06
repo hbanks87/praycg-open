@@ -1,6 +1,6 @@
 # Workbench development
 
-The Public Alpha 11.10.0 application source is inside **PRAYCG_Workbench_Public_Alpha_11_10_0.zip**. Verify the archive checksum before making a development copy. Read the build report for the tested scope. [11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md)
+The Public Alpha 11.10.1 application source is inside **PRAYCG_Workbench_Public_Alpha_11_10_1.zip**. Verify the archive checksum before making a development copy. Read the build report for the tested scope. [11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/BUILD_REPORT.md)
 
 Extract the complete package into a new local development folder. Its `app/` directory contains the Control Center, tools, configuration, documentation and deployment resources. Keep the public launchers beside that directory, and follow the [installation guide](../docs/installation.md). `START.bat` and `START_PRAYCG.bat` are supported entry points. Core, Live Monitor and Hardware Connectors use separate release-local environments; optional Zuna is installed separately.
 
