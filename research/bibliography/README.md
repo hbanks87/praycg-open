@@ -1,6 +1,6 @@
 # Research bibliography and software credits
 
-**Current public release: Public Alpha 11.10.0. Release comparison: 3 November 2026.**
+**Current public release: [Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).**
 
 The 11.10.0 section identifies the new study and connector sources. The 11.9.2 section preserves the method and software citation review of 26 October 2026. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
 
@@ -15,6 +15,10 @@ This index connects PRAYCG's current integration code to upstream software and s
 A study should identify its PRAYCG release and protocol revision, actual software versions, selected algorithms and parameters, and the outputs that support its conclusions. Cite both an upstream implementation and its method paper where appropriate. An installed dependency, a candidate transform, a failed attempt and an adopted analysis are different facts. Retain applicable licenses as well as scholarly citations.
 
 The code paths in the retained 11.2.1 section below are relative to `app/` inside that inspected archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
+
+## Public Alpha 11.10.1 off-body recording
+
+For the combined Cerelog and Cyton/Daisy equipment check, record the Workbench release and cite the acquisition and recording tools used. The joint recorder uses LabRecorder to write the XDF. Its verifier calls `pyxdf.load_xdf` with clock synchronization and timestamp dejittering disabled. The joint-bench requirements pin pyxdf 1.17.5. [Acquisition and software credits](../../CITATIONS_AND_ATTRIBUTION.md#hardware-and-acquisition-credits) · [11.10.1 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/BUILD_REPORT.md)
 
 ## Public Alpha 11.10.0 citation scope
 
