@@ -1,6 +1,6 @@
 # Attribution guide
 
-**Current application: Public Alpha 11.10.0. Release comparison: 3 November 2026.**
+**Current application: [Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).**
 
 Use this guide to find the references for the software, methods and materials actually used in a study. The [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md) contains the project citation and retained source reviews; the [research bibliography](../../research/bibliography/README.md) supplies method and software references.
 
@@ -8,7 +8,8 @@ Use this guide to find the references for the software, methods and materials ac
 
 | Record | Purpose and scope |
 | --- | --- |
-| [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and [Cerelog / Decoder Gate guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) | Current software citation, compact connector provenance and new behavioral pilot. Cite the actual profile, protocol revision and release. |
+| [Public Alpha 11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) | The off-body recorder uses LabRecorder to save the XDF and pyxdf to reopen it. The [expanded attribution guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/ATTRIBUTION_ALPHA_11_4_1.md) carries forward the optical correction and upstream method credits. |
+| [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and [Cerelog / Decoder Gate guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) | 11.10.0 software citation, compact connector provenance and new behavioral pilot. Cite the actual profile, protocol revision and release. |
 | [Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) | The application ZIP, checksum, updater companion and separately published attribution guide. Cite the version actually used. |
 | [11.9.2 source manifest](../../workbench/docs/releases/alpha-11.9.2/SOURCE_MANIFEST.json) and [build report](../../workbench/docs/releases/alpha-11.9.2/package/BUILD_REPORT.md) | Exact release identity and stated software checks; neither is a complete scholarly or transitive-license audit. |
 | [Expanded optical and upstream attribution guide](alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md) | The 11.4.1 correction and full NeuroKit2, MNE/EEGLAB, ASRpy, ICLabel, Pycrostates and SPAR-EEG references. The same guide is a separate download for both 11.9.2 and 11.10.0; neither application ZIP embeds it. |
