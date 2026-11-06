@@ -8,24 +8,29 @@
       "filename": "Cerelog_V1_EMG3_EOG2_ALS1_1k.ino",
       "bytes": 14544,
       "sha256": "cb68b05fe71aee0ef2088d43f4d39968687bf1db103a5ca53cab8e2df16f55c1",
-      "distribution": "WITHHELD"
+      "distribution": "PUBLISHED",
+      "path": "source/Cerelog_V1_EMG3_EOG2_ALS1_1k/Cerelog_V1_EMG3_EOG2_ALS1_1k.ino"
     },
     {
       "kind": "Compiled application image (not a full-device image)",
       "filename": "Cerelog_V1_EMG3_EOG2_ALS1_1k.ino.bin",
       "bytes": 281136,
       "sha256": "bf13f11ac9a36be9d1cb64133f895a78c9fcc345f13932a4f5b2f7e051b2122f",
-      "distribution": "WITHHELD"
+      "distribution": "PUBLISHED",
+      "path": "firmware/Cerelog_V1_EMG3_EOG2_ALS1_1k.ino.bin"
     }
   ],
   "distribution": {
-    "folder_contains": "Documentation, reference profile, checksums and public evidence only.",
-    "firmware_source_included": false,
-    "compiled_firmware_included": false,
+    "folder_contains": "Exact historical sketch and application image, profile, checksums, public evidence and runtime notices.",
+    "firmware_source_included": true,
+    "compiled_firmware_included": true,
     "full_device_images_included": false,
     "raw_recordings_included": false,
     "device_identifiers_included": false,
-    "hash_meaning": "The artifact hashes identify retained historical files. They are not downloads, evidence of a reproducible rebuild, or measurements of a currently connected board."
+    "hash_meaning": "Hashes identify the published retained historical files. Modified relink verification images have their own hashes.",
+    "reviewed_on": "2026-11-06",
+    "review": "CERELOG_FIRMWARE_REDISTRIBUTION.md",
+    "source_and_relink_archive_url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/PRAYCG_Cerelog_Compact_Firmware_Source_and_Relink_20261106.zip"
   },
   "upstream_source": {
     "project": "Cerelog ESP-EEG",

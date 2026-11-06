@@ -1,0 +1,29 @@
+# Compact Cerelog V1 firmware credits and redistribution
+
+This record accompanies the PRAYCG `CERELOG_V1_EMG3_EOG2_ALS1_1K_V1` sketch and the 281,136-byte ESP32 application image with SHA-256 `bf13f11ac9a36be9d1cb64133f895a78c9fcc345f13932a4f5b2f7e051b2122f`.
+
+## Original firmware and PRAYCG changes
+
+**Copyright (c) 2025 Cerelog Inc.** The original acquisition firmware is Cerelog's V1 special differential sketch at commit `af1a56e0127e71606afdc7e7ddf0ca831715e09c`. Cerelog names MIT as the license for its firmware directory and expressly permits modification, publication and distribution. The permission paragraph ends with the literal placeholder `[Standard MIT License Text Continues...]`. The supplied file preserves the entire original notice, including that placeholder. The Open Source Initiative link provides the standard MIT conditions and warranty disclaimer for reference. [Original sketch](https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/af1a56e0127e71606afdc7e7ddf0ca831715e09c/firmware/other/V1_special_differential_fw/V1_special_differential_fw.ino) · [Original license](https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/af1a56e0127e71606afdc7e7ddf0ca831715e09c/LICENSE) · [Preserved license](runtime-notices/CERELOG_UPSTREAM_LICENSE.txt) · [Standard MIT license](https://opensource.org/license/mit)
+
+The PRAYCG project adapted the existing five-EMG firmware for three EMG channels, two EOG channels and one ambient-light channel. The compact revision disables CH1 and CH2, identifies its channel layout to the host and checks for the eight-channel ADS1299 at readback. The upstream firmware retains Cerelog's credit and terms. Cerelog's separate hardware and schematic terms apply to the materials identified in its license.
+
+## Source and relinking
+
+The image statically links the Arduino ESP32 core and SPI library from release 3.3.12. The SPI implementation credits Hristo Gochkov. The LGPL 2.1-or-later terms and the individual source headers travel with the corresponding source and relink package. Recipients may modify the PRAYCG portions for their own use and reverse engineer the application to debug those modifications, including when replacing the LGPL-covered library. The other components retain their respective terms. [Arduino ESP32 release and source](https://github.com/espressif/arduino-esp32/releases/tag/3.3.12) · [LGPL 2.1](runtime-notices/ARDUINO_ESP32_LGPL_2_1.md)
+
+The board package uses Espressif's prebuilt ESP32 SDK for ESP-IDF v5.5.5, revision `b774170ff46c393eeb5e495ea37936038d3f4f4f`. The SDK file for reproducing the historical build has SHA-256 `4efd0f654c860b018e0ca2f858042ea6a78d8c2d57eef790b0d480d63bb56edc`. Espressif publishes the SDK and separately provides the versioned IDF source including submodules. [Exact SDK](https://github.com/espressif/arduino-esp32/releases/download/3.3.12/esp32-libs-3.3.12.zip) · [ESP-IDF source and submodules](https://github.com/espressif/esp-idf/releases/tag/v5.5.5)
+
+## Runtime components in this image
+
+The archive and object inventory covers GNU linker-map input records with a positive size at addresses present in the six serialized ESP image segments. It records 45 distinct inputs and 336 object entries. The board package's version list includes optional components beyond these records. [Linked inputs](LINKED_INPUTS.json) · [Package versions](runtime-notices/BUILD_COMPONENT_VERSIONS.txt)
+
+| Component | Credit and terms |
+| --- | --- |
+| ESP-IDF system, drivers and supporting code | Espressif Systems and contributors. ESP-IDF's base license is Apache 2.0. Individual source notices apply, including the Linaro, Jiří Zárevúcky and Espressif notice for the UBSan code. [Apache 2.0](runtime-notices/ESP_IDF_APACHE_2_0.txt) · [Component notices](runtime-notices/COMPONENT_COPYRIGHT_NOTICES.txt) |
+| Radio coexistence support | Five member objects from Espressif's precompiled `libcoexist.a` contribute sections. The installed archive matches the ESP32 archive at the pinned upstream revision. It carries Apache 2.0. [Espressif coexistence library and license](https://github.com/espressif/esp-coex-lib/tree/79e618f033e926d134decc6d95bb1b1850bd032c) |
+| FreeRTOS, Xtensa and TLSF | The FreeRTOS kernel and Xtensa port credit Amazon, Cadence and Espressif. Xtensa libhal credits Tensilica. Their MIT notices accompany the image. Matthew Conte's TLSF allocator carries BSD-3-Clause. [Component notices](runtime-notices/COMPONENT_COPYRIGHT_NOTICES.txt) · [Xtensa libhal notice](runtime-notices/ESP_IDF_THIRD_PARTY_COPYRIGHT.rst) · [TLSF source](https://github.com/espressif/tlsf/tree/2867f6883a12920b1969ff9624c0ab0e4185c2ce) |
+| SHA and diagnostic hooks | The retained ESP32 SHA implementation credits the Mbed TLS Contributors, ARM Limited and Espressif under Apache 2.0. Two Espressif diagnostics objects come from the Apache-2.0 `esp_diagnostics` 1.3.4 component. [SHA source](https://github.com/espressif/esp-idf/tree/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/mbedtls/port/sha/parallel_engine) · [Diagnostics source](https://github.com/espressif/esp-insights/tree/e27601045e900786333a6c23ebfaf8b18925fa24/components/esp_diagnostics) |
+| C and C++ runtime | The Xtensa toolchain is Espressif's GCC 14.2.0 build `20260121`. The application includes Newlib C library objects and support from `libgcc` and `libstdc++`. The GCC Runtime Library Exception permits linking eligible target code with independent modules on their own applicable terms. [Toolchain release](https://github.com/espressif/crosstool-NG/releases/tag/esp-14.2.0_20260121) · [Newlib notices](runtime-notices/NEWLIB_COPYING.txt) · [GNU GPLv3](runtime-notices/GCC_GPL_3.txt) · [GCC Runtime Library Exception](runtime-notices/GCC_RUNTIME_EXCEPTION.txt) |
+
+Keep this record, the accompanying notices and the matching source and relink materials with further binary distributions.

@@ -1,0 +1,458 @@
+{
+  "application_sha256": "bf13f11ac9a36be9d1cb64133f895a78c9fcc345f13932a4f5b2f7e051b2122f",
+  "method": "GNU ld input-section records with positive allocated size entirely within the six serialized ESP image segments. Build paths, debug sections, BSS-only records, discarded sections and unreferenced archives were excluded.",
+  "segments": [
+    {
+      "start": "0x3f400020",
+      "end_exclusive": "0x3f40e278"
+    },
+    {
+      "start": "0x3ffbdb60",
+      "end_exclusive": "0x3ffbf8f8"
+    },
+    {
+      "start": "0x400d0020",
+      "end_exclusive": "0x400f2d88"
+    },
+    {
+      "start": "0x3ffbf8f8",
+      "end_exclusive": "0x3ffc1d94"
+    },
+    {
+      "start": "0x40080000",
+      "end_exclusive": "0x4008f7ac"
+    },
+    {
+      "start": "0x50000200",
+      "end_exclusive": "0x50000220"
+    }
+  ],
+  "inputs": {
+    "Cerelog_V1_EMG3_EOG2_ALS1_1k.ino.cpp.o": [
+      "Cerelog_V1_EMG3_EOG2_ALS1_1k.ino.cpp.o"
+    ],
+    "SPI.cpp.o": [
+      "SPI.cpp.o"
+    ],
+    "core.a": [
+      "Esp.cpp.o",
+      "FunctionalInterrupt.cpp.o",
+      "HardwareSerial.cpp.o",
+      "Print.cpp.o",
+      "Stream.cpp.o",
+      "WString.cpp.o",
+      "chip-debug-report.cpp.o",
+      "esp32-hal-bt.c.o",
+      "esp32-hal-cpu.c.o",
+      "esp32-hal-gpio.c.o",
+      "esp32-hal-matrix.c.o",
+      "esp32-hal-misc.c.o",
+      "esp32-hal-periman.c.o",
+      "esp32-hal-psram.c.o",
+      "esp32-hal-spi.c.o",
+      "esp32-hal-uart.c.o",
+      "main.cpp.o"
+    ],
+    "libapp_update.a": [
+      "esp_ota_ops.c.obj"
+    ],
+    "libbootloader_support.a": [
+      "bootloader_common_loader.c.obj",
+      "bootloader_efuse.c.obj",
+      "bootloader_flash.c.obj",
+      "bootloader_flash_config_esp32.c.obj",
+      "bootloader_mem.c.obj",
+      "bootloader_sha.c.obj",
+      "bootloader_utility.c.obj",
+      "esp_image_format.c.obj",
+      "flash_encrypt.c.obj"
+    ],
+    "libbt.a": [
+      "bt.c.obj",
+      "hli_api.c.obj",
+      "hli_vectors.S.obj"
+    ],
+    "libc.a": [
+      "libc_a-__atexit.o",
+      "libc_a-__call_atexit.o",
+      "libc_a-bzero.o",
+      "libc_a-cxa_atexit.o",
+      "libc_a-div.o",
+      "libc_a-dtoa.o",
+      "libc_a-envlock.o",
+      "libc_a-errno.o",
+      "libc_a-fclose.o",
+      "libc_a-fflush.o",
+      "libc_a-findfp.o",
+      "libc_a-flags.o",
+      "libc_a-fopen.o",
+      "libc_a-fprintf.o",
+      "libc_a-fseek.o",
+      "libc_a-fseeko.o",
+      "libc_a-fvwrite.o",
+      "libc_a-fwalk.o",
+      "libc_a-getenv.o",
+      "libc_a-getenv_r.o",
+      "libc_a-impure.o",
+      "libc_a-itoa.o",
+      "libc_a-locale.o",
+      "libc_a-localeconv.o",
+      "libc_a-makebuf.o",
+      "libc_a-mbtowc_r.o",
+      "libc_a-memchr.o",
+      "libc_a-memcmp.o",
+      "libc_a-memcpy.o",
+      "libc_a-memmove.o",
+      "libc_a-memset.o",
+      "libc_a-mprec.o",
+      "libc_a-on_exit_args.o",
+      "libc_a-printf.o",
+      "libc_a-puts.o",
+      "libc_a-qsort.o",
+      "libc_a-reent.o",
+      "libc_a-refill.o",
+      "libc_a-stdio.o",
+      "libc_a-strcat.o",
+      "libc_a-strchr.o",
+      "libc_a-strcmp.o",
+      "libc_a-strlcpy.o",
+      "libc_a-strlen.o",
+      "libc_a-strncmp.o",
+      "libc_a-strncpy.o",
+      "libc_a-strtoul.o",
+      "libc_a-svfiprintf.o",
+      "libc_a-svfprintf.o",
+      "libc_a-sysfcntl.o",
+      "libc_a-sysgettod.o",
+      "libc_a-utoa.o",
+      "libc_a-vfiprintf.o",
+      "libc_a-vfprintf.o",
+      "libc_a-vprintf.o",
+      "libc_a-vsnprintf.o",
+      "libc_a-wctomb_r.o",
+      "libc_a-wsetup.o",
+      "libm_a-s_frexp.o"
+    ],
+    "libcoexist.a": [
+      "coexist_api.o",
+      "coexist_core.o",
+      "coexist_dbg.o",
+      "coexist_hw.o",
+      "coexist_scheme.o"
+    ],
+    "libcxx.a": [
+      "cxx_guards.cpp.obj",
+      "cxx_init.cpp.obj"
+    ],
+    "libefuse.a": [
+      "esp_efuse_api.c.obj",
+      "esp_efuse_startup.c.obj",
+      "esp_efuse_utility.c.obj"
+    ],
+    "libesp_app_format.a": [
+      "esp_app_desc.c.obj"
+    ],
+    "libesp_coex.a": [
+      "esp_coex_adapter.c.obj",
+      "lib_printf.c.obj"
+    ],
+    "libesp_common.a": [
+      "esp_err_to_name.c.obj"
+    ],
+    "libesp_driver_gpio.a": [
+      "gpio.c.obj",
+      "rtc_io.c.obj"
+    ],
+    "libesp_driver_uart.a": [
+      "uart.c.obj",
+      "uart_vfs.c.obj"
+    ],
+    "libesp_hw_support.a": [
+      "brownout.c.obj",
+      "chip_info.c.obj",
+      "clk_utils.c.obj",
+      "cpu.c.obj",
+      "cpu_region_protect.c.obj",
+      "esp_clk.c.obj",
+      "esp_clk_tree.c.obj",
+      "esp_clk_tree_common.c.obj",
+      "esp_cpu_intr.c.obj",
+      "esp_gpio_reserve.c.obj",
+      "esp_memory_utils.c.obj",
+      "hw_random.c.obj",
+      "intr_alloc.c.obj",
+      "io_mux.c.obj",
+      "mspi_timing_tuning.c.obj",
+      "periph_ctrl.c.obj",
+      "regi2c_ctrl.c.obj",
+      "rtc_clk.c.obj",
+      "rtc_init.c.obj",
+      "rtc_module.c.obj",
+      "rtc_time.c.obj",
+      "sar_periph_ctrl.c.obj",
+      "sleep_gpio.c.obj",
+      "sleep_modes.c.obj",
+      "spi_bus_lock.c.obj",
+      "spi_share_hw_ctrl.c.obj"
+    ],
+    "libesp_mm.a": [
+      "cache_esp32.c.obj",
+      "esp_cache_msync.c.obj",
+      "esp_cache_utils.c.obj",
+      "esp_mmu_map.c.obj",
+      "ext_mem_layout.c.obj",
+      "heap_align_hw.c.obj"
+    ],
+    "libesp_partition.a": [
+      "partition.c.obj",
+      "partition_target.c.obj"
+    ],
+    "libesp_phy.a": [
+      "phy_override.c.obj"
+    ],
+    "libesp_psram.a": [
+      "esp_psram.c.obj",
+      "esp_psram_impl_quad.c.obj",
+      "esp_psram_mspi.c.obj"
+    ],
+    "libesp_ringbuf.a": [
+      "ringbuf.c.obj"
+    ],
+    "libesp_rom.a": [
+      "esp_rom_gpio.c.obj",
+      "esp_rom_sys.c.obj",
+      "esp_rom_uart.c.obj"
+    ],
+    "libesp_security.a": [
+      "init.c.obj"
+    ],
+    "libesp_system.a": [
+      "cache_err_int.c.obj",
+      "clk.c.obj",
+      "cpu_start.c.obj",
+      "crosscore_int.c.obj",
+      "debug_helpers.c.obj",
+      "debug_helpers_asm.S.obj",
+      "esp_err.c.obj",
+      "esp_ipc.c.obj",
+      "esp_ipc_isr.c.obj",
+      "esp_ipc_isr_handler.S.obj",
+      "esp_ipc_isr_port.c.obj",
+      "esp_ipc_isr_routines.S.obj",
+      "esp_system.c.obj",
+      "esp_system_chip.c.obj",
+      "freertos_hooks.c.obj",
+      "highint_hdl.S.obj",
+      "int_wdt.c.obj",
+      "panic.c.obj",
+      "panic_arch.c.obj",
+      "panic_handler.c.obj",
+      "panic_handler_asm.S.obj",
+      "reset_reason.c.obj",
+      "stack_check.c.obj",
+      "startup.c.obj",
+      "startup_funcs.c.obj",
+      "system_internal.c.obj",
+      "task_wdt.c.obj",
+      "task_wdt_impl_timergroup.c.obj",
+      "ubsan.c.obj"
+    ],
+    "libesp_timer.a": [
+      "esp_timer.c.obj",
+      "esp_timer_impl_common.c.obj",
+      "esp_timer_impl_lac.c.obj",
+      "esp_timer_init.c.obj",
+      "ets_timer_legacy.c.obj",
+      "system_time.c.obj"
+    ],
+    "libesp_vfs_console.a": [
+      "vfs_console.c.obj"
+    ],
+    "libesp_wifi.a": [
+      "wifi_init.c.obj"
+    ],
+    "libespcoredump.a": [
+      "core_dump_common.c.obj",
+      "core_dump_crc.c.obj",
+      "core_dump_elf.c.obj",
+      "core_dump_flash.c.obj",
+      "core_dump_init.c.obj",
+      "core_dump_port.c.obj"
+    ],
+    "libespressif__esp_diagnostics.a": [
+      "esp_diagnostics_log_hook.c.obj",
+      "esp_diagnostics_utils.c.obj"
+    ],
+    "libfreertos.a": [
+      "app_startup.c.obj",
+      "heap_idf.c.obj",
+      "idf_additions.c.obj",
+      "list.c.obj",
+      "port.c.obj",
+      "port_common.c.obj",
+      "port_systick.c.obj",
+      "portasm.S.obj",
+      "queue.c.obj",
+      "tasks.c.obj",
+      "timers.c.obj",
+      "xtensa_init.c.obj"
+    ],
+    "libgcc.a": [
+      "lib2funcs.o",
+      "unwind-dw2-fde.o",
+      "unwind-dw2-xtensa.o"
+    ],
+    "libhal.a": [
+      "brownout_hal.c.obj",
+      "cache_hal_esp32.c.obj",
+      "clk_tree_hal.c.obj",
+      "efuse_hal.c.obj",
+      "gpio_hal.c.obj",
+      "mmu_hal.c.obj",
+      "mpu_hal.c.obj",
+      "rtc_io_hal.c.obj",
+      "sha_hal.c.obj",
+      "spi_flash_encrypt_hal_iram.c.obj",
+      "spi_flash_hal.c.obj",
+      "spi_flash_hal_iram.c.obj",
+      "uart_hal.c.obj",
+      "uart_hal_iram.c.obj",
+      "wdt_hal_iram.c.obj"
+    ],
+    "libheap.a": [
+      "heap_caps.c.obj",
+      "heap_caps_base.c.obj",
+      "heap_caps_init.c.obj",
+      "memory_layout.c.obj",
+      "memory_layout_utils.c.obj",
+      "multi_heap.c.obj",
+      "multi_heap_poisoning.c.obj",
+      "tlsf.c.obj"
+    ],
+    "liblog.a": [
+      "log.c.obj",
+      "log_binary_heap.c.obj",
+      "log_level.c.obj",
+      "log_linked_list.c.obj",
+      "log_lock.c.obj",
+      "log_timestamp.c.obj",
+      "log_write.c.obj",
+      "tag_log_level.c.obj",
+      "util.c.obj"
+    ],
+    "libmbedcrypto.a": [
+      "esp_sha256.c.obj",
+      "sha.c.obj"
+    ],
+    "libnewlib.a": [
+      "abort.c.obj",
+      "assert.c.obj",
+      "esp_time_impl.c.obj",
+      "getentropy.c.obj",
+      "heap.c.obj",
+      "init.c.obj",
+      "locks.c.obj",
+      "newlib_init.c.obj",
+      "pthread.c.obj",
+      "reent_init.c.obj",
+      "reent_syscalls.c.obj",
+      "stdatomic.c.obj",
+      "syscalls.c.obj",
+      "time.c.obj"
+    ],
+    "libnvs_flash.a": [
+      "nvs_api.cpp.obj",
+      "nvs_item_hash_list.cpp.obj",
+      "nvs_page.cpp.obj",
+      "nvs_pagemanager.cpp.obj",
+      "nvs_partition.cpp.obj",
+      "nvs_partition_lookup.cpp.obj",
+      "nvs_partition_manager.cpp.obj",
+      "nvs_platform.cpp.obj",
+      "nvs_storage.cpp.obj",
+      "nvs_types.cpp.obj"
+    ],
+    "libnvs_sec_provider.a": [
+      "nvs_sec_provider.c.obj"
+    ],
+    "libpthread.a": [
+      "pthread.c.obj",
+      "pthread_cond_var.c.obj",
+      "pthread_local_storage.c.obj",
+      "pthread_rwlock.c.obj",
+      "pthread_semaphore.c.obj"
+    ],
+    "libsoc.a": [
+      "dport_access.c.obj",
+      "dport_access_common.c.obj",
+      "gpio_periph.c.obj",
+      "interrupts.c.obj",
+      "rtc_io_periph.c.obj",
+      "uart_periph.c.obj"
+    ],
+    "libspi_flash.a": [
+      "cache_utils.c.obj",
+      "esp_flash_api.c.obj",
+      "esp_flash_spi_init.c.obj",
+      "flash_brownout_hook.c.obj",
+      "flash_mmap.c.obj",
+      "flash_ops.c.obj",
+      "memspi_host_driver.c.obj",
+      "spi_flash_chip_drivers.c.obj",
+      "spi_flash_chip_gd.c.obj",
+      "spi_flash_chip_generic.c.obj",
+      "spi_flash_chip_issi.c.obj",
+      "spi_flash_chip_mxic.c.obj",
+      "spi_flash_chip_winbond.c.obj",
+      "spi_flash_os_func_app.c.obj",
+      "spi_flash_os_func_noos.c.obj"
+    ],
+    "libstdc++.a": [
+      "bad_alloc.o",
+      "bad_array_new.o",
+      "class_type_info.o",
+      "cow-stdexcept.o",
+      "cow-string-inst.o",
+      "del_op.o",
+      "del_ops.o",
+      "del_opv.o",
+      "eh_alloc.o",
+      "eh_aux_runtime.o",
+      "eh_call.o",
+      "eh_catch.o",
+      "eh_exception.o",
+      "eh_globals.o",
+      "eh_personality.o",
+      "eh_term_handler.o",
+      "eh_terminate.o",
+      "eh_throw.o",
+      "eh_unex_handler.o",
+      "functexcept.o",
+      "functional.o",
+      "new_handler.o",
+      "new_op.o",
+      "new_opv.o",
+      "new_opvnt.o",
+      "si_class_type_info.o",
+      "stdexcept.o",
+      "tinfo.o"
+    ],
+    "libvfs.a": [
+      "nullfs.c.obj",
+      "vfs.c.obj"
+    ],
+    "libxt_hal.a": [
+      "int_asm--set_intclear.o",
+      "interrupts--intlevel.o",
+      "state_asm--restore_extra_nw.o",
+      "state_asm--save_extra_nw.o",
+      "windowspill_asm.o"
+    ],
+    "libxtensa.a": [
+      "xtensa_context.S.obj",
+      "xtensa_intr.c.obj",
+      "xtensa_intr_asm.S.obj",
+      "xtensa_vectors.S.obj"
+    ]
+  }
+}

@@ -4,11 +4,11 @@
   "firmware_identity": "CERELOG_V1_EMG3_EOG2_ALS1_1K_V1",
   "workbench": {
     "edition": "PUBLIC",
-    "version": "11.10.0",
+    "version": "11.10.1",
     "module_id": "cerelog_v1_emg3_eog2_als1_1k",
-    "archive_url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_Workbench_Public_Alpha_11_10_0.zip",
+    "archive_url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/PRAYCG_Workbench_Public_Alpha_11_10_1.zip",
     "contract_path_in_release_folder": "app/config/hardware/cerelog_v1_emg3_eog2_als1_1k.json",
-    "contract_sha256": "0eada3845028b94e18c1968c94c28f17965910fcea304ab9551503e197ea12d0",
+    "contract_sha256": "6d3f8b0df64e92aa48a6bd42266b61b386bcd631ee990d1237ea346922b7519d",
     "connector_guide_path_in_release_folder": "app/tools/Acquisition/Cerelog_V1_EMG_EOG_ALS_v1_0/COMPACT_WORKBENCH.md"
   },
   "signal_format": {
@@ -134,5 +134,16 @@
     "automatically_reconnects": false,
     "flashes_firmware": false
   },
-  "firmware_distribution": "The hardware profile and evidence are provided here; the sketch and compiled firmware are withheld. See VERIFICATION.json for historical artifact names, sizes and SHA-256 values."
+  "firmware_distribution": "Published sketch and application image with runtime notices, corresponding source and relink materials. See LICENSE_NOTICE.md and CERELOG_FIRMWARE_REDISTRIBUTION.md.",
+  "previous_workbench_contracts": [
+    {
+      "edition": "PUBLIC",
+      "version": "11.10.0",
+      "module_id": "cerelog_v1_emg3_eog2_als1_1k",
+      "archive_url": "https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_Workbench_Public_Alpha_11_10_0.zip",
+      "contract_path_in_release_folder": "app/config/hardware/cerelog_v1_emg3_eog2_als1_1k.json",
+      "contract_sha256": "0eada3845028b94e18c1968c94c28f17965910fcea304ab9551503e197ea12d0",
+      "connector_guide_path_in_release_folder": "app/tools/Acquisition/Cerelog_V1_EMG_EOG_ALS_v1_0/COMPACT_WORKBENCH.md"
+    }
+  ]
 }
