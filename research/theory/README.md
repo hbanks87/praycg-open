@@ -4,8 +4,6 @@ The theory record explains PRAYCG's questions, proposed mechanisms and operation
 
 **Maintained reading guide — reviewed 10 November 2026.** Linked original documents retain their own versions and content.
 
-Start with [Master Theory and Protocol v3](v3/README.md), dated November 8, 2026. The [evidence review](../studies/evidence-review-2026-11-08/README.md) records the current status of claims evaluated in the consolidation. The reading list below retains the earlier specifications and their evidence context.
-
 ## Recommended reading
 
 | Order | Open the document | What it contributes |
