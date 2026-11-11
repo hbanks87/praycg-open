@@ -8,6 +8,8 @@ Use the Workbench to prepare studies, record supported streams, inspect signals 
 
 Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** from Assets and verify its SHA-256 before extracting it into a new folder. This update lets you record the compact Cerelog and a 16-channel Cyton/Daisy together during an off-body equipment check. GitHub's automatically generated source archives contain this repository's research and documentation collection.
 
+[Latest research](research/README.md#latest-research) brings together Master Theory v3, the November evidence review and new runnable examples.
+
 ## Choose a path
 
 | Your task | Start here | What you will find |
