@@ -4,6 +4,8 @@ Use this catalog to follow a proposed quantity from its research question to the
 
 **Catalog reviewed: 25 October 2026.** The detailed [implementation map](algorithms/README.md) and its [source manifest](algorithms/SOURCE_MANIFEST.json) describe an inspection of **Public Alpha 11.2.1**. They are not a new audit of Public Alpha 11.9.2. Later Workbench guides are linked separately where they explain newer workflow or attribution changes.
 
+The November research supplement covers [CET-R sensory calibration and timing](studies/cetr/README.md) and [AIGP and GNT synthetic model checks](studies/model-checks/README.md). The [evidence review](studies/evidence-review-2026-11-08/README.md) gives the current interpretation of the tested claims.
+
 ## Research calculations
 
 | Question and explanation | Original specification | Inspected implementation: Alpha 11.2.1 | Evidence and interpretation |
