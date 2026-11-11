@@ -1,0 +1,500 @@
+{
+  "note": "Historical priorities identify earlier rows only. No new ranking is implied.",
+  "families": [
+    {
+      "historical_priority": 1,
+      "family": "Trust offloading: information-matched human versus computer",
+      "current_disposition": "PARK",
+      "reason": "Trust mechanism untested/non-distinctive; bounded older human-helper condition result retained separately.",
+      "claim_ids": [
+        "REC01",
+        "REC02",
+        "REC03",
+        "REC04"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D51_PR_AYC_T_Trust_Offloadi_Experime_7322.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D50_Thermody_Weight_Trust_Theory_b4f1.pdf"
+        },
+        {
+          "pages": [
+            1,
+            3
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/master_framework/extracted/02_ALL_AVAILABLE_STANDALONE_DOCS/PR_AYC_T_Trust_Offloading_Experiment_Brief.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 2,
+      "family": "Constructive meaning: feedback-sensitive reversal learning",
+      "current_disposition": "PARK",
+      "reason": "No exact data or independently specified extra generative model; no empirical null.",
+      "claim_ids": [
+        "REC05",
+        "REC06"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            4
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/meaning_variants/sources/semantic_v1_2/FPF/PDF/D203_Constructive_Meaning_Efficiency_Theory.pdf"
+        },
+        {
+          "pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/meaning_variants/sources/semantic_v1_2/FPF/PDF/D204_Constructive_Meaning_Reality_Collision_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 3,
+      "family": "Semantic/narrative meaning: independent post-stimulus carryover",
+      "current_disposition": "PARK",
+      "reason": "Endpoint, report overlap, order, attention controls and exact comparative data missing.",
+      "claim_ids": [
+        "S01",
+        "G10"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            3
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/meaning_variants/sources/semantic_v1_2/FPF/PDF/D205_Semantic_Meaning_Gradient_Theory.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            4
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/meaning_variants/sources/semantic_v1_2/FPF/PDF/D206_PR_AYC_G_Meaning_Gradient_Protocol.pdf"
+        },
+        {
+          "pages": [],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/master_framework/extracted/01_NEW_SYNTHESIS_DOCS/Base_Model_2_5_Integration_Register.md"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 4,
+      "family": "Audience intent × task mastery and performance",
+      "current_disposition": "PARK",
+      "reason": "Exact intent/mastery design and participant outcomes not verified.",
+      "claim_ids": [
+        "REC10"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D153_Fractal_Social_Pressure_Performance_Theory.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D154_Audience_Intent_Social_Performance_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 5,
+      "family": "Neurophenomenological reports: multimodal prediction",
+      "current_disposition": "PARK",
+      "reason": "Named axes need independent report anchors/identification; generic multimodal utility is not enough.",
+      "claim_ids": [
+        "MP12"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/8ru43/03_Neurophenomenological_Presence_Report_Theory.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/8ru43/04_Neurophenomenological_Presence_Report_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 6,
+      "family": "Subjective time: prospective versus retrospective duration",
+      "current_disposition": "RETIRE VERSION / PARK FAMILY",
+      "reason": "Retire the fixed failed timing predictor; broader latent/directional/population claims unresolved.",
+      "claim_ids": [
+        "REC07",
+        "REC08",
+        "REC09"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D115_Fractal_Time_Theory.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D116_Fractal_Time_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 7,
+      "family": "Cognitive/social Zeno: analytic checking and absorption",
+      "current_disposition": "CORRECT / PARK",
+      "reason": "One endpoint counted twice; no distinct frequency-versus-load law; ordinary effects remain possible.",
+      "claim_ids": [
+        "S02",
+        "S03"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            3
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/04_Cognitive_Zeno_RespGate_D226_D232/D226_Cognitive_Zeno_Lock_Theory_v1_0.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/04_Cognitive_Zeno_RespGate_D226_D232/D227_Cognitive_Zeno_Lock_Experimental_Protocol_v1_0.pdf"
+        },
+        {
+          "pages": [
+            2
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/04_Cognitive_Zeno_RespGate_D226_D232/D231_Optional_Appendix_Statistical_Mode_Analogy_for_Cognitive_Zeno_Lock_v1_0.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/06_Social_Zeno_D239_D246/D239_Social_Zeno_Lock_Performative_Observation_Theory_v1_0.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/06_Social_Zeno_D239_D246/D240_Social_Zeno_Lock_Experimental_and_Analysis_Protocol_v1_0.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 8,
+      "family": "Respiratory gate: condition-specific phase modulation",
+      "current_disposition": "PARK",
+      "reason": "Exact semantic-condition×phase claim was not tested by generic respiration datasets.",
+      "claim_ids": [
+        "REC11"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/04_Cognitive_Zeno_RespGate_D226_D232/D228_Respiratory_Gate_Theory_v1_0.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/04_Cognitive_Zeno_RespGate_D226_D232/D229_Respiratory_Gate_Experimental_Protocol_v1_0.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 9,
+      "family": "Gratitude: theta-coherence persistence beyond paced breathing",
+      "current_disposition": "CORRECT / PARK",
+      "reason": "Original log lifetime endpoint not universally defined; corrected gratitude biology remains untested.",
+      "claim_ids": [
+        "MP02",
+        "S15"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/jm29d/05_Gratitude_Neurochemical_Tensor_Theory.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/jm29d/06_Gratitude_Neurochemical_Tensor_Experimental_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 10,
+      "family": "Post-meaning gamma → theta → alpha → re-lock cascade",
+      "current_disposition": "PARK",
+      "reason": "Fix raw versus cumulative theta and timing rules; no complete empirical refutation.",
+      "claim_ids": [
+        "S04"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            3
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/05_Meaning_Cascade_D233_D238/D235_PRAYCG_Post_Meaning_Frequency_Cascade_Theory_v1_0.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/zeno_recovery/sources/PRAYCG_D200_D275_Recovery_Pack_v1_0/05_Meaning_Cascade_D233_D238/D236_PRAYCG_Frequency_Cascade_Experimental_and_Analysis_Protocol_v1_0.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 11,
+      "family": "Triadic loop mismatch beyond pairwise sums",
+      "current_disposition": "PARK",
+      "reason": "Nontrivial independently defined edges and full ordinary graph baseline required.",
+      "claim_ids": [
+        "S05"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2,
+            4
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D90_Fractal_Three_Body_Theory_Noninteg_Triadic_7454.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D91_Fractal_Three_Body_Computat_Protocol_Predicti_2906.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 12,
+      "family": "Sleep load, recovery and fragmentation",
+      "current_disposition": "PARK",
+      "reason": "Load/components/next-day outcome missing; K pilot does not test sleep law.",
+      "claim_ids": [
+        "S06",
+        "MP08",
+        "MP09"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            4
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D65_Sleep_Entropic_Recovery_Mathemat_Derivati_Scale_7345.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D66_Sleep_Boundary_Experime_Protocol_Waking_Load_271b.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 13,
+      "family": "Willpower, focus/insight, flow and repair composites",
+      "current_disposition": "PARK",
+      "reason": "Unreviewed grouped constructs need separate independent future-outcome tests.",
+      "claim_ids": [
+        "S07"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D133_Willpower_Temptation_Protocol.pdf"
+        },
+        {
+          "pages": [
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D84_Epistemi_Densific_Theory_Focus_Compress_Insight_f2f5.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D86_Epistemi_Densific_Experime_Protocol_Meditati_Insight_f95f.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 14,
+      "family": "Conscious/coherent and group macro-Presence products",
+      "current_disposition": "PARK",
+      "reason": "No validated component/product or independent group comparison.",
+      "claim_ids": [
+        "MP13",
+        "S08"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/vqcru/05_Conscious_Coherent_Presence_Theory.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/vqcru/06_Conscious_Coherent_Presence_OSF_Lockin_Protocol.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/qb5us/D150_Synchronized_Phase_State_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 15,
+      "family": "Opto-electrostructural membrane coupling / OSM bridge",
+      "current_disposition": "PARK",
+      "reason": "Direct preparation-level source and membrane perturbation measurements required.",
+      "claim_ids": [
+        "S09"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "source_identifier": "Hypothesis_Ranking_2026_11_08/reviews/master_framework/extracted/02_ALL_AVAILABLE_STANDALONE_DOCS/D183_Opto_Electrostructural_Membrane_Coupling_Protocol.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    },
+    {
+      "historical_priority": 16,
+      "family": "Structural–epigenetic memory refresh biology",
+      "current_disposition": "CORRECT / PARK",
+      "reason": "Withdraw false general scalar threshold; remaining refresh biology untested.",
+      "claim_ids": [
+        "MP01",
+        "S16"
+      ],
+      "reopening_rule": "See linked claim-specific requirements in EVIDENCE_LEDGER.json.",
+      "original_sources": [
+        {
+          "pages": [
+            2,
+            3
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/6qr7n/Optional_Appendix_Structural_Epigenetic_Refresh_Math.pdf"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "source_identifier": "Theory_Falsification_2026_11_06/sources/6qr7n/01_Structural_Epigenetic_Memory_Refresh_Theory.pdf"
+        }
+      ],
+      "new_exact_ready_empirical_test_verified": false
+    }
+  ]
+}

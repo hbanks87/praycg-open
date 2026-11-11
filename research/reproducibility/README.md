@@ -4,6 +4,12 @@ This hub catalogs artifact-bearing synthetic reproduction kits, the NUPI reanaly
 
 [Research entrance](../README.md) · [Studies](../studies/README.md) · [Opto-PING](../optoping/README.md) · [Ladders and research stages](../ladders/README.md) · [Workbench development](../../workbench/development/README.md)
 
+## November runnable examples
+
+- [CET-R synthetic calibration](../studies/cetr/README.md) provides a public example with expected outputs and the boundary between software checks and historical recording results.
+- [AIGP model recovery and GNT measurement qualification](../studies/model-checks/README.md) provides fixed inputs and decision criteria for the synthetic checks.
+- [Context and Persistence](../protocols/context-and-persistence/README.md) includes a synthetic analysis example and the recipe for reconstructing the stimuli from locally supplied material.
+
 ## Choose the work to reproduce
 
 | Material | Start and run | Check against | Recorded scope and status |
@@ -47,4 +53,4 @@ The Workbench's [development guidance](../../workbench/development/README.md) de
 
 Record the exact source version, inputs, lock/specification hashes, environment, outputs and any deviations. Keep a reproduction of the frozen method separate from a modified analysis. Report missing inputs, changed dependencies and failed criteria explicitly. The preserved requirements files do not all pin exact package versions; retain the actual environment used.
 
-Scientific originals keep their historical paths and bytes. Use the [original-file locator](../../docs/reorganization/original-file-index.md) to resolve an old path, particularly for NUPI's source layout. Read the [public data boundary](../ethics-and-claim-boundaries/originals/public_data_boundary.md) before sharing results. The source documents and artifact-specific terms govern reuse; this hub adds navigation rather than new validation.
+Scientific originals keep their historical paths and bytes. Use the [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md) to resolve an old path, particularly for NUPI's source layout. Read the [public data boundary](../ethics-and-claim-boundaries/originals/public_data_boundary.md) before sharing results. The source documents and artifact-specific terms govern reuse; this hub adds navigation rather than new validation.

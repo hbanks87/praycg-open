@@ -1,0 +1,54 @@
+REDUCED RESEARCH CORE — working decision, 2026-11-08
+
+The retained core is a small collection of bounded observations and reusable
+methods. It is not a validated unified theory, a new scalar Presence formula or
+an attempt to rename ordinary findings as framework-specific discoveries.
+
+1. Keep the older-adult human-helper observation at its actual scope (REC04).
+In the released task, the same 30 older participants were more accurate and
+reported lower workload with human than robot assistance. Across assisted loads,
+human minus robot was +2.0556 correct pairs and -4.3907 released NASA-TLX units;
+the participant-average contrasts survived the specified Holm-nine adjustment.
+The full sample comprised 60 people. This reanalysis uses the same people and
+does not identify trust, metabolic energy, universal age moderation or a novel
+offloading mechanism. The original numerical reconstruction was partial.
+
+2. Keep the corrected model comparisons and their positive as well as negative
+results (G05-G08). The Stroop decoder component improved over corrected ordinary
+active inference by 0.018554 nats/trial, but an ordinary-attention alias tied it
+and simpler lapse/frequency models predicted better. In the public bandit data,
+ordinary active inference was competitive and outpredicted several RL/simple
+models; the gate added only 0.000041 nats/choice and a Bayesian model without an
+information bonus had the best point loss. These are task-specific comparisons,
+not a general verdict against active inference, RL or adaptive learning.
+
+3. Keep narrow mathematical/engineering results with their stated assumptions.
+Some equations give valid restricted compression or useful implementation ideas.
+Synthetic equivalences, counterexamples and positive controls remain informative
+about those equations and designs. They are not human evidence. The nominated
+efficiency gate saved counted operations but failed its joint accuracy/change
+criteria; this was not a test of the separately installed application (G04). Selective ideal
+interventions separated one synthetic causal alias pair (MP05); a feasible and
+selective human intervention was not established. The fixed-metric meaning-empathy
+pipeline passed its limited synthetic sensitivity/null qualification (MP14);
+weighted cosine remains a candidate feature, not an established measurement of
+accurate partner understanding. Its full human claim remains measurement/data
+blocked (MP15).
+
+4. Keep a measurement-first method: independent construct anchors; explicit
+domains/units; no same-outcome score validation; equally informed ordinary rivals;
+shared-stimulus and measurement-error controls; appropriate held-out people/time;
+versioned endpoints; missingness and uncertainty disclosure; and recovery checks
+before a new experiment. These are scientific safeguards, not proprietary theory
+mechanisms. Reproductions, duplicate documents and repeated simulation seeds do
+not become independent empirical replications.
+
+Pruned from the active support claims: a uniquely established decoder mechanism;
+the failed K_adapt v0.1 and restricted Lemmens predictive implementations; a
+validated full scalar Presence measurement; automatic causal direction from
+observational gain; and mathematical necessities/endpoints contradicted by their
+own allowed cases. Broader biological and psychological families remain parked
+where their exact test was not performed.
+
+Current automatic new-fit queue: empty. Reopening requires the specific evidence
+listed in the ledger, not a new label or a convenient replacement proxy.

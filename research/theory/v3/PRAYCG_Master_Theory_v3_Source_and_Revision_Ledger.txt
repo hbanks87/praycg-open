@@ -1,0 +1,479 @@
+PRAYCG MASTER THEORY AND PROTOCOL - PUBLIC v3
+Source and Revision Ledger
+November 8, 2026 | Hoyt Banks
+
+EDITION AND SCOPE
+Consolidates the original public v1.1/v0.95 research account and public master v2.4.
+Final PDF: 66 pages. Editable source: 29,322 words.
+Restores the detailed PRAYCG3 sequence, contrast rationale, report timing, after-state questions and method purposes.
+Retains reconstructed Topo-OSM theory, Decoder Gate, OptoPING, Gamma Scalpel and recorded findings.
+Newly summarized software/equipment evidence: Public Alpha 11.11.0, released November 8, 2026.
+No Workbench, original document, recording, settings or analysis-result files were modified.
+No new participant experiment, physical hardware acquisition or archived scientific analysis was run for this edition.
+The original scientific observations retain their recorded scope; revised descriptions do not rescore them.
+
+PRIMARY INPUT IDENTITIES - RECHECKED AFTER AUTHORING
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_4_Meaning_and_Memory_20261107.md
+  SHA-256 a7ea1450482dc7b2634d0bcb29828b4e996cd2a79ac8962179e6ee82a51c98be
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_4_Meaning_and_Memory_20261107.pdf
+  SHA-256 60665587eb526270eb4e572f72446c8592787bee9d1f8c73cfda910e542c12e9
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v1_1_v095.md
+  SHA-256 57870bb290edd80e74c0987baf98b0b9732151063ee3e9dc49b82e24af330526
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v1_1_v095.pdf
+  SHA-256 399155c250ecedb5704d1ef5926077b686ef7fb352191da7cdd335e6cee9c8c6
+
+ADDITIONAL CURRENT EVIDENCE
+PRAYCG_Workbench_Public_Alpha_11_11_0.zip
+  SHA-256 260342f386bc1a0d2efe0dfe2eacd4ab66fabfdbf5de0cc552e5a8dc6c1a174a
+BUILD_REPORT.md
+  SHA-256 7f4e0c74fdacb220b7e7b53e88ec3a7235c58c9e6e0c3afc7dc9c37aeed42ab5
+HARDWARE_IMPLEMENTATION_QA.json
+  SHA-256 0f06f95de782ee9747eb59816c56d263cea84e08ddf107bca7a160f8394aa880
+
+REVISION MAP
+Chapter 1: original experimental questions and receiver-availability rationale restored.
+Chapter 2: v2.4 reconstructed theory retained; cellular and human-scale claims remain distinct.
+Chapter 3: PRAYCG3 sequence, branch instructions, report/washout asymmetry, reflection and candidate patterns restored.
+Chapter 4: PRAYCG4/SMG controls, assignment, stimulus preparation, fingerprinting, familiarity and anchors restored.
+Chapter 5: earlier hardware evidence retained; retrospective off-body dual-ALS review added under its own scope.
+Chapter 6: original analysis-family rationale restored; implemented components and proposed interpretations distinguished.
+Chapter 7: recorded human and reconstruction findings retained, including unfavorable and unavailable endpoints.
+Chapters 8-9: Decoder Gate and OptoPING results, assumptions and limitations retained.
+Chapter 10: current public workflow and software evidence updated to the packaged 11.11.0 cutoff.
+Chapter 11: acquisition priorities retained; individual repetition, feasibility and prospective group progression restored.
+Chapter 12: explicit preservation and correction account added.
+Appendices A-D: EXACTLY PRESERVED from v2.4 after surrounding whitespace trim.
+Appendix E: version-specific operational CAI/SID, autonomic and Micro Handoff definitions restored and clarified.
+Appendix F: every original numbered section (1-36) mapped to retained, corrected or historical treatment.
+Appendix G: reference guide retains source scopes and adds original-master/current-release/method records.
+
+SUBSTANTIVE IMPLEMENTATION CLARIFICATIONS
+1. CAI's positive-product term excludes joint below-midpoint activation, but its separate positive-correlation term can still contribute. Corrected the prose; did not change the worker.
+2. CAI normalization policies differ across the retained standalone core, managed configuration and paired Signal Review. Their fallback rules are stated separately.
+3. Current slow support uses Y, whereas the retrospective loop uses future Y. Positive-excess rescalings are defined explicitly.
+4. SID valid-duration normalization is distinct from zero-filling missing support. A 20%-coverage example cannot pass the managed 70% computational threshold.
+5. RR differences retain original beat adjacency. A displayed output grid does not establish physiological timing resolution.
+6. Recognition/integration, peak/resolution and acute/persistent hypotheses are preserved without requiring every measure to favor Target.
+7. Uncalibrated historical availability quotients remain in the original source; their organizing rationale is preserved without presenting a new operational law.
+
+SCOPED MATHEMATICAL AND DOCUMENT CHECKS
+Bounded self-renewal: PASSED. 16 trajectories match analytic solutions; fixed-point stability and exact-zero behavior checked. Parameters are mathematical examples only.
+External renewal counterexample: PASSED. Positive equilibrium with external refresh/loss below one; demonstrates model dependence of the threshold.
+Stochastic fidelity moments: PASSED. 24 paired mean/second-moment trajectories and stationary Gaussian interval probabilities checked. No biological fit or finite-horizon survival claim.
+KL endpoint: PASSED. Support failures, zero contributions, identity, asymmetry and nonnegativity in 1000 seeded examples checked.
+Metric cosine: PASSED. 250 seeded common-coordinate transformations preserve alignment; bounds and undefined zero-vector case checked.
+Proper scoring: PASSED. Brier expected-loss identity checked over 10201 parameter pairs; positive and negative forecast-gain examples verified.
+Operational arithmetic: CAI low-low counterexample (.30 loop/.10 final contribution), product fallback distinction, valid-time denominator and original RR-adjacency example checked.
+All 36 original sections are accounted for in order. All used source identifiers resolve.
+All 66 pages were visually inspected. The final five changed pages were inspected again; all other pages retained identical rendered-image hashes.
+No clipping, overlapping text or replacement glyphs were found. Source hashes matched after authoring.
+Finite numerical checks supplement analytic restrictions; they do not certify biological validity, fitted parameters or universal software correctness.
+
+OUTPUT IDENTITIES
+PRAYCG_Master_Theory_v3_PUBLIC_20261108.pdf
+  SHA-256 c9f2e2502706ad8dce35200444698074b079519e6782d7aec7b1ac99864cc23c
+PRAYCG_Master_Theory_v3_PUBLIC_20261108.md
+  SHA-256 335a3c81c4e731ea898b8b5599355f8d4dbfd40ceb309b6c9d8965686dc04058
+
+INHERITED PROVENANCE RECORDS
+The following complete historical ledgers preserve earlier archive/member identities and review scopes.
+Their edition-specific statements apply to the historical edition named, not to a new v3 rerun or inspection of every source.
+They are copied for traceability; their section/page numbers refer to their own editions.
+
+----- BEGIN HISTORICAL LEDGER: PRAYCG_Master_PUBLIC_v2_4_Source_and_Revision_Ledger.txt -----
+Original ledger SHA-256 6fe2eb94372e175cfae365f95b6491cae99523f644a977b3e258c2dbab5fe283
+
+PRAYCG PUBLIC MASTER v2.4
+Source and Revision Ledger
+November 7, 2026 | Hoyt Banks
+
+EDITION AND SCOPE
+Reconciles the supplied memory refresh and meaning-state PDFs with reconstructed master v2.3 of November 1, 2026.
+This edition contains 46 pages. The original master and all three supplied PDFs remain unchanged.
+The Workbench, participant recordings, analyses, settings and hardware were not modified or rerun.
+The retained software evidence is the Public Alpha 11.10.0 snapshot documented in v2.3, not a new software audit.
+No new biological finding or fitted parameter is claimed.
+
+INPUT IDENTITIES
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_3_Theory_Reconstruction_20261101.md
+  SHA-256 aded0ed7488e1fbc6f207b38a301e299642c6f10d2ade7f297f7ceae64613766
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_3_Theory_Reconstruction_20261101.pdf
+  SHA-256 f84166dee28430215d0c63d007f5dda3009e2992e23e52eedc723cefc289841a
+  Pages 44
+  Extracted-text SHA-256 9889715622c2f80dd41ec459f85d5252e5061d25fd7bd68552a75ce657c2e915
+01_Structural_Epigenetic_Memory_Refresh_Theory_public_boundary_example.pdf
+  SHA-256 ad0361e7ee2d3eb4d2d8a8414483d2dbc29afded2e77ce63ed18ec82de8e0fd7
+  Pages 2
+  Extracted-text SHA-256 84adb025ad6e9489cd08cd8fd8307a8a90894b6007d5aa8d05eb420634770b1c
+D198_Meaning_Empathy_State_Space_Reconciliation_Addendum.pdf
+  SHA-256 5672e2ae7942156daadd6d42602925a48f3787ca64b1878c23b113d0e7a70135
+  Pages 3
+  Extracted-text SHA-256 2f599be544de19d8e1b71fdeb1a1a5e3f231124abbcf15d4115a5017a3965fbf
+Meaning_Empathy_State_Space_Reconciliation_Compendium.pdf
+  SHA-256 0f6ed2c6dbebb76e21a5e0066fe0ae1d428968ba5b42e536c22ee134dc2fbf4b
+  Pages 3
+  Extracted-text SHA-256 2f599be544de19d8e1b71fdeb1a1a5e3f231124abbcf15d4115a5017a3965fbf
+
+The D198 addendum and the compendium contain identical extracted text. They are treated as one proposal.
+Earlier theory archives and historical study identities remain documented in the preserved v2.3 Source and Revision Ledger.
+
+REVISION MAP
+Front matter: updated scope, evidence labels and explicit retained software snapshot.
+Section 2.3: clarified memory-state notation, empirical background, credible alternatives and perturbation requirements.
+Section 2.6: retained receiver-dependent meaning while separating recognition, relevance, updating, retention and interpersonal understanding.
+Section 2.9: added claim-specific failure and unresolved-result criteria.
+Section 2.10: retained the v2.3 revision register and added the v2.4 changes and remaining hypotheses.
+Chapter 10: prioritized individual cue reactivation; prospective forecast extensions remain separately versioned.
+Appendix A.3: retained bounded renewal and added signed stochastic fidelity error, units, moments and finite-horizon limitation.
+Appendix A.7: defined KL update, metric alignment and paired proper-score prediction improvement with explicit measurement conditions.
+Appendix A.9: distinguished signed predictive improvement from the older bounded validity factor.
+Appendix E: reconciled source copies and added primary references R9-R13.
+
+PRESERVATION CHECKS
+Chapter 1, chapters 3-9 and Appendices B-D are exactly unchanged in the editable text.
+The prior results, photon accounting, simulation tables, hardware account and source scopes remain intact.
+All input hashes matched again after authoring.
+New labels or candidate formulas do not rescore historical data or silently replace an implemented module.
+
+MATHEMATICAL VERIFICATION
+Bounded self-renewal: PASSED. 16 trajectories match analytic solutions; fixed-point stability and exact-zero behavior checked. Parameters are mathematical examples only.
+External renewal counterexample: PASSED. Positive equilibrium with external refresh/loss below one; demonstrates model dependence of the threshold.
+Stochastic fidelity moments: PASSED. 24 paired mean/second-moment trajectories and stationary Gaussian interval probabilities checked. No biological fit or finite-horizon survival claim.
+KL endpoint: PASSED. Support failures, zero contributions, identity, asymmetry and nonnegativity in 1000 seeded examples checked.
+Metric cosine: PASSED. 250 seeded common-coordinate transformations preserve alignment; bounds and undefined zero-vector case checked.
+Proper scoring: PASSED. Brier expected-loss identity checked over 10201 parameter pairs; positive and negative forecast-gain examples verified.
+Independent mathematical review checked domains, dimensions, KL support, metric invariance, stochastic moments, scoring examples and interpretation.
+The continuous-distribution support statement was sharpened to refer to probability mass on a prior-null set.
+Finite numerical checks supplement the stated analytic conditions. They do not establish biological validity or universal correctness.
+
+DOCUMENT VERIFICATION
+All 46 final pages were visually inspected. Pages unchanged by the final pagination pass were verified by identical rendered-image hashes.
+The bibliography and glossary pagination were repaired. No clipping, overlapping text or missing glyphs were observed.
+Public-text checks found no private-extension references or retired framework label.
+
+OUTPUT IDENTITIES
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_4_Meaning_and_Memory_20261107.md
+  SHA-256 a7ea1450482dc7b2634d0bcb29828b4e996cd2a79ac8962179e6ee82a51c98be
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_4_Meaning_and_Memory_20261107.pdf
+  SHA-256 60665587eb526270eb4e572f72446c8592787bee9d1f8c73cfda910e542c12e9
+
+----- END HISTORICAL LEDGER: PRAYCG_Master_PUBLIC_v2_4_Source_and_Revision_Ledger.txt -----
+
+----- BEGIN HISTORICAL LEDGER: PRAYCG_Master_PUBLIC_v2_3_Source_and_Revision_Ledger.txt -----
+Original ledger SHA-256 7a8f086a476693a04be8bfb845dff35574ef93febb44515582848896d5832d11
+
+PRAYCG PUBLIC MASTER v2.3 - SOURCE AND REVISION LEDGER
+November 1, 2026 | Hoyt Banks
+
+Purpose: reconstruct the theory, state mathematical repairs, and preserve the current public evidence account.
+Software reference: Public Alpha 11.10.0. No Workbench or stored study files were modified.
+No participant data, archived simulations or hardware tests were rerun for this edition.
+The original sources are preserved; the corrections apply to this new document only.
+
+REVISION MAP: v2.2 TO v2.3
+Front matter and chapter 1: rewritten to restore the theoretical purpose and evidence labels.
+New chapter 2: encoding, cue retrieval, maintenance under turnover, receiver history, meaning and explicit changes.
+Old chapters 2-6 -> new chapters 3-7: retained, with section references renumbered.
+Old chapter 7 -> new chapter 8: restores broader structural/membrane proposal; photon results retained.
+Old chapter 8 -> new chapter 9: retained, with references renumbered.
+Old chapter 9 -> new chapter 10: adds theory-specific tests while retaining the next acquisition priority.
+New Appendix A: conditional derivations and separately labeled candidate formalizations.
+Old Appendix A -> B: Decoder Gate technical account retained.
+Old Appendix B -> C: optical accounting retained; C.3 replaces incomplete early-rung coverage.
+Old Appendix C -> D: historical reconstruction scopes retained; terminology extended.
+Old Appendix D -> E: source guide retained and extended with T1-T11 and R8.
+
+SUBSTANTIVE CORRECTIONS
+1. Human network-state reformulation is not confirmation of the cellular OSM hypothesis.
+2. Calcium current includes unblock and driving force; increasing voltage alone is insufficient.
+3. Calcium positivity and phosphorylation bounds require explicit domains and rates.
+4. Damped-oscillator amplitude maximum differs from the natural frequency except approximately.
+5. Bounded refresh is a new realization. A universal refresh/loss threshold does not follow from D196.
+6. Equilibrium stability, driven persistence and preservation of an information-bearing pattern differ.
+7. Noiseless phase locking differs from noisy phase concentration and phase slips.
+8. Coupling sign, state scaling, dynamical order and sampling interval affect interpretation and units.
+9. KL displacement requires probability measures; update alignment requires common coordinates and a metric.
+10. The meaning arc needs a fixed reference timescale; mean and cumulative coded exposure differ.
+11. The positive-cost CME denominator is one candidate, not a unique repair; signed effects remain separate.
+12. Initial/C-H dynamical simulations, I/J feature models and N/O score generators have distinct claims.
+
+UNCERTAINTY AND SCOPE
+No neural storage substrate, optical feedback pathway, semantic-specific gate or empathy endpoint is established.
+New formulas are not retroactive implementations or rescoring of historical Workbench modules.
+Source inspection verifies definitions; it does not prove that saved artifacts came from the inspected code.
+Separately named initial A/B simulation packages were not identified. Selected relevant sources, not every theory page, were reviewed.
+Some archive filenames are represented by neutral public labels below; SHA-256 identifies the originals.
+
+SOURCE ARCHIVES (neutral labels; SHA-256 of the supplied ZIP)
+Theory and Formula Update v0.5: 73a8ff80262484e7e8f49d96b0e6b6464ced99b415ce114d26d2a5532d3a747d
+Master Framework Pack v2.5: f88d2771cbf64fa2c40afaa7bc2244c3dc5d36a575815f1445dfdbc954c3b087
+Semantic Meaning Gradient Pack v1.2: 933e2c3674036a1167ed3f25032428b48906d9836f3f53dd2f181673f81131d7
+Constructive Meaning Efficiency Pack v1.15: 99024d22c7c971979ecfdde032216e00e25ec4407cb13d8d056573e9b4fece18
+Recovered OSF archive cr654: c884d3d8ee06a013d0ef11944c034266c46c91406ff9ef3b18201b3f187e8f55
+
+SELECTED THEORY SOURCE MEMBERS (exact member hashes; neutral titles where required)
+03 OSM_Public_Theory_Brief.pdf | pages 3 | SHA-256 fe59199d6b0319de0694c08540135803a405c01770acdd37d46c24887c720972
+01 Optional_Appendix_Opto_PING_Reconciliation.pdf | pages 7 | SHA-256 fc7bbbd35223f8238fecafa0ea275262bcb36ec2e91e5dc8f6b87e8b6d7b96b3
+Archive/opto_structural_memory_theoretical_framework_network_novelty_patch.pdf | pages 10 | SHA-256 f72c157317fd11f39d367d11ff88bedd7dc4b979f98b433ac4553ea6de887c71
+Archive/03_Opto_Structural_Memory_Theory.pdf | pages 2 | SHA-256 0483c760ecf23de65d2b509a5590832303b525dc56787d81b644f06f5a3a529a
+Non-TSC version/D03_Opto_Structur_Memory_Theory_a5f2.pdf | pages 3 | SHA-256 087f49c97ef83170a9761a0f1cfe60f529384de5093db14adefe5b11cc67ce30
+Non-TSC version/D03_Opto_Structur_Memory_Theory_1e2a.pdf | pages 7 | SHA-256 70c5f9e7ccf021f7c8c7f611fc3083e9961f217352d682566353a24ab6f3ec34
+Non-TSC version/D182_Opto_Electrostructural_Membrane_Coupling_Theory.pdf | pages 3 | SHA-256 2f213071f6493f8488707d09f1a1f2c6d888cbda0859934be50036955e07acac
+Non-TSC version/D184_Opto_Genomic_Constraint_Theory.pdf | pages 2 | SHA-256 8adab8813ce80e62bf86657028be1ede62efddd18bb07c3fcf2e88be0f4bc8cf
+01 Rung 1/BM17_D274_Hidden_Y_Taxonomy_and_Biophotonic_Candidate_Boundary_v1_0 (1).pdf | pages 3 | SHA-256 fb16941ce00fdb7c536c16e58c4ae65aac1ffae95e02ab61c842a5b9b90961c6
+D196_Structural_Epigenetic_Memory_Refresh_Theory.pdf | pages 3 | SHA-256 8ec463098c8cc22b623b0ce444de8fb307e05063c55c6eb19445ade81e43a36f
+D198_Meaning_Empathy_State_Space_Reconciliation_Addendum.pdf | pages 3 | SHA-256 5672e2ae7942156daadd6d42602925a48f3787ca64b1878c23b113d0e7a70135
+D203_Constructive_Meaning_Efficiency_Theory.pdf | pages 5 | SHA-256 e6e0b85403c3e7e77b41013289728f14c68eff81044564e9b52037fe901b5461
+D204_Constructive_Meaning_Reality_Collision_Protocol.pdf | pages 5 | SHA-256 f776ae966e54bf20e4f5e82f3987440681b5d245d2814a124a9c3ec4179bf507
+D205_Semantic_Meaning_Gradient_Theory.pdf | pages 4 | SHA-256 a5983044436a7f5c1011f9bad8b16de0e9d8c5df0fc41ac227658065772521a0
+D206_PR_AYC_G_Meaning_Gradient_Protocol.pdf | pages 5 | SHA-256 bf10ac01d7d4fa2d85205f986d488668bb42b18c730fc1ab318750d420a2cd72
+D207_historical framework_v1_2_Integration_Register.pdf | pages 2 | SHA-256 5b3f9a972c926bf9f7fe3da4dd2b6c7c1d5d34bb94c10c63bf8704b4b345c0d4
+PRAYCG_OSM_Working_Manuscript_v0_3_TopoOSM_NIP_CET_ITP_Update.pdf | pages 14 | SHA-256 6572e5577e549e4adbf5b938946cdf53d94313fbe1d773cd6ab38496dde38f53
+PRAYCG_TopoOSM_Integration_Register_v0_3.pdf | pages 3 | SHA-256 0bcc972d353c5a770fe3caeba4fdbbe5fcb53ee742bfcc2b3717dc7e98149d0d
+
+WILD HARE / WORKING MANUSCRIPT ORIGINALS
+PRAYCG_OSM_Working_Manuscript_v0_5_DGA_PhaseControl_Update.docx | SHA-256 43dab7ddd494755106d89e773c2c910c7a6c7672dd8c8322b07399556d60c6d0
+PRAYCG_OSM_Working_Manuscript_v0_5_DGA_PhaseControl_Update.pdf | SHA-256 d40cd06aac4c6e2ce2a148b72f2fb01bd0cfe37090c16812937d30a161e1c2eb
+PRAYCG_Formula_Module_Report_v1_1_FULL_DGA_PhaseControl_Update.docx | SHA-256 77f4932b938532335fb23603e979fa41f91af23ac84edbe6fbd4d2c6ea18b7cb
+PRAYCG_Formula_Module_Report_v1_1_FULL_DGA_PhaseControl_Update.pdf | SHA-256 2f9279c5de22c793a7fb98f3049487860b2e8693c4ba692124ee8b6e8fb23611
+PRAYCG_Formula_Module_Report_v1_1_FULL_DGA_PhaseControl_Update.md | SHA-256 8585176f955d349e528d3f4ad959c32c0aa929f585e736cd3e6061c4d04bac78
+PRAYCG_Wild_Hare_Synthesis_v0_2_EXPANDED.docx | SHA-256 dcbb574b05af48aed80e345e84f61f55e75a4c4d3e85050a05d60da0cc82ba36
+PRAYCG_Wild_Hare_Synthesis_v0_2_EXPANDED.pdf | SHA-256 e79ee89b9441cbd2ed8f9f2a64aba5505114e18eac9fccf7b43f93e7b39ace60
+
+HUMAN TOPO-OSM REFORMULATION RECORDS
+TOPO_OSM_NETWORK_STATE_REFORMULATION_v1_4_7.md | SHA-256 ceefd8e5bf7d82515b5e53d06371ff35b2a1cc6213b5080a5c3ff9601a4a22ef
+TOPO_OSM_CLAIM_BOUNDARY_v1_4_7.md | SHA-256 468291a946a8c8dd51927fef653b9f6123e7e9e65474cb41156986b2146d36ca
+
+RECOVERED EARLY RUNG SOURCE IDENTITIES (static inspection, no execution)
+00 Rung 0/OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_1.zip -> OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_1/scripts/run_osm_opto_ping_rung0c_latentY_state_space_v0_1.py | SHA-256 e2fe5e14855fe3ec487da9c434fc64827959c8b2d274e81b3dfbc8429b15ee53
+00 Rung 0/OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_1.zip -> OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_1/scripts/run_osm_opto_ping_rung0c_fast_v0_1.py | SHA-256 6c26c14fe2e229d15e0ab2a0fedaab79fc81368497bcef8aa47aa3204ab1da04
+00 Rung 0/OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2.zip -> OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2/scripts/run_pf_smc_reduced_v0_2.py | SHA-256 ae6cfea78352894c1d65f057d83b51543103c09c3ea1ef16b303f8adadf3d412
+00 Rung 0/OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2.zip -> OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2/scripts/run_osm_opto_ping_rung0c_v0_2_stress_tests.py | SHA-256 a17eefea453ad6f6b711b6a5e1a92bde3cf0cc42e5e452887b6c61e47914160a
+00 Rung 0/OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2.zip -> OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2/scripts/continue_rung0c_v0_2_reduced.py | SHA-256 610df35aeb7dd14c132eda4eac85b3e82c5bbde17f69f362841e5b69c9582db2
+00 Rung 0/OSM_OptoPING_Rung0G_IdentifiableReparameterization_v0_1.zip -> OSM_OptoPING_Rung0G_IdentifiableReparameterization_v0_1/scripts/run_osm_opto_ping_rung0g_identifiable_reparameterization_v0_1.py | SHA-256 e7f2a7f31a1abc469dfdc9ab2becfcd91f962a594081e0a1852f6e473bd3e660
+00 Rung 0/OSM_OptoPING_Rung0E_ProxyImperfection_StressGate_v0_1.zip -> OSM_OptoPING_Rung0E_ProxyImperfection_StressGate_v0_1/scripts/run_osm_opto_ping_rung0e_proxy_imperfection_v0_1.py | SHA-256 facdbaa66e1685926ec545508ecd9b8528ee68554d5b301cb822579ef082eac7
+00 Rung 0/OSM_OptoPING_Rung0F_CalibratedProxy_OptimalPerturbationDesign_v0_1.zip -> OSM_OptoPING_Rung0F_CalibratedProxy_OptimalPerturbationDesign_v0_1/scripts/run_osm_opto_ping_rung0f_calibrated_proxy_v0_1.py | SHA-256 a8963dd0806226a4c98bb7f5afbbe03c26357ec447b47ed5cf923a417738248e
+00 Rung 0/OSM_OptoPING_Rung0D_DualObservation_PerturbationDesign_v0_1.zip -> OSM_OptoPING_Rung0D_DualObservation_PerturbationDesign_v0_1/scripts/run_osm_opto_ping_rung0d_dual_observation_v0_1.py | SHA-256 820e03ad285a757cd82014d89c21c6ceae365d44244591458dea4e788df6869b
+00 Rung 0/OSM_OptoPING_Rung0H_CompositeCoupling_DirectionalDesign_v0_1.zip -> OSM_OptoPING_Rung0H_CompositeCoupling_DirectionalDesign_v0_1/scripts/run_osm_opto_ping_rung0h_composite_directional_v0_1.py | SHA-256 f8717078e99e9890b9c6dc297ad9678c610515234b2423c884dbece89e1f9196
+00 Rung 0/OSM_OptoPING_Rung0I_RidgeReduction_CompositePowerLockIn_v0_1.zip -> OSM_OptoPING_Rung0I_RidgeReduction_CompositePowerLockIn_v0_1/scripts/run_osm_opto_ping_rung0i_ridge_reduction_v0_1.py | SHA-256 c405e41ce7537adafdaf116b601f23ad27848e8821fb62c9c726fc091595b577
+opto_ping_rung0_simulate_recover.py | SHA-256 5422d47b216f415eb9daeb735dd334a8da97b6abe372edf39b34a4f4b913bdb8
+
+MATHEMATICAL VERIFICATION
+Six structural/physical equation check groups and four meaning-formula check groups passed.
+An independent review checked domains, units, stability assumptions and modeling scope. Corrections were applied before final rendering.
+Finite checks supplement the stated derivations; they do not establish universal numerical correctness or biological validity.
+check_structural_math.py | SHA-256 1e59d67b27bcde6d688020b800e716244a3eb0f73b748dda49d0bfe6d21b2f61
+structural_math_check.json | SHA-256 9289f229d559061e82209fdf3334be3fa40852f34f0a260d33be8487839eee26
+check_meaning_math.py | SHA-256 d0c934aec3b8f50575b58341dc1c20dc560374c1537a59e6cd29619201967978
+meaning_math_check.json | SHA-256 0f75459f4d09e73fca24562b3327757b238a6b86d18bedd62adacc7aa5eff3d2
+
+OUTPUT IDENTITIES
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_3_Theory_Reconstruction_20261101.md | SHA-256 aded0ed7488e1fbc6f207b38a301e299642c6f10d2ade7f297f7ceae64613766
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_3_Theory_Reconstruction_20261101.pdf | SHA-256 f84166dee28430215d0c63d007f5dda3009e2992e23e52eedc723cefc289841a
+
+PRESERVED v2.2 SOURCE AND REVISION LEDGER (historical section numbers follow its own edition map)
+PRAYCG PUBLIC MASTER v2.2 - SOURCE AND REVISION LEDGER
+October 31, 2026 | Hoyt Banks
+
+Purpose: preserve detailed source identification outside the research narrative.
+This is an editorial revision, not a new experiment or numerical reanalysis.
+The software reference remains Public Alpha 11.10.0. Source records remain unchanged.
+
+EDITION MAP (v2.1 -> v2.2)
+Front matter and sections 1-3, 33: chapter 1.
+Protocols, controls, assignment, stimuli (7-11, 15): chapter 2; DGA material in 6/A.
+Timing and hardware (12-14): chapter 3.
+Analysis, Gamma Scalpel, CAI/SID, physiology, Micro Handoff (16-22): chapter 4.
+Recorded studies and reconstruction (23-24): chapter 5; older Zuna scopes in C.
+Decoder Gate (5-7): chapter 6 and Appendix A.
+OptoPING and Rung 0 (25-27): chapter 7 and Appendix B.
+Workflow, reports, authoring, exchange, attribution and ethics (4, 6, 22, 29-31): chapter 8.
+Roadmaps, hypothesis ledger and next PRAYCG4 package (28, 32, 34): chapter 9.
+Glossary (35): Appendix C. Bibliography: Appendix D.
+Closing synthesis (36): removed as repetition.
+Release test totals, installation/updater instructions and process-management details:
+omitted from the research narrative; their authoritative sources are release documents W1/W4.
+
+Numerical results, adverse comparisons and relevant scientific limits were retained.
+Detailed simulation settings moved to appendices; source hashes and the earlier edition
+map moved here. The following source records are preserved from v2.1. Any section
+numbers within them refer to that edition; use the map above for the new location.
+
+EDITORIAL COUNTS
+{
+  "original_total_words": 19712,
+  "new_total_words": 11803,
+  "original_main_words": 16703,
+  "new_main_words": 8881,
+  "main_reduction_percent": 46.8
+}
+
+SOURCE IDENTITY CLARIFICATION
+The earlier 400-seconds-per-channel Zuna Run 2 comparison is the separate September 29 eyes-open/eyes-closed development recording, not About Time Run 2. Its XDF SHA-256 is 1706122e44b743f9c839d1757b8f1296343d650d3c11f05d3cfec3403422d322; About Time Run 2 begins 3a4d22016e8c2e22. The saved comparison has mean NMSE 1.0870644 versus spline 4.1902426. This clarification changes no numerical result.
+
+PRESERVED v2.1 SOURCE GUIDE AND HISTORICAL MAP
+
+# Appendix A. References, source records and review coverage
+
+Project records identify the implementation or observations reviewed. External papers establish their stated precedents and measurements; none independently validates the complete PRAYCG framework. Source labels refer to the named snapshot, not whatever a later release may contain.
+
+## A.1 Historical master and Decoder Gate evidence
+
+**[S0] Hoyt Banks. PRAYCG Master Theory and Protocol, public v1.1 / v0.95.** The supplied 35-page PDF and matching Markdown source are the historical baseline. The original PDF SHA-256 is `399155c250ecedb5704d1ef5926077b686ef7fb352191da7cdd335e6cee9c8c6`. No original file or historical output was overwritten.
+
+**[S1] Decoder Gate Falsification Simulation, October 29, 2026.** Package `DecoderGate_Falsification_Simulation_20261029`; see `assumptions.json`, `simulate.py`, `results/results.json`, `results/verification.json` and `AUDIT_NOTES.txt`. Thirteen scenarios, 100 replicates each. The report's initial statement that D223/D224 had not yet been verified applies to that first stage; the subsequent source review recovered them. Current tables use the corrected execution, while `results_first_execution` retains the original.
+
+**[S2] Decoder Gate original-source review, October 30, 2026.** D223, *Opto Gate / Decoder Gate Theory*, v1.0; D224, *Decoder Gate Experimental Protocol*, v1.0; and D225, the accompanying integration register. Preserved sources and hashes are recorded in `DecoderGate_Behavior_Validation_20261030/primary_sources/SOURCE_LEDGER.json`; interpretation and unresolved mathematical definitions appear in `SOURCE_REVIEW.txt`. These are internal theory sources, not independent validation.
+
+**[S3] Decoder Gate Behavior Validation, October 30, 2026.** Package `DecoderGate_Behavior_Validation_20261030`; see `PROSPECTIVE_PROTOCOL.html`, `assumptions.json`, `simulate.py`, `results/results.json` and `results/verification.json`. Eleven scenarios, 100 replicates each. Both the primary comprehension and secondary memory results remain available, including ordinary-mechanism and measurement-quality controls.
+
+**[S4] Decoder Gate Pilot Pack v1, October 30, 2026.** Package `DecoderGate_Pilot_Pack_v1_20261030`; see `01_START_HERE.html`, `PILOT_VERSION_NOTES.txt`, `materials/settings.json`, the participant bank, counterbalance lists and scoring keys. The pack is a feasibility instrument. The material/version notes are authoritative for differences from the preceding prospective design. Scoring keys and reference stories contain spoilers.
+
+**[S5] PRAYCG Public Workbench Alpha 11.10.0, Decoder Gate integration, October 31, 2026.** Runtime directory `app/tools/Decoder_Gate_Pilot_v1_0`; atlas ID `ATLAS_DECODER_GATE_BEHAVIORAL_PILOT_V1`. The `PACKAGED_FILES.json` ledger SHA-256 is `d8f1f2aa741a75cc19aaf46e67c160d156a6d1741435c50d794b76f1ad969c9b`. The associated offline qualification record covers synthetic traversal, scoring and bundle reopening. Release inclusion is not evidence of human efficacy or construct validity.
+
+The source packages contain the full assumptions and numerical outputs. This edition summarizes already completed simulations; it does not rerun them, collect participant data, reanalyze historical recordings or certify every earlier method in the master. The 1,300 and 1,100 synthetic evaluations use matched scenario seeds and are not 2,400 independent biological replications.
+
+### Decoder Gate primary literature
+
+**[R1] Yeshurun, Y., Swanson, S., Simony, E., Chen, J., Lazaridi, C., Honey, C. J., and Hasson, U. (2017).** Same Story, Different Story: The Neural Representation of Interpretive Frameworks. *Psychological Science*, 28(3), 307-319. [doi:10.1177/0956797616682029](https://doi.org/10.1177/0956797616682029). [Open manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC5348256/). Establishes relevant precedent for experimentally varied narrative interpretation; it does not calibrate the present model or validate a latent gate.
+
+**[R2] Craik, F. I. M., Govoni, R., Naveh-Benjamin, M., and Anderson, N. D. (1996).** The effects of divided attention on encoding and retrieval processes in human memory. *Journal of Experimental Psychology: General*, 125(2), 159-180. [doi:10.1037/0096-3445.125.2.159](https://doi.org/10.1037/0096-3445.125.2.159). [PubMed record](https://pubmed.ncbi.nlm.nih.gov/8683192/). Supports treating divided attention as an ordinary competing explanation, rather than treating an arithmetic effect as gate-specific evidence.
+
+**[R3] Owen, A. B. (2007).** The pigeonhole bootstrap. *The Annals of Applied Statistics*, 1(2), 386-411. [doi:10.1214/07-AOAS122](https://doi.org/10.1214/07-AOAS122). [Author manuscript](https://arxiv.org/abs/0712.1111). Motivates separately resampling crossed participant and item clusters. The finite-sample logistic predictive screen implemented here does not inherit an automatic exact-coverage guarantee.
+
+These references support the stated motivation and statistical cautions. They are not a complete bibliography for the preserved v0.95 analysis suite, a priority claim or a comprehensive scientific validation review.
+
+## A.2 Current Workbench, hardware and preservation sources
+
+The following references identify files in the reviewed **PRAYCG Workbench Public Alpha 11.10.0** distribution. Paths are relative to the extracted release root. Older version numbers in retained component guides identify their documented method or feature history; the root release documents determine the application version. These software records describe implementation and declared qualification, not independent scientific validation.
+
+**[W1] Banks, H. PRAYCG Workbench Public Alpha 11.10.0: release identity, workflow and qualification.** `README.md`, `CHANGELOG.md`, `BUILD_REPORT.md`, `INSTALL_WORKFLOW.md`, and `CERELOG_DGA_WORKFLOW.md`. These identify the reviewed edition, compact Cerelog and behavioral Decoder Gate additions, tested cases, manual-package status, preservation scope and untested physical claims. The release includes the PRAYCG AI Assistant.
+
+**[W2] Banks, H. Protocol, stimulus and research-evidence contracts.** `PROTOCOL_EVIDENCE_11_7.md`; `app/docs/FINGERPRINT_ANALYSIS_CONTRACT_ALPHA10_3_8.md`; and `app/docs/ALPHA_10_LOCAL_DATA_CATALOG_AND_ENVIRONMENT.md`. These specify the eight priority task families, HED export and optional validation, bounded independent numerical/confound checks, processing history, stimulus identity/timing joins, local DATA relationships and the distinction between structural verification and portable replay.
+
+**[W3] Banks, H. Analysis inventory, recording inspection and processing workflow.** `app/config/analysis_orchestration_registry_v0_1.json`; `GUIDED_WORKSPACE_11_8.md`; `SIGNAL_REVIEW_GUIDE.md`; `PRESERVATION_WORKFLOW_11_5.md`; `WORKFLOW_COMPLETION_11_6.md`; and `app/docs/LIVE_REPLAY_OPTICAL_ALPHA_10_5_1.md`. These document registered analysis families, original/candidate support, native visual handoff, external recording imports, paired CAI/SID prerequisites, live/replay distinctions and qualified versus raw optical outputs. Registry entries include orchestration and visualizers, not solely independent analytical methods.
+
+**[W4] Banks, H. Installation, updating, explanations and AI authoring/return boundaries.** `INSTALL_WORKFLOW.md`; `WORKFLOW_COMPLETION_11_6.md`, signed-update section; `app/docs/EXPLANATIONS_AND_AI_RETURN_ALPHA_10_3_6.md`; and `app/docs/AI_AUTHORING_WORKFLOW_REVIEW.md`. These distinguish optional environments and external model bindings, signed same-edition offers from manual ZIPs, numerical workers from explanations, separate report derivatives, inert AI returns, supported data-only protocol/recipe authoring and executable-development limits.
+
+**[G1] Banks, H. Gamma Scalpel 2.0 and measured-reference companion.** `app/tools/Gamma_Scalpel_v2_0/README.md`; `REFERENCE_PROFILE_GUIDE.md`, `praycg_gamma_scalpel_v2_0.py` and `measured_reference.py` in that directory. These specify native two-second gamma windows, engineering and proxy views, measured EMG/EOG screening, identity/timing requirements, complete-reference coverage and common-scale condition matching. The module is artifact-forensics and comparison software, not a cleaner or proof of cortical origin. The retained README's five-EMG hardware description is a legacy route; the current compact three-EMG route is specified in `CERELOG_DGA_WORKFLOW.md`.
+
+**[G2] Banks, H. Signal cleaning and SPAR preservation comparisons.** `SIGNAL_REVIEW_GUIDE.md`, `RELEASE_SCOPE_37.md`, `PRESERVATION_WORKFLOW_11_5.md`; `app/tools/Signal_Review_v1_0/methods_spar_v1.json`; and that directory's `validation/SPAR_SYNTHETIC_PRESERVATION_BENCHMARK.json`, `validation/SPAR_REFERENCE_AND_CONTROL_REVIEW.txt` and `validation/SPAR_CONSERVATIVE_POLICY_BENCHMARK_v1.json`. These retain the separate historical and conservative candidates, unfavorable preservation results, native implementation attribution, deferred MATLAB equivalence and offline/delayed-replay limitations. Upstream SPAR notices are retained in `app/THIRD_PARTY_NOTICES/SPAR_EEG_LICENSE.txt`; attribution does not establish equivalence or denoising superiority.
+
+**[H1]** PRAYCG Workbench Public Alpha 11.10.0, current acquisition and release records: `CERELOG_DGA_WORKFLOW.md`; `BUILD_REPORT.md`; `app/config/hardware_adapter_catalog_v1_0.json`; `app/config/hardware/cerelog_v1_emg3_eog2_als1_1k.json`; `app/tools/Acquisition/Cerelog_V1_EMG_EOG_ALS_v1_0/COMPACT_WORKBENCH.md`; `cerelog_compact_workbench.py`; `dual_als_compare.py` in that same tool directory. These identify implemented routes, the compact configuration, retained-capture replay and software-only timing qualification. Aggregated functional observations are reported without participant/device identifiers; raw participant records are not distributed.
+
+**[H2]** PRAYCG Workbench Public Alpha 11.10.0, scoped measurement and timing contracts: `app/config/athena_eeg_acquisition_admission_v1_0.json`; `app/validation/athena_eeg_acquisition_10_5_1.json`; `app/config/hardware/OpenBCI_CytonDaisy_EEG_ALS_v0_1.json`; `app/tools/Acquisition/Polar_H10_to_LSL/polar_to_lsl.py`; `app/tools/Acquisition/Vernier_Respiration_to_LSL/vernier_respiration_belt_to_lsl.py`; `app/tools/Gamma_Scalpel_v2_0/REFERENCE_PROFILE_GUIDE.md`; `app/tools/Optical_Signal_Review_v1_0/VERIFIED_PROFILE_GUIDE.md`; `app/tools/Signal_Review_v1_0/validation/SPAR_REFERENCE_AND_CONTROL_REVIEW.txt`. Historical physical observations, current software compatibility and prospective physiological validation remain distinct.
+
+## A.3 Recorded research and physical-feasibility sources
+
+**[D1] Contact measured-data and evidence reviews, September 2026.** Saved Contact effects analysis: `result_summary.json` and its `REPORT.html`; subsequent readable corrections: `APPROVED_CONTACT_REPORT.md` and `CONTACT_IN_PLAIN_ENGLISH.md`. The effects-summary SHA-256 is `af27c544ee08b0c4041bf5934f409a05048de7caebbca36fe468d7b6e19cb12b`. These are saved scientific outputs, not new analyses performed for this edition. The source names and hash identify the reviewed material without asserting a public download location.
+
+**[D2] Three-recording measured-data review, September 2026.** Saved review of Arrival, Snack Attack and About Time Run 2: `REPORT.html`, with per-recording `effects_summary.json`, `result_summary.json` and `reconstruction_summary.json` outputs. The report SHA-256 is `1cfa8cbc9a2195ff962bfb368951e292fe79e29efb7a6d8599f52d8b529bf618`. Recorded coverage rules, timing scenarios and source limitations govern the contrasts.
+
+**[D3] Preserved Field of Dreams and Her pilot records.** Public research paths `research/studies/reports/Field_FULL_v1_1/report/FieldOfDreams_Run1_FULL_MasterComp_Report_v1_1.md`, `research/protocols/originals/runner-v1-8b/HER_113P9_ANCHOR_NOTE.md` and `research/protocols/originals/runner-v2-0/PATCH_NOTES_PRAYCG1_9.md`. These are historical exploratory reports and correction notes, not newly validated recordings.
+
+**[D4] Recording inventory and historical core-analysis records.** The August 29 full-data audit contains the Eternal Sunshine candidate core output, `XDF008_EternalSunshine_Run1_MasterComprehensiveSuite_v1.5.3_20260829_143652`, including `tables/master_endpoint_status_table.csv` (SHA-256 `a9d32ff12920397893d3aba610520e8b6b9f3f32fdde19b1f2cc71ba9f0cc817`), and the interrupted About Time Run 1 record. A later source-linkage inventory retains the Eternal film association as `manifest_inference_only`. The candidate raw recording hash begins `5d5ac03e63cd94f6`; About Time Run 1 begins `a03079d0f09060c0`; Run 2 begins `3a4d22016e8c2e22`. These short prefixes distinguish the named records; full source identities remain in the retained inventory. Processing completion and an archive label do not resolve timing or film identity.
+
+**[Z1] Saved Zuna comparison records, September 2026.** Contact reconstruction `result_summary.json`, SHA-256 `149a762f86cd981b79143e41d63c2563fe65ff36c14cdc8d299792df9ab85ef3`; the per-recording reconstruction summaries accompanying [D2]; and the saved earlier-scope timing-clarification report `ADOPTED_REPORT.md`. The original September 26 attempt is preserved in `output/zuna_run_review_20260926/alpha1031_zuna_comparison_20260926_attempt1`; the corrected preparation is `output/zuna_full_corrected_20260926_attempt1/INTERPRETATION.md`. Report approval is not scientific validation or a change to failed analysis gates.
+
+**[O1] Isojima Y, Isoshima T, Nagai K, Kikuchi K, Nakagawa H. (1995).** [Ultraweak biochemiluminescence detected from rat hippocampal slices](https://pubmed.ncbi.nlm.nih.gov/7605921/). *Neuroreport*, 6(4), 658-660. DOI:10.1097/00001756-199503000-00018.
+
+**[O2] Kobayashi M and colleagues. (1999).** [In vivo imaging of spontaneous ultraweak photon emission from a rat's brain correlated with cerebral energy metabolism and oxidative stress](https://pubmed.ncbi.nlm.nih.gov/10498336/). *Neuroscience Research*, 34(2), 103-113. DOI:10.1016/S0168-0102(99)00040-1.
+
+**[O3] Kojima D, Mori S, Torii M, Wada A, Morishita R, Fukada Y. (2011).** [UV-Sensitive Photoreceptor Protein OPN5 in Humans and Mice](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026388). *PLoS ONE*, 6(10), e26388. DOI:10.1371/journal.pone.0026388.
+
+**[O4] Zhang KX and colleagues. (2020).** [Violet-light suppression of thermogenesis by opsin 5 hypothalamic neurons](https://pubmed.ncbi.nlm.nih.gov/32879486/). *Nature*, 585, 420-425. DOI:10.1038/s41586-020-2683-0. [Open full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8130195/).
+
+**[O5] Tang R, Dai J. (2014).** [Spatiotemporal Imaging of Glutamate-Induced Biophotonic Activities and Transmission in Neural Circuits](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0085643). *PLoS ONE*, 9(1), e85643. DOI:10.1371/journal.pone.0085643. The authors' proposed interpretation is distinguishable from the observed emission and experimental conditions.
+
+**[O6] OptoPING physical-feasibility simulation, October 24, 2026.** Package `OptoPING_Physical_Feasibility_Simulation_20261024`: `assumptions.json`, `simulate.py`, `results/REPORT.html`, `results/results.json`, `results/pre_run_source_hashes.json` and `AUDIT_NOTES.txt`. All four source/configuration/test/requirements hashes matched their recorded pre-run values during this review. Numerical checks and assumptions are retained; the package is synthetic evidence.
+
+**[L1] Preserved OptoPING Rung 0 collection.** Public research package `research/studies/optoping-rung0/`, particularly `Rung0J_PreregisteredSyntheticLockIn` and `Rung0O_LockedNullAwareReproduction`. Implementation scope was checked against J's `scripts/run_osm_opto_ping_rung0j_preregistered_lockin_v0_1.py` and O's `scripts/source_run_rung0n_k_null_calibration_repair_v0_1.py`. The overview `research/optoping/README.md` provides the ladder, failed stages, reproduction boundaries and source-specification hashes.
+
+## A.4 Other method records used in the revision
+
+**[M1] PRAYCG CAI/SID v0.2 and the paired-processing adapter.** Reviewed Public Alpha 11.10.0 sources include `app/tools/CAI_SID_Exploratory_v0_2`, its managed-diagnostic specification, and the Signal Review paired-processing implementation. These establish the valid-time summary, future support, NAST handoff and route-specific feature policies described in section 19. They do not establish construct validity. Use the exact result's source and configuration ledger when reproducing a calculation.
+
+**[M2] PRAYCG continuous autonomic and signal-review methods.** Reviewed sources include Continuous Autonomic Arrays, Signal Review physiology and the shared RR-evidence implementation in Public Alpha 11.10.0. Original beat adjacency, received-order timing, explicit participant/source pairing, gap support and method identity govern the account in section 20. Historical outputs with different assumptions retain their original identities.
+
+**[M3] PRAYCG Micro Handoff and KHT sources.** Reviewed sources include the packaged Micro Handoff worker/specification, its synthetic and historical audit records, and the Master Comprehensive Suite event/carryover implementations. Software checks and constructed lag recovery are distinct from the biological interpretation. This edition does not rerun those analyses or reinterpret a failed historical primary criterion as a pass.
+
+## A.5 Additional primary literature
+
+**[R4] Whitham, E. M., et al. (2007).** Scalp electrical recording during paralysis: quantitative evidence that EEG frequencies above 20 Hz are contaminated by EMG. *Clinical Neurophysiology*, 118(8), 1877-1888. [doi:10.1016/j.clinph.2007.04.027](https://doi.org/10.1016/j.clinph.2007.04.027). This experiment supports explicit muscle-artifact controls; it does not validate PRAYCG's reference thresholds or establish that all gamma in every recording is non-neural.
+
+**[R5] Yuval-Greenberg, S., Tomer, O., Keren, A. S., Nelken, I., and Deouell, L. Y. (2008).** Transient induced gamma-band response in EEG as a manifestation of miniature saccades. *Neuron*, 58(3), 429-441. [doi:10.1016/j.neuron.2008.03.027](https://doi.org/10.1016/j.neuron.2008.03.027). Establishes an ocular confound relevant to gamma-event interpretation; ordinary low-frequency EOG screening is not thereby a complete microsaccade detector.
+
+**[R6] Hipp, J. F., and Siegel, M. (2013).** Dissociating neuronal gamma-band activity from cranial and ocular muscle activity in EEG. *Frontiers in Human Neuroscience*, 7, 338. [Open article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3706727/). Demonstrates the practical importance of cranial and ocular controls. It supplies precedent and motivation, not a validation of Gamma Scalpel's full comparison procedure.
+
+**[R7] Ki, J. J., Kelly, S. P., and Parra, L. C. (2016).** Attention Strongly Modulates Reliability of Neural Responses to Naturalistic Narrative Stimuli. *Journal of Neuroscience*, 36(10), 3092-3101. [doi:10.1523/JNEUROSCI.2942-15.2016](https://doi.org/10.1523/JNEUROSCI.2942-15.2016). Supports attention and repetition controls. Its shared-response analysis is a possible benchmark, not a requirement that PRAYCG's research question become an ISC question.
+
+## A.6 Coverage and limits of this document review
+
+This revision compared the historical master and its Decoder Gate update with selected current release sources, build records, simulation assumptions/results, hardware receipts, real-run summaries and primary papers. It is a document and source review, not a new participant experiment, fresh hardware validation or independent raw-data replay. Package-relative identifiers are included so that sources can be located in the corresponding archive. A cited local research record is not represented as already publicly downloadable.
+
+The source inventory includes saved research reports used to check bounded aggregate findings. This master does not distribute participant identifiers, written responses or raw telemetry. Neutral report labels and exact source hashes preserve the distinction between an editorial citation and independent scientific validation. Original filenames and records remain unchanged in the retained research archive.
+
+Method references do not replace third-party notices. The Workbench distribution's applicable license texts and artifact inventory remain authoritative for redistribution obligations. This master is not a complete software-license audit or exhaustive literature-priority review.
+
+# Appendix B. Revision map and preserved history
+
+## B.1 Edition identity
+
+Public master **v2.1, October 31, 2026** provides a current account of the public Workbench and neuro research program, with a clearer pilot-results overview. Its document version is independent of Public Workbench Alpha 11.10.0. It retains the Decoder Gate formulation, simulations and pilot from master v1.2. Earlier editions and original research records remain unchanged.
+
+## B.2 Where the older master topics now appear
+
+| Earlier master topic | Current sections | Treatment in this revision |
+| --- | --- | --- |
+| Mission, core logic and public naming (1-3) | 1-3, 33, 36 | Separates the public Workbench, research hypotheses and demonstrated evidence |
+| v0.95 development map (4) | 4, 16-18, 22, 29-30 | Replaced with current release/workflow scope and delivery limits |
+| Decoder Gate and availability (5-6) | 5-6, 7.4, 28.5 | Retains the full new falsifiable submodels and pilot; distinguishes legacy DGA |
+| Protocols, branches, assignment and familiarity (7-10) | 7-10, 15, 34 | Updates Atlas coverage, control logic, behavior and prospective design |
+| Media and anchors (11-12) | 11-12 | Adds current fingerprinting, HED, optical timing and held-out alignment requirements |
+| Hardware, quality and reports (13-15) | 13-15, 18, 20 | Updates compact Cerelog, Athena, Vernier, Polar, ALS and enclosure evidence |
+| Analysis, features and exploratory families (16-18) | 16-18, 21-22 | Recasts the full Forge path, execution states, Gamma Scalpel and preserved methods |
+| CAI/SID and continuous autonomic arrays (19-20) | 19-20 | Gives current valid-time SID and original-pair RR rules; preserves version boundaries |
+| Micro Handoff and visual interpretation (21-22) | 21-22 | Separates software qualification, estimator support and biological interpretation |
+| Baseline 2 and pilot archetypes (23-24) | 8-9, 15, 24, 32 | Keeps after-state hypotheses while replacing archetypes with bounded run evidence |
+| Mechanism and Rung 0 (25-26) | 25-26 | Adds physical OptoPING accounting and makes the old synthetic ladder's actual scope explicit |
+| Decision rules and roadmap (27-28) | 27-28, 34 | Prioritizes combined acquisition, prospective PRAYCG4, preservation and independent evaluation |
+| File provenance and templates (29-30) | 29-30, Appendix A | Uses current bundle/authoring contracts; archived schemas remain versioned sources |
+| Safety, hypotheses, vision and glossary (31-36) | 31-36 | Updates evidence boundaries, public delivery and the next complete study |
+
+## B.3 Scientific changes that should remain visible
+
+- Compact Cerelog moves from pending integration to provisional functional evidence plus managed acquisition; combined Cerelog/Cyton timing and complete sensor qualification remain open.
+- The current Gamma Scalpel account distinguishes measured-reference screening and matching from signal subtraction. Missing sensor coverage is retained explicitly.
+- The respiratory account reflects the 10 Hz default, optional matched 20 Hz configuration and approximate host timing instead of treating old nominal-rate metadata as sufficient.
+- Zuna is presented through multiple scoped comparisons, including failed combined criteria and cases where a simple or zero baseline performs better.
+- Contact, Arrival, Field and Her remain exploratory recordings. The Eternal Sunshine candidate retains its unresolved identity and timebase. About Time Runs 1 and 2 are distinguished. Timing-sensitive failures, artifact-sentinel differences, coverage failures and post hoc anchors remain visible.
+- OptoPING gains an explicit photon budget, receiver model, published-measurement comparison and identifiability tests. The Rung 0 scores are not biological sensitivity/specificity claims.
+- Decoder Gate retains both favorable synthetic recoverability and ordinary-mechanism, confounding, missingness and low-sensitivity findings. Its pilot is not a validated latent-gate assay.
+- The PRAYCG AI Assistant, numerical workers and future adaptive intervention retain separate responsibilities and evidence requirements.
+
+## B.4 Preservation and reproducibility of the revision
+
+The original public v1.1 PDF retains SHA-256 `399155c250ecedb5704d1ef5926077b686ef7fb352191da7cdd335e6cee9c8c6`. The v1.2 Decoder Gate PDF retains SHA-256 `59100bb225c4dcfe3c72785a006f002f13d74b1b8bb6f5f58611d633549f906b`. Their matching source files are also preserved. This revision creates a new master and editable source; it does not alter the applications, historical theories, recordings or analysis results it discusses.
+
+
+EDITION FILE IDENTITIES
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_1_Public_20261031.md
+SHA-256 3ef8ffa859e3f6f96f86c23475c4075e3d72b4ea47ff64d4cd73d48d753da3ed
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_1_Public_20261031.pdf
+SHA-256 72a71aff516be02d1c93dde4bf937c515cd7e026a841cca3549d06c833396bb6
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_2_Editorial_20261031.md
+SHA-256 304678ca22e155453beed3d44a0cbb27201c6bdac478a7cfe46c12c676149e85
+
+FINAL PDF
+PRAYCG_Master_Theory_and_Protocol_PUBLIC_v2_2_Editorial_20261031.pdf
+SHA-256 017332d4b4ad1b9b3a45c0129c3077357798bec842406928904d1498d7d2183c
+29 pages. Prior editions unchanged. Visual and text checks completed.
+
+
+FINAL DOCUMENT CHECKS
+44 pages rendered and visually reviewed. Fifteen contents/bookmark entries.
+No out-of-bounds text or broken placeholder glyphs. Reference labels resolve.
+Ten preserved master source/output files verified unchanged by SHA-256.
+Ten groups of conditional numerical checks passed. No biological validation inferred.
+
+----- END HISTORICAL LEDGER: PRAYCG_Master_PUBLIC_v2_3_Source_and_Revision_Ledger.txt -----

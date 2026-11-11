@@ -1,0 +1,129 @@
+{
+  "schema": "PRAYCG_PublicEvidenceReviewPublication_v1",
+  "review_date": "2026-11-08",
+  "publication_preparation_date": "2026-11-10",
+  "source_files": [
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/EVIDENCE_LEDGER.json",
+      "bytes": 253379,
+      "sha256": "add4be95232c18d11e1a14e7141b136d85606c2da9a29187e0639841d3ef3afb"
+    },
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/EVIDENCE_LEDGER.csv",
+      "bytes": 166327,
+      "sha256": "441c96f810650111f6e6469f0a1e3cfbb900bcd76caf97ac2bcf8f3202902f26"
+    },
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/FAMILY_DISPOSITIONS.json",
+      "bytes": 19469,
+      "sha256": "444d0a4e1d7080a1fc9cbd99ce4330e1b71497d02d0b421b1eddfe6f2e176fdb"
+    },
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/FAMILY_DISPOSITIONS.csv",
+      "bytes": 4014,
+      "sha256": "4184c1eac59f39fe917e4667d26e5cdfee3eeec0fae0f5e0723a564d476996e3"
+    },
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/DECISION.json",
+      "bytes": 1676,
+      "sha256": "a646e229d2e7a0014e2ca5e23192481348f9d5ccacb2233cb30887326dbd0628"
+    },
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/REDUCED_RESEARCH_CORE.txt",
+      "bytes": 3614,
+      "sha256": "d1e3535f01117bfceb89a1ceeb526d8d0f393ce914befd861858881c279c7b52"
+    },
+    {
+      "source_identifier": "Theory_Consolidation_And_Pruning_2026_11_08/PROVENANCE.json",
+      "bytes": 85100,
+      "sha256": "e7d10d5413e8f01f437d311d6282095d2eadb1e90d7012e5904148af379dcfbc"
+    }
+  ],
+  "publication_transformations": [
+    {
+      "claim_id": "G04",
+      "change": "Generalized references to a separate installed application and withheld its source-note location while preserving the benchmark scope and source hash."
+    },
+    {
+      "claim_id": "G10",
+      "change": "Removed two private report locations and the participant alias; replaced individual provisional score detail with the scoring-method limitation."
+    },
+    {
+      "claim_id": "S01",
+      "change": "Replaced the participant alias with a generic description."
+    },
+    {
+      "scope": "Family and provenance files",
+      "change": "Converted absolute computer paths to source identifiers; removed locations of two private feasibility reports. Retained recorded source hashes."
+    },
+    {
+      "scope": "CSV",
+      "change": "Regenerated the public claim table from the sanitized JSON; added a publication-note column."
+    },
+    {
+      "scope": "Reduced core text",
+      "change": "Generalized a separate installed application name, normalized line endings."
+    },
+    {
+      "scope": "Classification rules",
+      "change": "Generalized a separate application name in the out-of-scope statement."
+    }
+  ],
+  "preserved_scientific_fields": [
+    "claim",
+    "action",
+    "decision",
+    "evidence_kind",
+    "result",
+    "metrics",
+    "reopen_condition",
+    "assessment_status",
+    "original_tested_claim",
+    "claim_role"
+  ],
+  "claims": 53,
+  "families": 16,
+  "source_materials": "Public copy contains the claim review, aggregate results and source identities. Participant response tables, media, original recordings and private feasibility reports remain outside this directory.",
+  "outputs": [
+    {
+      "file": "DECISION.json",
+      "bytes": 1676,
+      "sha256": "a646e229d2e7a0014e2ca5e23192481348f9d5ccacb2233cb30887326dbd0628"
+    },
+    {
+      "file": "EVIDENCE_LEDGER.csv",
+      "bytes": 166483,
+      "sha256": "45e1668a1d6b10f9a4d958ff3e673b6e9272dfb168c1d66bcf7fec91d90c4190"
+    },
+    {
+      "file": "EVIDENCE_LEDGER.json",
+      "bytes": 248572,
+      "sha256": "9883dde3a178c13b1a16d5f8f71f96317fb56da01161ab5637ba3817ddafcbd3"
+    },
+    {
+      "file": "FAMILY_DISPOSITIONS.csv",
+      "bytes": 4014,
+      "sha256": "4184c1eac59f39fe917e4667d26e5cdfee3eeec0fae0f5e0723a564d476996e3"
+    },
+    {
+      "file": "FAMILY_DISPOSITIONS.json",
+      "bytes": 17514,
+      "sha256": "ab39bc9e3e038f458da23b9f135b43ee94cb3ef2f45bd1b5b35dadacd65e3e10"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3140,
+      "sha256": "b9185426f5d33c1662eafede8fd80da1cf57c664f7a01cc51481d2b0262d92f1"
+    },
+    {
+      "file": "REDUCED_RESEARCH_CORE.txt",
+      "bytes": 3626,
+      "sha256": "edeba498e8543cc175acfdbe7400fe52f6bdd31f0369159e6845b9e854a5004c"
+    },
+    {
+      "file": "SOURCE_PROVENANCE.json",
+      "bytes": 38364,
+      "sha256": "c9abf06e48c8f521cb0f0b1baea56e931c706a06dd5c2a6ee67dffb005e0d2fc"
+    }
+  ]
+}

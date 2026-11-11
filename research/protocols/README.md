@@ -10,6 +10,13 @@ The preserved documents describe three named protocol families. Protocol version
 | PRAYCG4 v4.0 | Adds a shot-order structural control | [PRAYCG4](praycg4/README.md) |
 | Semantic Meaning Gradient v1.0 | Compares degrees of meaningful stimulus content and analytic override | [Semantic Meaning Gradient](semantic-meaning-gradient/README.md) |
 
+## November development pilots
+
+| Pilot | Design | Guide |
+| --- | --- | --- |
+| Decoder Gate v3 | Human-authored literary passages, natural reading or a counterbalanced comparison, and delayed follow-up | [Decoder Gate](decoder-gate-pilot/README.md) |
+| Context and Persistence | Randomized excerpt order before a shared ending, followed by delayed understanding and transfer measures | [Context and Persistence](context-and-persistence/README.md) |
+
 ## Shared specifications and materials
 
 - [Master Theory and Protocol v1.1](../theory/originals/docs/PRAYCG_Master_Theory_and_Protocol_PUBLIC_v1_1_v095.md) contains the protocol framing and interpretation limits.
@@ -20,4 +27,4 @@ The preserved documents describe three named protocol families. Protocol version
 
 Differences between conditions require consideration of order, familiarity, gaze, respiration, timing, sensory drive, and artifacts. Read the [ethics and claim boundaries](../ethics-and-claim-boundaries/README.md) before planning participant work. This navigation does not amend protocols or prescribe a new analysis plan.
 
-Original files retain their bytes and historical links. For a former path, consult the [original-file locator](../../docs/reorganization/original-file-index.md).
+Original files retain their bytes and historical links. For a former path, consult the [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md).

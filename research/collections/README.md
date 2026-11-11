@@ -11,4 +11,4 @@ These collections preserve the original publication and distribution groupings. 
 | [Study reports](../studies/reports/README.md) | Complete versioned reports, tables, figures, snapshots, scripts, and associated ZIPs |
 | [Historical theory](../theory/historical-versions/README.md) | Earlier public master and working-theory documents |
 
-Package labels describe the preserved source record. They do not certify present software compatibility, completeness of scientific validation, or equivalence between file formats. Use the [Workbench](../../workbench/README.md) for the software entrance and the [original-file locator](../../docs/reorganization/original-file-index.md) to trace every former path.
+Package labels describe the preserved source record. They do not certify present software compatibility, completeness of scientific validation, or equivalence between file formats. Use the [Workbench](../../workbench/README.md) for the software entrance and the [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md) to trace every former path.

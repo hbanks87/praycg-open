@@ -2,7 +2,14 @@
 
 Use this page to distinguish human pilot observations, synthetic tests and programs you can rerun. Each report keeps its own inputs, method version, results and limitations.
 
-**Maintained evidence catalog — reviewed 25 October 2026.** This catalog adds no new experimental results.
+**Maintained evidence catalog — reviewed 10 November 2026.** This catalog adds no new experimental results.
+
+## November research and pilot updates
+
+- [Claim and evidence review](evidence-review-2026-11-08/README.md) traces the status of earlier claims and the results that informed each decision.
+- [CET-R methods and calibration](cetr/README.md) includes historical timing and EEG findings and a runnable synthetic example.
+- [Synthetic model checks](model-checks/README.md) gives the AIGP recovery and GNT measurement commands and expected results.
+- [Decoder Gate v3](../protocols/decoder-gate-pilot/README.md) and [Context and Persistence](../protocols/context-and-persistence/README.md) describe study designs and software qualification.
 
 ## Human pilot reports and exploratory reanalysis
 
@@ -32,6 +39,6 @@ The [reproduction guide](../reproducibility/README.md) explains environment reco
 
 The [research roadmap](../roadmap.md) and [protocol specifications](../protocols/README.md) describe prospective human work. Keep those plans separate from completed reports.
 
-All study packages, scripts and reference outputs remain at their existing paths. The [original Opto-PING collection README](optoping-rung0/README.md), [NUPI framework package](../collections/public-docs/Framework_NUPI_Update_v0_5/README_NUPI_Framework_Update_v0_5.md) and [original-file locator](../../docs/reorganization/original-file-index.md) preserve the wider source trail. Review the [public data boundary](../ethics-and-claim-boundaries/originals/public_data_boundary.md) before sharing new outputs.
+All study packages, scripts and reference outputs remain at their existing paths. The [original Opto-PING collection README](optoping-rung0/README.md), [NUPI framework package](../collections/public-docs/Framework_NUPI_Update_v0_5/README_NUPI_Framework_Update_v0_5.md) and [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md) preserve the wider source trail. Review the [public data boundary](../ethics-and-claim-boundaries/originals/public_data_boundary.md) before sharing new outputs.
 
 [Research home](../README.md) · [Methods catalog](../methods.md) · [Sources and history](../../docs/README.md)
