@@ -12,6 +12,6 @@ The local CETR pilot was built around a *Contact* excerpt. This public companion
 - [Small synthetic materials pack](context_persistence_public_materials.zip), including the exact protocol specification, a new fictional example and runnable scoring/inventory arithmetic.
 - [Sources, rights and verification](SOURCES_AND_RIGHTS.md).
 
-The local 11.12.0 Workbench candidate includes research integration work. This page does not make that candidate a public release or install a runnable study into the [public 11.10.1 Workbench](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).
+The [public Workbench 11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0) includes Context and Persistence preparation and scoring in Research Pilot Tools. It uses a separately prepared movie package supplied by the operator.
 
 Matching the ending file controls digital content, not the viewer's preceding state or physical playback. Persistence may reflect arousal, recovery or memory as well as other processes. These draft measures and synthetic checks do not establish a meaning-specific signal or generalization across films.
