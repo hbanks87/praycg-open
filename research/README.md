@@ -8,11 +8,8 @@ PRAYCG studies how narrative structure and analytic task demands relate to measu
 
 | Read or run | What the record covers |
 | --- | --- |
-| [Master Theory and Protocol v3](theory/v3/README.md) | Current theory reading, with the source and revision ledger. |
-| [November 8 evidence review](studies/evidence-review-2026-11-08/README.md) | Claim corrections, retained results, open questions and the evidence needed to revisit them. |
 | [CET-R methods and synthetic example](studies/cetr/README.md) | Sensory calibration, timing checks, held-out EEG prediction and their separate limits. |
 | [Decoder Gate v3](protocols/decoder-gate-pilot/README.md) and [Context and Persistence](protocols/context-and-persistence/README.md) | Development pilot designs, version history and software checks. |
-| [AIGP and GNT model checks](studies/model-checks/README.md) | Runnable synthetic comparisons with the recorded failure criteria and outcomes. |
 
 ## Choose a reading path
 
