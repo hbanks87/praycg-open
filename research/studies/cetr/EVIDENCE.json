@@ -1,0 +1,57 @@
+{
+  "schema": "praycg.scoped.historical.evidence.v1",
+  "review_date": "2026-11-10",
+  "data_included": false,
+  "full_historical_rerun_performed_for_publication": false,
+  "sources": [
+    {
+      "study_id": "TurnAround_Timing_Validation_2026_11_09",
+      "relative_name": "README.txt",
+      "bytes": 3230,
+      "sha256": "762daa929844eb2122e12c3bc8ce304ba1b5f596c3e2669653d90109b4cd9422"
+    },
+    {
+      "study_id": "TurnAround_Timing_Validation_2026_11_09",
+      "relative_name": "timing_adapter.json",
+      "bytes": 1416,
+      "sha256": "d79266d9131dd71ee647a5f8dccfffc19716c9e35df3be93376a091eabcc813a"
+    },
+    {
+      "study_id": "TurnAround_Timing_Validation_2026_11_09",
+      "relative_name": "source/repair_source.py",
+      "bytes": 16831,
+      "sha256": "bfb30643f9031607162bc51f2e2ccf4a5ef6bbd911f4aaf5d61da2b6e4b6160d"
+    },
+    {
+      "study_id": "TurnAround_Timing_Validation_2026_11_09",
+      "relative_name": "pulses/run_validation.py",
+      "bytes": 15222,
+      "sha256": "2d8f74d4a7ec6555cfd0dfc23a6e33556146094fee578191c00893d2ce4d0ea0"
+    },
+    {
+      "study_id": "TurnAround_EEG_Positive_Control_2026_11_10",
+      "relative_name": "README.txt",
+      "bytes": 2990,
+      "sha256": "995410fa896e32f21e18f48d7da770fc406cc57c8cf4c9fb3b6648e8991a129c"
+    },
+    {
+      "study_id": "TurnAround_EEG_Positive_Control_2026_11_10",
+      "relative_name": "analysis_plan.json",
+      "bytes": 7885,
+      "sha256": "ef29e3c4a2ef2c55ebadea24c83761cc04b4bc42403ddac41c1c2ac56c37c56d"
+    },
+    {
+      "study_id": "TurnAround_EEG_Positive_Control_2026_11_10",
+      "relative_name": "comparison/headline_summary.csv",
+      "bytes": 1052,
+      "sha256": "c36be44dfca4eaa1809d6d37be924bc9442d0d76d3765243da5a4283d4cb0aa7"
+    },
+    {
+      "study_id": "TurnAround_EEG_Positive_Control_2026_11_10",
+      "relative_name": "run_frozen_comparison.py",
+      "bytes": 10239,
+      "sha256": "0c716361373e32c77233c219215c882fe67540b71f6a395c2096e055dffb35fe"
+    }
+  ],
+  "boundary": "Opaque hashes establish local source identity; they do not make unavailable recordings publicly reproducible or validate physiology."
+}

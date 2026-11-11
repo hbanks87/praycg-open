@@ -8,6 +8,8 @@ Use the Workbench to prepare studies, record supported streams, inspect signals 
 
 Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** from Assets and verify its SHA-256 before extracting it into a new folder. This update lets you record the compact Cerelog and a 16-channel Cyton/Daisy together during an off-body equipment check. GitHub's automatically generated source archives contain this repository's research and documentation collection.
 
+[Current pilot and methods guides](research/README.md#latest-research) cover Decoder Gate v3, Context and Persistence, and CET-R sensory calibration.
+
 ## Choose a path
 
 | Your task | Start here | What you will find |

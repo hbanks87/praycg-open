@@ -1,0 +1,17 @@
+# CET-R: sensory calibration, timing and interpretation
+
+CET-R is a research methodology for checking what a fixed sensory model can predict before interpreting what remains. A signed residual is unassigned response; it does not isolate narrative meaning.
+
+Download the [synthetic calibration reproduction](cetr-synthetic-calibration-20261110.zip) and check [SHA256SUMS.txt](SHA256SUMS.txt). It contains the original calibration engine, 144-event known-answer generator, independent numerical/adverse-input audit, pinned dependencies, expected outcomes and source hashes. No real EEG or derived recording caches are included. Its fresh software checks are recorded inside the archive.
+
+The engine uses training-only templates, reserved presentations, independent eye/muscle screens when available, fixed spectral/waveform definitions, all-channel/region reporting and explicit unavailable states. Physical acquisition, delivery, model prediction, artifact limits and interpretation remain separate gates. The existing Workbench Research Pilot Tools expose calibration preparation/analysis and the separate randomized context/delayed-outcome pilot; no human effect is established by their synthetic workflow tests.
+
+## Turn Around: scoped historical evidence
+
+The November 9 reconstruction preserved 82,644 source rows and signal values. It used retained acquisition timestamp endpoints and same-chunk host Unix/LSL associations, interpolating internal rows. This is acquisition-associated timing, not authenticated onboard hardware time. Its held-out light intention-marker mean absolute edge error fell from 543.049 to 62.436 ms. A separate Control-A-only 56 ms effective sensor/display offset, frozen for the other five pulses, produced 6.436 ms mean and 11.639 ms maximum held-out absolute error. That constant is **not an EEG timestamp correction**. These were previously inspected historical recordings, not fresh prospective confirmation.
+
+The November 10 EEG positive-control comparison trained on two Control flashes and reserved four later flashes. All 192 event/channel supports passed its fixed gross/source screen. Nevertheless, equal-channel mean skill versus zero event-related change was negative for raw onset/offset (-56.99%/-146.49%) and coarse alpha onset/offset (-37.88%/-45.38%). A central-group raw onset result of +72.83% became -0.11% under the fixed linear-detrend sensitivity. This sensitivity does not identify neural or artifact origin. Six flashes and differing histories/durations do not establish a general sensory encoder or absence of neural responses.
+
+[Evidence provenance](EVIDENCE.json) binds the historical method/summary sources by SHA256 without exposing recording IDs or machine paths. The real-data clock and EEG results are documentary evidence here; the downloadable generated example does not reproduce them. Original recordings, EEG windows, source-identity logs, movie files and historical numerical caches remain separate.
+
+The calibration presenter and context/persistence experiment answer different questions. The latter manipulates excerpt order, which also changes transitions/sensory history, and uses draft delayed measures with two-rater scoring and missing-outcome limits. Persistent physiology alone is not evidence of understanding. Independent physical timing, participant outcomes, measure validation and genuinely reserved films/people remain outstanding.

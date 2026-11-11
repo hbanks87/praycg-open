@@ -2,7 +2,14 @@
 
 PRAYCG studies how narrative structure and analytic task demands relate to measured brain–body responses. Its record includes proposed explanations, versioned calculations, exploratory human reports and synthetic tests. The [Workbench](../workbench/README.md) provides the software workflow; using it does not require accepting the research theories.
 
-**Navigation reviewed: 25 October 2026.** Scientific documents and evidence retain their own versions and dates.
+**Navigation reviewed: 10 November 2026.** Scientific documents and evidence retain their own versions and dates.
+
+## Latest research
+
+| Read or run | What the record covers |
+| --- | --- |
+| [CET-R methods and synthetic example](studies/cetr/README.md) | Sensory calibration, timing checks, held-out EEG prediction and their separate limits. |
+| [Decoder Gate v3](protocols/decoder-gate-pilot/README.md) and [Context and Persistence](protocols/context-and-persistence/README.md) | Development pilot designs, version history and software checks. |
 
 ## Choose a reading path
 
@@ -33,4 +40,4 @@ For a concrete evidence trail, follow [Opto-PING](optoping/README.md) from its m
 
 Before participant work or sharing outputs, read [safety, ethics and privacy](ethics-and-claim-boundaries/originals/safety_ethics_privacy.md) and the [public data boundary](ethics-and-claim-boundaries/originals/public_data_boundary.md). Definitions, software completion and synthetic success do not by themselves validate a scientific construct.
 
-[Repository home](../README.md) · [Workbench](../workbench/README.md) · [Attribution](../CITATIONS_AND_ATTRIBUTION.md) · [Complete original-file locator](../docs/reorganization/original-file-index.md)
+[Repository home](../README.md) · [Workbench](../workbench/README.md) · [Attribution](../CITATIONS_AND_ATTRIBUTION.md) · [Complete original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md)
