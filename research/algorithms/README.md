@@ -4,7 +4,7 @@ This page connects PRAYCG's named research concepts to inspected code, configura
 
 [Bibliography and upstream method credits](../bibliography/README.md) · [Concept definitions](../concepts/README.md) · [Measures](../measures/README.md) · [Research ladders](../ladders/README.md) · [Reproducibility](../reproducibility/README.md) · [Workbench](../../workbench/README.md)
 
-For the November research code, see the [CET-R calibration example](../studies/cetr/README.md) and [AIGP and GNT model checks](../studies/model-checks/README.md). Each lists its own source, parameters and expected results. The implementation inspection below remains scoped to the identified 11.2.1 archive.
+See the [CET-R calibration example](../studies/cetr/README.md) for that implementation and its test inputs. The implementation inspection below refers to the identified 11.2.1 archive.
 
 ## Source and version being described
 
