@@ -2,7 +2,7 @@
 
 The theory record explains PRAYCG's questions, proposed mechanisms and operational definitions. Read the documents below, then follow the method or study relevant to your question. Document versions describe the research record; they are not scientific validation grades.
 
-**Maintained reading guide — reviewed 25 October 2026.** Linked original documents retain their own versions and content.
+**Maintained reading guide — reviewed 10 November 2026.** Linked original documents retain their own versions and content.
 
 ## Recommended reading
 
@@ -30,6 +30,6 @@ The master v1.1 also has a [PDF](originals/docs/PRAYCG_Master_Theory_and_Protoco
 
 Read [Master Theory v1.0](historical-versions/originals/PRAYCG_Master_Theory_and_Protocol_PUBLIC_v1_0.md) or [Working Theory v0.6](historical-versions/originals/PRAYCG_Working_Theory_PUBLIC_v0_6.pdf) when tracing earlier assumptions. The complete [historical-version catalog](historical-versions/README.md), [foundations index](foundations/README.md) and [extensions index](extensions/README.md) remain available for detailed browsing.
 
-Historical references inside originals remain unchanged. Use the [original-file locator](../../docs/reorganization/original-file-index.md) to resolve former paths.
+Historical references inside originals remain unchanged. Use the [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md) to resolve former paths.
 
 [Research home](../README.md) · [Methods catalog](../methods.md) · [Sources and history](../../docs/README.md) · [Citations](../../CITATIONS_AND_ATTRIBUTION.md)
