@@ -6,9 +6,7 @@ Use this page to distinguish human pilot observations, synthetic tests and progr
 
 ## November research and pilot updates
 
-- [Claim and evidence review](evidence-review-2026-11-08/README.md) traces the status of earlier claims and the results that informed each decision.
 - [CET-R methods and calibration](cetr/README.md) includes historical timing and EEG findings and a runnable synthetic example.
-- [Synthetic model checks](model-checks/README.md) gives the AIGP recovery and GNT measurement commands and expected results.
 - [Decoder Gate v3](../protocols/decoder-gate-pilot/README.md) and [Context and Persistence](../protocols/context-and-persistence/README.md) describe study designs and software qualification.
 
 ## Human pilot reports and exploratory reanalysis
