@@ -1,6 +1,18 @@
 # Installation and first launch
 
-## Public Alpha 11.10.1
+## Public Alpha 11.12.0
+
+1. Download the [Workbench ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip) and its [SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip.sha256) from the [11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). The archive is 46,509,219 bytes and its SHA-256 is `d2980869ce3e3a1693a7efcee6f0859ef07b3d561874f46cde23c313f7e6d684`.
+2. Finish acquisition, save the LabRecorder recording and close Workbench. Extract the ZIP into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, run the outer `INSTALL.bat`, then `START.bat`.
+3. Reopen your Study Workspace and verify its recording destinations, external-program paths and shared Zuna paths. Keep the previous installation as a rollback copy.
+
+For **Settings → Updates**, use the [signed update companion](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip.update.json) for this exact ZIP. For local import, place the two files in the same folder.
+
+Choose `INSTALL_STIMULUS_PACKAGE.bat` for the seven-film collection and original Lantern Bridge. The installer uses the pinned 11.2.2 media URLs. [Stimulus catalog](../../examples/stimulus-masters/README.md)
+
+[Release changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/BUILD_REPORT.md) · [Installation guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/INSTALL_WORKFLOW.md) · [Research integration](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RESEARCH_INTEGRATION.md)
+
+## Preserved Public Alpha 11.10.1 installation
 
 1. Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** and its matching `.zip.sha256` file from the [11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1). The archive is 45,339,278 bytes and its SHA-256 is `edde5dccdb3a7e150529d7c43dff4d7a65d1c448b1526249ef7ec6204e3d5853`.
 2. Finish acquisition, stop and save LabRecorder, and close the running Workbench. Extract the ZIP into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, run the outer `INSTALL.bat`, then `START.bat`.
@@ -8,7 +20,7 @@
 
 For **Settings → Updates**, the Public updater requires the signed `PRAYCG_Workbench_Public_Alpha_11_10_1.zip.update.json` companion for this exact archive. For a local import, put the ZIP and its companion in the same folder. Consult the release notes for publication-time updater verification. [General installation guide carried forward from 11.10.0](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/INSTALL_WORKFLOW.md)
 
-Choose `INSTALL_STIMULUS_PACKAGE.bat` to add the seven-film collection and original Lantern Bridge. The installer uses the pinned 11.2.2 URLs. The current release also offers copies with matching manifests and checksums. [Stimulus catalog](../../examples/stimulus-masters/README.md) · [Compact Cerelog and Decoder Gate instructions](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/CERELOG_DGA_WORKFLOW.md)
+Choose `INSTALL_STIMULUS_PACKAGE.bat` to add the seven-film collection and original Lantern Bridge. The installer uses the pinned 11.2.2 URLs. The 11.10.1 release also offers copies with matching manifests and checksums. [Stimulus catalog](../../examples/stimulus-masters/README.md) · [Compact Cerelog and Decoder Gate instructions](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/CERELOG_DGA_WORKFLOW.md)
 
 ## Preserved Public Alpha 11.9.2 installation
 
