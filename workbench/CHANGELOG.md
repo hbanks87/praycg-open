@@ -1,5 +1,22 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.12.0 — November research tools
+
+- **Literary Reading and Memory Pilot v3 (Decoder Gate).** Adds a separately versioned managed pilot with Natural Reading and Comparison profiles, human-authored passages, self-paced exposure, delayed visits, explicit scoring and reviewable bundles. Earlier v1 visits retain their original instrument identity.
+- **CET-R research pilot tools.** Adds a sensory calibration presenter and saved-XDF verification, plus a separate context and persistence pilot with blind scoring export and delayed-outcome analysis. The context pilot uses a separately prepared media package supplied by the operator.
+- **Model evidence review.** Adds versioned records for mathematical counterexamples, synthetic recovery, observational equivalence, held-out prediction and joint cost/performance tests. Records retain failed and unavailable criteria and distinguish a completed software run from evidence for a model.
+- **Combined Cerelog/Cyton pilot.** Adds portable preparation, exact equipment and source identity, deliberate operator start, cancellation and saved-data review. Recording gaps and recovery boundaries remain visible, and unsupported windows are flagged.
+- **Workflow hardening.** Runs preparation and analysis in the background, writes new outputs without overwriting earlier studies, and preserves explicit cancellation outcomes and report source identity.
+
+The build passed 1,416 core checks, with 18 skipped. Additional checks covered the two Decoder Gate profiles, CET-R tools, review panels and simulated hardware lifecycle. Physical acquisition and human outcome validation remain separate research work. [Release changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/BUILD_REPORT.md) · [Installation guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/INSTALL_WORKFLOW.md) · [Research integration](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RESEARCH_INTEGRATION.md)
+
+## Included 11.11.0 changes since the 11.10.1 GitHub release
+
+- Adds expected-versus-recorded stream review, frozen dual-ALS threshold review, and study-duration off-body qualification planning and saved evidence review.
+- Adds per-channel cleaning preservation and linked cleaning/replay review, with exact recording-identity checks and authenticated paired time–frequency results.
+- Adds advisory study design, behavioral outcome and follow-up review, grouped comparisons with ordinary baselines, and versioned measurement definitions.
+- Adds module and study outcome explanations and explicit Zuna source, configuration and baseline evidence. Adds regression checks for source identity, split leakage, unknown counts, support masks, saved-receipt handoff and native window callbacks.
+
 ## Public Alpha 11.10.1 — combined off-body EEG and facial-signal recording
 
 A single Workbench check records the compact Cerelog’s three EMG channels, two EOG channels and light input alongside the Cyton/Daisy’s 16 EEG channels and D12 light input. The two sensors share a screen patch. The Workbench reopens the saved XDF for review. [Release notes](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/RELEASE_NOTES.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/BUILD_REPORT.md)

@@ -4,7 +4,7 @@ PRAYCG Workbench is local-first research software for preparing studies, recordi
 
 ## Get the current public version
 
-Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** from the [Public Alpha 11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1). Verify its checksum, extract it into a new folder, run `INSTALL.bat`, then `START.bat`.
+Download **PRAYCG_Workbench_Public_Alpha_11_12_0.zip** from the [Public Alpha 11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). Verify its checksum, extract it into a new folder, run `INSTALL.bat`, then `START.bat`.
 
 For requirements, verification, existing installations and update recovery, follow the [installation guide](docs/installation.md).
 
@@ -31,6 +31,6 @@ The study, analysis and troubleshooting guides describe the workflows documented
 
 ## Changes and project records
 
-Read the [changelog](CHANGELOG.md) for changes and the [11.10.1 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/BUILD_REPORT.md) for checks actually completed. A successful software check is not hardware qualification or scientific validation.
+Read the [cumulative changelog](CHANGELOG.md) for changes and the [11.12.0 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/BUILD_REPORT.md) for checks actually completed. The [research integration guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RESEARCH_INTEGRATION.md) covers the new study tools. The checks establish software behavior with generated inputs and read-only saved evidence.
 
 [Development](development/README.md) · [Roadmap](roadmap.md) · [Citations and attribution](../CITATIONS_AND_ATTRIBUTION.md) · [Contributing](../CONTRIBUTING.md) · [Research disclaimer](../DISCLAIMER.md) · [License](../LICENSE.md) · [Repository home](../README.md)
