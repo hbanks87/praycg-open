@@ -4,9 +4,9 @@
 
 Use the Workbench to prepare studies, record supported streams, inspect signals and produce reviewable results. The research library contains the project's theories, protocols, methods and reproduction programs, with their original evidence and limitations.
 
-**[Download Public Workbench 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1)** · [Install or update](workbench/docs/installation.md) · [What changed](workbench/CHANGELOG.md)
+**[Download Public Workbench 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0)** · [Install or update](workbench/docs/installation.md) · [What changed](workbench/CHANGELOG.md)
 
-Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** from Assets and verify its SHA-256 before extracting it into a new folder. This update lets you record the compact Cerelog and a 16-channel Cyton/Daisy together during an off-body equipment check. GitHub's automatically generated source archives contain this repository's research and documentation collection.
+Download **PRAYCG_Workbench_Public_Alpha_11_12_0.zip** from Assets and verify its SHA-256 before extracting it into a new folder. This release adds the Literary Reading and Memory Pilot v3, CET-R research tools, model evidence review and combined Cerelog/Cyton pilot workflows. GitHub's automatically generated source archives contain this repository's research and documentation collection.
 
 [Latest research](research/README.md#latest-research) brings together Master Theory v3, the November evidence review and new runnable examples.
 
