@@ -13,7 +13,7 @@ Choose one route before practice and keep it fixed. No passage repeats in a diff
 
 ## Which version is available?
 
-The [public Workbench 11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) contains the earlier **v1** instrument. **v3** was completed as a separate standalone pilot on November 10, 2026 and integrated into the **local 11.12.0 candidate**. This page does not publish that candidate or change an installed Workbench. Keep v1 and v3 records, materials and results separate. The local managed v3 route is behavior-only; it does not inherit the earlier fixed critical-action EEG window.
+The [public Workbench 11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0) includes the managed **v3** instrument. The [11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) contains the earlier **v1** instrument. Keep the two versions’ records, materials and results separate. Managed v3 is behavior-only.
 
 ## Researcher materials
 
