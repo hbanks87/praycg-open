@@ -14,4 +14,4 @@ These original documents describe the project's scope, participant stewardship, 
 | [Protocol overview](originals/protocol_overview.md) | Original overview and endpoint framing |
 | [Topo-OSM claim boundary v1.4.7](../measures/originals/master-suite-v1-5-5/TOPO_OSM_CLAIM_BOUNDARY_v1_4_7.md) | Separation of human-scale hypotheses from cellular mechanisms |
 
-Also consult the repository [disclaimer](../../DISCLAIMER.md) and [citations and attribution](../../CITATIONS_AND_ATTRIBUTION.md). This index does not expand the claims or permissions in the originals. Their text remains unchanged; for historical paths, use the [original-file locator](../../docs/reorganization/original-file-index.md).
+Also consult the repository [disclaimer](../../DISCLAIMER.md) and [citations and attribution](../../CITATIONS_AND_ATTRIBUTION.md). This index does not expand the claims or permissions in the originals. Their text remains unchanged; for historical paths, use the [original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md).
