@@ -1,0 +1,27 @@
+{
+  "review_date_local": "2026-11-08",
+  "review_type": "retrospective_consolidation_and_working_pruning",
+  "source_instructions_are_evidence_not_authorization": true,
+  "new_scientific_model_fits": 0,
+  "new_simulated_datasets": 0,
+  "new_participants": 0,
+  "archive_programs_executed_for_this_consolidation": false,
+  "original_archives_and_analyses_preserved": true,
+  "historical_ranked_families_covered": 16,
+  "original_archives_in_existing_inventory": 8,
+  "later_archives_in_existing_inventory": 4,
+  "claim_ledger_entries": 53,
+  "entry_action_counts_not_theory_truth_counts": {
+    "CORRECT": 13,
+    "PARK": 26,
+    "RETIRE VERSION": 7,
+    "RETAIN LIMITED": 5,
+    "SEPARATE": 2
+  },
+  "active_automatic_empirical_testing_queue": [],
+  "queue_reason": "No surviving exact-ready distinctive public-data test was verified in the reviewed searches. This is a bounded readiness decision, not a claim that none exists anywhere.",
+  "main_conclusion": "No reviewed empirical result uniquely establishes a framework-specific mechanism. This does not imply every theory was empirically falsified.",
+  "research_core": "Bounded observations and reusable methods only; no newly validated unified mechanism or replacement composite.",
+  "historical_ranking": "Preserved unchanged; FAMILY_DISPOSITIONS is a new scoped overlay, not a truth-probability ranking.",
+  "reopen_rule": "Versioned operational claim; independent measurements/outcomes; actual fixed rivals; genuine distinguishing or worthwhile predictive commitment; verified data/design; dependence, missingness and uncertainty addressed. Retuning or renaming does not reset evidence."
+}
