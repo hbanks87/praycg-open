@@ -8,7 +8,7 @@ Use the Workbench to prepare studies, record supported streams, inspect signals 
 
 Download **PRAYCG_Workbench_Public_Alpha_11_12_0.zip** from Assets and verify its SHA-256 before extracting it into a new folder. This release adds the Literary Reading and Memory Pilot v3, CET-R research tools, model evidence review and combined Cerelog/Cyton pilot workflows. GitHub's automatically generated source archives contain this repository's research and documentation collection.
 
-[Latest research](research/README.md#latest-research) brings together Master Theory v3, the November evidence review and new runnable examples.
+[Current pilot and methods guides](research/README.md#latest-research) cover Decoder Gate v3, Context and Persistence, and CET-R sensory calibration.
 
 ## Choose a path
 
