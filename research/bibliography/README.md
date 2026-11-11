@@ -1,8 +1,8 @@
 # Research bibliography and software credits
 
-**Current public release: [Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).**
+**Current public release: [Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0).**
 
-The 11.10.0 section identifies the new study and connector sources. The 11.9.2 section preserves the method and software citation review of 26 October 2026. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
+The 11.12.0 section records the current dependency declarations and Literary Pilot v3 sources checked on 11 November 2026. The 11.10.0 section identifies the new study and connector sources. The 11.9.2 section preserves the method and software citation review of 26 October 2026. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
 
 The historical [Public Alpha 11.2.2 supplement](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-1122-release-supplement) carries these references forward where the actual code uses them and identifies the new workflow/rating-credit changes. The retained section preserves its 11.2.1 source-review scope; later additions do not turn it into a second independent source audit.
 
@@ -15,6 +15,37 @@ This index connects PRAYCG's current integration code to upstream software and s
 A study should identify its PRAYCG release and protocol revision, actual software versions, selected algorithms and parameters, and the outputs that support its conclusions. Cite both an upstream implementation and its method paper where appropriate. An installed dependency, a candidate transform, a failed attempt and an adopted analysis are different facts. Retain applicable licenses as well as scholarly citations.
 
 The code paths in the retained 11.2.1 section below are relative to `app/` inside that inspected archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
+
+## Public Alpha 11.12.0 citation scope
+
+The [current attribution guide](../../docs/attribution/README.md) identifies the inspected 11.12.0 archive and active registry. The [release attribution ledger](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RELEASE_11_12_0_ATTRIBUTION.md) supplies the release's adaptation boundaries. Earlier sections below retain their own versions and review dates.
+
+### Software and optical credits carried forward
+
+Core declares NeuroKit2 0.2.13, PyWavelets 1.9.0 and mne-denoise 0.0.3; its MNE constraint remains `>=1.6,<2`. Optional Signal Extras declares MNE 1.11.0, ASRpy 0.0.8, MNE-ICALabel 0.10.0, Pycrostates 0.6.1 and eeglabio 0.1.2. These are requirements, not evidence of installation or execution. Record actual environment versions with each result.
+
+- **NeuroKit2:** retain Makowski, Pham, Lau, Brammer, Lespinasse, Pham, Schölzel and Chen (2021), the full S1 reference below, and each operation's original method references. The [official citation guidance](https://neuropsychology.github.io/NeuroKit/cite_us.html) confirms [DOI 10.3758/s13428-020-01516-y](https://doi.org/10.3758/s13428-020-01516-y). The inspected physiology sources call ECG/respiration, PPG, EDA, HRV and paired ECG/respiration RSA routes. Native PRAYCG phase/RR association remains separately defined. The archive retains NeuroKit2's MIT license and AUTHORS record under `app/THIRD_PARTY_NOTICES/core/neurokit2-0.2.13/`.
+- **EEGLAB and Python EEG routes:** retain Delorme and Makeig (2004), the full E1 reference below, when EEGLAB contributes to the work; the [official guidance](https://eeglab.org/others/EEGLAB_References.html) distinguishes toolbox and plugin citations. The inspected `.set` import calls `mne.io.read_raw_eeglab`; this is Python interoperability, not execution of MATLAB EEGLAB. Credit MNE, eeglabio (E2), ASRpy (S7), MNE-ICALabel and the separate ICLabel model (S4), or Pycrostates and modified k-means (S5/M8) according to the operations performed. A software requirement or format name alone does not establish their use.
+- **Optical and acquisition:** O1 retains all six Delpy authors; O2 retains the MNE fNIRS tutorial as methodological context for the native optical route. LabRecorder, LSL/liblsl/pylsl, BrainFlow, OpenBCI, Cerelog and pyxdf credits remain applicable to their actual acquisition roles. The joint-bench requirement still pins pyxdf 1.17.5. The registry's pending protocol-evidence method review remains open.
+
+### Decoder Gate Literary Pilot v3
+
+> Banks, Hoyt. (2026, November 10). *Reading, Attention and Memory — Literary Pilot v3* (v3.0.0) [Local protocol design, `DecoderGate_Pilot_Pack_v3_20261110`]. Distributed with [PRAYCG Workbench Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0).
+
+The shipped definition is `app/tools/ProtocolAtlas_ModuleLibrary_v2_0/protocols/Decoder_gate_behavioral_pilot_v3_0.json`, protocol ID `ATLAS_DECODER_GATE_BEHAVIORAL_PILOT_V3`. Its attribution identifies Hoyt Banks as the PRAYCG protocol developer and explicitly records a versioned local design, not peer-reviewed validation. This self-paced literary pilot is separate from the earlier v1 fixed-critical-segment design. Its software event timestamps do not establish physical display onset or a validated neural mechanism.
+
+The component `app/tools/Decoder_Gate_Pilot_v3_0/` contains 38 passage records: 32 main, two practice and four calibration records. Credit these authors and the exact Project Gutenberg editions, alongside the PRAYCG protocol:
+
+| Literary author | Work and source edition |
+| --- | --- |
+| L. Frank Baum | *The Wonderful Wizard of Oz*, [Project Gutenberg eBook 55](https://www.gutenberg.org/ebooks/55) |
+| E. Nesbit | *The Railway Children*, [Project Gutenberg eBook 1874](https://www.gutenberg.org/ebooks/1874) |
+| Louisa May Alcott | *Little Women*, [Project Gutenberg eBook 514](https://www.gutenberg.org/ebooks/514) |
+| O. Henry | *The Four Million*, [Project Gutenberg eBook 2776](https://www.gutenberg.org/ebooks/2776) |
+
+The component's `SOURCES_AND_CREDITS.html` and `materials/participant_bank.json` retain passage-level authors, sections, source URLs, paragraph locators and fingerprints. Base passages preserve complete consecutive source paragraphs after layout whitespace normalization; reordered comparison conditions are experimental rearrangements, not the authors' original sequence. Questions and rubrics are newly authored pilot materials, not validated tests. Source-cache hashes are provenance records and do not imply that full source-book caches are bundled.
+
+The four source editions are cataloged as public domain in the USA. Preserve `notices/PROJECT_GUTENBERG_LICENSE.txt` within the component and follow the [Project Gutenberg terms](https://www.gutenberg.org/policy/license.html); the catalog status is not worldwide rights clearance or endorsement. The earlier v1 section's project-generated-fictional-material description applies to that older version, not these literary excerpts.
 
 ## Public Alpha 11.10.1 off-body recording
 
