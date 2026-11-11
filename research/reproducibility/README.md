@@ -7,7 +7,6 @@ This hub catalogs artifact-bearing synthetic reproduction kits, the NUPI reanaly
 ## November runnable examples
 
 - [CET-R synthetic calibration](../studies/cetr/README.md) provides a public example with expected outputs and the boundary between software checks and historical recording results.
-- [AIGP model recovery and GNT measurement qualification](../studies/model-checks/README.md) provides fixed inputs and decision criteria for the synthetic checks.
 - [Context and Persistence](../protocols/context-and-persistence/README.md) includes a synthetic analysis example and the recipe for reconstructing the stimuli from locally supplied material.
 
 ## Choose the work to reproduce
