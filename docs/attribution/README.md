@@ -1,6 +1,6 @@
 # Attribution guide
 
-**Current application: [Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).**
+**Current application: [Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). Focused attribution check: 11 November 2026.**
 
 Use this guide to find the references for the software, methods and materials actually used in a study. The [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md) contains the project citation and retained source reviews; the [research bibliography](../../research/bibliography/README.md) supplies method and software references.
 
@@ -8,6 +8,7 @@ Use this guide to find the references for the software, methods and materials ac
 
 | Record | Purpose and scope |
 | --- | --- |
+| [Public Alpha 11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0) and [release attribution ledger](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RELEASE_11_12_0_ATTRIBUTION.md) | Current archive, adaptation boundaries and Literary Pilot v3 provenance. The [11.12.0 bibliography](../../research/bibliography/README.md#public-alpha-11120-citation-scope) identifies retained software credits and all four literary source editions. |
 | [Public Alpha 11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) | The off-body recorder uses LabRecorder to save the XDF and pyxdf to reopen it. The [expanded attribution guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/ATTRIBUTION_ALPHA_11_4_1.md) carries forward the optical correction and upstream method credits. |
 | [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and [Cerelog / Decoder Gate guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) | 11.10.0 software citation, compact connector provenance and new behavioral pilot. Cite the actual profile, protocol revision and release. |
 | [Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2) | The application ZIP, checksum, updater companion and separately published attribution guide. Cite the version actually used. |
@@ -16,6 +17,16 @@ Use this guide to find the references for the software, methods and materials ac
 | [11.4.1 correction evidence](alpha-11.4.1/README.md) | The original optical-credit fix, selected registry/source snapshot and its evidence boundaries. |
 | [11.2.2 supplement](alpha-11.2.2/README.md) and [11.2.1 source review](alpha-11.2.1/README.md) | Earlier release and dependency reviews. Their statements about absent routes and inspected versions remain historical. |
 | [Third-party notices](../../THIRD_PARTY_NOTICES/README.md) | Upstream rights and notices, distinct from bibliographic references. Preserve notices with redistributed components. |
+
+## Focused 11.12.0 check
+
+The checked public ZIP is **46,509,219 bytes**, SHA-256 `d2980869ce3e3a1693a7efcee6f0859ef07b3d561874f46cde23c313f7e6d684`. Its active `app/config/attribution_registry_v1.json` has SHA-256 `4f25e299a0fcf7135183354b7471c8a2ce8fbaed48d1b719e2450082fcf739fc`, matching the earlier registry identified below: 41 modules and 34 methods, including the corrected Delpy optical citation and separate MNE tutorial credit. The pending method-level review for `protocol_evidence_v1_0` is unchanged. This check covers selected requirements, source routes, attribution records and literary materials; it does not extend the older comprehensive review to all newer code or dependencies.
+
+Core still declares NeuroKit2 0.2.13, PyWavelets 1.9.0 and mne-denoise 0.0.3. Signal Extras still declares MNE 1.11.0, ASRpy 0.0.8, MNE-ICALabel 0.10.0, Pycrostates 0.6.1 and eeglabio 0.1.2. Retain implementation and original-method credits according to actual use. The [preserved expanded guide](alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md) supplies those references; it is not embedded in the 11.12.0 ZIP or listed among that release's assets.
+
+Decoder Gate Literary Pilot v3 credits Hoyt Banks for the November 10, 2026 local protocol design and separately credits Baum, Nesbit, Alcott and O. Henry for 38 literary passage records from four Project Gutenberg editions. Within `app/tools/Decoder_Gate_Pilot_v3_0/`, preserve `SOURCES_AND_CREDITS.html`, `materials/participant_bank.json` and `notices/PROJECT_GUTENBERG_LICENSE.txt`. The source records and license travel with the component. Its protocol-level attribution does not create a global method-registry entry or validate the pilot's measures. The [bibliography](../../research/bibliography/README.md#decoder-gate-literary-pilot-v3) gives source editions, citation and adaptation boundaries.
+
+## Retained earlier checks
 
 The 11.10.0 active credit registry, packaged master citation file and all 234 bundled third-party notice files match 11.9.2 byte for byte. The new Decoder Gate protocol credits Hoyt Banks for the October 30, 2026 PRAYCG pilot design. The compact Cerelog connector records its source files and adaptations in `compact_backend/PORT_PROVENANCE.json`; use the [bibliography](../../research/bibliography/README.md#public-alpha-11100-citation-scope) for the in-archive paths. This comparison does not resolve the pending protocol-evidence method credits or revisit the licenses of every dependency.
 

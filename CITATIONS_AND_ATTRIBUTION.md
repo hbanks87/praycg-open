@@ -1,10 +1,10 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current public PRAYCG Workbench release: [Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1)**
+**Current public PRAYCG Workbench release: [Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0)**
 
-**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.10.1. Earlier source reviews retain their stated version and date.**
+**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.12.0. Earlier source reviews retain their stated version and date.**
 
-**Document revision:** 2.9 · **Updated:** 6 November 2026
+**Document revision:** 2.10 · **Updated:** 11 November 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -22,8 +22,11 @@ Revision 2.6 adds the Public Alpha 11.4.1 optical-credit repair and current soft
 
 Revision 2.7 updated the software citation to Public Alpha 11.9.2 and records a focused check of its retained attribution, selected requirements and method records. The [attribution guide](docs/attribution/README.md) identifies current evidence and the remaining method-level coverage gap without relabeling older reviews.
 
+Revision 2.10 checks the published Public Alpha 11.12.0 archive's selected requirements, active credit registry and Decoder Gate Literary Pilot v3 sources. It updates the current citation and literary-source credits while preserving the optical correction and historical reviews. This is a focused attribution update, not a new comprehensive source, license or scientific audit.
+
 ## Contents
 
+- [Public Alpha 11.12.0 attribution continuity](#public-alpha-11120-attribution-continuity)
 - [Public Alpha 11.10.0 attribution continuity](#public-alpha-11100-attribution-continuity)
 - [Public Alpha 11.9.2 attribution continuity](#public-alpha-1192-attribution-continuity)
 - [Public Alpha 11.4.1 attribution supplement](#public-alpha-1141-attribution-supplement)
@@ -48,6 +51,10 @@ Revision 2.7 updated the software citation to Public Alpha 11.9.2 and records a 
 
 ## How to cite PRAYCG and a study
 
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.12.0; 1.0.0-alpha.11.12.0) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0).
+
+For Public Alpha 11.10.1, retain its own citation:
+
 > Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.10.1) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1).
 
 For Public Alpha 11.10.0, cite the exact edition and release used:
@@ -55,6 +62,16 @@ For Public Alpha 11.10.0, cite the exact edition and release used:
 > Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.10.0; 1.0.0-alpha.11.10.0) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0).
 
 Keep the archive checksum with the study record. For an earlier study, use its actual release identity and citations, not this version by default.
+
+## Public Alpha 11.12.0 attribution continuity
+
+The published 11.12.0 public ZIP is **46,509,219 bytes**, SHA-256 `d2980869ce3e3a1693a7efcee6f0859ef07b3d561874f46cde23c313f7e6d684`. A focused 11 November 2026 check inspected its selected requirements, active attribution registry, retained optical references, release attribution ledger and Decoder Gate Literary Pilot v3 source records. The [release attribution ledger](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RELEASE_11_12_0_ATTRIBUTION.md) records the adapted PRAYCG components and their source boundaries; it does not establish comprehensive automatic method-credit coverage.
+
+Core requirements retain NeuroKit2 0.2.13, PyWavelets 1.9.0 and mne-denoise 0.0.3. Signal Extras declares MNE 1.11.0, ASRpy 0.0.8, MNE-ICALabel 0.10.0, Pycrostates 0.6.1 and eeglabio 0.1.2. Cite the actual implementation and operation used, including NeuroKit2's method-specific references and the separate EEGLAB, Python I/O and ICLabel model credits where applicable. The [11.12.0 bibliography supplement](research/bibliography/README.md#public-alpha-11120-citation-scope) identifies those boundaries and the new literary materials.
+
+For *Reading, Attention and Memory — Literary Pilot v3*, credit Hoyt Banks for the November 10, 2026 PRAYCG protocol design, `DecoderGate_Pilot_Pack_v3_20261110`. Credit L. Frank Baum, E. Nesbit, Louisa May Alcott and O. Henry for the literary excerpts and Project Gutenberg for the identified source editions. The new questions, rubrics and experimental rearrangements are PRAYCG pilot material; authorship of those adaptations does not transfer authorship of the source works. This local behavioral design is separate from the earlier pilot and is not a validated neural-gate measure.
+
+The active registry SHA-256 remains `4f25e299a0fcf7135183354b7471c8a2ce8fbaed48d1b719e2450082fcf739fc` (41 modules, 34 methods). The six-author Delpy optical reference and separate MNE fNIRS tutorial credit are retained. The registry still labels `protocol_evidence_v1_0` as `MODULE_REGISTERED_METHOD_LEVEL_ATTRIBUTION_REVIEW_PENDING`; Decoder Gate v3 supplies its own protocol attribution rather than a new global method-registry entry. The [preserved 11.4.1 correction guide](docs/attribution/alpha-11.4.1/package/app/docs/ATTRIBUTION_ALPHA_11_4_1.md) remains available in this repository. It is not embedded in the 11.12.0 application ZIP or listed among that release's assets.
 
 ## Public Alpha 11.10.0 attribution continuity
 
