@@ -1,5 +1,17 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.13.0 — evidence selection and Analysis Forge
+
+- Corrects CAI/SID source selection, quality masks before future-window calculations and full delayed A-MRED support. Recognition remains readable when encoding cannot be estimated. NIP, NAST, EET, TTI/NUPI and Peak/Resolution handoffs retain available support and reasons for unavailable inputs.
+- Adds source, method version, support, shared-input relationships and report links to Results. Explanation review carries required source limitations into a separate review copy and preserves the original provider response.
+- Adds Gamma Scalpel 2.1 broad-band correction, five 5-Hz and ten 2.5-Hz inspection exports, and required-reference and line-quality decisions. Continuous Autonomic can save the experimental API-A component and baseline comparisons. Zuna review adds explicit comparators and distortion diagnostics.
+- Adds independent DGA item-review intake, explicit endpoint qualification, saved stimulus-delivery evidence review and start/middle/end marker-to-light diagnostics.
+- Repairs exclusive Windows bundle/review publication, literal braces in analysis paths and transient DGA checkpoint-save locks. Adds `CREATE_SYNTHETIC_EXAMPLE.bat` for a clean and a short unavailable-data example.
+
+Open **Analysis Forge** for saved-run QC, plan execution, persistent Results and linked reports. Open **Gamma Scalpel** for band inspection, **Continuous Autonomic** for the optional API-A report, or the **DGA study** window for matching item-review import. **Study design and evidence review → delivery** opens stimulus evidence review. **Hardware evidence and qualification** opens the saved marker-to-light review.
+
+Two recent Athena recordings completed the native Forge workflow in both editions. The build report lists overlapping regression groups, unavailable module outcomes and observed interface delays. All nine weak-probe SPAR preservation cases failed their criteria. API-A construct validation, a narrow-band advantage, new Zuna inference and physical hardware qualification remain prospective work. [Release changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) · [Installation and workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/INSTALL_WORKFLOW.md) · [Delivery checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md)
+
 ## Public Alpha 11.12.0 — November research tools
 
 - **Literary Reading and Memory Pilot v3 (Decoder Gate).** Adds a separately versioned managed pilot with Natural Reading and Comparison profiles, human-authored passages, self-paced exposure, delayed visits, explicit scoring and reviewable bundles. Earlier v1 visits retain their original instrument identity.

@@ -1,10 +1,10 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current public PRAYCG Workbench release: [Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0)**
+**Current public PRAYCG Workbench release: [Public Alpha 11.13.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0)**
 
-**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.12.0. Earlier source reviews retain their stated version and date.**
+**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.13.0. Earlier source reviews retain their stated version and date.**
 
-**Document revision:** 2.10 · **Updated:** 11 November 2026
+**Document revision:** 2.11 · **Updated:** 21 November 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -24,8 +24,11 @@ Revision 2.7 updated the software citation to Public Alpha 11.9.2 and records a 
 
 Revision 2.10 checks the published Public Alpha 11.12.0 archive's selected requirements, active credit registry and Decoder Gate Literary Pilot v3 sources. It updates the current citation and literary-source credits while preserving the optical correction and historical reviews. This is a focused attribution update, not a new comprehensive source, license or scientific audit.
 
+Revision 2.11 adds the 11.13.0 software citation and a focused byte comparison of retained attribution records against 11.12.0. The new PRAYCG method revisions retain their declared evidence limits.
+
 ## Contents
 
+- [Public Alpha 11.13.0 attribution continuity](#public-alpha-11130-attribution-continuity)
 - [Public Alpha 11.12.0 attribution continuity](#public-alpha-11120-attribution-continuity)
 - [Public Alpha 11.10.0 attribution continuity](#public-alpha-11100-attribution-continuity)
 - [Public Alpha 11.9.2 attribution continuity](#public-alpha-1192-attribution-continuity)
@@ -51,6 +54,10 @@ Revision 2.10 checks the published Public Alpha 11.12.0 archive's selected requi
 
 ## How to cite PRAYCG and a study
 
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.13.0; 1.0.0-alpha.11.13.0) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0).
+
+For Public Alpha 11.12.0, retain its own citation.
+
 > Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.12.0; 1.0.0-alpha.11.12.0) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0).
 
 For Public Alpha 11.10.1, retain its own citation:
@@ -62,6 +69,10 @@ For Public Alpha 11.10.0, cite the exact edition and release used:
 > Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.10.0; 1.0.0-alpha.11.10.0) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0).
 
 Keep the archive checksum with the study record. For an earlier study, use its actual release identity and citations, not this version by default.
+
+## Public Alpha 11.13.0 attribution continuity
+
+The 11.13.0 public ZIP is **46,808,511 bytes**, SHA-256 `5c34cf6c24e2030deb35c699650ab4fad46fce2e8551a4a5ecf17bf87c25fe44`. Its packaged master citation record, active attribution registry and 234 retained third-party notice files match the published 11.12.0 archive byte for byte. The new endpoint corrections, Gamma 2.1 inspection, API-A comparison and evidence-review code are PRAYCG implementations with recorded method revisions. Retain NeuroKit2, MNE/EEGLAB-format I/O, ASRpy, ICLabel, Pycrostates, SPAR-EEG, Zuna, acquisition and literary-source credits according to actual use. The optical correction and pending protocol-evidence method review keep their recorded scope. [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) · [Method and evidence checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md)
 
 ## Public Alpha 11.12.0 attribution continuity
 

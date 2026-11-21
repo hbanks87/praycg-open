@@ -1,8 +1,8 @@
 # Research bibliography and software credits
 
-**Current public release: [Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0).**
+**Current public release: [Public Alpha 11.13.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0).**
 
-The 11.12.0 section records the current dependency declarations and Literary Pilot v3 sources checked on 11 November 2026. The 11.10.0 section identifies the new study and connector sources. The 11.9.2 section preserves the method and software citation review of 26 October 2026. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
+The 11.13.0 section records attribution continuity for the new evidence and workflow release. The 11.12.0 section records the current dependency declarations and Literary Pilot v3 sources checked on 11 November 2026. The 11.10.0 section identifies the new study and connector sources. The 11.9.2 section preserves the method and software citation review of 26 October 2026. The retained 11.4.1 section documents the optical correction and later NeuroKit2/EEG routes, while the 11.2.1 section keeps its original source-review scope. Statements about absent routes in that older review describe that package.
 
 The historical [Public Alpha 11.2.2 supplement](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-1122-release-supplement) carries these references forward where the actual code uses them and identifies the new workflow/rating-credit changes. The retained section preserves its 11.2.1 source-review scope; later additions do not turn it into a second independent source audit.
 
@@ -15,6 +15,10 @@ This index connects PRAYCG's current integration code to upstream software and s
 A study should identify its PRAYCG release and protocol revision, actual software versions, selected algorithms and parameters, and the outputs that support its conclusions. Cite both an upstream implementation and its method paper where appropriate. An installed dependency, a candidate transform, a failed attempt and an adopted analysis are different facts. Retain applicable licenses as well as scholarly citations.
 
 The code paths in the retained 11.2.1 section below are relative to `app/` inside that inspected archive. Exact identities and selected source hashes are preserved in the [attribution source manifest](../../docs/attribution/alpha-11.2.1/SOURCE_MANIFEST.json). These code observations establish available routes; a study's own receipts establish execution.
+
+## Public Alpha 11.13.0 citation scope
+
+The [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-11130-attribution-continuity) identifies the exact archive and the retained source records. Existing NeuroKit2 and MNE/EEGLAB-related references below apply to the operations actually used. Gamma 2.1 band definitions, API-A component comparisons and corrected endpoint support are versioned PRAYCG implementations. Record their method revision, inputs, exclusions and available support alongside upstream implementation references. The new exports and workflow checks provide no independent construct-validation result. [Release checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md)
 
 ## Public Alpha 11.12.0 citation scope
 

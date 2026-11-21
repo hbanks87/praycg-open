@@ -1,6 +1,20 @@
 # Installation and first launch
 
-## Public Alpha 11.12.0
+## Public Alpha 11.13.0
+
+1. Download the [Workbench ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/PRAYCG_Workbench_Public_Alpha_11_13_0.zip) and [SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/PRAYCG_Workbench_Public_Alpha_11_13_0.zip.sha256) from the [11.13.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0). The archive is 46,808,511 bytes and its SHA-256 is `5c34cf6c24e2030deb35c699650ab4fad46fce2e8551a4a5ecf17bf87c25fe44`.
+2. Finish acquisition, save LabRecorder and close Workbench. Extract into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, then run the outer `INSTALL.bat` and `START.bat`.
+3. Reopen the intended workspace and verify recording destinations, external-program paths and the shared Zuna location. Keep the previous installation as a rollback copy.
+
+For **Settings → Updates**, keep the [signed update companion](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/PRAYCG_Workbench_Public_Alpha_11_13_0.zip.update.json) beside its exact ZIP for local import.
+
+Open **Analysis Forge** to select a saved recording/run folder, run required QC, lock/run the eligible analysis plan and inspect Results and linked reports. Run `CREATE_SYNTHETIC_EXAMPLE.bat` to generate and analyze the clean and short examples. The short example demonstrates an unavailable endpoint.
+
+Use `INSTALL_STIMULUS_PACKAGE.bat` for the seven-film and original Lantern packages. The installer retains its pinned 11.2.2 media links. [Stimulus catalog](../../examples/stimulus-masters/README.md)
+
+[Release changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) · [Installation and workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/INSTALL_WORKFLOW.md) · [Delivery checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md)
+
+## Preserved Public Alpha 11.12.0 installation
 
 1. Download the [Workbench ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip) and its [SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip.sha256) from the [11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). The archive is 46,509,219 bytes and its SHA-256 is `d2980869ce3e3a1693a7efcee6f0859ef07b3d561874f46cde23c313f7e6d684`.
 2. Finish acquisition, save the LabRecorder recording and close Workbench. Extract the ZIP into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, run the outer `INSTALL.bat`, then `START.bat`.

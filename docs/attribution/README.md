@@ -1,6 +1,6 @@
 # Attribution guide
 
-**Current application: [Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). Focused attribution check: 11 November 2026.**
+**Current application: [Public Alpha 11.13.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0). Focused continuity check: 21 November 2026.**
 
 Use this guide to find the references for the software, methods and materials actually used in a study. The [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md) contains the project citation and retained source reviews; the [research bibliography](../../research/bibliography/README.md) supplies method and software references.
 
@@ -8,6 +8,7 @@ Use this guide to find the references for the software, methods and materials ac
 
 | Record | Purpose and scope |
 | --- | --- |
+| [Public Alpha 11.13.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0) | Current archive and method revisions. [11.13.0 attribution continuity](../../CITATIONS_AND_ATTRIBUTION.md#public-alpha-11130-attribution-continuity) records the retained notices and source credits; [verification](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) records software checks and limitations. |
 | [Public Alpha 11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0) and [release attribution ledger](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RELEASE_11_12_0_ATTRIBUTION.md) | Current archive, adaptation boundaries and Literary Pilot v3 provenance. The [11.12.0 bibliography](../../research/bibliography/README.md#public-alpha-11120-citation-scope) identifies retained software credits and all four literary source editions. |
 | [Public Alpha 11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) | The off-body recorder uses LabRecorder to save the XDF and pyxdf to reopen it. The [expanded attribution guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/ATTRIBUTION_ALPHA_11_4_1.md) carries forward the optical correction and upstream method credits. |
 | [Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) and [Cerelog / Decoder Gate guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) | 11.10.0 software citation, compact connector provenance and new behavioral pilot. Cite the actual profile, protocol revision and release. |
@@ -17,6 +18,10 @@ Use this guide to find the references for the software, methods and materials ac
 | [11.4.1 correction evidence](alpha-11.4.1/README.md) | The original optical-credit fix, selected registry/source snapshot and its evidence boundaries. |
 | [11.2.2 supplement](alpha-11.2.2/README.md) and [11.2.1 source review](alpha-11.2.1/README.md) | Earlier release and dependency reviews. Their statements about absent routes and inspected versions remain historical. |
 | [Third-party notices](../../THIRD_PARTY_NOTICES/README.md) | Upstream rights and notices, distinct from bibliographic references. Preserve notices with redistributed components. |
+
+## Focused 11.13.0 continuity check
+
+The 11.13.0 public ZIP is **46,808,511 bytes**, SHA-256 `5c34cf6c24e2030deb35c699650ab4fad46fce2e8551a4a5ecf17bf87c25fe44`. Its packaged master citation record, active attribution registry and 234 retained third-party notice files match the published 11.12.0 archive byte for byte. The new endpoint corrections, Gamma 2.1 inspection, API-A comparison and evidence-review code are PRAYCG implementations with recorded method revisions. Retain NeuroKit2, MNE/EEGLAB-format I/O, ASRpy, ICLabel, Pycrostates, SPAR-EEG, Zuna, acquisition and literary-source credits according to actual use. The optical correction and pending protocol-evidence method review keep their recorded scope. [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) · [Method and evidence checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md)
 
 ## Focused 11.12.0 check
 

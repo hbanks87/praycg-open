@@ -4,9 +4,11 @@ PRAYCG Workbench is local-first research software for preparing studies, recordi
 
 ## Get the current public version
 
-Download **PRAYCG_Workbench_Public_Alpha_11_12_0.zip** from the [Public Alpha 11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). Verify its checksum, extract it into a new folder, run `INSTALL.bat`, then `START.bat`.
+Download **PRAYCG_Workbench_Public_Alpha_11_13_0.zip** from the [Public Alpha 11.13.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0). Verify its checksum, extract it into a new folder, run `INSTALL.bat`, then `START.bat`.
 
 For requirements, verification, existing installations and update recovery, follow the [installation guide](docs/installation.md).
+
+For 11.13.0, open **Analysis Forge** to select a saved run, complete required QC and inspect source-bound Results and reports. Run `CREATE_SYNTHETIC_EXAMPLE.bat` for the first-run example. The [release workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/INSTALL_WORKFLOW.md) gives the entry points for Gamma, API-A, DGA item review and saved delivery/timing evidence.
 
 ## Choose your next step
 
@@ -31,6 +33,6 @@ The study, analysis and troubleshooting guides describe the workflows documented
 
 ## Changes and project records
 
-Read the [cumulative changelog](CHANGELOG.md) for changes and the [11.12.0 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/BUILD_REPORT.md) for checks actually completed. The [research integration guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RESEARCH_INTEGRATION.md) covers the new study tools. The checks establish software behavior with generated inputs and read-only saved evidence.
+Read the [cumulative changelog](CHANGELOG.md), [11.13.0 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) and [delivery checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md) for implemented changes, verification and remaining research evidence. The build exercised native saved-recording workflows and generated examples.
 
 [Development](development/README.md) · [Roadmap](roadmap.md) · [Citations and attribution](../CITATIONS_AND_ATTRIBUTION.md) · [Contributing](../CONTRIBUTING.md) · [Research disclaimer](../DISCLAIMER.md) · [License](../LICENSE.md) · [Repository home](../README.md)
