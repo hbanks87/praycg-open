@@ -1,10 +1,17 @@
 # Theoretical and operational extensions
 
-This guide connects the broad framework to versioned developments in the preserved research record. “Extension” is an organizational category, not a claim that a proposal has been validated.
+Follow a research question from its original proposal to the measurement or experiment used to investigate it.
 
 [Theory index](../README.md) · [Foundations](../foundations/README.md) · [Full measures index](../../measures/README.md)
 
-Read the [concept explanations](../../concepts/README.md) alongside the [algorithm implementation guide](../../algorithms/README.md) for the inputs, calculations, outputs and limitations behind these names. Method versions and current software implementations are identified separately.
+## Development histories
+
+| Research question | Development and evidence |
+| --- | --- |
+| How does recognizing meaning relate to later integration? | [TSP, MRED and the proposed theta handoff](recognition-integration.md) |
+| How do context and task demands affect understanding and later memory? | [Decoder Gate, the literary pilot and item review](decoder-gate.md) |
+
+## Original specifications
 
 | Topic | Original documents |
 | --- | --- |
@@ -15,4 +22,4 @@ Read the [concept explanations](../../concepts/README.md) alongside the [algorit
 | Reception, extraction, and narrative update | [TTI v0.1](../../measures/originals/master-suite-v1-5-5/TTI_v0_1_Reception_Extraction_Tradeoff.md) · [NUPI v1.5.4](../../measures/originals/master-suite-v1-5-5/NUPI_Narrative_Update_Polarity_Method_v1_5_4.md) · [framework update v0.5](../../collections/public-docs/Framework_NUPI_Update_v0_5/README_NUPI_Framework_Update_v0_5.md) |
 | Decoder-gate availability | [DGA method v1.5.6](../../measures/originals/offline-interpreter-v1-5-6/DGA_Decoder_Gate_Availability_Method_v1_5_6.md) |
 
-For earlier translation and state-update notes, use the [historical theory guide](../historical-versions/README.md). For tests and worked outputs, use [studies](../../studies/README.md). The source documents retain their definitions, caveats, and historical terminology unchanged.
+For earlier state-update formulations, see the [historical theory guide](../historical-versions/README.md). The [concept guides](../../concepts/README.md) explain the equations, and the [studies catalog](../../studies/README.md) links reports and runnable examples.

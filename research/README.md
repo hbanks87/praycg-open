@@ -2,7 +2,9 @@
 
 PRAYCG studies how narrative structure and analytic task demands relate to measured brain–body responses. Its record includes proposed explanations, versioned calculations, exploratory human reports and synthetic tests. The [Workbench](../workbench/README.md) provides the software workflow; using it does not require accepting the research theories.
 
-**Navigation reviewed: 10 November 2026.** Scientific documents and evidence retain their own versions and dates.
+## Theory developments
+
+[Recognition and later integration](theory/extensions/recognition-integration.md) traces the original question, scalp proxy and follow-up hypotheses. [Decoder Gate and the reading pilot](theory/extensions/decoder-gate.md) explains the move from a self-report profile to a behavioral instrument.
 
 ## Latest research
 
@@ -33,7 +35,7 @@ For a concrete evidence trail, follow [Opto-PING](optoping/README.md) from its m
 | Record | What it establishes |
 | --- | --- |
 | Original theory or method specification | The author's stated hypothesis, calculation or proposed procedure at that version. |
-| Implementation snapshot | What was found in an identified archive; the [algorithm map](algorithms/README.md) inspects Alpha 11.2.1, not the latest release. |
+| Implementation snapshot | Exact worker versions and required support in the [11.13 methods map](algorithms/public-alpha-11-13.md), with the [11.2.1 source inspection](algorithms/README.md) available for comparison. |
 | Human pilot report | Exploratory analysis of identified recordings and inputs; the Contact self-run is not a confirmatory study. |
 | Synthetic reproduction | Behavior under a declared generator, model set, seed policy and decision rule. |
 | Roadmap or proposal | Work still planned, including the [research roadmap](roadmap.md). |

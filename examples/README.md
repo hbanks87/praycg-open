@@ -1,6 +1,6 @@
 # Stimuli and examples
 
-Choose a demonstration, an existing screening master or a preparation recipe. This is the maintained catalog for Public Workbench **11.9.2**; the linked materials retain their own original versions.
+Choose a demonstration, a screening master or a preparation recipe. The [public stimulus catalog](stimulus-masters/README.md) identifies the packs available for installation.
 
 | Your task | Start here | What you receive |
 | --- | --- | --- |

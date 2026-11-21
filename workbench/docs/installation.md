@@ -1,94 +1,26 @@
 # Installation and first launch
 
-## Public Alpha 11.13.0
+## Public Alpha 11.13.1
 
-1. Download the [Workbench ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/PRAYCG_Workbench_Public_Alpha_11_13_0.zip) and [SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/PRAYCG_Workbench_Public_Alpha_11_13_0.zip.sha256) from the [11.13.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0). The archive is 46,808,511 bytes and its SHA-256 is `5c34cf6c24e2030deb35c699650ab4fad46fce2e8551a4a5ecf17bf87c25fe44`.
-2. Finish acquisition, save LabRecorder and close Workbench. Extract into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, then run the outer `INSTALL.bat` and `START.bat`.
-3. Reopen the intended workspace and verify recording destinations, external-program paths and the shared Zuna location. Keep the previous installation as a rollback copy.
+1. Finish recording and close Workbench. Download the [public ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_Workbench_Public_Alpha_11_13_1.zip) and its [checksum](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_Workbench_Public_Alpha_11_13_1.zip.sha256). On Windows, run `Get-FileHash .\PRAYCG_Workbench_Public_Alpha_11_13_1.zip -Algorithm SHA256` and compare the full digest with the checksum.
+   Expected size: **47,010,179 bytes**. SHA-256: `be50bebd81e28df59674f127797260afb514c446bd2098ee48cdf5dd909b65af`.
+2. Extract into a new writable folder. Keep your prior installation for rollback and keep study data outside the application folder.
+3. Use native Windows Python 3.11 with Tcl/Tk. Run `INSTALL.bat`, then `START.bat`. Verify your selected workspace, recording destinations and external program paths.
+4. For a first run, use `CREATE_SYNTHETIC_EXAMPLE.bat`. In Analysis Forge, select the generated run, complete the required checks and inspect Results.
 
-For **Settings → Updates**, keep the [signed update companion](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/PRAYCG_Workbench_Public_Alpha_11_13_0.zip.update.json) beside its exact ZIP for local import.
+**Updating an existing installation.** Settings → Updates discovers signed public releases. For a local import, place the [signed update file](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_Workbench_Public_Alpha_11_13_1.zip.update.json) beside the matching ZIP. Preserve your current shared Zuna location.
 
-Open **Analysis Forge** to select a saved recording/run folder, run required QC, lock/run the eligible analysis plan and inspect Results and linked reports. Run `CREATE_SYNTHETIC_EXAMPLE.bat` to generate and analyze the clean and short examples. The short example demonstrates an unavailable endpoint.
+**Optional stimuli.** `INSTALL_STIMULUS_PACKAGE.bat` uses the pinned sources for the seven-film pack and original Lantern Bridge. The [stimulus catalog](../../examples/stimulus-masters/README.md) gives the release downloads, editions and rights.
 
-Use `INSTALL_STIMULUS_PACKAGE.bat` for the seven-film and original Lantern packages. The installer retains its pinned 11.2.2 media links. [Stimulus catalog](../../examples/stimulus-masters/README.md)
+[Full release workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/INSTALL_WORKFLOW.md) · [Hardware and recording](hardware-support.md) · [Troubleshooting](troubleshooting.md) · [Release history](../../docs/release-history/README.md)
 
-[Release changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/BUILD_REPORT.md) · [Installation and workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/INSTALL_WORKFLOW.md) · [Delivery checklist](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.0/COMBINED_CHECKLIST.md)
+## Earlier installation guides
 
-## Preserved Public Alpha 11.12.0 installation
-
-1. Download the [Workbench ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip) and its [SHA-256 checksum](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip.sha256) from the [11.12.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.12.0). The archive is 46,509,219 bytes and its SHA-256 is `d2980869ce3e3a1693a7efcee6f0859ef07b3d561874f46cde23c313f7e6d684`.
-2. Finish acquisition, save the LabRecorder recording and close Workbench. Extract the ZIP into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, run the outer `INSTALL.bat`, then `START.bat`.
-3. Reopen your Study Workspace and verify its recording destinations, external-program paths and shared Zuna paths. Keep the previous installation as a rollback copy.
-
-For **Settings → Updates**, use the [signed update companion](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/PRAYCG_Workbench_Public_Alpha_11_12_0.zip.update.json) for this exact ZIP. For local import, place the two files in the same folder.
-
-Choose `INSTALL_STIMULUS_PACKAGE.bat` for the seven-film collection and original Lantern Bridge. The installer uses the pinned 11.2.2 media URLs. [Stimulus catalog](../../examples/stimulus-masters/README.md)
-
-[Release changelog](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/CHANGELOG.md) · [Build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/BUILD_REPORT.md) · [Installation guide](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/INSTALL_WORKFLOW.md) · [Research integration](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.12.0/RESEARCH_INTEGRATION.md)
-
-## Preserved Public Alpha 11.10.1 installation
-
-1. Download **PRAYCG_Workbench_Public_Alpha_11_10_1.zip** and its matching `.zip.sha256` file from the [11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1). The archive is 45,339,278 bytes and its SHA-256 is `edde5dccdb3a7e150529d7c43dff4d7a65d1c448b1526249ef7ec6204e3d5853`.
-2. Finish acquisition, stop and save LabRecorder, and close the running Workbench. Extract the ZIP into a new writable folder. Use native Windows Python 3.11 with Tcl/Tk, run the outer `INSTALL.bat`, then `START.bat`.
-3. Reopen the existing Study Workspace and verify its recording, external application and shared Zuna paths. Keep the existing installations and referenced model/runtime folders.
-
-For **Settings → Updates**, the Public updater requires the signed `PRAYCG_Workbench_Public_Alpha_11_10_1.zip.update.json` companion for this exact archive. For a local import, put the ZIP and its companion in the same folder. Consult the release notes for publication-time updater verification. [General installation guide carried forward from 11.10.0](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/INSTALL_WORKFLOW.md)
-
-Choose `INSTALL_STIMULUS_PACKAGE.bat` to add the seven-film collection and original Lantern Bridge. The installer uses the pinned 11.2.2 URLs. The 11.10.1 release also offers copies with matching manifests and checksums. [Stimulus catalog](../../examples/stimulus-masters/README.md) · [Compact Cerelog and Decoder Gate instructions](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.1/CERELOG_DGA_WORKFLOW.md)
-
-## Preserved Public Alpha 11.9.2 installation
-
-Download the complete [Public Alpha 11.9.2 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.9.2), using **PRAYCG_Workbench_Public_Alpha_11_9_2.zip** and its checksum. The [current packaged installation guide](releases/alpha-11.9.2/package/INSTALL_WORKFLOW.md), [guided workspace](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md) and [integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md) provide the version-specific instructions. GitHub's generated source archives are not application installers.
-
-For a manual update, extract into a **new release folder**, run **INSTALL.bat**, then **START.bat**. Native Windows Python 3.11 with Tcl/Tk is required. Preserve previous installations, settings, workspaces, recordings, external application configuration and existing Zuna environment/model paths. Do not merge release folders or reinstall Zuna merely for this update. Finish acquisition, stop/save LabRecorder and close active work before switching releases.
-
-Updater-enabled Public installations can use **Settings → Updates**. For offline import, keep **PRAYCG_Workbench_Public_Alpha_11_9_2.zip** beside its exact signed **PRAYCG_Workbench_Public_Alpha_11_9_2.zip.update.json** companion. The updater checks the signature, edition, archive identity and state compatibility before preparing a separate installation; dependency setup may still require internet access or cached packages. The package documents describe the original manual build. The [release guide](releases/alpha-11.9.2/README.md) records the separately published signed companion and updater verification. A checksum alone does not authorize signed import.
-
-Core, Live Monitor and Hardware Connectors use separate release-local environments. Optional ASR, ICLabel and Pycrostates use **INSTALL_SIGNAL_EXTRAS.bat**. **INSTALL_EVENT_DESCRIPTIONS.bat** optionally installs official HED validation in its own environment; basic event-description export and guided inspection do not require it. Optional AI configuration and numerical analysis are separate. Keep credentials out of public reports.
-
-**INSTALL_STIMULUS_PACKAGE.bat** offers seven films plus the original Lantern as two separately verified packages pinned to the published 11.2.2 media assets. See the [optional stimulus instructions](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md). The full eleven-film companion is not included in this public release.
-
-This release improves Results refresh reliability and carries forward the guided workspace, protocol-evidence, processing-comparison and reporting workflows. It retains the optical-credit correction; the [11.4.1 attribution guide](../../docs/attribution/alpha-11.4.1/README.md) remains available. Earlier receipts, results and plans remain historical. New analyses must satisfy the current release's QC and revision workflow; do not edit historical hashes to force compatibility. For corrected physiology report attribution, create a new analysis derivative through that workflow. Newly prepared SVNA/NATVIEW packages still require normal review.
-
-The [build report](releases/alpha-11.9.2/package/BUILD_REPORT.md) records fresh selected Public checks and repeated GUI qualification. It also identifies the 10 guard-refused installer-wrapper checks and the absence of fresh-machine installation, physical acquisition, real provider requests, Zuna inference and browser-rendering validation. The historical [11.6.0 Revision 1 guide](releases/alpha-11.6.0/README.md) retains that version's installation details and same-version revision limitation.
-
-## Preserved Alpha 10.5.4 installation
-
-**Historical packaged release: Alpha 10.5.4.** Download the complete [PRAYCG Workbench Alpha 10.5.4 ZIP](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_A10.5.4/PRAYCG_Workbench_Alpha_10_5_4.zip) and follow the [historical installation and workflow guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md).
-
-## Before you begin
-
-- Extract the complete ZIP into a new writable folder, keeping `app/` beside the public launchers. Run the application from the extracted folder.
-- Provide native Windows Python 3.11 with Tcl/Tk support. The installer requires this interpreter and does not install Python.
-- Provide internet access for dependency downloads. PsychoPy, device drivers and external publishers still need their own installation or configuration.
-- Keep study data in separate data folders and keep each release in its own folder. Preserve previous installations when upgrading.
-
-## Install the components
-
-Run `INSTALL.bat`, then `START.bat` or `START_PRAYCG.bat`. The normal installation includes all three components in separate release-local environments:
-
-| Component | Alpha 10.5.4 environment |
-| --- | --- |
-| Core | `app/.core-env/` |
-| Live Monitor | `app/.live-monitor-env/` |
-| Hardware Connectors | `app/.hardware-connectors-env/` |
-
-Core dependencies are installed in the dedicated environment, rather than the selected base Python installation. Retain installer output if a component fails.
-
-Use `INSTALL.bat -Mode minimal` for Core only, `INSTALL.bat -Mode monitor` to repair Live Monitor, `INSTALL.bat -Mode hardware` to repair connectors, and `INSTALL.bat -CheckOnly` for read-only installation checks. Optional Zuna uses `INSTALL_ZUNA.bat` separately. An installation pass establishes software importability; physical devices and timing require their own evidence.
-
-## First launch and upgrade
-
-In Settings, select **Use Bundled Paths** to use this release's tools. Review the study-data locations, retain the intended external PsychoPy configuration, and select the bundled PRAYCG timing-patched LabRecorder. Its preserved recorder qualification has a synthetic scope; the Workbench release does not expand that scope into physical-device or cross-device timing validation.
-
-Connect Athena through the normal Muse connection action. Use its red/yellow/green map to adjust contact. Recording readiness briefly checks actual incoming data; the thirty-second signal check is optional. Follow the [recording-with-cautions guide](releases/alpha-10.5.2/RECORDING_WITH_CAUTIONS_ALPHA_10_5_1.md) for findings that allow recording and issues that require correction.
-
-Confirm and arm the setup, start LabRecorder before the protocol, then **Stop LabRecorder** when finished so the XDF closes before analysis. Select the separate Optical stream if later optical analysis is intended; save any required EOG/EMG references in the same XDF. Continue to the [workflow](workflow.md) and [hardware-support notes](hardware-support.md).
-
-Open the completed recording in Analysis Forge for **Visual Analysis**, immediately after **Analyze**. Live Monitor places **Visual Analysis** beside **Time–Frequency**. Use **Visual sources** to select the exact EEG and optional RR inputs and declare electrode names, units and calibration. The dialog opens while recorded streams are loading, updates when they arrive and shows setup failures. Calibration starts at shared-recording time 0 by default; selecting the EEG stream's recorded start keeps that clock unchanged and still requires valid support. The [Visual Analysis guide](releases/alpha-10.5.4/VISUAL_ANALYSIS_ALPHA_10_5_4.md) distinguishes recorded prefix replay, passive live views and compatible completed-result attachments.
-
-Alpha 10.5.4 restores the exact retained receipt required by Athena **Human connected** profile validation and checks runtime dependency closure. Missing or altered evidence still blocks admission. Current checks cover software regression, native visual integration, packaged admission and distribution hashes. A fresh full installation, optional Zuna installation/inference, physical acquisition and cross-device timing were not reexecuted as part of this release gate; retained earlier evidence keeps its original scope. See the [10.5.4 implementation and validation boundaries](releases/alpha-10.5.4/UPDATE_TRACEABILITY_ALPHA_10_5_4.md).
-
-The preserved [Alpha 10.2.1 installation guide](releases/alpha-10.2.1/INSTALLATION_ALPHA_10_2_1.md) documents that historical release, including its different Core installation behavior.
-
-[Workbench](../README.md) · [Historical installation guide](releases/alpha-10.5.4/INSTALL_AND_WORKFLOW_ALPHA_10_5_4.md) · [Release notes](releases/alpha-10.5.4/RELEASE_NOTES_v1_0_0_alpha_10_5_4.md)
+- <a id="public-alpha-11130"></a>[Public Alpha 11.13.0](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#public-alpha-11130)
+- <a id="preserved-public-alpha-11120-installation"></a>[Public Alpha 11.12.0](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#preserved-public-alpha-11120-installation)
+- <a id="preserved-public-alpha-11101-installation"></a>[Public Alpha 11.10.1](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#preserved-public-alpha-11101-installation)
+- <a id="preserved-public-alpha-1192-installation"></a>[Public Alpha 11.9.2](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#preserved-public-alpha-1192-installation)
+- <a id="preserved-alpha-1054-installation"></a>[Alpha 10.5.4](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#preserved-alpha-1054-installation)
+- <a id="before-you-begin"></a>[Before you begin](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#before-you-begin)
+- <a id="install-the-components"></a>[Install the components](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#install-the-components)
+- <a id="first-launch-and-upgrade"></a>[First launch and upgrade](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/workbench/docs/installation.md#first-launch-and-upgrade)

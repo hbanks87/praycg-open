@@ -1,5 +1,13 @@
 # PRAYCG Workbench changelog
 
+## Public Alpha 11.13.1 — analysis and protocol credits
+
+- Repaired the Gamma Scalpel source binding and the Muthukumaraswamy paper link in the registry and Cue-Locked Gamma report.
+- Added version-specific Decoder Gate credits and tests for the generated output. The package includes a current offline citation guide. Protocol-evidence receipts can identify trial admission, Wilson intervals and stop-signal integration when those methods run.
+- Added theory development pages, a versioned implementation map and the early Opto-PING redistribution review. Updated the installation, hardware and stimulus entrances.
+
+[Attribution erratum](../docs/attribution/README.md#11130-erratum) · [Theory development](../research/theory/extensions/README.md) · [Opto-PING](../research/optoping/README.md)
+
 ## Public Alpha 11.13.0 — evidence selection and Analysis Forge
 
 - Corrects CAI/SID source selection, quality masks before future-window calculations and full delayed A-MRED support. Recognition remains readable when encoding cannot be estimated. NIP, NAST, EET, TTI/NUPI and Peak/Resolution handoffs retain available support and reasons for unavailable inputs.

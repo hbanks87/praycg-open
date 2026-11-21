@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this release when using the PRAYCG Public Workbench."
+type: software
+title: "PRAYCG Workbench, Public edition"
+authors:
+  - family-names: "Banks"
+    given-names: "Hoyt"
+version: "11.13.1"
+date-released: 2026-11-21
+repository-code: "https://github.com/hbanks87/praycg-open"
+url: "https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.1"

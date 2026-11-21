@@ -1,6 +1,6 @@
 # Analyze a recording and interpret results
 
-**Maintained guide · Public Alpha 11.9.2 · reviewed 2026-10-25.** This is an operational reading guide, not a replacement for scientific definitions or a claim of endpoint validity. The detailed sources are the shipped [workflow reference](releases/alpha-11.9.2/package/INSTALL_WORKFLOW.md), [guided workspace](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md) and [integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md).
+Analysis Forge records the selected source, method version and usable support for each result. For an endpoint marked unavailable, inspect its prerequisites and coverage before comparing conditions. The [11.13 endpoint map](../../research/algorithms/public-alpha-11-13.md) explains how to interpret partial support. The [11.9.2 workspace guide](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md) preserves earlier workflow details.
 
 ## Run and inspect an analysis
 
@@ -50,6 +50,6 @@ Use **Signal Quality & Cleaning Review** for reviewable processing candidates. I
 
 AI explanation requires its separate provider configuration and explicit authorization. Provider failure does not invalidate or replace the local numerical reports. Review the evidence and omissions directly.
 
-Research Exchange can export a Research Bundle or a local browser inspection copy. The browser copy verifies the archive/ledger and contains bounded previews; it is not analysis replay, automatic anonymization or upload. Choose a new HTML destination in an existing folder on a filesystem supporting hard links. Review identifiers, private paths, consent and rights before sharing. Browser rendering was not observed in the shipped validation; the [export reference](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md#7-export-a-local-browser-inspection-copy) records the exact limits.
+Research Exchange can export a Research Bundle or a local browser inspection copy. The browser copy verifies the archive/ledger and contains bounded previews; it is not analysis replay, automatic anonymization or upload. Choose an unused HTML filename in a writable folder. Review identifiers, private paths, consent and rights before sharing. The [11.9.2 export reference](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md#7-export-a-local-browser-inspection-copy) records the exact limits.
 
 [Workbench home](../README.md) · [Study workflow](workflow.md) · [Hardware](hardware-support.md) · [Troubleshooting](troubleshooting.md)

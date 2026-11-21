@@ -1,6 +1,6 @@
 # Hardware and recording support
 
-**Maintained guide · Public Alpha 11.10.0 · reviewed 2026-11-04.** The [Cerelog and Decoder Gate workflow](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/CERELOG_DGA_WORKFLOW.md) describes compact acquisition. The [11.10.0 build report](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/BUILD_REPORT.md) records the checks performed. The [11.9 integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md) retains the earlier route history.
+Use the [current Workbench hardware workflow](https://github.com/hbanks87/praycg-open/releases/latest/download/CERELOG_DGA_WORKFLOW.md) for compact capture and the [hardware index](../../hardware/README.md) for firmware, notices and device-specific records. The [11.9 integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md) documents the earlier review routes.
 
 ## Before recording
 
@@ -22,7 +22,7 @@ Reconstructions and derived estimates remain labeled as such; they do not become
 
 The retained BrainFlow Athena p1041 route has **ACQUISITION_VERIFIED** admission with **TRANSPORT_RECORDING_VERIFIED** physical scope when its source-bound acquisition receipt passes. That evidence covers connection, EEG identity/units, timestamp progression, live display, finalized XDF reopening and clean disconnect on the tested configuration. It does not establish that the headset was worn during the check, physiological accuracy, precise ERP/cross-sensor timing, hemoglobin mapping or reconstruction accuracy. See the retained [recording cautions and admission scope](releases/alpha-10.5.2/RECORDING_WITH_CAUTIONS_ALPHA_10_5_1.md).
 
-The current catalogs and software qualification are bound to the current release. Historical acquisition evidence retains its original scope; 11.9.2 is not a new physical device test. Changed or unverified source/receipt bindings need review. Older locally approved AI protocols are not silently reapproved after an engine change. For legacy Zuna tasks requiring 16 physical EEG channels, choose the dedicated Athena variant rather than inventing channels or weakening the task declaration.
+Check the source and receipt identities against the installed release. Physical acquisition evidence applies to the recorded equipment, layout and run. Review earlier local AI protocol approvals when the engine changes. For a legacy Zuna task that requires 16 physical EEG channels, use the dedicated Athena variant for an Athena recording.
 
 Athena's separate raw Optical stream must be selected in LabRecorder for later optical analysis. Athena provides no ALS. The retained [optical source review](releases/alpha-10.5.2/ATHENA_OPTICAL_SOURCE_REVIEW_ALPHA_10_5_2.md) explains the raw profile's scope and why HbO/HbR remains unavailable without the required mapping.
 

@@ -1,10 +1,10 @@
 # Workbench roadmap
 
-This page identifies proposed software and documentation work. It is not a release commitment or a record of completed validation. [Public Alpha 11.2.2](docs/releases/alpha-11.2.2/README.md) is the prepared workflow-hardening release; its guide records publication and verification status. Research hypotheses and study planning belong to the [PRAYCG Neuro Research Program](../research/README.md).
+These proposals identify useful next tests for the software. For shipped changes, read the [Workbench changelog](CHANGELOG.md). For research hypotheses and study design, see the [research program](../research/README.md).
 
-## Current hardening cycle
+## Release acceptance
 
-Complete the Materials catalog agreement, recording-driven visual entry points, scope-preserving explanations, governed rating handoff and optional stimulus installation together. Acceptance must exercise actions from selection to saved report/view in the final extracted package, not only construct an interface or unit-test a numerical worker. Keep physical-device tests, provider/model evaluation and independent scientific reproduction as separate evidence requirements. The [combined public update](../docs/updates/2026-10-14-public-workflow-release.md) includes the full research navigation and documentation work.
+Exercise the complete path from selecting materials or a recording to reopening the saved result. Keep physical-device evidence, provider/model evaluation and independent scientific reproduction separate when reporting which checks passed. The [11.2.2 workflow record](../docs/updates/2026-10-14-public-workflow-release.md) documents an earlier application of these checks.
 
 ## Priorities
 

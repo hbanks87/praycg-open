@@ -39,7 +39,7 @@ These pages are explanations of preserved, versioned sources. They do not silent
 - **CAI/SID:** CAI v0.2 replaces the earlier v0.1 proposal. The methods supplement's general interval-density expression and the managed runtime's valid-time aggregation require different coverage interpretation.
 - **K:** a synthetic hidden-state parameter, a human feature-model coefficient and a hypothesized cellular coupling are not interchangeable because they share a symbol.
 
-Use [algorithms and implementations](../algorithms/README.md) to locate the actual code, declared method version, input schema, defaults and outputs in the proposed Public Alpha 11.2.1 package. A filename alone is insufficient evidence of the algorithm version. The research pages describe the preserved definitions; the implementation map records where current code agrees with or differs from them.
+The [11.13 implementation map](../algorithms/public-alpha-11-13.md) identifies the source and usable input required by the later workers. The [11.2.1 source inspection](../algorithms/README.md) preserves earlier filenames, defaults and formulas. For the origin and development of the research questions, see [recognition and integration](../theory/extensions/recognition-integration.md) and [Decoder Gate](../theory/extensions/decoder-gate.md).
 
 ## Notation and prerequisites
 

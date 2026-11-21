@@ -2,7 +2,7 @@
 
 Use this catalog to follow a proposed quantity from its research question to the original specification, a versioned implementation and the evidence needed to interpret its output. The original notes retain their equations, coefficients and terminology; this page supplies a reading path across them.
 
-**Catalog reviewed: 25 October 2026.** The detailed [implementation map](algorithms/README.md) and its [source manifest](algorithms/SOURCE_MANIFEST.json) describe an inspection of **Public Alpha 11.2.1**. They are not a new audit of Public Alpha 11.9.2. Later Workbench guides are linked separately where they explain newer workflow or attribution changes.
+For the workers introduced or revised in Public Alpha 11.13.0, use the [11.13 endpoint and support map](algorithms/public-alpha-11-13.md). The tables below identify the historical 11.2.1 implementation alongside each original specification. Its [source manifest](algorithms/SOURCE_MANIFEST.json) records the files inspected.
 
 See the [CET-R sensory calibration guide](studies/cetr/README.md) for the calibration workflow and its evidence limits.
 

@@ -1,10 +1,10 @@
 # PRAYCG — Master Citations and Attribution
 
-**Current public PRAYCG Workbench release: [Public Alpha 11.13.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0)**
+**Current public PRAYCG Workbench release: [Public Alpha 11.13.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.1)**
 
-**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.13.0. Earlier source reviews retain their stated version and date.**
+**Latest optical-credit correction: Public Alpha 11.4.1, retained in 11.13.1. Earlier source reviews retain their stated version and date.**
 
-**Document revision:** 2.11 · **Updated:** 21 November 2026
+**Document revision:** 2.12 · **Updated:** 21 November 2026
 
 **PRAYCG development and protocol adaptation:** Hoyt Banks
 
@@ -25,6 +25,8 @@ Revision 2.7 updated the software citation to Public Alpha 11.9.2 and records a 
 Revision 2.10 checks the published Public Alpha 11.12.0 archive's selected requirements, active credit registry and Decoder Gate Literary Pilot v3 sources. It updates the current citation and literary-source credits while preserving the optical correction and historical reviews. This is a focused attribution update, not a new comprehensive source, license or scientific audit.
 
 Revision 2.11 adds the 11.13.0 software citation and a focused byte comparison of retained attribution records against 11.12.0. The new PRAYCG method revisions retain their declared evidence limits.
+
+Revision 2.12 records the Gamma and Decoder Gate attribution fixes in 11.13.1. See the [11.13.0 erratum and verification](docs/attribution/README.md#11130-erratum) and [machine-readable software citation](CITATION.cff).
 
 ## Contents
 
@@ -54,7 +56,7 @@ Revision 2.11 adds the 11.13.0 software citation and a focused byte comparison o
 
 ## How to cite PRAYCG and a study
 
-> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.13.0; 1.0.0-alpha.11.13.0) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0).
+> Banks, Hoyt. (2026). *PRAYCG Workbench, Public edition* (Public Alpha 11.13.1; 1.0.0-alpha.11.13.1) [Computer software]. [Versioned release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.1).
 
 For Public Alpha 11.12.0, retain its own citation.
 

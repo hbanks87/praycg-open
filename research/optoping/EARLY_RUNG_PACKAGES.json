@@ -1,0 +1,223 @@
+{
+  "review_date": "2026-11-21",
+  "scope": "Original synthetic Opto-PING Rung 0 packages. Rungs 0A and 0B share tools and study bundles. Archive identities were verified against the 2026-08-01 project inventory and the CRCs of every file.",
+  "credit": "PRAYCG directed the simulation design and successive tests. The original assistant-assisted development record identifies the returned packages. The Python projects listed per package are external dependencies.",
+  "distribution_review": "The recovered packages contain project scripts, generated outputs and supporting material. The originals and their contemporary index do not give a package-wide redistribution license for this combination. The repository mixed-license notice covers specified categories of project material. This inventory publishes metadata and records the scope of the numerical replays.",
+  "packages": [
+    {
+      "rung_or_configuration": "0A/0B shared tools",
+      "original_filename": "OSM_OptoPING_Rung0_Tools_v0_1.zip",
+      "bytes": 1402589,
+      "sha256": "c0befd495acc48f4a9ce6fab72d9618f49467cd8057d2d28d78843956bfb4c82",
+      "files": 11,
+      "python_script_entries": 1,
+      "report_pdfs": 0,
+      "external_python_imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "scipy"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Unchanged default simulator reproduced the archived 10% decision for both parameters with small numerical differences.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0A/0B Monte Carlo",
+      "original_filename": "OSM_OptoPING_Rung0_50Run_MC_Report_v1_0.zip",
+      "bytes": 741493,
+      "sha256": "1e84ea44f0308174a0f57d57c8dcf7be329771fb703cb4a4c40bd2122fa78baf",
+      "files": 13,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "numpy",
+        "pandas"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0A/0B stress suite",
+      "original_filename": "OSM_OptoPING_Rung0_StressTests_v1_1.zip",
+      "bytes": 1929947,
+      "sha256": "3c8902fe7e96112f0d46837485e2eccbe8e073c2b2bdd999c1edc7dd1c6685fa",
+      "files": 24,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numba",
+        "numpy",
+        "pandas",
+        "reportlab",
+        "scipy"
+      ],
+      "standalone_copy_verified": false,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0C",
+      "original_filename": "OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_1.zip",
+      "bytes": 727458,
+      "sha256": "ff888d770a61e19787c7ad6cb53166cbcf435b546b20a8b0432fb1d04ded3e73",
+      "files": 26,
+      "python_script_entries": 2,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numba",
+        "numpy",
+        "pandas",
+        "scipy"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0C",
+      "original_filename": "OSM_OptoPING_Rung0C_LatentY_StateSpace_v0_2.zip",
+      "bytes": 133467,
+      "sha256": "cffbf9156776532ee15a45b63a1e4fc1079e2084dd4acbc5df8af5d40d763dfc",
+      "files": 29,
+      "python_script_entries": 3,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numba",
+        "numpy",
+        "pandas"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0C",
+      "original_filename": "OSM_OptoPING_Rung0C_LatentY_ModelComparison_v0_3.zip",
+      "bytes": 552571,
+      "sha256": "e942bd9d85e39405f7c681bf2080a81957534ee291099ba9ec8799894abde3a6",
+      "files": 23,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numba",
+        "numpy",
+        "pandas",
+        "scipy"
+      ],
+      "standalone_copy_verified": false,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0D",
+      "original_filename": "OSM_OptoPING_Rung0D_DualObservation_PerturbationDesign_v0_1.zip",
+      "bytes": 567574,
+      "sha256": "de154c98a5e78e9327748ef850f9a44d85681bdd2c1df98904f9fed78e86b0d4",
+      "files": 19,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "reportlab"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0E",
+      "original_filename": "OSM_OptoPING_Rung0E_ProxyImperfection_StressGate_v0_1.zip",
+      "bytes": 569634,
+      "sha256": "d7e0529625505e3443349dc9c17994bc8e6695cf5c645922a58d1c164a6127d6",
+      "files": 23,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "numpy",
+        "pandas"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0F",
+      "original_filename": "OSM_OptoPING_Rung0F_CalibratedProxy_OptimalPerturbationDesign_v0_1.zip",
+      "bytes": 717966,
+      "sha256": "599ec02b8e188582563cde9a3d3ce3cb3a3df437d10503d0532f4cd0ae9d39af",
+      "files": 20,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numpy",
+        "pandas"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Unchanged 0F suite reproduced all ten tables at rtol 1e-9 and atol 1e-10. No tested configuration reached either specified 80% recovery target.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0G",
+      "original_filename": "OSM_OptoPING_Rung0G_IdentifiableReparameterization_v0_1.zip",
+      "bytes": 1002410,
+      "sha256": "afdf488a9e76a7f98fe884a288e3c3057efd3e1f7586e253568cfbe4663f490a",
+      "files": 28,
+      "python_script_entries": 1,
+      "report_pdfs": 2,
+      "external_python_imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "reportlab"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0H",
+      "original_filename": "OSM_OptoPING_Rung0H_CompositeCoupling_DirectionalDesign_v0_1.zip",
+      "bytes": 1714379,
+      "sha256": "7dd636e783c64f729b688854182a2ee9b18767483860eec1e0a934aa4f5d4de3",
+      "files": 23,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "reportlab"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    },
+    {
+      "rung_or_configuration": "0I",
+      "original_filename": "OSM_OptoPING_Rung0I_RidgeReduction_CompositePowerLockIn_v0_1.zip",
+      "bytes": 798563,
+      "sha256": "d628d1206c46ae3e9761b1daf75c16f2aabe0cea5af0494fc9fa0880ab49bce1",
+      "files": 27,
+      "python_script_entries": 1,
+      "report_pdfs": 1,
+      "external_python_imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "reportlab"
+      ],
+      "standalone_copy_verified": true,
+      "replay": "Source and stored outputs inspected. This package was not rerun in the November review.",
+      "distribution_status": "Inventory only. Complete archive terms remain unspecified."
+    }
+  ]
+}

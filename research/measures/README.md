@@ -4,7 +4,7 @@ This index connects named quantities to their original definitions, equations, a
 
 [Research entrance](../README.md) · [Theory](../theory/README.md) · [Protocols](../protocols/README.md) · [Studies](../studies/README.md)
 
-For a detailed reading path, use [research concepts](../concepts/README.md) for the questions, definitions and equations, then [algorithms and implementations](../algorithms/README.md) for inputs, processing, outputs and version-specific code locations. These companion pages distinguish preserved method definitions from the algorithms present in the proposed Public Alpha 11.2.1 package.
+For the research questions and equations, use [concept definitions](../concepts/README.md). For the code and inputs behind a result, use the [11.13 worker map](../algorithms/public-alpha-11-13.md) or the [11.2.1 source inspection](../algorithms/README.md) to match the release that produced it.
 
 ## Begin with status and boundaries
 

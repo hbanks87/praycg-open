@@ -1,6 +1,6 @@
 # Troubleshooting
 
-**Maintained guide · Public Alpha 11.9.2 · reviewed 2026-10-25.** These checks follow the shipped [installation/workflow reference](releases/alpha-11.9.2/package/INSTALL_WORKFLOW.md), [guided workspace](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md) and [integration guide](releases/alpha-11.9.2/package/INTEGRATION_11_9.md). Keep the original files and error evidence while investigating.
+Keep the recording, original receipt and error details while investigating. Check the [current installation guide](installation.md) and identify the exact Workbench version that produced the result.
 
 ## Installation and updates
 
@@ -13,7 +13,7 @@
 | Update/restart is blocked | Finish acquisition, analyses, provider requests and exports; stop/save LabRecorder and close running viewers/tools. Active ownership and jobs block restart. **Cancel preparation safely** waits for a safe boundary. |
 | Zuna paths no longer resolve after an update | Keep any older/shared runtime and model folders still referenced. Verify the new release's connection against the pinned contract. Do not reinstall or download models merely because the application changed; extraction alone does not verify the binding. |
 
-The [release build report](releases/alpha-11.9.2/package/BUILD_REPORT.md) distinguishes completed checks from the 10 guard-refused installer-wrapper checks and records that fresh-machine installation was not tested. Treat those limits as limits, not successful installer evidence.
+For tests performed on your version, read its build report. The [11.9.2 build report](releases/alpha-11.9.2/package/BUILD_REPORT.md) records the installer checks specific to that release.
 
 ## Recording and analysis
 
@@ -35,7 +35,7 @@ See [analysis and interpretation](analysis.md) for the exact analysis, report, f
 
 For missing optional films, use the verified stimulus installer and its [installation instructions](releases/alpha-11.2.2/STIMULUS_INSTALLATION.md). Seven films and the original Lantern are separately verified packages; the full eleven-film companion is not included in the public release. Installation or preparation does not replace operator review of the material and protocol.
 
-If browser export cannot write its destination, choose a **new** HTML filename in an existing folder on a filesystem supporting hard links. The exporter refuses to overwrite existing files and verifies the bundle/ledger before export. Some members are intentionally omitted from bounded previews and remain listed with reasons. The page does not decode XDF/NPZ or rerun analysis. See the [browser-export contract](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md#7-export-a-local-browser-inspection-copy).
+If browser export cannot write its destination, choose an unused HTML filename in an existing writable folder. On Windows, the 11.13 exporter can use an exclusive rename if the filesystem refuses a hard link. If another process creates the destination first, choose a fresh name. The exported page lists members omitted from its bounded previews. [Browser viewer design and coverage](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md#7-export-a-local-browser-inspection-copy)
 
 ## Report a reproducible problem
 

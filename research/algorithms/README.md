@@ -1,14 +1,14 @@
 # Algorithms and implementation map
 
-This page connects PRAYCG's named research concepts to inspected code, configuration, inputs and outputs. It distinguishes an implemented calculation from a historical recipe, a proposed measurement and a validated scientific construct. Naming an algorithm here does not certify novelty, biological validity or priority over other work.
+Use the [Public Alpha 11.13 endpoint and support map](public-alpha-11-13.md) for current recognition, integration, transition and after-state calculations. The source-by-source inspection below describes Public Alpha 11.2.1.
 
 [Bibliography and upstream method credits](../bibliography/README.md) · [Concept definitions](../concepts/README.md) · [Measures](../measures/README.md) · [Research ladders](../ladders/README.md) · [Reproducibility](../reproducibility/README.md) · [Workbench](../../workbench/README.md)
 
-See the [CET-R calibration example](../studies/cetr/README.md) for that implementation and its test inputs. The implementation inspection below refers to the identified 11.2.1 archive.
+For the separate sensory calibration implementation and its test inputs, see the [CET-R example](../studies/cetr/README.md).
 
 ## Source and version being described
 
-The implementation reference is the inspected **Public Alpha 11.2.1** distribution, `PRAYCG_Workbench_Public_Alpha_11_2_1.zip`, SHA-256 `cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b`. Its [documentation snapshot and edition boundary](../../workbench/docs/releases/alpha-11.2.1/README.md) describe a proposed update; this page does not imply that the archive is already the published GitHub release. Current-code paths below are relative to its `app/` directory, not paths to an extracted application source tree in this repository.
+The inspected distribution is `PRAYCG_Workbench_Public_Alpha_11_2_1.zip`, SHA-256 `cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b`. Code paths in this inspection are relative to its `app/` directory. [11.2.1 documentation snapshot](../../workbench/docs/releases/alpha-11.2.1/README.md)
 
 The [implementation source manifest](SOURCE_MANIFEST.json) records 28 selected implementation/configuration/specification files checked against that archive's bytes, plus nine registry entry identities. It includes exact archive paths, sizes, SHA-256 values and method-version distinctions. This inspection did not execute a scientific analysis, install dependencies, run model inference or test a device. The package's existing [build receipt](../../workbench/docs/releases/alpha-11.2.1/package/app/deployment/validation/ALPHA_11_2_1_BUILD.json) has its own stated scope.
 

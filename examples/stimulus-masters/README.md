@@ -1,21 +1,15 @@
 # Original eleven stimulus masters
 
-**Availability for Public Workbench 11.10.0:** the [optional installer](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) connects the exact seven-film archive to a separate original Lantern companion. The default offers eight master choices across two verified packages. This does not expand redistribution permission for the four excluded editions. Final remote publication verification is recorded with the [combined release update](../../docs/updates/2026-10-14-public-workflow-release.md).
-
-The original eleven-film screening-master set is available locally and has been preserved in a complete **local-review companion archive**. A separate seven-film companion preserves the subset with recorded redistribution review. The seven-film package is now published with the 11.2.2 media release and remains the installer target for 11.10.0. The full eleven-film companion remains local-review material. Neither film package is embedded in the application ZIP.
-
-These are the existing standardized screening masters: 1920×1080 padded, 24 fps CFR, H.264/yuv420p and AAC 48 kHz stereo. They are distinct from the upstream source encodes, the Workbench's procedural demonstrations and the separate Lantern Bridge demo. Packaging preserves their bytes; it does not re-encode or retroactively repair them.
-
-The [metadata catalog](catalog.json) records all eleven original filenames, sizes, full SHA-256 hashes, source URLs, recorded rights statements and companion identities. It contains no film payloads or personal filesystem paths.
+The public installer offers the seven cleared film editions and the original Lantern Bridge. Four additional editions are preserved in the local eleven-film collection and have unresolved redistribution rights. The [catalog](catalog.json) records the filenames, hashes, source URLs and edition-specific rights for all eleven original masters.
 
 ## Download the public packs
 
-The [current Public Alpha 11.10.0 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.0) now carries both optional packs and each matching manifest/checksum:
+| Public Workbench 11.13.1 companion | Verify the exact edition |
+| --- | --- |
+| [Seven original film masters](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip) | [Manifest](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.manifest.json) · [SHA-256](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip.sha256) |
+| [Original Lantern Bridge installer pack](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip) | [Manifest](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.manifest.json) · [SHA-256](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.13.1/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip.sha256) |
 
-- [Seven original film masters](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.zip).
-- [Original Lantern Bridge installer pack](https://github.com/hbanks87/praycg-open/releases/download/PRAYCG_Workbench_Public_A11.10.0/PRAYCG_ORIGINAL_LANTERN_INSTALLER_20261014.zip).
-
-Use the matching manifest and checksum from the release Assets. The installed Workbench continues to use the verified 11.2.2 source URLs; the 11.10.0 attachments contain the same bytes. The [release companion procedure](../../docs/release-history/stimulus-companions.md) describes how to attach and verify all six files for each public Workbench release. It does not include the four editions whose redistribution remains unresolved.
+The [optional installer](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md) uses the original pinned 11.2.2 URLs for these same bytes. The standardized masters use padded 1920×1080 video at 24 fps with H.264/yuv420p and 48 kHz AAC stereo. The [release companion procedure](../../docs/release-history/stimulus-companions.md) covers attaching the packs and their verification files.
 
 ## Prepared companions
 
@@ -68,28 +62,12 @@ The full eleven-film archive therefore remains **LOCAL_REVIEW_ONLY_NOT_REDISTRIB
 
 ## Historical inspection: Public Alpha 11.2.1
 
-**Historical scope:** The paragraphs below describe the 11.2.1 inspection and its then-pending publication steps. The seven-film publication and installer connection were completed in 11.2.2 and remain available to 11.9.2 users; follow the [current stimulus installation instructions](../../workbench/docs/releases/alpha-11.2.2/STIMULUS_INSTALLATION.md).
-
-The inspected application archive, SHA-256 `cb65ec3180a59a9181e4fecd9bb94a2b136ab158f0f275eaf49b01dc3386c42b`, contains **eight MP4 files and ten WAV files**, all under `app/examples/no_copyright_media_demo/`. Its four catalog packs are marked **DEMO_ONLY** and **CC0-1.0**. These procedural examples are not the eleven films above.
-
-`INSTALL_STIMULUS_PACKAGE.bat`, its installer and a default `config/optional_stimulus_release_v1.json` are included. That default identifies the older `PRAYCG_OPTIONAL_MASTER_STIMULI_7_V1` archive: 691,953,162 bytes, SHA-256 `b35de8ace6ea5c241158119f3aa261c50cfb46827dd0eafb23f58f3c4effb6d8`, with `release_url: null`. It does not identify the newly prepared archive above. The film ZIP itself is not embedded, and the main installer does not install the optional films automatically.
-
-The prepared seven-film companion has a separate `PRAYCG_OPTIONAL_MASTER_STIMULI_7_20261013.manifest.json`. Its new package ID prevents replacement of an existing package folder. The inspected 11.2.1 public installer's exact manifest validator accepts it; its file inventory and every payload hash were checked. Its `release_url` remains `null` until a real HTTPS release asset exists.
-
-The inspected 11.2.1 installer's `main()` reads a supplied `--manifest` or the older bundled default. It then uses `--url` or asks the operator for an HTTPS ZIP URL; it does **not** read the manifest's `release_url` field. Using the newly prepared pack therefore requires both its new manifest and its eventual real URL. Supplying only the new URL while retaining the old default manifest would fail archive size/hash verification.
-
-For an automatically connected release, publish the reviewed seven-film asset, bundle its matching manifest, and update the installer or launcher to use its published URL while retaining explicit overrides and integrity checks. Setting `release_url` alone is insufficient with that 11.2.1 code. That inspection did not itself publish a URL, change the installer or repack the application; see the completed 11.2.2 installation instructions above.
-
-The local-review eleven-film archive is intentionally not an installer-approved redistribution package. Its status should not be changed merely to make the optional installer accept it. After any permitted preparation or installation, importing a master into Prepare Materials still requires normal media and protocol review; installation does not create acquisition or scientific authority.
+The 11.2.1 installer expected an operator-supplied URL and used an older manifest. Version 11.2.2 connected the reviewed pack to the installer. The [original inspection](https://github.com/hbanks87/praycg-open/blob/4d6bbc7a305566d9eac0f5b314edbbb1d547d2c5/examples/stimulus-masters/README.md#historical-inspection-public-alpha-1121) records both manifest identities and the manual procedure.
 
 ## Is the bridge video still present?
 
-Yes. The repository retains [Demo Lantern Bridge](../synthetic-demo/README_Lantern.md), including the [cleaned master](../synthetic-demo/.mp4s/stimulus_master_cleaned_stimulus_master_Demo_Lantern_Bridge_CC0_v1_7A.mp4), target/override versions, controls, schedules and QC material. Its source notice states **CC0 1.0 Universal**.
-
-It is separate from both film companions and is **not inside the Public Alpha 11.2.1 application ZIP**. A preserved companion is also prepared; see the [Bridge demo collection](../bridge-demo/README.md) for its exact package identity and files. No existing bridge media was replaced by the procedural examples in the application.
+Yes. Use the original Lantern Bridge pack above for the installed master. The [Bridge demo collection](../bridge-demo/README.md) records the companion’s provenance and supporting material.
 
 ## Provenance of this catalog
 
-This metadata review used the existing `candidate_screening_11/candidate_media_manifest.json`, eleven master sidecars and basic-validation reports, and the later Alpha 10.6.2 optional release manifest and build record. The candidate inventory describes the standardized source masters; the later record supplies the seven/four distribution distinction. Historical seven- and eleven-film archive hashes remain historical and are not substituted for the newly prepared companions' hashes above.
-
-For the software proposal and its separate limits, read the [Public Alpha 11.2.1 update](../../workbench/docs/proposed-alpha-11.2.1.md). For other materials, use [Examples](../README.md), [Bridge demo](../bridge-demo/README.md) and [Sintel recipe](../stimulus-recipes/sintel/README.md).
+The eleven master sidecars, candidate media manifest, validation reports and the Alpha 10.6.2 distribution record establish the edition identities and the seven/four split. Use the checksum associated with the exact named ZIP. [Examples](../README.md) · [Sintel recipe](../stimulus-recipes/sintel/README.md)

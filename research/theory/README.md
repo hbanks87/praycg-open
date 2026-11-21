@@ -1,8 +1,12 @@
 # Core theory and reading order
 
-The theory record explains PRAYCG's questions, proposed mechanisms and operational definitions. Read the documents below, then follow the method or study relevant to your question. Document versions describe the research record; they are not scientific validation grades.
+Start with the master theory for the program's research questions, then follow a theory development or the versioned method used in a study.
 
-**Maintained reading guide — reviewed 10 November 2026.** Linked original documents retain their own versions and content.
+## Follow a theory development
+
+- [Recognition and later integration](extensions/recognition-integration.md) traces TSP, the local peak-to-theta question and the interpretation of the Contact and Field of Dreams pilots.
+- [Decoder Gate and the reading pilot](extensions/decoder-gate.md) traces the availability profile, the v3 experiment and independent item review.
+- The [theory extensions index](extensions/README.md) also covers network topology, reception and extraction, and narrative update.
 
 ## Recommended reading
 

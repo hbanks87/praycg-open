@@ -1,8 +1,20 @@
 # Attribution guide
 
-**Current application: [Public Alpha 11.13.0](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.0). Focused continuity check: 21 November 2026.**
+**[Public Workbench 11.13.1](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.13.1)** · [Software citation](../../CITATION.cff)
 
 Use this guide to find the references for the software, methods and materials actually used in a study. The [master attribution record](../../CITATIONS_AND_ATTRIBUTION.md) contains the project citation and retained source reviews; the [research bibliography](../../research/bibliography/README.md) supplies method and software references.
+
+## 11.13.0 erratum
+
+On 21 November 2026, a test of the public 11.13.0 ZIP ran Gamma Scalpel band power successfully but produced an empty bibliography. The active registry still identified an earlier worker hash. The registry and the Cue-Locked Gamma report also paired Muthukumaraswamy’s name with Hipp and Siegel’s paper. Public 11.13.1 updates the method binding, its band description and both paper links. Earlier receipts retain the observed evidence available at the time. When citing an older Gamma result, check the underlying operation and use the correct reference. [Muthukumaraswamy’s review](https://doi.org/10.3389/fnhum.2013.00138) · [Hipp and Siegel](https://doi.org/10.3389/fnhum.2013.00338)
+
+Decoder Gate v1 and v3 had protocol source records but were missing from the central credits registry in 11.13.0. Use the versioned instrument and the credits accompanying the new output. For v3 preserve the four source editions and the distinction between the original literary text and PRAYCG’s adaptation. [Literary sources and rights](../../research/protocols/decoder-gate-pilot/SOURCES_AND_RIGHTS.md)
+
+The release registers all 43 runnable modules and verifies 40 method source hashes. The checked Public ZIP is 47,010,179 bytes with SHA-256 `be50bebd81e28df59674f127797260afb514c446bd2098ee48cdf5dd909b65af`. A synthetic Gamma run generated an observed citation. Version-specific Decoder Gate HTML, JSON and reopened export bundles carried the design and source credits. Reanalysis records which study package acquired each source visit and which produced the report.
+
+The protocol-evidence worker now credits the operations observed for trial admission, Wilson score intervals and stop-signal integration. Its other diagnostics retain partial coverage. Cite the method only where the result’s denominator and quality checks support it. [Wilson (1927)](https://doi.org/10.1080/01621459.1927.10502953) · [Verbruggen et al. (2019)](https://doi.org/10.7554/eLife.46323)
+
+The NeuroKit2 0.2.13 release pin and Makowski et al. citation, Delorme and Makeig’s EEGLAB citation, and the six-author Delpy optical citation were checked. Keep MNE file import, optional eeglabio, ICLabel implementation/model, and native optical conversion tied to the operations actually used. [NeuroKit2](https://neuropsychology.github.io/NeuroKit/cite_us.html) · [EEGLAB](https://eeglab.org/others/EEGLAB_References.html) · [Delpy et al.](https://pubmed.ncbi.nlm.nih.gov/3237772/)
 
 ## Current evidence and where to find it
 

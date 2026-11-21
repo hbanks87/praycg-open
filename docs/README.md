@@ -30,7 +30,7 @@ Alternate formats and separately located duplicate originals are intentionally r
 
 ## Releases, citations and provenance
 
-- [Public Alpha 11.10.1 release](https://github.com/hbanks87/praycg-open/releases/tag/PRAYCG_Workbench_Public_A11.10.1) and [release history](release-history/README.md) provide the application, versioned guides and build evidence.
+- The [current public release](https://github.com/hbanks87/praycg-open/releases/latest) provides the application and its build report. The [release history](release-history/README.md) preserves earlier versions.
 - [Current attribution guide](attribution/README.md), [master attribution](../CITATIONS_AND_ATTRIBUTION.md), [bibliography](../research/bibliography/README.md) and [third-party notices](../THIRD_PARTY_NOTICES/README.md): method references and upstream credits.
 - [Optical-credit correction record](attribution/alpha-11.4.1/README.md): the versioned correction, companion guide and supporting evidence.
 - [Original-file locator](https://github.com/hbanks87/praycg-open/blob/ecb6986651b3930d98fea9db1106069a7dbbd30b/docs/reorganization/original-file-index.md): maps paths from the earlier repository layout to preserved destinations.
@@ -49,6 +49,6 @@ Alternate formats and separately located duplicate originals are intentionally r
 | **Proposal** | Intended work or a prospective design. A proposal's presence is not completion evidence. |
 | **Historical record** | Earlier instructions, snapshots, release notes and packaging history. A historical filename containing “Current” does not make it current guidance. |
 
-The [algorithm inspection](../research/algorithms/README.md) covers Public Alpha **11.2.1**. Current operating guidance covers **11.9.2**. Those versions are deliberately distinct; this organization update does not claim a new source or scientific audit.
+The [11.13 endpoint map](../research/algorithms/public-alpha-11-13.md) covers the revised workers and their input requirements. The [11.2.1 implementation inspection](../research/algorithms/README.md) records the earlier versions. Use the [Workbench guide](../workbench/README.md) for the current installation and workflow.
 
 [Repository home](../README.md) · [Research guide](../research/README.md) · [Studies and reproducibility](../research/studies/README.md)

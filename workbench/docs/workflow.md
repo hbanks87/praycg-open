@@ -1,10 +1,10 @@
 # Study workflow
 
-**Maintained guide · Public Alpha 11.9.2 · reviewed 2026-10-25.** Install using the [installation guide](installation.md). This page connects current tasks; the linked release documents preserve detailed behavior and evidence for their exact versions.
+After [installing the Workbench](installation.md), choose an example, a saved recording or a new study. The notes below identify earlier workflow documents by version.
 
 ## Start with a synthetic example
 
-On Home choose **Try an example** and select a destination for new files. Workbench creates a labeled **SIMULATED** recording with generated channels and an intentional timestamp gap, then opens inspection. It uses no hardware or AI provider and does not replace the active study, recording, settings or acquisition configuration. Synthetic results are not evidence about physical acquisition or physiology.
+For a first run, open `CREATE_SYNTHETIC_EXAMPLE.bat` from the extracted Workbench folder and choose a writable parent directory. The command creates two synthetic XDF examples and runs the numerical workers. The clean recording contains a programmed 10 Hz component. The shorter recording demonstrates an unavailable endpoint. Read `START_HERE.txt` in the generated folder. In the graphical Workbench, **Try an example** opens a separate simulated recording for interactive inspection.
 
 Read the context header: selected source, stream, channel labels, units, interval and available participant metadata. **Choose your question → What is in this recording?** leads to source inspection. Continue with [analysis and interpretation](analysis.md) to examine support, run analyses or compare processing.
 
@@ -34,8 +34,8 @@ Use Research Exchange to select the appropriate bundle or local browser inspecti
 ## Detailed and historical references
 
 - [Guided workspace](releases/alpha-11.9.2/package/GUIDED_WORKSPACE_11_8.md): entry routes, source context, frozen samples and browser export carried in 11.9.2.
-- [11.9 integration](releases/alpha-11.9.2/package/INTEGRATION_11_9.md): current integration details and remaining limits.
-- [Installation and workflow reference](releases/alpha-11.9.2/package/INSTALL_WORKFLOW.md): the shipped operational reference.
+- [11.9 integration](releases/alpha-11.9.2/package/INTEGRATION_11_9.md): integration details and limits recorded in 11.9.2.
+- [Installation and workflow reference](releases/alpha-11.9.2/package/INSTALL_WORKFLOW.md): the 11.9.2 operational reference.
 - [Release history](../../docs/release-history/README.md): exact earlier guides and publication records.
 
 [Workbench home](../README.md) · [Installation](installation.md) · [Analysis](analysis.md) · [Hardware](hardware-support.md)
